@@ -124,6 +124,33 @@
    <typesize>12</typesize>
    <borderthickness>1</borderthickness>
   </style>
+  <style name="black_clear">
+   <typeface>Arial</typeface>
+   <linestyle>solid</linestyle>
+   <fillcolor>[255, 255, 255, 0]</fillcolor>
+   <bordercolor>[0, 0, 0, 0]</bordercolor>
+   <textcolor>[0, 0, 0, 255]</textcolor>
+   <typesize>8</typesize>
+   <borderthickness>1</borderthickness>
+  </style>
+  <style name="big">
+   <typeface>Arial</typeface>
+   <linestyle>solid</linestyle>
+   <fillcolor>[255, 255, 255, 0]</fillcolor>
+   <bordercolor>[0, 0, 0, 0]</bordercolor>
+   <textcolor>[0, 255, 0, 255]</textcolor>
+   <typesize>12</typesize>
+   <borderthickness>1</borderthickness>
+  </style>
+  <style name="italic">
+   <typeface>Arial:italic</typeface>
+   <linestyle>solid</linestyle>
+   <fillcolor>[255, 255, 255, 0]</fillcolor>
+   <bordercolor>[0, 0, 0, 0]</bordercolor>
+   <textcolor>[0, 0, 0, 255]</textcolor>
+   <typesize>12</typesize>
+   <borderthickness>1</borderthickness>
+  </style>
   <image name="stone_mason">
    <file>stone_mason</file>
    <rectangle>[0,0,945,1535]</rectangle>
@@ -160,6 +187,13 @@
       <rotation>0</rotation>
       <order>-10</order>
      </image>
+     <text name="card number">
+      <text>{cN}</text>
+      <style>black_clear</style>
+      <rectangle>[10,1470,50,-1]</rectangle>
+      <rotation>0</rotation>
+      <order>100</order>
+     </text>
    </top>
    <bottom name="bottom"/>
   </defaultcard>
@@ -185,7 +219,7 @@
       <order>10</order>
      </image>
      <text name="a">
-      <text>Now is the time for all good men to come to the aid of their country.</text>
+      <text>Now is the {s:big}time{s:} for all good men {s:italic}to come{s:} to the aid of their country.</text>
       <style>default</style>
       <rectangle>[200,200,500,-1]</rectangle>
       <rotation>0</rotation>
