@@ -124,6 +124,16 @@
    <typesize>12</typesize>
    <borderthickness>1</borderthickness>
   </style>
+  <style name="deckcardtext">
+   <typeface>Arial</typeface>
+   <linestyle>solid</linestyle>
+   <fillcolor>[255, 255, 255, 0]</fillcolor>
+   <bordercolor>[0, 0, 0, 0]</bordercolor>
+   <textcolor>[255, 255, 255, 255]</textcolor>
+   <typesize>25</typesize>
+   <borderthickness>1</borderthickness>
+   <justification>center</justification>
+  </style>
   <style name="black_clear">
    <typeface>Arial</typeface>
    <linestyle>solid</linestyle>
@@ -139,7 +149,7 @@
    <fillcolor>[255, 255, 255, 0]</fillcolor>
    <bordercolor>[0, 0, 0, 0]</bordercolor>
    <textcolor>[0, 255, 0, 255]</textcolor>
-   <typesize>12</typesize>
+   <typesize>18</typesize>
    <borderthickness>1</borderthickness>
   </style>
   <style name="italic">
@@ -158,6 +168,16 @@
   </image>
   <image name="top_card">
    <file>top_card</file>
+   <rectangle>[0,0,945,1535]</rectangle>
+   <usage>any</usage>
+  </image>
+  <image name="bottom_card_grey">
+   <file>bottom_grey</file>
+   <rectangle>[0,0,945,1535]</rectangle>
+   <usage>any</usage>
+  </image>
+  <image name="bottom_card_blue">
+   <file>bottom_blue</file>
    <rectangle>[0,0,945,1535]</rectangle>
    <usage>any</usage>
   </image>
@@ -209,6 +229,51 @@
    <top name="top"/>
    <bottom name="bottom"/>
   </iconreference>
+  <deckcards>
+   <card name="deck_top_card">
+    <top>
+     <image name="top_card">
+      <image>top_card</image>
+      <rectangle>[0,0,-1,-1]</rectangle>
+      <rotation>0</rotation>
+      <order>10</order>
+     </image>
+     <text name="title">
+      <text>Heresy{n}&#x2500;&#x2500;&#x2500;&#x2500;{n}1499 NT</text>
+      <style>deckcardtext</style>
+      <rectangle>[250,350,445,-1]</rectangle>
+      <rotation>0</rotation>
+      <order>11</order>
+     </text>
+    </top>
+    <bottom>
+     <image name="bottom_card_grey">
+      <image>bottom_card_grey</image>
+      <rectangle>[0,0,-1,-1]</rectangle>
+      <rotation>0</rotation>
+      <order>10</order>
+     </image>
+    </bottom>
+   </card>
+   <card name="deck_bottom_card">
+    <top>
+     <image name="bottom_card_grey">
+      <image>bottom_card_grey</image>
+      <rectangle>[0,0,-1,-1]</rectangle>
+      <rotation>0</rotation>
+      <order>10</order>
+     </image>
+    </top>
+    <bottom>
+     <image name="bottom_card_blue">
+      <image>bottom_card_blue</image>
+      <rectangle>[0,0,-1,-1]</rectangle>
+      <rotation>0</rotation>
+      <order>10</order>
+     </image>
+    </bottom>
+   </card>
+  </deckcards>
   <misc>
    <card name="test1">
     <top>
