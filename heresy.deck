@@ -115,6 +115,273 @@
   <file filename="heresy_media\bob.png" name="bob"/>
   <file filename="heresy_media\laura.png" name="laura"/>
   <file filename="heresy_media\pods.png" name="pods"/>
+
+  <image name="top_card">
+   <file>top_card</file>
+  </image>
+  <image name="bottom_card_grey">
+   <file>bottom_grey</file>
+  </image>
+  <image name="bottom_card_blue">
+   <file>bottom_blue</file>
+  </image>
+  <image name="background_brown">
+   <file>background_brown</file>
+  </image>
+  <image name="background_green">
+   <file>background_green</file>
+  </image>
+  <image name="background_cyan">
+   <file>background_cyan</file>
+  </image>
+  <image name="border_overlay">
+   <file>four_corner_border</file>
+  </image>
+  <image name="base_a">
+   <file>base_a</file>
+  </image>
+  <image name="base_b">
+   <file>base_b</file>
+  </image>
+  <image name="base_c">
+   <file>base_c</file>
+  </image>
+  <image name="base_d">
+   <file>base_d</file>
+  </image>
+  <image name="base_e">
+   <file>base_e</file>
+  </image>
+  <image name="base_f">
+   <file>base_f</file>
+  </image>
+  <image name="base_g">
+   <file>base_g</file>
+  </image>
+  <image name="char_stone_mason">
+   <file>stone_mason</file>
+  </image>
+  <image name="char_bishop">
+   <file>bbishop</file>
+  </image>
+  <image name="char_knight">
+   <file>knight</file>
+  </image>
+  <image name="char_noble_woman">
+   <file>noble_woman</file>
+  </image>
+  <image name="char_streetsmart">
+   <file>streetsmart</file>
+  </image>
+  <image name="char_nun">
+   <file>nun</file>
+  </image>
+
+  <image name="loc_chapel_b">
+    <file>chapel</file>
+    <rectangle>[0,0,945,-1]</rectangle>
+  </image>
+  <image name="loc_chapel_c">
+    <file>chapel</file>
+    <rectangle>[946,0,945,-1]</rectangle>
+  </image>
+  <image name="loc_chapel_d">
+    <file>chapel</file>
+    <rectangle>[1891,0,945,-1]</rectangle>
+  </image>
+  <image name="loc_chapel_e">
+    <file>chapel</file>
+    <rectangle>[2836,0,945,-1]</rectangle>
+  </image>
+
+  <image name="loc_court_b">
+    <file>coourtroom_revised_A</file>
+    <rectangle>[0,0,945,-1]</rectangle>
+  </image>
+  <image name="loc_court_c">
+    <file>coourtroom_revised_A</file>
+    <rectangle>[946,0,945,-1]</rectangle>
+  </image>
+  <image name="loc_court_d">
+    <file>coourtroom_revised_A</file>
+    <rectangle>[1891,0,945,-1]</rectangle>
+  </image>
+  <image name="loc_court_e">
+    <file>coourtroom_revised_A</file>
+    <rectangle>[2836,0,945,-1]</rectangle>
+  </image>
+
+  <image name="loc_hypermart_b">
+    <file>hypermart</file>
+    <rectangle>[0,0,945,-1]</rectangle>
+  </image>
+  <image name="loc_hypermart_c">
+    <file>hypermart</file>
+    <rectangle>[946,0,945,-1]</rectangle>
+  </image>
+  <image name="loc_hypermart_d">
+    <file>hypermart</file>
+    <rectangle>[1891,0,945,-1]</rectangle>
+  </image>
+  <image name="loc_hypermart_e">
+    <file>hypermart</file>
+    <rectangle>[2836,0,945,-1]</rectangle>
+  </image>
+  <image name="loc_hypermart_f">
+    <file>hypermart</file>
+    <rectangle>[3781,0,945,-1]</rectangle>
+  </image>
+  <image name="loc_hypermart_g">
+    <file>hypermart</file>
+    <rectangle>[4726,0,945,-1]</rectangle>
+  </image>
+  <image name="loc_hypermart_h">
+    <file>hypermart</file>
+    <rectangle>[5671,0,945,-1]</rectangle>
+  </image>
+
+  <image name="loc_path_b">
+    <file>path_to_town</file>
+    <rectangle>[0,0,945,-1]</rectangle>
+  </image>
+  <image name="loc_path_c">
+    <file>path_to_town</file>
+    <rectangle>[946,0,945,-1]</rectangle>
+  </image>
+  <image name="loc_path_d">
+    <file>path_to_town</file>
+    <rectangle>[1891,0,945,-1]</rectangle>
+  </image>
+  <image name="loc_path_e">
+    <file>path_to_town</file>
+    <rectangle>[2836,0,945,-1]</rectangle>
+  </image>
+  <image name="loc_path_f">
+    <file>path_to_town</file>
+    <rectangle>[3781,0,945,-1]</rectangle>
+  </image>
+
+  <image name="loc_graveyard_b">
+    <file>scene_3_graveyard</file>
+    <rectangle>[0,0,945,-1]</rectangle>
+  </image>
+  <image name="loc_graveyard_c">
+    <file>scene_3_graveyard</file>
+    <rectangle>[946,0,945,-1]</rectangle>
+  </image>
+  <image name="loc_graveyard_d">
+    <file>scene_3_graveyard</file>
+    <rectangle>[1891,0,945,-1]</rectangle>
+  </image>
+  <image name="loc_graveyard_e">
+    <file>scene_3_graveyard</file>
+    <rectangle>[2836,0,945,-1]</rectangle>
+  </image>
+  <image name="loc_graveyard_f">
+    <file>scene_3_graveyard</file>
+    <rectangle>[3781,0,945,-1]</rectangle>
+  </image>
+
+  <image name="loc_inn_b">
+    <file>scene_4_inn_bar</file>
+    <rectangle>[0,0,945,-1]</rectangle>
+  </image>
+  <image name="loc_inn_c">
+    <file>scene_4_inn_bar</file>
+    <rectangle>[946,0,945,-1]</rectangle>
+  </image>
+  <image name="loc_inn_d">
+    <file>scene_4_inn_bar</file>
+    <rectangle>[1891,0,945,-1]</rectangle>
+  </image>
+  <image name="loc_inn_e">
+    <file>scene_4_inn_bar</file>
+    <rectangle>[2836,0,945,-1]</rectangle>
+  </image>
+  <image name="loc_inn_f">
+    <file>scene_4_inn_bar</file>
+    <rectangle>[3781,0,945,-1]</rectangle>
+  </image>
+  <image name="loc_inn_g">
+    <file>scene_4_inn_bar</file>
+    <rectangle>[4726,0,945,-1]</rectangle>
+  </image>
+
+  <image name="loc_dungeon_b">
+    <file>torture_room</file>
+    <rectangle>[0,0,945,-1]</rectangle>
+  </image>
+  <image name="loc_dungeon_c">
+    <file>torture_room</file>
+    <rectangle>[946,0,945,-1]</rectangle>
+  </image>
+  <image name="loc_dungeon_d">
+    <file>torture_room</file>
+    <rectangle>[1891,0,945,-1]</rectangle>
+  </image>
+  <image name="loc_dungeon_e">
+    <file>torture_room</file>
+    <rectangle>[2836,0,945,-1]</rectangle>
+  </image>
+  <image name="loc_dungeon_f">
+    <file>torture_room</file>
+    <rectangle>[3781,0,945,-1]</rectangle>
+  </image>
+  <image name="loc_dungeon_g">
+    <file>torture_room</file>
+    <rectangle>[4726,0,945,-1]</rectangle>
+  </image>
+  <image name="loc_dungeon_h">
+    <file>torture_room</file>
+    <rectangle>[5671,0,945,-1]</rectangle>
+  </image>
+
+  <image name="loc_field_b">
+    <file>witch_burning</file>
+    <rectangle>[0,0,945,-1]</rectangle>
+  </image>
+  <image name="loc_field_c">
+    <file>witch_burning</file>
+    <rectangle>[946,0,945,-1]</rectangle>
+  </image>
+  <image name="loc_field_d">
+    <file>witch_burning</file>
+    <rectangle>[1891,0,945,-1]</rectangle>
+  </image>
+  <image name="loc_field_e">
+    <file>witch_burning</file>
+    <rectangle>[2836,0,945,-1]</rectangle>
+  </image>
+  <image name="loc_field_f">
+    <file>witch_burning</file>
+    <rectangle>[2836,0,945,-1]</rectangle>
+  </image>
+  <image name="loc_field_g">
+    <file>witch_burning</file>
+    <rectangle>[2836,0,945,-1]</rectangle>
+  </image>
+
+  <image name="loc_lab_b">
+    <file>underground_b</file>
+    <rectangle>[0,0,945,-1]</rectangle>
+  </image>
+  <image name="loc_lab_c">
+    <file>underground_b</file>
+    <rectangle>[946,0,945,-1]</rectangle>
+  </image>
+  <image name="loc_lab_d">
+    <file>underground_b</file>
+    <rectangle>[1891,0,945,-1]</rectangle>
+  </image>
+  <image name="loc_lab_e">
+    <file>underground_b</file>
+    <rectangle>[2836,0,945,-1]</rectangle>
+  </image>
+  <image name="loc_lab_f">
+    <file>underground_b</file>
+    <rectangle>[3781,0,945,-1]</rectangle>
+  </image>
+
   <style name="default">
    <typeface>Arial</typeface>
    <linestyle>solid</linestyle>
@@ -134,13 +401,33 @@
    <borderthickness>1</borderthickness>
    <justification>center</justification>
   </style>
-  <style name="black_clear">
+  <style name="copyright">
    <typeface>Arial</typeface>
    <linestyle>solid</linestyle>
    <fillcolor>[255, 255, 255, 0]</fillcolor>
    <bordercolor>[0, 0, 0, 0]</bordercolor>
+   <textcolor>[255, 255, 255, 255]</textcolor>
+   <typesize>8</typesize>
+   <borderthickness>1</borderthickness>
+   <justification>center</justification>
+  </style>
+  <style name="corner_number">
+   <typeface>Arial</typeface>
+   <linestyle>solid</linestyle>
+   <fillcolor>[255, 255, 255, 200]</fillcolor>
+   <bordercolor>[0, 0, 0, 0]</bordercolor>
    <textcolor>[0, 0, 0, 255]</textcolor>
    <typesize>8</typesize>
+   <borderthickness>1</borderthickness>
+   <justification>center</justification>
+  </style>
+  <style name="big_white_clear">
+   <typeface>Arial</typeface>
+   <linestyle>solid</linestyle>
+   <fillcolor>[255, 255, 255, 0]</fillcolor>
+   <bordercolor>[0, 0, 0, 0]</bordercolor>
+   <textcolor>[255, 255, 255, 255]</textcolor>
+   <typesize>18</typesize>
    <borderthickness>1</borderthickness>
   </style>
   <style name="big">
@@ -161,40 +448,12 @@
    <typesize>12</typesize>
    <borderthickness>1</borderthickness>
   </style>
-  <image name="stone_mason">
-   <file>stone_mason</file>
-   <rectangle>[0,0,945,1535]</rectangle>
-   <usage>any</usage>
-  </image>
-  <image name="top_card">
-   <file>top_card</file>
-   <rectangle>[0,0,945,1535]</rectangle>
-   <usage>any</usage>
-  </image>
-  <image name="bottom_card_grey">
-   <file>bottom_grey</file>
-   <rectangle>[0,0,945,1535]</rectangle>
-   <usage>any</usage>
-  </image>
-  <image name="bottom_card_blue">
-   <file>bottom_blue</file>
-   <rectangle>[0,0,945,1535]</rectangle>
-   <usage>any</usage>
-  </image>
-  <image name="background_brown">
-   <file>background_brown</file>
-   <rectangle>[0,0,945,1535]</rectangle>
-   <usage>any</usage>
-  </image>
-  <image name="border_overlay">
-   <file>four_corner_border</file>
-   <rectangle>[0,0,945,1535]</rectangle>
-   <usage>any</usage>
-  </image>
  </assets>
+
  <cards>
+
   <defaultcard name="Card Base">
-   <top name="top">
+   <top>
      <image name="border">
       <image>border_overlay</image>
       <rectangle>[0,0,-1,-1]</rectangle>
@@ -209,26 +468,82 @@
      </image>
      <text name="card number">
       <text>{cN}</text>
-      <style>black_clear</style>
-      <rectangle>[10,1470,50,-1]</rectangle>
+      <style>corner_number</style>
+      <rectangle>[10,1475,50,-1]</rectangle>
       <rotation>0</rotation>
       <order>100</order>
      </text>
    </top>
-   <bottom name="bottom"/>
+   <bottom>
+   </bottom>
   </defaultcard>
+
   <defaultitemcard name="Item Card Base">
-   <top name="top"/>
-   <bottom name="bottom"/>
+   <top>
+     <image name="border">
+      <image>border_overlay</image>
+      <rectangle>[0,0,-1,-1]</rectangle>
+      <rotation>0</rotation>
+      <order>-9</order>
+     </image>
+     <image name="background">
+      <image>background_green</image>
+      <rectangle>[0,0,-1,-1]</rectangle>
+      <rotation>0</rotation>
+      <order>-10</order>
+     </image>
+     <text name="card number">
+      <text>{cN}</text>
+      <style>corner_number</style>
+      <rectangle>[10,1475,50,-1]</rectangle>
+      <rotation>0</rotation>
+      <order>100</order>
+     </text>
+   </top>
+   <bottom>
+   </bottom>
   </defaultitemcard>
+
   <defaultlocationcard name="Location Card Base">
-   <top name="top"/>
-   <bottom name="bottom"/>
+   <top>
+     <image name="border">
+      <image>border_overlay</image>
+      <rectangle>[0,0,-1,-1]</rectangle>
+      <rotation>0</rotation>
+      <order>-9</order>
+     </image>
+     <image name="background">
+      <image>background_green</image>
+      <rectangle>[0,0,-1,-1]</rectangle>
+      <rotation>0</rotation>
+      <order>-10</order>
+     </image>
+     <text name="card number">
+      <text>{cN}</text>
+      <style>corner_number</style>
+      <rectangle>[10,1475,50,-1]</rectangle>
+      <rotation>0</rotation>
+      <order>100</order>
+     </text>
+     <text name="location name">
+      <text>Location: {ls}</text>
+      <style>big_white_clear</style>
+      <rectangle>[125,1370,1500,-1]</rectangle>
+      <rotation>270</rotation>
+      <order>-8</order>
+     </text>
+   </top>
+   <bottom>
+   </bottom>
   </defaultlocationcard>
+
   <iconreference name="Icon Reference">
-   <top name="top"/>
-   <bottom name="bottom"/>
+   <top name="top">
+   </top>
+   <bottom name="bottom">
+   </bottom>
   </iconreference>
+
   <deckcards>
    <card name="deck_top_card">
     <top>
@@ -241,7 +556,7 @@
      <text name="title">
       <text>Heresy{n}&#x2500;&#x2500;&#x2500;&#x2500;{n}1499 NT</text>
       <style>deckcardtext</style>
-      <rectangle>[250,350,445,-1]</rectangle>
+      <rectangle>[100,350,745,-1]</rectangle>
       <rotation>0</rotation>
       <order>11</order>
      </text>
@@ -253,6 +568,13 @@
       <rotation>0</rotation>
       <order>10</order>
      </image>
+     <text name="copyright">
+      <text>&#x00A9; 2017 Marina Galvagni and Randy Frank{n}Original artwork by Rizky Nugraha</text>
+      <style>copyright</style>
+      <rectangle>[50,1300,845,-1]</rectangle>
+      <rotation>0</rotation>
+      <order>11</order>
+     </text>
     </bottom>
    </card>
    <card name="deck_bottom_card">
@@ -274,11 +596,12 @@
     </bottom>
    </card>
   </deckcards>
+
   <misc>
    <card name="test1">
     <top>
      <image name="b">
-      <image>stone_mason</image>
+      <image>char_stone_mason</image>
       <rectangle>[0,0,-1,-1]</rectangle>
       <rotation>0</rotation>
       <order>10</order>
@@ -296,10 +619,165 @@
     </bottom>
    </card>
   </misc>
-  <locations/>
-  <plan/>
-  <base/>
-  <items/>
-  <characters/>
+
+  <locations>
+
+   <location name="Path to Town">
+    <card name="loc_path_a">
+     <top>
+     </top>
+     <bottom>
+     </bottom>
+    </card>
+    <card name="loc_path_b">
+     <top>
+      <image>
+       <image>loc_path_b</image>
+       <order>10</order>
+      </image>
+     </top>
+     <bottom>
+     </bottom>
+    </card>
+    <card name="loc_path_c">
+     <top>
+      <image>
+       <image>loc_path_c</image>
+       <order>10</order>
+      </image>
+     </top>
+     <bottom>
+     </bottom>
+    </card>
+    <card name="loc_path_d">
+     <top>
+      <image>
+       <image>loc_path_d</image>
+       <order>10</order>
+      </image>
+     </top>
+     <bottom>
+     </bottom>
+    </card>
+    <card name="loc_path_e">
+     <top>
+      <image>
+       <image>loc_path_e</image>
+       <order>10</order>
+      </image>
+     </top>
+     <bottom>
+     </bottom>
+    </card>
+    <card name="loc_path_f">
+     <top>
+      <image>
+       <image>loc_path_f</image>
+       <order>10</order>
+      </image>
+     </top>
+     <bottom>
+     </bottom>
+    </card>
+   </location>
+
+  </locations>
+
+  <plan>
+  </plan>
+
+  <base>
+  </base>
+
+  <items>
+  </items>
+
+  <characters>
+   <card name="Bishop">
+    <top>
+     <image>
+      <image>char_bishop</image>
+      <rectangle>[0,0,-1,-1]</rectangle>
+      <rotation>0</rotation>
+      <order>10</order>
+     </image>
+    </top>
+    <bottom>
+    </bottom>
+   </card>
+   <card name="Knight">
+    <top>
+     <image>
+      <image>char_knight</image>
+      <rectangle>[0,0,-1,-1]</rectangle>
+      <rotation>0</rotation>
+      <order>10</order>
+     </image>
+    </top>
+    <bottom>
+    </bottom>
+   </card>
+   <card name="Bishop">
+    <top>
+     <image>
+      <image>char_bishop</image>
+      <rectangle>[0,0,-1,-1]</rectangle>
+      <rotation>0</rotation>
+      <order>10</order>
+     </image>
+    </top>
+    <bottom>
+    </bottom>
+   </card>
+   <card name="Stone Mason">
+    <top>
+     <image>
+      <image>char_stone_mason</image>
+      <rectangle>[0,0,-1,-1]</rectangle>
+      <rotation>0</rotation>
+      <order>10</order>
+     </image>
+    </top>
+    <bottom>
+    </bottom>
+   </card>
+   <card name="Nun">
+    <top>
+     <image>
+      <image>char_nun</image>
+      <rectangle>[0,0,-1,-1]</rectangle>
+      <rotation>0</rotation>
+      <order>10</order>
+     </image>
+    </top>
+    <bottom>
+    </bottom>
+   </card>
+   <card name="Lady">
+    <top>
+     <image>
+      <image>char_noble_woman</image>
+      <rectangle>[0,0,-1,-1]</rectangle>
+      <rotation>0</rotation>
+      <order>10</order>
+     </image>
+    </top>
+    <bottom>
+    </bottom>
+   </card>
+   <card name="Street Smart">
+    <top>
+     <image>
+      <image>char_streetsmart</image>
+      <rectangle>[0,0,-1,-1]</rectangle>
+      <rotation>0</rotation>
+      <order>10</order>
+     </image>
+    </top>
+    <bottom>
+    </bottom>
+   </card>
+  </characters>
+
  </cards>
 </deck>
