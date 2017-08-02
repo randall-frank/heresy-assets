@@ -552,11 +552,11 @@
   </style>
   <style name="corner_number">
    <typeface>Arial</typeface>
-   <linestyle>solid</linestyle>
-   <fillcolor>[255, 255, 255, 200]</fillcolor>
-   <bordercolor>[0, 0, 0, 0]</bordercolor>
-   <textcolor>[0, 0, 0, 255]</textcolor>
-   <typesize>8</typesize>
+   <linestyle>halo</linestyle>
+   <fillcolor>[255, 255, 255, 0]</fillcolor>
+   <textcolor>[255, 255, 255, 255]</textcolor>
+   <bordercolor>[0, 0, 0, 200]</bordercolor>
+   <typesize>9</typesize>
    <borderthickness>1</borderthickness>
    <justification>center</justification>
   </style>
@@ -665,7 +665,7 @@
       <order>100</order>
      </text>
 	 <text name="location name">
-      <text>{ls}-{ca}</text>
+      <text>{ls} - {ca}</text>
       <style>corner_number</style>
       <rectangle>[250,1475,445,-1]</rectangle>
       <rotation>0</rotation>
