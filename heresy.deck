@@ -578,6 +578,16 @@
    <typesize>18</typesize>
    <borderthickness>1</borderthickness>
   </style>
+  <style name="item_number">
+   <typeface>Arial</typeface>
+   <linestyle>solid</linestyle>
+   <fillcolor>[255, 255, 255, 0]</fillcolor>
+   <bordercolor>[0, 0, 0, 0]</bordercolor>
+   <textcolor>[255, 255, 255, 255]</textcolor>
+   <typesize>30</typesize>
+   <borderthickness>1</borderthickness>
+   <justification>center</justification>
+  </style>
   <style name="italic">
    <typeface>Arial:italic</typeface>
    <linestyle>solid</linestyle>
@@ -631,6 +641,13 @@
       <rotation>0</rotation>
       <order>-10</order>
      </image>
+     <text name="item number">
+      <text>Item {cn}</text>
+      <style>item_number</style>
+      <rectangle>[50,600,845,-1]</rectangle>
+      <rotation>0</rotation>
+      <order>0</order>
+     </text>
      <text name="card number">
       <text>{cN}</text>
       <style>corner_number</style>
@@ -737,26 +754,6 @@
   </deckcards>
 
   <misc>
-   <card name="test1">
-    <top>
-     <image name="b">
-      <image>char_stone_mason</image>
-      <rectangle>[0,0,-1,-1]</rectangle>
-      <rotation>0</rotation>
-      <order>10</order>
-     </image>
-     <text name="a">
-      <text>Now is the {s:big}time{s:} for all good men {s:italic}to come{s:} to the aid of their country.</text>
-      <style>default</style>
-      <rectangle>[200,200,500,-1]</rectangle>
-      <rotation>0</rotation>
-      <order>11</order>
-     </text>
-    </top>
-    <bottom>
-     <image name="bottom"></image>
-    </bottom>
-   </card>
   </misc>
 
   <locations>
@@ -1135,6 +1132,581 @@
     </card>
    </location>
    
+   <location name="Dungeon">
+    <card name="loc_dungeon_a">
+     <top>
+	  <text name="location name">
+       <text>Location: {ls}</text>
+       <style>big_white_clear</style>
+       <rectangle>[125,1370,1500,-1]</rectangle>
+       <rotation>270</rotation>
+       <order>-8</order>
+      </text>
+     </top>
+     <bottom>
+     </bottom>
+    </card>
+    <card name="loc_dungeon_b">
+     <top>
+      <image>
+       <image>loc_dungeon_b</image>
+       <order>10</order>
+      </image>
+     </top>
+     <bottom>
+     </bottom>
+    </card>
+    <card name="loc_dungeon_c">
+     <top>
+      <image>
+       <image>loc_dungeon_c</image>
+       <order>10</order>
+      </image>
+     </top>
+     <bottom>
+     </bottom>
+    </card>
+    <card name="loc_dungeon_d">
+     <top>
+      <image>
+       <image>loc_dungeon_d</image>
+       <order>10</order>
+      </image>
+	  <image>
+       <image>token_yellow_3</image>
+	   <rectangle>[177,1100,-1,-1]</rectangle>
+       <order>11</order>
+      </image>
+	  <image>
+       <image>!</image>
+	   <rectangle>[531,1100,-1,-1]</rectangle>
+       <order>11</order>
+      </image>
+     </top>
+     <bottom>
+     </bottom>
+    </card>
+    <card name="loc_dungeon_e">
+     <top>
+      <image>
+       <image>loc_dungeon_e</image>
+       <order>10</order>
+      </image>
+	  <image>
+       <image>token_pink_4</image>
+	   <rectangle>[177,1100,-1,-1]</rectangle>
+       <order>11</order>
+      </image>
+	  <image>
+       <image>!</image>
+	   <rectangle>[531,1100,-1,-1]</rectangle>
+       <order>11</order>
+      </image>
+     </top>
+     <bottom>
+     </bottom>
+    </card>
+    <card name="loc_dungeon_f">
+     <top>
+      <image>
+       <image>loc_dungeon_f</image>
+       <order>10</order>
+      </image>
+	  <image>
+       <image>token_black_2</image>
+	   <rectangle>[177,1100,-1,-1]</rectangle>
+       <order>11</order>
+      </image>
+	  <image>
+       <image>!</image>
+	   <rectangle>[531,1100,-1,-1]</rectangle>
+       <order>11</order>
+      </image>
+	 </top>
+     <bottom>
+     </bottom>
+    </card>
+    <card name="loc_dungeon_g">
+     <top>
+      <image>
+       <image>loc_dungeon_g</image>
+       <order>10</order>
+      </image>
+     </top>
+     <bottom>
+     </bottom>
+    </card>
+    <card name="loc_dungeon_h">
+     <top>
+      <image>
+       <image>loc_dungeon_h</image>
+       <order>10</order>
+      </image>
+     </top>
+     <bottom>
+     </bottom>
+    </card>
+   </location>
+   
+   <location name="Field">
+    <card name="loc_field_a">
+     <top>
+	  <text name="location name">
+       <text>Location: {ls}</text>
+       <style>big_white_clear</style>
+       <rectangle>[125,1370,1500,-1]</rectangle>
+       <rotation>270</rotation>
+       <order>-8</order>
+      </text>
+     </top>
+     <bottom>
+     </bottom>
+    </card>
+    <card name="loc_field_b">
+     <top>
+      <image>
+       <image>loc_field_b</image>
+       <order>10</order>
+      </image>
+     </top>
+     <bottom>
+     </bottom>
+    </card>
+    <card name="loc_field_c">
+     <top>
+      <image>
+       <image>loc_field_c</image>
+       <order>10</order>
+      </image>
+     </top>
+     <bottom>
+     </bottom>
+    </card>
+    <card name="loc_field_d">
+     <top>
+      <image>
+       <image>loc_field_d</image>
+       <order>10</order>
+      </image>
+     </top>
+     <bottom>
+     </bottom>
+    </card>
+    <card name="loc_field_e">
+     <top>
+      <image>
+       <image>loc_field_e</image>
+       <order>10</order>
+      </image>
+	  <image>
+       <image>token_grey_4</image>
+	   <rectangle>[177,1100,-1,-1]</rectangle>
+       <order>11</order>
+      </image>
+	  <image>
+       <image>!</image>
+	   <rectangle>[531,1100,-1,-1]</rectangle>
+       <order>11</order>
+      </image>
+     </top>
+     <bottom>
+     </bottom>
+    </card>
+    <card name="loc_field_f">
+     <top>
+      <image>
+       <image>loc_field_f</image>
+       <order>10</order>
+      </image>
+	  <image>
+       <image>token_pink_3</image>
+	   <rectangle>[177,1100,-1,-1]</rectangle>
+       <order>11</order>
+      </image>
+	  <image>
+       <image>!</image>
+	   <rectangle>[531,1100,-1,-1]</rectangle>
+       <order>11</order>
+      </image>
+	 </top>
+     <bottom>
+     </bottom>
+    </card>
+    <card name="loc_field_g">
+     <top>
+      <image>
+       <image>loc_field_g</image>
+       <order>10</order>
+      </image>
+	  <image>
+       <image>token_blue_3</image>
+	   <rectangle>[177,1100,-1,-1]</rectangle>
+       <order>11</order>
+      </image>
+	  <image>
+       <image>!</image>
+	   <rectangle>[531,1100,-1,-1]</rectangle>
+       <order>11</order>
+      </image>
+     </top>
+     <bottom>
+     </bottom>
+    </card>
+   </location>
+
+   <location name="Catecombs I">
+    <card name="cat_1_a">
+     <top>
+	  <text name="location name">
+       <text>Location: {ls}</text>
+       <style>big_white_clear</style>
+       <rectangle>[125,1370,1500,-1]</rectangle>
+       <rotation>270</rotation>
+       <order>-8</order>
+      </text>
+     </top>
+     <bottom>
+     </bottom>
+    </card>
+    <card name="cat_1_b">
+     <top>
+     </top>
+     <bottom>
+     </bottom>
+    </card>
+    <card name="cat_1_c">
+     <top>
+     </top>
+     <bottom>
+     </bottom>
+    </card>
+    <card name="cat_1_d">
+     <top>
+     </top>
+     <bottom>
+     </bottom>
+    </card>
+    <card name="cat_1_e">
+     <top>
+     </top>
+     <bottom>
+     </bottom>
+    </card>
+   </location>
+
+   <location name="Catecombs II">
+    <card name="cat_2_a">
+     <top>
+	  <text name="location name">
+       <text>Location: {ls}</text>
+       <style>big_white_clear</style>
+       <rectangle>[125,1370,1500,-1]</rectangle>
+       <rotation>270</rotation>
+       <order>-8</order>
+      </text>
+     </top>
+     <bottom>
+     </bottom>
+    </card>
+    <card name="cat_2_b">
+     <top>
+     </top>
+     <bottom>
+     </bottom>
+    </card>
+    <card name="cat_2_c">
+     <top>
+     </top>
+     <bottom>
+     </bottom>
+    </card>
+    <card name="cat_2_d">
+     <top>
+     </top>
+     <bottom>
+     </bottom>
+    </card>
+    <card name="cat_2_e">
+     <top>
+     </top>
+     <bottom>
+     </bottom>
+    </card>
+   </location>
+
+   <location name="Catecombs III">
+    <card name="cat_3_a">
+     <top>
+	  <text name="location name">
+       <text>Location: {ls}</text>
+       <style>big_white_clear</style>
+       <rectangle>[125,1370,1500,-1]</rectangle>
+       <rotation>270</rotation>
+       <order>-8</order>
+      </text>
+     </top>
+     <bottom>
+     </bottom>
+    </card>
+    <card name="cat_3_b">
+     <top>
+     </top>
+     <bottom>
+     </bottom>
+    </card>
+    <card name="cat_3_c">
+     <top>
+     </top>
+     <bottom>
+     </bottom>
+    </card>
+    <card name="cat_3_d">
+     <top>
+     </top>
+     <bottom>
+     </bottom>
+    </card>
+    <card name="cat_3_e">
+     <top>
+     </top>
+     <bottom>
+     </bottom>
+    </card>
+   </location>
+
+   <location name="Catecombs IV">
+    <card name="cat_4_a">
+     <top>
+	  <text name="location name">
+       <text>Location: {ls}</text>
+       <style>big_white_clear</style>
+       <rectangle>[125,1370,1500,-1]</rectangle>
+       <rotation>270</rotation>
+       <order>-8</order>
+      </text>
+     </top>
+     <bottom>
+     </bottom>
+    </card>
+    <card name="cat_4_b">
+     <top>
+     </top>
+     <bottom>
+     </bottom>
+    </card>
+    <card name="cat_4_c">
+     <top>
+     </top>
+     <bottom>
+     </bottom>
+    </card>
+    <card name="cat_4_d">
+     <top>
+     </top>
+     <bottom>
+     </bottom>
+    </card>
+    <card name="cat_4_e">
+     <top>
+     </top>
+     <bottom>
+     </bottom>
+    </card>
+    <card name="cat_4_f">
+     <top>
+	  <image>
+       <image>token_yellow_4</image>
+	   <rectangle>[354,1100,-1,-1]</rectangle>
+       <order>11</order>
+      </image>
+	 </top>
+     <bottom>
+     </bottom>
+    </card>
+   </location>
+   
+   <location name="Laboratory">
+    <card name="loc_lab_a">
+     <top>
+	  <text name="location name">
+       <text>Location: {ls}</text>
+       <style>big_white_clear</style>
+       <rectangle>[125,1370,1500,-1]</rectangle>
+       <rotation>270</rotation>
+       <order>-8</order>
+      </text>
+     </top>
+     <bottom>
+     </bottom>
+    </card>
+    <card name="loc_lab_b">
+     <top>
+      <image>
+       <image>loc_lab_b</image>
+       <order>10</order>
+      </image>
+     </top>
+     <bottom>
+     </bottom>
+    </card>
+    <card name="loc_lab_c">
+     <top>
+      <image>
+       <image>loc_lab_c</image>
+       <order>10</order>
+      </image>
+     </top>
+     <bottom>
+     </bottom>
+    </card>
+    <card name="loc_lab_d">
+     <top>
+      <image>
+       <image>loc_lab_d</image>
+       <order>10</order>
+      </image>
+     </top>
+     <bottom>
+     </bottom>
+    </card>
+    <card name="loc_lab_e">
+     <top>
+      <image>
+       <image>loc_lab_e</image>
+       <order>10</order>
+      </image>
+     </top>
+     <bottom>
+     </bottom>
+    </card>
+    <card name="loc_lab_f">
+     <top>
+	  <image>
+       <image>loc_lab_f</image>
+       <order>10</order>
+      </image>
+	 </top>
+     <bottom>
+     </bottom>
+    </card>
+   </location>
+
+   <location name="Market">
+    <card name="loc_hypermart_a">
+     <top>
+	  <text name="location name">
+       <text>Location: {ls}</text>
+       <style>big_white_clear</style>
+       <rectangle>[125,1370,1500,-1]</rectangle>
+       <rotation>270</rotation>
+       <order>-8</order>
+      </text>
+     </top>
+     <bottom>
+     </bottom>
+    </card>
+    <card name="loc_hypermart_b">
+     <top>
+      <image>
+       <image>loc_hypermart_b</image>
+       <order>10</order>
+      </image>
+     </top>
+     <bottom>
+     </bottom>
+    </card>
+    <card name="loc_hypermart_c">
+     <top>
+      <image>
+       <image>loc_hypermart_c</image>
+       <order>10</order>
+      </image>
+	  <image>
+       <image>token_green_4</image>
+	   <rectangle>[354,1100,-1,-1]</rectangle>
+       <order>11</order>
+      </image>
+     </top>
+     <bottom>
+     </bottom>
+    </card>
+    <card name="loc_hypermart_d">
+     <top>
+      <image>
+       <image>loc_hypermart_d</image>
+       <order>10</order>
+      </image>
+	  <image>
+       <image>token_green_4</image>
+	   <rectangle>[354,1100,-1,-1]</rectangle>
+       <order>11</order>
+      </image>
+     </top>
+     <bottom>
+     </bottom>
+    </card>
+    <card name="loc_hypermart_e">
+     <top>
+      <image>
+       <image>loc_hypermart_e</image>
+       <order>10</order>
+      </image>
+	  <image>
+       <image>token_green_4</image>
+	   <rectangle>[354,1100,-1,-1]</rectangle>
+       <order>11</order>
+      </image>
+     </top>
+     <bottom>
+     </bottom>
+    </card>
+    <card name="loc_hypermart_f">
+     <top>
+	  <image>
+       <image>loc_hypermart_f</image>
+       <order>10</order>
+      </image>
+	  <image>
+       <image>token_green_4</image>
+	   <rectangle>[354,1100,-1,-1]</rectangle>
+       <order>11</order>
+      </image>
+	 </top>
+     <bottom>
+     </bottom>
+    </card>
+    <card name="loc_hypermart_g">
+     <top>
+      <image>
+       <image>loc_hypermart_g</image>
+       <order>10</order>
+      </image>
+	  <image>
+       <image>token_green_4</image>
+	   <rectangle>[354,1100,-1,-1]</rectangle>
+       <order>11</order>
+      </image>
+     </top>
+     <bottom>
+     </bottom>
+    </card>
+    <card name="loc_hypermart_h">
+     <top>
+	  <image>
+       <image>loc_hypermart_h</image>
+       <order>10</order>
+      </image>
+	  <image>
+       <image>token_green_4</image>
+	   <rectangle>[354,1100,-1,-1]</rectangle>
+       <order>11</order>
+      </image>
+	 </top>
+     <bottom>
+     </bottom>
+    </card>
+    </location>
+   
   </locations>
 
   <plan>
@@ -1204,6 +1776,126 @@
   </base>
   
   <items>
+   <card name="Shovel">
+    <top>
+	</top>
+	<bottom>
+	</bottom>
+   </card>
+   <card name="Catalina Picture">
+    <top>
+	</top>
+	<bottom>
+	</bottom>
+   </card>
+   <card name="Catalina Locket">
+    <top>
+	</top>
+	<bottom>
+	</bottom>
+   </card>
+   <card name="Stick">
+    <top>
+	</top>
+	<bottom>
+	</bottom>
+   </card>
+   <card name="Sword">
+    <top>
+	</top>
+	<bottom>
+	</bottom>
+   </card>
+   <card name="Soul Medallion">
+    <top>
+	</top>
+	<bottom>
+	</bottom>
+   </card>
+   <card name="Bottle of Alcohol">
+    <top>
+	</top>
+	<bottom>
+	</bottom>
+   </card>
+   <card name="Space-Time Book">
+    <top>
+	</top>
+	<bottom>
+	</bottom>
+   </card>
+   <card name="Zune">
+    <top>
+	</top>
+	<bottom>
+	</bottom>
+   </card>
+   <card name="Battery">
+    <top>
+	</top>
+	<bottom>
+	</bottom>
+   </card>
+   <card name="Astronomy Book">
+    <top>
+	</top>
+	<bottom>
+	</bottom>
+   </card>
+   <card name="Syringe">
+    <top>
+	</top>
+	<bottom>
+	</bottom>
+   </card>
+   <card name="Pistol">
+    <top>
+	</top>
+	<bottom>
+	</bottom>
+   </card>
+   <card name="Nail Gun">
+    <top>
+	</top>
+	<bottom>
+	</bottom>
+   </card> 
+   <card name="Gun">
+    <top>
+	</top>
+	<bottom>
+	</bottom>
+   </card> 
+   <card name="Phil Note 1">
+    <top>
+	</top>
+	<bottom>
+	</bottom>
+   </card> 
+   <card name="Phil Note 2">
+    <top>
+	</top>
+	<bottom>
+	</bottom>
+   </card>    
+   <card name="Keith Dead">
+    <top>
+	</top>
+	<bottom>
+	</bottom>
+   </card>    
+   <card name="Keith Lies">
+    <top>
+	</top>
+	<bottom>
+	</bottom>
+   </card>    
+   <card name="Shorts">
+    <top>
+	</top>
+	<bottom>
+	</bottom>
+   </card>    
   </items>
 
   <characters>
