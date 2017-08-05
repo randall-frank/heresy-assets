@@ -116,6 +116,25 @@
   <file filename="heresy_media\laura.png" name="laura"/>
   <file filename="heresy_media\pods.png" name="pods"/>
 
+  <file filename="heresy_media\357.png" name="pistol"/>
+  <file filename="heresy_media\arm_colored_rjf.png" name="arm1"/>
+  <file filename="heresy_media\carbattery.png" name="battery"/>
+  <file filename="heresy_media\inquisition.png" name="inq_logo"/>
+  <file filename="heresy_media\inquisition_transparent.png" name="ing_logo_alpha"/>
+  <file filename="heresy_media\leg1.png" name="leg1"/>
+  <file filename="heresy_media\leg2.png" name="leg2"/>
+  <file filename="heresy_media\right_arm_colored_rjf.png" name="arm2"/>
+  <file filename="heresy_media\shovel.png" name="shovel"/>
+  <file filename="heresy_media\soul.png" name="soul"/>
+  <file filename="heresy_media\st_dummies.png" name="dummies"/>
+  <file filename="heresy_media\stick.png" name="stick"/>
+  <file filename="heresy_media\sword.png" name="sword"/>
+  <file filename="heresy_media\syringe.png" name="syringe"/>
+  <file filename="heresy_media\zune.png" name="zune"/>
+  <file filename="heresy_media\shorts.png" name="shorts"/>
+  <file filename="heresy_media\nailgun.png" name="nailgun"/>
+  <file filename="heresy_media\bottle.png" name="bottle"/>
+   
   <image name="token_blue_1">
      <file>TS_CreaPack_Icon_-1BL--30</file>
   </image>
@@ -257,6 +276,61 @@
 
   <image name="blue_logo">
      <file>TS_CreaPack_Icon_-LOGO-</file>
+  </image> 
+  
+  <image name="pistol">
+     <file>pistol</file>
+  </image> 
+  <image name="arm1">
+     <file>arm1</file>
+  </image> 
+  <image name="arm2">
+     <file>arm2</file>
+  </image> 
+  <image name="leg1">
+     <file>leg1</file>
+  </image> 
+  <image name="leg2">
+     <file>leg2</file>
+  </image> 
+  <image name="battery">
+     <file>battery</file>
+  </image> 
+  <image name="inq_logo">
+     <file>inq_logo</file>
+  </image> 
+  <image name="ing_logo_alpha">
+     <file>ing_logo_alpha</file>
+  </image> 
+  <image name="shovel">
+     <file>shovel</file>
+  </image> 
+  <image name="soul">
+     <file>soul</file>
+  </image> 
+  <image name="dummies">
+     <file>dummies</file>
+  </image> 
+  <image name="stick">
+     <file>stick</file>
+  </image> 
+  <image name="sword">
+     <file>sword</file>
+  </image> 
+  <image name="syringe">
+     <file>syringe</file>
+  </image> 
+  <image name="zune">
+     <file>zune</file>
+  </image> 
+  <image name="shorts">
+     <file>shorts</file>
+  </image>
+  <image name="nailgun">
+     <file>nailgun</file>
+  </image> 
+  <image name="bottle">
+     <file>bottle</file>
   </image> 
   
   <image name="top_card">
@@ -584,7 +658,7 @@
    <fillcolor>[255, 255, 255, 0]</fillcolor>
    <bordercolor>[0, 0, 0, 0]</bordercolor>
    <textcolor>[255, 255, 255, 255]</textcolor>
-   <typesize>30</typesize>
+   <typesize>50</typesize>
    <borderthickness>1</borderthickness>
    <justification>center</justification>
   </style>
@@ -642,7 +716,7 @@
       <order>-10</order>
      </image>
      <text name="item number">
-      <text>Item {cn}</text>
+      <text>Item{n}{cn}</text>
       <style>item_number</style>
       <rectangle>[50,600,845,-1]</rectangle>
       <rotation>0</rotation>
@@ -1780,6 +1854,11 @@
     <top>
 	</top>
 	<bottom>
+	 <image>
+	  <image>shovel</image>
+	  <rectangle>[100,100,745,-2]</rectangle>
+	  <order>10</order>
+	 </image>
 	</bottom>
    </card>
    <card name="Catalina Picture">
@@ -1798,42 +1877,77 @@
     <top>
 	</top>
 	<bottom>
+	 <image>
+	  <image>stick</image>
+	  <rectangle>[100,100,745,-2]</rectangle>
+	  <order>10</order>
+	 </image>
 	</bottom>
    </card>
    <card name="Sword">
     <top>
 	</top>
 	<bottom>
+     <image>
+	  <image>sword</image>
+	  <rectangle>[100,100,745,-2]</rectangle>
+	  <order>10</order>
+	 </image>
 	</bottom>
    </card>
    <card name="Soul Medallion">
     <top>
 	</top>
 	<bottom>
+	 <image>
+	  <image>soul</image>
+	  <rectangle>[100,100,745,-2]</rectangle>
+	  <order>10</order>
+	 </image>
 	</bottom>
    </card>
    <card name="Bottle of Alcohol">
     <top>
 	</top>
 	<bottom>
+	 <image>
+	  <image>bottle</image>
+	  <rectangle>[100,100,745,-2]</rectangle>
+	  <order>10</order>
+	 </image>
 	</bottom>
    </card>
    <card name="Space-Time Book">
     <top>
 	</top>
 	<bottom>
+	 <image>
+	  <image>dummies</image>
+	  <rectangle>[100,100,745,-2]</rectangle>
+	  <order>10</order>
+	 </image>
 	</bottom>
    </card>
    <card name="Zune">
     <top>
 	</top>
 	<bottom>
+	 <image>
+	  <image>zune</image>
+	  <rectangle>[100,100,745,-2]</rectangle>
+	  <order>10</order>
+	 </image>
 	</bottom>
    </card>
    <card name="Battery">
     <top>
 	</top>
 	<bottom>
+	 <image>
+	  <image>battery</image>
+	  <rectangle>[100,100,745,-2]</rectangle>
+	  <order>10</order>
+	 </image>
 	</bottom>
    </card>
    <card name="Astronomy Book">
@@ -1846,26 +1960,35 @@
     <top>
 	</top>
 	<bottom>
+	 <image>
+	  <image>syringe</image>
+	  <rectangle>[100,100,745,-2]</rectangle>
+	  <order>10</order>
+	 </image>
 	</bottom>
    </card>
    <card name="Pistol">
     <top>
 	</top>
 	<bottom>
+	 <image>
+	  <image>pistol</image>
+	  <rectangle>[100,100,745,-2]</rectangle>
+	  <order>10</order>
+	 </image>
 	</bottom>
    </card>
    <card name="Nail Gun">
     <top>
 	</top>
 	<bottom>
+	 <image>
+	  <image>nailgun</image>
+	  <rectangle>[100,100,745,-2]</rectangle>
+	  <order>10</order>
+	 </image>
 	</bottom>
-   </card> 
-   <card name="Gun">
-    <top>
-	</top>
-	<bottom>
-	</bottom>
-   </card> 
+   </card>
    <card name="Phil Note 1">
     <top>
 	</top>
@@ -1894,6 +2017,11 @@
     <top>
 	</top>
 	<bottom>
+	 <image>
+	  <image>shorts</image>
+	  <rectangle>[100,100,745,-2]</rectangle>
+	  <order>10</order>
+	 </image>
 	</bottom>
    </card>    
   </items>
