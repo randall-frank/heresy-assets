@@ -1,2103 +1,2223 @@
 <deck name="">
- <assets>
-  <file filename="media\TS_ Missions_V_EN.jpg" name="TS_ Missions_V_EN"/>
-  <file filename="media\TS_ Missions_V_EN2.jpg" name="TS_ Missions_V_EN2"/>
-  <file filename="media\TS_ Missions_V_EN3.jpg" name="TS_ Missions_V_EN3"/>
-  <file filename="media\TS_ Missions_V_EN4.jpg" name="TS_ Missions_V_EN4"/>
-  <file filename="media\TS_ Missions_V_EN5.jpg" name="TS_ Missions_V_EN5"/>
-  <file filename="media\TS_CreaPack_Icon-56.png" name="TS_CreaPack_Icon-56"/>
-  <file filename="media\TS_CreaPack_Icon-57.png" name="TS_CreaPack_Icon-57"/>
-  <file filename="media\TS_CreaPack_Icon-59.png" name="TS_CreaPack_Icon-59"/>
-  <file filename="media\TS_CreaPack_Icon-65.png" name="TS_CreaPack_Icon-65"/>
-  <file filename="media\TS_CreaPack_Icon-66.png" name="TS_CreaPack_Icon-66"/>
-  <file filename="media\TS_CreaPack_Icon-67.png" name="TS_CreaPack_Icon-67"/>
-  <file filename="media\TS_CreaPack_Icon-68.png" name="TS_CreaPack_Icon-68"/>
-  <file filename="media\TS_CreaPack_Icon_-1-.png" name="TS_CreaPack_Icon_-1-"/>
-  <file filename="media\TS_CreaPack_Icon_-1BL--30.png" name="TS_CreaPack_Icon_-1BL--30"/>
-  <file filename="media\TS_CreaPack_Icon_-1BL--50.png" name="TS_CreaPack_Icon_-1BL--50"/>
-  <file filename="media\TS_CreaPack_Icon_-1N-.png" name="TS_CreaPack_Icon_-1N-"/>
-  <file filename="media\TS_CreaPack_Icon_-1OR-.png" name="TS_CreaPack_Icon_-1OR-"/>
-  <file filename="media\TS_CreaPack_Icon_-1RO-.png" name="TS_CreaPack_Icon_-1RO-"/>
-  <file filename="media\TS_CreaPack_Icon_-1V-.png" name="TS_CreaPack_Icon_-1V-"/>
-  <file filename="media\TS_CreaPack_Icon_-2B-.png" name="TS_CreaPack_Icon_-2B-"/>
-  <file filename="media\TS_CreaPack_Icon_-2BL-.png" name="TS_CreaPack_Icon_-2BL-"/>
-  <file filename="media\TS_CreaPack_Icon_-2N-.png" name="TS_CreaPack_Icon_-2N-"/>
-  <file filename="media\TS_CreaPack_Icon_-2OR-.png" name="TS_CreaPack_Icon_-2OR-"/>
-  <file filename="media\TS_CreaPack_Icon_-2RO-.png" name="TS_CreaPack_Icon_-2RO-"/>
-  <file filename="media\TS_CreaPack_Icon_-2V-.png" name="TS_CreaPack_Icon_-2V-"/>
-  <file filename="media\TS_CreaPack_Icon_-3BL--27.png" name="TS_CreaPack_Icon_-3BL--27"/>
-  <file filename="media\TS_CreaPack_Icon_-3BL--54.png" name="TS_CreaPack_Icon_-3BL--54"/>
-  <file filename="media\TS_CreaPack_Icon_-3HIT-.png" name="TS_CreaPack_Icon_-3HIT-"/>
-  <file filename="media\TS_CreaPack_Icon_-3N-.png" name="TS_CreaPack_Icon_-3N-"/>
-  <file filename="media\TS_CreaPack_Icon_-3OR-.png" name="TS_CreaPack_Icon_-3OR-"/>
-  <file filename="media\TS_CreaPack_Icon_-3RO-.png" name="TS_CreaPack_Icon_-3RO-"/>
-  <file filename="media\TS_CreaPack_Icon_-3V-.png" name="TS_CreaPack_Icon_-3V-"/>
-  <file filename="media\TS_CreaPack_Icon_-4B-.png" name="TS_CreaPack_Icon_-4B-"/>
-  <file filename="media\TS_CreaPack_Icon_-4BL-.png" name="TS_CreaPack_Icon_-4BL-"/>
-  <file filename="media\TS_CreaPack_Icon_-4C-.png" name="TS_CreaPack_Icon_-4C-"/>
-  <file filename="media\TS_CreaPack_Icon_-4N-.png" name="TS_CreaPack_Icon_-4N-"/>
-  <file filename="media\TS_CreaPack_Icon_-4OR-.png" name="TS_CreaPack_Icon_-4OR-"/>
-  <file filename="media\TS_CreaPack_Icon_-4RO-.png" name="TS_CreaPack_Icon_-4RO-"/>
-  <file filename="media\TS_CreaPack_Icon_-4V-.png" name="TS_CreaPack_Icon_-4V-"/>
-  <file filename="media\TS_CreaPack_Icon_-B-.png" name="TS_CreaPack_Icon_-B-"/>
-  <file filename="media\TS_CreaPack_Icon_-BB-.png" name="TS_CreaPack_Icon_-BB-"/>
-  <file filename="media\TS_CreaPack_Icon_-BCB- copie 2.png" name="TS_CreaPack_Icon_-BCB- copie 2"/>
-  <file filename="media\TS_CreaPack_Icon_-BCB- copie.png" name="TS_CreaPack_Icon_-BCB- copie"/>
-  <file filename="media\TS_CreaPack_Icon_-BCB-.png" name="TS_CreaPack_Icon_-BCB-"/>
-  <file filename="media\TS_CreaPack_Icon_-BCR-.png" name="TS_CreaPack_Icon_-BCR-"/>
-  <file filename="media\TS_CreaPack_Icon_-BN-.png" name="TS_CreaPack_Icon_-BN-"/>
-  <file filename="media\TS_CreaPack_Icon_-CAD-.png" name="TS_CreaPack_Icon_-CAD-"/>
-  <file filename="media\TS_CreaPack_Icon_-CC-.png" name="TS_CreaPack_Icon_-CC-"/>
-  <file filename="media\TS_CreaPack_Icon_-CD-.png" name="TS_CreaPack_Icon_-CD-"/>
-  <file filename="media\TS_CreaPack_Icon_-CR-.png" name="TS_CreaPack_Icon_-CR-"/>
-  <file filename="media\TS_CreaPack_Icon_-F-.png" name="TS_CreaPack_Icon_-F-"/>
-  <file filename="media\TS_CreaPack_Icon_-FD1R-.png" name="TS_CreaPack_Icon_-FD1R-"/>
-  <file filename="media\TS_CreaPack_Icon_-FDV-.png" name="TS_CreaPack_Icon_-FDV-"/>
-  <file filename="media\TS_CreaPack_Icon_-GRP-.png" name="TS_CreaPack_Icon_-GRP-"/>
-  <file filename="media\TS_CreaPack_Icon_-JB-.png" name="TS_CreaPack_Icon_-JB-"/>
-  <file filename="media\TS_CreaPack_Icon_-JJ-.png" name="TS_CreaPack_Icon_-JJ-"/>
-  <file filename="media\TS_CreaPack_Icon_-JM-.png" name="TS_CreaPack_Icon_-JM-"/>
-  <file filename="media\TS_CreaPack_Icon_-JN-.png" name="TS_CreaPack_Icon_-JN-"/>
-  <file filename="media\TS_CreaPack_Icon_-JV-.png" name="TS_CreaPack_Icon_-JV-"/>
-  <file filename="media\TS_CreaPack_Icon_-LOGO- copie 2.png" name="TS_CreaPack_Icon_-LOGO- copie 2"/>
-  <file filename="media\TS_CreaPack_Icon_-LOGO- copie 3.png" name="TS_CreaPack_Icon_-LOGO- copie 3"/>
-  <file filename="media\TS_CreaPack_Icon_-LOGO- copie.png" name="TS_CreaPack_Icon_-LOGO- copie"/>
-  <file filename="media\TS_CreaPack_Icon_-LOGO-.png" name="TS_CreaPack_Icon_-LOGO-"/>
-  <file filename="media\TS_CreaPack_Icon_-M- copie.png" name="TS_CreaPack_Icon_-M- copie"/>
-  <file filename="media\TS_CreaPack_Icon_-M-.png" name="TS_CreaPack_Icon_-M-"/>
-  <file filename="media\TS_CreaPack_Icon_-P-.png" name="TS_CreaPack_Icon_-P-"/>
-  <file filename="media\TS_CreaPack_Icon_-PE-.png" name="TS_CreaPack_Icon_-PE-"/>
-  <file filename="media\TS_CreaPack_Icon_-PV-.png" name="TS_CreaPack_Icon_-PV-"/>
-  <file filename="media\TS_CreaPack_Icon_-R-.png" name="TS_CreaPack_Icon_-R-"/>
-  <file filename="media\TS_CreaPack_Icon_-SI-.png" name="TS_CreaPack_Icon_-SI-"/>
-  <file filename="media\TS_CreaPack_Icon_-UT-.png" name="TS_CreaPack_Icon_-UT-"/>
-  <file filename="media\TS_CreaPack_Icon_-UTN-.png" name="TS_CreaPack_Icon_-UTN-"/>
-  <file filename="media\TS_CreaPack_Icon_-UTR- copie.png" name="TS_CreaPack_Icon_-UTR- copie"/>
-  <file filename="media\TS_CreaPack_Icon_-UTR-.png" name="TS_CreaPack_Icon_-UTR-"/>
-  <file filename="media\TS_CreaPack_Lieu-01.png" name="TS_CreaPack_Lieu-01"/>
-  <file filename="media\TS_CreaPack_Lieu-02.png" name="TS_CreaPack_Lieu-02"/>
-  <file filename="media\TS_CreaPack_Lieu-03.png" name="TS_CreaPack_Lieu-03"/>
-  <file filename="media\TS_CreaPack_Lieu-04.png" name="TS_CreaPack_Lieu-04"/>
-  <file filename="media\TS_CreaPack_Lieu-05.png" name="TS_CreaPack_Lieu-05"/>
-  <file filename="media\TS_CreaPack_Lieu-06.png" name="TS_CreaPack_Lieu-06"/>
-  <file filename="media\TS_CreaPack_Lieu-07.png" name="TS_CreaPack_Lieu-07"/>
-  <file filename="media\TS_CreaPack_Lieu-08.png" name="TS_CreaPack_Lieu-08"/>
-  <file filename="media\TS_CreaPack_Lieu-09.png" name="TS_CreaPack_Lieu-09"/>
-  <file filename="heresy_media\background_brown.png" name="background_brown"/>
-  <file filename="heresy_media\background_cyan.png" name="background_cyan"/>
-  <file filename="heresy_media\background_green.png" name="background_green"/>
-  <file filename="heresy_media\bbishop.jpg" name="bbishop"/>
-  <file filename="heresy_media\chapel.jpg" name="chapel"/>
-  <file filename="heresy_media\coourtroom_revised_A.jpg" name="coourtroom_revised_A"/>
-  <file filename="heresy_media\four_corner_border.png" name="four_corner_border"/>
-  <file filename="heresy_media\hypermart.jpg" name="hypermart"/>
-  <file filename="heresy_media\knight.jpg" name="knight"/>
-  <file filename="heresy_media\noble_woman.jpg" name="noble_woman"/>
-  <file filename="heresy_media\nun.jpg" name="nun"/>
-  <file filename="heresy_media\path_to_town.jpg" name="path_to_town"/>
-  <file filename="heresy_media\scene_3_graveyard.jpg" name="scene_3_graveyard"/>
-  <file filename="heresy_media\scene_4_inn_bar.jpg" name="scene_4_inn_bar"/>
-  <file filename="heresy_media\stone_mason.jpg" name="stone_mason"/>
-  <file filename="heresy_media\streetsmart.jpg" name="streetsmart"/>
-  <file filename="heresy_media\torture_room.jpg" name="torture_room"/>
-  <file filename="heresy_media\underground_b.jpg" name="underground_b"/>
-  <file filename="heresy_media\witch_burning.jpg" name="witch_burning"/>
-  <file filename="heresy_media\top_card.png" name="top_card"/>
-  <file filename="heresy_media\bottom_card_grey.png" name="bottom_grey"/>
-  <file filename="heresy_media\bottom_card_blue.png" name="bottom_blue"/>
-  <file filename="heresy_media\base_a.png" name="base_a"/>
-  <file filename="heresy_media\base_b.png" name="base_b"/>
-  <file filename="heresy_media\base_c.png" name="base_c"/>
-  <file filename="heresy_media\base_d.png" name="base_d"/>
-  <file filename="heresy_media\base_e.png" name="base_e"/>
-  <file filename="heresy_media\base_f.png" name="base_f"/>
-  <file filename="heresy_media\base_g.png" name="base_g"/>
-  <file filename="heresy_media\bob.png" name="bob"/>
-  <file filename="heresy_media\laura.png" name="laura"/>
-  <file filename="heresy_media\pods.png" name="pods"/>
+	<assets>
+		<file filename="media/TS_ Missions_V_EN.jpg" name="TS_ Missions_V_EN"/>
+		<file filename="media/TS_ Missions_V_EN2.jpg" name="TS_ Missions_V_EN2"/>
+		<file filename="media/TS_ Missions_V_EN3.jpg" name="TS_ Missions_V_EN3"/>
+		<file filename="media/TS_ Missions_V_EN4.jpg" name="TS_ Missions_V_EN4"/>
+		<file filename="media/TS_ Missions_V_EN5.jpg" name="TS_ Missions_V_EN5"/>
+		<file filename="media/TS_CreaPack_Icon-56.png" name="TS_CreaPack_Icon-56"/>
+		<file filename="media/TS_CreaPack_Icon-57.png" name="TS_CreaPack_Icon-57"/>
+		<file filename="media/TS_CreaPack_Icon-59.png" name="TS_CreaPack_Icon-59"/>
+		<file filename="media/TS_CreaPack_Icon-65.png" name="TS_CreaPack_Icon-65"/>
+		<file filename="media/TS_CreaPack_Icon-66.png" name="TS_CreaPack_Icon-66"/>
+		<file filename="media/TS_CreaPack_Icon-67.png" name="TS_CreaPack_Icon-67"/>
+		<file filename="media/TS_CreaPack_Icon-68.png" name="TS_CreaPack_Icon-68"/>
+		<file filename="media/TS_CreaPack_Icon_-1-.png" name="TS_CreaPack_Icon_-1-"/>
+		<file filename="media/TS_CreaPack_Icon_-1BL--30.png" name="TS_CreaPack_Icon_-1BL--30"/>
+		<file filename="media/TS_CreaPack_Icon_-1BL--50.png" name="TS_CreaPack_Icon_-1BL--50"/>
+		<file filename="media/TS_CreaPack_Icon_-1N-.png" name="TS_CreaPack_Icon_-1N-"/>
+		<file filename="media/TS_CreaPack_Icon_-1OR-.png" name="TS_CreaPack_Icon_-1OR-"/>
+		<file filename="media/TS_CreaPack_Icon_-1RO-.png" name="TS_CreaPack_Icon_-1RO-"/>
+		<file filename="media/TS_CreaPack_Icon_-1V-.png" name="TS_CreaPack_Icon_-1V-"/>
+		<file filename="media/TS_CreaPack_Icon_-2B-.png" name="TS_CreaPack_Icon_-2B-"/>
+		<file filename="media/TS_CreaPack_Icon_-2BL-.png" name="TS_CreaPack_Icon_-2BL-"/>
+		<file filename="media/TS_CreaPack_Icon_-2N-.png" name="TS_CreaPack_Icon_-2N-"/>
+		<file filename="media/TS_CreaPack_Icon_-2OR-.png" name="TS_CreaPack_Icon_-2OR-"/>
+		<file filename="media/TS_CreaPack_Icon_-2RO-.png" name="TS_CreaPack_Icon_-2RO-"/>
+		<file filename="media/TS_CreaPack_Icon_-2V-.png" name="TS_CreaPack_Icon_-2V-"/>
+		<file filename="media/TS_CreaPack_Icon_-3BL--27.png" name="TS_CreaPack_Icon_-3BL--27"/>
+		<file filename="media/TS_CreaPack_Icon_-3BL--54.png" name="TS_CreaPack_Icon_-3BL--54"/>
+		<file filename="media/TS_CreaPack_Icon_-3HIT-.png" name="TS_CreaPack_Icon_-3HIT-"/>
+		<file filename="media/TS_CreaPack_Icon_-3N-.png" name="TS_CreaPack_Icon_-3N-"/>
+		<file filename="media/TS_CreaPack_Icon_-3OR-.png" name="TS_CreaPack_Icon_-3OR-"/>
+		<file filename="media/TS_CreaPack_Icon_-3RO-.png" name="TS_CreaPack_Icon_-3RO-"/>
+		<file filename="media/TS_CreaPack_Icon_-3V-.png" name="TS_CreaPack_Icon_-3V-"/>
+		<file filename="media/TS_CreaPack_Icon_-4B-.png" name="TS_CreaPack_Icon_-4B-"/>
+		<file filename="media/TS_CreaPack_Icon_-4BL-.png" name="TS_CreaPack_Icon_-4BL-"/>
+		<file filename="media/TS_CreaPack_Icon_-4C-.png" name="TS_CreaPack_Icon_-4C-"/>
+		<file filename="media/TS_CreaPack_Icon_-4N-.png" name="TS_CreaPack_Icon_-4N-"/>
+		<file filename="media/TS_CreaPack_Icon_-4OR-.png" name="TS_CreaPack_Icon_-4OR-"/>
+		<file filename="media/TS_CreaPack_Icon_-4RO-.png" name="TS_CreaPack_Icon_-4RO-"/>
+		<file filename="media/TS_CreaPack_Icon_-4V-.png" name="TS_CreaPack_Icon_-4V-"/>
+		<file filename="media/TS_CreaPack_Icon_-B-.png" name="TS_CreaPack_Icon_-B-"/>
+		<file filename="media/TS_CreaPack_Icon_-BB-.png" name="TS_CreaPack_Icon_-BB-"/>
+		<file filename="media/TS_CreaPack_Icon_-BCB- copie 2.png" name="TS_CreaPack_Icon_-BCB- copie 2"/>
+		<file filename="media/TS_CreaPack_Icon_-BCB- copie.png" name="TS_CreaPack_Icon_-BCB- copie"/>
+		<file filename="media/TS_CreaPack_Icon_-BCB-.png" name="TS_CreaPack_Icon_-BCB-"/>
+		<file filename="media/TS_CreaPack_Icon_-BCR-.png" name="TS_CreaPack_Icon_-BCR-"/>
+		<file filename="media/TS_CreaPack_Icon_-BN-.png" name="TS_CreaPack_Icon_-BN-"/>
+		<file filename="media/TS_CreaPack_Icon_-CAD-.png" name="TS_CreaPack_Icon_-CAD-"/>
+		<file filename="media/TS_CreaPack_Icon_-CC-.png" name="TS_CreaPack_Icon_-CC-"/>
+		<file filename="media/TS_CreaPack_Icon_-CD-.png" name="TS_CreaPack_Icon_-CD-"/>
+		<file filename="media/TS_CreaPack_Icon_-CR-.png" name="TS_CreaPack_Icon_-CR-"/>
+		<file filename="media/TS_CreaPack_Icon_-F-.png" name="TS_CreaPack_Icon_-F-"/>
+		<file filename="media/TS_CreaPack_Icon_-FD1R-.png" name="TS_CreaPack_Icon_-FD1R-"/>
+		<file filename="media/TS_CreaPack_Icon_-FDV-.png" name="TS_CreaPack_Icon_-FDV-"/>
+		<file filename="media/TS_CreaPack_Icon_-GRP-.png" name="TS_CreaPack_Icon_-GRP-"/>
+		<file filename="media/TS_CreaPack_Icon_-JB-.png" name="TS_CreaPack_Icon_-JB-"/>
+		<file filename="media/TS_CreaPack_Icon_-JJ-.png" name="TS_CreaPack_Icon_-JJ-"/>
+		<file filename="media/TS_CreaPack_Icon_-JM-.png" name="TS_CreaPack_Icon_-JM-"/>
+		<file filename="media/TS_CreaPack_Icon_-JN-.png" name="TS_CreaPack_Icon_-JN-"/>
+		<file filename="media/TS_CreaPack_Icon_-JV-.png" name="TS_CreaPack_Icon_-JV-"/>
+		<file filename="media/TS_CreaPack_Icon_-LOGO- copie 2.png" name="TS_CreaPack_Icon_-LOGO- copie 2"/>
+		<file filename="media/TS_CreaPack_Icon_-LOGO- copie 3.png" name="TS_CreaPack_Icon_-LOGO- copie 3"/>
+		<file filename="media/TS_CreaPack_Icon_-LOGO- copie.png" name="TS_CreaPack_Icon_-LOGO- copie"/>
+		<file filename="media/TS_CreaPack_Icon_-LOGO-.png" name="TS_CreaPack_Icon_-LOGO-"/>
+		<file filename="media/TS_CreaPack_Icon_-M- copie.png" name="TS_CreaPack_Icon_-M- copie"/>
+		<file filename="media/TS_CreaPack_Icon_-M-.png" name="TS_CreaPack_Icon_-M-"/>
+		<file filename="media/TS_CreaPack_Icon_-P-.png" name="TS_CreaPack_Icon_-P-"/>
+		<file filename="media/TS_CreaPack_Icon_-PE-.png" name="TS_CreaPack_Icon_-PE-"/>
+		<file filename="media/TS_CreaPack_Icon_-PV-.png" name="TS_CreaPack_Icon_-PV-"/>
+		<file filename="media/TS_CreaPack_Icon_-R-.png" name="TS_CreaPack_Icon_-R-"/>
+		<file filename="media/TS_CreaPack_Icon_-SI-.png" name="TS_CreaPack_Icon_-SI-"/>
+		<file filename="media/TS_CreaPack_Icon_-UT-.png" name="TS_CreaPack_Icon_-UT-"/>
+		<file filename="media/TS_CreaPack_Icon_-UTN-.png" name="TS_CreaPack_Icon_-UTN-"/>
+		<file filename="media/TS_CreaPack_Icon_-UTR- copie.png" name="TS_CreaPack_Icon_-UTR- copie"/>
+		<file filename="media/TS_CreaPack_Icon_-UTR-.png" name="TS_CreaPack_Icon_-UTR-"/>
+		<file filename="media/TS_CreaPack_Lieu-01.png" name="TS_CreaPack_Lieu-01"/>
+		<file filename="media/TS_CreaPack_Lieu-02.png" name="TS_CreaPack_Lieu-02"/>
+		<file filename="media/TS_CreaPack_Lieu-03.png" name="TS_CreaPack_Lieu-03"/>
+		<file filename="media/TS_CreaPack_Lieu-04.png" name="TS_CreaPack_Lieu-04"/>
+		<file filename="media/TS_CreaPack_Lieu-05.png" name="TS_CreaPack_Lieu-05"/>
+		<file filename="media/TS_CreaPack_Lieu-06.png" name="TS_CreaPack_Lieu-06"/>
+		<file filename="media/TS_CreaPack_Lieu-07.png" name="TS_CreaPack_Lieu-07"/>
+		<file filename="media/TS_CreaPack_Lieu-08.png" name="TS_CreaPack_Lieu-08"/>
+		<file filename="media/TS_CreaPack_Lieu-09.png" name="TS_CreaPack_Lieu-09"/>
+		<file filename="heresy_media/background_brown.png" name="background_brown"/>
+		<file filename="heresy_media/background_cyan.png" name="background_cyan"/>
+		<file filename="heresy_media/background_green.png" name="background_green"/>
+		<file filename="heresy_media/bbishop.jpg" name="bbishop"/>
+		<file filename="heresy_media/chapel.jpg" name="chapel"/>
+		<file filename="heresy_media/coourtroom_revised_A.jpg" name="coourtroom_revised_A"/>
+		<file filename="heresy_media/four_corner_border.png" name="four_corner_border"/>
+		<file filename="heresy_media/hypermart.jpg" name="hypermart"/>
+		<file filename="heresy_media/knight.jpg" name="knight"/>
+		<file filename="heresy_media/noble_woman.jpg" name="noble_woman"/>
+		<file filename="heresy_media/nun.jpg" name="nun"/>
+		<file filename="heresy_media/path_to_town.jpg" name="path_to_town"/>
+		<file filename="heresy_media/scene_3_graveyard.jpg" name="scene_3_graveyard"/>
+		<file filename="heresy_media/scene_4_inn_bar.jpg" name="scene_4_inn_bar"/>
+		<file filename="heresy_media/stone_mason.jpg" name="stone_mason"/>
+		<file filename="heresy_media/streetsmart.jpg" name="streetsmart"/>
+		<file filename="heresy_media/torture_room.jpg" name="torture_room"/>
+		<file filename="heresy_media/underground_b.jpg" name="underground_b"/>
+		<file filename="heresy_media/witch_burning.jpg" name="witch_burning"/>
+		<file filename="heresy_media/top_card.png" name="top_card"/>
+		<file filename="heresy_media/bottom_card_grey.png" name="bottom_grey"/>
+		<file filename="heresy_media/bottom_card_blue.png" name="bottom_blue"/>
+		<file filename="heresy_media/base_a.png" name="base_a"/>
+		<file filename="heresy_media/base_b.png" name="base_b"/>
+		<file filename="heresy_media/base_c.png" name="base_c"/>
+		<file filename="heresy_media/base_d.png" name="base_d"/>
+		<file filename="heresy_media/base_e.png" name="base_e"/>
+		<file filename="heresy_media/base_f.png" name="base_f"/>
+		<file filename="heresy_media/base_g.png" name="base_g"/>
+		<file filename="heresy_media/bob.png" name="bob"/>
+		<file filename="heresy_media/laura.png" name="laura"/>
+		<file filename="heresy_media/pods.png" name="pods"/>
 
-  <file filename="heresy_media\357.png" name="pistol"/>
-  <file filename="heresy_media\arm_colored_rjf.png" name="arm1"/>
-  <file filename="heresy_media\carbattery.png" name="battery"/>
-  <file filename="heresy_media\inquisition.png" name="inq_logo"/>
-  <file filename="heresy_media\inquisition_transparent.png" name="ing_logo_alpha"/>
-  <file filename="heresy_media\leg1.png" name="leg1"/>
-  <file filename="heresy_media\leg2.png" name="leg2"/>
-  <file filename="heresy_media\right_arm_colored_rjf.png" name="arm2"/>
-  <file filename="heresy_media\shovel.png" name="shovel"/>
-  <file filename="heresy_media\soul.png" name="soul"/>
-  <file filename="heresy_media\st_dummies.png" name="dummies"/>
-  <file filename="heresy_media\stick.png" name="stick"/>
-  <file filename="heresy_media\sword.png" name="sword"/>
-  <file filename="heresy_media\syringe.png" name="syringe"/>
-  <file filename="heresy_media\zune.png" name="zune"/>
-  <file filename="heresy_media\shorts.png" name="shorts"/>
-  <file filename="heresy_media\nailgun.png" name="nailgun"/>
-  <file filename="heresy_media\bottle.png" name="bottle"/>
-   
-  <image name="token_blue_1">
-     <file>TS_CreaPack_Icon_-1BL--30</file>
-  </image>
-  <image name="token_grey_1">
-     <file>TS_CreaPack_Icon_-1BL--50</file>
-  </image>
-  <image name="token_black_1">
-     <file>TS_CreaPack_Icon_-1N-</file>
-  </image>
-  <image name="token_yellow_1">
-     <file>TS_CreaPack_Icon_-1OR-</file>
-  </image>
-  <image name="token_pink_1">
-     <file>TS_CreaPack_Icon_-1RO-</file>
-  </image>
-  <image name="token_green_1">
-     <file>TS_CreaPack_Icon_-1V-</file>
-  </image>
-  
-  <image name="token_blue_2">
-     <file>TS_CreaPack_Icon_-2BL-</file>
-  </image>
-  <image name="token_grey_2">
-     <file>TS_CreaPack_Icon_-2B-</file>
-  </image>
-  <image name="token_black_2">
-     <file>TS_CreaPack_Icon_-2N-</file>
-  </image>
-  <image name="token_yellow_2">
-     <file>TS_CreaPack_Icon_-2OR-</file>
-  </image>
-  <image name="token_pink_2">
-     <file>TS_CreaPack_Icon_-2RO-</file>
-  </image>
-  <image name="token_green_2">
-     <file>TS_CreaPack_Icon_-2V-</file>
-  </image>
+		<file filename="heresy_media/357.png" name="pistol"/>
+		<file filename="heresy_media/arm_colored_rjf.png" name="arm1"/>
+		<file filename="heresy_media/carbattery.png" name="battery"/>
+		<file filename="heresy_media/inquisition.png" name="inq_logo"/>
+		<file filename="heresy_media/inquisition_transparent.png" name="ing_logo_alpha"/>
+		<file filename="heresy_media/leg1.png" name="leg1"/>
+		<file filename="heresy_media/leg2.png" name="leg2"/>
+		<file filename="heresy_media/right_arm_colored_rjf.png" name="arm2"/>
+		<file filename="heresy_media/shovel.png" name="shovel"/>
+		<file filename="heresy_media/soul.png" name="soul"/>
+		<file filename="heresy_media/st_dummies.png" name="dummies"/>
+		<file filename="heresy_media/stick.png" name="stick"/>
+		<file filename="heresy_media/sword.png" name="sword"/>
+		<file filename="heresy_media/syringe.png" name="syringe"/>
+		<file filename="heresy_media/zune.png" name="zune"/>
+		<file filename="heresy_media/shorts.png" name="shorts"/>
+		<file filename="heresy_media/nailgun.png" name="nailgun"/>
+		<file filename="heresy_media/bottle.png" name="bottle"/>
 
-  <image name="token_blue_3">
-     <file>TS_CreaPack_Icon_-3BL--27</file>
-  </image>
-  <image name="token_grey_3">
-     <file>TS_CreaPack_Icon_-3BL--54</file>
-  </image>
-  <image name="token_black_3">
-     <file>TS_CreaPack_Icon_-3N-</file>
-  </image>
-  <image name="token_yellow_3">
-     <file>TS_CreaPack_Icon_-3OR-</file>
-  </image>
-  <image name="token_pink_3">
-     <file>TS_CreaPack_Icon_-3RO-</file>
-  </image>
-  <image name="token_green_3">
-     <file>TS_CreaPack_Icon_-3V-</file>
-  </image>
+		<image name="token_blue_1">
+			<file>TS_CreaPack_Icon_-1BL--30</file>
+		</image>
+		<image name="token_grey_1">
+			<file>TS_CreaPack_Icon_-1BL--50</file>
+		</image>
+		<image name="token_black_1">
+			<file>TS_CreaPack_Icon_-1N-</file>
+		</image>
+		<image name="token_yellow_1">
+			<file>TS_CreaPack_Icon_-1OR-</file>
+		</image>
+		<image name="token_pink_1">
+			<file>TS_CreaPack_Icon_-1RO-</file>
+		</image>
+		<image name="token_green_1">
+			<file>TS_CreaPack_Icon_-1V-</file>
+		</image>
 
-  <image name="token_blue_4">
-     <file>TS_CreaPack_Icon_-4BL-</file>
-  </image>
-  <image name="token_grey_4">
-     <file>TS_CreaPack_Icon_-4B-</file>
-  </image>
-  <image name="token_black_4">
-     <file>TS_CreaPack_Icon_-4N-</file>
-  </image>
-  <image name="token_yellow_4">
-     <file>TS_CreaPack_Icon_-4OR-</file>
-  </image>
-  <image name="token_pink_4">
-     <file>TS_CreaPack_Icon_-4RO-</file>
-  </image>
-  <image name="token_green_4">
-     <file>TS_CreaPack_Icon_-4V-</file>
-  </image>
+		<image name="token_blue_2">
+			<file>TS_CreaPack_Icon_-2BL-</file>
+		</image>
+		<image name="token_grey_2">
+			<file>TS_CreaPack_Icon_-2B-</file>
+		</image>
+		<image name="token_black_2">
+			<file>TS_CreaPack_Icon_-2N-</file>
+		</image>
+		<image name="token_yellow_2">
+			<file>TS_CreaPack_Icon_-2OR-</file>
+		</image>
+		<image name="token_pink_2">
+			<file>TS_CreaPack_Icon_-2RO-</file>
+		</image>
+		<image name="token_green_2">
+			<file>TS_CreaPack_Icon_-2V-</file>
+		</image>
 
-  <image name="shield_shield">
-     <file>TS_CreaPack_Icon_-B-</file>
-  </image>  
-  <image name="shield">
-  <file>"TS_CreaPack_Icon_-BB-</file>
-  </image>  
-    <image name="shield_time">
-     <file>TS_CreaPack_Icon_-BCB- copie 2</file>
-  </image>  
-  <image name="shield_blue_skull">
-     <file>TS_CreaPack_Icon_-BCB-</file>
-  </image>  
-  <image name="shield_red_skull">
-     <file>TS_CreaPack_Icon_-BCR-</file>
-  </image>  
-  <image name="shield_heart">
-     <file>TS_CreaPack_Icon_-BN-</file>
-  </image>  
-  <image name="lock">
-     <file>TS_CreaPack_Icon_-CAD-</file>
-  </image>  
-  <image name="!">
-     <file>TS_CreaPack_Icon_-PE-</file>
-  </image>  
-  
-  <image name="skill_combat">
-     <file>TS_CreaPack_Icon_-CC-</file>
-  </image> 
-  <image name="skill_glib">
-     <file>TS_CreaPack_Icon_-M-</file>
-  </image> 
-  <image name="skill_agile">
-     <file>TS_CreaPack_Icon_-M- copie</file>
-  </image> 
- 
-  <image name="ammo_blue">
-     <file>TS_CreaPack_Icon_-JB-</file>
-  </image>  
-  <image name="ammo_green">
-     <file>TS_CreaPack_Icon_-JV-</file>
-  </image>  
-  <image name="ammo_grey">
-     <file>TS_CreaPack_Icon_-JN-</file>
-  </image>  
-  <image name="ammo_brown">
-     <file>TS_CreaPack_Icon_-JM-</file>
-  </image>  
-  <image name="ammo_yellow">
-     <file>TS_CreaPack_Icon_-JJ-</file>
-  </image>  
+		<image name="token_blue_3">
+			<file>TS_CreaPack_Icon_-3BL--27</file>
+		</image>
+		<image name="token_grey_3">
+			<file>TS_CreaPack_Icon_-3BL--54</file>
+		</image>
+		<image name="token_black_3">
+			<file>TS_CreaPack_Icon_-3N-</file>
+		</image>
+		<image name="token_yellow_3">
+			<file>TS_CreaPack_Icon_-3OR-</file>
+		</image>
+		<image name="token_pink_3">
+			<file>TS_CreaPack_Icon_-3RO-</file>
+		</image>
+		<image name="token_green_3">
+			<file>TS_CreaPack_Icon_-3V-</file>
+		</image>
 
-  <image name="heart">
-     <file>TS_CreaPack_Icon_-PV-</file>
-  </image> 
+		<image name="token_blue_4">
+			<file>TS_CreaPack_Icon_-4BL-</file>
+		</image>
+		<image name="token_grey_4">
+			<file>TS_CreaPack_Icon_-4B-</file>
+		</image>
+		<image name="token_black_4">
+			<file>TS_CreaPack_Icon_-4N-</file>
+		</image>
+		<image name="token_yellow_4">
+			<file>TS_CreaPack_Icon_-4OR-</file>
+		</image>
+		<image name="token_pink_4">
+			<file>TS_CreaPack_Icon_-4RO-</file>
+		</image>
+		<image name="token_green_4">
+			<file>TS_CreaPack_Icon_-4V-</file>
+		</image>
 
-  <image name="time">
-     <file>TS_CreaPack_Icon_-UTN-</file>
-  </image> 
-  
-  <image name="hit_die">
-     <file>TS_CreaPack_Icon_-FD1R-</file>
-  </image> 
+		<image name="shield_shield">
+			<file>TS_CreaPack_Icon_-B-</file>
+		</image>  
+		<image name="shield">
+			<file>"TS_CreaPack_Icon_-BB-</file>
+		</image>  
+		<image name="shield_time">
+			<file>TS_CreaPack_Icon_-BCB- copie 2</file>
+		</image>  
+		<image name="shield_blue_skull">
+			<file>TS_CreaPack_Icon_-BCB-</file>
+		</image>  
+		<image name="shield_red_skull">
+			<file>TS_CreaPack_Icon_-BCR-</file>
+		</image>  
+		<image name="shield_heart">
+			<file>TS_CreaPack_Icon_-BN-</file>
+		</image>  
+		<image name="lock">
+			<file>TS_CreaPack_Icon_-CAD-</file>
+		</image>  
+		<image name="!">
+			<file>TS_CreaPack_Icon_-PE-</file>
+		</image>  
 
-  <image name="blue_logo">
-     <file>TS_CreaPack_Icon_-LOGO-</file>
-  </image> 
-  
-  <image name="pistol">
-     <file>pistol</file>
-  </image> 
-  <image name="arm1">
-     <file>arm1</file>
-  </image> 
-  <image name="arm2">
-     <file>arm2</file>
-  </image> 
-  <image name="leg1">
-     <file>leg1</file>
-  </image> 
-  <image name="leg2">
-     <file>leg2</file>
-  </image> 
-  <image name="battery">
-     <file>battery</file>
-  </image> 
-  <image name="inq_logo">
-     <file>inq_logo</file>
-  </image> 
-  <image name="ing_logo_alpha">
-     <file>ing_logo_alpha</file>
-  </image> 
-  <image name="shovel">
-     <file>shovel</file>
-  </image> 
-  <image name="soul">
-     <file>soul</file>
-  </image> 
-  <image name="dummies">
-     <file>dummies</file>
-  </image> 
-  <image name="stick">
-     <file>stick</file>
-  </image> 
-  <image name="sword">
-     <file>sword</file>
-  </image> 
-  <image name="syringe">
-     <file>syringe</file>
-  </image> 
-  <image name="zune">
-     <file>zune</file>
-  </image> 
-  <image name="shorts">
-     <file>shorts</file>
-  </image>
-  <image name="nailgun">
-     <file>nailgun</file>
-  </image> 
-  <image name="bottle">
-     <file>bottle</file>
-  </image> 
-  
-  <image name="top_card">
-   <file>top_card</file>
-  </image>
-  <image name="bottom_card_grey">
-   <file>bottom_grey</file>
-  </image>
-  <image name="bottom_card_blue">
-   <file>bottom_blue</file>
-  </image>
-  <image name="background_brown">
-   <file>background_brown</file>
-  </image>
-  <image name="background_green">
-   <file>background_green</file>
-  </image>
-  <image name="background_cyan">
-   <file>background_cyan</file>
-  </image>
-  <image name="border_overlay">
-   <file>four_corner_border</file>
-  </image>
-  <image name="base_a">
-   <file>base_a</file>
-  </image>
-  <image name="base_b">
-   <file>base_b</file>
-  </image>
-  <image name="base_c">
-   <file>base_c</file>
-  </image>
-  <image name="base_d">
-   <file>base_d</file>
-  </image>
-  <image name="base_e">
-   <file>base_e</file>
-  </image>
-  <image name="base_f">
-   <file>base_f</file>
-  </image>
-  <image name="base_g">
-   <file>base_g</file>
-  </image>
-  <image name="char_stone_mason">
-   <file>stone_mason</file>
-  </image>
-  <image name="char_bishop">
-   <file>bbishop</file>
-  </image>
-  <image name="char_knight">
-   <file>knight</file>
-  </image>
-  <image name="char_noble_woman">
-   <file>noble_woman</file>
-  </image>
-  <image name="char_streetsmart">
-   <file>streetsmart</file>
-  </image>
-  <image name="char_nun">
-   <file>nun</file>
-  </image>
+		<image name="skill_combat">
+			<file>TS_CreaPack_Icon_-CC-</file>
+		</image> 
+		<image name="skill_glib">
+			<file>TS_CreaPack_Icon_-M-</file>
+		</image> 
+		<image name="skill_agile">
+			<file>TS_CreaPack_Icon_-M- copie</file>
+		</image> 
 
-  <image name="loc_chapel_b">
-    <file>chapel</file>
-    <rectangle>[0,0,945,-1]</rectangle>
-  </image>
-  <image name="loc_chapel_c">
-    <file>chapel</file>
-    <rectangle>[946,0,945,-1]</rectangle>
-  </image>
-  <image name="loc_chapel_d">
-    <file>chapel</file>
-    <rectangle>[1891,0,945,-1]</rectangle>
-  </image>
-  <image name="loc_chapel_e">
-    <file>chapel</file>
-    <rectangle>[2836,0,945,-1]</rectangle>
-  </image>
+		<image name="ammo_blue">
+			<file>TS_CreaPack_Icon_-JB-</file>
+		</image>  
+		<image name="ammo_green">
+			<file>TS_CreaPack_Icon_-JV-</file>
+		</image>  
+		<image name="ammo_grey">
+			<file>TS_CreaPack_Icon_-JN-</file>
+		</image>  
+		<image name="ammo_brown">
+			<file>TS_CreaPack_Icon_-JM-</file>
+		</image>  
+		<image name="ammo_yellow">
+			<file>TS_CreaPack_Icon_-JJ-</file>
+		</image>  
 
-  <image name="loc_court_b">
-    <file>coourtroom_revised_A</file>
-    <rectangle>[0,0,945,-1]</rectangle>
-  </image>
-  <image name="loc_court_c">
-    <file>coourtroom_revised_A</file>
-    <rectangle>[946,0,945,-1]</rectangle>
-  </image>
-  <image name="loc_court_d">
-    <file>coourtroom_revised_A</file>
-    <rectangle>[1891,0,945,-1]</rectangle>
-  </image>
-  <image name="loc_court_e">
-    <file>coourtroom_revised_A</file>
-    <rectangle>[2836,0,945,-1]</rectangle>
-  </image>
+		<image name="heart">
+			<file>TS_CreaPack_Icon_-PV-</file>
+		</image> 
 
-  <image name="loc_hypermart_b">
-    <file>hypermart</file>
-    <rectangle>[0,0,945,-1]</rectangle>
-  </image>
-  <image name="loc_hypermart_c">
-    <file>hypermart</file>
-    <rectangle>[946,0,945,-1]</rectangle>
-  </image>
-  <image name="loc_hypermart_d">
-    <file>hypermart</file>
-    <rectangle>[1891,0,945,-1]</rectangle>
-  </image>
-  <image name="loc_hypermart_e">
-    <file>hypermart</file>
-    <rectangle>[2836,0,945,-1]</rectangle>
-  </image>
-  <image name="loc_hypermart_f">
-    <file>hypermart</file>
-    <rectangle>[3781,0,945,-1]</rectangle>
-  </image>
-  <image name="loc_hypermart_g">
-    <file>hypermart</file>
-    <rectangle>[4726,0,945,-1]</rectangle>
-  </image>
-  <image name="loc_hypermart_h">
-    <file>hypermart</file>
-    <rectangle>[5671,0,945,-1]</rectangle>
-  </image>
+		<image name="time">
+			<file>TS_CreaPack_Icon_-UTN-</file>
+		</image> 
 
-  <image name="loc_path_b">
-    <file>path_to_town</file>
-    <rectangle>[0,0,945,-1]</rectangle>
-  </image>
-  <image name="loc_path_c">
-    <file>path_to_town</file>
-    <rectangle>[946,0,945,-1]</rectangle>
-  </image>
-  <image name="loc_path_d">
-    <file>path_to_town</file>
-    <rectangle>[1891,0,945,-1]</rectangle>
-  </image>
-  <image name="loc_path_e">
-    <file>path_to_town</file>
-    <rectangle>[2836,0,945,-1]</rectangle>
-  </image>
-  <image name="loc_path_f">
-    <file>path_to_town</file>
-    <rectangle>[3781,0,945,-1]</rectangle>
-  </image>
+		<image name="hit_die">
+			<file>TS_CreaPack_Icon_-FD1R-</file>
+		</image> 
 
-  <image name="loc_graveyard_b">
-    <file>scene_3_graveyard</file>
-    <rectangle>[0,0,945,-1]</rectangle>
-  </image>
-  <image name="loc_graveyard_c">
-    <file>scene_3_graveyard</file>
-    <rectangle>[946,0,945,-1]</rectangle>
-  </image>
-  <image name="loc_graveyard_d">
-    <file>scene_3_graveyard</file>
-    <rectangle>[1891,0,945,-1]</rectangle>
-  </image>
-  <image name="loc_graveyard_e">
-    <file>scene_3_graveyard</file>
-    <rectangle>[2836,0,945,-1]</rectangle>
-  </image>
-  <image name="loc_graveyard_f">
-    <file>scene_3_graveyard</file>
-    <rectangle>[3781,0,945,-1]</rectangle>
-  </image>
+		<image name="blue_logo">
+			<file>TS_CreaPack_Icon_-LOGO-</file>
+		</image> 
 
-  <image name="loc_inn_b">
-    <file>scene_4_inn_bar</file>
-    <rectangle>[0,0,945,-1]</rectangle>
-  </image>
-  <image name="loc_inn_c">
-    <file>scene_4_inn_bar</file>
-    <rectangle>[946,0,945,-1]</rectangle>
-  </image>
-  <image name="loc_inn_d">
-    <file>scene_4_inn_bar</file>
-    <rectangle>[1891,0,945,-1]</rectangle>
-  </image>
-  <image name="loc_inn_e">
-    <file>scene_4_inn_bar</file>
-    <rectangle>[2836,0,945,-1]</rectangle>
-  </image>
-  <image name="loc_inn_f">
-    <file>scene_4_inn_bar</file>
-    <rectangle>[3781,0,945,-1]</rectangle>
-  </image>
+		<image name="pistol">
+			<file>pistol</file>
+		</image> 
+		<image name="arm1">
+			<file>arm1</file>
+		</image> 
+		<image name="arm2">
+			<file>arm2</file>
+		</image> 
+		<image name="leg1">
+			<file>leg1</file>
+		</image> 
+		<image name="leg2">
+			<file>leg2</file>
+		</image> 
+		<image name="battery">
+			<file>battery</file>
+		</image> 
+		<image name="inq_logo">
+			<file>inq_logo</file>
+		</image> 
+		<image name="ing_logo_alpha">
+			<file>ing_logo_alpha</file>
+		</image> 
+		<image name="shovel">
+			<file>shovel</file>
+		</image> 
+		<image name="soul">
+			<file>soul</file>
+		</image> 
+		<image name="dummies">
+			<file>dummies</file>
+		</image> 
+		<image name="stick">
+			<file>stick</file>
+		</image> 
+		<image name="sword">
+			<file>sword</file>
+		</image> 
+		<image name="syringe">
+			<file>syringe</file>
+		</image> 
+		<image name="zune">
+			<file>zune</file>
+		</image> 
+		<image name="shorts">
+			<file>shorts</file>
+		</image>
+		<image name="nailgun">
+			<file>nailgun</file>
+		</image> 
+		<image name="bottle">
+			<file>bottle</file>
+		</image> 
 
-  <image name="loc_dungeon_b">
-    <file>torture_room</file>
-    <rectangle>[0,0,945,-1]</rectangle>
-  </image>
-  <image name="loc_dungeon_c">
-    <file>torture_room</file>
-    <rectangle>[946,0,945,-1]</rectangle>
-  </image>
-  <image name="loc_dungeon_d">
-    <file>torture_room</file>
-    <rectangle>[1891,0,945,-1]</rectangle>
-  </image>
-  <image name="loc_dungeon_e">
-    <file>torture_room</file>
-    <rectangle>[2836,0,945,-1]</rectangle>
-  </image>
-  <image name="loc_dungeon_f">
-    <file>torture_room</file>
-    <rectangle>[3781,0,945,-1]</rectangle>
-  </image>
-  <image name="loc_dungeon_g">
-    <file>torture_room</file>
-    <rectangle>[4726,0,945,-1]</rectangle>
-  </image>
-  <image name="loc_dungeon_h">
-    <file>torture_room</file>
-    <rectangle>[5671,0,945,-1]</rectangle>
-  </image>
+		<image name="top_card">
+			<file>top_card</file>
+		</image>
+		<image name="bottom_card_grey">
+			<file>bottom_grey</file>
+		</image>
+		<image name="bottom_card_blue">
+			<file>bottom_blue</file>
+		</image>
+		<image name="background_brown">
+			<file>background_brown</file>
+		</image>
+		<image name="background_green">
+			<file>background_green</file>
+		</image>
+		<image name="background_cyan">
+			<file>background_cyan</file>
+		</image>
+		<image name="border_overlay">
+			<file>four_corner_border</file>
+		</image>
+		<image name="base_a">
+			<file>base_a</file>
+		</image>
+		<image name="base_b">
+			<file>base_b</file>
+		</image>
+		<image name="base_c">
+			<file>base_c</file>
+		</image>
+		<image name="base_d">
+			<file>base_d</file>
+		</image>
+		<image name="base_e">
+			<file>base_e</file>
+		</image>
+		<image name="base_f">
+			<file>base_f</file>
+		</image>
+		<image name="base_g">
+			<file>base_g</file>
+		</image>
+		<image name="char_stone_mason">
+			<file>stone_mason</file>
+		</image>
+		<image name="char_bishop">
+			<file>bbishop</file>
+		</image>
+		<image name="char_knight">
+			<file>knight</file>
+		</image>
+		<image name="char_noble_woman">
+			<file>noble_woman</file>
+		</image>
+		<image name="char_streetsmart">
+			<file>streetsmart</file>
+		</image>
+		<image name="char_nun">
+			<file>nun</file>
+		</image>
 
-  <image name="loc_field_b">
-    <file>witch_burning</file>
-    <rectangle>[0,0,945,-1]</rectangle>
-  </image>
-  <image name="loc_field_c">
-    <file>witch_burning</file>
-    <rectangle>[946,0,945,-1]</rectangle>
-  </image>
-  <image name="loc_field_d">
-    <file>witch_burning</file>
-    <rectangle>[1891,0,945,-1]</rectangle>
-  </image>
-  <image name="loc_field_e">
-    <file>witch_burning</file>
-    <rectangle>[2836,0,945,-1]</rectangle>
-  </image>
-  <image name="loc_field_f">
-    <file>witch_burning</file>
-    <rectangle>[2836,0,945,-1]</rectangle>
-  </image>
-  <image name="loc_field_g">
-    <file>witch_burning</file>
-    <rectangle>[2836,0,945,-1]</rectangle>
-  </image>
+		<image name="loc_chapel_b">
+			<file>chapel</file>
+			<rectangle>[0,0,945,-1]</rectangle>
+		</image>
+		<image name="loc_chapel_c">
+			<file>chapel</file>
+			<rectangle>[946,0,945,-1]</rectangle>
+		</image>
+		<image name="loc_chapel_d">
+			<file>chapel</file>
+			<rectangle>[1891,0,945,-1]</rectangle>
+		</image>
+		<image name="loc_chapel_e">
+			<file>chapel</file>
+			<rectangle>[2836,0,945,-1]</rectangle>
+		</image>
 
-  <image name="loc_lab_b">
-    <file>underground_b</file>
-    <rectangle>[0,0,945,-1]</rectangle>
-  </image>
-  <image name="loc_lab_c">
-    <file>underground_b</file>
-    <rectangle>[946,0,945,-1]</rectangle>
-  </image>
-  <image name="loc_lab_d">
-    <file>underground_b</file>
-    <rectangle>[1891,0,945,-1]</rectangle>
-  </image>
-  <image name="loc_lab_e">
-    <file>underground_b</file>
-    <rectangle>[2836,0,945,-1]</rectangle>
-  </image>
-  <image name="loc_lab_f">
-    <file>underground_b</file>
-    <rectangle>[3781,0,945,-1]</rectangle>
-  </image>
+		<image name="loc_court_b">
+			<file>coourtroom_revised_A</file>
+			<rectangle>[0,0,945,-1]</rectangle>
+		</image>
+		<image name="loc_court_c">
+			<file>coourtroom_revised_A</file>
+			<rectangle>[946,0,945,-1]</rectangle>
+		</image>
+		<image name="loc_court_d">
+			<file>coourtroom_revised_A</file>
+			<rectangle>[1891,0,945,-1]</rectangle>
+		</image>
+		<image name="loc_court_e">
+			<file>coourtroom_revised_A</file>
+			<rectangle>[2836,0,945,-1]</rectangle>
+		</image>
 
-  <style name="default">
-   <typeface>Arial</typeface>
-   <linestyle>solid</linestyle>
-   <fillcolor>[255, 255, 255, 255]</fillcolor>
-   <bordercolor>[0, 0, 0, 255]</bordercolor>
-   <textcolor>[0, 0, 0, 255]</textcolor>
-   <typesize>12</typesize>
-   <borderthickness>1</borderthickness>
-  </style>
-  <style name="deckcardtext">
-   <typeface>Arial</typeface>
-   <linestyle>solid</linestyle>
-   <fillcolor>[255, 255, 255, 0]</fillcolor>
-   <bordercolor>[0, 0, 0, 0]</bordercolor>
-   <textcolor>[255, 255, 255, 255]</textcolor>
-   <typesize>25</typesize>
-   <borderthickness>1</borderthickness>
-   <justification>center</justification>
-  </style>
-  <style name="copyright">
-   <typeface>Arial</typeface>
-   <linestyle>solid</linestyle>
-   <fillcolor>[255, 255, 255, 0]</fillcolor>
-   <bordercolor>[0, 0, 0, 0]</bordercolor>
-   <textcolor>[255, 255, 255, 255]</textcolor>
-   <typesize>8</typesize>
-   <borderthickness>1</borderthickness>
-   <justification>center</justification>
-  </style>
-  <style name="corner_number">
-   <typeface>Arial</typeface>
-   <linestyle>halo</linestyle>
-   <fillcolor>[255, 255, 255, 0]</fillcolor>
-   <textcolor>[255, 255, 255, 255]</textcolor>
-   <bordercolor>[0, 0, 0, 200]</bordercolor>
-   <typesize>9</typesize>
-   <borderthickness>1</borderthickness>
-   <justification>center</justification>
-  </style>
-  <style name="big_white_clear">
-   <typeface>Arial</typeface>
-   <linestyle>solid</linestyle>
-   <fillcolor>[255, 255, 255, 0]</fillcolor>
-   <bordercolor>[0, 0, 0, 0]</bordercolor>
-   <textcolor>[255, 255, 255, 255]</textcolor>
-   <typesize>18</typesize>
-   <borderthickness>1</borderthickness>
-  </style>
-  <style name="big">
-   <typeface>Arial</typeface>
-   <linestyle>solid</linestyle>
-   <fillcolor>[255, 255, 255, 0]</fillcolor>
-   <bordercolor>[0, 0, 0, 0]</bordercolor>
-   <textcolor>[0, 255, 0, 255]</textcolor>
-   <typesize>18</typesize>
-   <borderthickness>1</borderthickness>
-  </style>
-  <style name="item_number">
-   <typeface>Arial</typeface>
-   <linestyle>solid</linestyle>
-   <fillcolor>[255, 255, 255, 0]</fillcolor>
-   <bordercolor>[0, 0, 0, 0]</bordercolor>
-   <textcolor>[255, 255, 255, 255]</textcolor>
-   <typesize>50</typesize>
-   <borderthickness>1</borderthickness>
-   <justification>center</justification>
-  </style>
-  <style name="italic">
-   <typeface>Arial:italic</typeface>
-   <linestyle>solid</linestyle>
-   <fillcolor>[255, 255, 255, 0]</fillcolor>
-   <bordercolor>[0, 0, 0, 0]</bordercolor>
-   <textcolor>[0, 0, 0, 255]</textcolor>
-   <typesize>12</typesize>
-   <borderthickness>1</borderthickness>
-  </style>
- </assets>
+		<image name="loc_hypermart_b">
+			<file>hypermart</file>
+			<rectangle>[0,0,945,-1]</rectangle>
+		</image>
+		<image name="loc_hypermart_c">
+			<file>hypermart</file>
+			<rectangle>[946,0,945,-1]</rectangle>
+		</image>
+		<image name="loc_hypermart_d">
+			<file>hypermart</file>
+			<rectangle>[1891,0,945,-1]</rectangle>
+		</image>
+		<image name="loc_hypermart_e">
+			<file>hypermart</file>
+			<rectangle>[2836,0,945,-1]</rectangle>
+		</image>
+		<image name="loc_hypermart_f">
+			<file>hypermart</file>
+			<rectangle>[3781,0,945,-1]</rectangle>
+		</image>
+		<image name="loc_hypermart_g">
+			<file>hypermart</file>
+			<rectangle>[4726,0,945,-1]</rectangle>
+		</image>
+		<image name="loc_hypermart_h">
+			<file>hypermart</file>
+			<rectangle>[5671,0,945,-1]</rectangle>
+		</image>
 
- <cards>
+		<image name="loc_path_b">
+			<file>path_to_town</file>
+			<rectangle>[0,0,945,-1]</rectangle>
+		</image>
+		<image name="loc_path_c">
+			<file>path_to_town</file>
+			<rectangle>[946,0,945,-1]</rectangle>
+		</image>
+		<image name="loc_path_d">
+			<file>path_to_town</file>
+			<rectangle>[1891,0,945,-1]</rectangle>
+		</image>
+		<image name="loc_path_e">
+			<file>path_to_town</file>
+			<rectangle>[2836,0,945,-1]</rectangle>
+		</image>
+		<image name="loc_path_f">
+			<file>path_to_town</file>
+			<rectangle>[3781,0,945,-1]</rectangle>
+		</image>
 
-  <defaultcard name="Card Base">
-   <top>
-     <image name="border">
-      <image>border_overlay</image>
-      <rectangle>[0,0,-1,-1]</rectangle>
-      <rotation>0</rotation>
-      <order>-9</order>
-     </image>
-     <image name="background">
-      <image>background_brown</image>
-      <rectangle>[0,0,-1,-1]</rectangle>
-      <rotation>0</rotation>
-      <order>-10</order>
-     </image>
-     <text name="card number">
-      <text>{cN}</text>
-      <style>corner_number</style>
-      <rectangle>[10,1475,50,-1]</rectangle>
-      <rotation>0</rotation>
-      <order>100</order>
-     </text>
-   </top>
-   <bottom>
-   </bottom>
-  </defaultcard>
+		<image name="loc_graveyard_b">
+			<file>scene_3_graveyard</file>
+			<rectangle>[0,0,945,-1]</rectangle>
+		</image>
+		<image name="loc_graveyard_c">
+			<file>scene_3_graveyard</file>
+			<rectangle>[946,0,945,-1]</rectangle>
+		</image>
+		<image name="loc_graveyard_d">
+			<file>scene_3_graveyard</file>
+			<rectangle>[1891,0,945,-1]</rectangle>
+		</image>
+		<image name="loc_graveyard_e">
+			<file>scene_3_graveyard</file>
+			<rectangle>[2836,0,945,-1]</rectangle>
+		</image>
+		<image name="loc_graveyard_f">
+			<file>scene_3_graveyard</file>
+			<rectangle>[3781,0,945,-1]</rectangle>
+		</image>
 
-  <defaultitemcard name="Item Card Base">
-   <top>
-     <image name="border">
-      <image>border_overlay</image>
-      <rectangle>[0,0,-1,-1]</rectangle>
-      <rotation>0</rotation>
-      <order>-9</order>
-     </image>
-     <image name="background">
-      <image>background_green</image>
-      <rectangle>[0,0,-1,-1]</rectangle>
-      <rotation>0</rotation>
-      <order>-10</order>
-     </image>
-     <text name="item number">
-      <text>Item{n}{cn}</text>
-      <style>item_number</style>
-      <rectangle>[50,600,845,-1]</rectangle>
-      <rotation>0</rotation>
-      <order>0</order>
-     </text>
-     <text name="card number">
-      <text>{cN}</text>
-      <style>corner_number</style>
-      <rectangle>[10,1475,50,-1]</rectangle>
-      <rotation>0</rotation>
-      <order>100</order>
-     </text>
-   </top>
-   <bottom>
-   </bottom>
-  </defaultitemcard>
+		<image name="loc_inn_b">
+			<file>scene_4_inn_bar</file>
+			<rectangle>[0,0,945,-1]</rectangle>
+		</image>
+		<image name="loc_inn_c">
+			<file>scene_4_inn_bar</file>
+			<rectangle>[946,0,945,-1]</rectangle>
+		</image>
+		<image name="loc_inn_d">
+			<file>scene_4_inn_bar</file>
+			<rectangle>[1891,0,945,-1]</rectangle>
+		</image>
+		<image name="loc_inn_e">
+			<file>scene_4_inn_bar</file>
+			<rectangle>[2836,0,945,-1]</rectangle>
+		</image>
+		<image name="loc_inn_f">
+			<file>scene_4_inn_bar</file>
+			<rectangle>[3781,0,945,-1]</rectangle>
+		</image>
 
-  <defaultlocationcard name="Location Card Base">
-   <top>
-     <image name="border">
-      <image>border_overlay</image>
-      <rectangle>[0,0,-1,-1]</rectangle>
-      <rotation>0</rotation>
-      <order>-9</order>
-     </image>
-     <image name="background">
-      <image>background_brown</image>
-      <rectangle>[0,0,-1,-1]</rectangle>
-      <rotation>0</rotation>
-      <order>-10</order>
-     </image>
-     <text name="card number">
-      <text>{cN}</text>
-      <style>corner_number</style>
-      <rectangle>[10,1475,50,-1]</rectangle>
-      <rotation>0</rotation>
-      <order>100</order>
-     </text>
-	 <text name="location name">
-      <text>{ls} - {ca}</text>
-      <style>corner_number</style>
-      <rectangle>[250,1475,445,-1]</rectangle>
-      <rotation>0</rotation>
-      <order>100</order>
-     </text>
-   </top>
-   <bottom>
-   </bottom>
-  </defaultlocationcard>
+		<image name="loc_dungeon_b">
+			<file>torture_room</file>
+			<rectangle>[0,0,945,-1]</rectangle>
+		</image>
+		<image name="loc_dungeon_c">
+			<file>torture_room</file>
+			<rectangle>[946,0,945,-1]</rectangle>
+		</image>
+		<image name="loc_dungeon_d">
+			<file>torture_room</file>
+			<rectangle>[1891,0,945,-1]</rectangle>
+		</image>
+		<image name="loc_dungeon_e">
+			<file>torture_room</file>
+			<rectangle>[2836,0,945,-1]</rectangle>
+		</image>
+		<image name="loc_dungeon_f">
+			<file>torture_room</file>
+			<rectangle>[3781,0,945,-1]</rectangle>
+		</image>
+		<image name="loc_dungeon_g">
+			<file>torture_room</file>
+			<rectangle>[4726,0,945,-1]</rectangle>
+		</image>
+		<image name="loc_dungeon_h">
+			<file>torture_room</file>
+			<rectangle>[5671,0,945,-1]</rectangle>
+		</image>
 
-  <iconreference name="Icon Reference">
-   <top name="top">
-   </top>
-   <bottom name="bottom">
-   </bottom>
-  </iconreference>
+		<image name="loc_field_b">
+			<file>witch_burning</file>
+			<rectangle>[0,0,945,-1]</rectangle>
+		</image>
+		<image name="loc_field_c">
+			<file>witch_burning</file>
+			<rectangle>[946,0,945,-1]</rectangle>
+		</image>
+		<image name="loc_field_d">
+			<file>witch_burning</file>
+			<rectangle>[1891,0,945,-1]</rectangle>
+		</image>
+		<image name="loc_field_e">
+			<file>witch_burning</file>
+			<rectangle>[2836,0,945,-1]</rectangle>
+		</image>
+		<image name="loc_field_f">
+			<file>witch_burning</file>
+			<rectangle>[2836,0,945,-1]</rectangle>
+		</image>
+		<image name="loc_field_g">
+			<file>witch_burning</file>
+			<rectangle>[2836,0,945,-1]</rectangle>
+		</image>
 
-  <deckcards>
-   <card name="deck_top_card">
-    <top>
-     <image name="top_card">
-      <image>top_card</image>
-      <rectangle>[0,0,-1,-1]</rectangle>
-      <rotation>0</rotation>
-      <order>10</order>
-     </image>
-     <text name="title">
-      <text>Heresy{n}&#x2500;&#x2500;&#x2500;&#x2500;{n}1499 NT</text>
-      <style>deckcardtext</style>
-      <rectangle>[100,350,745,-1]</rectangle>
-      <rotation>0</rotation>
-      <order>11</order>
-     </text>
-    </top>
-    <bottom>
-     <image name="bottom_card_grey">
-      <image>bottom_card_grey</image>
-      <rectangle>[0,0,-1,-1]</rectangle>
-      <rotation>0</rotation>
-      <order>10</order>
-     </image>
-     <text name="copyright">
-      <text>&#x00A9; 2017 Marina Galvagni and Randy Frank{n}Original artwork by Rizky Nugraha</text>
-      <style>copyright</style>
-      <rectangle>[50,1300,845,-1]</rectangle>
-      <rotation>0</rotation>
-      <order>11</order>
-     </text>
-    </bottom>
-   </card>
-   <card name="deck_bottom_card">
-    <top>
-     <image name="bottom_card_grey">
-      <image>bottom_card_grey</image>
-      <rectangle>[0,0,-1,-1]</rectangle>
-      <rotation>0</rotation>
-      <order>10</order>
-     </image>
-    </top>
-    <bottom>
-     <image name="bottom_card_blue">
-      <image>bottom_card_blue</image>
-      <rectangle>[0,0,-1,-1]</rectangle>
-      <rotation>0</rotation>
-      <order>10</order>
-     </image>
-    </bottom>
-   </card>
-  </deckcards>
+		<image name="loc_lab_b">
+			<file>underground_b</file>
+			<rectangle>[0,0,945,-1]</rectangle>
+		</image>
+		<image name="loc_lab_c">
+			<file>underground_b</file>
+			<rectangle>[946,0,945,-1]</rectangle>
+		</image>
+		<image name="loc_lab_d">
+			<file>underground_b</file>
+			<rectangle>[1891,0,945,-1]</rectangle>
+		</image>
+		<image name="loc_lab_e">
+			<file>underground_b</file>
+			<rectangle>[2836,0,945,-1]</rectangle>
+		</image>
+		<image name="loc_lab_f">
+			<file>underground_b</file>
+			<rectangle>[3781,0,945,-1]</rectangle>
+		</image>
 
-  <misc>
-  </misc>
+		<style name="default">
+			<typeface>Arial</typeface>
+			<linestyle>solid</linestyle>
+			<fillcolor>[255, 255, 255, 255]</fillcolor>
+			<bordercolor>[0, 0, 0, 255]</bordercolor>
+			<textcolor>[0, 0, 0, 255]</textcolor>
+			<typesize>12</typesize>
+			<borderthickness>1</borderthickness>
+		</style>
+		<style name="deckcardtext">
+			<typeface>Arial</typeface>
+			<linestyle>solid</linestyle>
+			<fillcolor>[255, 255, 255, 0]</fillcolor>
+			<bordercolor>[0, 0, 0, 0]</bordercolor>
+			<textcolor>[255, 255, 255, 255]</textcolor>
+			<typesize>25</typesize>
+			<borderthickness>1</borderthickness>
+			<justification>center</justification>
+		</style>
+		<style name="copyright">
+			<typeface>Arial</typeface>
+			<linestyle>solid</linestyle>
+			<fillcolor>[255, 255, 255, 0]</fillcolor>
+			<bordercolor>[0, 0, 0, 0]</bordercolor>
+			<textcolor>[255, 255, 255, 255]</textcolor>
+			<typesize>8</typesize>
+			<borderthickness>1</borderthickness>
+			<justification>center</justification>
+		</style>
+		<style name="corner_number">
+			<typeface>Arial</typeface>
+			<linestyle>halo</linestyle>
+			<fillcolor>[255, 255, 255, 0]</fillcolor>
+			<textcolor>[255, 255, 255, 255]</textcolor>
+			<bordercolor>[0, 0, 0, 200]</bordercolor>
+			<typesize>9</typesize>
+			<borderthickness>1</borderthickness>
+			<justification>center</justification>
+		</style>
+		<style name="big_white_clear">
+			<typeface>Arial</typeface>
+			<linestyle>solid</linestyle>
+			<fillcolor>[255, 255, 255, 0]</fillcolor>
+			<bordercolor>[0, 0, 0, 0]</bordercolor>
+			<textcolor>[255, 255, 255, 255]</textcolor>
+			<typesize>18</typesize>
+			<borderthickness>1</borderthickness>
+		</style>
+		<style name="big">
+			<typeface>Arial</typeface>
+			<linestyle>solid</linestyle>
+			<fillcolor>[255, 255, 255, 0]</fillcolor>
+			<bordercolor>[0, 0, 0, 0]</bordercolor>
+			<textcolor>[0, 255, 0, 255]</textcolor>
+			<typesize>18</typesize>
+			<borderthickness>1</borderthickness>
+		</style>
+		<style name="item_number">
+			<typeface>Arial</typeface>
+			<linestyle>solid</linestyle>
+			<fillcolor>[255, 255, 255, 0]</fillcolor>
+			<bordercolor>[0, 0, 0, 0]</bordercolor>
+			<textcolor>[255, 255, 255, 255]</textcolor>
+			<typesize>50</typesize>
+			<borderthickness>1</borderthickness>
+			<justification>center</justification>
+		</style>
+		<style name="italic">
+			<typeface>Arial:italic</typeface>
+			<linestyle>solid</linestyle>
+			<fillcolor>[255, 255, 255, 0]</fillcolor>
+			<bordercolor>[0, 0, 0, 0]</bordercolor>
+			<textcolor>[0, 0, 0, 255]</textcolor>
+			<typesize>12</typesize>
+			<borderthickness>1</borderthickness>
+		</style>
+	</assets>
 
-  <locations>
+	<cards>
 
-   <location name="Path to Town">
-    <card name="loc_path_a">
-     <top>
-	  <text name="location name">
-       <text>Location: {ls}</text>
-       <style>big_white_clear</style>
-       <rectangle>[125,1370,1500,-1]</rectangle>
-       <rotation>270</rotation>
-       <order>-8</order>
-      </text>
-     </top>
-     <bottom>
-     </bottom>
-    </card>
-    <card name="loc_path_b">
-     <top>
-      <image>
-       <image>loc_path_b</image>
-       <order>10</order>
-      </image>
-     </top>
-     <bottom>
-     </bottom>
-    </card>
-    <card name="loc_path_c">
-     <top>
-      <image>
-       <image>loc_path_c</image>
-       <order>10</order>
-      </image>
-     </top>
-     <bottom>
-     </bottom>
-    </card>
-    <card name="loc_path_d">
-     <top>
-      <image>
-       <image>loc_path_d</image>
-       <order>10</order>
-      </image>
-     </top>
-     <bottom>
-     </bottom>
-    </card>
-    <card name="loc_path_e">
-     <top>
-      <image>
-       <image>loc_path_e</image>
-       <order>10</order>
-      </image>
-     </top>
-     <bottom>
-     </bottom>
-    </card>
-    <card name="loc_path_f">
-     <top>
-      <image>
-       <image>loc_path_f</image>
-       <order>10</order>
-      </image>
-     </top>
-     <bottom>
-     </bottom>
-    </card>
-   </location>
-   
-   <location name="Graveyard">
-    <card name="loc_graveyard_a">
-     <top>
-	  <text name="location name">
-       <text>Location: {ls}</text>
-       <style>big_white_clear</style>
-       <rectangle>[125,1370,1500,-1]</rectangle>
-       <rotation>270</rotation>
-       <order>-8</order>
-      </text>
-     </top>
-     <bottom>
-     </bottom>
-    </card>
-    <card name="loc_graveyard_b">
-     <top>
-      <image>
-       <image>loc_graveyard_b</image>
-       <order>10</order>
-      </image>
-     </top>
-     <bottom>
-     </bottom>
-    </card>
-    <card name="loc_graveyard_c">
-     <top>
-      <image>
-       <image>loc_graveyard_c</image>
-       <order>10</order>
-      </image>
-     </top>
-     <bottom>
-     </bottom>
-    </card>
-    <card name="loc_graveyard_d">
-     <top>
-      <image>
-       <image>loc_graveyard_d</image>
-       <order>10</order>
-      </image>
-     </top>
-     <bottom>
-     </bottom>
-    </card>
-    <card name="loc_graveyard_e">
-     <top>
-      <image>
-       <image>loc_graveyard_e</image>
-       <order>10</order>
-      </image>
-     </top>
-     <bottom>
-     </bottom>
-    </card>
-    <card name="loc_graveyard_f">
-     <top>
-      <image>
-       <image>loc_graveyard_f</image>
-       <order>10</order>
-      </image>
-     </top>
-     <bottom>
-     </bottom>
-    </card>
-   </location>
-   
-   <location name="Inn">
-    <card name="loc_graveyard_a">
-     <top>
-	  <text name="location name">
-       <text>Location: {ls}</text>
-       <style>big_white_clear</style>
-       <rectangle>[125,1370,1500,-1]</rectangle>
-       <rotation>270</rotation>
-       <order>-8</order>
-      </text>
-     </top>
-     <bottom>
-     </bottom>
-    </card>
-    <card name="loc_inn_b">
-     <top>
-      <image>
-       <image>loc_inn_b</image>
-       <order>10</order>
-      </image>
-     </top>
-     <bottom>
-     </bottom>
-    </card>
-    <card name="loc_inn_c">
-     <top>
-      <image>
-       <image>loc_inn_c</image>
-       <order>10</order>
-      </image>
-     </top>
-     <bottom>
-     </bottom>
-    </card>
-    <card name="loc_inn_d">
-     <top>
-      <image>
-       <image>loc_inn_d</image>
-       <order>10</order>
-      </image>
-     </top>
-     <bottom>
-     </bottom>
-    </card>
-    <card name="loc_inn_e">
-     <top>
-      <image>
-       <image>loc_inn_e</image>
-       <order>10</order>
-      </image>
-     </top>
-     <bottom>
-     </bottom>
-    </card>
-    <card name="loc_inn_f">
-     <top>
-      <image>
-       <image>loc_inn_f</image>
-       <order>10</order>
-      </image>
-     </top>
-     <bottom>
-     </bottom>
-    </card>
-    <card name="loc_inn_g">
-     <top>
-	  <image>
-       <image>token_yellow_1</image>
-	   <rectangle>[354,1100,-1,-1]</rectangle>
-       <order>10</order>
-      </image>
-     </top>
-     <bottom>
-     </bottom>
-    </card>
-   </location>
+		<defaultcard name="Card Base">
+			<top>
+				<image name="border">
+					<image>border_overlay</image>
+					<rectangle>[0,0,-1,-1]</rectangle>
+					<rotation>0</rotation>
+					<order>-9</order>
+				</image>
+				<image name="background">
+					<image>background_brown</image>
+					<rectangle>[0,0,-1,-1]</rectangle>
+					<rotation>0</rotation>
+					<order>-100</order>
+				</image>
+				<text name="card number">
+					<text>{cN}</text>
+					<style>corner_number</style>
+					<rectangle>[10,1475,50,-1]</rectangle>
+					<rotation>0</rotation>
+					<order>100</order>
+				</text>
+			</top>
+			<bottom>
+			</bottom>
+		</defaultcard>
 
-   <location name="Chapel">
-    <card name="loc_chapel_a">
-     <top>
-	  <text name="location name">
-       <text>Location: {ls}</text>
-       <style>big_white_clear</style>
-       <rectangle>[125,1370,1500,-1]</rectangle>
-       <rotation>270</rotation>
-       <order>-8</order>
-      </text>
-     </top>
-     <bottom>
-     </bottom>
-    </card>
-    <card name="loc_chapel_b">
-     <top>
-      <image>
-       <image>loc_chapel_b</image>
-       <order>10</order>
-      </image>
-     </top>
-     <bottom>
-     </bottom>
-    </card>
-    <card name="loc_chapel_c">
-     <top>
-      <image>
-       <image>loc_chapel_c</image>
-       <order>10</order>
-      </image>
-     </top>
-     <bottom>
-     </bottom>
-    </card>
-    <card name="loc_chapel_d">
-     <top>
-      <image>
-       <image>loc_chapel_d</image>
-       <order>10</order>
-      </image>
-     </top>
-     <bottom>
-     </bottom>
-    </card>
-    <card name="loc_chapel_e">
-     <top>
-      <image>
-       <image>loc_chapel_e</image>
-       <order>10</order>
-      </image>
-	  <image>
-       <image>token_pink_1</image>
-	   <rectangle>[354,1100,-1,-1]</rectangle>
-       <order>11</order>
-      </image>
-     </top>
-     <bottom>
-     </bottom>
-    </card>
-   </location>
-   
-   <location name="Courthouse">
-    <card name="loc_court_a">
-     <top>
-	  <text name="location name">
-       <text>Location: {ls}</text>
-       <style>big_white_clear</style>
-       <rectangle>[125,1370,1500,-1]</rectangle>
-       <rotation>270</rotation>
-       <order>-8</order>
-      </text>
-     </top>
-     <bottom>
-     </bottom>
-    </card>
-    <card name="loc_court_b">
-     <top>
-      <image>
-       <image>loc_court_b</image>
-       <order>10</order>
-      </image>
-     </top>
-     <bottom>
-     </bottom>
-    </card>
-    <card name="loc_court_c">
-     <top>
-      <image>
-       <image>loc_court_c</image>
-       <order>10</order>
-      </image>
-     </top>
-     <bottom>
-     </bottom>
-    </card>
-    <card name="loc_court_d">
-     <top>
-      <image>
-       <image>loc_court_d</image>
-       <order>10</order>
-      </image>
-     </top>
-     <bottom>
-     </bottom>
-    </card>
-    <card name="loc_court_e">
-     <top>
-      <image>
-       <image>loc_court_e</image>
-       <order>10</order>
-      </image>
-     </top>
-     <bottom>
-     </bottom>
-    </card>
-    <card name="loc_court_f">
-     <top>
-	  <image>
-       <image>token_blue_1</image>
-	   <rectangle>[177,1100,-1,-1]</rectangle>
-       <order>11</order>
-      </image>
-	  <image>
-       <image>!</image>
-	   <rectangle>[531,1100,-1,-1]</rectangle>
-       <order>11</order>
-      </image>
-	 </top>
-     <bottom>
-     </bottom>
-    </card>
-    <card name="loc_court_g">
-     <top>
-	  <image>
-       <image>token_black_3</image>
-	   <rectangle>[177,1100,-1,-1]</rectangle>
-       <order>11</order>
-      </image>
-	  <image>
-       <image>!</image>
-	   <rectangle>[531,1100,-1,-1]</rectangle>
-       <order>11</order>
-      </image>
-     </top>
-     <bottom>
-     </bottom>
-    </card>
-    <card name="loc_court_h">
-     <top>
-	  <image>
-       <image>token_green_2</image>
-	   <rectangle>[177,1100,-1,-1]</rectangle>
-       <order>11</order>
-      </image>
-	  <image>
-       <image>!</image>
-	   <rectangle>[531,1100,-1,-1]</rectangle>
-       <order>11</order>
-      </image>
-     </top>
-     <bottom>
-     </bottom>
-    </card>
-   </location>
-   
-   <location name="Dungeon">
-    <card name="loc_dungeon_a">
-     <top>
-	  <text name="location name">
-       <text>Location: {ls}</text>
-       <style>big_white_clear</style>
-       <rectangle>[125,1370,1500,-1]</rectangle>
-       <rotation>270</rotation>
-       <order>-8</order>
-      </text>
-     </top>
-     <bottom>
-     </bottom>
-    </card>
-    <card name="loc_dungeon_b">
-     <top>
-      <image>
-       <image>loc_dungeon_b</image>
-       <order>10</order>
-      </image>
-     </top>
-     <bottom>
-     </bottom>
-    </card>
-    <card name="loc_dungeon_c">
-     <top>
-      <image>
-       <image>loc_dungeon_c</image>
-       <order>10</order>
-      </image>
-     </top>
-     <bottom>
-     </bottom>
-    </card>
-    <card name="loc_dungeon_d">
-     <top>
-      <image>
-       <image>loc_dungeon_d</image>
-       <order>10</order>
-      </image>
-	  <image>
-       <image>token_yellow_3</image>
-	   <rectangle>[177,1100,-1,-1]</rectangle>
-       <order>11</order>
-      </image>
-	  <image>
-       <image>!</image>
-	   <rectangle>[531,1100,-1,-1]</rectangle>
-       <order>11</order>
-      </image>
-     </top>
-     <bottom>
-     </bottom>
-    </card>
-    <card name="loc_dungeon_e">
-     <top>
-      <image>
-       <image>loc_dungeon_e</image>
-       <order>10</order>
-      </image>
-	  <image>
-       <image>token_pink_4</image>
-	   <rectangle>[177,1100,-1,-1]</rectangle>
-       <order>11</order>
-      </image>
-	  <image>
-       <image>!</image>
-	   <rectangle>[531,1100,-1,-1]</rectangle>
-       <order>11</order>
-      </image>
-     </top>
-     <bottom>
-     </bottom>
-    </card>
-    <card name="loc_dungeon_f">
-     <top>
-      <image>
-       <image>loc_dungeon_f</image>
-       <order>10</order>
-      </image>
-	  <image>
-       <image>token_black_2</image>
-	   <rectangle>[177,1100,-1,-1]</rectangle>
-       <order>11</order>
-      </image>
-	  <image>
-       <image>!</image>
-	   <rectangle>[531,1100,-1,-1]</rectangle>
-       <order>11</order>
-      </image>
-	 </top>
-     <bottom>
-     </bottom>
-    </card>
-    <card name="loc_dungeon_g">
-     <top>
-      <image>
-       <image>loc_dungeon_g</image>
-       <order>10</order>
-      </image>
-     </top>
-     <bottom>
-     </bottom>
-    </card>
-    <card name="loc_dungeon_h">
-     <top>
-      <image>
-       <image>loc_dungeon_h</image>
-       <order>10</order>
-      </image>
-     </top>
-     <bottom>
-     </bottom>
-    </card>
-   </location>
-   
-   <location name="Field">
-    <card name="loc_field_a">
-     <top>
-	  <text name="location name">
-       <text>Location: {ls}</text>
-       <style>big_white_clear</style>
-       <rectangle>[125,1370,1500,-1]</rectangle>
-       <rotation>270</rotation>
-       <order>-8</order>
-      </text>
-     </top>
-     <bottom>
-     </bottom>
-    </card>
-    <card name="loc_field_b">
-     <top>
-      <image>
-       <image>loc_field_b</image>
-       <order>10</order>
-      </image>
-     </top>
-     <bottom>
-     </bottom>
-    </card>
-    <card name="loc_field_c">
-     <top>
-      <image>
-       <image>loc_field_c</image>
-       <order>10</order>
-      </image>
-     </top>
-     <bottom>
-     </bottom>
-    </card>
-    <card name="loc_field_d">
-     <top>
-      <image>
-       <image>loc_field_d</image>
-       <order>10</order>
-      </image>
-     </top>
-     <bottom>
-     </bottom>
-    </card>
-    <card name="loc_field_e">
-     <top>
-      <image>
-       <image>loc_field_e</image>
-       <order>10</order>
-      </image>
-	  <image>
-       <image>token_grey_4</image>
-	   <rectangle>[177,1100,-1,-1]</rectangle>
-       <order>11</order>
-      </image>
-	  <image>
-       <image>!</image>
-	   <rectangle>[531,1100,-1,-1]</rectangle>
-       <order>11</order>
-      </image>
-     </top>
-     <bottom>
-     </bottom>
-    </card>
-    <card name="loc_field_f">
-     <top>
-      <image>
-       <image>loc_field_f</image>
-       <order>10</order>
-      </image>
-	  <image>
-       <image>token_pink_3</image>
-	   <rectangle>[177,1100,-1,-1]</rectangle>
-       <order>11</order>
-      </image>
-	  <image>
-       <image>!</image>
-	   <rectangle>[531,1100,-1,-1]</rectangle>
-       <order>11</order>
-      </image>
-	 </top>
-     <bottom>
-     </bottom>
-    </card>
-    <card name="loc_field_g">
-     <top>
-      <image>
-       <image>loc_field_g</image>
-       <order>10</order>
-      </image>
-	  <image>
-       <image>token_blue_3</image>
-	   <rectangle>[177,1100,-1,-1]</rectangle>
-       <order>11</order>
-      </image>
-	  <image>
-       <image>!</image>
-	   <rectangle>[531,1100,-1,-1]</rectangle>
-       <order>11</order>
-      </image>
-     </top>
-     <bottom>
-     </bottom>
-    </card>
-   </location>
+		<defaultitemcard name="Item Card Base">
+			<top>
+				<image name="border">
+					<image>border_overlay</image>
+					<rectangle>[0,0,-1,-1]</rectangle>
+					<rotation>0</rotation>
+					<order>-9</order>
+				</image>
+				<image name="background">
+					<image>background_green</image>
+					<rectangle>[0,0,-1,-1]</rectangle>
+					<rotation>0</rotation>
+					<order>-100</order>
+				</image>
+				<text name="item number">
+					<text>Item{n}{cn}</text>
+					<style>item_number</style>
+					<rectangle>[50,600,845,-1]</rectangle>
+					<rotation>0</rotation>
+					<order>0</order>
+				</text>
+				<text name="card number">
+					<text>{cN}</text>
+					<style>corner_number</style>
+					<rectangle>[10,1475,50,-1]</rectangle>
+					<rotation>0</rotation>
+					<order>100</order>
+				</text>
+			</top>
+			<bottom>
+			</bottom>
+		</defaultitemcard>
 
-   <location name="Catecombs I">
-    <card name="cat_1_a">
-     <top>
-	  <text name="location name">
-       <text>Location: {ls}</text>
-       <style>big_white_clear</style>
-       <rectangle>[125,1370,1500,-1]</rectangle>
-       <rotation>270</rotation>
-       <order>-8</order>
-      </text>
-     </top>
-     <bottom>
-     </bottom>
-    </card>
-    <card name="cat_1_b">
-     <top>
-     </top>
-     <bottom>
-     </bottom>
-    </card>
-    <card name="cat_1_c">
-     <top>
-     </top>
-     <bottom>
-     </bottom>
-    </card>
-    <card name="cat_1_d">
-     <top>
-     </top>
-     <bottom>
-     </bottom>
-    </card>
-    <card name="cat_1_e">
-     <top>
-     </top>
-     <bottom>
-     </bottom>
-    </card>
-   </location>
+		<defaultlocationcard name="Location Card Base">
+			<top>
+				<image name="border">
+					<image>border_overlay</image>
+					<rectangle>[0,0,-1,-1]</rectangle>
+					<rotation>0</rotation>
+					<order>-9</order>
+				</image>
+				<image name="background">
+					<image>background_brown</image>
+					<rectangle>[0,0,-1,-1]</rectangle>
+					<rotation>0</rotation>
+					<order>-100</order>
+				</image>
+				<text name="card number">
+					<text>{cN}</text>
+					<style>corner_number</style>
+					<rectangle>[10,1475,50,-1]</rectangle>
+					<rotation>0</rotation>
+					<order>100</order>
+				</text>
+				<text name="location name">
+					<text>{ls} - {ca}</text>
+					<style>corner_number</style>
+					<rectangle>[250,1475,445,-1]</rectangle>
+					<rotation>0</rotation>
+					<order>100</order>
+				</text>
+			</top>
+			<bottom>
+			</bottom>
+		</defaultlocationcard>
 
-   <location name="Catecombs II">
-    <card name="cat_2_a">
-     <top>
-	  <text name="location name">
-       <text>Location: {ls}</text>
-       <style>big_white_clear</style>
-       <rectangle>[125,1370,1500,-1]</rectangle>
-       <rotation>270</rotation>
-       <order>-8</order>
-      </text>
-     </top>
-     <bottom>
-     </bottom>
-    </card>
-    <card name="cat_2_b">
-     <top>
-     </top>
-     <bottom>
-     </bottom>
-    </card>
-    <card name="cat_2_c">
-     <top>
-     </top>
-     <bottom>
-     </bottom>
-    </card>
-    <card name="cat_2_d">
-     <top>
-     </top>
-     <bottom>
-     </bottom>
-    </card>
-    <card name="cat_2_e">
-     <top>
-     </top>
-     <bottom>
-     </bottom>
-    </card>
-   </location>
+		<iconreference name="Icon Reference">
+			<top name="top">
+			</top>
+			<bottom name="bottom">
+			</bottom>
+		</iconreference>
 
-   <location name="Catecombs III">
-    <card name="cat_3_a">
-     <top>
-	  <text name="location name">
-       <text>Location: {ls}</text>
-       <style>big_white_clear</style>
-       <rectangle>[125,1370,1500,-1]</rectangle>
-       <rotation>270</rotation>
-       <order>-8</order>
-      </text>
-     </top>
-     <bottom>
-     </bottom>
-    </card>
-    <card name="cat_3_b">
-     <top>
-     </top>
-     <bottom>
-     </bottom>
-    </card>
-    <card name="cat_3_c">
-     <top>
-     </top>
-     <bottom>
-     </bottom>
-    </card>
-    <card name="cat_3_d">
-     <top>
-     </top>
-     <bottom>
-     </bottom>
-    </card>
-    <card name="cat_3_e">
-     <top>
-     </top>
-     <bottom>
-     </bottom>
-    </card>
-   </location>
+		<deckcards>
+			<card name="deck_top_card">
+				<top>
+					<image name="top_card">
+						<image>top_card</image>
+						<rectangle>[0,0,-1,-1]</rectangle>
+						<rotation>0</rotation>
+						<order>10</order>
+					</image>
+					<text name="title">
+						<text>Heresy{n}&#x2500;&#x2500;&#x2500;&#x2500;{n}1499 NT</text>
+						<style>deckcardtext</style>
+						<rectangle>[100,350,745,-1]</rectangle>
+						<rotation>0</rotation>
+						<order>11</order>
+					</text>
+				</top>
+				<bottom>
+					<image name="bottom_card_grey">
+						<image>bottom_card_grey</image>
+						<rectangle>[0,0,-1,-1]</rectangle>
+						<rotation>0</rotation>
+						<order>10</order>
+					</image>
+					<text name="copyright">
+						<text>&#x00A9; 2017 Marina Galvagni and Randy Frank{n}Original artwork by Rizky Nugraha</text>
+						<style>copyright</style>
+						<rectangle>[50,1300,845,-1]</rectangle>
+						<rotation>0</rotation>
+						<order>11</order>
+					</text>
+				</bottom>
+			</card>
+			<card name="deck_bottom_card">
+				<top>
+					<image name="bottom_card_grey">
+						<image>bottom_card_grey</image>
+						<rectangle>[0,0,-1,-1]</rectangle>
+						<rotation>0</rotation>
+						<order>10</order>
+					</image>
+				</top>
+				<bottom>
+					<image name="bottom_card_blue">
+						<image>bottom_card_blue</image>
+						<rectangle>[0,0,-1,-1]</rectangle>
+						<rotation>0</rotation>
+						<order>10</order>
+					</image>
+				</bottom>
+			</card>
+		</deckcards>
 
-   <location name="Catecombs IV">
-    <card name="cat_4_a">
-     <top>
-	  <text name="location name">
-       <text>Location: {ls}</text>
-       <style>big_white_clear</style>
-       <rectangle>[125,1370,1500,-1]</rectangle>
-       <rotation>270</rotation>
-       <order>-8</order>
-      </text>
-     </top>
-     <bottom>
-     </bottom>
-    </card>
-    <card name="cat_4_b">
-     <top>
-     </top>
-     <bottom>
-     </bottom>
-    </card>
-    <card name="cat_4_c">
-     <top>
-     </top>
-     <bottom>
-     </bottom>
-    </card>
-    <card name="cat_4_d">
-     <top>
-     </top>
-     <bottom>
-     </bottom>
-    </card>
-    <card name="cat_4_e">
-     <top>
-     </top>
-     <bottom>
-     </bottom>
-    </card>
-    <card name="cat_4_f">
-     <top>
-	  <image>
-       <image>token_yellow_4</image>
-	   <rectangle>[354,1100,-1,-1]</rectangle>
-       <order>11</order>
-      </image>
-	 </top>
-     <bottom>
-     </bottom>
-    </card>
-   </location>
-   
-   <location name="Laboratory">
-    <card name="loc_lab_a">
-     <top>
-	  <text name="location name">
-       <text>Location: {ls}</text>
-       <style>big_white_clear</style>
-       <rectangle>[125,1370,1500,-1]</rectangle>
-       <rotation>270</rotation>
-       <order>-8</order>
-      </text>
-     </top>
-     <bottom>
-     </bottom>
-    </card>
-    <card name="loc_lab_b">
-     <top>
-      <image>
-       <image>loc_lab_b</image>
-       <order>10</order>
-      </image>
-     </top>
-     <bottom>
-     </bottom>
-    </card>
-    <card name="loc_lab_c">
-     <top>
-      <image>
-       <image>loc_lab_c</image>
-       <order>10</order>
-      </image>
-     </top>
-     <bottom>
-     </bottom>
-    </card>
-    <card name="loc_lab_d">
-     <top>
-      <image>
-       <image>loc_lab_d</image>
-       <order>10</order>
-      </image>
-     </top>
-     <bottom>
-     </bottom>
-    </card>
-    <card name="loc_lab_e">
-     <top>
-      <image>
-       <image>loc_lab_e</image>
-       <order>10</order>
-      </image>
-     </top>
-     <bottom>
-     </bottom>
-    </card>
-    <card name="loc_lab_f">
-     <top>
-	  <image>
-       <image>loc_lab_f</image>
-       <order>10</order>
-      </image>
-	 </top>
-     <bottom>
-     </bottom>
-    </card>
-   </location>
+		<misc>
+		</misc>
 
-   <location name="Market">
-    <card name="loc_hypermart_a">
-     <top>
-	  <text name="location name">
-       <text>Location: {ls}</text>
-       <style>big_white_clear</style>
-       <rectangle>[125,1370,1500,-1]</rectangle>
-       <rotation>270</rotation>
-       <order>-8</order>
-      </text>
-     </top>
-     <bottom>
-     </bottom>
-    </card>
-    <card name="loc_hypermart_b">
-     <top>
-      <image>
-       <image>loc_hypermart_b</image>
-       <order>10</order>
-      </image>
-     </top>
-     <bottom>
-     </bottom>
-    </card>
-    <card name="loc_hypermart_c">
-     <top>
-      <image>
-       <image>loc_hypermart_c</image>
-       <order>10</order>
-      </image>
-	  <image>
-       <image>token_green_4</image>
-	   <rectangle>[354,1100,-1,-1]</rectangle>
-       <order>11</order>
-      </image>
-     </top>
-     <bottom>
-     </bottom>
-    </card>
-    <card name="loc_hypermart_d">
-     <top>
-      <image>
-       <image>loc_hypermart_d</image>
-       <order>10</order>
-      </image>
-	  <image>
-       <image>token_green_4</image>
-	   <rectangle>[354,1100,-1,-1]</rectangle>
-       <order>11</order>
-      </image>
-     </top>
-     <bottom>
-     </bottom>
-    </card>
-    <card name="loc_hypermart_e">
-     <top>
-      <image>
-       <image>loc_hypermart_e</image>
-       <order>10</order>
-      </image>
-	  <image>
-       <image>token_green_4</image>
-	   <rectangle>[354,1100,-1,-1]</rectangle>
-       <order>11</order>
-      </image>
-     </top>
-     <bottom>
-     </bottom>
-    </card>
-    <card name="loc_hypermart_f">
-     <top>
-	  <image>
-       <image>loc_hypermart_f</image>
-       <order>10</order>
-      </image>
-	  <image>
-       <image>token_green_4</image>
-	   <rectangle>[354,1100,-1,-1]</rectangle>
-       <order>11</order>
-      </image>
-	 </top>
-     <bottom>
-     </bottom>
-    </card>
-    <card name="loc_hypermart_g">
-     <top>
-      <image>
-       <image>loc_hypermart_g</image>
-       <order>10</order>
-      </image>
-	  <image>
-       <image>token_green_4</image>
-	   <rectangle>[354,1100,-1,-1]</rectangle>
-       <order>11</order>
-      </image>
-     </top>
-     <bottom>
-     </bottom>
-    </card>
-    <card name="loc_hypermart_h">
-     <top>
-	  <image>
-       <image>loc_hypermart_h</image>
-       <order>10</order>
-      </image>
-	  <image>
-       <image>token_green_4</image>
-	   <rectangle>[354,1100,-1,-1]</rectangle>
-       <order>11</order>
-      </image>
-	 </top>
-     <bottom>
-     </bottom>
-    </card>
-    </location>
-   
-  </locations>
+		<locations>
 
-  <plan>
-  </plan>
+			<location name="Path to Town">
+				<card name="loc_path_a">
+					<top>
+						<text name="location name">
+							<text>Location: {ls}</text>
+							<style>big_white_clear</style>
+							<rectangle>[125,1370,1500,-1]</rectangle>
+							<rotation>270</rotation>
+							<order>-8</order>
+						</text>
+					</top>
+					<bottom>
+					</bottom>
+				</card>
+				<card name="loc_path_b">
+					<top>
+						<image>
+							<image>loc_path_b</image>
+							<order>10</order>
+						</image>
+					</top>
+					<bottom>
+					</bottom>
+				</card>
+				<card name="loc_path_c">
+					<top>
+						<image>
+							<image>loc_path_c</image>
+							<order>10</order>
+						</image>
+					</top>
+					<bottom>
+					</bottom>
+				</card>
+				<card name="loc_path_d">
+					<top>
+						<image>
+							<image>loc_path_d</image>
+							<order>10</order>
+						</image>
+					</top>
+					<bottom>
+					</bottom>
+				</card>
+				<card name="loc_path_e">
+					<top>
+						<image>
+							<image>loc_path_e</image>
+							<order>10</order>
+						</image>
+					</top>
+					<bottom>
+					</bottom>
+				</card>
+				<card name="loc_path_f">
+					<top>
+						<image>
+							<image>loc_path_f</image>
+							<order>10</order>
+						</image>
+					</top>
+					<bottom>
+					</bottom>
+				</card>
+			</location>
 
-  <base>
-   <card name="Base A">
-    <top>
-     <image>
-      <image>base_a</image>
-      <order>10</order>
-     </image>
-    </top>
-    <bottom>
-    </bottom>
-   </card>
-   <card name="Base B">
-    <top>
-     <image>
-      <image>base_b</image>
-      <order>10</order>
-     </image>
-    </top>
-    <bottom>
-    </bottom>
-   </card>
-   <card name="Base C">
-    <top>
-     <image>
-      <image>base_c</image>
-      <order>10</order>
-     </image>
-    </top>
-    <bottom>
-    </bottom>
-   </card>
-   <card name="Base D">
-    <top>
-     <image>
-      <image>base_d</image>
-      <order>10</order>
-     </image>
-    </top>
-    <bottom>
-    </bottom>
-   </card>
-   <card name="Base E">
-    <top>
-     <image>
-      <image>base_e</image>
-      <order>10</order>
-     </image>
-    </top>
-    <bottom>
-    </bottom>
-   </card>
-   <card name="Base F">
-    <top>
-     <image>
-      <image>base_f</image>
-      <order>10</order>
-     </image>
-    </top>
-    <bottom>
-    </bottom>
-   </card>
-  </base>
-  
-  <items>
-   <card name="Shovel">
-    <top>
-	</top>
-	<bottom>
-	 <image>
-	  <image>shovel</image>
-	  <rectangle>[100,100,745,-2]</rectangle>
-	  <order>10</order>
-	 </image>
-	</bottom>
-   </card>
-   <card name="Catalina Picture">
-    <top>
-	</top>
-	<bottom>
-	</bottom>
-   </card>
-   <card name="Catalina Locket">
-    <top>
-	</top>
-	<bottom>
-	</bottom>
-   </card>
-   <card name="Stick">
-    <top>
-	</top>
-	<bottom>
-	 <image>
-	  <image>stick</image>
-	  <rectangle>[100,100,745,-2]</rectangle>
-	  <order>10</order>
-	 </image>
-	</bottom>
-   </card>
-   <card name="Sword">
-    <top>
-	</top>
-	<bottom>
-     <image>
-	  <image>sword</image>
-	  <rectangle>[100,100,745,-2]</rectangle>
-	  <order>10</order>
-	 </image>
-	</bottom>
-   </card>
-   <card name="Soul Medallion">
-    <top>
-	</top>
-	<bottom>
-	 <image>
-	  <image>soul</image>
-	  <rectangle>[100,100,745,-2]</rectangle>
-	  <order>10</order>
-	 </image>
-	</bottom>
-   </card>
-   <card name="Bottle of Alcohol">
-    <top>
-	</top>
-	<bottom>
-	 <image>
-	  <image>bottle</image>
-	  <rectangle>[100,100,745,-2]</rectangle>
-	  <order>10</order>
-	 </image>
-	</bottom>
-   </card>
-   <card name="Space-Time Book">
-    <top>
-	</top>
-	<bottom>
-	 <image>
-	  <image>dummies</image>
-	  <rectangle>[100,100,745,-2]</rectangle>
-	  <order>10</order>
-	 </image>
-	</bottom>
-   </card>
-   <card name="Zune">
-    <top>
-	</top>
-	<bottom>
-	 <image>
-	  <image>zune</image>
-	  <rectangle>[100,100,745,-2]</rectangle>
-	  <order>10</order>
-	 </image>
-	</bottom>
-   </card>
-   <card name="Battery">
-    <top>
-	</top>
-	<bottom>
-	 <image>
-	  <image>battery</image>
-	  <rectangle>[100,100,745,-2]</rectangle>
-	  <order>10</order>
-	 </image>
-	</bottom>
-   </card>
-   <card name="Astronomy Book">
-    <top>
-	</top>
-	<bottom>
-	</bottom>
-   </card>
-   <card name="Syringe">
-    <top>
-	</top>
-	<bottom>
-	 <image>
-	  <image>syringe</image>
-	  <rectangle>[100,100,745,-2]</rectangle>
-	  <order>10</order>
-	 </image>
-	</bottom>
-   </card>
-   <card name="Pistol">
-    <top>
-	</top>
-	<bottom>
-	 <image>
-	  <image>pistol</image>
-	  <rectangle>[100,100,745,-2]</rectangle>
-	  <order>10</order>
-	 </image>
-	</bottom>
-   </card>
-   <card name="Nail Gun">
-    <top>
-	</top>
-	<bottom>
-	 <image>
-	  <image>nailgun</image>
-	  <rectangle>[100,100,745,-2]</rectangle>
-	  <order>10</order>
-	 </image>
-	</bottom>
-   </card>
-   <card name="Phil Note 1">
-    <top>
-	</top>
-	<bottom>
-	</bottom>
-   </card> 
-   <card name="Phil Note 2">
-    <top>
-	</top>
-	<bottom>
-	</bottom>
-   </card>    
-   <card name="Keith Dead">
-    <top>
-	</top>
-	<bottom>
-	</bottom>
-   </card>    
-   <card name="Keith Lies">
-    <top>
-	</top>
-	<bottom>
-	</bottom>
-   </card>    
-   <card name="Shorts">
-    <top>
-	</top>
-	<bottom>
-	 <image>
-	  <image>shorts</image>
-	  <rectangle>[100,100,745,-2]</rectangle>
-	  <order>10</order>
-	 </image>
-	</bottom>
-   </card>    
-  </items>
+			<location name="Graveyard">
+				<card name="loc_graveyard_a">
+					<top>
+						<text name="location name">
+							<text>Location: {ls}</text>
+							<style>big_white_clear</style>
+							<rectangle>[125,1370,1500,-1]</rectangle>
+							<rotation>270</rotation>
+							<order>-8</order>
+						</text>
+					</top>
+					<bottom>
+					</bottom>
+				</card>
+				<card name="loc_graveyard_b">
+					<top>
+						<image>
+							<image>loc_graveyard_b</image>
+							<order>10</order>
+						</image>
+					</top>
+					<bottom>
+					</bottom>
+				</card>
+				<card name="loc_graveyard_c">
+					<top>
+						<image>
+							<image>loc_graveyard_c</image>
+							<order>10</order>
+						</image>
+					</top>
+					<bottom>
+					</bottom>
+				</card>
+				<card name="loc_graveyard_d">
+					<top>
+						<image>
+							<image>loc_graveyard_d</image>
+							<order>10</order>
+						</image>
+					</top>
+					<bottom>
+					</bottom>
+				</card>
+				<card name="loc_graveyard_e">
+					<top>
+						<image>
+							<image>loc_graveyard_e</image>
+							<order>10</order>
+						</image>
+					</top>
+					<bottom>
+					</bottom>
+				</card>
+				<card name="loc_graveyard_f">
+					<top>
+						<image>
+							<image>loc_graveyard_f</image>
+							<order>10</order>
+						</image>
+					</top>
+					<bottom>
+					</bottom>
+				</card>
+			</location>
 
-  <characters>
-   <card name="Bishop">
-    <top>
-     <image>
-      <image>char_bishop</image>
-      <order>10</order>
-     </image>
-    </top>
-    <bottom>
-    </bottom>
-   </card>
-   <card name="Knight">
-    <top>
-     <image>
-      <image>char_knight</image>
-      <order>10</order>
-     </image>
-    </top>
-    <bottom>
-    </bottom>
-   </card>
-   <card name="Bishop">
-    <top>
-     <image>
-      <image>char_bishop</image>
-      <order>10</order>
-     </image>
-    </top>
-    <bottom>
-    </bottom>
-   </card>
-   <card name="Stone Mason">
-    <top>
-     <image>
-      <image>char_stone_mason</image>
-      <order>10</order>
-     </image>
-    </top>
-    <bottom>
-    </bottom>
-   </card>
-   <card name="Nun">
-    <top>
-     <image>
-      <image>char_nun</image>
-      <order>10</order>
-     </image>
-    </top>
-    <bottom>
-    </bottom>
-   </card>
-   <card name="Lady">
-    <top>
-     <image>
-      <image>char_noble_woman</image>
-      <order>10</order>
-     </image>
-    </top>
-    <bottom>
-    </bottom>
-   </card>
-   <card name="Street Smart">
-    <top>
-     <image>
-      <image>char_streetsmart</image>
-      <order>10</order>
-     </image>
-    </top>
-    <bottom>
-    </bottom>
-   </card>
-  </characters>
+			<location name="Inn">
+				<card name="loc_graveyard_a">
+					<top>
+						<text name="location name">
+							<text>Location: {ls}</text>
+							<style>big_white_clear</style>
+							<rectangle>[125,1370,1500,-1]</rectangle>
+							<rotation>270</rotation>
+							<order>-8</order>
+						</text>
+					</top>
+					<bottom>
+					</bottom>
+				</card>
+				<card name="loc_inn_b">
+					<top>
+						<image>
+							<image>loc_inn_b</image>
+							<order>10</order>
+						</image>
+					</top>
+					<bottom>
+					</bottom>
+				</card>
+				<card name="loc_inn_c">
+					<top>
+						<image>
+							<image>loc_inn_c</image>
+							<order>10</order>
+						</image>
+					</top>
+					<bottom>
+					</bottom>
+				</card>
+				<card name="loc_inn_d">
+					<top>
+						<image>
+							<image>loc_inn_d</image>
+							<order>10</order>
+						</image>
+					</top>
+					<bottom>
+					</bottom>
+				</card>
+				<card name="loc_inn_e">
+					<top>
+						<image>
+							<image>loc_inn_e</image>
+							<order>10</order>
+						</image>
+					</top>
+					<bottom>
+					</bottom>
+				</card>
+				<card name="loc_inn_f">
+					<top>
+						<image>
+							<image>loc_inn_f</image>
+							<order>10</order>
+						</image>
+					</top>
+					<bottom>
+					</bottom>
+				</card>
+				<card name="loc_inn_g">
+					<top>
+						<image>
+							<image>token_yellow_1</image>
+							<rectangle>[354,1100,-1,-1]</rectangle>
+							<order>10</order>
+						</image>
+					</top>
+					<bottom>
+					</bottom>
+				</card>
+			</location>
 
- </cards>
+			<location name="Chapel">
+				<card name="loc_chapel_a">
+					<top>
+						<text name="location name">
+							<text>Location: {ls}</text>
+							<style>big_white_clear</style>
+							<rectangle>[125,1370,1500,-1]</rectangle>
+							<rotation>270</rotation>
+							<order>-8</order>
+						</text>
+					</top>
+					<bottom>
+					</bottom>
+				</card>
+				<card name="loc_chapel_b">
+					<top>
+						<image>
+							<image>loc_chapel_b</image>
+							<order>10</order>
+						</image>
+					</top>
+					<bottom>
+					</bottom>
+				</card>
+				<card name="loc_chapel_c">
+					<top>
+						<image>
+							<image>loc_chapel_c</image>
+							<order>10</order>
+						</image>
+					</top>
+					<bottom>
+					</bottom>
+				</card>
+				<card name="loc_chapel_d">
+					<top>
+						<image>
+							<image>loc_chapel_d</image>
+							<order>10</order>
+						</image>
+					</top>
+					<bottom>
+					</bottom>
+				</card>
+				<card name="loc_chapel_e">
+					<top>
+						<image>
+							<image>loc_chapel_e</image>
+							<order>10</order>
+						</image>
+						<image>
+							<image>token_pink_1</image>
+							<rectangle>[354,1100,-1,-1]</rectangle>
+							<order>11</order>
+						</image>
+					</top>
+					<bottom>
+					</bottom>
+				</card>
+			</location>
+
+			<location name="Courthouse">
+				<card name="loc_court_a">
+					<top>
+						<text name="location name">
+							<text>Location: {ls}</text>
+							<style>big_white_clear</style>
+							<rectangle>[125,1370,1500,-1]</rectangle>
+							<rotation>270</rotation>
+							<order>-8</order>
+						</text>
+					</top>
+					<bottom>
+					</bottom>
+				</card>
+				<card name="loc_court_b">
+					<top>
+						<image>
+							<image>loc_court_b</image>
+							<order>10</order>
+						</image>
+					</top>
+					<bottom>
+					</bottom>
+				</card>
+				<card name="loc_court_c">
+					<top>
+						<image>
+							<image>loc_court_c</image>
+							<order>10</order>
+						</image>
+					</top>
+					<bottom>
+					</bottom>
+				</card>
+				<card name="loc_court_d">
+					<top>
+						<image>
+							<image>loc_court_d</image>
+							<order>10</order>
+						</image>
+					</top>
+					<bottom>
+					</bottom>
+				</card>
+				<card name="loc_court_e">
+					<top>
+						<image>
+							<image>loc_court_e</image>
+							<order>10</order>
+						</image>
+					</top>
+					<bottom>
+					</bottom>
+				</card>
+				<card name="loc_court_f">
+					<top>
+						<image>
+							<image>token_blue_1</image>
+							<rectangle>[177,1100,-1,-1]</rectangle>
+							<order>11</order>
+						</image>
+						<image>
+							<image>!</image>
+							<rectangle>[531,1100,-1,-1]</rectangle>
+							<order>11</order>
+						</image>
+					</top>
+					<bottom>
+					</bottom>
+				</card>
+				<card name="loc_court_g">
+					<top>
+						<image>
+							<image>token_black_3</image>
+							<rectangle>[177,1100,-1,-1]</rectangle>
+							<order>11</order>
+						</image>
+						<image>
+							<image>!</image>
+							<rectangle>[531,1100,-1,-1]</rectangle>
+							<order>11</order>
+						</image>
+					</top>
+					<bottom>
+					</bottom>
+				</card>
+				<card name="loc_court_h">
+					<top>
+						<image>
+							<image>token_green_2</image>
+							<rectangle>[177,1100,-1,-1]</rectangle>
+							<order>11</order>
+						</image>
+						<image>
+							<image>!</image>
+							<rectangle>[531,1100,-1,-1]</rectangle>
+							<order>11</order>
+						</image>
+					</top>
+					<bottom>
+					</bottom>
+				</card>
+			</location>
+
+			<location name="Dungeon">
+				<card name="loc_dungeon_a">
+					<top>
+						<text name="location name">
+							<text>Location: {ls}</text>
+							<style>big_white_clear</style>
+							<rectangle>[125,1370,1500,-1]</rectangle>
+							<rotation>270</rotation>
+							<order>-8</order>
+						</text>
+					</top>
+					<bottom>
+					</bottom>
+				</card>
+				<card name="loc_dungeon_b">
+					<top>
+						<image>
+							<image>loc_dungeon_b</image>
+							<order>10</order>
+						</image>
+					</top>
+					<bottom>
+					</bottom>
+				</card>
+				<card name="loc_dungeon_c">
+					<top>
+						<image>
+							<image>loc_dungeon_c</image>
+							<order>10</order>
+						</image>
+					</top>
+					<bottom>
+					</bottom>
+				</card>
+				<card name="loc_dungeon_d">
+					<top>
+						<image>
+							<image>loc_dungeon_d</image>
+							<order>10</order>
+						</image>
+						<image>
+							<image>token_yellow_3</image>
+							<rectangle>[177,1100,-1,-1]</rectangle>
+							<order>11</order>
+						</image>
+						<image>
+							<image>!</image>
+							<rectangle>[531,1100,-1,-1]</rectangle>
+							<order>11</order>
+						</image>
+					</top>
+					<bottom>
+					</bottom>
+				</card>
+				<card name="loc_dungeon_e">
+					<top>
+						<image>
+							<image>loc_dungeon_e</image>
+							<order>10</order>
+						</image>
+						<image>
+							<image>token_pink_4</image>
+							<rectangle>[177,1100,-1,-1]</rectangle>
+							<order>11</order>
+						</image>
+						<image>
+							<image>!</image>
+							<rectangle>[531,1100,-1,-1]</rectangle>
+							<order>11</order>
+						</image>
+					</top>
+					<bottom>
+					</bottom>
+				</card>
+				<card name="loc_dungeon_f">
+					<top>
+						<image>
+							<image>loc_dungeon_f</image>
+							<order>10</order>
+						</image>
+						<image>
+							<image>token_black_2</image>
+							<rectangle>[177,1100,-1,-1]</rectangle>
+							<order>11</order>
+						</image>
+						<image>
+							<image>!</image>
+							<rectangle>[531,1100,-1,-1]</rectangle>
+							<order>11</order>
+						</image>
+					</top>
+					<bottom>
+					</bottom>
+				</card>
+				<card name="loc_dungeon_g">
+					<top>
+						<image>
+							<image>loc_dungeon_g</image>
+							<order>10</order>
+						</image>
+					</top>
+					<bottom>
+					</bottom>
+				</card>
+				<card name="loc_dungeon_h">
+					<top>
+						<image>
+							<image>loc_dungeon_h</image>
+							<order>10</order>
+						</image>
+					</top>
+					<bottom>
+					</bottom>
+				</card>
+			</location>
+
+			<location name="Field">
+				<card name="loc_field_a">
+					<top>
+						<text name="location name">
+							<text>Location: {ls}</text>
+							<style>big_white_clear</style>
+							<rectangle>[125,1370,1500,-1]</rectangle>
+							<rotation>270</rotation>
+							<order>-8</order>
+						</text>
+					</top>
+					<bottom>
+					</bottom>
+				</card>
+				<card name="loc_field_b">
+					<top>
+						<image>
+							<image>loc_field_b</image>
+							<order>10</order>
+						</image>
+					</top>
+					<bottom>
+					</bottom>
+				</card>
+				<card name="loc_field_c">
+					<top>
+						<image>
+							<image>loc_field_c</image>
+							<order>10</order>
+						</image>
+					</top>
+					<bottom>
+					</bottom>
+				</card>
+				<card name="loc_field_d">
+					<top>
+						<image>
+							<image>loc_field_d</image>
+							<order>10</order>
+						</image>
+					</top>
+					<bottom>
+					</bottom>
+				</card>
+				<card name="loc_field_e">
+					<top>
+						<image>
+							<image>loc_field_e</image>
+							<order>10</order>
+						</image>
+						<image>
+							<image>token_grey_4</image>
+							<rectangle>[177,1100,-1,-1]</rectangle>
+							<order>11</order>
+						</image>
+						<image>
+							<image>!</image>
+							<rectangle>[531,1100,-1,-1]</rectangle>
+							<order>11</order>
+						</image>
+					</top>
+					<bottom>
+					</bottom>
+				</card>
+				<card name="loc_field_f">
+					<top>
+						<image>
+							<image>loc_field_f</image>
+							<order>10</order>
+						</image>
+						<image>
+							<image>token_pink_3</image>
+							<rectangle>[177,1100,-1,-1]</rectangle>
+							<order>11</order>
+						</image>
+						<image>
+							<image>!</image>
+							<rectangle>[531,1100,-1,-1]</rectangle>
+							<order>11</order>
+						</image>
+					</top>
+					<bottom>
+					</bottom>
+				</card>
+				<card name="loc_field_g">
+					<top>
+						<image>
+							<image>loc_field_g</image>
+							<order>10</order>
+						</image>
+						<image>
+							<image>token_blue_3</image>
+							<rectangle>[177,1100,-1,-1]</rectangle>
+							<order>11</order>
+						</image>
+						<image>
+							<image>!</image>
+							<rectangle>[531,1100,-1,-1]</rectangle>
+							<order>11</order>
+						</image>
+					</top>
+					<bottom>
+					</bottom>
+				</card>
+			</location>
+
+			<location name="Catecombs I">
+				<card name="cat_1_a">
+					<top>
+						<text name="location name">
+							<text>Location: {ls}</text>
+							<style>big_white_clear</style>
+							<rectangle>[125,1370,1500,-1]</rectangle>
+							<rotation>270</rotation>
+							<order>-8</order>
+						</text>
+					</top>
+					<bottom>
+					</bottom>
+				</card>
+				<card name="cat_1_b">
+					<top>
+					</top>
+					<bottom>
+					</bottom>
+				</card>
+				<card name="cat_1_c">
+					<top>
+					</top>
+					<bottom>
+					</bottom>
+				</card>
+				<card name="cat_1_d">
+					<top>
+					</top>
+					<bottom>
+					</bottom>
+				</card>
+				<card name="cat_1_e">
+					<top>
+					</top>
+					<bottom>
+					</bottom>
+				</card>
+			</location>
+
+			<location name="Catecombs II">
+				<card name="cat_2_a">
+					<top>
+						<text name="location name">
+							<text>Location: {ls}</text>
+							<style>big_white_clear</style>
+							<rectangle>[125,1370,1500,-1]</rectangle>
+							<rotation>270</rotation>
+							<order>-8</order>
+						</text>
+					</top>
+					<bottom>
+					</bottom>
+				</card>
+				<card name="cat_2_b">
+					<top>
+					</top>
+					<bottom>
+					</bottom>
+				</card>
+				<card name="cat_2_c">
+					<top>
+					</top>
+					<bottom>
+					</bottom>
+				</card>
+				<card name="cat_2_d">
+					<top>
+					</top>
+					<bottom>
+					</bottom>
+				</card>
+				<card name="cat_2_e">
+					<top>
+					</top>
+					<bottom>
+					</bottom>
+				</card>
+			</location>
+
+			<location name="Catecombs III">
+				<card name="cat_3_a">
+					<top>
+						<text name="location name">
+							<text>Location: {ls}</text>
+							<style>big_white_clear</style>
+							<rectangle>[125,1370,1500,-1]</rectangle>
+							<rotation>270</rotation>
+							<order>-8</order>
+						</text>
+					</top>
+					<bottom>
+					</bottom>
+				</card>
+				<card name="cat_3_b">
+					<top>
+					</top>
+					<bottom>
+					</bottom>
+				</card>
+				<card name="cat_3_c">
+					<top>
+					</top>
+					<bottom>
+					</bottom>
+				</card>
+				<card name="cat_3_d">
+					<top>
+					</top>
+					<bottom>
+					</bottom>
+				</card>
+				<card name="cat_3_e">
+					<top>
+					</top>
+					<bottom>
+					</bottom>
+				</card>
+			</location>
+
+			<location name="Catecombs IV">
+				<card name="cat_4_a">
+					<top>
+						<text name="location name">
+							<text>Location: {ls}</text>
+							<style>big_white_clear</style>
+							<rectangle>[125,1370,1500,-1]</rectangle>
+							<rotation>270</rotation>
+							<order>-8</order>
+						</text>
+					</top>
+					<bottom>
+					</bottom>
+				</card>
+				<card name="cat_4_b">
+					<top>
+					</top>
+					<bottom>
+					</bottom>
+				</card>
+				<card name="cat_4_c">
+					<top>
+					</top>
+					<bottom>
+					</bottom>
+				</card>
+				<card name="cat_4_d">
+					<top>
+					</top>
+					<bottom>
+					</bottom>
+				</card>
+				<card name="cat_4_e">
+					<top>
+					</top>
+					<bottom>
+					</bottom>
+				</card>
+				<card name="cat_4_f">
+					<top>
+						<image>
+							<image>token_yellow_4</image>
+							<rectangle>[354,1100,-1,-1]</rectangle>
+							<order>11</order>
+						</image>
+					</top>
+					<bottom>
+					</bottom>
+				</card>
+			</location>
+
+			<location name="Laboratory">
+				<card name="loc_lab_a">
+					<top>
+						<text name="location name">
+							<text>Location: {ls}</text>
+							<style>big_white_clear</style>
+							<rectangle>[125,1370,1500,-1]</rectangle>
+							<rotation>270</rotation>
+							<order>-8</order>
+						</text>
+					</top>
+					<bottom>
+					</bottom>
+				</card>
+				<card name="loc_lab_b">
+					<top>
+						<image>
+							<image>loc_lab_b</image>
+							<order>10</order>
+						</image>
+					</top>
+					<bottom>
+					</bottom>
+				</card>
+				<card name="loc_lab_c">
+					<top>
+						<image>
+							<image>loc_lab_c</image>
+							<order>10</order>
+						</image>
+					</top>
+					<bottom>
+					</bottom>
+				</card>
+				<card name="loc_lab_d">
+					<top>
+						<image>
+							<image>loc_lab_d</image>
+							<order>10</order>
+						</image>
+					</top>
+					<bottom>
+					</bottom>
+				</card>
+				<card name="loc_lab_e">
+					<top>
+						<image>
+							<image>loc_lab_e</image>
+							<order>10</order>
+						</image>
+					</top>
+					<bottom>
+					</bottom>
+				</card>
+				<card name="loc_lab_f">
+					<top>
+						<image>
+							<image>loc_lab_f</image>
+							<order>10</order>
+						</image>
+					</top>
+					<bottom>
+					</bottom>
+				</card>
+			</location>
+
+			<location name="Market">
+				<card name="loc_hypermart_a">
+					<top>
+						<text name="location name">
+							<text>Location: {ls}</text>
+							<style>big_white_clear</style>
+							<rectangle>[125,1370,1500,-1]</rectangle>
+							<rotation>270</rotation>
+							<order>-8</order>
+						</text>
+					</top>
+					<bottom>
+					</bottom>
+				</card>
+				<card name="loc_hypermart_b">
+					<top>
+						<image>
+							<image>loc_hypermart_b</image>
+							<order>10</order>
+						</image>
+					</top>
+					<bottom>
+					</bottom>
+				</card>
+				<card name="loc_hypermart_c">
+					<top>
+						<image>
+							<image>loc_hypermart_c</image>
+							<order>10</order>
+						</image>
+						<image>
+							<image>token_green_4</image>
+							<rectangle>[354,1100,-1,-1]</rectangle>
+							<order>11</order>
+						</image>
+					</top>
+					<bottom>
+					</bottom>
+				</card>
+				<card name="loc_hypermart_d">
+					<top>
+						<image>
+							<image>loc_hypermart_d</image>
+							<order>10</order>
+						</image>
+						<image>
+							<image>token_green_4</image>
+							<rectangle>[354,1100,-1,-1]</rectangle>
+							<order>11</order>
+						</image>
+					</top>
+					<bottom>
+					</bottom>
+				</card>
+				<card name="loc_hypermart_e">
+					<top>
+						<image>
+							<image>loc_hypermart_e</image>
+							<order>10</order>
+						</image>
+						<image>
+							<image>token_green_4</image>
+							<rectangle>[354,1100,-1,-1]</rectangle>
+							<order>11</order>
+						</image>
+					</top>
+					<bottom>
+					</bottom>
+				</card>
+				<card name="loc_hypermart_f">
+					<top>
+						<image>
+							<image>loc_hypermart_f</image>
+							<order>10</order>
+						</image>
+						<image>
+							<image>token_green_4</image>
+							<rectangle>[354,1100,-1,-1]</rectangle>
+							<order>11</order>
+						</image>
+					</top>
+					<bottom>
+					</bottom>
+				</card>
+				<card name="loc_hypermart_g">
+					<top>
+						<image>
+							<image>loc_hypermart_g</image>
+							<order>10</order>
+						</image>
+						<image>
+							<image>token_green_4</image>
+							<rectangle>[354,1100,-1,-1]</rectangle>
+							<order>11</order>
+						</image>
+					</top>
+					<bottom>
+					</bottom>
+				</card>
+				<card name="loc_hypermart_h">
+					<top>
+						<image>
+							<image>loc_hypermart_h</image>
+							<order>10</order>
+						</image>
+						<image>
+							<image>token_green_4</image>
+							<rectangle>[354,1100,-1,-1]</rectangle>
+							<order>11</order>
+						</image>
+					</top>
+					<bottom>
+					</bottom>
+				</card>
+			</location>
+
+		</locations>
+
+		<plan>
+			<card name="Plan A">
+				<top>
+					<image name="background">
+						<image>background_cyan</image>
+						<rectangle>[0,0,-1,-1]</rectangle>
+						<rotation>0</rotation>
+						<order>-10</order>
+					</image>
+					<text name="item number">
+						<text>Plan{n}{ca}</text>
+						<style>item_number</style>
+						<rectangle>[50,600,845,-1]</rectangle>
+						<rotation>0</rotation>
+						<order>0</order>
+					</text>
+				</top>
+				<bottom>
+				</bottom>
+			</card>
+			<card name="Plan B">
+				<top>
+					<image name="background">
+						<image>background_cyan</image>
+						<rectangle>[0,0,-1,-1]</rectangle>
+						<rotation>0</rotation>
+						<order>-10</order>
+					</image>
+					<text name="item number">
+						<text>Plan{n}{ca}</text>
+						<style>item_number</style>
+						<rectangle>[50,600,845,-1]</rectangle>
+						<rotation>0</rotation>
+						<order>0</order>
+					</text>
+				</top>
+				<bottom>
+				</bottom>
+			</card>
+			<card name="Plan C">
+				<top>
+					<image name="background">
+						<image>background_cyan</image>
+						<rectangle>[0,0,-1,-1]</rectangle>
+						<rotation>0</rotation>
+						<order>-10</order>
+					</image>
+					<text name="item number">
+						<text>Plan{n}{ca}</text>
+						<style>item_number</style>
+						<rectangle>[50,600,845,-1]</rectangle>
+						<rotation>0</rotation>
+						<order>0</order>
+					</text>
+				</top>
+				<bottom>
+				</bottom>
+			</card>
+			<card name="Plan D">
+				<top>
+					<image name="background">
+						<image>background_cyan</image>
+						<rectangle>[0,0,-1,-1]</rectangle>
+						<rotation>0</rotation>
+						<order>-10</order>
+					</image>
+					<text name="item number">
+						<text>Plan{n}{ca}</text>
+						<style>item_number</style>
+						<rectangle>[50,600,845,-1]</rectangle>
+						<rotation>0</rotation>
+						<order>0</order>
+					</text>
+				</top>
+				<bottom>
+				</bottom>
+			</card>
+		</plan>
+
+		<base>
+			<card name="Base A">
+				<top>
+					<image>
+						<image>base_a</image>
+						<order>10</order>
+					</image>
+				</top>
+				<bottom>
+				</bottom>
+			</card>
+			<card name="Base B">
+				<top>
+					<image>
+						<image>base_b</image>
+						<order>10</order>
+					</image>
+				</top>
+				<bottom>
+				</bottom>
+			</card>
+			<card name="Base C">
+				<top>
+					<image>
+						<image>base_c</image>
+						<order>10</order>
+					</image>
+				</top>
+				<bottom>
+				</bottom>
+			</card>
+			<card name="Base D">
+				<top>
+					<image>
+						<image>base_d</image>
+						<order>10</order>
+					</image>
+				</top>
+				<bottom>
+				</bottom>
+			</card>
+			<card name="Base E">
+				<top>
+					<image>
+						<image>base_e</image>
+						<order>10</order>
+					</image>
+				</top>
+				<bottom>
+				</bottom>
+			</card>
+			<card name="Base F">
+				<top>
+					<image>
+						<image>base_f</image>
+						<order>10</order>
+					</image>
+				</top>
+				<bottom>
+				</bottom>
+			</card>
+		</base>
+
+		<items>
+			<card name="Shovel">
+				<top>
+				</top>
+				<bottom>
+					<image>
+						<image>shovel</image>
+						<rectangle>[100,100,745,-2]</rectangle>
+						<order>10</order>
+					</image>
+				</bottom>
+			</card>
+			<card name="Catalina Picture">
+				<top>
+				</top>
+				<bottom>
+				</bottom>
+			</card>
+			<card name="Catalina Locket">
+				<top>
+				</top>
+				<bottom>
+				</bottom>
+			</card>
+			<card name="Stick">
+				<top>
+				</top>
+				<bottom>
+					<image>
+						<image>stick</image>
+						<rectangle>[100,100,745,-2]</rectangle>
+						<order>10</order>
+					</image>
+				</bottom>
+			</card>
+			<card name="Sword">
+				<top>
+				</top>
+				<bottom>
+					<image>
+						<image>sword</image>
+						<rectangle>[100,100,745,-2]</rectangle>
+						<order>10</order>
+					</image>
+				</bottom>
+			</card>
+			<card name="Soul Medallion">
+				<top>
+				</top>
+				<bottom>
+					<image>
+						<image>soul</image>
+						<rectangle>[100,100,745,-2]</rectangle>
+						<order>10</order>
+					</image>
+				</bottom>
+			</card>
+			<card name="Bottle of Alcohol">
+				<top>
+				</top>
+				<bottom>
+					<image>
+						<image>bottle</image>
+						<rectangle>[100,100,745,-2]</rectangle>
+						<order>10</order>
+					</image>
+				</bottom>
+			</card>
+			<card name="Space-Time Book">
+				<top>
+				</top>
+				<bottom>
+					<image>
+						<image>dummies</image>
+						<rectangle>[100,100,745,-2]</rectangle>
+						<order>10</order>
+					</image>
+				</bottom>
+			</card>
+			<card name="Zune">
+				<top>
+				</top>
+				<bottom>
+					<image>
+						<image>zune</image>
+						<rectangle>[100,100,745,-2]</rectangle>
+						<order>10</order>
+					</image>
+				</bottom>
+			</card>
+			<card name="Battery">
+				<top>
+				</top>
+				<bottom>
+					<image>
+						<image>battery</image>
+						<rectangle>[100,100,745,-2]</rectangle>
+						<order>10</order>
+					</image>
+				</bottom>
+			</card>
+			<card name="Astronomy Book">
+				<top>
+				</top>
+				<bottom>
+				</bottom>
+			</card>
+			<card name="Syringe">
+				<top>
+				</top>
+				<bottom>
+					<image>
+						<image>syringe</image>
+						<rectangle>[100,100,745,-2]</rectangle>
+						<order>10</order>
+					</image>
+				</bottom>
+			</card>
+			<card name="Pistol">
+				<top>
+				</top>
+				<bottom>
+					<image>
+						<image>pistol</image>
+						<rectangle>[100,100,745,-2]</rectangle>
+						<order>10</order>
+					</image>
+				</bottom>
+			</card>
+			<card name="Nail Gun">
+				<top>
+				</top>
+				<bottom>
+					<image>
+						<image>nailgun</image>
+						<rectangle>[100,100,745,-2]</rectangle>
+						<order>10</order>
+					</image>
+				</bottom>
+			</card>
+			<card name="Phil Note 1">
+				<top>
+				</top>
+				<bottom>
+				</bottom>
+			</card> 
+			<card name="Phil Note 2">
+				<top>
+				</top>
+				<bottom>
+				</bottom>
+			</card>    
+			<card name="Keith Dead">
+				<top>
+				</top>
+				<bottom>
+				</bottom>
+			</card>    
+			<card name="Keith Lies">
+				<top>
+				</top>
+				<bottom>
+				</bottom>
+			</card>    
+			<card name="Shorts">
+				<top>
+				</top>
+				<bottom>
+					<image>
+						<image>shorts</image>
+						<rectangle>[100,100,745,-2]</rectangle>
+						<order>10</order>
+					</image>
+				</bottom>
+			</card>
+			<card name="Right Arm">
+				<top>
+				</top>
+				<bottom>
+					<image>
+						<image>arm1</image>
+						<rectangle>[100,100,745,-2]</rectangle>
+						<order>10</order>
+					</image>
+				</bottom>
+			</card>  
+			<card name="Left Arm">
+				<top>
+				</top>
+				<bottom>
+					<image>
+						<image>arm2</image>
+						<rectangle>[100,100,745,-2]</rectangle>
+						<order>10</order>
+					</image>
+				</bottom>
+			</card>  
+			<card name="Right Leg">
+				<top>
+				</top>
+				<bottom>
+					<image>
+						<image>leg1</image>
+						<rectangle>[100,100,745,-2]</rectangle>
+						<order>10</order>
+					</image>
+				</bottom>
+			</card>  
+			<card name="Left Leg">
+				<top>
+				</top>
+				<bottom>
+					<image>
+						<image>leg2</image>
+						<rectangle>[100,100,745,-2]</rectangle>
+						<order>10</order>
+					</image>
+				</bottom>
+			</card>     
+		</items>
+
+		<characters>
+			<card name="Bishop">
+				<top>
+					<image>
+						<image>char_bishop</image>
+						<order>10</order>
+					</image>
+				</top>
+				<bottom>
+				</bottom>
+			</card>
+			<card name="Knight">
+				<top>
+					<image>
+						<image>char_knight</image>
+						<order>10</order>
+					</image>
+				</top>
+				<bottom>
+				</bottom>
+			</card>
+			<card name="Bishop">
+				<top>
+					<image>
+						<image>char_bishop</image>
+						<order>10</order>
+					</image>
+				</top>
+				<bottom>
+				</bottom>
+			</card>
+			<card name="Stone Mason">
+				<top>
+					<image>
+						<image>char_stone_mason</image>
+						<order>10</order>
+					</image>
+				</top>
+				<bottom>
+				</bottom>
+			</card>
+			<card name="Nun">
+				<top>
+					<image>
+						<image>char_nun</image>
+						<order>10</order>
+					</image>
+				</top>
+				<bottom>
+				</bottom>
+			</card>
+			<card name="Lady">
+				<top>
+					<image>
+						<image>char_noble_woman</image>
+						<order>10</order>
+					</image>
+				</top>
+				<bottom>
+				</bottom>
+			</card>
+			<card name="Street Smart">
+				<top>
+					<image>
+						<image>char_streetsmart</image>
+						<order>10</order>
+					</image>
+				</top>
+				<bottom>
+				</bottom>
+			</card>
+		</characters>
+
+	</cards>
 </deck>
