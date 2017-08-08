@@ -86,6 +86,8 @@
 		<file filename="heresy_media/background_brown.png" name="background_brown"/>
 		<file filename="heresy_media/background_cyan.png" name="background_cyan"/>
 		<file filename="heresy_media/background_green.png" name="background_green"/>
+		<file filename="heresy_media/background_purple.png" name="background_purple"/>
+		<file filename="heresy_media/background_2.png" name="background_2"/>
 		<file filename="heresy_media/bbishop.jpg" name="bbishop"/>
 		<file filename="heresy_media/chapel.jpg" name="chapel"/>
 		<file filename="heresy_media/coourtroom_revised_A.jpg" name="coourtroom_revised_A"/>
@@ -134,7 +136,17 @@
 		<file filename="heresy_media/shorts.png" name="shorts"/>
 		<file filename="heresy_media/nailgun.png" name="nailgun"/>
 		<file filename="heresy_media/bottle.png" name="bottle"/>
-
+		
+		<image name="win_green">
+			<file>TS_ Missions_V_EN</file>
+		</image>
+		<image name="lose_time_blue">
+			<file>TS_ Missions_V_EN2</file>
+		</image>
+		<image name="lose_time_orange">
+			<file>TS_ Missions_V_EN3</file>
+		</image>
+		
 		<image name="token_blue_1">
 			<file>TS_CreaPack_Icon_-1BL--30</file>
 		</image>
@@ -350,6 +362,12 @@
 		</image>
 		<image name="background_cyan">
 			<file>background_cyan</file>
+		</image>
+		<image name="background_purple">
+			<file>background_purple</file>
+		</image>
+		<image name="background_white">
+			<file>background_2</file>
 		</image>
 		<image name="border_overlay">
 			<file>four_corner_border</file>
@@ -643,14 +661,15 @@
 			<typesize>18</typesize>
 			<borderthickness>1</borderthickness>
 		</style>
-		<style name="big">
+		<style name="large_black">
 			<typeface>Arial</typeface>
 			<linestyle>solid</linestyle>
 			<fillcolor>[255, 255, 255, 0]</fillcolor>
 			<bordercolor>[0, 0, 0, 0]</bordercolor>
-			<textcolor>[0, 255, 0, 255]</textcolor>
+			<textcolor>[0, 0, 0, 255]</textcolor>
 			<typesize>18</typesize>
 			<borderthickness>1</borderthickness>
+			<justification>center</justification>
 		</style>
 		<style name="item_number">
 			<typeface>Arial</typeface>
@@ -662,14 +681,15 @@
 			<borderthickness>1</borderthickness>
 			<justification>center</justification>
 		</style>
-		<style name="italic">
-			<typeface>Arial:italic</typeface>
+		<style name="large_white">
+			<typeface>Arial</typeface>
 			<linestyle>solid</linestyle>
 			<fillcolor>[255, 255, 255, 0]</fillcolor>
 			<bordercolor>[0, 0, 0, 0]</bordercolor>
-			<textcolor>[0, 0, 0, 255]</textcolor>
-			<typesize>12</typesize>
+			<textcolor>[255, 255, 255, 255]</textcolor>
+			<typesize>30</typesize>
 			<borderthickness>1</borderthickness>
+			<justification>center</justification>
 		</style>
 	</assets>
 
@@ -698,6 +718,12 @@
 				</text>
 			</top>
 			<bottom>
+				<image name="background">
+					<image>background_white</image>
+					<rectangle>[0,0,-1,-1]</rectangle>
+					<rotation>0</rotation>
+					<order>-100</order>
+				</image>
 			</bottom>
 		</defaultcard>
 
@@ -731,6 +757,12 @@
 				</text>
 			</top>
 			<bottom>
+				<image name="background">
+					<image>background_white</image>
+					<rectangle>[0,0,-1,-1]</rectangle>
+					<rotation>0</rotation>
+					<order>-100</order>
+				</image>
 			</bottom>
 		</defaultitemcard>
 
@@ -764,13 +796,38 @@
 				</text>
 			</top>
 			<bottom>
+				<image name="background">
+					<image>background_white</image>
+					<rectangle>[0,0,-1,-1]</rectangle>
+					<rotation>0</rotation>
+					<order>-100</order>
+				</image>
 			</bottom>
 		</defaultlocationcard>
 
 		<iconreference name="Icon Reference">
 			<top name="top">
+				<image name="background">
+					<image>background_white</image>
+					<rectangle>[0,0,-1,-1]</rectangle>
+					<rotation>0</rotation>
+					<order>10</order>
+				</image>
+				<text name="Icon Reference Card">
+					<text>Icon Reference Card</text>
+					<style>large_black</style>
+					<rectangle>[100,100,745,-1]</rectangle>
+					<rotation>0</rotation>
+					<order>20</order>
+				</text>
 			</top>
 			<bottom name="bottom">
+				<image name="background">
+					<image>background_white</image>
+					<rectangle>[0,0,-1,-1]</rectangle>
+					<rotation>0</rotation>
+					<order>10</order>
+				</image>
 			</bottom>
 		</iconreference>
 
@@ -828,6 +885,248 @@
 		</deckcards>
 
 		<misc>
+			<card name="The Lone Henchman">
+				<top>
+					<image>
+						<image>background_purple</image>
+						<rectangle>[0,0,-1,-1]</rectangle>
+						<rotation>0</rotation>
+						<order>-10</order>
+					</image>
+					<text>
+						<text>Random Encounter</text>
+						<style>large_white</style>
+						<rectangle>[50,600,845,-1]</rectangle>
+						<rotation>0</rotation>
+						<order>0</order>
+					</text>
+				</top>
+				<bottom>
+					<text>
+						<text>{cs}</text>
+						<style>large_black</style>
+						<rectangle>[100,100,745,-1]</rectangle>
+						<rotation>0</rotation>
+						<order>0</order>
+					</text>
+				</bottom>
+			</card>
+			<card name="Charlotte's Nightmare Web">
+				<top>
+					<image name="background">
+						<image>background_purple</image>
+						<rectangle>[0,0,-1,-1]</rectangle>
+						<rotation>0</rotation>
+						<order>-10</order>
+					</image>
+					<text name="item number">
+						<text>Random Encounter</text>
+						<style>large_white</style>
+						<rectangle>[50,600,845,-1]</rectangle>
+						<rotation>0</rotation>
+						<order>0</order>
+					</text>
+				</top>
+				<bottom>
+					<text>
+						<text>{cs}</text>
+						<style>large_black</style>
+						<rectangle>[100,100,745,-1]</rectangle>
+						<rotation>0</rotation>
+						<order>0</order>
+					</text>
+				</bottom>
+			</card>
+			<card name="The Lost Soul">
+				<top>
+					<image name="background">
+						<image>background_purple</image>
+						<rectangle>[0,0,-1,-1]</rectangle>
+						<rotation>0</rotation>
+						<order>-10</order>
+					</image>
+					<text name="item number">
+						<text>Random Encounter</text>
+						<style>large_white</style>
+						<rectangle>[50,600,845,-1]</rectangle>
+						<rotation>0</rotation>
+						<order>0</order>
+					</text>
+				</top>
+				<bottom>
+					<text>
+						<text>{cs}</text>
+						<style>large_black</style>
+						<rectangle>[100,100,745,-1]</rectangle>
+						<rotation>0</rotation>
+						<order>0</order>
+					</text>
+				</bottom>
+			</card>
+			<card name="Company of Henchmen">
+				<top>
+					<image name="background">
+						<image>background_purple</image>
+						<rectangle>[0,0,-1,-1]</rectangle>
+						<rotation>0</rotation>
+						<order>-10</order>
+					</image>
+					<text name="item number">
+						<text>Random Encounter</text>
+						<style>large_white</style>
+						<rectangle>[50,600,845,-1]</rectangle>
+						<rotation>0</rotation>
+						<order>0</order>
+					</text>
+				</top>
+				<bottom>
+					<text>
+						<text>{cs}</text>
+						<style>large_black</style>
+						<rectangle>[100,100,745,-1]</rectangle>
+						<rotation>0</rotation>
+						<order>0</order>
+					</text>
+				</bottom>
+			</card>
+			<card name="The Dance of Death">
+				<top>
+					<image name="background">
+						<image>background_purple</image>
+						<rectangle>[0,0,-1,-1]</rectangle>
+						<rotation>0</rotation>
+						<order>-10</order>
+					</image>
+					<text name="item number">
+						<text>Random Encounter</text>
+						<style>large_white</style>
+						<rectangle>[50,600,845,-1]</rectangle>
+						<rotation>0</rotation>
+						<order>0</order>
+					</text>
+				</top>
+				<bottom>
+					<text>
+						<text>{cs}</text>
+						<style>large_black</style>
+						<rectangle>[100,100,745,-1]</rectangle>
+						<rotation>0</rotation>
+						<order>0</order>
+					</text>
+				</bottom>
+			</card>
+			<card name="Rolling Thunder">
+				<top>
+					<image name="background">
+						<image>background_purple</image>
+						<rectangle>[0,0,-1,-1]</rectangle>
+						<rotation>0</rotation>
+						<order>-10</order>
+					</image>
+					<text name="item number">
+						<text>Random Encounter</text>
+						<style>large_white</style>
+						<rectangle>[50,600,845,-1]</rectangle>
+						<rotation>0</rotation>
+						<order>0</order>
+					</text>
+				</top>
+				<bottom>
+					<text>
+						<text>{cs}</text>
+						<style>large_black</style>
+						<rectangle>[100,100,745,-1]</rectangle>
+						<rotation>0</rotation>
+						<order>0</order>
+					</text>
+				</bottom>
+			</card>
+			<card name="Weeping Mother">
+				<top>
+					<image name="background">
+						<image>background_purple</image>
+						<rectangle>[0,0,-1,-1]</rectangle>
+						<rotation>0</rotation>
+						<order>-10</order>
+					</image>
+					<text name="item number">
+						<text>Random Encounter</text>
+						<style>large_white</style>
+						<rectangle>[50,600,845,-1]</rectangle>
+						<rotation>0</rotation>
+						<order>0</order>
+					</text>
+				</top>
+				<bottom>
+					<text>
+						<text>{cs}</text>
+						<style>large_black</style>
+						<rectangle>[100,100,745,-1]</rectangle>
+						<rotation>0</rotation>
+						<order>0</order>
+					</text>
+				</bottom>
+			</card>
+			
+			<card name="Win: Keith dead, Machine ok">
+				<top>
+					<image name="background">
+						<image>win_green</image>
+						<rectangle>[0,0,945,1535]</rectangle>
+						<rotation>0</rotation>
+						<order>10</order>
+					</image>
+				</top>
+				<bottom>
+				</bottom>
+			</card>			
+			<card name="Win: Keith dead, Machine destroyed">
+				<top>
+					<image name="background">
+						<image>win_green</image>
+						<rectangle>[0,0,945,1535]</rectangle>
+						<rotation>0</rotation>
+						<order>10</order>
+					</image>
+					<image>
+						<image>token_blue_4</image>
+						<rectangle>[354,1100,-1,-1]</rectangle>
+						<order>11</order>
+					</image>
+				</top>
+				<bottom>
+				</bottom>
+			</card>	
+			<card name="Out of Time 1">
+				<top>
+					<image name="background">
+						<image>lose_time_blue</image>
+						<rectangle>[0,0,945,1535]</rectangle>
+						<rotation>0</rotation>
+						<order>10</order>
+					</image>
+				</top>
+				<bottom>
+				</bottom>
+			</card>
+			<card name="Out of Time 2">
+				<top>
+					<image name="background">
+						<image>lose_time_orange</image>
+						<rectangle>[0,0,945,1535]</rectangle>
+						<rotation>0</rotation>
+						<order>10</order>
+					</image>
+					<image>
+						<image>token_black_1</image>
+						<rectangle>[354,1100,-1,-1]</rectangle>
+						<order>11</order>
+					</image>
+				</top>
+				<bottom>
+				</bottom>
+			</card>	
+			
 		</misc>
 
 		<locations>
