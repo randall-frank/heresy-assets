@@ -2336,13 +2336,13 @@
 			
 			<card name="Astronomy Book">
 				<top name="Star Chart B">
+				</top>
+				<bottom>
 					<image>
 						<image>astro_book</image>
 						<rectangle>[100,100,745,-2]</rectangle>
 						<order>10</order>
 					</image>
-				</top>
-				<bottom>
 				</bottom>
 			</card>
 			<card name="Star Chart C">
