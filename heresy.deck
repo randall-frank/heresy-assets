@@ -136,6 +136,8 @@
 		<file filename="heresy_media/shorts.png" name="shorts"/>
 		<file filename="heresy_media/nailgun.png" name="nailgun"/>
 		<file filename="heresy_media/bottle.png" name="bottle"/>
+		<file filename="heresy_media/Golem_by_Philippe_Semeria.jpg" name="golem"/>
+		<file filename="heresy_media/Graminaeus-title-page.jpg" name="astro_book"/>
 		
 		<image name="win_green">
 			<file>TS_ Missions_V_EN</file>
@@ -343,6 +345,12 @@
 		</image> 
 		<image name="bottle">
 			<file>bottle</file>
+		</image> 
+		<image name="golem">
+			<file>golem</file>
+		</image>
+		<image name="astro_book">
+			<file>astro_book</file>
 		</image> 
 
 		<image name="top_card">
@@ -856,7 +864,7 @@
 						<order>10</order>
 					</image>
 					<text name="copyright">
-						<text>&#x00A9; 2017 Marina Galvagni and Randy Frank{n}Original artwork by Rizky Nugraha</text>
+						<text>&#x00A9; 2017 Marina Galvagni and Randy Frank{n}Artwork by Rizky Nugraha and Philippe Semeria</text>
 						<style>copyright</style>
 						<rectangle>[50,1300,845,-1]</rectangle>
 						<rotation>0</rotation>
@@ -2325,12 +2333,31 @@
 					</image>
 				</bottom>
 			</card>
+			
 			<card name="Astronomy Book">
-				<top>
+				<top name="Star Chart B">
+					<image>
+						<image>astro_book</image>
+						<rectangle>[100,100,745,-2]</rectangle>
+						<order>10</order>
+					</image>
 				</top>
 				<bottom>
 				</bottom>
 			</card>
+			<card name="Star Chart C">
+				<top name="from inn combat">
+				</top>
+				<bottom>
+				</bottom>
+			</card>
+			<card name="Star Chart D">
+				<top name="from bailiff">
+				</top>
+				<bottom>
+				</bottom>
+			</card>
+			
 			<card name="Syringe">
 				<top>
 				</top>
@@ -2399,11 +2426,12 @@
 					</image>
 				</bottom>
 			</card>
+			
 			<card name="Right Arm">
 				<top>
 				</top>
 				<bottom>
-					<image>
+					<image name="Star Chart A">
 						<image>arm1</image>
 						<rectangle>[100,100,745,-2]</rectangle>
 						<order>10</order>
@@ -2442,7 +2470,80 @@
 						<order>10</order>
 					</image>
 				</bottom>
-			</card>     
+			</card>
+			<card name="The Golem">
+				<top>
+				</top>
+				<bottom>
+					<image>
+						<image>golem</image>
+						<rectangle>[100,100,-2,-1]</rectangle>
+						<order>10</order>
+					</image>
+				</bottom>
+			</card>
+			
+			<card name="Stained Glass A">
+				<top>
+				</top>
+				<bottom>
+				</bottom>
+			</card>  
+			<card name="Stained Glass B">
+				<top>
+				</top>
+				<bottom>
+				</bottom>
+			</card>  
+			<card name="Stained Glass C">
+				<top>
+				</top>
+				<bottom>
+				</bottom>
+			</card>  
+			<card name="Stained Glass D">
+				<top>
+				</top>
+				<bottom>
+				</bottom>
+			</card>  
+			<card name="Glass Puzzle Solution">
+				<top>
+				</top>
+				<bottom>
+					<image>
+						<image>token_pink_1</image>
+						<rectangle>[100,100,-1,-1]</rectangle>
+						<order>10</order>
+					</image>
+				</bottom>
+			</card>  
+			
+			<card name="Plan: Add Field">
+				<top>
+				</top>
+				<bottom>
+				</bottom>
+			</card>  
+			<card name="Plan: Add Dungeon">
+				<top>
+				</top>
+				<bottom>
+				</bottom>
+			</card>
+			<card name="Plan: Add Catacombs">
+				<top>
+				</top>
+				<bottom>
+				</bottom>
+			</card> 
+			<card name="Plan: Add Laboratory">
+				<top>
+				</top>
+				<bottom>
+				</bottom>
+			</card>  
+			
 		</items>
 
 		<characters>
@@ -2460,16 +2561,6 @@
 				<top>
 					<image>
 						<image>char_knight</image>
-						<order>10</order>
-					</image>
-				</top>
-				<bottom>
-				</bottom>
-			</card>
-			<card name="Bishop">
-				<top>
-					<image>
-						<image>char_bishop</image>
 						<order>10</order>
 					</image>
 				</top>
