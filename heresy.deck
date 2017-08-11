@@ -138,6 +138,12 @@
 		<file filename="heresy_media/bottle.png" name="bottle"/>
 		<file filename="heresy_media/Golem_by_Philippe_Semeria.jpg" name="golem"/>
 		<file filename="heresy_media/Graminaeus-title-page.jpg" name="astro_book"/>
+
+		<file filename="heresy_media/cat1.png" name="cat1"/>
+		<file filename="heresy_media/cat2.png" name="cat2"/>
+		<file filename="heresy_media/cat3.png" name="cat3"/>
+		<file filename="heresy_media/cat4.png" name="cat4"/>
+				
 		
 		<image name="win_green">
 			<file>TS_ Missions_V_EN</file>
@@ -434,6 +440,74 @@
 		</image>
 		<image name="loc_chapel_e">
 			<file>chapel</file>
+			<rectangle>[2836,0,945,-1]</rectangle>
+		</image>
+
+		<image name="loc_cat1_b">
+			<file>cat1</file>
+			<rectangle>[0,0,945,-1]</rectangle>
+		</image>
+		<image name="loc_cat1_c">
+			<file>cat1</file>
+			<rectangle>[946,0,945,-1]</rectangle>
+		</image>
+		<image name="loc_cat1_d">
+			<file>cat1</file>
+			<rectangle>[1891,0,945,-1]</rectangle>
+		</image>
+		<image name="loc_cat1_e">
+			<file>cat1</file>
+			<rectangle>[2836,0,945,-1]</rectangle>
+		</image>
+
+		<image name="loc_cat2_b">
+			<file>cat2</file>
+			<rectangle>[0,0,945,-1]</rectangle>
+		</image>
+		<image name="loc_cat2_c">
+			<file>cat2</file>
+			<rectangle>[946,0,945,-1]</rectangle>
+		</image>
+		<image name="loc_cat2_d">
+			<file>cat2</file>
+			<rectangle>[1891,0,945,-1]</rectangle>
+		</image>
+		<image name="loc_cat2_e">
+			<file>cat2</file>
+			<rectangle>[2836,0,945,-1]</rectangle>
+		</image>
+
+		<image name="loc_cat3_b">
+			<file>cat3</file>
+			<rectangle>[0,0,945,-1]</rectangle>
+		</image>
+		<image name="loc_cat3_c">
+			<file>cat3</file>
+			<rectangle>[946,0,945,-1]</rectangle>
+		</image>
+		<image name="loc_cat3_d">
+			<file>cat3</file>
+			<rectangle>[1891,0,945,-1]</rectangle>
+		</image>
+		<image name="loc_cat3_e">
+			<file>cat3</file>
+			<rectangle>[2836,0,945,-1]</rectangle>
+		</image>
+
+		<image name="loc_cat4_b">
+			<file>cat4</file>
+			<rectangle>[0,0,945,-1]</rectangle>
+		</image>
+		<image name="loc_cat4_c">
+			<file>cat4</file>
+			<rectangle>[946,0,945,-1]</rectangle>
+		</image>
+		<image name="loc_cat4_d">
+			<file>cat4</file>
+			<rectangle>[1891,0,945,-1]</rectangle>
+		</image>
+		<image name="loc_cat4_e">
+			<file>cat4</file>
 			<rectangle>[2836,0,945,-1]</rectangle>
 		</image>
 
