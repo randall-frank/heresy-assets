@@ -139,10 +139,10 @@
 		<file filename="heresy_media/Golem_by_Philippe_Semeria.jpg" name="golem"/>
 		<file filename="heresy_media/Graminaeus-title-page.jpg" name="astro_book"/>
 
-		<file filename="heresy_media/cat1.png" name="cat1"/>
-		<file filename="heresy_media/cat2.png" name="cat2"/>
-		<file filename="heresy_media/cat3.png" name="cat3"/>
-		<file filename="heresy_media/cat4.png" name="cat4"/>
+		<file filename="heresy_media/cat1.png" name="cat3"/>
+		<file filename="heresy_media/cat2.png" name="cat4"/>
+		<file filename="heresy_media/cat3.png" name="cat2"/>
+		<file filename="heresy_media/cat4.png" name="cat1"/>
 				
 		
 		<image name="win_green">
@@ -1809,7 +1809,7 @@
 				</card>
 			</location>
 
-			<location name="Catecombs I">
+			<location name="Catacombs I">
 				<card name="cat_1_a">
 					<top>
 						<text name="location name">
@@ -1825,31 +1825,47 @@
 				</card>
 				<card name="cat_1_b">
 					<top>
+						<image>
+							<image>loc_cat1_b</image>
+							<order>10</order>
+						</image>
 					</top>
 					<bottom>
 					</bottom>
 				</card>
 				<card name="cat_1_c">
 					<top>
+						<image>
+							<image>loc_cat1_c</image>
+							<order>10</order>
+						</image>
 					</top>
 					<bottom>
 					</bottom>
 				</card>
 				<card name="cat_1_d">
 					<top>
+						<image>
+							<image>loc_cat1_d</image>
+							<order>10</order>
+						</image>
 					</top>
 					<bottom>
 					</bottom>
 				</card>
 				<card name="cat_1_e">
 					<top>
+						<image>
+							<image>loc_cat1_e</image>
+							<order>10</order>
+						</image>
 					</top>
 					<bottom>
 					</bottom>
 				</card>
 			</location>
 
-			<location name="Catecombs II">
+			<location name="Catacombs II">
 				<card name="cat_2_a">
 					<top>
 						<text name="location name">
@@ -1865,31 +1881,47 @@
 				</card>
 				<card name="cat_2_b">
 					<top>
+						<image>
+							<image>loc_cat2_b</image>
+							<order>10</order>
+						</image>
 					</top>
 					<bottom>
 					</bottom>
 				</card>
 				<card name="cat_2_c">
 					<top>
+						<image>
+							<image>loc_cat2_c</image>
+							<order>10</order>
+						</image>
 					</top>
 					<bottom>
 					</bottom>
 				</card>
 				<card name="cat_2_d">
 					<top>
+						<image>
+							<image>loc_cat2_d</image>
+							<order>10</order>
+						</image>
 					</top>
 					<bottom>
 					</bottom>
 				</card>
 				<card name="cat_2_e">
 					<top>
+						<image>
+							<image>loc_cat2_e</image>
+							<order>10</order>
+						</image>
 					</top>
 					<bottom>
 					</bottom>
 				</card>
 			</location>
 
-			<location name="Catecombs III">
+			<location name="Catacombs III">
 				<card name="cat_3_a">
 					<top>
 						<text name="location name">
@@ -1905,31 +1937,47 @@
 				</card>
 				<card name="cat_3_b">
 					<top>
+						<image>
+							<image>loc_cat3_b</image>
+							<order>10</order>
+						</image>
 					</top>
 					<bottom>
 					</bottom>
 				</card>
 				<card name="cat_3_c">
 					<top>
+						<image>
+							<image>loc_cat3_c</image>
+							<order>10</order>
+						</image>
 					</top>
 					<bottom>
 					</bottom>
 				</card>
 				<card name="cat_3_d">
 					<top>
+						<image>
+							<image>loc_cat3_d</image>
+							<order>10</order>
+						</image>
 					</top>
 					<bottom>
 					</bottom>
 				</card>
 				<card name="cat_3_e">
 					<top>
+						<image>
+							<image>loc_cat3_e</image>
+							<order>10</order>
+						</image>
 					</top>
 					<bottom>
 					</bottom>
 				</card>
 			</location>
 
-			<location name="Catecombs IV">
+			<location name="Catacombs IV">
 				<card name="cat_4_a">
 					<top>
 						<text name="location name">
@@ -1945,24 +1993,40 @@
 				</card>
 				<card name="cat_4_b">
 					<top>
+						<image>
+							<image>loc_cat4_b</image>
+							<order>10</order>
+						</image>
 					</top>
 					<bottom>
 					</bottom>
 				</card>
 				<card name="cat_4_c">
 					<top>
+						<image>
+							<image>loc_cat4_c</image>
+							<order>10</order>
+						</image>
 					</top>
 					<bottom>
 					</bottom>
 				</card>
 				<card name="cat_4_d">
 					<top>
+						<image>
+							<image>loc_cat4_d</image>
+							<order>10</order>
+						</image>
 					</top>
 					<bottom>
 					</bottom>
 				</card>
 				<card name="cat_4_e">
 					<top>
+						<image>
+							<image>loc_cat4_e</image>
+							<order>10</order>
+						</image>
 					</top>
 					<bottom>
 					</bottom>
