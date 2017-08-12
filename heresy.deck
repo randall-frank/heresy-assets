@@ -266,19 +266,19 @@
 			<file>TS_CreaPack_Icon_-M- copie</file>
 		</image> 
 
-		<image name="ammo_blue">
+		<image name="blessing">
 			<file>TS_CreaPack_Icon_-JB-</file>
 		</image>  
-		<image name="ammo_green">
+		<image name="healing">
 			<file>TS_CreaPack_Icon_-JV-</file>
 		</image>  
-		<image name="ammo_grey">
+		<image name="soul">
 			<file>TS_CreaPack_Icon_-JN-</file>
 		</image>  
-		<image name="ammo_brown">
+		<image name="poison">
 			<file>TS_CreaPack_Icon_-JM-</file>
 		</image>  
-		<image name="ammo_yellow">
+		<image name="bullet">
 			<file>TS_CreaPack_Icon_-JJ-</file>
 		</image>  
 
@@ -325,7 +325,7 @@
 		<image name="shovel">
 			<file>shovel</file>
 		</image> 
-		<image name="soul">
+		<image name="soul_medallion">
 			<file>soul</file>
 		</image> 
 		<image name="dummies">
@@ -794,6 +794,46 @@
 			<bordercolor>[0, 0, 0, 0]</bordercolor>
 			<textcolor>[255, 255, 255, 255]</textcolor>
 			<typesize>30</typesize>
+			<borderthickness>1</borderthickness>
+			<justification>center</justification>
+		</style>
+		<style name="large_black_left">
+			<typeface>Arial</typeface>
+			<linestyle>solid</linestyle>
+			<fillcolor>[255, 255, 255, 0]</fillcolor>
+			<bordercolor>[0, 0, 0, 0]</bordercolor>
+			<textcolor>[0, 0, 0, 255]</textcolor>
+			<typesize>12</typesize>
+			<borderthickness>1</borderthickness>
+			<justification>left</justification>
+		</style>
+		<style name="normal_black_left">
+			<typeface>Arial</typeface>
+			<linestyle>solid</linestyle>
+			<fillcolor>[255, 255, 255, 0]</fillcolor>
+			<bordercolor>[0, 0, 0, 0]</bordercolor>
+			<textcolor>[0, 0, 0, 255]</textcolor>
+			<typesize>10</typesize>
+			<borderthickness>1</borderthickness>
+			<justification>left</justification>
+		</style>
+		<style name="normal_black_full">
+			<typeface>Arial</typeface>
+			<linestyle>solid</linestyle>
+			<fillcolor>[255, 255, 255, 0]</fillcolor>
+			<bordercolor>[0, 0, 0, 0]</bordercolor>
+			<textcolor>[0, 0, 0, 255]</textcolor>
+			<typesize>10</typesize>
+			<borderthickness>1</borderthickness>
+			<justification>full</justification>
+		</style>
+		<style name="small_white_box">
+			<typeface>Arial</typeface>
+			<linestyle>solid</linestyle>
+			<fillcolor>[255, 255, 255, 255]</fillcolor>
+			<bordercolor>[0, 0, 0, 255]</bordercolor>
+			<textcolor>[0, 0, 0, 255]</textcolor>
+			<typesize>6</typesize>
 			<borderthickness>1</borderthickness>
 			<justification>center</justification>
 		</style>
@@ -2445,7 +2485,7 @@
 				</top>
 				<bottom>
 					<image>
-						<image>soul</image>
+						<image>soul_medallion</image>
 						<rectangle>[100,100,745,-2]</rectangle>
 						<order>10</order>
 					</image>
@@ -2719,9 +2759,76 @@
 				<bottom>
 					<image>
 						<image>char_bishop_head</image>
-						<rectangle>[50,50,400,-2]</rectangle>
+						<rectangle>[20,50,300,-2]</rectangle>
 						<order>10</order>
 					</image>
+					<text>
+						<text>Francisco de Aguilar{n}{s:normal_black_left}Catholic Bishop{n}{n}Inventory:</text>
+						<style>large_black_left</style>
+						<rectangle>[350,50,575,-1]</rectangle>
+						<order>10</order>
+					</text>
+					<image>
+						<image>skill_agile</image>
+						<rectangle>[50,430,130,-2]</rectangle>
+						<order>10</order>
+					</image>
+					<text>
+						<text>0</text>
+						<style>small_white_box</style>
+						<rectangle>[50,430,25,-1]</rectangle>
+						<order>11</order>
+					</text>
+					<image>
+						<image>skill_glib</image>
+						<rectangle>[200,430,130,-2]</rectangle>
+						<order>10</order>
+					</image>
+					<text>
+						<text>0</text>
+						<style>small_white_box</style>
+						<rectangle>[200,430,25,-1]</rectangle>
+						<order>11</order>
+					</text>
+					<image>
+						<image>skill_combat</image>
+						<rectangle>[350,430,130,-2]</rectangle>
+						<order>10</order>
+					</image>
+					<text>
+						<text>0</text>
+						<style>small_white_box</style>
+						<rectangle>[350,430,25,-1]</rectangle>
+						<order>11</order>
+					</text>
+					<image>
+						<image>shield_blue_skull</image>
+						<rectangle>[615,430,130,-2]</rectangle>
+						<order>10</order>
+					</image>
+					<text>
+						<text>0</text>
+						<style>small_white_box</style>
+						<rectangle>[615,430,25,-1]</rectangle>
+						<order>11</order>
+					</text>
+					<image>
+						<image>heart</image>
+						<rectangle>[765,430,130,-2]</rectangle>
+						<order>10</order>
+					</image>
+					<text>
+						<text>0</text>
+						<style>small_white_box</style>
+						<rectangle>[765,430,25,-1]</rectangle>
+						<order>11</order>
+					</text>
+					<text>
+						<text>  Catholic bishop on his annual visits to parishes in his diocese. Looking to spread the word of God (and secure funding for a new cathedral).</text>
+						<style>normal_black_full</style>
+						<rectangle>[50,600,845,-1]</rectangle>
+						<order>11</order>
+					</text>
 				</bottom>
 			</card>
 			<card name="Knight">
@@ -2734,9 +2841,82 @@
 				<bottom>
 					<image>
 						<image>char_knight_head</image>
-						<rectangle>[50,50,400,-2]</rectangle>
+						<rectangle>[20,50,300,-2]</rectangle>
 						<order>10</order>
 					</image>
+					<text>
+						<text>Alonso Galán{n}{s:normal_black_left}Knight{n}{n}Inventory:</text>
+						<style>large_black_left</style>
+						<rectangle>[350,50,575,-1]</rectangle>
+						<order>10</order>
+					</text>
+					<image>
+						<image>skill_agile</image>
+						<rectangle>[50,430,130,-2]</rectangle>
+						<order>10</order>
+					</image>
+					<text>
+						<text>0</text>
+						<style>small_white_box</style>
+						<rectangle>[50,430,25,-1]</rectangle>
+						<order>11</order>
+					</text>
+					<image>
+						<image>skill_glib</image>
+						<rectangle>[200,430,130,-2]</rectangle>
+						<order>10</order>
+					</image>
+					<text>
+						<text>0</text>
+						<style>small_white_box</style>
+						<rectangle>[200,430,25,-1]</rectangle>
+						<order>11</order>
+					</text>
+					<image>
+						<image>skill_combat</image>
+						<rectangle>[350,430,130,-2]</rectangle>
+						<order>10</order>
+					</image>
+					<text>
+						<text>0</text>
+						<style>small_white_box</style>
+						<rectangle>[350,430,25,-1]</rectangle>
+						<order>11</order>
+					</text>
+					<image>
+						<image>shield_blue_skull</image>
+						<rectangle>[615,430,130,-2]</rectangle>
+						<order>10</order>
+					</image>
+					<text>
+						<text>0</text>
+						<style>small_white_box</style>
+						<rectangle>[615,430,25,-1]</rectangle>
+						<order>11</order>
+					</text>
+					<image>
+						<image>heart</image>
+						<rectangle>[765,430,130,-2]</rectangle>
+						<order>10</order>
+					</image>
+					<text>
+						<text>0</text>
+						<style>small_white_box</style>
+						<rectangle>[765,430,25,-1]</rectangle>
+						<order>11</order>
+					</text>
+					<text>
+						<text>  Recently returned from serving the ‘League of Venice’ in the First Italian War, driving the French from Italy. War weary, but still a knight in his prime, Alonso comes home to his native Spain only to encounter a country-side besieged by the Inquisition.</text>
+						<style>normal_black_full</style>
+						<rectangle>[50,600,845,-1]</rectangle>
+						<order>11</order>
+					</text>
+					<text>
+						<text>Unique abilities: An experienced warrior, Alonso is a master of survival. When he has less than 3 health tokens left, he rolls an extra die when in combat challenges.</text>
+						<style>normal_black_full</style>
+						<rectangle>[50,1130,845,-1]</rectangle>
+						<order>11</order>
+					</text>
 				</bottom>
 			</card>
 			<card name="Stone Mason">
@@ -2749,9 +2929,82 @@
 				<bottom>
 					<image>
 						<image>char_stone_mason_head</image>
-						<rectangle>[50,50,400,-2]</rectangle>
+						<rectangle>[20,50,300,-2]</rectangle>
 						<order>10</order>
 					</image>
+					<text>
+						<text>Gaspar el Rojo{n}{s:normal_black_left}Stone Mason{n}{n}Inventory:</text>
+						<style>large_black_left</style>
+						<rectangle>[350,50,575,-1]</rectangle>
+						<order>10</order>
+					</text>
+					<image>
+						<image>skill_agile</image>
+						<rectangle>[50,430,130,-2]</rectangle>
+						<order>10</order>
+					</image>
+					<text>
+						<text>0</text>
+						<style>small_white_box</style>
+						<rectangle>[50,430,25,-1]</rectangle>
+						<order>11</order>
+					</text>
+					<image>
+						<image>skill_glib</image>
+						<rectangle>[200,430,130,-2]</rectangle>
+						<order>10</order>
+					</image>
+					<text>
+						<text>0</text>
+						<style>small_white_box</style>
+						<rectangle>[200,430,25,-1]</rectangle>
+						<order>11</order>
+					</text>
+					<image>
+						<image>skill_combat</image>
+						<rectangle>[350,430,130,-2]</rectangle>
+						<order>10</order>
+					</image>
+					<text>
+						<text>0</text>
+						<style>small_white_box</style>
+						<rectangle>[350,430,25,-1]</rectangle>
+						<order>11</order>
+					</text>
+					<image>
+						<image>shield_blue_skull</image>
+						<rectangle>[615,430,130,-2]</rectangle>
+						<order>10</order>
+					</image>
+					<text>
+						<text>0</text>
+						<style>small_white_box</style>
+						<rectangle>[615,430,25,-1]</rectangle>
+						<order>11</order>
+					</text>
+					<image>
+						<image>heart</image>
+						<rectangle>[765,430,130,-2]</rectangle>
+						<order>10</order>
+					</image>
+					<text>
+						<text>0</text>
+						<style>small_white_box</style>
+						<rectangle>[765,430,25,-1]</rectangle>
+						<order>11</order>
+					</text>
+					<text>
+						<text>  A skilled tradesman and "road scholar", Gaspar is on his way to start work on a new home for a local businessman, but running low on funds, is looking for odd jobs in the local town.</text>
+						<style>normal_black_full</style>
+						<rectangle>[50,600,845,-1]</rectangle>
+						<order>11</order>
+					</text>
+					<text>
+						<text>Unique abilities: Gaspar gains 1 extra glibness  when participating in challenges involving females.</text>
+						<style>normal_black_full</style>
+						<rectangle>[50,1130,845,-1]</rectangle>
+						<order>11</order>
+					</text>
 				</bottom>
 			</card>
 			<card name="Nun">
@@ -2764,9 +3017,94 @@
 				<bottom>
 					<image>
 						<image>char_nun_head</image>
-						<rectangle>[50,50,400,-2]</rectangle>
+						<rectangle>[20,50,300,-2]</rectangle>
 						<order>10</order>
 					</image>
+					<text>
+						<text>Sr. María de la Cruz{n}{s:normal_black_left}Catholic Nun{n}{n}Inventory:</text>
+						<style>large_black_left</style>
+						<rectangle>[350,50,575,-1]</rectangle>
+						<order>10</order>
+					</text>
+					<text>
+						<text>2</text>
+						<style>small_white_box</style>
+						<rectangle>[600,200,25,-1]</rectangle>
+						<order>11</order>
+					</text>
+					<image>
+						<image>blessing</image>
+						<rectangle>[600,200,130,-2]</rectangle>
+						<order>10</order>
+					</image>
+					
+					<image>
+						<image>skill_agile</image>
+						<rectangle>[50,430,130,-2]</rectangle>
+						<order>10</order>
+					</image>
+					<text>
+						<text>0</text>
+						<style>small_white_box</style>
+						<rectangle>[50,430,25,-1]</rectangle>
+						<order>11</order>
+					</text>
+					<image>
+						<image>skill_glib</image>
+						<rectangle>[200,430,130,-2]</rectangle>
+						<order>10</order>
+					</image>
+					<text>
+						<text>0</text>
+						<style>small_white_box</style>
+						<rectangle>[200,430,25,-1]</rectangle>
+						<order>11</order>
+					</text>
+					<image>
+						<image>skill_combat</image>
+						<rectangle>[350,430,130,-2]</rectangle>
+						<order>10</order>
+					</image>
+					<text>
+						<text>0</text>
+						<style>small_white_box</style>
+						<rectangle>[350,430,25,-1]</rectangle>
+						<order>11</order>
+					</text>
+					<image>
+						<image>shield_blue_skull</image>
+						<rectangle>[615,430,130,-2]</rectangle>
+						<order>10</order>
+					</image>
+					<text>
+						<text>0</text>
+						<style>small_white_box</style>
+						<rectangle>[615,430,25,-1]</rectangle>
+						<order>11</order>
+					</text>
+					<image>
+						<image>heart</image>
+						<rectangle>[765,430,130,-2]</rectangle>
+						<order>10</order>
+					</image>
+					<text>
+						<text>0</text>
+						<style>small_white_box</style>
+						<rectangle>[765,430,25,-1]</rectangle>
+						<order>11</order>
+					</text>
+					<text>
+						<text>  A longstanding nun of questionable reputation. She has been re-assigned to the local parish after an infant in her care came down with a mysterious affliction and the parishioners petitioned to have her moved. She has been given a second chance and is looking to re-establish herself as a solid woman of faith and dedication to the church.</text>
+						<style>normal_black_full</style>
+						<rectangle>[50,600,845,-1]</rectangle>
+						<order>11</order>
+					</text>
+					<text>
+						<text>Unique abilities: The sister can call on her faith to re-roll a die during a challenge. Re-rolling a die consumes 1 blessing token. Only 1 blessing can be used per TU. If she goes to confession, her blessing count will be reset to 2.</text>
+						<style>normal_black_full</style>
+						<rectangle>[50,1130,845,-1]</rectangle>
+						<order>11</order>
+					</text>
 				</bottom>
 			</card>
 			<card name="Lady">
@@ -2779,9 +3117,94 @@
 				<bottom>
 					<image>
 						<image>char_noble_woman_head</image>
-						<rectangle>[50,50,400,-2]</rectangle>
+						<rectangle>[20,50,300,-2]</rectangle>
 						<order>10</order>
 					</image>
+					<text>
+						<text>Doña Mencía Ortiz{n}{s:normal_black_left}Noble Woman{n}{n}Inventory:</text>
+						<style>large_black_left</style>
+						<rectangle>[350,50,575,-1]</rectangle>
+						<order>10</order>
+					</text>
+					<text>
+						<text>2</text>
+						<style>small_white_box</style>
+						<rectangle>[600,200,25,-1]</rectangle>
+						<order>11</order>
+					</text>
+					<image>
+						<image>healing</image>
+						<rectangle>[600,200,130,-2]</rectangle>
+						<order>10</order>
+					</image>
+					
+					<image>
+						<image>skill_agile</image>
+						<rectangle>[50,430,130,-2]</rectangle>
+						<order>10</order>
+					</image>
+					<text>
+						<text>0</text>
+						<style>small_white_box</style>
+						<rectangle>[50,430,25,-1]</rectangle>
+						<order>11</order>
+					</text>
+					<image>
+						<image>skill_glib</image>
+						<rectangle>[200,430,130,-2]</rectangle>
+						<order>10</order>
+					</image>
+					<text>
+						<text>0</text>
+						<style>small_white_box</style>
+						<rectangle>[200,430,25,-1]</rectangle>
+						<order>11</order>
+					</text>
+					<image>
+						<image>skill_combat</image>
+						<rectangle>[350,430,130,-2]</rectangle>
+						<order>10</order>
+					</image>
+					<text>
+						<text>0</text>
+						<style>small_white_box</style>
+						<rectangle>[350,430,25,-1]</rectangle>
+						<order>11</order>
+					</text>
+					<image>
+						<image>shield_blue_skull</image>
+						<rectangle>[615,430,130,-2]</rectangle>
+						<order>10</order>
+					</image>
+					<text>
+						<text>0</text>
+						<style>small_white_box</style>
+						<rectangle>[615,430,25,-1]</rectangle>
+						<order>11</order>
+					</text>
+					<image>
+						<image>heart</image>
+						<rectangle>[765,430,130,-2]</rectangle>
+						<order>10</order>
+					</image>
+					<text>
+						<text>0</text>
+						<style>small_white_box</style>
+						<rectangle>[765,430,25,-1]</rectangle>
+						<order>11</order>
+					</text>
+					<text>
+						<text>  Noble-woman of a neighboring state. She is traveling to visit her sister Juana at her villa just outside of town. Middle-age, savvy and witness to many a political power play she draws strength from her cunning and resolve.</text>
+						<style>normal_black_full</style>
+						<rectangle>[50,600,845,-1]</rectangle>
+						<order>11</order>
+					</text>
+					<text>
+						<text>Unique abilities: The lady starts with 2 healing poultices that can be applied to any companions that are in the same location card as she is.</text>
+						<style>normal_black_full</style>
+						<rectangle>[50,1130,845,-1]</rectangle>
+						<order>11</order>
+					</text>
 				</bottom>
 			</card>
 			<card name="Street Smart">
@@ -2794,9 +3217,82 @@
 				<bottom>
 					<image>
 						<image>char_streetsmart_head</image>
-						<rectangle>[50,50,400,-2]</rectangle>
+						<rectangle>[20,50,300,-2]</rectangle>
 						<order>10</order>
 					</image>
+					<text>
+						<text>Isabel de Luján{n}{s:normal_black_left}Woman of the Streets{n}{n}Inventory:</text>
+						<style>large_black_left</style>
+						<rectangle>[350,50,575,-1]</rectangle>
+						<order>10</order>
+					</text>
+					<image>
+						<image>skill_agile</image>
+						<rectangle>[50,430,130,-2]</rectangle>
+						<order>10</order>
+					</image>
+					<text>
+						<text>0</text>
+						<style>small_white_box</style>
+						<rectangle>[50,430,25,-1]</rectangle>
+						<order>11</order>
+					</text>
+					<image>
+						<image>skill_glib</image>
+						<rectangle>[200,430,130,-2]</rectangle>
+						<order>10</order>
+					</image>
+					<text>
+						<text>0</text>
+						<style>small_white_box</style>
+						<rectangle>[200,430,25,-1]</rectangle>
+						<order>11</order>
+					</text>
+					<image>
+						<image>skill_combat</image>
+						<rectangle>[350,430,130,-2]</rectangle>
+						<order>10</order>
+					</image>
+					<text>
+						<text>0</text>
+						<style>small_white_box</style>
+						<rectangle>[350,430,25,-1]</rectangle>
+						<order>11</order>
+					</text>
+					<image>
+						<image>shield_blue_skull</image>
+						<rectangle>[615,430,130,-2]</rectangle>
+						<order>10</order>
+					</image>
+					<text>
+						<text>0</text>
+						<style>small_white_box</style>
+						<rectangle>[615,430,25,-1]</rectangle>
+						<order>11</order>
+					</text>
+					<image>
+						<image>heart</image>
+						<rectangle>[765,430,130,-2]</rectangle>
+						<order>10</order>
+					</image>
+					<text>
+						<text>0</text>
+						<style>small_white_box</style>
+						<rectangle>[765,430,25,-1]</rectangle>
+						<order>11</order>
+					</text>
+					<text>
+						<text>  Young, full of life but of lower upbringing she weaves a web of intrigue wherever she goes.  Leveraging her quick wit, exceptional gifts of perception and beauty, she has made her way by cunningly crafting somewhat astucious plans.  Always one step ahead of the authorities, she is presently on the run from one such plan that has gone astray.</text>
+						<style>normal_black_full</style>
+						<rectangle>[50,600,845,-1]</rectangle>
+						<order>11</order>
+					</text>
+					<text>
+						<text>Unique abilities: Isabel gains an extra glibness when participating in challenges involving males.</text>
+						<style>normal_black_full</style>
+						<rectangle>[50,1130,845,-1]</rectangle>
+						<order>11</order>
+					</text>
 				</bottom>
 			</card>
 		</characters>
