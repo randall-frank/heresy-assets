@@ -410,22 +410,46 @@
 		<image name="char_stone_mason">
 			<file>stone_mason</file>
 		</image>
+		<image name="char_stone_mason_head">
+			<file>stone_mason</file>
+			<rectangle>[334,132,300,306]</rectangle>
+		</image>
 		<image name="char_bishop">
 			<file>bbishop</file>
+		</image>
+		<image name="char_bishop_head">
+			<file>bbishop</file>
+			<rectangle>[264,146,328,320]</rectangle>
 		</image>
 		<image name="char_knight">
 			<file>knight</file>
 		</image>
+		<image name="char_knight_head">
+			<file>knight</file>
+			<rectangle>[336,114,280,276]</rectangle>
+		</image>
 		<image name="char_noble_woman">
 			<file>noble_woman</file>
+		</image>
+		<image name="char_noble_woman_head">
+			<file>noble_woman</file>
+			<rectangle>[332,132,298,290]</rectangle>
 		</image>
 		<image name="char_streetsmart">
 			<file>streetsmart</file>
 		</image>
+		<image name="char_streetsmart_head">
+			<file>streetsmart</file>
+			<rectangle>[390,106,288,298]</rectangle>
+		</image>
 		<image name="char_nun">
 			<file>nun</file>
 		</image>
-
+		<image name="char_nun_head">
+			<file>nun</file>
+			<rectangle>[338,66,308,298]</rectangle>
+		</image>
+		
 		<image name="loc_chapel_b">
 			<file>chapel</file>
 			<rectangle>[0,0,945,-1]</rectangle>
@@ -2693,6 +2717,11 @@
 					</image>
 				</top>
 				<bottom>
+					<image>
+						<image>char_bishop_head</image>
+						<rectangle>[50,50,400,-2]</rectangle>
+						<order>10</order>
+					</image>
 				</bottom>
 			</card>
 			<card name="Knight">
@@ -2703,6 +2732,11 @@
 					</image>
 				</top>
 				<bottom>
+					<image>
+						<image>char_knight_head</image>
+						<rectangle>[50,50,400,-2]</rectangle>
+						<order>10</order>
+					</image>
 				</bottom>
 			</card>
 			<card name="Stone Mason">
@@ -2713,6 +2747,11 @@
 					</image>
 				</top>
 				<bottom>
+					<image>
+						<image>char_stone_mason_head</image>
+						<rectangle>[50,50,400,-2]</rectangle>
+						<order>10</order>
+					</image>
 				</bottom>
 			</card>
 			<card name="Nun">
@@ -2723,6 +2762,11 @@
 					</image>
 				</top>
 				<bottom>
+					<image>
+						<image>char_nun_head</image>
+						<rectangle>[50,50,400,-2]</rectangle>
+						<order>10</order>
+					</image>
 				</bottom>
 			</card>
 			<card name="Lady">
@@ -2733,6 +2777,11 @@
 					</image>
 				</top>
 				<bottom>
+					<image>
+						<image>char_noble_woman_head</image>
+						<rectangle>[50,50,400,-2]</rectangle>
+						<order>10</order>
+					</image>
 				</bottom>
 			</card>
 			<card name="Street Smart">
@@ -2743,6 +2792,11 @@
 					</image>
 				</top>
 				<bottom>
+					<image>
+						<image>char_streetsmart_head</image>
+						<rectangle>[50,50,400,-2]</rectangle>
+						<order>10</order>
+					</image>
 				</bottom>
 			</card>
 		</characters>
