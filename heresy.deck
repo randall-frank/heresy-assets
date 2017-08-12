@@ -2912,7 +2912,7 @@
 						<order>11</order>
 					</text>
 					<text>
-						<text>Unique abilities: An experienced warrior, Alonso is a master of survival. When he has less than 3 health tokens left, he rolls an extra die when in combat challenges.</text>
+						<text>  Unique abilities: An experienced warrior, Alonso is a master of survival. When he has less than 3 health {I:heart:50:-2} tokens left, he rolls an extra die when in combat challenges.</text>
 						<style>normal_black_full</style>
 						<rectangle>[50,1130,845,-1]</rectangle>
 						<order>11</order>
@@ -3000,7 +3000,7 @@
 						<order>11</order>
 					</text>
 					<text>
-						<text>Unique abilities: Gaspar gains 1 extra glibness  when participating in challenges involving females.</text>
+						<text>  Unique abilities: Gaspar gains 1 extra glibness {I:skill_glib:50:-2} in challenges involving females.</text>
 						<style>normal_black_full</style>
 						<rectangle>[50,1130,845,-1]</rectangle>
 						<order>11</order>
@@ -3100,7 +3100,7 @@
 						<order>11</order>
 					</text>
 					<text>
-						<text>Unique abilities: The sister can call on her faith to re-roll a die during a challenge. Re-rolling a die consumes 1 blessing token. Only 1 blessing can be used per TU. If she goes to confession, her blessing count will be reset to 2.</text>
+						<text>  Unique abilities: The sister can call on her faith to re-roll a die during a challenge. Re-rolling a die consumes 1 blessing {I:blessing:50:-2} token. Only 1 blessing can be used per TU. If she goes to confession, her blessing count will be reset to 2.</text>
 						<style>normal_black_full</style>
 						<rectangle>[50,1130,845,-1]</rectangle>
 						<order>11</order>
@@ -3200,7 +3200,7 @@
 						<order>11</order>
 					</text>
 					<text>
-						<text>Unique abilities: The lady starts with 2 healing poultices that can be applied to any companions that are in the same location card as she is.</text>
+						<text>  Unique abilities: The lady starts with 2 healing poultices {I:healing:50:-2} that can be applied to any companions that are in the same location card as she is.</text>
 						<style>normal_black_full</style>
 						<rectangle>[50,1130,845,-1]</rectangle>
 						<order>11</order>
@@ -3288,9 +3288,9 @@
 						<order>11</order>
 					</text>
 					<text>
-						<text>Unique abilities: Isabel gains an extra glibness when participating in challenges involving males.</text>
+						<text>  Unique abilities: Isabel gains an extra glibness {I:skill_glib:50:-2} in challenges involving males.</text>
 						<style>normal_black_full</style>
-						<rectangle>[50,1130,845,-1]</rectangle>
+						<rectangle>[50,1150,845,-1]</rectangle>
 						<order>11</order>
 					</text>
 				</bottom>
