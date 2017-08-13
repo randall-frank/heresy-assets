@@ -117,7 +117,9 @@
 		<file filename="heresy_media/bob.png" name="bob"/>
 		<file filename="heresy_media/laura.png" name="laura"/>
 		<file filename="heresy_media/pods.png" name="pods"/>
-
+		<file filename="heresy_media/base_bottom_back.png" name="base_background"/>
+		<file filename="heresy_media/reference_background.png" name="reference_background"/>
+		
 		<file filename="heresy_media/357.png" name="pistol"/>
 		<file filename="heresy_media/arm_colored_rjf.png" name="arm1"/>
 		<file filename="heresy_media/carbattery.png" name="battery"/>
@@ -407,6 +409,22 @@
 		<image name="base_g">
 			<file>base_g</file>
 		</image>
+		<image name="base_background">
+			<file>base_background</file>
+		</image>
+		<image name="reference_background">
+			<file>reference_background</file>
+		</image>
+		<image name="bob">
+			<file>bob</file>
+		</image>
+		<image name="laura">
+			<file>laura</file>
+		</image>
+		<image name="pods">
+			<file>pods</file>
+		</image>
+		
 		<image name="char_stone_mason">
 			<file>stone_mason</file>
 		</image>
@@ -817,8 +835,48 @@
 			<borderthickness>1</borderthickness>
 			<justification>left</justification>
 		</style>
+		<style name="smaller_black_left">
+			<typeface>Arial</typeface>
+			<linestyle>solid</linestyle>
+			<fillcolor>[255, 255, 255, 0]</fillcolor>
+			<bordercolor>[0, 0, 0, 0]</bordercolor>
+			<textcolor>[0, 0, 0, 255]</textcolor>
+			<typesize>8</typesize>
+			<borderthickness>1</borderthickness>
+			<justification>left</justification>
+		</style>
 		<style name="normal_black_full">
 			<typeface>Arial</typeface>
+			<linestyle>solid</linestyle>
+			<fillcolor>[255, 255, 255, 0]</fillcolor>
+			<bordercolor>[0, 0, 0, 0]</bordercolor>
+			<textcolor>[0, 0, 0, 255]</textcolor>
+			<typesize>10</typesize>
+			<borderthickness>1</borderthickness>
+			<justification>full</justification>
+		</style>
+		<style name="normal_black_full_italic">
+			<typeface>Arial:italic</typeface>
+			<linestyle>solid</linestyle>
+			<fillcolor>[255, 255, 255, 0]</fillcolor>
+			<bordercolor>[0, 0, 0, 0]</bordercolor>
+			<textcolor>[0, 0, 0, 255]</textcolor>
+			<typesize>10</typesize>
+			<borderthickness>1</borderthickness>
+			<justification>full</justification>
+		</style>
+		<style name="normal_blue_full_italic">
+			<typeface>Arial:italic</typeface>
+			<linestyle>solid</linestyle>
+			<fillcolor>[255, 255, 255, 0]</fillcolor>
+			<bordercolor>[0, 0, 0, 0]</bordercolor>
+			<textcolor>[0, 118, 192, 255]</textcolor>
+			<typesize>10</typesize>
+			<borderthickness>1</borderthickness>
+			<justification>full</justification>
+		</style>
+		<style name="normal_black_full_bold">
+			<typeface>Arial:bold</typeface>
 			<linestyle>solid</linestyle>
 			<fillcolor>[255, 255, 255, 0]</fillcolor>
 			<bordercolor>[0, 0, 0, 0]</bordercolor>
@@ -836,6 +894,26 @@
 			<typesize>6</typesize>
 			<borderthickness>1</borderthickness>
 			<justification>center</justification>
+		</style>
+		<style name="small_white_box_full">
+			<typeface>Arial</typeface>
+			<linestyle>solid</linestyle>
+			<fillcolor>[255, 255, 255, 100]</fillcolor>
+			<bordercolor>[0, 0, 0, 255]</bordercolor>
+			<textcolor>[0, 0, 0, 255]</textcolor>
+			<typesize>7</typesize>
+			<borderthickness>1</borderthickness>
+			<justification>full</justification>
+		</style>
+		<style name="small_white_box_red">
+			<typeface>Arial</typeface>
+			<linestyle>solid</linestyle>
+			<fillcolor>[255, 255, 255, 255]</fillcolor>
+			<bordercolor>[0, 0, 0, 255]</bordercolor>
+			<textcolor>[255, 0, 0, 255]</textcolor>
+			<typesize>9</typesize>
+			<borderthickness>1</borderthickness>
+			<justification>full</justification>
 		</style>
 	</assets>
 
@@ -953,25 +1031,16 @@
 
 		<iconreference name="Icon Reference">
 			<top name="top">
-				<image name="background">
-					<image>background_white</image>
+				<image name="reference_background">
+					<image>reference_background</image>
 					<rectangle>[0,0,-1,-1]</rectangle>
-					<rotation>0</rotation>
 					<order>10</order>
 				</image>
-				<text name="Icon Reference Card">
-					<text>Icon Reference Card</text>
-					<style>large_black</style>
-					<rectangle>[100,100,745,-1]</rectangle>
-					<rotation>0</rotation>
-					<order>20</order>
-				</text>
 			</top>
 			<bottom name="bottom">
-				<image name="background">
-					<image>background_white</image>
+				<image name="reference_background">
+					<image>reference_background</image>
 					<rectangle>[0,0,-1,-1]</rectangle>
-					<rotation>0</rotation>
 					<order>10</order>
 				</image>
 			</bottom>
@@ -2380,6 +2449,22 @@
 					</image>
 				</top>
 				<bottom>
+					<image>
+						<image>base_background</image>
+						<order>10</order>
+					</image>
+					<text>
+						<text>As you step into the briefing room, you become aware of a muted klaxon calling out in the background.  Laura’s voice can be heard over your com port:{n}{n}{s:normal_blue_full_italic}"I know you’ve been through the drill before, but things seem a bit more urgent today.  I can’t quite put a finger on it, but Bob seems a bit more concerned than usual.  He keeps muttering about Keith…  Bob is waiting for you next door. Please don’t keep him waiting."</text>
+						<style>normal_black_full</style>
+						<rectangle>[75,150,795,-1]</rectangle>
+						<order>11</order>
+					</text>
+					<text>
+						<text>Now, take turns revealing and reading aloud cards B through F one by one.</text>
+						<style>small_white_box_red</style>
+						<rectangle>[75,1300,795,-1]</rectangle>
+						<order>11</order>
+					</text>
 				</bottom>
 			</card>
 			<card name="Base B">
@@ -2390,6 +2475,21 @@
 					</image>
 				</top>
 				<bottom>
+					<image>
+						<image>base_background</image>
+						<order>10</order>
+					</image>
+					<image>
+						<image>bob</image>
+						<rectangle>[225,50,495,-2]</rectangle>
+						<order>10</order>
+					</image>
+					<text>
+						<text>Bob seems nervously distracted as you enter the room. He quickly turns and returns back to character as becomes aware of your presence. {n}{s:normal_black_full_italic}"Ah, you’ve arrived and none too soon.  We have a rift to close and this time it is a bit more personal than I would like. We have a rogue agent. Agent Keith has decided to make history his home and recreational plaything. You obviously understand the implications for all of us.  If he makes one mistake… one bad decision…  Well, you get it and I need you to stop him. {s:normal_black_full_bold}Find Keith, his henchmen and time portal... put an end to their plans."</text>
+						<style>normal_black_full</style>
+						<rectangle>[75,500,795,-1]</rectangle>
+						<order>11</order>
+					</text>
 				</bottom>
 			</card>
 			<card name="Base C">
@@ -2400,6 +2500,96 @@
 					</image>
 				</top>
 				<bottom>
+					<image>
+						<image>base_background</image>
+						<order>10</order>
+					</image>
+					<text>
+						<text>Laura chimes in:{s:normal_blue_full_italic}"you will be visiting Spain 1499 NT. I have the specifics on your equipment for this case."{n}{n}{s:}Equipment:</text>
+						<style>normal_black_full</style>
+						<rectangle>[75,75,795,-1]</rectangle>
+						<order>11</order>
+					</text>
+					<rect>
+						<style>small_white_box_full</style>
+						<rectangle>[75,400,200,200]</rectangle>
+						<order>11</order>
+					</rect>
+					<image>
+						<image>blessing</image>
+						<rectangle>[100,425,150,150]</rectangle>
+						<order>11</order>
+					</image>
+					<text>
+						<text>These tokens represent a blessing. These can be used during any challenge to aid in your quest. Spending a blessing allows one to re-roll a challenge die.</text>
+						<style>small_white_box_full</style>
+						<rectangle>[275,400,595,200]</rectangle>
+						<order>11</order>
+					</text>
+					<rect>
+						<style>small_white_box_full</style>
+						<rectangle>[75,600,795,200]</rectangle>
+						<order>11</order>
+					</rect>
+					<image>
+						<image>healing</image>
+						<rectangle>[100,625,150,150]</rectangle>
+						<order>11</order>
+					</image>
+					<text>
+						<text>These tokens represent a healing poultice. These can be used at any time by the agent holding it. Each token recovers one lost health {I:heart:40:-2}.</text>
+						<style>small_white_box_full</style>
+						<rectangle>[275,600,595,200]</rectangle>
+						<order>11</order>
+					</text>
+					<rect>
+						<style>small_white_box_full</style>
+						<rectangle>[75,800,795,200]</rectangle>
+						<order>11</order>
+					</rect>
+					<image>
+						<image>soul</image>
+						<rectangle>[100,825,150,150]</rectangle>
+						<order>11</order>
+					</image>
+					<text>
+						<text>These tokens represent a soul, the incorporeal essence of a living being. These are very powerful and very scarce resources. How they might be used...</text>
+						<style>small_white_box_full</style>
+						<rectangle>[275,800,595,200]</rectangle>
+						<order>11</order>
+					</text>
+					<rect>
+						<style>small_white_box_full</style>
+						<rectangle>[75,1000,795,200]</rectangle>
+						<order>11</order>
+					</rect>
+					<image>
+						<image>poison</image>
+						<rectangle>[100,1025,150,150]</rectangle>
+						<order>11</order>
+					</image>
+					<text>
+						<text>These tokens represent a dose of poison. Their use is situation specific, use them with care.</text>
+						<style>small_white_box_full</style>
+						<rectangle>[275,1000,595,200]</rectangle>
+						<order>11</order>
+					</text>
+					<rect>
+						<style>small_white_box_full</style>
+						<rectangle>[75,1200,795,200]</rectangle>
+						<order>11</order>
+					</rect>
+					<image>
+						<image>bullet</image>
+						<rectangle>[100,1225,150,150]</rectangle>
+						<order>11</order>
+					</image>
+					<text>
+						<text>These tokens represent ammunition for a weapon of some sort. Every time the weapon is used, one of these tokens must be spent.</text>
+						<style>small_white_box_full</style>
+						<rectangle>[275,1200,595,200]</rectangle>
+						<order>11</order>
+					</text>
 				</bottom>
 			</card>
 			<card name="Base D">
@@ -2410,6 +2600,69 @@
 					</image>
 				</top>
 				<bottom>
+					<image>
+						<image>base_background</image>
+						<order>10</order>
+					</image>
+					<image>
+						<image>laura</image>
+						<rectangle>[225,50,495,-2]</rectangle>
+						<order>10</order>
+					</image>
+					<text>
+						<text>Laura continues... {s:normal_blue_full_italic}"You will have to use all of your skills to deal with this case. My advice is to exercise caution, the population in this timeline are a superstitious lot.  Perhaps that is why Keith chose this timeline?"{s:}{n}Skills:</text>
+						<style>normal_black_full</style>
+						<rectangle>[75,375,795,-1]</rectangle>
+						<order>11</order>
+					</text>
+					<rect>
+						<style>small_white_box_full</style>
+						<rectangle>[75,800,795,200]</rectangle>
+						<order>11</order>
+					</rect>
+					<image>
+						<image>skill_agile</image>
+						<rectangle>[100,825,150,150]</rectangle>
+						<order>11</order>
+					</image>
+					<text>
+						<text>Agility: the ability to hide, dodge or otherwise avoid danger, detection, etc. A handy ability for stealthy tasks.</text>
+						<style>small_white_box_full</style>
+						<rectangle>[275,800,595,200]</rectangle>
+						<order>11</order>
+					</text>
+					<rect>
+						<style>small_white_box_full</style>
+						<rectangle>[75,1000,795,200]</rectangle>
+						<order>11</order>
+					</rect>
+					<image>
+						<image>skill_glib</image>
+						<rectangle>[100,1025,150,150]</rectangle>
+						<order>11</order>
+					</image>
+					<text>
+						<text>Glibness: this is a measure of one’s ability to convince people to see things your way or convince that your ideas are better than theirs. </text>
+						<style>small_white_box_full</style>
+						<rectangle>[275,1000,595,200]</rectangle>
+						<order>11</order>
+					</text>
+					<rect>
+						<style>small_white_box_full</style>
+						<rectangle>[75,1200,795,200]</rectangle>
+						<order>11</order>
+					</rect>
+					<image>
+						<image>skill_combat</image>
+						<rectangle>[100,1225,150,150]</rectangle>
+						<order>11</order>
+					</image>
+					<text>
+						<text>Combat: a general placeholder for a fight, with fists, weapons, etc. There will always be a loser for this approach to an encounter.</text>
+						<style>small_white_box_full</style>
+						<rectangle>[275,1200,595,200]</rectangle>
+						<order>11</order>
+					</text>
 				</bottom>
 			</card>
 			<card name="Base E">
@@ -2420,6 +2673,33 @@
 					</image>
 				</top>
 				<bottom>
+					<image>
+						<image>base_background</image>
+						<order>10</order>
+					</image>
+					<image>
+						<image>pods</image>
+						<rectangle>[275,50,395,-2]</rectangle>
+						<order>10</order>
+					</image>
+					<text>
+						<text>Bob interrupts: {s:normal_black_full_italic}"Thanks for the information Laura, but it’s time we get our team prepared for the transfer."{s:}{n}Final Preparations:</text>
+						<style>normal_black_full</style>
+						<rectangle>[75,435,795,-1]</rectangle>
+						<order>11</order>
+					</text>
+					<text>
+						<text>&#x2022; Place the Item cards on their space.{n}&#x2022; Place the four Plan cards on their dedicated space.{n}&#x2022; Shuffle the seven Random Encounter cards and place them on the board.{n}&#x2022; The four mission successful/failed cards go face down on their dedicated space.{n}&#x2022; Set the time token to 30 TU {I:time:40:-2}.{n}&#x2022; The group token is placed on the "Path to town" location, your starting point.</text>
+						<style>smaller_black_left</style>
+						<rectangle>[100,675,745,-1]</rectangle>
+						<order>11</order>
+					</text>
+					<text>
+						<text>If you have fewer than 4 players, it is suggested that you still use 4 receptacles and control over the extra receptacles be shared by the players.</text>
+						<style>normal_black_full</style>
+						<rectangle>[75,1150,795,-1]</rectangle>
+						<order>11</order>
+					</text>
 				</bottom>
 			</card>
 			<card name="Base F">
@@ -2430,6 +2710,22 @@
 					</image>
 				</top>
 				<bottom>
+					<image>
+						<image>base_background</image>
+						<order>10</order>
+					</image>
+					<text>
+						<text>You gather your team and resources and head to the transfer caissons. As you strap into the beds, your com crackles… Laura: {s:normal_blue_full_italic} "Good luck team, I have complete confidence that you will be able to resolve this issue quickly and completely."{s:} Overhead speaker "3.. 2.. 1..".  Bob: {s:normal_blue_full_italic}"One thing… bxhzas ...forgot to tell yoszyxs… time jumps zzxhgb… witchcraft…"{s:} and you are off.{n}Final Preparations:</text>
+						<style>normal_black_full</style>
+						<rectangle>[75,75,795,-1]</rectangle>
+						<order>11</order>
+					</text>
+					<text>
+						<text>&#x2022; Each player selects a receptacle and places the life points, shields and equipment listed on the player card as per instructions on the individual cards.{n}&#x2022; Take the Icon Reference card and keep it close at hand.{n}&#x2022; Select one play to be the initial Time Captain. That player closes the base and places it next to the board. They proceed to open the “Path to town” location. The Time Captain reads card A out loud and the adventure begins..</text>
+						<style>smaller_black_left</style>
+						<rectangle>[100,775,745,-1]</rectangle>
+						<order>11</order>
+					</text>
 				</bottom>
 			</card>
 		</base>
