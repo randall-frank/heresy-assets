@@ -835,6 +835,16 @@
 			<borderthickness>1</borderthickness>
 			<justification>left</justification>
 		</style>
+		<style name="normal_black_center">
+			<typeface>Arial</typeface>
+			<linestyle>solid</linestyle>
+			<fillcolor>[255, 255, 255, 0]</fillcolor>
+			<bordercolor>[0, 0, 0, 0]</bordercolor>
+			<textcolor>[0, 0, 0, 255]</textcolor>
+			<typesize>10</typesize>
+			<borderthickness>1</borderthickness>
+			<justification>center</justification>
+		</style>
 		<style name="smaller_black_left">
 			<typeface>Arial</typeface>
 			<linestyle>solid</linestyle>
@@ -1036,6 +1046,134 @@
 					<rectangle>[0,0,-1,-1]</rectangle>
 					<order>10</order>
 				</image>
+				<text>
+					<text>Skills</text>
+					<style>normal_blue_full_italic</style>
+					<rectangle>[100,150,745,-1]</rectangle>
+					<order>11</order>
+				</text>
+				<image>
+					<image>skill_agile</image>
+					<rectangle>[100,220,100,-2]</rectangle>
+					<order>11</order>
+				</image>
+				<text>
+					<text>Agility</text>
+					<style>normal_black_center</style>
+					<rectangle>[50,340,200,-1]</rectangle>
+					<order>11</order>
+				</text>
+				<image>
+					<image>skill_glib</image>
+					<rectangle>[422,220,100,-2]</rectangle>
+					<order>11</order>
+				</image>
+				<text>
+					<text>Glibness</text>
+					<style>normal_black_center</style>
+					<rectangle>[372,340,200,-1]</rectangle>
+					<order>11</order>
+				</text>
+				<image>
+					<image>skill_combat</image>
+					<rectangle>[745,220,100,-2]</rectangle>
+					<order>11</order>
+				</image>
+				<text>
+					<text>Combat</text>
+					<style>normal_black_center</style>
+					<rectangle>[695,340,200,-1]</rectangle>
+					<order>11</order>
+				</text>
+				<text>
+					<text>Tokens</text>
+					<style>normal_blue_full_italic</style>
+					<rectangle>[100,420,745,-1]</rectangle>
+					<order>11</order>
+				</text>
+				<image>
+					<image>blessing</image>
+					<rectangle>[100,500,100,-2]</rectangle>
+					<order>11</order>
+				</image>
+				<text>
+					<text>Blessing</text>
+					<style>normal_black_center</style>
+					<rectangle>[50,620,200,-1]</rectangle>
+					<order>11</order>
+				</text>
+				<image>
+					<image>healing</image>
+					<rectangle>[422,500,100,-2]</rectangle>
+					<order>11</order>
+				</image>
+				<text>
+					<text>Healing Poultice</text>
+					<style>normal_black_center</style>
+					<rectangle>[372,620,200,-1]</rectangle>
+					<order>11</order>
+				</text>
+				<image>
+					<image>soul</image>
+					<rectangle>[745,500,100,-2]</rectangle>
+					<order>11</order>
+				</image>
+				<text>
+					<text>Soul</text>
+					<style>normal_black_center</style>
+					<rectangle>[695,620,200,-1]</rectangle>
+					<order>11</order>
+				</text>
+				<image>
+					<image>poison</image>
+					<rectangle>[100,750,100,-2]</rectangle>
+					<order>11</order>
+				</image>
+				<text>
+					<text>Poison</text>
+					<style>normal_black_center</style>
+					<rectangle>[50,870,200,-1]</rectangle>
+					<order>11</order>
+				</text>
+				<image>
+					<image>bullet</image>
+					<rectangle>[745,750,100,-2]</rectangle>
+					<order>11</order>
+				</image>
+				<text>
+					<text>Bullet</text>
+					<style>normal_black_center</style>
+					<rectangle>[695,870,200,-1]</rectangle>
+					<order>11</order>
+				</text>
+				<text>
+					<text>Miscellaneous</text>
+					<style>normal_blue_full_italic</style>
+					<rectangle>[100,950,745,-1]</rectangle>
+					<order>11</order>
+				</text>
+				<image>
+					<image>lock</image>
+					<rectangle>[75,1050,100,-2]</rectangle>
+					<order>11</order>
+				</image>
+				<text>
+					<text>It is impossible to leave this card until the test has been completed. Character special abilities may allow them to escape locked tests.</text>
+					<style>smaller_black_left</style>
+					<rectangle>[200,1025,670,150]</rectangle>
+					<order>11</order>
+				</text>
+				<image>
+					<image>!</image>
+					<rectangle>[75,1250,100,-2]</rectangle>
+					<order>11</order>
+				</image>
+				<text>
+					<text>If this symbol is present and the party has the required colored unlock token. The pictured party member must go to this card when entering this location. The card should be revealed to all party members.</text>
+					<style>smaller_black_left</style>
+					<rectangle>[200,1225,670,150]</rectangle>
+					<order>11</order>
+				</text>
 			</top>
 			<bottom name="bottom">
 				<image name="reference_background">
@@ -1043,6 +1181,134 @@
 					<rectangle>[0,0,-1,-1]</rectangle>
 					<order>10</order>
 				</image>
+				<text>
+					<text>Skills</text>
+					<style>normal_blue_full_italic</style>
+					<rectangle>[100,150,745,-1]</rectangle>
+					<order>11</order>
+				</text>
+				<image>
+					<image>skill_agile</image>
+					<rectangle>[100,220,100,-2]</rectangle>
+					<order>11</order>
+				</image>
+				<text>
+					<text>Agility</text>
+					<style>normal_black_center</style>
+					<rectangle>[50,340,200,-1]</rectangle>
+					<order>11</order>
+				</text>
+				<image>
+					<image>skill_glib</image>
+					<rectangle>[422,220,100,-2]</rectangle>
+					<order>11</order>
+				</image>
+				<text>
+					<text>Glibness</text>
+					<style>normal_black_center</style>
+					<rectangle>[372,340,200,-1]</rectangle>
+					<order>11</order>
+				</text>
+				<image>
+					<image>skill_combat</image>
+					<rectangle>[745,220,100,-2]</rectangle>
+					<order>11</order>
+				</image>
+				<text>
+					<text>Combat</text>
+					<style>normal_black_center</style>
+					<rectangle>[695,340,200,-1]</rectangle>
+					<order>11</order>
+				</text>
+				<text>
+					<text>Tokens</text>
+					<style>normal_blue_full_italic</style>
+					<rectangle>[100,420,745,-1]</rectangle>
+					<order>11</order>
+				</text>
+				<image>
+					<image>blessing</image>
+					<rectangle>[100,500,100,-2]</rectangle>
+					<order>11</order>
+				</image>
+				<text>
+					<text>Blessing</text>
+					<style>normal_black_center</style>
+					<rectangle>[50,620,200,-1]</rectangle>
+					<order>11</order>
+				</text>
+				<image>
+					<image>healing</image>
+					<rectangle>[422,500,100,-2]</rectangle>
+					<order>11</order>
+				</image>
+				<text>
+					<text>Healing Poultice</text>
+					<style>normal_black_center</style>
+					<rectangle>[372,620,200,-1]</rectangle>
+					<order>11</order>
+				</text>
+				<image>
+					<image>soul</image>
+					<rectangle>[745,500,100,-2]</rectangle>
+					<order>11</order>
+				</image>
+				<text>
+					<text>Soul</text>
+					<style>normal_black_center</style>
+					<rectangle>[695,620,200,-1]</rectangle>
+					<order>11</order>
+				</text>
+				<image>
+					<image>poison</image>
+					<rectangle>[100,750,100,-2]</rectangle>
+					<order>11</order>
+				</image>
+				<text>
+					<text>Poison</text>
+					<style>normal_black_center</style>
+					<rectangle>[50,870,200,-1]</rectangle>
+					<order>11</order>
+				</text>
+				<image>
+					<image>bullet</image>
+					<rectangle>[745,750,100,-2]</rectangle>
+					<order>11</order>
+				</image>
+				<text>
+					<text>Bullet</text>
+					<style>normal_black_center</style>
+					<rectangle>[695,870,200,-1]</rectangle>
+					<order>11</order>
+				</text>
+				<text>
+					<text>Miscellaneous</text>
+					<style>normal_blue_full_italic</style>
+					<rectangle>[100,950,745,-1]</rectangle>
+					<order>11</order>
+				</text>
+				<image>
+					<image>lock</image>
+					<rectangle>[75,1050,100,-2]</rectangle>
+					<order>11</order>
+				</image>
+				<text>
+					<text>It is impossible to leave this card until the test has been completed. Character special abilities may allow them to escape locked tests.</text>
+					<style>smaller_black_left</style>
+					<rectangle>[200,1025,670,150]</rectangle>
+					<order>11</order>
+				</text>
+				<image>
+					<image>!</image>
+					<rectangle>[75,1250,100,-2]</rectangle>
+					<order>11</order>
+				</image>
+				<text>
+					<text>If this symbol is present and the party has the required colored unlock token. The pictured party member must go to this card when the party enters this location. The card should be revealed to all party members.</text>
+					<style>smaller_black_left</style>
+					<rectangle>[200,1225,670,150]</rectangle>
+					<order>11</order>
+				</text>
 			</bottom>
 		</iconreference>
 
