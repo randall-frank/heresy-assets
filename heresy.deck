@@ -140,7 +140,10 @@
 		<file filename="heresy_media/bottle.png" name="bottle"/>
 		<file filename="heresy_media/Golem_by_Philippe_Semeria.jpg" name="golem"/>
 		<file filename="heresy_media/Graminaeus-title-page.jpg" name="astro_book"/>
-
+		<file filename="heresy_media/crow.png" name="crow"/>
+		<file filename="heresy_media/snake.png" name="snake"/>
+		<file filename="heresy_media/cat.png" name="cat"/>
+		
 		<file filename="heresy_media/cat1.png" name="cat3"/>
 		<file filename="heresy_media/cat2.png" name="cat4"/>
 		<file filename="heresy_media/cat3.png" name="cat2"/>
@@ -466,6 +469,15 @@
 		<image name="char_nun_head">
 			<file>nun</file>
 			<rectangle>[338,66,308,298]</rectangle>
+		</image>
+		<image name="char_crow">
+			<file>crow</file>
+		</image>
+		<image name="char_cat">
+			<file>cat</file>
+		</image>
+		<image name="char_snake">
+			<file>snake</file>
 		</image>
 		
 		<image name="loc_chapel_b">
@@ -923,6 +935,16 @@
 			<textcolor>[255, 0, 0, 255]</textcolor>
 			<typesize>9</typesize>
 			<borderthickness>1</borderthickness>
+			<justification>full</justification>
+		</style>
+	    <style name="card_a_default">
+			<typeface>Arial</typeface>
+			<linestyle>solid</linestyle>
+			<fillcolor>[159, 119, 88, 255]</fillcolor>
+			<bordercolor>[255, 255, 255, 255]</bordercolor>
+			<textcolor>[255, 255, 255, 255]</textcolor>
+			<typesize>9</typesize>
+			<borderthickness>2</borderthickness>
 			<justification>full</justification>
 		</style>
 	</assets>
@@ -1622,8 +1644,40 @@
 							<rotation>270</rotation>
 							<order>-8</order>
 						</text>
+						<text name="location name">
+							<text>Location: {ls}</text>
+							<style>big_white_clear</style>
+							<rectangle>[125,1370,1500,-1]</rectangle>
+							<rotation>270</rotation>
+							<order>-8</order>
+						</text>
+						<text>
+							<text>A-B-C-D-E-F</text>
+							<style>corner_number</style>
+							<rectangle>[250,1300,445,-1]</rectangle>
+							<rotation>0</rotation>
+							<order>100</order>
+						</text>
 					</top>
 					<bottom>
+						<image name="border">
+							<image>border_overlay</image>
+							<rectangle>[0,0,-1,-1]</rectangle>
+							<rotation>0</rotation>
+							<order>-8</order>
+						</image>
+						<image name="background">
+							<image>background_brown</image>
+							<rectangle>[0,0,-1,-1]</rectangle>
+							<rotation>0</rotation>
+							<order>-99</order>
+						</image>
+						<text>
+							<text>  A well-traveled road winds between a low hill on the right and an open field on the left. As your party rounds the bend, the small town becomes visible in the distance, punctuated by the gilded cross capping the chapel in the center of town.{n}  Your group catches up with some other travelers headed into town. A captive woman in a horse drawn cage makes forlorn eye contact...</text>
+							<style>card_a_default</style>
+							<rectangle>[86,94,773,1350]</rectangle>
+							<order>0</order>
+						</text>
 					</bottom>
 				</card>
 				<card name="loc_path_b">
@@ -1688,8 +1742,33 @@
 							<rotation>270</rotation>
 							<order>-8</order>
 						</text>
+						<text>
+							<text>A-B-C-D-E-F</text>
+							<style>corner_number</style>
+							<rectangle>[250,1300,445,-1]</rectangle>
+							<rotation>0</rotation>
+							<order>100</order>
+						</text>
 					</top>
 					<bottom>
+						<image name="border">
+							<image>border_overlay</image>
+							<rectangle>[0,0,-1,-1]</rectangle>
+							<rotation>0</rotation>
+							<order>-8</order>
+						</image>
+						<image name="background">
+							<image>background_brown</image>
+							<rectangle>[0,0,-1,-1]</rectangle>
+							<rotation>0</rotation>
+							<order>-99</order>
+						</image>
+						<text>
+							<text>  A dim ray of light from the clouds illuminates the town cemetery. New graves are being dug right now, and the earth is freshly turned in multiple locations.{n}  A cluster of people sobbing disturbs the quiet. This does not look like a place of peace...</text>
+							<style>card_a_default</style>
+							<rectangle>[86,94,773,1350]</rectangle>
+							<order>0</order>
+						</text>
 					</bottom>
 				</card>
 				<card name="loc_graveyard_b">
@@ -1745,7 +1824,7 @@
 			</location>
 
 			<location name="Inn">
-				<card name="loc_graveyard_a">
+				<card name="loc_inn_a">
 					<top>
 						<text name="location name">
 							<text>Location: {ls}</text>
@@ -1754,8 +1833,33 @@
 							<rotation>270</rotation>
 							<order>-8</order>
 						</text>
+						<text>
+							<text>A-B-C-D-E-F-G</text>
+							<style>corner_number</style>
+							<rectangle>[250,1300,445,-1]</rectangle>
+							<rotation>0</rotation>
+							<order>100</order>
+						</text>
 					</top>
 					<bottom>
+						<image name="border">
+							<image>border_overlay</image>
+							<rectangle>[0,0,-1,-1]</rectangle>
+							<rotation>0</rotation>
+							<order>-8</order>
+						</image>
+						<image name="background">
+							<image>background_brown</image>
+							<rectangle>[0,0,-1,-1]</rectangle>
+							<rotation>0</rotation>
+							<order>-99</order>
+						</image>
+						<text>
+							<text>  You enter a smoke-filled room with tables of partons scattered about. On your left is the barkeep, looking to serve you. To the right are a series of semi-occupied tables. On the far right, a man completely dressed in black sitting alone making eye contact with you...</text>
+							<style>card_a_default</style>
+							<rectangle>[86,94,773,1350]</rectangle>
+							<order>0</order>
+						</text>
 					</bottom>
 				</card>
 				<card name="loc_inn_b">
@@ -1831,8 +1935,33 @@
 							<rotation>270</rotation>
 							<order>-8</order>
 						</text>
+						<text>
+							<text>A-B-C-D-E</text>
+							<style>corner_number</style>
+							<rectangle>[250,1300,445,-1]</rectangle>
+							<rotation>0</rotation>
+							<order>100</order>
+						</text>
 					</top>
 					<bottom>
+						<image name="border">
+							<image>border_overlay</image>
+							<rectangle>[0,0,-1,-1]</rectangle>
+							<rotation>0</rotation>
+							<order>-8</order>
+						</image>
+						<image name="background">
+							<image>background_brown</image>
+							<rectangle>[0,0,-1,-1]</rectangle>
+							<rotation>0</rotation>
+							<order>-99</order>
+						</image>
+						<text>
+							<text>  You enter the austere stone building. The interior shares the same aged look as the exterior.  Scarred stone walls enclose the space. At the entrance is a confessional booth, door open and inviting confessors.  In the center is a small altar with unfinished wooden benches in front. Behind a half partition, some book stacks are visible and a most curious door.</text>
+							<style>card_a_default</style>
+							<rectangle>[86,94,773,1350]</rectangle>
+							<order>0</order>
+						</text>
 					</bottom>
 				</card>
 				<card name="loc_chapel_b">
@@ -1892,8 +2021,33 @@
 							<rotation>270</rotation>
 							<order>-8</order>
 						</text>
+						<text>
+							<text>A-B-C-D-E-F-G-H</text>
+							<style>corner_number</style>
+							<rectangle>[250,1300,445,-1]</rectangle>
+							<rotation>0</rotation>
+							<order>100</order>
+						</text>
 					</top>
 					<bottom>
+						<image name="border">
+							<image>border_overlay</image>
+							<rectangle>[0,0,-1,-1]</rectangle>
+							<rotation>0</rotation>
+							<order>-8</order>
+						</image>
+						<image name="background">
+							<image>background_brown</image>
+							<rectangle>[0,0,-1,-1]</rectangle>
+							<rotation>0</rotation>
+							<order>-99</order>
+						</image>
+						<text>
+							<text>  The courtroom is spread out in front of your party.  On the left is the gallery where a small collection of townsfolk are observing the proceedings. A decorative piece of glass graces the end of a occupied bench catches the eye. In the center the counsel and the bailiff stand at a table before the judge with a despondent, haggered-looking defendant. The judge has just rendered a verdict and is recording his decision on your right.</text>
+							<style>card_a_default</style>
+							<rectangle>[86,94,773,1350]</rectangle>
+							<order>0</order>
+						</text>
 					</bottom>
 				</card>
 				<card name="loc_court_b">
@@ -1940,13 +2094,18 @@
 					<top>
 						<image>
 							<image>token_blue_1</image>
-							<rectangle>[177,1100,-1,-1]</rectangle>
+							<rectangle>[50,1100,-1,-1]</rectangle>
 							<order>11</order>
 						</image>
 						<image>
 							<image>!</image>
-							<rectangle>[531,1100,-1,-1]</rectangle>
+							<rectangle>[345,1100,-1,-1]</rectangle>
 							<order>11</order>
+						</image>
+						<image>
+							<image>char_nun_head</image>
+							<rectangle>[641,1100,230,-2]</rectangle>
+							<order>10</order>
 						</image>
 					</top>
 					<bottom>
@@ -1956,13 +2115,18 @@
 					<top>
 						<image>
 							<image>token_black_3</image>
-							<rectangle>[177,1100,-1,-1]</rectangle>
+							<rectangle>[50,1100,-1,-1]</rectangle>
 							<order>11</order>
 						</image>
 						<image>
 							<image>!</image>
-							<rectangle>[531,1100,-1,-1]</rectangle>
+							<rectangle>[345,1100,-1,-1]</rectangle>
 							<order>11</order>
+						</image>
+						<image>
+							<image>char_noble_woman_head</image>
+							<rectangle>[641,1100,230,-2]</rectangle>
+							<order>10</order>
 						</image>
 					</top>
 					<bottom>
@@ -1972,13 +2136,18 @@
 					<top>
 						<image>
 							<image>token_green_2</image>
-							<rectangle>[177,1100,-1,-1]</rectangle>
+							<rectangle>[50,1100,-1,-1]</rectangle>
 							<order>11</order>
 						</image>
 						<image>
 							<image>!</image>
-							<rectangle>[531,1100,-1,-1]</rectangle>
+							<rectangle>[345,1100,-1,-1]</rectangle>
 							<order>11</order>
+						</image>
+						<image>
+							<image>char_streetsmart_head</image>
+							<rectangle>[641,1100,230,-2]</rectangle>
+							<order>10</order>
 						</image>
 					</top>
 					<bottom>
@@ -1996,8 +2165,33 @@
 							<rotation>270</rotation>
 							<order>-8</order>
 						</text>
+						<text>
+							<text>A-B-C-D-E-F-G-H</text>
+							<style>corner_number</style>
+							<rectangle>[250,1300,445,-1]</rectangle>
+							<rotation>0</rotation>
+							<order>100</order>
+						</text>
 					</top>
 					<bottom>
+						<image name="border">
+							<image>border_overlay</image>
+							<rectangle>[0,0,-1,-1]</rectangle>
+							<rotation>0</rotation>
+							<order>-8</order>
+						</image>
+						<image name="background">
+							<image>background_brown</image>
+							<rectangle>[0,0,-1,-1]</rectangle>
+							<rotation>0</rotation>
+							<order>-99</order>
+						</image>
+						<text>
+							<text>  A large stone dark room opens before your eyes. Its smell makes you think of death and feel of despair. Shouts of pain are mixed with prayers and the sound of bones stretched to their limits. On your left, a man completely dressed in black is blocking your way. Next to him, a storage cabinet is half open. In the middle of the room, a torture wheel is spinning. At the far right, a group of women is smiling and waving at you.</text>
+							<style>card_a_default</style>
+							<rectangle>[86,94,773,1350]</rectangle>
+							<order>0</order>
+						</text>
 					</bottom>
 				</card>
 				<card name="loc_dungeon_b">
@@ -2028,13 +2222,18 @@
 						</image>
 						<image>
 							<image>token_yellow_3</image>
-							<rectangle>[177,1100,-1,-1]</rectangle>
+							<rectangle>[50,1100,-1,-1]</rectangle>
 							<order>11</order>
 						</image>
 						<image>
 							<image>!</image>
-							<rectangle>[531,1100,-1,-1]</rectangle>
+							<rectangle>[345,1100,-1,-1]</rectangle>
 							<order>11</order>
+						</image>
+						<image>
+							<image>char_nun_head</image>
+							<rectangle>[641,1100,230,-2]</rectangle>
+							<order>10</order>
 						</image>
 					</top>
 					<bottom>
@@ -2048,13 +2247,18 @@
 						</image>
 						<image>
 							<image>token_pink_4</image>
-							<rectangle>[177,1100,-1,-1]</rectangle>
+							<rectangle>[50,1100,-1,-1]</rectangle>
 							<order>11</order>
 						</image>
 						<image>
 							<image>!</image>
-							<rectangle>[531,1100,-1,-1]</rectangle>
+							<rectangle>[345,1100,-1,-1]</rectangle>
 							<order>11</order>
+						</image>
+						<image>
+							<image>char_noble_woman_head</image>
+							<rectangle>[641,1100,230,-2]</rectangle>
+							<order>10</order>
 						</image>
 					</top>
 					<bottom>
@@ -2068,13 +2272,18 @@
 						</image>
 						<image>
 							<image>token_black_2</image>
-							<rectangle>[177,1100,-1,-1]</rectangle>
+							<rectangle>[50,1100,-1,-1]</rectangle>
 							<order>11</order>
 						</image>
 						<image>
 							<image>!</image>
-							<rectangle>[531,1100,-1,-1]</rectangle>
+							<rectangle>[345,1100,-1,-1]</rectangle>
 							<order>11</order>
+						</image>
+						<image>
+							<image>char_streetsmart_head</image>
+							<rectangle>[641,1100,230,-2]</rectangle>
+							<order>10</order>
 						</image>
 					</top>
 					<bottom>
@@ -2112,8 +2321,33 @@
 							<rotation>270</rotation>
 							<order>-8</order>
 						</text>
+						<text>
+							<text>A-B-C-D-E-F-G</text>
+							<style>corner_number</style>
+							<rectangle>[250,1300,445,-1]</rectangle>
+							<rotation>0</rotation>
+							<order>100</order>
+						</text>
 					</top>
 					<bottom>
+						<image name="border">
+							<image>border_overlay</image>
+							<rectangle>[0,0,-1,-1]</rectangle>
+							<rotation>0</rotation>
+							<order>-8</order>
+						</image>
+						<image name="background">
+							<image>background_brown</image>
+							<rectangle>[0,0,-1,-1]</rectangle>
+							<rotation>0</rotation>
+							<order>-99</order>
+						</image>
+						<text>
+							<text>  A grassy hill on the outskirts of town provides a scenic location for an otherwise gristly ritual. A foul smell permeates the air. Ashes still swirl in the mid-afternoon breeze.</text>
+							<style>card_a_default</style>
+							<rectangle>[86,94,773,1350]</rectangle>
+							<order>0</order>
+						</text>
 					</bottom>
 				</card>
 				<card name="loc_field_b">
@@ -2154,13 +2388,18 @@
 						</image>
 						<image>
 							<image>token_grey_4</image>
-							<rectangle>[177,1100,-1,-1]</rectangle>
+							<rectangle>[50,1100,-1,-1]</rectangle>
 							<order>11</order>
 						</image>
 						<image>
 							<image>!</image>
-							<rectangle>[531,1100,-1,-1]</rectangle>
+							<rectangle>[345,1100,-1,-1]</rectangle>
 							<order>11</order>
+						</image>
+						<image>
+							<image>char_nun_head</image>
+							<rectangle>[641,1100,230,-2]</rectangle>
+							<order>10</order>
 						</image>
 					</top>
 					<bottom>
@@ -2174,13 +2413,18 @@
 						</image>
 						<image>
 							<image>token_pink_3</image>
-							<rectangle>[177,1100,-1,-1]</rectangle>
+							<rectangle>[50,1100,-1,-1]</rectangle>
 							<order>11</order>
 						</image>
 						<image>
 							<image>!</image>
-							<rectangle>[531,1100,-1,-1]</rectangle>
+							<rectangle>[345,1100,-1,-1]</rectangle>
 							<order>11</order>
+						</image>
+						<image>
+							<image>char_noble_woman_head</image>
+							<rectangle>[641,1100,230,-2]</rectangle>
+							<order>10</order>
 						</image>
 					</top>
 					<bottom>
@@ -2194,13 +2438,18 @@
 						</image>
 						<image>
 							<image>token_blue_3</image>
-							<rectangle>[177,1100,-1,-1]</rectangle>
+							<rectangle>[50,1100,-1,-1]</rectangle>
 							<order>11</order>
 						</image>
 						<image>
 							<image>!</image>
-							<rectangle>[531,1100,-1,-1]</rectangle>
+							<rectangle>[345,1100,-1,-1]</rectangle>
 							<order>11</order>
+						</image>
+						<image>
+							<image>char_streetsmart_head</image>
+							<rectangle>[641,1100,230,-2]</rectangle>
+							<order>10</order>
 						</image>
 					</top>
 					<bottom>
@@ -2218,8 +2467,33 @@
 							<rotation>270</rotation>
 							<order>-8</order>
 						</text>
+						<text>
+							<text>A-B-C-D-E</text>
+							<style>corner_number</style>
+							<rectangle>[250,1300,445,-1]</rectangle>
+							<rotation>0</rotation>
+							<order>100</order>
+						</text>
 					</top>
 					<bottom>
+						<image name="border">
+							<image>border_overlay</image>
+							<rectangle>[0,0,-1,-1]</rectangle>
+							<rotation>0</rotation>
+							<order>-8</order>
+						</image>
+						<image name="background">
+							<image>background_brown</image>
+							<rectangle>[0,0,-1,-1]</rectangle>
+							<rotation>0</rotation>
+							<order>-99</order>
+						</image>
+						<text>
+							<text>  Many paths lay before you. Your entire party must visit a specific card. If you have Item {in:the_crow}, you may use the ability listed on the item to look at one other card before ending up on the same card as the rest of the party (the rest of the party must select the destination card first).</text>
+							<style>card_a_default</style>
+							<rectangle>[86,94,773,1350]</rectangle>
+							<order>0</order>
+						</text>
 					</bottom>
 				</card>
 				<card name="cat_1_b">
@@ -2274,8 +2548,33 @@
 							<rotation>270</rotation>
 							<order>-8</order>
 						</text>
+						<text>
+							<text>A-B-C-D-E</text>
+							<style>corner_number</style>
+							<rectangle>[250,1300,445,-1]</rectangle>
+							<rotation>0</rotation>
+							<order>100</order>
+						</text>
 					</top>
 					<bottom>
+						<image name="border">
+							<image>border_overlay</image>
+							<rectangle>[0,0,-1,-1]</rectangle>
+							<rotation>0</rotation>
+							<order>-8</order>
+						</image>
+						<image name="background">
+							<image>background_brown</image>
+							<rectangle>[0,0,-1,-1]</rectangle>
+							<rotation>0</rotation>
+							<order>-99</order>
+						</image>
+						<text>
+							<text>  Even more paths lay before you. Your entire party must visit a specific card. If you have Item {in:the_crow}, you may use the ability listed on the item to look at one other card before ending up on the same card as the rest of the party (the rest of the party must select the destination card first).</text>
+							<style>card_a_default</style>
+							<rectangle>[86,94,773,1350]</rectangle>
+							<order>0</order>
+						</text>
 					</bottom>
 				</card>
 				<card name="cat_2_b">
@@ -2330,8 +2629,33 @@
 							<rotation>270</rotation>
 							<order>-8</order>
 						</text>
+						<text>
+							<text>A-B-C-D-E</text>
+							<style>corner_number</style>
+							<rectangle>[250,1300,445,-1]</rectangle>
+							<rotation>0</rotation>
+							<order>100</order>
+						</text>
 					</top>
 					<bottom>
+						<image name="border">
+							<image>border_overlay</image>
+							<rectangle>[0,0,-1,-1]</rectangle>
+							<rotation>0</rotation>
+							<order>-8</order>
+						</image>
+						<image name="background">
+							<image>background_brown</image>
+							<rectangle>[0,0,-1,-1]</rectangle>
+							<rotation>0</rotation>
+							<order>-99</order>
+						</image>
+						<text>
+							<text>  This is getting crazy, a slew of additional paths lay before you. Your entire party must visit a specific card. If you have Item {in:the_crow}, you may use the ability listed on the item to look at one other card before ending up on the same card as the rest of the party (the rest of the party must select the destination card first).</text>
+							<style>card_a_default</style>
+							<rectangle>[86,94,773,1350]</rectangle>
+							<order>0</order>
+						</text>
 					</bottom>
 				</card>
 				<card name="cat_3_b">
@@ -2386,8 +2710,33 @@
 							<rotation>270</rotation>
 							<order>-8</order>
 						</text>
+						<text>
+							<text>A-B-C-D-E-F</text>
+							<style>corner_number</style>
+							<rectangle>[250,1300,445,-1]</rectangle>
+							<rotation>0</rotation>
+							<order>100</order>
+						</text>
 					</top>
 					<bottom>
+						<image name="border">
+							<image>border_overlay</image>
+							<rectangle>[0,0,-1,-1]</rectangle>
+							<rotation>0</rotation>
+							<order>-8</order>
+						</image>
+						<image name="background">
+							<image>background_brown</image>
+							<rectangle>[0,0,-1,-1]</rectangle>
+							<rotation>0</rotation>
+							<order>-99</order>
+						</image>
+						<text>
+							<text>  Will it ever end!  Additional paths lay before you. Your entire party must visit a specific card. If you have Item {in:the_crow}, you may use the ability listed on the item to look at one other card before ending up on the same card as the rest of the party (the rest of the party must select the destination card first).</text>
+							<style>card_a_default</style>
+							<rectangle>[86,94,773,1350]</rectangle>
+							<order>0</order>
+						</text>
 					</bottom>
 				</card>
 				<card name="cat_4_b">
@@ -2453,8 +2802,33 @@
 							<rotation>270</rotation>
 							<order>-8</order>
 						</text>
+						<text>
+							<text>A-B-C-D-E-F</text>
+							<style>corner_number</style>
+							<rectangle>[250,1300,445,-1]</rectangle>
+							<rotation>0</rotation>
+							<order>100</order>
+						</text>
 					</top>
 					<bottom>
+						<image name="border">
+							<image>border_overlay</image>
+							<rectangle>[0,0,-1,-1]</rectangle>
+							<rotation>0</rotation>
+							<order>-8</order>
+						</image>
+						<image name="background">
+							<image>background_brown</image>
+							<rectangle>[0,0,-1,-1]</rectangle>
+							<rotation>0</rotation>
+							<order>-99</order>
+						</image>
+						<text>
+							<text>  A strange room appears before you. Golden crosses at the walls and rosaries are mixed with aseptic tables, storage cupboards made of glass and metal and medieval weapons. On your left, a suit of armor is leaning against the wall. Beside it, a large table partially covered in wires. On the extreme of the table, a handwritten notebook is open. At the far right an elaborate archway beckons.</text>
+							<style>card_a_default</style>
+							<rectangle>[86,94,773,1350]</rectangle>
+							<order>0</order>
+						</text>
 					</bottom>
 				</card>
 				<card name="loc_lab_b">
@@ -2519,8 +2893,33 @@
 							<rotation>270</rotation>
 							<order>-8</order>
 						</text>
+						<text>
+							<text>A-B-C-D-E-F-G-H</text>
+							<style>corner_number</style>
+							<rectangle>[250,1300,445,-1]</rectangle>
+							<rotation>0</rotation>
+							<order>100</order>
+						</text>
 					</top>
 					<bottom>
+						<image name="border">
+							<image>border_overlay</image>
+							<rectangle>[0,0,-1,-1]</rectangle>
+							<rotation>0</rotation>
+							<order>-8</order>
+						</image>
+						<image name="background">
+							<image>background_brown</image>
+							<rectangle>[0,0,-1,-1]</rectangle>
+							<rotation>0</rotation>
+							<order>-99</order>
+						</image>
+						<text>
+							<text>  You enter a large, 2010 N.T. era building. Advertisements with pricing abound.  It appears to be some kind of shopping facility, likely the source of the future artifacts you have encountered earlier. It seems strangely deserted except for robed acolytes. Note: if your party has the {I:token_blue_4:40:-2} token, the portal was destroyed when you used it. You cannot leave this location and the remainder of your time units will be spent here.</text>
+							<style>card_a_default</style>
+							<rectangle>[86,94,773,1350]</rectangle>
+							<order>0</order>
+						</text>
 					</bottom>
 				</card>
 				<card name="loc_hypermart_b">
@@ -3282,6 +3681,253 @@
 					</image>
 				</bottom>
 			</card>  
+
+			<card name="the_cat">
+				<top>
+				</top>
+				<bottom>
+					<image>
+						<image>char_cat</image>
+						<rectangle>[20,50,300,-2]</rectangle>
+						<order>10</order>
+					</image>
+					<text>
+						<text>The Cat{n}{s:normal_black_left}Doña Ortiz's familiar{n}{n}Inventory:</text>
+						<style>large_black_left</style>
+						<rectangle>[350,50,575,-1]</rectangle>
+						<order>10</order>
+					</text>
+					<image>
+						<image>skill_agile</image>
+						<rectangle>[50,430,130,-2]</rectangle>
+						<order>10</order>
+					</image>
+					<text>
+						<text>2</text>
+						<style>small_white_box</style>
+						<rectangle>[50,430,25,-1]</rectangle>
+						<order>11</order>
+					</text>
+					<image>
+						<image>skill_glib</image>
+						<rectangle>[200,430,130,-2]</rectangle>
+						<order>10</order>
+					</image>
+					<text>
+						<text>3</text>
+						<style>small_white_box</style>
+						<rectangle>[200,430,25,-1]</rectangle>
+						<order>11</order>
+					</text>
+					<image>
+						<image>skill_combat</image>
+						<rectangle>[350,430,130,-2]</rectangle>
+						<order>10</order>
+					</image>
+					<text>
+						<text>1</text>
+						<style>small_white_box</style>
+						<rectangle>[350,430,25,-1]</rectangle>
+						<order>11</order>
+					</text>
+					<image>
+						<image>shield_blue_skull</image>
+						<rectangle>[615,430,130,-2]</rectangle>
+						<order>10</order>
+					</image>
+					<text>
+						<text>4</text>
+						<style>small_white_box</style>
+						<rectangle>[615,430,25,-1]</rectangle>
+						<order>11</order>
+					</text>
+					<image>
+						<image>heart</image>
+						<rectangle>[765,430,130,-2]</rectangle>
+						<order>10</order>
+					</image>
+					<text>
+						<text>4</text>
+						<style>small_white_box</style>
+						<rectangle>[765,430,25,-1]</rectangle>
+						<order>11</order>
+					</text>
+					<text>
+						<text>  As smoke rises from the ashes of the Doña, her spirit is... moved. Her essence is transferred to her guardian familiar.  From there she can continue the quest.{n}{n}The black cat has multiple lives and can communicate with other humans (in familiar form, she does not lose glibness). The cat retains any health packs the Lady had before conversion and can still use them.  The cat is also able to leave combat at any time. This card may only be held by the player who selected the Doña character for this run.</text>
+						<style>normal_black_full</style>
+						<rectangle>[50,600,845,-1]</rectangle>
+						<order>11</order>
+					</text>
+				</bottom>
+			</card>
+			<card name="the_snake">
+				<top>
+				</top>
+				<bottom>
+					<image>
+						<image>char_snake</image>
+						<rectangle>[20,50,300,-2]</rectangle>
+						<order>10</order>
+					</image>
+					<text>
+						<text>The Snake{n}{s:normal_black_left}Isabel de Luján's familiar{n}{n}Inventory:</text>
+						<style>large_black_left</style>
+						<rectangle>[350,50,575,-1]</rectangle>
+						<order>10</order>
+					</text>
+					<text>
+						<text>1</text>
+						<style>small_white_box</style>
+						<rectangle>[600,200,25,-1]</rectangle>
+						<order>11</order>
+					</text>
+					<image>
+						<image>poison</image>
+						<rectangle>[600,200,130,-2]</rectangle>
+						<order>10</order>
+					</image>
+					
+					<image>
+						<image>skill_agile</image>
+						<rectangle>[50,430,130,-2]</rectangle>
+						<order>10</order>
+					</image>
+					<text>
+						<text>2</text>
+						<style>small_white_box</style>
+						<rectangle>[50,430,25,-1]</rectangle>
+						<order>11</order>
+					</text>
+					<image>
+						<image>skill_glib</image>
+						<rectangle>[200,430,130,-2]</rectangle>
+						<order>10</order>
+					</image>
+					<text>
+						<text>0</text>
+						<style>small_white_box</style>
+						<rectangle>[200,430,25,-1]</rectangle>
+						<order>11</order>
+					</text>
+					<image>
+						<image>skill_combat</image>
+						<rectangle>[350,430,130,-2]</rectangle>
+						<order>10</order>
+					</image>
+					<text>
+						<text>2(+2)</text>
+						<style>small_white_box</style>
+						<rectangle>[350,430,75,-1]</rectangle>
+						<order>11</order>
+					</text>
+					<image>
+						<image>shield_blue_skull</image>
+						<rectangle>[615,430,130,-2]</rectangle>
+						<order>10</order>
+					</image>
+					<text>
+						<text>4</text>
+						<style>small_white_box</style>
+						<rectangle>[615,430,25,-1]</rectangle>
+						<order>11</order>
+					</text>
+					<image>
+						<image>heart</image>
+						<rectangle>[765,430,130,-2]</rectangle>
+						<order>10</order>
+					</image>
+					<text>
+						<text>2</text>
+						<style>small_white_box</style>
+						<rectangle>[765,430,25,-1]</rectangle>
+						<order>11</order>
+					</text>
+					<text>
+						<text>  As smoke rises from Isabel's ashes, her spirit is... moved. Her essence is transferred to her guardian familiar.  From there she can continue the quest.{n}{n}The snake can make a poison attack every 5 {I:time:40:-2}.  Place a poison attack token {I:poison:40:-2} every 5 {I:time:40:-2} on the timeline. If the time counter arrives at a poison token, remove it from the timeline and place it on this card, attscks can be accumulated. A poison attack adds two die to a combat attack. This card may only be held by the player who selected the Isabel character for this run.</text>
+						<style>normal_black_full</style>
+						<rectangle>[50,600,845,-1]</rectangle>
+						<order>11</order>
+					</text>
+				</bottom>
+			</card>
+			<card name="the_crow">
+				<top>
+				</top>
+				<bottom>
+					<image>
+						<image>char_crow</image>
+						<rectangle>[20,50,300,-2]</rectangle>
+						<order>10</order>
+					</image>
+					<text>
+						<text>The Crow{n}{s:normal_black_left}Sr. de la Cruz's familiar{n}{n}Inventory:</text>
+						<style>large_black_left</style>
+						<rectangle>[350,50,575,-1]</rectangle>
+						<order>10</order>
+					</text>
+					<image>
+						<image>skill_agile</image>
+						<rectangle>[50,430,130,-2]</rectangle>
+						<order>10</order>
+					</image>
+					<text>
+						<text>3</text>
+						<style>small_white_box</style>
+						<rectangle>[50,430,25,-1]</rectangle>
+						<order>11</order>
+					</text>
+					<image>
+						<image>skill_glib</image>
+						<rectangle>[200,430,130,-2]</rectangle>
+						<order>10</order>
+					</image>
+					<text>
+						<text>0</text>
+						<style>small_white_box</style>
+						<rectangle>[200,430,25,-1]</rectangle>
+						<order>11</order>
+					</text>
+					<image>
+						<image>skill_combat</image>
+						<rectangle>[350,430,130,-2]</rectangle>
+						<order>10</order>
+					</image>
+					<text>
+						<text>1</text>
+						<style>small_white_box</style>
+						<rectangle>[350,430,25,-1]</rectangle>
+						<order>11</order>
+					</text>
+					<image>
+						<image>shield_blue_skull</image>
+						<rectangle>[615,430,130,-2]</rectangle>
+						<order>10</order>
+					</image>
+					<text>
+						<text>4</text>
+						<style>small_white_box</style>
+						<rectangle>[615,430,25,-1]</rectangle>
+						<order>11</order>
+					</text>
+					<image>
+						<image>heart</image>
+						<rectangle>[765,430,130,-2]</rectangle>
+						<order>10</order>
+					</image>
+					<text>
+						<text>2</text>
+						<style>small_white_box</style>
+						<rectangle>[765,430,25,-1]</rectangle>
+						<order>11</order>
+					</text>
+					<text>
+						<text>  As smoke rises from the Sister's ashes, her spirit is... moved. Her essence is transferred to her guardian familiar.  From there she can continue the quest.{n}{n}The crow is not locked into combat and can leave at any time. The crow may also fly between any two cards in the current location in the same turn. It may only participate in a single challenge roll per time-unit, but can move between and read two location cards in the same {I:time:40:-2}. This card may only be held by the player who selected the Sister character for this run.</text>
+						<style>normal_black_full</style>
+						<rectangle>[50,600,845,-1]</rectangle>
+						<order>11</order>
+					</text>
+				</bottom>
+			</card>
 			
 			<card name="Plan: Add Field">
 				<top>
