@@ -240,7 +240,7 @@
 			<file>TS_CreaPack_Icon_-B-</file>
 		</image>  
 		<image name="shield">
-			<file>"TS_CreaPack_Icon_-BB-</file>
+			<file>TS_CreaPack_Icon_-BB-</file>
 		</image>  
 		<image name="shield_time">
 			<file>TS_CreaPack_Icon_-BCB- copie 2</file>
@@ -615,6 +615,18 @@
 			<file>path_to_town</file>
 			<rectangle>[0,0,945,-1]</rectangle>
 		</image>
+		<image name="woman_in_cart">
+			<file>path_to_town</file>
+			<rectangle>[1042,278,472,526]</rectangle>
+		</image>
+		<image name="acolyte">
+			<file>path_to_town</file>
+			<rectangle>[2312,254,556,625]</rectangle>
+		</image>
+		<image name="thicket">
+			<file>path_to_town</file>
+			<rectangle>[4122,409,603,716]</rectangle>
+		</image>
 		<image name="loc_path_c">
 			<file>path_to_town</file>
 			<rectangle>[946,0,945,-1]</rectangle>
@@ -943,6 +955,46 @@
 			<fillcolor>[159, 119, 88, 255]</fillcolor>
 			<bordercolor>[255, 255, 255, 255]</bordercolor>
 			<textcolor>[255, 255, 255, 255]</textcolor>
+			<typesize>9</typesize>
+			<borderthickness>2</borderthickness>
+			<justification>full</justification>
+		</style>
+	    <style name="card_b_default">
+			<typeface>Arial</typeface>
+			<linestyle>solid</linestyle>
+			<fillcolor>[181, 194, 200, 60]</fillcolor>
+			<bordercolor>[128, 128, 128, 30]</bordercolor>
+			<textcolor>[0, 0, 0, 255]</textcolor>
+			<typesize>9</typesize>
+			<borderthickness>2</borderthickness>
+			<justification>full</justification>
+		</style>
+	    <style name="card_b_default_italic">
+			<typeface>Arial:italic</typeface>
+			<linestyle>solid</linestyle>
+			<fillcolor>[181, 194, 200, 60]</fillcolor>
+			<bordercolor>[128, 128, 128, 30]</bordercolor>
+			<textcolor>[0, 0, 0, 255]</textcolor>
+			<typesize>9</typesize>
+			<borderthickness>2</borderthickness>
+			<justification>full</justification>
+		</style>
+	    <style name="card_b_action">
+			<typeface>Arial</typeface>
+			<linestyle>solid</linestyle>
+			<fillcolor>[169, 167, 161, 40]</fillcolor>
+			<bordercolor>[128, 128, 128, 30]</bordercolor>
+			<textcolor>[0, 0, 0, 255]</textcolor>
+			<typesize>9</typesize>
+			<borderthickness>2</borderthickness>
+			<justification>full</justification>
+		</style>
+	    <style name="card_b_action_bold">
+			<typeface>Arial:bold</typeface>
+			<linestyle>solid</linestyle>
+			<fillcolor>[169, 167, 161, 40]</fillcolor>
+			<bordercolor>[128, 128, 128, 30]</bordercolor>
+			<textcolor>[0, 0, 0, 255]</textcolor>
 			<typesize>9</typesize>
 			<borderthickness>2</borderthickness>
 			<justification>full</justification>
@@ -1688,6 +1740,18 @@
 						</image>
 					</top>
 					<bottom>
+						<text>
+							<text>The peasant pulls you out of earshot of the cart party.  My name is Diego Rodríguez and I need your help. My sister Catalina was working in the local inn when the inquisition came into town. After a few minutes of questioning they took her in a cart like this one to the town up ahead and we have not heard from her in a week. In fact I think she wanted to go with them! I have heard stories about what they do with these girls and I fear for her life. Here is a picture of Catalina.  If you find any information about her, please let me know. I plan to stay in the Inn in town. I’ve heard it can be a good source of information.</text>
+							<style>card_b_default</style>
+							<rectangle>[86,94,773,-1]</rectangle>
+							<order>0</order>
+						</text>
+						<text>
+							<text>&#x2022; Take {s:card_b_action_bold}Item {in:Catalina Locket}{s:}</text>
+							<style>card_b_action</style>
+							<rectangle>[86,894,773,-1]</rectangle>
+							<order>0</order>
+						</text>
 					</bottom>
 				</card>
 				<card name="loc_path_c">
@@ -1698,6 +1762,17 @@
 						</image>
 					</top>
 					<bottom>
+						<image>
+							<image>woman_in_cart</image>
+							<rectangle>[200,94,545,-2]</rectangle>
+							<order>10</order>
+						</image>
+						<text>
+							<text>A young wearing a silver cross necklace is locked in the cage. She looks oddly distant.  You ask her name and she responds in slow, slurred speech, {s:card_b_default_italic}"I seem to be called … 'Juana'"{s:}.  When quizzed about her predicament, she only gestures to the tall man and smiles.</text>
+							<style>card_b_default</style>
+							<rectangle>[86,794,773,-1]</rectangle>
+							<order>0</order>
+						</text>
 					</bottom>
 				</card>
 				<card name="loc_path_d">
@@ -1708,6 +1783,23 @@
 						</image>
 					</top>
 					<bottom>
+						<image>
+							<image>acolyte</image>
+							<rectangle>[200,94,545,-2]</rectangle>
+							<order>10</order>
+						</image>
+						<text>
+							<text>The acolyte warns you not to speak with the prisoner.  {s:card_b_default_italic}"One cannot trust those in league with the unnamed one. They have ways of turning your mind and clouding your judgement. But we will take care of them, we will save them… all!"{s:}. He begins singing a hymn and ignores you further.</text>
+							<style>card_b_default</style>
+							<rectangle>[86,754,773,-1]</rectangle>
+							<order>0</order>
+						</text>
+						<text>
+							<text>&#x2022; If you have {s:card_b_action_bold}Item {in:Stick}{s:} you may try to steal his sword, replacing it with the item.{n}&#xA0;&#xA0;&#xA0;&#xA0;{I:skill_agile:75:-2} 4x{I:shield:75:-2} 2x{I:shield_shield:75:-2}{n}&#xA0;&#xA0;&#xA0;&#xA0;On success take {s:card_b_action_bold}Item {in:Sword}{s:}, lose {s:card_b_action_bold}Item {in:Stick}{s:}.</text>
+							<style>card_b_action</style>
+							<rectangle>[86,1194,773,-1]</rectangle>
+							<order>0</order>
+						</text>
 					</bottom>
 				</card>
 				<card name="loc_path_e">
@@ -1718,6 +1810,12 @@
 						</image>
 					</top>
 					<bottom>
+						<text>
+							<text>The tall man hears you approach and addresses you without turning around. {s:card_b_default_italic}"You are coming to this village in dark times, my friend. The forces of evil seem to be particularly strong in this area. But don’t worry: His Holiness the Pope prays for us every day, and is sending here his most trusted men to bring these poor lost souls back onto the right path of light, saving them from eternal damnation. Women are particularly weak and attracted by the forces of evil, so we must help them the most. We have to stay strong and have faith: the fight will be long and fierce, but the forces of Heaven will prevail. Mala tempora currunt, sed peiora parantur."</text>
+							<style>card_b_default</style>
+							<rectangle>[86,94,773,-1]</rectangle>
+							<order>0</order>
+						</text>
 					</bottom>
 				</card>
 				<card name="loc_path_f">
@@ -1728,6 +1826,23 @@
 						</image>
 					</top>
 					<bottom>
+						<image>
+							<image>thicket</image>
+							<rectangle>[200,94,545,-2]</rectangle>
+							<order>10</order>
+						</image>
+						<text>
+							<text> You step into the stand of small saplings and break off a short wooden stick.</text>
+							<style>card_b_default</style>
+							<rectangle>[86,800,773,-1]</rectangle>
+							<order>0</order>
+						</text>
+						<text>
+							<text>&#x2022; Take {s:card_b_action_bold}Item {in:Stick}{s:}</text>
+							<style>card_b_action</style>
+							<rectangle>[86,950,773,-1]</rectangle>
+							<order>0</order>
+						</text>
 					</bottom>
 				</card>
 			</location>
