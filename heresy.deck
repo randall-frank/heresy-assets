@@ -664,7 +664,27 @@
 			<file>scene_3_graveyard</file>
 			<rectangle>[3781,0,945,-1]</rectangle>
 		</image>
-
+		<image name="tombstone">
+			<file>scene_3_graveyard</file>
+			<rectangle>[232,840,542,416]</rectangle>
+		</image>
+		<image name="childs_grave">
+			<file>scene_3_graveyard</file>
+			<rectangle>[1166,714,522,712]</rectangle>
+		</image>
+		<image name="women_grave">
+			<file>scene_3_graveyard</file>
+			<rectangle>[1780,350,1240,680]</rectangle>
+		</image>
+		<image name="glass_tombstone">
+			<file>scene_3_graveyard</file>
+			<rectangle>[3060,728,542,552]</rectangle>
+		</image>
+		<image name="gravedigger">
+			<file>scene_3_graveyard</file>
+			<rectangle>[3982,78,560,518]</rectangle>
+		</image>
+		
 		<image name="loc_inn_b">
 			<file>scene_4_inn_bar</file>
 			<rectangle>[0,0,945,-1]</rectangle>
@@ -1879,7 +1899,7 @@
 							<order>-99</order>
 						</image>
 						<text>
-							<text>  A dim ray of light from the clouds illuminates the town cemetery. New graves are being dug right now, and the earth is freshly turned in multiple locations.{n}  A cluster of people sobbing disturbs the quiet. This does not look like a place of peace...</text>
+							<text>  A dim ray of light from the clouds illuminates the town cemetery. New graves are being dug right now, and the earth is freshly turned in multiple locations.{n}  A cluster of people sobbing disturbs the quiet. So many stories mark their closing chapters here. This does not feel a place of peace...</text>
 							<style>card_a_default</style>
 							<rectangle>[86,94,773,1350]</rectangle>
 							<order>0</order>
@@ -1894,6 +1914,23 @@
 						</image>
 					</top>
 					<bottom>
+						<image>
+							<image>tombstone</image>
+							<rectangle>[200,94,545,-2]</rectangle>
+							<order>10</order>
+						</image>
+						<text>
+							<text>{s:card_b_default_italic}"Martin, a soul displaced in time. May he find his peace in death."</text>
+							<style>card_b_default</style>
+							<rectangle>[86,554,773,-1]</rectangle>
+							<order>0</order>
+						</text>
+						<text>
+							<text>&#x2022; If you have {s:card_b_action_bold}Item {in:Shovel}{s:} you sift through the soil and make a most curious discovery. Take {s:card_b_action_bold}Item {in:Right Arm}{s:}.</text>
+							<style>card_b_action</style>
+							<rectangle>[86,694,773,-1]</rectangle>
+							<order>0</order>
+						</text>
 					</bottom>
 				</card>
 				<card name="loc_graveyard_c">
@@ -1904,6 +1941,23 @@
 						</image>
 					</top>
 					<bottom>
+						<image>
+							<image>childs_grave</image>
+							<rectangle>[200,94,545,-2]</rectangle>
+							<order>10</order>
+						</image>
+						<text>
+							<text>A simple cross marks a tiny, child’s grave. {s:card_b_default_italic}"Here lies our beloved son, called to our Father long before his time"{s:}</text>
+							<style>card_b_default</style>
+							<rectangle>[86,870,773,-1]</rectangle>
+							<order>0</order>
+						</text>
+						<text>
+							<text>&#x2022; If Sister María visits the grave, she takes {s:card_b_action_bold}Item {in:trigger_nun}{s:}.</text>
+							<style>card_b_action</style>
+							<rectangle>[86,1050,773,-1]</rectangle>
+							<order>0</order>
+						</text>
 					</bottom>
 				</card>
 				<card name="loc_graveyard_d">
@@ -1914,6 +1968,17 @@
 						</image>
 					</top>
 					<bottom>
+						<image>
+							<image>women_grave</image>
+							<rectangle>[100,94,745,-2]</rectangle>
+							<order>10</order>
+						</image>
+						<text>
+							<text>A group of women has their backs turned to you. They are looking at a fresh grave. You get close to the group just to hear their cries between sobs {s:card_b_default_italic}"... why ... how!  she never did ... witch ... impossible! ... and the fire... her poor soul ... into ...sphere. ...pray for her..."{s:}. You leave without interrupting their mourning.</text>
+							<style>card_b_default</style>
+							<rectangle>[86,554,773,-1]</rectangle>
+							<order>0</order>
+						</text>
 					</bottom>
 				</card>
 				<card name="loc_graveyard_e">
@@ -1924,6 +1989,23 @@
 						</image>
 					</top>
 					<bottom>
+						<image>
+							<image>glass_tombstone</image>
+							<rectangle>[200,94,545,-2]</rectangle>
+							<order>10</order>
+						</image>
+						<text>
+							<text>The tombstone reads {s:card_b_default_italic}"Here lies Maria Felicia: mother, wife, purified witch. May the Heavens forgive her".{s:} There seems to be a glass shard embedded as decoration in the face of the tombstone.</text>
+							<style>card_b_default</style>
+							<rectangle>[86,670,773,-1]</rectangle>
+							<order>0</order>
+						</text>
+						<text>
+							<text>&#x2022; If you choose to examine the decoration further, take {s:card_b_action_bold}Item {in:Stained Glass B}{s:}.</text>
+							<style>card_b_action</style>
+							<rectangle>[86,960,773,-1]</rectangle>
+							<order>0</order>
+						</text>
 					</bottom>
 				</card>
 				<card name="loc_graveyard_f">
@@ -1934,6 +2016,23 @@
 						</image>
 					</top>
 					<bottom>
+						<image>
+							<image>gravedigger</image>
+							<rectangle>[200,54,545,-2]</rectangle>
+							<order>10</order>
+						</image>
+						<text>
+							<text>A man sits on a stone, resting from the digging, with a shovel at his feet. {s:card_b_default_italic}"Hello visitors, I am Gonzalo the groundkeeper. Looking for a grave in particular? Please excuse the current conditions of the cemetery, we have been busier than usual lately. Indeed my siesta is over, I need to start digging new graves again… please let me know if you need anything."{s:}</text>
+							<style>card_b_default</style>
+							<rectangle>[86,600,773,-1]</rectangle>
+							<order>0</order>
+						</text>
+						<text>
+							<text>&#x2022; You may try to obtain his shovel. This can be done by either:{n}&#xA0;&#xA0;Talking him out of it:{I:skill_glib:75:-2} 4x{I:shield:75:-2} 2x{I:shield_time:75:-2}{n}&#xA0;&#xA0;Stealing it from him:{I:skill_agile:75:-2} 4x{I:shield:75:-2} 2x{I:shield_shield:75:-2}{n}&#xA0;&#xA0;On success take {s:card_b_action_bold}Item {in:Shovel}{s:}.</text>
+							<style>card_b_action</style>
+							<rectangle>[86,1150,773,-1]</rectangle>
+							<order>0</order>
+						</text>
 					</bottom>
 				</card>
 			</location>
@@ -4069,6 +4168,60 @@
 				</bottom>
 			</card>  
 			
+			<card name="trigger_nun">
+				<top>
+				</top>
+				<bottom>
+					<text>
+						<text>A Child’s Saint Foillan medal.{n}From the child she previously had in her care. Sister Maria gasps and falls to her knees as she reads the name on the cross. {s:card_b_default_italic}"Sorry…  so sorry…  I tried to save, tried to save ...I am… ...I am... … nothing."{s:} She reaches out and picks up the medal, tucking it beneath her robes, a reminder of a time she has tried desperately to forget. Head bowed, she sobs quietly to herself.</text>
+						<style>card_b_default</style>
+						<rectangle>[86,94,773,-1]</rectangle>
+						<order>0</order>
+					</text>
+					<text>
+						<text>&#x2022; The Sister María character takes the token {I:token_blue_1:100:-2}.</text>
+						<style>card_b_action</style>
+						<rectangle>[86,670,773,-1]</rectangle>
+						<order>0</order>
+					</text>
+				</bottom>
+			</card> 
+			<card name="trigger_streets">
+				<top>
+				</top>
+				<bottom>
+					<text>
+						<text>A strange drink.{n}A mug with a liquid of curious perfume. When Isabel takes a sip she immediately sits up straight and shakes her head, fighting the demons that the drink stirred up in her. After a few seconds she regains her composure, but there is an odd glint in her eye.</text>
+						<style>card_b_default</style>
+						<rectangle>[86,94,773,-1]</rectangle>
+						<order>0</order>
+					</text>
+					<text>
+						<text>&#x2022; The Isabel character takes the token {I:token_green_2:100:-2}.</text>
+						<style>card_b_action</style>
+						<rectangle>[86,540,773,-1]</rectangle>
+						<order>0</order>
+					</text>
+				</bottom>
+			</card>
+			<card name="trigger_lady">
+				<top>
+				</top>
+				<bottom>
+					<text>
+						<text>Pouch of drugged dust.{n}A small bellows and a pouch containing a light power. Leaning close to the mesh, to hear the priest’s response to her request for absolution, Doña Ortiz is startled by a puff of powder coming through the mesh. She pulls back to avoid the stinging particles, but it is too late, she has most definitely inhaled the plume. She pauses for a moment, listening to sounds unheard by anyone but her before returning to the present.</text>
+						<style>card_b_default</style>
+						<rectangle>[86,94,773,-1]</rectangle>
+						<order>0</order>
+					</text>
+					<text>
+						<text>&#x2022; The Doña Ortiz character takes the token {I:token_black_3:100:-2}.</text>
+						<style>card_b_action</style>
+						<rectangle>[86,700,773,-1]</rectangle>
+						<order>0</order>
+					</text>
+				</bottom>
+			</card> 			
 		</items>
 
 		<characters>
