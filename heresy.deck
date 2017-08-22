@@ -119,7 +119,7 @@
 		<file filename="heresy_media/pods.png" name="pods"/>
 		<file filename="heresy_media/base_bottom_back.png" name="base_background"/>
 		<file filename="heresy_media/reference_background.png" name="reference_background"/>
-		
+
 		<file filename="heresy_media/357.png" name="pistol"/>
 		<file filename="heresy_media/arm_colored_rjf.png" name="arm1"/>
 		<file filename="heresy_media/carbattery.png" name="battery"/>
@@ -143,13 +143,13 @@
 		<file filename="heresy_media/crow.png" name="crow"/>
 		<file filename="heresy_media/snake.png" name="snake"/>
 		<file filename="heresy_media/cat.png" name="cat"/>
-		
+
 		<file filename="heresy_media/cat1.png" name="cat3"/>
 		<file filename="heresy_media/cat2.png" name="cat4"/>
 		<file filename="heresy_media/cat3.png" name="cat2"/>
 		<file filename="heresy_media/cat4.png" name="cat1"/>
-				
-		
+
+
 		<image name="win_green">
 			<file>TS_ Missions_V_EN</file>
 		</image>
@@ -159,7 +159,7 @@
 		<image name="lose_time_orange">
 			<file>TS_ Missions_V_EN3</file>
 		</image>
-		
+
 		<image name="token_blue_1">
 			<file>TS_CreaPack_Icon_-1BL--30</file>
 		</image>
@@ -238,131 +238,131 @@
 
 		<image name="shield_shield">
 			<file>TS_CreaPack_Icon_-B-</file>
-		</image>  
+		</image>
 		<image name="shield">
 			<file>TS_CreaPack_Icon_-BB-</file>
-		</image>  
+		</image>
 		<image name="shield_time">
 			<file>TS_CreaPack_Icon_-BCB- copie 2</file>
-		</image>  
+		</image>
 		<image name="shield_blue_skull">
 			<file>TS_CreaPack_Icon_-BCB-</file>
-		</image>  
+		</image>
 		<image name="shield_red_skull">
 			<file>TS_CreaPack_Icon_-BCR-</file>
-		</image>  
+		</image>
 		<image name="shield_heart">
 			<file>TS_CreaPack_Icon_-BN-</file>
-		</image>  
+		</image>
 		<image name="lock">
 			<file>TS_CreaPack_Icon_-CAD-</file>
-		</image>  
+		</image>
 		<image name="!">
 			<file>TS_CreaPack_Icon_-PE-</file>
-		</image>  
+		</image>
 
 		<image name="skill_combat">
 			<file>TS_CreaPack_Icon_-CC-</file>
-		</image> 
+		</image>
 		<image name="skill_glib">
 			<file>TS_CreaPack_Icon_-M-</file>
-		</image> 
+		</image>
 		<image name="skill_agile">
 			<file>TS_CreaPack_Icon_-M- copie</file>
-		</image> 
+		</image>
 
 		<image name="blessing">
 			<file>TS_CreaPack_Icon_-JB-</file>
-		</image>  
+		</image>
 		<image name="healing">
 			<file>TS_CreaPack_Icon_-JV-</file>
-		</image>  
+		</image>
 		<image name="soul">
 			<file>TS_CreaPack_Icon_-JN-</file>
-		</image>  
+		</image>
 		<image name="poison">
 			<file>TS_CreaPack_Icon_-JM-</file>
-		</image>  
+		</image>
 		<image name="bullet">
 			<file>TS_CreaPack_Icon_-JJ-</file>
-		</image>  
+		</image>
 
 		<image name="heart">
 			<file>TS_CreaPack_Icon_-PV-</file>
-		</image> 
+		</image>
 
 		<image name="time">
 			<file>TS_CreaPack_Icon_-UTN-</file>
-		</image> 
+		</image>
 
 		<image name="hit_die">
 			<file>TS_CreaPack_Icon_-FD1R-</file>
-		</image> 
+		</image>
 
 		<image name="blue_logo">
 			<file>TS_CreaPack_Icon_-LOGO-</file>
-		</image> 
+		</image>
 
 		<image name="pistol">
 			<file>pistol</file>
-		</image> 
+		</image>
 		<image name="arm1">
 			<file>arm1</file>
-		</image> 
+		</image>
 		<image name="arm2">
 			<file>arm2</file>
-		</image> 
+		</image>
 		<image name="leg1">
 			<file>leg1</file>
-		</image> 
+		</image>
 		<image name="leg2">
 			<file>leg2</file>
-		</image> 
+		</image>
 		<image name="battery">
 			<file>battery</file>
-		</image> 
+		</image>
 		<image name="inq_logo">
 			<file>inq_logo</file>
-		</image> 
+		</image>
 		<image name="ing_logo_alpha">
 			<file>ing_logo_alpha</file>
-		</image> 
+		</image>
 		<image name="shovel">
 			<file>shovel</file>
-		</image> 
+		</image>
 		<image name="soul_medallion">
 			<file>soul</file>
-		</image> 
+		</image>
 		<image name="dummies">
 			<file>dummies</file>
-		</image> 
+		</image>
 		<image name="stick">
 			<file>stick</file>
-		</image> 
+		</image>
 		<image name="sword">
 			<file>sword</file>
-		</image> 
+		</image>
 		<image name="syringe">
 			<file>syringe</file>
-		</image> 
+		</image>
 		<image name="zune">
 			<file>zune</file>
-		</image> 
+		</image>
 		<image name="shorts">
 			<file>shorts</file>
 		</image>
 		<image name="nailgun">
 			<file>nailgun</file>
-		</image> 
+		</image>
 		<image name="bottle">
 			<file>bottle</file>
-		</image> 
+		</image>
 		<image name="golem">
 			<file>golem</file>
 		</image>
 		<image name="astro_book">
 			<file>astro_book</file>
-		</image> 
+		</image>
 
 		<image name="top_card">
 			<file>top_card</file>
@@ -427,7 +427,7 @@
 		<image name="pods">
 			<file>pods</file>
 		</image>
-		
+
 		<image name="char_stone_mason">
 			<file>stone_mason</file>
 		</image>
@@ -479,7 +479,7 @@
 		<image name="char_snake">
 			<file>snake</file>
 		</image>
-		
+
 		<image name="loc_chapel_b">
 			<file>chapel</file>
 			<rectangle>[0,0,945,-1]</rectangle>
@@ -684,7 +684,7 @@
 			<file>scene_3_graveyard</file>
 			<rectangle>[3982,78,560,518]</rectangle>
 		</image>
-		
+
 		<image name="loc_inn_b">
 			<file>scene_4_inn_bar</file>
 			<rectangle>[0,0,945,-1]</rectangle>
@@ -1642,7 +1642,7 @@
 					</text>
 				</bottom>
 			</card>
-			
+
 			<card name="Win: Keith dead, Machine ok">
 				<top>
 					<image name="background">
@@ -1654,7 +1654,7 @@
 				</top>
 				<bottom>
 				</bottom>
-			</card>			
+			</card>
 			<card name="Win: Keith dead, Machine destroyed">
 				<top>
 					<image name="background">
@@ -1671,7 +1671,7 @@
 				</top>
 				<bottom>
 				</bottom>
-			</card>	
+			</card>
 			<card name="Out of Time 1">
 				<top>
 					<image name="background">
@@ -1700,8 +1700,8 @@
 				</top>
 				<bottom>
 				</bottom>
-			</card>	
-			
+			</card>
+
 		</misc>
 
 		<locations>
@@ -3053,6 +3053,19 @@
 						</image>
 					</top>
 					<bottom>
+					<text>
+						<text>This armor is the ultimate model available for crusade: light and powerful. What is it doing in a priest’s office? … wait, what is this thing stuck inside it?
+          </text>
+						<style>card_b_default</style>
+						<rectangle>[86,600,773,-1]</rectangle>
+						<order>0</order>
+					</text>
+					<text>
+						<text>&#x2022; If you choose to search the armor: {I:skill_agile:75:-2} 2x{I:shield:75:-2} 2x:{I:time:75:-2}{n}On success take {s:card_b_action_bold}Item {in:Shovel}{s:}.</text>
+						<style>card_b_action</style>
+						<rectangle>[86,1150,773,-1]</rectangle>
+						<order>0</order>
+					</text>
 					</bottom>
 				</card>
 				<card name="loc_lab_c">
@@ -3710,7 +3723,7 @@
 					</image>
 				</bottom>
 			</card>
-			
+
 			<card name="Astronomy Book">
 				<top name="Star Chart B">
 				</top>
@@ -3734,7 +3747,7 @@
 				<bottom>
 				</bottom>
 			</card>
-			
+
 			<card name="Syringe">
 				<top>
 				</top>
@@ -3773,25 +3786,25 @@
 				</top>
 				<bottom>
 				</bottom>
-			</card> 
+			</card>
 			<card name="Phil Note 2">
 				<top>
 				</top>
 				<bottom>
 				</bottom>
-			</card>    
+			</card>
 			<card name="Keith Dead">
 				<top>
 				</top>
 				<bottom>
 				</bottom>
-			</card>    
+			</card>
 			<card name="Keith Lies">
 				<top>
 				</top>
 				<bottom>
 				</bottom>
-			</card>    
+			</card>
 			<card name="Shorts">
 				<top>
 				</top>
@@ -3803,7 +3816,7 @@
 					</image>
 				</bottom>
 			</card>
-			
+
 			<card name="Right Arm">
 				<top>
 				</top>
@@ -3814,7 +3827,7 @@
 						<order>10</order>
 					</image>
 				</bottom>
-			</card>  
+			</card>
 			<card name="Left Arm">
 				<top>
 				</top>
@@ -3825,7 +3838,7 @@
 						<order>10</order>
 					</image>
 				</bottom>
-			</card>  
+			</card>
 			<card name="Right Leg">
 				<top>
 				</top>
@@ -3836,7 +3849,7 @@
 						<order>10</order>
 					</image>
 				</bottom>
-			</card>  
+			</card>
 			<card name="Left Leg">
 				<top>
 				</top>
@@ -3859,31 +3872,31 @@
 					</image>
 				</bottom>
 			</card>
-			
+
 			<card name="Stained Glass A">
 				<top>
 				</top>
 				<bottom>
 				</bottom>
-			</card>  
+			</card>
 			<card name="Stained Glass B">
 				<top>
 				</top>
 				<bottom>
 				</bottom>
-			</card>  
+			</card>
 			<card name="Stained Glass C">
 				<top>
 				</top>
 				<bottom>
 				</bottom>
-			</card>  
+			</card>
 			<card name="Stained Glass D">
 				<top>
 				</top>
 				<bottom>
 				</bottom>
-			</card>  
+			</card>
 			<card name="Glass Puzzle Solution">
 				<top>
 				</top>
@@ -3894,7 +3907,7 @@
 						<order>10</order>
 					</image>
 				</bottom>
-			</card>  
+			</card>
 
 			<card name="the_cat">
 				<top>
@@ -4000,7 +4013,7 @@
 						<rectangle>[600,200,130,-2]</rectangle>
 						<order>10</order>
 					</image>
-					
+
 					<image>
 						<image>skill_agile</image>
 						<rectangle>[50,430,130,-2]</rectangle>
@@ -4142,13 +4155,13 @@
 					</text>
 				</bottom>
 			</card>
-			
+
 			<card name="Plan: Add Field">
 				<top>
 				</top>
 				<bottom>
 				</bottom>
-			</card>  
+			</card>
 			<card name="Plan: Add Dungeon">
 				<top>
 				</top>
@@ -4160,14 +4173,14 @@
 				</top>
 				<bottom>
 				</bottom>
-			</card> 
+			</card>
 			<card name="Plan: Add Laboratory">
 				<top>
 				</top>
 				<bottom>
 				</bottom>
-			</card>  
-			
+			</card>
+
 			<card name="trigger_nun">
 				<top>
 				</top>
@@ -4185,7 +4198,7 @@
 						<order>0</order>
 					</text>
 				</bottom>
-			</card> 
+			</card>
 			<card name="trigger_streets">
 				<top>
 				</top>
@@ -4221,7 +4234,7 @@
 						<order>0</order>
 					</text>
 				</bottom>
-			</card> 			
+			</card>
 		</items>
 
 		<characters>
@@ -4513,7 +4526,7 @@
 						<rectangle>[600,200,130,-2]</rectangle>
 						<order>10</order>
 					</image>
-					
+
 					<image>
 						<image>skill_agile</image>
 						<rectangle>[50,430,130,-2]</rectangle>
@@ -4613,7 +4626,7 @@
 						<rectangle>[600,200,130,-2]</rectangle>
 						<order>10</order>
 					</image>
-					
+
 					<image>
 						<image>skill_agile</image>
 						<rectangle>[50,430,130,-2]</rectangle>
