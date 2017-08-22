@@ -705,7 +705,27 @@
 			<file>scene_4_inn_bar</file>
 			<rectangle>[3781,0,945,-1]</rectangle>
 		</image>
-
+		<image name="bartender">
+			<file>scene_4_inn_bar</file>
+			<rectangle>[160,166,626,556]</rectangle>
+		</image>
+		<image name="drunks">
+			<file>scene_4_inn_bar</file>
+			<rectangle>[974,404,924,858]</rectangle>
+		</image>
+		<image name="emptytable">
+			<file>scene_4_inn_bar</file>
+			<rectangle>[1992,430,982,916]</rectangle>
+		</image>
+		<image name="drunkman">
+			<file>scene_4_inn_bar</file>
+			<rectangle>[2748,516,1308,1019]</rectangle>
+		</image>
+		<image name="oddman">
+			<file>scene_4_inn_bar</file>
+			<rectangle>[4173,368,536,517]</rectangle>
+		</image>
+		
 		<image name="loc_dungeon_b">
 			<file>torture_room</file>
 			<rectangle>[0,0,945,-1]</rectangle>
@@ -1761,7 +1781,7 @@
 					</top>
 					<bottom>
 						<text>
-							<text>The peasant pulls you out of earshot of the cart party.  My name is Diego Rodríguez and I need your help. My sister Catalina was working in the local inn when the inquisition came into town. After a few minutes of questioning they took her in a cart like this one to the town up ahead and we have not heard from her in a week. In fact I think she wanted to go with them! I have heard stories about what they do with these girls and I fear for her life. Here is a picture of Catalina.  If you find any information about her, please let me know. I plan to stay in the Inn in town. I’ve heard it can be a good source of information.</text>
+							<text>The peasant pulls you out of earshot of the cart party.  {s:card_b_default_italic}"My name is Diego Rodríguez and I need your help. My sister Catalina was working in the local inn when the inquisition came into town. After a few minutes of questioning they took her in a cart like this one to the town up ahead and we have not heard from her in a week. In fact I think she wanted to go with them! I have heard stories about what they do with these girls and I fear for her life. Here is a picture of Catalina.  If you find any information about her, please let me know. I plan to stay in the Inn in town. I’ve heard it can be a good source of information."{s:}</text>
 							<style>card_b_default</style>
 							<rectangle>[86,94,773,-1]</rectangle>
 							<order>0</order>
@@ -1788,7 +1808,7 @@
 							<order>10</order>
 						</image>
 						<text>
-							<text>A young wearing a silver cross necklace is locked in the cage. She looks oddly distant.  You ask her name and she responds in slow, slurred speech, {s:card_b_default_italic}"I seem to be called … 'Juana'"{s:}.  When quizzed about her predicament, she only gestures to the tall man and smiles.</text>
+							<text>A young woman wearing a silver cross necklace is locked in the cage. She looks oddly distant.  You ask her name and she responds in slow, slurred speech, {s:card_b_default_italic}"I seem to be called … 'Juana'"{s:}.  When quizzed about her predicament, she only gestures to the tall man and smiles.</text>
 							<style>card_b_default</style>
 							<rectangle>[86,794,773,-1]</rectangle>
 							<order>0</order>
@@ -2084,6 +2104,23 @@
 						</image>
 					</top>
 					<bottom>
+						<image>
+							<image>bartender</image>
+							<rectangle>[200,94,545,-2]</rectangle>
+							<order>10</order>
+						</image>
+						<text>
+							<text>The main bar is here with a barkeep keeping watch over those entering his establishment. {s:card_b_default_italic}"Welcome weary travelers! What brings you into our arms today?"{s:}</text>
+							<style>card_b_default</style>
+							<rectangle>[86,600,773,-1]</rectangle>
+							<order>0</order>
+						</text>
+						<text>
+							<text>&#x2022; If Gaspar visits the bar, he takes {s:card_b_action_bold}Item {in:Bottle of Alcohol}{s:}.</text>
+							<style>card_b_action</style>
+							<rectangle>[86,900,773,-1]</rectangle>
+							<order>0</order>
+						</text>
 					</bottom>
 				</card>
 				<card name="loc_inn_c">
@@ -2094,6 +2131,23 @@
 						</image>
 					</top>
 					<bottom>
+						<image>
+							<image>drunks</image>
+							<rectangle>[200,54,545,-2]</rectangle>
+							<order>10</order>
+						</image>
+						<text>
+							<text>Three drunks around a table make eye contact and shake their heads. The visibly drunk men appear to be in a fighting mood. The nearest one sneers and spits out an angry {s:card_b_default_italic}"What did you say about my mother?"{s:}</text>
+							<style>card_b_default</style>
+							<rectangle>[86,600,773,-1]</rectangle>
+							<order>0</order>
+						</text>
+						<text>
+							<text>&#x2022; A fight ensues:{n}&#xA0;&#xA0;{I:lock:75:-2} {I:skill_combat:75:-2} 4x{I:shield_red_skull:75:-2} 2x{I:shield_heart:75:-2}{n}&#xA0;&#xA0;On success ... you walk away from three downed fools.</text>
+							<style>card_b_action</style>
+							<rectangle>[86,950,773,-1]</rectangle>
+							<order>0</order>
+						</text>
 					</bottom>
 				</card>
 				<card name="loc_inn_d">
@@ -2104,6 +2158,23 @@
 						</image>
 					</top>
 					<bottom>
+						<image>
+							<image>emptytable</image>
+							<rectangle>[200,54,545,-2]</rectangle>
+							<order>10</order>
+						</image>
+						<text>
+							<text>You take a seat at an empty table in the back of the inn and begin to shake off the day’s tasks. Two acolytes trundle into the inn, going from table to table, interrupting conversation with pointed questions.  They approach your table. {s:card_b_default_italic}"Strangers, this is a holy town, take care to mind your vices here.  You look like trouble to use and we have ways of dealing with trouble…"{s:}</text>
+							<style>card_b_default</style>
+							<rectangle>[86,600,773,-1]</rectangle>
+							<order>0</order>
+						</text>
+						<text>
+							<text>&#x2022; {I:lock:75:-2} There are 2 ways to resolve the situation:{n}Placate them and leave in peace: 2x{I:time:75:-2}{n}or confront them: {I:skill_combat:75:-2} 2x{I:shield_red_skull:75:-2} 2x{I:shield_heart:75:-2}{n}If you win the confrontation take {s:card_b_action_bold}Item {in:Star Chart C}{s:}.</text>
+							<style>card_b_action</style>
+							<rectangle>[86,1130,773,-1]</rectangle>
+							<order>0</order>
+						</text>
 					</bottom>
 				</card>
 				<card name="loc_inn_e">
@@ -2114,6 +2185,23 @@
 						</image>
 					</top>
 					<bottom>
+						<image>
+							<image>drunkman</image>
+							<rectangle>[200,94,545,-2]</rectangle>
+							<order>10</order>
+						</image>
+						<text>
+							<text>A slightly intoxicated man sits at a table alone with a rather large purse. When you come close he looks at you with a puzzled look on his face while grasping on his bottle.</text>
+							<style>card_b_default</style>
+							<rectangle>[86,570,773,-1]</rectangle>
+							<order>0</order>
+						</text>
+						<text>
+							<text>&#x2022; If Bishop Aguilar, is on this card he takes {s:card_b_action_bold}Item {in:Space-Time Book}{s:}.</text>
+							<style>card_b_action</style>
+							<rectangle>[86,850,773,-1]</rectangle>
+							<order>0</order>
+						</text>
 					</bottom>
 				</card>
 				<card name="loc_inn_f">
@@ -2124,6 +2212,23 @@
 						</image>
 					</top>
 					<bottom>
+						<image>
+							<image>oddman</image>
+							<rectangle>[200,94,545,-2]</rectangle>
+							<order>10</order>
+						</image>
+						<text>
+							<text>You take a seat across from a hooded, quiet man with strange tattoos on his face. He does not seem to want to talk, but does not seem to mind you sitting with him.  Who might be able to coerce him into divulging his secrets?</text>
+							<style>card_b_default</style>
+							<rectangle>[86,660,773,-1]</rectangle>
+							<order>0</order>
+						</text>
+						<text>
+							<text>&#x2022; If Isabel, is on this card the man might be convinced to speak: {I:skill_lib:75:-2} 4x{I:shield:75:-2}{n}On success, Isabel takes {s:card_b_action_bold}Item {in:trigger_streets}{s:}.</text>
+							<style>card_b_action</style>
+							<rectangle>[86,1000,773,-1]</rectangle>
+							<order>0</order>
+						</text>
 					</bottom>
 				</card>
 				<card name="loc_inn_g">
@@ -2135,6 +2240,18 @@
 						</image>
 					</top>
 					<bottom>
+						<text>
+							<text>The chapel housemaid makes eye contact and discretely gestures for you to join her. {s:card_b_default_italic}"I must warn you: be aware of the clergy in this town. Oh, they say beautiful things about helping women getting rid of their dark side, but they are way too fast in their judgments. And I wouldn’t be so sure about their intentions eeither. They have weird objects that they hide from everyone else’s sight. God forgive me, I suspect they use black magic themselves. I stole this from their study. It seemed very important, perhaps you can investigate this matted further?"{s:}</text>
+							<style>card_b_default</style>
+							<rectangle>[86,94,773,-1]</rectangle>
+							<order>0</order>
+						</text>
+						<text>
+							<text>&#x2022; She hands you {s:card_b_action_bold}Item {in:Stained Glass A}{s:}.</text>
+							<style>card_b_action</style>
+							<rectangle>[86,850,773,-1]</rectangle>
+							<order>0</order>
+						</text>
 					</bottom>
 				</card>
 			</location>
@@ -3683,22 +3800,46 @@
 				<top>
 				</top>
 				<bottom>
+					<text>
+						<text>{cs:}</text>
+						<style>normal_black_center</style>
+						<rectangle>[100,50,745,-1]</rectangle>
+						<order>0</order>
+					</text>
 					<image>
 						<image>bottle</image>
-						<rectangle>[100,100,745,-2]</rectangle>
+						<rectangle>[220,150,505,-2]</rectangle>
 						<order>10</order>
 					</image>
+					<text>
+						<text>The barkeep motions toward the stonemason: {s:card_b_default_italic}"say 'red' aren't you familiar to me?  You repaired our well! Have this bottle on the house!"{s:}</text>
+						<style>card_b_default</style>
+						<rectangle>[86,1280,773,-1]</rectangle>
+						<order>0</order>
+					</text>
 				</bottom>
 			</card>
 			<card name="Space-Time Book">
 				<top>
 				</top>
 				<bottom>
+					<text>
+						<text>{cs:}</text>
+						<style>normal_black_center</style>
+						<rectangle>[100,50,745,-1]</rectangle>
+						<order>0</order>
+					</text>
 					<image>
 						<image>dummies</image>
-						<rectangle>[100,100,745,-2]</rectangle>
+						<rectangle>[150,150,645,-2]</rectangle>
 						<order>10</order>
 					</image>
+					<text>
+						<text>The appears to have confused the bishop for someone else. You do not correct him: {s:card_b_default_italic}"Reverend, what are you doing here? We were supposed to meet at the chapel. I just got back from the laboratory, here is the book you were looking for".{s:}</text>
+						<style>card_b_default</style>
+						<rectangle>[86,1020,773,-1]</rectangle>
+						<order>0</order>
+					</text>
 				</bottom>
 			</card>
 			<card name="Zune">
@@ -3728,6 +3869,12 @@
 				<top name="Star Chart B">
 				</top>
 				<bottom>
+					<text>
+						<text>{cs:}</text>
+						<style>normal_black_center</style>
+						<rectangle>[100,50,745,-1]</rectangle>
+						<order>0</order>
+					</text>
 					<image>
 						<image>astro_book</image>
 						<rectangle>[100,100,745,-2]</rectangle>
@@ -3739,6 +3886,18 @@
 				<top name="from inn combat">
 				</top>
 				<bottom>
+					<text>
+						<text>Star Chart</text>
+						<style>normal_black_center</style>
+						<rectangle>[100,50,745,-1]</rectangle>
+						<order>0</order>
+					</text>
+					<text>
+						<text>As the defeated acolytes run away, a scrap of paper falls from their belongings.</text>
+						<style>card_b_default</style>
+						<rectangle>[86,1280,773,-1]</rectangle>
+						<order>0</order>
+					</text>
 				</bottom>
 			</card>
 			<card name="Star Chart D">
@@ -4070,7 +4229,7 @@
 						<order>11</order>
 					</text>
 					<text>
-						<text>  As smoke rises from Isabel's ashes, her spirit is... moved. Her essence is transferred to her guardian familiar.  From there she can continue the quest.{n}{n}The snake can make a poison attack every 5 {I:time:40:-2}.  Place a poison attack token {I:poison:40:-2} every 5 {I:time:40:-2} on the timeline. If the time counter arrives at a poison token, remove it from the timeline and place it on this card, attscks can be accumulated. A poison attack adds two die to a combat attack. This card may only be held by the player who selected the Isabel character for this run.</text>
+						<text>  As smoke rises from Isabel's ashes, her spirit is... moved. Her essence is transferred to her guardian familiar.  From there she can continue the quest.{n}{n}The snake can make a poison attack every 5 {I:time:40:-2}.  Place a poison attack token {I:poison:40:-2} every 5 {I:time:40:-2} on the timeline. If the time counter arrives at a poison token, remove it from the timeline and place it on this card, attacks can be accumulated. A poison attack adds two die to a combat attack. This card may only be held by the player who selected the Isabel character for this run.</text>
 						<style>normal_black_full</style>
 						<rectangle>[50,600,845,-1]</rectangle>
 						<order>11</order>
@@ -4316,6 +4475,12 @@
 						<text>  Catholic bishop on his annual visits to parishes in his diocese. Looking to spread the word of God (and secure funding for a new cathedral).</text>
 						<style>normal_black_full</style>
 						<rectangle>[50,600,845,-1]</rectangle>
+						<order>11</order>
+					</text>
+					<text>
+						<text>  Unique abilities: The bishop has the option to bless one companion when both the bishop and the companion are in the same combat challenge. The blessing increases the resistance of the companion by 2{I:shield_blue_skull:60:-2} for one time unit, but the bishop does not participate in the challenge for that round (he rolls no dice). If the blessed companion takes damage, both the companion and the bishop take the same damage.</text>
+						<style>normal_black_full</style>
+						<rectangle>[50,830,845,-1]</rectangle>
 						<order>11</order>
 					</text>
 				</bottom>
