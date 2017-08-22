@@ -1808,7 +1808,7 @@
 							<order>10</order>
 						</image>
 						<text>
-							<text>A young wearing a silver cross necklace is locked in the cage. She looks oddly distant.  You ask her name and she responds in slow, slurred speech, {s:card_b_default_italic}"I seem to be called … 'Juana'"{s:}.  When quizzed about her predicament, she only gestures to the tall man and smiles.</text>
+							<text>A young woman wearing a silver cross necklace is locked in the cage. She looks oddly distant.  You ask her name and she responds in slow, slurred speech, {s:card_b_default_italic}"I seem to be called … 'Juana'"{s:}.  When quizzed about her predicament, she only gestures to the tall man and smiles.</text>
 							<style>card_b_default</style>
 							<rectangle>[86,794,773,-1]</rectangle>
 							<order>0</order>
