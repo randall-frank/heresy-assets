@@ -4464,6 +4464,12 @@
 						<rectangle>[50,600,845,-1]</rectangle>
 						<order>11</order>
 					</text>
+					<text>
+						<text>  Unique abilities: The bishop has the option to bless one companion when both the bishop and the companion are in the same combat challenge. The blessing increases the resistance of the companion by 2{I:shield_blue_skull:60:-2} for one time unit, but the bishop does not participate in the challenge for that round (he rolls no dice). If the blessed companion takes damage, both the companion and the bishop take the same damage.</text>
+						<style>normal_black_full</style>
+						<rectangle>[50,830,845,-1]</rectangle>
+						<order>11</order>
+					</text>
 				</bottom>
 			</card>
 			<card name="Knight">
