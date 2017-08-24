@@ -1797,7 +1797,7 @@
 					</top>
 					<bottom>
 						<text>
-							<text>The peasant pulls you out of earshot of the cart party.  {s:card_b_default_italic}"My name is Diego Rodríguez and I need your help. My sister Catalina was working in the local inn when the inquisition came into town. After a few minutes of questioning they took her in a cart like this one to the town up ahead and we have not heard from her in a week. In fact I think she wanted to go with them! I have heard stories about what they do with these girls and I fear for her life. Here is a picture of Catalina.  If you find any information about her, please let me know. I plan to stay in the Inn in town. I’ve heard it can be a good source of information."{s:}</text>
+							<text>The peasant pulls you out of earshot of the cart party.  {s:card_b_default_italic}"My name is Diego Rodr??guez and I need your help. My sister Catalina was working in the local inn when the inquisition came into town. After a few minutes of questioning they took her in a cart like this one to the town up ahead and we have not heard from her in a week. In fact I think she wanted to go with them! I have heard stories about what they do with these girls and I fear for her life. Here is a picture of Catalina.  If you find any information about her, please let me know. I plan to stay in the Inn in town. I???ve heard it can be a good source of information."{s:}</text>
 							<style>card_b_default</style>
 							<rectangle>[86,94,773,-1]</rectangle>
 							<order>0</order>
@@ -1824,7 +1824,7 @@
 							<order>10</order>
 						</image>
 						<text>
-							<text>A young woman wearing a silver cross necklace is locked in the cage. She looks oddly distant.  You ask her name and she responds in slow, slurred speech, {s:card_b_default_italic}"I seem to be called … 'Juana'"{s:}.  When quizzed about her predicament, she only gestures to the tall man and smiles.</text>
+							<text>A young woman wearing a silver cross necklace is locked in the cage. She looks oddly distant.  You ask her name and she responds in slow, slurred speech, {s:card_b_default_italic}"I seem to be called ??? 'Juana'"{s:}.  When quizzed about her predicament, she only gestures to the tall man and smiles.</text>
 							<style>card_b_default</style>
 							<rectangle>[86,794,773,-1]</rectangle>
 							<order>0</order>
@@ -1845,7 +1845,7 @@
 							<order>10</order>
 						</image>
 						<text>
-							<text>The acolyte warns you not to speak with the prisoner.  {s:card_b_default_italic}"One cannot trust those in league with the unnamed one. They have ways of turning your mind and clouding your judgement. But we will take care of them, we will save them… all!"{s:}. He begins singing a hymn and ignores you further.</text>
+							<text>The acolyte warns you not to speak with the prisoner.  {s:card_b_default_italic}"One cannot trust those in league with the unnamed one. They have ways of turning your mind and clouding your judgement. But we will take care of them, we will save them??? all!"{s:}. He begins singing a hymn and ignores you further.</text>
 							<style>card_b_default</style>
 							<rectangle>[86,754,773,-1]</rectangle>
 							<order>0</order>
@@ -1867,7 +1867,7 @@
 					</top>
 					<bottom>
 						<text>
-							<text>The tall man hears you approach and addresses you without turning around. {s:card_b_default_italic}"You are coming to this village in dark times, my friend. The forces of evil seem to be particularly strong in this area. But don’t worry: His Holiness the Pope prays for us every day, and is sending here his most trusted men to bring these poor lost souls back onto the right path of light, saving them from eternal damnation. Women are particularly weak and attracted by the forces of evil, so we must help them the most. We have to stay strong and have faith: the fight will be long and fierce, but the forces of Heaven will prevail. Mala tempora currunt, sed peiora parantur."</text>
+							<text>The tall man hears you approach and addresses you without turning around. {s:card_b_default_italic}"You are coming to this village in dark times, my friend. The forces of evil seem to be particularly strong in this area. But don???t worry: His Holiness the Pope prays for us every day, and is sending here his most trusted men to bring these poor lost souls back onto the right path of light, saving them from eternal damnation. Women are particularly weak and attracted by the forces of evil, so we must help them the most. We have to stay strong and have faith: the fight will be long and fierce, but the forces of Heaven will prevail. Mala tempora currunt, sed peiora parantur."</text>
 							<style>card_b_default</style>
 							<rectangle>[86,94,773,-1]</rectangle>
 							<order>0</order>
@@ -1983,13 +1983,13 @@
 							<order>10</order>
 						</image>
 						<text>
-							<text>A simple cross marks a tiny, child’s grave. {s:card_b_default_italic}"Here lies our beloved son, called to our Father long before his time"{s:}</text>
+							<text>A simple cross marks a tiny, child???s grave. {s:card_b_default_italic}"Here lies our beloved son, called to our Father long before his time"{s:}</text>
 							<style>card_b_default</style>
 							<rectangle>[86,870,773,-1]</rectangle>
 							<order>0</order>
 						</text>
 						<text>
-							<text>&#x2022; If Sister María visits the grave, she takes {s:card_b_action_bold}Item {in:trigger_nun}{s:}.</text>
+							<text>&#x2022; If Sister Mar??a visits the grave, she takes {s:card_b_action_bold}Item {in:trigger_nun}{s:}.</text>
 							<style>card_b_action</style>
 							<rectangle>[86,1050,773,-1]</rectangle>
 							<order>0</order>
@@ -2058,7 +2058,7 @@
 							<order>10</order>
 						</image>
 						<text>
-							<text>A man sits on a stone, resting from the digging, with a shovel at his feet. {s:card_b_default_italic}"Hello visitors, I am Gonzalo the groundkeeper. Looking for a grave in particular? Please excuse the current conditions of the cemetery, we have been busier than usual lately. Indeed my siesta is over, I need to start digging new graves again… please let me know if you need anything."{s:}</text>
+							<text>A man sits on a stone, resting from the digging, with a shovel at his feet. {s:card_b_default_italic}"Hello visitors, I am Gonzalo the groundkeeper. Looking for a grave in particular? Please excuse the current conditions of the cemetery, we have been busier than usual lately. Indeed my siesta is over, I need to start digging new graves again??? please let me know if you need anything."{s:}</text>
 							<style>card_b_default</style>
 							<rectangle>[86,600,773,-1]</rectangle>
 							<order>0</order>
@@ -2180,7 +2180,7 @@
 							<order>10</order>
 						</image>
 						<text>
-							<text>You take a seat at an empty table in the back of the inn and begin to shake off the day’s tasks. Two acolytes trundle into the inn, going from table to table, interrupting conversation with pointed questions.  They approach your table. {s:card_b_default_italic}"Strangers, this is a holy town, take care to mind your vices here.  You look like trouble to use and we have ways of dealing with trouble…"{s:}</text>
+							<text>You take a seat at an empty table in the back of the inn and begin to shake off the day???s tasks. Two acolytes trundle into the inn, going from table to table, interrupting conversation with pointed questions.  They approach your table. {s:card_b_default_italic}"Strangers, this is a holy town, take care to mind your vices here.  You look like trouble to use and we have ways of dealing with trouble???"{s:}</text>
 							<style>card_b_default</style>
 							<rectangle>[86,600,773,-1]</rectangle>
 							<order>0</order>
@@ -2257,7 +2257,7 @@
 					</top>
 					<bottom>
 						<text>
-							<text>The chapel housemaid makes eye contact and discretely gestures for you to join her. {s:card_b_default_italic}"I must warn you: be aware of the clergy in this town. Oh, they say beautiful things about helping women getting rid of their dark side, but they are way too fast in their judgments. And I wouldn’t be so sure about their intentions eeither. They have weird objects that they hide from everyone else’s sight. God forgive me, I suspect they use black magic themselves. I stole this from their study. It seemed very important, perhaps you can investigate this matted further?"{s:}</text>
+							<text>The chapel housemaid makes eye contact and discretely gestures for you to join her. {s:card_b_default_italic}"I must warn you: be aware of the clergy in this town. Oh, they say beautiful things about helping women getting rid of their dark side, but they are way too fast in their judgments. And I wouldn???t be so sure about their intentions eeither. They have weird objects that they hide from everyone else???s sight. God forgive me, I suspect they use black magic themselves. I stole this from their study. It seemed very important, perhaps you can investigate this matted further?"{s:}</text>
 							<style>card_b_default</style>
 							<rectangle>[86,94,773,-1]</rectangle>
 							<order>0</order>
@@ -2331,7 +2331,7 @@
 							<order>0</order>
 						</text>
 						<text>
-							<text>&#x2022; You may confess: {s:card_b_default_italic} "Bless me, Father, for I have sinned..."{s:} or leave the confessional.{n}&#x2022; If Doña Ortiz confesses, she takes item {s:card_b_action_bold}Item {in:trigger_lady}{s:}{n}&#x2022; If Sister María confesses, she may refill her blessings tokens {I:blessing:75:-2} to 2.</text>
+							<text>&#x2022; You may confess: {s:card_b_default_italic} "Bless me, Father, for I have sinned..."{s:} or leave the confessional.{n}&#x2022; If Do??a Ortiz confesses, she takes item {s:card_b_action_bold}Item {in:trigger_lady}{s:}{n}&#x2022; If Sister Mar??a confesses, she may refill her blessings tokens {I:blessing:75:-2} to 2.</text>
 							<style>card_b_action</style>
 							<rectangle>[86,1100,773,-1]</rectangle>
 							<order>0</order>
@@ -2358,7 +2358,7 @@
 							<order>0</order>
 						</text>
 						<text>
-							<text>&#x2022; You may engage the young woman in conversation: {I:skill_lib:75:-2} 4x{I:shield:75:-2}{n}&#x2022; On success she says, {s:card_b_default_italic}"I believe you can help, but we can’t talk here.  Meet me at the Inn"{s:} Take token {I:token_yellow_1:75:-2}.</text>
+							<text>&#x2022; You may engage the young woman in conversation: {I:skill_lib:75:-2} 4x{I:shield:75:-2}{n}&#x2022; On success she says, {s:card_b_default_italic}"I believe you can help, but we can???t talk here.  Meet me at the Inn"{s:} Take token {I:token_yellow_1:75:-2}.</text>
 							<style>card_b_action</style>
 							<rectangle>[86,1150,773,-1]</rectangle>
 							<order>0</order>
@@ -3534,7 +3534,7 @@
 						<order>10</order>
 					</image>
 					<text>
-						<text>As you step into the briefing room, you become aware of a muted klaxon calling out in the background.  Laura’s voice can be heard over your com port:{n}{n}{s:normal_blue_full_italic}"I know you’ve been through the drill before, but things seem a bit more urgent today.  I can’t quite put a finger on it, but Bob seems a bit more concerned than usual.  He keeps muttering about Keith…  Bob is waiting for you next door. Please don’t keep him waiting."</text>
+						<text>As you step into the briefing room, you become aware of a muted klaxon calling out in the background.  Laura???s voice can be heard over your com port:{n}{n}{s:normal_blue_full_italic}"I know you???ve been through the drill before, but things seem a bit more urgent today.  I can???t quite put a finger on it, but Bob seems a bit more concerned than usual.  He keeps muttering about Keith???  Bob is waiting for you next door. Please don???t keep him waiting."</text>
 						<style>normal_black_full</style>
 						<rectangle>[75,150,795,-1]</rectangle>
 						<order>11</order>
@@ -3565,7 +3565,7 @@
 						<order>10</order>
 					</image>
 					<text>
-						<text>Bob seems nervously distracted as you enter the room. He quickly turns and returns back to character as becomes aware of your presence. {n}{s:normal_black_full_italic}"Ah, you’ve arrived and none too soon.  We have a rift to close and this time it is a bit more personal than I would like. We have a rogue agent. Agent Keith has decided to make history his home and recreational plaything. You obviously understand the implications for all of us.  If he makes one mistake… one bad decision…  Well, you get it and I need you to stop him. {s:normal_black_full_bold}Find Keith, his henchmen and time portal... put an end to their plans."</text>
+						<text>Bob seems nervously distracted as you enter the room. He quickly turns and returns back to character as becomes aware of your presence. {n}{s:normal_black_full_italic}"Ah, you???ve arrived and none too soon.  We have a rift to close and this time it is a bit more personal than I would like. We have a rogue agent. Agent Keith has decided to make history his home and recreational plaything. You obviously understand the implications for all of us.  If he makes one mistake??? one bad decision???  Well, you get it and I need you to stop him. {s:normal_black_full_bold}Find Keith, his henchmen and time portal... put an end to their plans."</text>
 						<style>normal_black_full</style>
 						<rectangle>[75,500,795,-1]</rectangle>
 						<order>11</order>
@@ -3722,7 +3722,7 @@
 						<order>11</order>
 					</image>
 					<text>
-						<text>Glibness: this is a measure of one’s ability to convince people to see things your way or convince that your ideas are better than theirs. </text>
+						<text>Glibness: this is a measure of one???s ability to convince people to see things your way or convince that your ideas are better than theirs. </text>
 						<style>small_white_box_full</style>
 						<rectangle>[275,1000,595,200]</rectangle>
 						<order>11</order>
@@ -3763,7 +3763,7 @@
 						<order>10</order>
 					</image>
 					<text>
-						<text>Bob interrupts: {s:normal_black_full_italic}"Thanks for the information Laura, but it’s time we get our team prepared for the transfer."{s:}{n}Final Preparations:</text>
+						<text>Bob interrupts: {s:normal_black_full_italic}"Thanks for the information Laura, but it???s time we get our team prepared for the transfer."{s:}{n}Final Preparations:</text>
 						<style>normal_black_full</style>
 						<rectangle>[75,435,795,-1]</rectangle>
 						<order>11</order>
@@ -3795,13 +3795,13 @@
 						<order>10</order>
 					</image>
 					<text>
-						<text>You gather your team and resources and head to the transfer caissons. As you strap into the beds, your com crackles… Laura: {s:normal_blue_full_italic} "Good luck team, I have complete confidence that you will be able to resolve this issue quickly and completely."{s:} Overhead speaker "3.. 2.. 1..".  Bob: {s:normal_blue_full_italic}"One thing… bxhzas ...forgot to tell yoszyxs… time jumps zzxhgb… witchcraft…"{s:} and you are off.{n}Final Preparations:</text>
+						<text>You gather your team and resources and head to the transfer caissons. As you strap into the beds, your com crackles??? Laura: {s:normal_blue_full_italic} "Good luck team, I have complete confidence that you will be able to resolve this issue quickly and completely."{s:} Overhead speaker "3.. 2.. 1..".  Bob: {s:normal_blue_full_italic}"One thing??? bxhzas ...forgot to tell yoszyxs??? time jumps zzxhgb??? witchcraft???"{s:} and you are off.{n}Final Preparations:</text>
 						<style>normal_black_full</style>
 						<rectangle>[75,75,795,-1]</rectangle>
 						<order>11</order>
 					</text>
 					<text>
-						<text>&#x2022; Each player selects a receptacle and places the life points, shields and equipment listed on the player card as per instructions on the individual cards.{n}&#x2022; Take the Icon Reference card and keep it close at hand.{n}&#x2022; Select one play to be the initial Time Captain. That player closes the base and places it next to the board. They proceed to open the “Path to town” location. The Time Captain reads card A out loud and the adventure begins..</text>
+						<text>&#x2022; Each player selects a receptacle and places the life points, shields and equipment listed on the player card as per instructions on the individual cards.{n}&#x2022; Take the Icon Reference card and keep it close at hand.{n}&#x2022; Select one play to be the initial Time Captain. That player closes the base and places it next to the board. They proceed to open the ???Path to town??? location. The Time Captain reads card A out loud and the adventure begins..</text>
 						<style>smaller_black_left</style>
 						<rectangle>[100,775,745,-1]</rectangle>
 						<order>11</order>
@@ -4149,7 +4149,7 @@
 						<order>10</order>
 					</image>
 					<text>
-						<text>The Cat{n}{s:normal_black_left}Doña Ortiz's familiar{n}{n}Inventory:</text>
+						<text>The Cat{n}{s:normal_black_left}Do??a Ortiz's familiar{n}{n}Inventory:</text>
 						<style>large_black_left</style>
 						<rectangle>[350,50,575,-1]</rectangle>
 						<order>10</order>
@@ -4210,7 +4210,7 @@
 						<order>11</order>
 					</text>
 					<text>
-						<text>  As smoke rises from the ashes of the Doña, her spirit is... moved. Her essence is transferred to her guardian familiar.  From there she can continue the quest.{n}{n}The black cat has multiple lives and can communicate with other humans (in familiar form, she does not lose glibness). The cat retains any health packs the Lady had before conversion and can still use them.  The cat is also able to leave combat at any time. This card may only be held by the player who selected the Doña character for this run.</text>
+						<text>  As smoke rises from the ashes of the Do??a, her spirit is... moved. Her essence is transferred to her guardian familiar.  From there she can continue the quest.{n}{n}The black cat has multiple lives and can communicate with other humans (in familiar form, she does not lose glibness). The cat retains any health packs the Lady had before conversion and can still use them.  The cat is also able to leave combat at any time. This card may only be held by the player who selected the Do??a character for this run.</text>
 						<style>normal_black_full</style>
 						<rectangle>[50,600,845,-1]</rectangle>
 						<order>11</order>
@@ -4227,7 +4227,7 @@
 						<order>10</order>
 					</image>
 					<text>
-						<text>The Snake{n}{s:normal_black_left}Isabel de Luján's familiar{n}{n}Inventory:</text>
+						<text>The Snake{n}{s:normal_black_left}Isabel de Luj??n's familiar{n}{n}Inventory:</text>
 						<style>large_black_left</style>
 						<rectangle>[350,50,575,-1]</rectangle>
 						<order>10</order>
@@ -4416,13 +4416,13 @@
 				</top>
 				<bottom>
 					<text>
-						<text>A Child’s Saint Foillan medal.{n}From the child she previously had in her care. Sister Maria gasps and falls to her knees as she reads the name on the cross. {s:card_b_default_italic}"Sorry…  so sorry…  I tried to save, tried to save ...I am… ...I am... … nothing."{s:} She reaches out and picks up the medal, tucking it beneath her robes, a reminder of a time she has tried desperately to forget. Head bowed, she sobs quietly to herself.</text>
+						<text>A Child???s Saint Foillan medal.{n}From the child she previously had in her care. Sister Maria gasps and falls to her knees as she reads the name on the cross. {s:card_b_default_italic}"Sorry???  so sorry???  I tried to save, tried to save ...I am??? ...I am... ??? nothing."{s:} She reaches out and picks up the medal, tucking it beneath her robes, a reminder of a time she has tried desperately to forget. Head bowed, she sobs quietly to herself.</text>
 						<style>card_b_default</style>
 						<rectangle>[86,94,773,-1]</rectangle>
 						<order>0</order>
 					</text>
 					<text>
-						<text>&#x2022; The Sister María character takes the token {I:token_blue_1:100:-2}.</text>
+						<text>&#x2022; The Sister Mar??a character takes the token {I:token_blue_1:100:-2}.</text>
 						<style>card_b_action</style>
 						<rectangle>[86,670,773,-1]</rectangle>
 						<order>0</order>
@@ -4452,13 +4452,13 @@
 				</top>
 				<bottom>
 					<text>
-						<text>Pouch of drugged dust.{n}A small bellows and a pouch containing a light power. Leaning close to the mesh, to hear the priest’s response to her request for absolution, Doña Ortiz is startled by a puff of powder coming through the mesh. She pulls back to avoid the stinging particles, but it is too late, she has most definitely inhaled the plume. She pauses for a moment, listening to sounds unheard by anyone but her before returning to the present.</text>
+						<text>Pouch of drugged dust.{n}A small bellows and a pouch containing a light power. Leaning close to the mesh, to hear the priest???s response to her request for absolution, Do??a Ortiz is startled by a puff of powder coming through the mesh. She pulls back to avoid the stinging particles, but it is too late, she has most definitely inhaled the plume. She pauses for a moment, listening to sounds unheard by anyone but her before returning to the present.</text>
 						<style>card_b_default</style>
 						<rectangle>[86,94,773,-1]</rectangle>
 						<order>0</order>
 					</text>
 					<text>
-						<text>&#x2022; The Doña Ortiz character takes the token {I:token_black_3:100:-2}.</text>
+						<text>&#x2022; The Do??a Ortiz character takes the token {I:token_black_3:100:-2}.</text>
 						<style>card_b_action</style>
 						<rectangle>[86,700,773,-1]</rectangle>
 						<order>0</order>
@@ -4570,7 +4570,7 @@
 						<order>10</order>
 					</image>
 					<text>
-						<text>Alonso Galán{n}{s:normal_black_left}Knight{n}{n}Inventory:</text>
+						<text>Alonso Gal??n{n}{s:normal_black_left}Knight{n}{n}Inventory:</text>
 						<style>large_black_left</style>
 						<rectangle>[350,50,575,-1]</rectangle>
 						<order>10</order>
@@ -4631,7 +4631,7 @@
 						<order>11</order>
 					</text>
 					<text>
-						<text>  Recently returned from serving the ‘League of Venice’ in the First Italian War, driving the French from Italy. War weary, but still a knight in his prime, Alonso comes home to his native Spain only to encounter a country-side besieged by the Inquisition.</text>
+						<text>  Recently returned from serving the ???League of Venice??? in the First Italian War, driving the French from Italy. War weary, but still a knight in his prime, Alonso comes home to his native Spain only to encounter a country-side besieged by the Inquisition.</text>
 						<style>normal_black_full</style>
 						<rectangle>[50,600,845,-1]</rectangle>
 						<order>11</order>
@@ -4746,7 +4746,7 @@
 						<order>10</order>
 					</image>
 					<text>
-						<text>Sr. María de la Cruz{n}{s:normal_black_left}Catholic Nun{n}{n}Inventory:</text>
+						<text>Sr. Mar??a de la Cruz{n}{s:normal_black_left}Catholic Nun{n}{n}Inventory:</text>
 						<style>large_black_left</style>
 						<rectangle>[350,50,575,-1]</rectangle>
 						<order>10</order>
@@ -4846,7 +4846,7 @@
 						<order>10</order>
 					</image>
 					<text>
-						<text>Doña Mencía Ortiz{n}{s:normal_black_left}Noble Woman{n}{n}Inventory:</text>
+						<text>Do??a Menc??a Ortiz{n}{s:normal_black_left}Noble Woman{n}{n}Inventory:</text>
 						<style>large_black_left</style>
 						<rectangle>[350,50,575,-1]</rectangle>
 						<order>10</order>
@@ -4946,7 +4946,7 @@
 						<order>10</order>
 					</image>
 					<text>
-						<text>Isabel de Luján{n}{s:normal_black_left}Woman of the Streets{n}{n}Inventory:</text>
+						<text>Isabel de Luj??n{n}{s:normal_black_left}Woman of the Streets{n}{n}Inventory:</text>
 						<style>large_black_left</style>
 						<rectangle>[350,50,575,-1]</rectangle>
 						<order>10</order>
