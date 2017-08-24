@@ -143,6 +143,7 @@
 		<file filename="heresy_media/crow.png" name="crow"/>
 		<file filename="heresy_media/snake.png" name="snake"/>
 		<file filename="heresy_media/cat.png" name="cat"/>
+		<file filename="heresy_media/stairs_down.png" name="stairs_down"/>
 		
 		<file filename="heresy_media/cat1.png" name="cat3"/>
 		<file filename="heresy_media/cat2.png" name="cat4"/>
@@ -479,6 +480,9 @@
 		<image name="char_snake">
 			<file>snake</file>
 		</image>
+		<image name="stairs_down">
+			<file>stairs_down</file>
+		</image>
 		
 		<image name="loc_chapel_b">
 			<file>chapel</file>
@@ -496,7 +500,19 @@
 			<file>chapel</file>
 			<rectangle>[2836,0,945,-1]</rectangle>
 		</image>
-
+		<image name="confessional">
+			<file>chapel</file>
+			<rectangle>[168,480,216,288]</rectangle>
+		</image>
+		<image name="housemaid">
+			<file>chapel</file>
+			<rectangle>[1538,100,216,288]</rectangle>
+		</image>
+		<image name="library">
+			<file>chapel</file>
+			<rectangle>[2284,270,972,490]</rectangle>
+		</image>
+		
 		<image name="loc_cat1_b">
 			<file>cat1</file>
 			<rectangle>[0,0,945,-1]</rectangle>
@@ -2303,6 +2319,23 @@
 						</image>
 					</top>
 					<bottom>
+						<image>
+							<image>confessional</image>
+							<rectangle>[200,94,545,-2]</rectangle>
+							<order>10</order>
+						</image>
+						<text>
+							<text>You enter the confessional, a claustrophobic box with a small grille on one of the walls.  You close the door behind you and face the grille.</text>
+							<style>card_b_default</style>
+							<rectangle>[86,850,773,-1]</rectangle>
+							<order>0</order>
+						</text>
+						<text>
+							<text>&#x2022; You may confess: {s:card_b_default_italic} "Bless me, Father, for I have sinned..."{s:} or leave the confessional.{n}&#x2022; If Doña Ortiz confesses, she takes item {s:card_b_action_bold}Item {in:trigger_lady}{s:}{n}&#x2022; If Sister María confesses, she may refill her blessings tokens {I:blessing:75:-2} to 2.</text>
+							<style>card_b_action</style>
+							<rectangle>[86,1100,773,-1]</rectangle>
+							<order>0</order>
+						</text>
 					</bottom>
 				</card>
 				<card name="loc_chapel_c">
@@ -2313,6 +2346,23 @@
 						</image>
 					</top>
 					<bottom>
+						<image>
+							<image>housemaid</image>
+							<rectangle>[250,94,445,-2]</rectangle>
+							<order>10</order>
+						</image>
+						<text>
+							<text>The chapel housemaid is cleaning the altar fixtures and looks nervously toward your group {s:card_b_default_italic}"You are not from here are you?"{s:} she asks in a hushed voice. You mention that you have followed the cart into town ask if that is commonplace here. {s:card_b_default_italic}"You must be very careful around the clergy here..."{s:}, the maid responds.</text>
+							<style>card_b_default</style>
+							<rectangle>[86,720,773,-1]</rectangle>
+							<order>0</order>
+						</text>
+						<text>
+							<text>&#x2022; You may engage the young woman in conversation: {I:skill_lib:75:-2} 4x{I:shield:75:-2}{n}&#x2022; On success she says, {s:card_b_default_italic}"I believe you can help, but we can’t talk here.  Meet me at the Inn"{s:} Take token {I:token_yellow_1:75:-2}.</text>
+							<style>card_b_action</style>
+							<rectangle>[86,1150,773,-1]</rectangle>
+							<order>0</order>
+						</text>
 					</bottom>
 				</card>
 				<card name="loc_chapel_d">
@@ -2323,6 +2373,23 @@
 						</image>
 					</top>
 					<bottom>
+						<image>
+							<image>library</image>
+							<rectangle>[100,94,745,-2]</rectangle>
+							<order>10</order>
+						</image>
+						<text>
+							<text>A few stacks of books sit on a table with a sparsely populated bookcase in the background. This "library" has most obviously been heavily used and very rare for a small village chapel. Some of the books are in English and do not appear to be hand-written. Many of the books are of non-ecclesiastical content, including works on astronomy by Ibn Zarqala and surgery by Albucasis, mixed in with works on alchemy and celestial formations.</text>
+							<style>card_b_default</style>
+							<rectangle>[86,500,773,-1]</rectangle>
+							<order>0</order>
+						</text>
+						<text>
+							<text>&#x2022; You leaf through the book open on the desk. Take  {s:card_b_action_bold}Item {in:Astronomy Book}{s:}.</text>
+							<style>card_b_action</style>
+							<rectangle>[86,1140,773,-1]</rectangle>
+							<order>0</order>
+						</text>
 					</bottom>
 				</card>
 				<card name="loc_chapel_e">
@@ -2338,6 +2405,23 @@
 						</image>
 					</top>
 					<bottom>
+						<image>
+							<image>stairs_down</image>
+							<rectangle>[100,94,745,-2]</rectangle>
+							<order>10</order>
+						</image>
+						<text>
+							<text>Torch lit steps lead downward into the earth. A malodorous breath of dank air rises up from the depths, chilling to the bone.  </text>
+							<style>card_b_default</style>
+							<rectangle>[86,730,773,-1]</rectangle>
+							<order>0</order>
+						</text>
+						<text>
+							<text>&#x2022; Take  {s:card_b_action_bold}Item {in:Plan Add Catacombs}{s:}.</text>
+							<style>card_b_action</style>
+							<rectangle>[86,970,773,-1]</rectangle>
+							<order>0</order>
+						</text>
 					</bottom>
 				</card>
 			</location>
@@ -4302,25 +4386,25 @@
 				</bottom>
 			</card>
 			
-			<card name="Plan: Add Field">
+			<card name="Plan Add Field">
 				<top>
 				</top>
 				<bottom>
 				</bottom>
 			</card>  
-			<card name="Plan: Add Dungeon">
+			<card name="Plan Add Dungeon">
 				<top>
 				</top>
 				<bottom>
 				</bottom>
 			</card>
-			<card name="Plan: Add Catacombs">
+			<card name="Plan Add Catacombs">
 				<top>
 				</top>
 				<bottom>
 				</bottom>
 			</card> 
-			<card name="Plan: Add Laboratory">
+			<card name="Plan Add Laboratory">
 				<top>
 				</top>
 				<bottom>
