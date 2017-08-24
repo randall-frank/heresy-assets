@@ -3264,6 +3264,18 @@
 						</image>
 					</top>
 					<bottom>
+					<text>
+						<text>A suit of medieval armor leans against the wall. This armor is the ultimate model available for crusade: light and powerful. What is it doing in a priest's office? ... wait, what is this thing stuck inside it?</text>
+						<style>card_b_default</style>
+						<rectangle>[86,600,773,-1]</rectangle>
+						<order>0</order>
+					</text>
+					<text>
+						<text>&#x2022; If you choose to search the armor:{n}&#x2022; {I:skill_agile:75:-2} 2x{I:shield:75:-2} 2x:{I:time:75:-2}{n}&#x2022; On success take {s:card_b_action_bold}Item {in:Left Leg}{s:}.</text>
+						<style>card_b_action</style>
+						<rectangle>[86,1150,773,-1]</rectangle>
+						<order>0</order>
+					</text>
 					</bottom>
 				</card>
 				<card name="loc_lab_d">
