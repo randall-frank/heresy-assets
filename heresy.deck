@@ -786,7 +786,35 @@
 			<file>torture_room</file>
 			<rectangle>[5671,0,945,-1]</rectangle>
 		</image>
-
+		<image name="dungeonkeeper">
+			<file>torture_room</file>
+			<rectangle>[171,131,549,516]</rectangle>
+		</image>
+		<image name="cabinet">
+			<file>torture_room</file>
+			<rectangle>[1011,93,807,1317]</rectangle>
+		</image>
+		<image name="sisterchair">
+			<file>torture_room</file>
+			<rectangle>[2076,524,465,477]</rectangle>
+		</image>
+		<image name="donafeet">
+			<file>torture_room</file>
+			<rectangle>[2640,377,909,585]</rectangle>
+		</image>
+		<image name="wheel">
+			<file>torture_room</file>
+			<rectangle>[3810,221,909,585]</rectangle>
+		</image>
+		<image name="thedark">
+			<file>torture_room</file>
+			<rectangle>[4836,593,819,807]</rectangle>
+		</image>
+		<image name="thewomen">
+			<file>torture_room</file>
+			<rectangle>[5697,167,819,516]</rectangle>
+		</image>
+		
 		<image name="loc_field_b">
 			<file>witch_burning</file>
 			<rectangle>[0,0,945,-1]</rectangle>
@@ -2752,6 +2780,17 @@
 						</image>
 					</top>
 					<bottom>
+						<image>
+							<image>dungeonkeeper</image>
+							<rectangle>[100,94,745,-2]</rectangle>
+							<order>10</order>
+						</image>
+						<text>
+							<text>{s:card_b_default_italic}"We usually do not allow visitors in the inquisitor chambers, but you seem a tight group, and maybe your presence can help your women confess faster. Do not touch anything: there are plenty of objects filled with dark magic in this room. With the help of God, this will all be over soon."{s:}</text>
+							<style>card_b_default</style>
+							<rectangle>[86,800,773,-1]</rectangle>
+							<order>0</order>
+						</text>
 					</bottom>
 				</card>
 				<card name="loc_dungeon_c">
@@ -2762,6 +2801,23 @@
 						</image>
 					</top>
 					<bottom>
+						<image>
+							<image>cabinet</image>
+							<rectangle>[200,94,545,-2]</rectangle>
+							<order>10</order>
+						</image>
+						<text>
+							<text>A cupboard with glass windows. The cupboard is locked, but an odd box and a scroll are visible through the glass.</text>
+							<style>card_b_default</style>
+							<rectangle>[86,1020,773,-1]</rectangle>
+							<order>0</order>
+						</text>
+						<text>
+							<text>&#x2022; To open the cupboard, you must pass the challenge:{n}&#x00a0;&#x00a0;&#x2022;{I:skill_agile:75:-2} 2x{I:shield:75:-2} 2x{I:shield_shield:75:-2}{n}&#x00a0;&#x2022; If successful, take {s:card_b_action_bold}Item {in:Battery}{s:}.</text>
+							<style>card_b_action</style>
+							<rectangle>[86,1230,773,-1]</rectangle>
+							<order>0</order>
+						</text>
 					</bottom>
 				</card>
 				<card name="loc_dungeon_d">
@@ -2787,6 +2843,23 @@
 						</image>
 					</top>
 					<bottom>
+						<image>
+							<image>sisterchair</image>
+							<rectangle>[300,44,345,-2]</rectangle>
+							<order>10</order>
+						</image>
+						<text>
+							<text>Sister Mar&#x00ed;a is bound to the chair in front of a table of questionable instruments. She breaks down completely, unable to hide her secret any longer. {s:card_b_default_italic}"I had no choice don't you see?  God did not answer my prayers and I could not let the child die. What else could I have done? I have committed grave sins for which there can be no atonement. Do with me what you will, my soul is in your hands."{s:} A lone crow lands on an overhead beam as she admits to having embraced the dark arts. A tear rolls down the face of the man in front of her as he slowly makes the sign of the cross.</text>
+							<style>card_b_default</style>
+							<rectangle>[86,410,773,-1]</rectangle>
+							<order>0</order>
+						</text>
+						<text>
+							<text>&#x2022; Sister Mar&#x00ed;a cannot leave this card and when the group chooses to leave the {s:card_b_action_bold}{ls:Dungeon}{s:} location, they must next go to the {s:card_b_action_bold}{ls:Field}{s:} location. Take {s:card_b_action_bold}Item {in:Plan Add Field}{s:} and the sister takes the token {I:token_grey_4:100:-2}.</text>
+							<style>card_b_action</style>
+							<rectangle>[86,1180,773,-1]</rectangle>
+							<order>0</order>
+						</text>
 					</bottom>
 				</card>
 				<card name="loc_dungeon_e">
@@ -2812,6 +2885,23 @@
 						</image>
 					</top>
 					<bottom>
+						<image>
+							<image>donafeet</image>
+							<rectangle>[200,44,545,-2]</rectangle>
+							<order>10</order>
+						</image>
+						<text>
+							<text>The Do&#x00f1;a Ortiz lies on a metal bed with hands and feet bound. A brazier in the corner has long handled iron brands sticking out of it. Still under the effects of the drugs the Do&#x00f1;a is mesmerized by the flames from the braziers in the corner and for the first time loses her composure and admits to practicing witchcraft. A black cat observes from the safety of a dark corner. A man solemnly nods to the guards in the corner. They approach...</text>
+							<style>card_b_default</style>
+							<rectangle>[86,420,773,-1]</rectangle>
+							<order>0</order>
+						</text>
+						<text>
+							<text>&#x2022; The Do&#x00f1;a Ortiz cannot leave this card and when the group chooses to leave the {s:card_b_action_bold}{ls:Dungeon}{s:} location, they must next go to the {s:card_b_action_bold}{ls:Field}{s:} location. Take {s:card_b_action_bold}Item {in:Plan Add Field}{s:} and the Do&#x00f1;a takes the token {I:token_pink_3:100:-2}.</text>
+							<style>card_b_action</style>
+							<rectangle>[86,1050,773,-1]</rectangle>
+							<order>0</order>
+						</text>
 					</bottom>
 				</card>
 				<card name="loc_dungeon_f">
@@ -2837,6 +2927,23 @@
 						</image>
 					</top>
 					<bottom>
+						<image>
+							<image>wheel</image>
+							<rectangle>[200,44,545,-2]</rectangle>
+							<order>10</order>
+						</image>
+						<text>
+							<text>Isabel has been lashed to the wheel. A man covered by a black mask asks her one question after the other without waiting for your reply. That voice, the cadence, the drink... Madness! Isabel shrieks with laughter, unable to fight the influences of the evil brew any longer {s:card_b_default_italic}"Yes, yes I am the witch that you seek!"{s:} Silently, a snake coils in the corner. The man laughs out loud, {s:card_b_default_italic}"I was expecting more fight from one like you. No matter, you shall reap now what you have sown."{s:} Guards release her  and escort her roughly out of the room.</text>
+							<style>card_b_default</style>
+							<rectangle>[86,420,773,-1]</rectangle>
+							<order>0</order>
+						</text>
+						<text>
+							<text>&#x2022; Isabel cannot leave this card and when the group chooses to leave the {s:card_b_action_bold}{ls:Dungeon}{s:} location, they must next go to the {s:card_b_action_bold}{ls:Field}{s:} location. Take {s:card_b_action_bold}Item {in:Plan Add Field}{s:} and Isabel takes the token {I:token_blue_3:100:-2}.</text>
+							<style>card_b_action</style>
+							<rectangle>[86,1150,773,-1]</rectangle>
+							<order>0</order>
+						</text>
 					</bottom>
 				</card>
 				<card name="loc_dungeon_g">
@@ -2847,6 +2954,23 @@
 						</image>
 					</top>
 					<bottom>
+						<image>
+							<image>thedark</image>
+							<rectangle>[100,94,745,-2]</rectangle>
+							<order>10</order>
+						</image>
+						<text>
+							<text>The smell becomes really strong. You suddenly realize you have stepped on something. You reach down to pick it up, careful not to be seen by the guards.</text>
+							<style>card_b_default</style>
+							<rectangle>[86,870,773,-1]</rectangle>
+							<order>0</order>
+						</text>
+						<text>
+							<text>&#x2022; Take {s:card_b_action_bold}Item {in:Left Arm}{s:}.</text>
+							<style>card_b_action</style>
+							<rectangle>[86,1100,773,-1]</rectangle>
+							<order>0</order>
+						</text>
 					</bottom>
 				</card>
 				<card name="loc_dungeon_h">
@@ -2857,6 +2981,23 @@
 						</image>
 					</top>
 					<bottom>
+						<image>
+							<image>thewomen</image>
+							<rectangle>[100,94,745,-2]</rectangle>
+							<order>10</order>
+						</image>
+						<text>
+							<text>A group of women are looking towards you with creepy smiles on their faces. {s:card_b_default_italic}"What is a beautiful thing like you doing in such a sinful place like this one? Do you not know we are all sinners and slaves of the evil? Fortunately God will soon purify our souls with fire and grant us a new beginning. Help us enjoy the pleasures of the flesh one last time before we are made pure again?"{s:}</text>
+							<style>card_b_default</style>
+							<rectangle>[86,600,773,-1]</rectangle>
+							<order>0</order>
+						</text>
+						<text>
+							<text>&#x2022; {I:lock:75:-2}Only a guilded tongue can extricate you from this mess{n}&#x00a0;&#x2022; {I:skill_glib:75:-2} 4x{I:shield:75:-2} 2x{I:shield_time:75:-2}{n}&#x00a0;&#x2022; On success take {s:card_b_action_bold}Item {in:Zune}{s:}.</text>
+							<style>card_b_action</style>
+							<rectangle>[86,1130,773,-1]</rectangle>
+							<order>0</order>
+						</text>
 					</bottom>
 				</card>
 			</location>
