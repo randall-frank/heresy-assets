@@ -839,7 +839,23 @@
 			<file>witch_burning</file>
 			<rectangle>[2836,0,945,-1]</rectangle>
 		</image>
-
+		<image name="inquisitor">
+			<file>witch_burning</file>
+			<rectangle>[90,40,804,620]</rectangle>
+		</image>
+		<image name="ashpile">
+			<file>witch_burning</file>
+			<rectangle>[1160,280,804,1012]</rectangle>
+		</image>
+		<image name="woodpile">
+			<file>witch_burning</file>
+			<rectangle>[2096,686,756,588]</rectangle>
+		</image>
+		<image name="stake">
+			<file>witch_burning</file>
+			<rectangle>[2936,494,706,756]</rectangle>
+		</image>
+		
 		<image name="loc_lab_b">
 			<file>underground_b</file>
 			<rectangle>[0,0,945,-1]</rectangle>
@@ -3049,6 +3065,23 @@
 						</image>
 					</top>
 					<bottom>
+						<image>
+							<image>inquisitor</image>
+							<rectangle>[200,54,545,-2]</rectangle>
+							<order>10</order>
+						</image>
+						<text>
+							<text>The inquisitor stands in front of a small group of fervent citizens with blood-lust in their eyes. {s:card_b_default_italic}"My children, stay strong in your faith and unfailing love. These women have freely confessed to consorting with minions of evil. Today we show them compassion and love, freeing them to once again accept the true faith. By fire, let them be cleansed! Quia pulvis eris et in pulverem revertis."{s:}  The crowd responds enthusiastically {s:card_b_default_italic}"Quia pulvis eris et in pulverem revertis!"{s:}</text>
+							<style>card_b_default</style>
+							<rectangle>[86,510,773,-1]</rectangle>
+							<order>0</order>
+						</text>
+						<text>
+							<text>&#x2022; An odd bulb hangs at his waist. You may try to take is while he blusters on.{n}&#x00a0;&#x2022; {I:skill_agile:75:-2} 2x{I:shield:75:-2} 3x{I:shield_time:75:-2}{n}&#x00a0;&#x2022; On success take {s:card_b_action_bold}Item {in:Soul Medallion}{s:} and one soul token {I:soul:75:-2}.</text>
+							<style>card_b_action</style>
+							<rectangle>[86,1140,773,-1]</rectangle>
+							<order>0</order>
+						</text>
 					</bottom>
 				</card>
 				<card name="loc_field_c">
@@ -3059,6 +3092,23 @@
 						</image>
 					</top>
 					<bottom>
+						<image>
+							<image>ashpile</image>
+							<rectangle>[100,94,745,-2]</rectangle>
+							<order>10</order>
+						</image>
+						<text>
+							<text>What has just happened here? A tell-tale pile of smoldering ashes lies on the ground. You sort through the still warm ashes, the last remnants of a tortured soul.</text>
+							<style>card_b_default</style>
+							<rectangle>[86,1060,773,-1]</rectangle>
+							<order>0</order>
+						</text>
+						<text>
+							<text>&#x2022; Take {s:card_b_action_bold}Item {in:Catalina Locket}{s:} and {s:card_b_action_bold}Item {in:Right Leg}{s:}.</text>
+							<style>card_b_action</style>
+							<rectangle>[86,1340,773,-1]</rectangle>
+							<order>0</order>
+						</text>
 					</bottom>
 				</card>
 				<card name="loc_field_d">
@@ -3069,6 +3119,23 @@
 						</image>
 					</top>
 					<bottom>
+						<image>
+							<image>woodpile</image>
+							<rectangle>[100,94,745,-2]</rectangle>
+							<order>10</order>
+						</image>
+						<text>
+							<text>A pile of kindling and construction materials lie off to the side. A lone peasant looks forlornly at the proceedings. You strike up a conversation with the peasant. {s:card_b_default_italic}"So many women, so much death... It is almost like he 'harvests' them. When will it all end?"{s:}</text>
+							<style>card_b_default</style>
+							<rectangle>[86,710,773,-1]</rectangle>
+							<order>0</order>
+						</text>
+						<text>
+							<text>&#x2022; A flash of light catches your eye in the pile of sticks and grasses. If you choose to investigate you must pass the challenge{n}&#x00a0;&#x2022; {I:skill_glib:75:-2} 4x{I:shield:75:-2} 2x{I:shield_time:75:-2}{n}&#x00a0;&#x2022; On success take {s:card_b_action_bold}Item {in:Stained Glass C}{s:}.</text>
+							<style>card_b_action</style>
+							<rectangle>[86,1110,773,-1]</rectangle>
+							<order>0</order>
+						</text>
 					</bottom>
 				</card>
 				<card name="loc_field_e">
@@ -3094,6 +3161,18 @@
 						</image>
 					</top>
 					<bottom>
+						<text>
+							<text>An intensely macabre sight, but surprisingly serene. Sister Mar&#x00ed;a is tied to a stake as a crow looks onward from a safe distance. A pair of acolytes stand, burning torches in hand. Around their necks are odd, glowing orbs. The pair lash the sister to the stake. One of the acolytes tosses a small metallic sphere into the base of the kindling as the other dispassionately lights the fire...  You avert your eyes from the horrific scene, awaiting screams that... never come? She behaves very oddly, no struggling, no screaming and seems to pass quickly, in peace. Interestingly, you notice a flash of blue light coming from within the fire just before she passes into inactivity. Your party quietly mourns the  loss of an honored comrade. There can be no solace...</text>
+							<style>card_b_default</style>
+							<rectangle>[86,60,773,-1]</rectangle>
+							<order>0</order>
+						</text>
+						<text>
+							<text>&#x2022; The Sister Mar&#x00ed;a character card is removed along with all items she is holding. Her essence transfers to her familiar, take {s:card_b_action_bold}Item {in:the_crow}{s:} and contine the mission using the new character. Take one soul token {I:soul:75:-2}.</text>
+							<style>card_b_action</style>
+							<rectangle>[86,1070,773,-1]</rectangle>
+							<order>0</order>
+						</text>
 					</bottom>
 				</card>
 				<card name="loc_field_f">
@@ -3119,6 +3198,18 @@
 						</image>
 					</top>
 					<bottom>
+						<text>
+							<text>An intensely macabre sight, but surprisingly serene. Do&#x00f1;a Ortiz is tied to a stake  as a cat looks onward from a safe distance. A pair of acolytes stand, burning torches in hand. Around their necks are odd, glowing orbs. The pair lash the sister to the stake. One of the acolytes tosses a small metallic sphere into the base of the kindling as the other dispassionately lights the fire...  You avert your eyes from the horrific scene, awaiting screams that... never come? She behaves very oddly, no struggling, no screaming and seems to pass quickly, in peace. Interestingly, you notice a flash of blue light coming from within the fire just before she passes into inactivity. Your party quietly mourns the  loss of an honored comrade. There can be no solace...</text>
+							<style>card_b_default</style>
+							<rectangle>[86,60,773,-1]</rectangle>
+							<order>0</order>
+						</text>
+						<text>
+							<text>&#x2022; The Do&#x00f1;a Ortiz character card is removed along with all items she is holding. Her essence transfers to her familiar, take {s:card_b_action_bold}Item {in:the_cat}{s:} and contine the mission using the new character. Take one soul token {I:soul:75:-2}.</text>
+							<style>card_b_action</style>
+							<rectangle>[86,1070,773,-1]</rectangle>
+							<order>0</order>
+						</text>
 					</bottom>
 				</card>
 				<card name="loc_field_g">
@@ -3144,6 +3235,18 @@
 						</image>
 					</top>
 					<bottom>
+						<text>
+							<text>An intensely macabre sight, but surprisingly serene. Isabel is tied to a stake  as a snake looks onward from a safe distance. A pair of acolytes stand, burning torches in hand. Around their necks are odd, glowing orbs. The pair lash the sister to the stake. One of the acolytes tosses a small metallic sphere into the base of the kindling as the other dispassionately lights the fire...  You avert your eyes from the horrific scene, awaiting screams that... never come? She behaves very oddly, no struggling, no screaming and seems to pass quickly, in peace. Interestingly, you notice a flash of blue light coming from within the fire just before she passes into inactivity. Your party quietly mourns the  loss of an honored comrade. There can be no solace...</text>
+							<style>card_b_default</style>
+							<rectangle>[86,60,773,-1]</rectangle>
+							<order>0</order>
+						</text>
+						<text>
+							<text>&#x2022; The Isabel character card is removed along with all items she is holding. Her essence transfers to her familiar, take {s:card_b_action_bold}Item {in:the_snake}{s:} and contine the mission using the new character. What is this? Take one soul token {I:soul:75:-2}.</text>
+							<style>card_b_action</style>
+							<rectangle>[86,1070,773,-1]</rectangle>
+							<order>0</order>
+						</text>
 					</bottom>
 				</card>
 			</location>
