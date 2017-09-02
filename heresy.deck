@@ -145,10 +145,10 @@
 		<file filename="heresy_media/cat.png" name="cat"/>
 		<file filename="heresy_media/stairs_down.png" name="stairs_down"/>
 		
-		<file filename="heresy_media/cat1.png" name="cat3"/>
-		<file filename="heresy_media/cat2.png" name="cat4"/>
-		<file filename="heresy_media/cat3.png" name="cat2"/>
-		<file filename="heresy_media/cat4.png" name="cat1"/>
+		<file filename="heresy_media/cat_I.png" name="cat1"/>
+		<file filename="heresy_media/cat_II.png" name="cat2"/>
+		<file filename="heresy_media/cat_III.png" name="cat3"/>
+		<file filename="heresy_media/cat_IV.png" name="cat4"/>
 				
 		
 		<image name="win_green">
@@ -529,7 +529,23 @@
 			<file>cat1</file>
 			<rectangle>[2836,0,945,-1]</rectangle>
 		</image>
-
+		<image name="loc_cat1_b_sub">
+			<file>cat1</file>
+			<rectangle>[108,286,758,890]</rectangle>
+		</image>
+		<image name="loc_cat1_c_sub">
+			<file>cat1</file>
+			<rectangle>[926,316,758,890]</rectangle>
+		</image>
+		<image name="loc_cat1_d_sub">
+			<file>cat1</file>
+			<rectangle>[2100,308,758,890]</rectangle>
+		</image>
+		<image name="loc_cat1_e_sub">
+			<file>cat1</file>
+			<rectangle>[2852,308,758,890]</rectangle>
+		</image>
+		
 		<image name="loc_cat2_b">
 			<file>cat2</file>
 			<rectangle>[0,0,945,-1]</rectangle>
@@ -546,7 +562,23 @@
 			<file>cat2</file>
 			<rectangle>[2836,0,945,-1]</rectangle>
 		</image>
-
+		<image name="loc_cat2_b_sub">
+			<file>cat2</file>
+			<rectangle>[0,328,758,890]</rectangle>
+		</image>
+		<image name="loc_cat2_c_sub">
+			<file>cat2</file>
+			<rectangle>[992,336,758,890]</rectangle>
+		</image>
+		<image name="loc_cat2_d_sub">
+			<file>cat2</file>
+			<rectangle>[2068,340,758,890]</rectangle>
+		</image>
+		<image name="loc_cat2_e_sub">
+			<file>cat2</file>
+			<rectangle>[2896,296,758,890]</rectangle>
+		</image>
+		
 		<image name="loc_cat3_b">
 			<file>cat3</file>
 			<rectangle>[0,0,945,-1]</rectangle>
@@ -563,7 +595,23 @@
 			<file>cat3</file>
 			<rectangle>[2836,0,945,-1]</rectangle>
 		</image>
-
+		<image name="loc_cat3_b_sub">
+			<file>cat3</file>
+			<rectangle>[0,112,650,1194]</rectangle>
+		</image>
+		<image name="loc_cat3_c_sub">
+			<file>cat3</file>
+			<rectangle>[1088,296,758,890]</rectangle>
+		</image>
+		<image name="loc_cat3_d_sub">
+			<file>cat3</file>
+			<rectangle>[1836,296,758,890]</rectangle>
+		</image>
+		<image name="loc_cat3_e_sub">
+			<file>cat3</file>
+			<rectangle>[3022,292,758,890]</rectangle>
+		</image>
+		
 		<image name="loc_cat4_b">
 			<file>cat4</file>
 			<rectangle>[0,0,945,-1]</rectangle>
@@ -580,7 +628,23 @@
 			<file>cat4</file>
 			<rectangle>[2836,0,945,-1]</rectangle>
 		</image>
-
+		<image name="loc_cat4_b_sub">
+			<file>cat4</file>
+			<rectangle>[250,400,758,890]</rectangle>
+		</image>
+		<image name="loc_cat4_c_sub">
+			<file>cat4</file>
+			<rectangle>[984,376,758,890]</rectangle>
+		</image>
+		<image name="loc_cat4_d_sub">
+			<file>cat4</file>
+			<rectangle>[1980,312,758,890]</rectangle>
+		</image>
+		<image name="loc_cat4_e_sub">
+			<file>cat4</file>
+			<rectangle>[3016,400,758,890]</rectangle>
+		</image>
+		
 		<image name="loc_court_b">
 			<file>coourtroom_revised_A</file>
 			<rectangle>[0,0,945,-1]</rectangle>
@@ -3283,7 +3347,7 @@
 							<order>-99</order>
 						</image>
 						<text>
-							<text>  Many paths lay before you. Your entire party must visit a specific card. If you have Item {in:the_crow}, you may use the ability listed on the item to look at one other card before ending up on the same card as the rest of the party (the rest of the party must select the destination card first).</text>
+							<text> Many paths lay before you. Your entire party must visit a specific card. If you have Item {in:the_crow}, you may use the ability listed on the item to look at one other card before ending up on the same card as the rest of the party. Note: the rest of the party must select the destination card before the ability can be used.</text>
 							<style>card_a_default</style>
 							<rectangle>[86,94,773,1350]</rectangle>
 							<order>0</order>
@@ -3298,6 +3362,23 @@
 						</image>
 					</top>
 					<bottom>
+						<image>
+							<image>loc_cat1_b_sub</image>
+							<rectangle>[100,94,745,-2]</rectangle>
+							<order>10</order>
+						</image>
+						<text>
+							<text>You pass through the door without incident, but it just seems to lead onward.  To where you wonder... I guess we'll find out.</text>
+							<style>card_b_default</style>
+							<rectangle>[86,1000,773,-1]</rectangle>
+							<order>0</order>
+						</text>
+						<text>
+							<text>&#x2022; Travel to location {s:card_b_action_bold}{ls:Catacombs II}{s:}, do not increment the TU counter {I:time:75:-2} for this location change.</text>
+							<style>card_b_action</style>
+							<rectangle>[86,1250,773,-1]</rectangle>
+							<order>0</order>
+						</text>
 					</bottom>
 				</card>
 				<card name="cat_1_c">
@@ -3308,6 +3389,17 @@
 						</image>
 					</top>
 					<bottom>
+						<image>
+							<image>loc_cat1_c_sub</image>
+							<rectangle>[100,94,745,-2]</rectangle>
+							<order>10</order>
+						</image>
+						<text>
+							<text>&#x2022; {I:lock:75:-2} If random encounter cards are still available, you must deal with a random encounter. Select a card at random from the remaining random encounter cards and resolve it before moving on, spending the normal one TU {I:time:75:-2} movement cost. Remove any resolved encounder card from the deck.</text>
+							<style>card_b_action</style>
+							<rectangle>[86,1000,773,-1]</rectangle>
+							<order>0</order>
+						</text>
 					</bottom>
 				</card>
 				<card name="cat_1_d">
@@ -3318,6 +3410,17 @@
 						</image>
 					</top>
 					<bottom>
+						<image>
+							<image>loc_cat1_d_sub</image>
+							<rectangle>[100,94,745,-2]</rectangle>
+							<order>10</order>
+						</image>
+						<text>
+							<text>You turn the corner to reveal the end of a short rocky passage. Some rubble and a broken pickaxe lie on the floor. Even the builders of this passage decided it was not worth proceeding with.</text>
+							<style>card_b_default</style>
+							<rectangle>[86,1000,773,-1]</rectangle>
+							<order>0</order>
+						</text>
 					</bottom>
 				</card>
 				<card name="cat_1_e">
@@ -3328,6 +3431,17 @@
 						</image>
 					</top>
 					<bottom>
+						<image>
+							<image>loc_cat1_e_sub</image>
+							<rectangle>[100,94,745,-2]</rectangle>
+							<order>10</order>
+						</image>
+						<text>
+							<text>&#x2022; {I:lock:75:-2} If random encounter cards are still available, you must deal with a random encounter. Select a card at random from the remaining random encounter cards and resolve it before moving on, spending the normal one TU {I:time:75:-2} movement cost. Remove any resolved encounder card from the deck.</text>
+							<style>card_b_action</style>
+							<rectangle>[86,1000,773,-1]</rectangle>
+							<order>0</order>
+						</text>
 					</bottom>
 				</card>
 			</location>
@@ -3364,7 +3478,7 @@
 							<order>-99</order>
 						</image>
 						<text>
-							<text>  Even more paths lay before you. Your entire party must visit a specific card. If you have Item {in:the_crow}, you may use the ability listed on the item to look at one other card before ending up on the same card as the rest of the party (the rest of the party must select the destination card first).</text>
+							<text>Even more paths lay before you. As before, your entire party must visit a specific card. If you have Item {in:the_crow}, you may use the ability listed on the item to look at one other card before ending up on the same card as the rest of the party. Note: the rest of the party must select the destination card before the ability can be used.</text>
 							<style>card_a_default</style>
 							<rectangle>[86,94,773,1350]</rectangle>
 							<order>0</order>
@@ -3379,6 +3493,23 @@
 						</image>
 					</top>
 					<bottom>
+						<image>
+							<image>loc_cat2_b_sub</image>
+							<rectangle>[100,94,745,-2]</rectangle>
+							<order>10</order>
+						</image>
+						<text>
+							<text>The path slopes up and away from you steeply. The floor has been made slick a by reddened water leaching iron from the formations above your head dripping on the path at your feet. A treacherous path that must be taken slowly.</text>
+							<style>card_b_default</style>
+							<rectangle>[86,1000,773,-1]</rectangle>
+							<order>0</order>
+						</text>
+						<text>
+							<text>&#x2022; Travel to location {s:card_b_action_bold}{ls:Catacombs III}{s:}. Lose two TU {I:time:75:-2} in the process.</text>
+							<style>card_b_action</style>
+							<rectangle>[86,1320,773,-1]</rectangle>
+							<order>0</order>
+						</text>
 					</bottom>
 				</card>
 				<card name="cat_2_c">
@@ -3389,6 +3520,23 @@
 						</image>
 					</top>
 					<bottom>
+						<image>
+							<image>loc_cat2_c_sub</image>
+							<rectangle>[100,94,745,-2]</rectangle>
+							<order>10</order>
+						</image>
+						<text>
+							<text>A worn, wooden door opens, revealing a tunnel that curves ahead to the right.  You follow the path to a locations that looks... familiar.</text>
+							<style>card_b_default</style>
+							<rectangle>[86,1000,773,-1]</rectangle>
+							<order>0</order>
+						</text>
+						<text>
+							<text>&#x2022; Travel to location {s:card_b_action_bold}{ls:Catacombs I}{s:}.</text>
+							<style>card_b_action</style>
+							<rectangle>[86,1250,773,-1]</rectangle>
+							<order>0</order>
+						</text>
 					</bottom>
 				</card>
 				<card name="cat_2_d">
@@ -3399,6 +3547,17 @@
 						</image>
 					</top>
 					<bottom>
+						<image>
+							<image>loc_cat2_d_sub</image>
+							<rectangle>[100,94,745,-2]</rectangle>
+							<order>10</order>
+						</image>
+						<text>
+							<text>&#x2022; {I:lock:75:-2} If random encounter cards are still available, you must deal with a random encounter. Select a card at random from the remaining random encounter cards and resolve it before moving on, spending the normal one TU {I:time:75:-2} movement cost. Remove any resolved encounder card from the deck.</text>
+							<style>card_b_action</style>
+							<rectangle>[86,1000,773,-1]</rectangle>
+							<order>0</order>
+						</text>
 					</bottom>
 				</card>
 				<card name="cat_2_e">
@@ -3409,6 +3568,23 @@
 						</image>
 					</top>
 					<bottom>
+						<image>
+							<image>loc_cat2_e_sub</image>
+							<rectangle>[100,94,745,-2]</rectangle>
+							<order>10</order>
+						</image>
+						<text>
+							<text>Total providence? The path seems to lead to a new location. Perhaps this leads to the laboratory?</text>
+							<style>card_b_default</style>
+							<rectangle>[86,1000,773,-1]</rectangle>
+							<order>0</order>
+						</text>
+						<text>
+							<text>&#x2022; Travel to location {s:card_b_action_bold}{ls:Catacombs III}{s:}, do not increment the TU counter {I:time:75:-2} for this location change.</text>
+							<style>card_b_action</style>
+							<rectangle>[86,1200,773,-1]</rectangle>
+							<order>0</order>
+						</text>
 					</bottom>
 				</card>
 			</location>
@@ -3445,7 +3621,7 @@
 							<order>-99</order>
 						</image>
 						<text>
-							<text>  This is getting crazy, a slew of additional paths lay before you. Your entire party must visit a specific card. If you have Item {in:the_crow}, you may use the ability listed on the item to look at one other card before ending up on the same card as the rest of the party (the rest of the party must select the destination card first).</text>
+							<text>This is getting crazy, a spate of additional paths lay before you. Oh and did I mention, your entire party must visit a specific card? If you have Item {in:the_crow}, you may use the ability listed on the item to look at one other card before ending up on the same card as the rest of the party. Note: the rest of the party must select the destination card before the ability can be used.</text>
 							<style>card_a_default</style>
 							<rectangle>[86,94,773,1350]</rectangle>
 							<order>0</order>
@@ -3460,6 +3636,17 @@
 						</image>
 					</top>
 					<bottom>
+						<image>
+							<image>loc_cat3_b_sub</image>
+							<rectangle>[250,94,445,-2]</rectangle>
+							<order>10</order>
+						</image>
+						<text>
+							<text>&#x2022; {I:lock:75:-2} If random encounter cards are still available, you must deal with a random encounter. Select a card at random from the remaining random encounter cards and resolve it before moving on, spending the normal one TU {I:time:75:-2} movement cost. Remove any resolved encounder card from the deck.</text>
+							<style>card_b_action</style>
+							<rectangle>[86,1000,773,-1]</rectangle>
+							<order>0</order>
+						</text>
 					</bottom>
 				</card>
 				<card name="cat_3_c">
@@ -3470,6 +3657,23 @@
 						</image>
 					</top>
 					<bottom>
+						<image>
+							<image>loc_cat3_c_sub</image>
+							<rectangle>[100,94,745,-2]</rectangle>
+							<order>10</order>
+						</image>
+						<text>
+							<text>Ahead of you is a chasm of unknown depth on your right. The path continues, but has been reduced to a narrow ledge. Your part must exercise extreme caution while traversing this portion of the path. You make it to the next room, but have we gone in a circle?</text>
+							<style>card_b_default</style>
+							<rectangle>[86,1000,773,-1]</rectangle>
+							<order>0</order>
+						</text>
+						<text>
+							<text>&#x2022; Travel to location {s:card_b_action_bold}{ls:Catacombs I}{s:}. Lose two TU {I:time:75:-2} in the process.</text>
+							<style>card_b_action</style>
+							<rectangle>[86,1365,773,-1]</rectangle>
+							<order>0</order>
+						</text>
 					</bottom>
 				</card>
 				<card name="cat_3_d">
@@ -3480,6 +3684,23 @@
 						</image>
 					</top>
 					<bottom>
+						<image>
+							<image>loc_cat3_d_sub</image>
+							<rectangle>[100,94,745,-2]</rectangle>
+							<order>10</order>
+						</image>
+						<text>
+							<text>Curious pavers line a simple vaulted tunnel that leads to a hard left-hand turn. Light from the room ahead beckons.</text>
+							<style>card_b_default</style>
+							<rectangle>[86,1000,773,-1]</rectangle>
+							<order>0</order>
+						</text>
+						<text>
+							<text>&#x2022; Travel to location {s:card_b_action_bold}{ls:Catacombs II}{s:}.</text>
+							<style>card_b_action</style>
+							<rectangle>[86,1190,773,-1]</rectangle>
+							<order>0</order>
+						</text>
 					</bottom>
 				</card>
 				<card name="cat_3_e">
@@ -3490,6 +3711,23 @@
 						</image>
 					</top>
 					<bottom>
+						<image>
+							<image>loc_cat3_e_sub</image>
+							<rectangle>[100,94,745,-2]</rectangle>
+							<order>10</order>
+						</image>
+						<text>
+							<text>The path narrows to a single-fine rut between two rough-hewn walls. Tight quarters, but passible.</text>
+							<style>card_b_default</style>
+							<rectangle>[86,1000,773,-1]</rectangle>
+							<order>0</order>
+						</text>
+						<text>
+							<text>&#x2022; Travel to location {s:card_b_action_bold}{ls:Catacombs IV}{s:}.</text>
+							<style>card_b_action</style>
+							<rectangle>[86,1190,773,-1]</rectangle>
+							<order>0</order>
+						</text>
 					</bottom>
 				</card>
 			</location>
@@ -3526,7 +3764,7 @@
 							<order>-99</order>
 						</image>
 						<text>
-							<text>  Will it ever end!  Additional paths lay before you. Your entire party must visit a specific card. If you have Item {in:the_crow}, you may use the ability listed on the item to look at one other card before ending up on the same card as the rest of the party (the rest of the party must select the destination card first).</text>
+							<text>Will this nonsense ever end!  Additional paths lay before you.  Yawn, this is getting a little tiring... Your entire party must visit a specific card. If you have Item {in:the_crow}, you may use the ability listed on the item to look at one other card before ending up on the same card as the rest of the party. Note: the rest of the party must select the destination card before the ability can be used.</text>
 							<style>card_a_default</style>
 							<rectangle>[86,94,773,1350]</rectangle>
 							<order>0</order>
@@ -3541,6 +3779,23 @@
 						</image>
 					</top>
 					<bottom>
+						<image>
+							<image>loc_cat4_b_sub</image>
+							<rectangle>[100,94,745,-2]</rectangle>
+							<order>10</order>
+						</image>
+						<text>
+							<text>An end to this journey appears in the distance? A glowing door enters your vision as you proceed. In pertinacia victoria!</text>
+							<style>card_b_default</style>
+							<rectangle>[86,1000,773,-1]</rectangle>
+							<order>0</order>
+						</text>
+						<text>
+							<text>&#x2022; Take token {I:token_yellow_4:75:-2} and immediately reveal card {s:card_b_action_bold}F{s:}.</text>
+							<style>card_b_action</style>
+							<rectangle>[86,1190,773,-1]</rectangle>
+							<order>0</order>
+						</text>
 					</bottom>
 				</card>
 				<card name="cat_4_c">
@@ -3551,6 +3806,23 @@
 						</image>
 					</top>
 					<bottom>
+						<image>
+							<image>loc_cat4_c_sub</image>
+							<rectangle>[100,94,745,-2]</rectangle>
+							<order>10</order>
+						</image>
+						<text>
+							<text>A gate on rusty hinges opens surprisingly easily, as if it has been used recently.  A good omen perhaps?</text>
+							<style>card_b_default</style>
+							<rectangle>[86,1000,773,-1]</rectangle>
+							<order>0</order>
+						</text>
+						<text>
+							<text>&#x2022; Travel to location {s:card_b_action_bold}{ls:Catacombs I}{s:}.</text>
+							<style>card_b_action</style>
+							<rectangle>[86,1190,773,-1]</rectangle>
+							<order>0</order>
+						</text>
 					</bottom>
 				</card>
 				<card name="cat_4_d">
@@ -3561,6 +3833,17 @@
 						</image>
 					</top>
 					<bottom>
+						<image>
+							<image>loc_cat4_d_sub</image>
+							<rectangle>[100,94,745,-2]</rectangle>
+							<order>10</order>
+						</image>
+						<text>
+							<text>&#x2022; {I:lock:75:-2} If random encounter cards are still available, you must deal with a random encounter. Select a card at random from the remaining random encounter cards and resolve it before moving on, spending the normal one TU {I:time:75:-2} movement cost. Remove any resolved encounder card from the deck.</text>
+							<style>card_b_action</style>
+							<rectangle>[86,1000,773,-1]</rectangle>
+							<order>0</order>
+						</text>
 					</bottom>
 				</card>
 				<card name="cat_4_e">
@@ -3571,6 +3854,23 @@
 						</image>
 					</top>
 					<bottom>
+						<image>
+							<image>loc_cat4_e_sub</image>
+							<rectangle>[100,94,745,-2]</rectangle>
+							<order>10</order>
+						</image>
+						<text>
+							<text>Crude rock walls give way to a wooden buttressed path. As you round the bend, things begin to get familiar...</text>
+							<style>card_b_default</style>
+							<rectangle>[86,1000,773,-1]</rectangle>
+							<order>0</order>
+						</text>
+						<text>
+							<text>&#x2022; Travel to location {s:card_b_action_bold}{ls:Catacombs III}{s:}.</text>
+							<style>card_b_action</style>
+							<rectangle>[86,1190,773,-1]</rectangle>
+							<order>0</order>
+						</text>
 					</bottom>
 				</card>
 				<card name="cat_4_f">
@@ -3582,6 +3882,18 @@
 						</image>
 					</top>
 					<bottom>
+						<text>
+							<text>In front of you is a heavy door wrapped in metal wires. The wires hum oddly and crackle with live energy. The door appears to be protected by the devil's fire (electrified). Something important must be behind it</text>
+							<style>card_b_default</style>
+							<rectangle>[86,694,773,-1]</rectangle>
+							<order>0</order>
+						</text>
+						<text>
+							<text>&#x2022; There door can be opened in one of two ways:{n}&#x00a0;&#x00a0;&#x2022; If you have items {s:card_b_action_bold}{in:the_cat}{s:}, {s:card_b_action_bold}{in:the_snake}{s:} or {s:card_b_action_bold}{in:the_crow}{s:}, they may exploit the convenient air vent to bypass the door and open it from the other side safely and at no cost, or you can destroy the door using brute force {I:skill_combat:75:-2} 5x{I:shield_red_skull:75:-2} 5x{I:shield_heart:75:-2}{n}&#x00a0;&#x00a0;&#x2022; If successful, take {s:card_b_action_bold}Item {in:Plan Add Laboratory}{s:}.</text>
+							<style>card_b_action</style>
+							<rectangle>[86,1020,773,-1]</rectangle>
+							<order>0</order>
+						</text>
 					</bottom>
 				</card>
 			</location>
