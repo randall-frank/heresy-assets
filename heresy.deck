@@ -941,6 +941,26 @@
 			<file>underground_b</file>
 			<rectangle>[3781,0,945,-1]</rectangle>
 		</image>
+		<image name="armour">
+			<file>underground_b</file>
+			<rectangle>[48,124,416,708]</rectangle>
+		</image>		
+		<image name="wires">
+			<file>underground_b</file>
+			<rectangle>[996,352,992,504]</rectangle>
+		</image>
+		<image name="notebook">
+			<file>underground_b</file>
+			<rectangle>[1948,292,828,488]</rectangle>
+		</image>
+		<image name="boxes">
+			<file>underground_b</file>
+			<rectangle>[2912,52,828,1320]</rectangle>
+		</image>
+		<image name="device">
+			<file>underground_b</file>
+			<rectangle>[3816,20,880,884]</rectangle>
+		</image>
 		
 		<image name="iron_door">
 			<file>iron_door</file>
@@ -3941,7 +3961,7 @@
 							<order>-99</order>
 						</image>
 						<text>
-							<text>  A strange room appears before you. Golden crosses at the walls and rosaries are mixed with aseptic tables, storage cupboards made of glass and metal and medieval weapons. On your left, a suit of armor is leaning against the wall. Beside it, a large table partially covered in wires. On the extreme of the table, a handwritten notebook is open. At the far right an elaborate archway beckons.</text>
+							<text>A strange room appears before you. Golden crosses at the walls and rosaries are mixed with aseptic tables, storage cupboards made of glass and metal and medieval weapons. On your left, a suit of armor is leaning against the wall. Beside it, a large table partially covered in wires. On the extreme of the table, a handwritten notebook is open. At the far right an elaborate archway beckons.</text>
 							<style>card_a_default</style>
 							<rectangle>[86,94,773,1350]</rectangle>
 							<order>0</order>
@@ -3956,6 +3976,23 @@
 						</image>
 					</top>
 					<bottom>
+						<image>
+							<image>armour</image>
+							<rectangle>[280,50,385,-2]</rectangle>
+							<order>10</order>
+						</image>
+						<text>
+							<text>A suit of medieval armor leans against the wall. This armor is the ultimate model available for crusade: light and powerful. What is it doing in a priest's office? ... wait, what is this thing stuck inside it?</text>
+							<style>card_b_default</style>
+							<rectangle>[86,730,773,-1]</rectangle>
+							<order>0</order>
+						</text>
+						<text>
+							<text>&#x2022; If you choose to search the armor:{n}&#x2022; {I:skill_agile:75:-2} 2x{I:shield:75:-2} 2x:{I:shield_time:75:-2}{n}&#x2022; On success take {s:card_b_action_bold}Item {in:Left Leg}{s:}.</text>
+							<style>card_b_action</style>
+							<rectangle>[86,1060,773,-1]</rectangle>
+							<order>0</order>
+						</text>
 					</bottom>
 				</card>
 				<card name="loc_lab_c">
@@ -3966,18 +4003,23 @@
 						</image>
 					</top>
 					<bottom>
-					<text>
-						<text>A suit of medieval armor leans against the wall. This armor is the ultimate model available for crusade: light and powerful. What is it doing in a priest's office? ... wait, what is this thing stuck inside it?</text>
-						<style>card_b_default</style>
-						<rectangle>[86,600,773,-1]</rectangle>
-						<order>0</order>
-					</text>
-					<text>
-						<text>&#x2022; If you choose to search the armor:{n}&#x2022; {I:skill_agile:75:-2} 2x{I:shield:75:-2} 2x:{I:time:75:-2}{n}&#x2022; On success take {s:card_b_action_bold}Item {in:Left Leg}{s:}.</text>
-						<style>card_b_action</style>
-						<rectangle>[86,1150,773,-1]</rectangle>
-						<order>0</order>
-					</text>
+						<image>
+							<image>wires</image>
+							<rectangle>[100,50,745,-2]</rectangle>
+							<order>10</order>
+						</image>
+						<text>
+							<text>A table covered in wires. You move the wires around to better see where they are coming from. One end is free, but the other end... ends up inside a 'human' head!</text>
+							<style>card_b_default</style>
+							<rectangle>[86,480,773,-1]</rectangle>
+							<order>0</order>
+						</text>
+						<text>
+							<text>&#x2022; If you have {s:card_b_action_bold}Item {in:Battery}{s:}, you may connect it to the head and any other body parts you are carrying.{n}&#x2022; {I:skill_agile:75:-2} 2x{I:shield:75:-2} 2x:{I:shield_time:75:-2}{n}&#x2022; On success take {s:card_b_action_bold}Item {in:The Golem}{s:}.</text>
+							<style>card_b_action</style>
+							<rectangle>[86,780,773,-1]</rectangle>
+							<order>0</order>
+						</text>
 					</bottom>
 				</card>
 				<card name="loc_lab_d">
@@ -3988,6 +4030,17 @@
 						</image>
 					</top>
 					<bottom>
+						<image>
+							<image>notebook</image>
+							<rectangle>[100,50,745,-2]</rectangle>
+							<order>10</order>
+						</image>
+						<text>
+							<text>On the far end of the table, there is an open notebook. You rifle through the pages until you see a shopping list?{n}{n}{s:card_b_default_italic}Emere{s:}{n}&#x2022; 3 malefica anima for the time engine{n}&#x2022; 2 membra  for the Beta soldier{n}&#x2022; 2 apparatus gun{n}&#x2022; 1 tumultuantem device</text>
+							<style>card_b_default</style>
+							<rectangle>[86,520,773,-1]</rectangle>
+							<order>0</order>
+						</text>
 					</bottom>
 				</card>
 				<card name="loc_lab_e">
@@ -3998,6 +4051,23 @@
 						</image>
 					</top>
 					<bottom>
+						<image>
+							<image>boxes</image>
+							<rectangle>[200,50,545,-2]</rectangle>
+							<order>10</order>
+						</image>
+						<text>
+							<text>The wall is covered by golden crosses. On the floor, some boxes. You open the boxes on the grounds. They contain small, cylindrical objects, shiny and cold to the touch.</text>
+							<style>card_b_default</style>
+							<rectangle>[86,980,773,-1]</rectangle>
+							<order>0</order>
+						</text>
+						<text>
+							<text>&#x2022; Take 3 {I:bullet:75:-2} tokens.</text>
+							<style>card_b_action</style>
+							<rectangle>[86,1280,773,-1]</rectangle>
+							<order>0</order>
+						</text>
 					</bottom>
 				</card>
 				<card name="loc_lab_f">
@@ -4008,6 +4078,23 @@
 						</image>
 					</top>
 					<bottom>
+						<image>
+							<image>device</image>
+							<rectangle>[200,50,545,-2]</rectangle>
+							<order>10</order>
+						</image>
+						<text>
+							<text>This is a strange door. What is this compartment for? It hums with unnatural energy. A "window" on the device notes something called a "Hypermarket" with a date in the future listed.</text>
+							<style>card_b_default</style>
+							<rectangle>[86,620,773,-1]</rectangle>
+							<order>0</order>
+						</text>
+						<text>
+							<text>&#x2022; If you have {s:card_b_action_bold}Item {in:Soul Medallion}{s:} you can choose to activate the machine by spending one {I:soul:75:-2} token. If you activate the device the party is transported to location {s:card_b_action_bold}{ls:Market}{s:}.{n}&#x2022; You may jury-rig the device to self destruct when activated. To do so, you may spend {s:card_b_action_bold}Item {in:Bottle of Alcohol}{s:} or empty the powder from three bullets (consumes 3 {I:bullet:75:-2} tokens). If you set the device to self-destruct and activate it, take token {I:token_blue_4:75:-2}.</text>
+							<style>card_b_action</style>
+							<rectangle>[86,900,773,-1]</rectangle>
+							<order>0</order>
+						</text>
 					</bottom>
 				</card>
 			</location>
