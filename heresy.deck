@@ -149,7 +149,8 @@
 		<file filename="heresy_media/cat_II.png" name="cat2"/>
 		<file filename="heresy_media/cat_III.png" name="cat3"/>
 		<file filename="heresy_media/cat_IV.png" name="cat4"/>
-				
+
+		<file filename="heresy_media/iron_door.jpg" name="iron_door"/>		
 		
 		<image name="win_green">
 			<file>TS_ Missions_V_EN</file>
@@ -940,7 +941,12 @@
 			<file>underground_b</file>
 			<rectangle>[3781,0,945,-1]</rectangle>
 		</image>
-
+		
+		<image name="iron_door">
+			<file>iron_door</file>
+			<rectangle>[57,18,957,1500]</rectangle>
+		</image>
+		
 		<style name="default">
 			<typeface>Arial</typeface>
 			<linestyle>solid</linestyle>
@@ -3882,16 +3888,21 @@
 						</image>
 					</top>
 					<bottom>
+						<image>
+							<image>iron_door</image>
+							<rectangle>[280,50,385,-2]</rectangle>
+							<order>10</order>
+						</image>
 						<text>
-							<text>In front of you is a heavy door wrapped in metal wires. The wires hum oddly and crackle with live energy. The door appears to be protected by the devil's fire (electrified). Something important must be behind it</text>
+							<text>In front of you is a heavy door adornded with iron fixtures. The fixtures hum oddly and crackle with live energy. The door appears to be protected by the devil's fire (electrified). Something important must be behind it</text>
 							<style>card_b_default</style>
-							<rectangle>[86,694,773,-1]</rectangle>
+							<rectangle>[86,670,773,-1]</rectangle>
 							<order>0</order>
 						</text>
 						<text>
-							<text>&#x2022; There door can be opened in one of two ways:{n}&#x00a0;&#x00a0;&#x2022; If you have items {s:card_b_action_bold}{in:the_cat}{s:}, {s:card_b_action_bold}{in:the_snake}{s:} or {s:card_b_action_bold}{in:the_crow}{s:}, they may exploit the convenient air vent to bypass the door and open it from the other side safely and at no cost, or you can destroy the door using brute force {I:skill_combat:75:-2} 5x{I:shield_red_skull:75:-2} 5x{I:shield_heart:75:-2}{n}&#x00a0;&#x00a0;&#x2022; If successful, take {s:card_b_action_bold}Item {in:Plan Add Laboratory}{s:}.</text>
+							<text>&#x2022; There door can be opened in one of two ways:{n}&#x00a0;&#x00a0;&#x2022; If you have items {s:card_b_action_bold}{in:the_cat}{s:}, {s:card_b_action_bold}{in:the_snake}{s:} or {s:card_b_action_bold}{in:the_crow}{s:}, they may exploit the transom to bypass the door and open it from the other side safely and at no cost, or you can destroy the door using brute force {I:skill_combat:75:-2} 5x{I:shield_red_skull:75:-2} 5x{I:shield_heart:75:-2}{n}&#x00a0;&#x00a0;&#x2022; If successful, take {s:card_b_action_bold}Item {in:Plan Add Laboratory}{s:}.</text>
 							<style>card_b_action</style>
-							<rectangle>[86,1020,773,-1]</rectangle>
+							<rectangle>[86,990,773,-1]</rectangle>
 							<order>0</order>
 						</text>
 					</bottom>
