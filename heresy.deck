@@ -707,7 +707,35 @@
 			<file>hypermart</file>
 			<rectangle>[5671,0,945,-1]</rectangle>
 		</image>
-
+		<image name="greeter">
+			<file>hypermart</file>
+			<rectangle>[6,129,510,582]</rectangle>
+		</image>
+		<image name="gardencenter">
+			<file>hypermart</file>
+			<rectangle>[1188,315,699,771]</rectangle>
+		</image>
+		<image name="electronics">
+			<file>hypermart</file>
+			<rectangle>[2148,117,699,771]</rectangle>
+		</image>
+		<image name="hardware">
+			<file>hypermart</file>
+			<rectangle>[2982,0,891,804]</rectangle>
+		</image>
+		<image name="housewares">
+			<file>hypermart</file>
+			<rectangle>[4098,42,891,804]</rectangle>
+		</image>
+		<image name="groceries">
+			<file>hypermart</file>
+			<rectangle>[4971,330,891,804]</rectangle>
+		</image>
+		<image name="clothing">
+			<file>hypermart</file>
+			<rectangle>[5985,303,630,765]</rectangle>
+		</image>
+		
 		<image name="loc_path_b">
 			<file>path_to_town</file>
 			<rectangle>[0,0,945,-1]</rectangle>
@@ -4131,7 +4159,7 @@
 							<order>-99</order>
 						</image>
 						<text>
-							<text>  You enter a large, 2010 N.T. era building. Advertisements with pricing abound.  It appears to be some kind of shopping facility, likely the source of the future artifacts you have encountered earlier. It seems strangely deserted except for robed acolytes. Note: if your party has the {I:token_blue_4:40:-2} token, the portal was destroyed when you used it. You cannot leave this location and the remainder of your time units will be spent here.</text>
+							<text>You enter a large, 2010 N.T. era building. Advertisements with pricing abound.  It appears to be some kind of shopping facility, likely the source of the 'future' artifacts you have encountered earlier. It seems strangely deserted except for robed acolytes. Note: if your party has the {I:token_blue_4:40:-2} token, the portal was destroyed when you used it. You cannot leave this location and the remainder of your time units will be spent here.</text>
 							<style>card_a_default</style>
 							<rectangle>[86,94,773,1350]</rectangle>
 							<order>0</order>
@@ -4146,6 +4174,23 @@
 						</image>
 					</top>
 					<bottom>
+						<image>
+							<image>greeter</image>
+							<rectangle>[300,50,345,-2]</rectangle>
+							<order>10</order>
+						</image>
+						<text>
+							<text>You step into the entry-way of the building. In front of a row of shopping carts stands a young, nervous greeter. Impressed by the fact that you have followed the trail this far he warns you to leave or suffer the consequences. {s:card_b_default_italic}"Who are you, and what are you doing here? We all live in fear since our new master, Keith, chose this location for his shopping. He dresses and talks strangely, but pays with gold coins. Come back another day, for your own sake. Everyone here is armed and will defend themselves!"{s:}</text>
+							<style>card_b_default</style>
+							<rectangle>[86,480,773,-1]</rectangle>
+							<order>0</order>
+						</text>
+						<text>
+							<text>&#x2022; {I:lock:50:-2} Two ways to handle this challenge:{n}&#x00a0;&#x00a0;&#x2022; {I:skill_agile:75:-2} 2x{I:shield:75:-2} 2x{I:shield_time:75:-2} or {n}&#x00a0;&#x00a0;&#x2022; {I:skill_combat:75:-2} 2x{I:shield:75:-2} 2x{I:shield_red_skull:75:-2}{n}&#x2022; On success take token {I:token_green_4:75:-2}.</text>
+							<style>card_b_action</style>
+							<rectangle>[86,1200,773,-1]</rectangle>
+							<order>0</order>
+						</text>
 					</bottom>
 				</card>
 				<card name="loc_hypermart_c">
@@ -4161,6 +4206,23 @@
 						</image>
 					</top>
 					<bottom>
+						<image>
+							<image>gardencenter</image>
+							<rectangle>[100,50,745,-2]</rectangle>
+							<order>10</order>
+						</image>
+						<text>
+							<text>The Garden Center. An altar boy is filling a bag with fire starter boxes. He turns towards you, laughing, {s:card_b_default_italic}"I think I'll need a bigger cart!"{s:}</text>
+							<style>card_b_default</style>
+							<rectangle>[86,900,773,-1]</rectangle>
+							<order>0</order>
+						</text>
+						<text>
+							<text>&#x2022; {I:lock:75:-2} He comes at you, brandishing a scythe:{n}&#x00a0;&#x00a0;&#x2022; {I:skill_combat:75:-2} 4x{I:shield:75:-2} 4x{I:shield_red_skull:75:-2}.</text>
+							<style>card_b_action</style>
+							<rectangle>[86,1140,773,-1]</rectangle>
+							<order>0</order>
+						</text>
 					</bottom>
 				</card>
 				<card name="loc_hypermart_d">
@@ -4176,6 +4238,23 @@
 						</image>
 					</top>
 					<bottom>
+						<image>
+							<image>electronics</image>
+							<rectangle>[200,50,545,-2]</rectangle>
+							<order>10</order>
+						</image>
+						<text>
+							<text>The Electronics Center. A hooded, robed figure is looking at the cellular telephones. Arch-henchman 'Phil', according to the name on his badge, panics when he sees you coming.  He drops the phone and prepaid cards he was looking at and starts to run away.</text>
+							<style>card_b_default</style>
+							<rectangle>[86,700,773,-1]</rectangle>
+							<order>0</order>
+						</text>
+						<text>
+							<text>&#x2022; You have two choices:{n}&#x00a0;&#x00a0;&#x2022; Chase him away: {I:skill_agile:75:-2} 4x{I:shield:75:-2}, on success take {s:card_b_action_bold}Item {in:Phil Note 2}{s:}.{n}&#x00a0;&#x00a0;&#x2022; Or attack him {I:skill_combat:75:-2} 4x{I:shield:75:-2} 4x{I:shield_red_skull:75:-2}, on success take {s:card_b_action_bold}Item {in:Phil Note 1}{s:}.</text>
+							<style>card_b_action</style>
+							<rectangle>[86,1080,773,-1]</rectangle>
+							<order>0</order>
+						</text>
 					</bottom>
 				</card>
 				<card name="loc_hypermart_e">
@@ -4191,6 +4270,23 @@
 						</image>
 					</top>
 					<bottom>
+						<image>
+							<image>hardware</image>
+							<rectangle>[100,50,745,-2]</rectangle>
+							<order>10</order>
+						</image>
+						<text>
+							<text>The Hardware Center. Paint, tools, collections of odd fasteners and tape populate this aisle. Two interrogators  have their backs turned to you, busily grabbing stuff from the shelves. The men are stocking up on nails and nail guns. One murmurs to the other {s:card_b_default_italic}"This will make our job much ... easier. They move too much when they are simply tied to the stake."{s:}</text>
+							<style>card_b_default</style>
+							<rectangle>[86,760,773,-1]</rectangle>
+							<order>0</order>
+						</text>
+						<text>
+							<text>&#x2022; You may choose to fight them:{n}&#x00a0;&#x00a0;&#x2022; {I:skill_combat:75:-2} 4x{I:shield:75:-2} 2x{I:shield_red_skull:75:-2}{n}&#x00a0;&#x00a0;&#x2022; On success take {s:card_b_action_bold}Item {in:Nail Gun}{s:}.</text>
+							<style>card_b_action</style>
+							<rectangle>[86,1280,773,-1]</rectangle>
+							<order>0</order>
+						</text>
 					</bottom>
 				</card>
 				<card name="loc_hypermart_f">
@@ -4206,6 +4302,23 @@
 						</image>
 					</top>
 					<bottom>
+						<image>
+							<image>housewares</image>
+							<rectangle>[250,50,445,-2]</rectangle>
+							<order>10</order>
+						</image>
+						<text>
+							<text> A slight man in inquisitor garb peruses the 1000 count bed linens. {s:card_b_default_italic}"The simple things can be so difficult to do without." he mutters. He stiffens, detecting your presence in the aisle, slowly turning to face you. There is a noted lack of fear in his demeanor. {s:card_b_default_italic}"I assume Bob has sent you?  Did he give you any messages for me?"{s:}  Recognizing your confusion, his disposition changes abruptly. {s:card_b_default_italic}"Ah, there is a different purpose to your visit then.  Well?"{s:}</text>
+							<style>card_b_default</style>
+							<rectangle>[86,480,773,-1]</rectangle>
+							<order>0</order>
+						</text>
+						<text>
+							<text>&#x2022; You have two choices:{n}&#x00a0;&#x00a0;&#x2022; Combat, the only way to be sure: {I:skill_combat:75:-2} 6x{I:shield_heart:75:-2} 4x{I:shield_red_skull:75:-2}, on success take {s:card_b_action_bold}Item {in:Keith Dead}{s:}.{n}&#x00a0;&#x00a0;&#x2022; Or get him to reveal his secrets {I:skill_glib:75:-2} 4x{I:shield:75:-2}, on success take {s:card_b_action_bold}Item {in:Keith Lies}{s:}.</text>
+							<style>card_b_action</style>
+							<rectangle>[86,1100,773,-1]</rectangle>
+							<order>0</order>
+						</text>
 					</bottom>
 				</card>
 				<card name="loc_hypermart_g">
@@ -4221,6 +4334,23 @@
 						</image>
 					</top>
 					<bottom>
+						<image>
+							<image>groceries</image>
+							<rectangle>[100,50,745,-2]</rectangle>
+							<order>10</order>
+						</image>
+						<text>
+							<text>The Food Center. Crates of fruits and vegetables. An altar boy is packing Avocados into a big bag. {s:card_b_default_italic}"Whatever these is, they must be the food of heavens!"{s:}, he comments to himself.</text>
+							<style>card_b_default</style>
+							<rectangle>[86,760,773,-1]</rectangle>
+							<order>0</order>
+						</text>
+						<text>
+							<text>&#x2022; You may try to steal one for yourself:{n}&#x00a0;&#x00a0;&#x2022; {I:skill_agile:75:-2} 3x{I:shield:75:-2}{n}&#x00a0;&#x00a0;&#x2022; On success increase all participants health by one {I:heart:75:-2} (it is ok to exceed the maximum health on the character card).  Note this challenge can be performed only once per run.</text>
+							<style>card_b_action</style>
+							<rectangle>[86,1050,773,-1]</rectangle>
+							<order>0</order>
+						</text>
 					</bottom>
 				</card>
 				<card name="loc_hypermart_h">
@@ -4236,6 +4366,23 @@
 						</image>
 					</top>
 					<bottom>
+						<image>
+							<image>clothing</image>
+							<rectangle>[100,50,745,-2]</rectangle>
+							<order>10</order>
+						</image>
+						<text>
+							<text>The Clothing Aisles. Bright, colourful articles of clothing on racks and shelves of varying sizes and designs. You quickly scan through the offerings until you find ... THEM!  They are a perfect fit too.</text>
+							<style>card_b_default</style>
+							<rectangle>[86,990,773,-1]</rectangle>
+							<order>0</order>
+						</text>
+						<text>
+							<text>&#x2022; Take {s:card_b_action_bold}Item {in:Shorts}{s:}.</text>
+							<style>card_b_action</style>
+							<rectangle>[86,1280,773,-1]</rectangle>
+							<order>0</order>
+						</text>
 					</bottom>
 				</card>
 			</location>
