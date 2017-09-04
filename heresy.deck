@@ -154,22 +154,56 @@
 		<file filename="heresy_media/paper1.jpg" name="paper1"/>
 		<file filename="heresy_media/paper2.png" name="paper2"/>
 		<file filename="heresy_media/plan_base.png" name="plan_base"/>
+		<file filename="heresy_media/plan_base_cat_only.png" name="plan_base_cat_only"/>
+		<file filename="heresy_media/plan_base_none.png" name="plan_base_none"/>
 		
 		<image name="plan_a">
-			<file>plan_base</file>
+			<file>plan_base_none</file>
 			<rectangle>[0,0,1535,945]</rectangle>
 		</image>
 		<image name="plan_b">
+			<file>plan_base_none</file>
+			<rectangle>[1535,0,1535,945]</rectangle>
+		</image>
+		<image name="plan_b_cat">
+			<file>plan_base_cat_only</file>
+			<rectangle>[1535,0,1535,945]</rectangle>
+		</image>
+		<image name="plan_b_lab">
 			<file>plan_base</file>
 			<rectangle>[1535,0,1535,945]</rectangle>
 		</image>
 		<image name="plan_c">
+			<file>plan_base_none</file>
+			<rectangle>[0,945,1535,945]</rectangle>
+		</image>
+		<image name="plan_c_field">
 			<file>plan_base</file>
 			<rectangle>[0,945,1535,945]</rectangle>
 		</image>
 		<image name="plan_d">
+			<file>plan_base_none</file>
+			<rectangle>[1535,945,1535,945]</rectangle>
+		</image>
+		<image name="plan_d_dungeon">
 			<file>plan_base</file>
 			<rectangle>[1535,945,1535,945]</rectangle>
+		</image>
+		<image name="plan_a_paper">
+			<file>paper1</file>
+			<rectangle>[0,0,2125,1750]</rectangle>
+		</image>
+		<image name="plan_b_paper">
+			<file>paper1</file>
+			<rectangle>[2125,0,2125,1750]</rectangle>
+		</image>
+		<image name="plan_c_paper">
+			<file>paper1</file>
+			<rectangle>[0,1750,2125,1750]</rectangle>
+		</image>
+		<image name="plan_d_paper">
+			<file>paper1</file>
+			<rectangle>[2125,1750,2125,1750]</rectangle>
 		</image>
 		
 		<image name="win_green">
@@ -1032,6 +1066,16 @@
 			<textcolor>[0, 0, 0, 255]</textcolor>
 			<typesize>12</typesize>
 			<borderthickness>1</borderthickness>
+		</style>
+		<style name="location">
+			<typeface>Arial:bold</typeface>
+			<linestyle>halo</linestyle>
+			<fillcolor>[255, 255, 255, 0]</fillcolor>
+			<bordercolor>[255, 255, 255, 200]</bordercolor>
+			<textcolor>[0, 0, 0, 255]</textcolor>
+			<typesize>12</typesize>
+			<borderthickness>1</borderthickness>
+			<justification>center</justification>
 		</style>
 		<style name="deckcardtext">
 			<typeface>Arial</typeface>
@@ -4446,12 +4490,32 @@
 					</text>
 				</top>
 				<bottom>
+					<image>
+						<image>plan_a_paper</image>
+						<rectangle>[945,0,1535,945]</rectangle>
+						<rotation>90</rotation>
+						<order>9</order>
+					</image>
 					<image name="plan_a">
 						<image>plan_a</image>
 						<rectangle>[945,0,-1,-1]</rectangle>
 						<rotation>90</rotation>
 						<order>10</order>
 					</image>
+					<text>
+						<text>Inn</text>
+						<rectangle>[300,300,-1,-1]</rectangle>
+						<rotation>90</rotation>
+						<style>location</style>
+						<order>11</order>
+					</text>
+					<text>
+						<text>Path to Town</text>
+						<rectangle>[750,25,-1,-1]</rectangle>
+						<rotation>90</rotation>
+						<style>location</style>
+						<order>11</order>
+					</text>
 				</bottom>
 			</card>
 			<card name="Plan B">
@@ -4471,12 +4535,25 @@
 					</text>
 				</top>
 				<bottom>
+					<image>
+						<image>plan_b_paper</image>
+						<rectangle>[945,0,1535,945]</rectangle>
+						<rotation>90</rotation>
+						<order>9</order>
+					</image>
 					<image name="plan_b">
 						<image>plan_b</image>
 						<rectangle>[945,0,-1,-1]</rectangle>
 						<rotation>90</rotation>
 						<order>10</order>
 					</image>
+					<text>
+						<text>Chapel</text>
+						<rectangle>[600,200,-1,-1]</rectangle>
+						<rotation>90</rotation>
+						<style>location</style>
+						<order>11</order>
+					</text>
 				</bottom>
 			</card>
 			<card name="Plan C">
@@ -4496,12 +4573,25 @@
 					</text>
 				</top>
 				<bottom>
+					<image>
+						<image>plan_c_paper</image>
+						<rectangle>[945,0,1535,945]</rectangle>
+						<rotation>90</rotation>
+						<order>9</order>
+					</image>
 					<image name="plan_c">
 						<image>plan_c</image>
 						<rectangle>[945,0,-1,-1]</rectangle>
 						<rotation>90</rotation>
 						<order>10</order>
 					</image>
+					<text>
+						<text>Graveyard</text>
+						<rectangle>[550,275,-1,-1]</rectangle>
+						<rotation>90</rotation>
+						<style>location</style>
+						<order>11</order>
+					</text>
 				</bottom>
 			</card>
 			<card name="Plan D">
@@ -4521,12 +4611,25 @@
 					</text>
 				</top>
 				<bottom>
+					<image>
+						<image>plan_d_paper</image>
+						<rectangle>[945,0,1535,945]</rectangle>
+						<rotation>90</rotation>
+						<order>9</order>
+					</image>
 					<image name="plan_d">
 						<image>plan_d</image>
 						<rectangle>[945,0,-1,-1]</rectangle>
 						<rotation>90</rotation>
 						<order>10</order>
 					</image>
+					<text>
+						<text>Courthouse</text>
+						<rectangle>[680,210,-1,-1]</rectangle>
+						<rotation>90</rotation>
+						<style>location</style>
+						<order>11</order>
+					</text>
 				</bottom>
 			</card>
 		</plan>
@@ -5463,24 +5566,135 @@
 				<top>
 				</top>
 				<bottom>
+					<image>
+						<image>plan_c_paper</image>
+						<rectangle>[945,0,1535,945]</rectangle>
+						<rotation>90</rotation>
+						<order>9</order>
+					</image>
+					<image name="plan_c_field">
+						<image>plan_c_field</image>
+						<rectangle>[945,0,-1,-1]</rectangle>
+						<rotation>90</rotation>
+						<order>10</order>
+					</image>
+					<text>
+						<text>Graveyard</text>
+						<rectangle>[550,275,-1,-1]</rectangle>
+						<rotation>90</rotation>
+						<style>location</style>
+						<order>11</order>
+					</text>
+					<text>
+						<text>Field</text>
+						<rectangle>[350,1050,-1,-1]</rectangle>
+						<rotation>90</rotation>
+						<style>location</style>
+						<order>11</order>
+					</text>
 				</bottom>
 			</card>  
 			<card name="Plan Add Dungeon">
 				<top>
 				</top>
 				<bottom>
+					<image>
+						<image>plan_d_paper</image>
+						<rectangle>[945,0,1535,945]</rectangle>
+						<rotation>90</rotation>
+						<order>9</order>
+					</image>
+					<image name="plan_d_dungeon">
+						<image>plan_d_dungeon</image>
+						<rectangle>[945,0,-1,-1]</rectangle>
+						<rotation>90</rotation>
+						<order>10</order>
+					</image>
+					<text>
+						<text>Courthouse</text>
+						<rectangle>[680,210,-1,-1]</rectangle>
+						<rotation>90</rotation>
+						<style>location</style>
+						<order>11</order>
+					</text>
+					<text>
+						<text>Dungeon</text>
+						<rectangle>[520,660,-1,-1]</rectangle>
+						<rotation>90</rotation>
+						<style>location</style>
+						<order>11</order>
+					</text>
 				</bottom>
 			</card>
 			<card name="Plan Add Catacombs">
 				<top>
 				</top>
 				<bottom>
+					<image>
+						<image>plan_b_paper</image>
+						<rectangle>[945,0,1535,945]</rectangle>
+						<rotation>90</rotation>
+						<order>9</order>
+					</image>
+					<image name="plan_b_cat">
+						<image>plan_b_cat</image>
+						<rectangle>[945,0,-1,-1]</rectangle>
+						<rotation>90</rotation>
+						<order>10</order>
+					</image>
+					<text>
+						<text>Chapel</text>
+						<rectangle>[600,200,-1,-1]</rectangle>
+						<rotation>90</rotation>
+						<style>location</style>
+						<order>11</order>
+					</text>
+					<text>
+						<text>Catacombs I</text>
+						<rectangle>[760,660,-1,-1]</rectangle>
+						<rotation>90</rotation>
+						<style>location</style>
+						<order>11</order>
+					</text>
 				</bottom>
 			</card> 
 			<card name="Plan Add Laboratory">
 				<top>
 				</top>
 				<bottom>
+					<image>
+						<image>plan_b_paper</image>
+						<rectangle>[945,0,1535,945]</rectangle>
+						<rotation>90</rotation>
+						<order>9</order>
+					</image>
+					<image name="plan_b_lab">
+						<image>plan_b_lab</image>
+						<rectangle>[945,0,-1,-1]</rectangle>
+						<rotation>90</rotation>
+						<order>10</order>
+					</image>
+					<text>
+						<text>Chapel</text>
+						<rectangle>[600,200,-1,-1]</rectangle>
+						<rotation>90</rotation>
+						<style>location</style>
+						<order>11</order>
+					</text>
+					<text>
+						<text>Catacombs I</text>
+						<rectangle>[760,660,-1,-1]</rectangle>
+						<rotation>90</rotation>
+						<style>location</style>
+						<order>11</order>
+					</text>
+					<text>
+						<text>Laboratory</text>
+						<rectangle>[380,700,-1,-1]</rectangle>
+						<rotation>90</rotation>
+						<style>location</style>
+						<order>11</order>
+					</text>
 				</bottom>
 			</card>  
 			
