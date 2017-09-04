@@ -151,6 +151,26 @@
 		<file filename="heresy_media/cat_IV.png" name="cat4"/>
 
 		<file filename="heresy_media/iron_door.jpg" name="iron_door"/>		
+		<file filename="heresy_media/paper1.jpg" name="paper1"/>
+		<file filename="heresy_media/paper2.png" name="paper2"/>
+		<file filename="heresy_media/plan_base.png" name="plan_base"/>
+		
+		<image name="plan_a">
+			<file>plan_base</file>
+			<rectangle>[0,0,1535,945]</rectangle>
+		</image>
+		<image name="plan_b">
+			<file>plan_base</file>
+			<rectangle>[1535,0,1535,945]</rectangle>
+		</image>
+		<image name="plan_c">
+			<file>plan_base</file>
+			<rectangle>[0,945,1535,945]</rectangle>
+		</image>
+		<image name="plan_d">
+			<file>plan_base</file>
+			<rectangle>[1535,945,1535,945]</rectangle>
+		</image>
 		
 		<image name="win_green">
 			<file>TS_ Missions_V_EN</file>
@@ -261,8 +281,11 @@
 		</image>  
 		<image name="!">
 			<file>TS_CreaPack_Icon_-PE-</file>
-		</image>  
-
+		</image> 
+		<image name="red_skull">
+			<file>TS_CreaPack_Icon_-CR-</file>
+		</image>
+		
 		<image name="skill_combat">
 			<file>TS_CreaPack_Icon_-CC-</file>
 		</image> 
@@ -994,6 +1017,12 @@
 			<file>iron_door</file>
 			<rectangle>[57,18,957,1500]</rectangle>
 		</image>
+		<image name="paper1">
+			<file>paper1</file>
+		</image>
+		<image name="paper2">
+			<file>paper2</file>
+		</image>
 		
 		<style name="default">
 			<typeface>Arial</typeface>
@@ -1120,6 +1149,16 @@
 			<bordercolor>[0, 0, 0, 0]</bordercolor>
 			<textcolor>[0, 0, 0, 255]</textcolor>
 			<typesize>10</typesize>
+			<borderthickness>1</borderthickness>
+			<justification>full</justification>
+		</style>
+		<style name="normal_black_full_smaller">
+			<typeface>Arial</typeface>
+			<linestyle>solid</linestyle>
+			<fillcolor>[255, 255, 255, 0]</fillcolor>
+			<bordercolor>[0, 0, 0, 0]</bordercolor>
+			<textcolor>[0, 0, 0, 255]</textcolor>
+			<typesize>9</typesize>
 			<borderthickness>1</borderthickness>
 			<justification>full</justification>
 		</style>
@@ -1645,7 +1684,7 @@
 						<order>10</order>
 					</image>
 					<text name="copyright">
-						<text>&#x00A9; 2017 Marina Galvagni and Randy Frank{n}Artwork by Rizky Nugraha and Philippe Semeria</text>
+						<text>&#x00A9; 2017 Marina Galvagni and Randy Frank{n}Artwork by Rizky Nugraha and Philippe Semeria{n}Some textures from www.myfreetextures.com</text>
 						<style>copyright</style>
 						<rectangle>[50,1300,845,-1]</rectangle>
 						<rotation>0</rotation>
@@ -4246,13 +4285,13 @@
 						<text>
 							<text>The Electronics Center. A hooded, robed figure is looking at the cellular telephones. Arch-henchman 'Phil', according to the name on his badge, panics when he sees you coming.  He drops the phone and prepaid cards he was looking at and starts to run away.</text>
 							<style>card_b_default</style>
-							<rectangle>[86,700,773,-1]</rectangle>
+							<rectangle>[86,670,773,-1]</rectangle>
 							<order>0</order>
 						</text>
 						<text>
-							<text>&#x2022; You have two choices:{n}&#x00a0;&#x00a0;&#x2022; Chase him away: {I:skill_agile:75:-2} 4x{I:shield:75:-2}, on success take {s:card_b_action_bold}Item {in:Phil Note 2}{s:}.{n}&#x00a0;&#x00a0;&#x2022; Or attack him {I:skill_combat:75:-2} 4x{I:shield:75:-2} 4x{I:shield_red_skull:75:-2}, on success take {s:card_b_action_bold}Item {in:Phil Note 1}{s:}.</text>
+							<text>&#x2022; You have three choices:{n}&#x00a0;&#x00a0;&#x2022; Chase him away: {I:skill_agile:75:-2} 4x{I:shield:75:-2}, on success take {s:card_b_action_bold}Item {in:Phil Note 2}{s:}.{n}&#x00a0;&#x00a0;&#x2022; Attack him {I:skill_combat:75:-2} 4x{I:shield:75:-2} 4x{I:shield_red_skull:75:-2}, on success take {s:card_b_action_bold}Item {in:Phil Note 1}{s:}{n}&#x00a0;&#x00a0;&#x2022; Let him run away.  No matter what you choose, Phil will not be here if you come back to this card in this run.</text>
 							<style>card_b_action</style>
-							<rectangle>[86,1080,773,-1]</rectangle>
+							<rectangle>[86,1030,773,-1]</rectangle>
 							<order>0</order>
 						</text>
 					</bottom>
@@ -4407,6 +4446,12 @@
 					</text>
 				</top>
 				<bottom>
+					<image name="plan_a">
+						<image>plan_a</image>
+						<rectangle>[945,0,-1,-1]</rectangle>
+						<rotation>90</rotation>
+						<order>10</order>
+					</image>
 				</bottom>
 			</card>
 			<card name="Plan B">
@@ -4426,6 +4471,12 @@
 					</text>
 				</top>
 				<bottom>
+					<image name="plan_b">
+						<image>plan_b</image>
+						<rectangle>[945,0,-1,-1]</rectangle>
+						<rotation>90</rotation>
+						<order>10</order>
+					</image>
 				</bottom>
 			</card>
 			<card name="Plan C">
@@ -4445,6 +4496,12 @@
 					</text>
 				</top>
 				<bottom>
+					<image name="plan_c">
+						<image>plan_c</image>
+						<rectangle>[945,0,-1,-1]</rectangle>
+						<rotation>90</rotation>
+						<order>10</order>
+					</image>
 				</bottom>
 			</card>
 			<card name="Plan D">
@@ -4464,6 +4521,12 @@
 					</text>
 				</top>
 				<bottom>
+					<image name="plan_d">
+						<image>plan_d</image>
+						<rectangle>[945,0,-1,-1]</rectangle>
+						<rotation>90</rotation>
+						<order>10</order>
+					</image>
 				</bottom>
 			</card>
 		</plan>
@@ -4963,24 +5026,74 @@
 				<top>
 				</top>
 				<bottom>
+					<text>
+						<text>Phil's body lies in a heap on the ground. Blood begats blood begats blood begats blood... the cycle continues. If you do not already have them, take {s:card_b_action_bold}Item {in:Phil Note 2}{s:} and token {I:token_blue_3:100:-2}.</text>
+						<style>card_b_action</style>
+						<rectangle>[86,50,773,-1]</rectangle>
+						<order>0</order>
+					</text>
 				</bottom>
 			</card> 
 			<card name="Phil Note 2">
 				<top>
 				</top>
 				<bottom>
+					<image>
+						<image>paper2</image>
+						<rectangle>[20,20,905,-2]</rectangle>
+						<order>10</order>
+					</image>
+					<text>
+						<text>Phil,{n}{n}We are making a lot of progress now, but all this jumping back and forth in time is wearing on me a bit. I need you to be able to run some of the time errands for me while I deal with collecting more souls.  Here are the basic instructions on how to use the portal.  Familiarize yourself with the controls and let me know when you are ready to use the device solo. Just a few more trips and I think we might even be able to get Bob off our backs.{n}{n}Keith.</text>
+						<style>normal_black_full_smaller</style>
+						<rectangle>[150,150,645,-1]</rectangle>
+						<order>11</order>
+					</text>
 				</bottom>
 			</card>    
 			<card name="Keith Dead">
 				<top>
 				</top>
 				<bottom>
+					<text>
+						<text>{s:card_b_default_italic}"You only see what you want to believe, when you creep from the back I got tricks up my sleeve..."{s:}, you overhear the last whispers of a dying man before he expires. Rifling through the dead man's pockets you find a T.I.M.E Agents ID. Opening it slowly reveals the photo of the dead man and the name 'Keith Fitzgerald, T.I.M.E Agent Second Class'. So this is the elusive, rogue agent you have been struggling so fervently to apprehend.  It appears this mission has reached its conclusion. If you have the token {I:token_blue_3:100:-2}, take the card</text>
+						<style>card_b_default</style>
+						<rectangle>[86,50,773,-1]</rectangle>
+						<order>0</order>
+					</text>
+					<image>
+						<image>win_green</image>
+						<rectangle>[100,850,200,-2]</rectangle>
+						<order>10</order>
+					</image>
+					<image>
+						<image>token_blue_4</image>
+						<rectangle>[180,1100,40,-2]</rectangle>
+						<order>11</order>
+					</image>
+					<text>
+						<text>otherwise take</text>
+						<style>card_b_default</style>
+						<rectangle>[330,900,290,-1]</rectangle>
+						<order>0</order>
+					</text>
+					<image>
+						<image>win_green</image>
+						<rectangle>[650,850,200,-2]</rectangle>
+						<order>10</order>
+					</image>					
 				</bottom>
 			</card>    
 			<card name="Keith Lies">
 				<top>
 				</top>
 				<bottom>
+					<text>
+						<text>A nuanced verbal exchange ensues.  It quickly becomes obvious that he is a T.I.M.E Agent as well. "Agent Smith", he relates.  Shaking your hands,  {s:card_b_default_italic}"I have been tracking Keith as well. It looks like you came just in time to help me put a stop to his plans. He has been wreaking havoc with the lines of time. It is only a matter of time before he irreparably alters our timeline. I believe the man in the Electronics section is Keith himself. Why don't you head over there and confront him?  I will join you shortly."{s:} </text>
+						<style>card_b_default</style>
+						<rectangle>[86,50,773,-1]</rectangle>
+						<order>0</order>
+					</text>
 				</bottom>
 			</card>    
 			<card name="Shorts">
@@ -4989,9 +5102,21 @@
 				<bottom>
 					<image>
 						<image>shorts</image>
-						<rectangle>[100,100,745,-2]</rectangle>
+						<rectangle>[100,280,745,-2]</rectangle>
 						<order>10</order>
 					</image>
+					<text>
+						<text>The infamous "Daisy" shorts</text>
+						<style>large_black</style>
+						<rectangle>[86,50,773,-1]</rectangle>
+						<order>0</order>
+					</text>
+					<text>
+						<text>If you wear them in combat, they distracts the adversary.  Take one less {I:red_skull:75:-2} from any combat rolls where one appears.</text>
+						<style>card_b_default</style>
+						<rectangle>[86,900,773,-1]</rectangle>
+						<order>0</order>
+					</text>
 				</bottom>
 			</card>
 			
