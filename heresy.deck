@@ -156,6 +156,7 @@
 		<file filename="heresy_media/plan_base.png" name="plan_base"/>
 		<file filename="heresy_media/plan_base_cat_only.png" name="plan_base_cat_only"/>
 		<file filename="heresy_media/plan_base_none.png" name="plan_base_none"/>
+		<file filename="heresy_media/combo_lock.png" name="combolock"/>
 		
 		<image name="plan_a">
 			<file>plan_base_none</file>
@@ -205,7 +206,10 @@
 			<file>paper1</file>
 			<rectangle>[2125,1750,2125,1750]</rectangle>
 		</image>
-		
+
+		<image name="combolock">
+			<file>combolock</file>
+		</image>		
 		<image name="win_green">
 			<file>TS_ Missions_V_EN</file>
 		</image>
@@ -1950,6 +1954,17 @@
 					</image>
 				</top>
 				<bottom>
+					<image>
+						<image>bob</image>
+						<rectangle>[200,50,545,-2]</rectangle>
+						<order>10</order>
+					</image>
+					<text>
+						<text>A happy but reserved Bob is waiting for you as you exit the caissons. Things seem fine, but was Bob wearing that "bishop" garb when we left?  And what where did that inquisition logo come from? {s:card_b_default_italic}"Welcome back, the rift has been successfully closed, Keith has been stopped and time once again flows undisturbed. To tell the truth, I struggled with sending you.  I mean to have to deal with a man as influential as Keith, I sort of felt like Pilate. But I knew I could count on you to put things right! I'm sure we will have more tasks for you, but first let's get you out of those old outfits and into something a bit more appropriate. "{s:} He gestures to fresh uniforms in the corner, topped with glowing soul medallions...{n}{n}Congratulations for a job well done! ... ?</text>
+						<style>card_b_default</style>
+						<rectangle>[86,520,773,-1]</rectangle>
+						<order>0</order>
+					</text>
 				</bottom>
 			</card>			
 			<card name="Win: Keith dead, Machine destroyed">
@@ -1967,6 +1982,17 @@
 					</image>
 				</top>
 				<bottom>
+					<image>
+						<image>bob</image>
+						<rectangle>[200,50,545,-2]</rectangle>
+						<order>10</order>
+					</image>
+					<text>
+						<text>You are greeted by Bob's smiling face as you exit the caissons. News of your skillful handling of a tricky situation must have proceeded you. {s:card_b_default_italic}"Congratulations, the rift is closed and Keith’s plans have been thwarted. I do hope his impact on the timelines has been minimized.  Please continue into the next room and Laura will debrief you. I know you were hoping for some time off, but I have another issue that needs your attention.  Laura is waiting in the next room..."{s:} Ain't no rest for the weary, not in this time anyway.{n}{n}Congratulations for a job well done!</text>
+						<style>card_b_default</style>
+						<rectangle>[86,520,773,-1]</rectangle>
+						<order>0</order>
+					</text>
 				</bottom>
 			</card>	
 			<card name="Out of Time 1">
@@ -1979,6 +2005,23 @@
 					</image>
 				</top>
 				<bottom>
+					<image>
+						<image>pods</image>
+						<rectangle>[300,50,345,-2]</rectangle>
+						<order>10</order>
+					</image>
+					<text>
+						<text>Bob is there as as you climb out of the caissons. He is not smiling.  {s:card_b_default_italic}"I expect the best from my agents and you are making me reconsider my recommendations"{s:}, he laments.  {s:card_b_default_italic}"We still have a chance to stop Keith, but our window is narrowing, so get back in there and track him down, quickly."{s:} You respond quickly and get back into the caissons and the all too familiar countdown begins...</text>
+						<style>card_b_default</style>
+						<rectangle>[86,430,773,-1]</rectangle>
+						<order>0</order>
+					</text>
+					<text>
+						<text>Leave in place all items marked {I:blue_logo:75:-2} but reset the rest of the game, returning other items to the desk along with all random encounter cards. Reread cards E and F of the {s:card_b_action_bold}Base{s:} location and follow the instructions. Two more things:{n}&#x2022; Take token {I:token_black_1:75:-2}.{n}&#x2022; You may start from any location listed on the visible plan cards.</text>
+						<style>card_b_action</style>
+						<rectangle>[86,970,773,-1]</rectangle>
+						<order>0</order>
+					</text>
 				</bottom>
 			</card>
 			<card name="Out of Time 2">
@@ -1996,6 +2039,23 @@
 					</image>
 				</top>
 				<bottom>
+					<image>
+						<image>laura</image>
+						<rectangle>[300,50,345,-2]</rectangle>
+						<order>10</order>
+					</image>
+					<text>
+						<text>Laura greets you in a sullen voice, {s:card_b_default_italic}"Bob has been acting strangely in your absence. I think he is considering a new team, but I fear you may be our last hope."{s:} Bob stamps into the room, anger obvious in his face, but what was that, a sneer and is that a soul medallion tucked under his shirt? {s:card_b_default_italic}"There is no time to talk, you have to get back to it and now! Let's get it done this time and close that rift."{s:} You avoid his gaze and climb back into the caissons as Laura counts down...</text>
+						<style>card_b_default</style>
+						<rectangle>[86,310,773,-1]</rectangle>
+						<order>0</order>
+					</text>
+					<text>
+						<text>Leave in place all items marked {I:blue_logo:75:-2} but reset the rest of the game, returning other items to the desk along with all random encounter cards. Reread cards E and F of the {s:card_b_action_bold}Base{s:} location and follow the instructions. Three more things:{n}&#x2022; Take token {I:token_black_1:75:-2}.{n}&#x2022; You may start from any location listed on the visible plan cards.{n}&#x2022; Increase the starting TU to 35.</text>
+						<style>card_b_action</style>
+						<rectangle>[86,920,773,-1]</rectangle>
+						<order>0</order>
+					</text>
 				</bottom>
 			</card>	
 			
@@ -5283,35 +5343,77 @@
 				<top>
 				</top>
 				<bottom>
+					<text>
+						<text>{cs:}</text>
+						<style>small_white_box_red</style>
+						<rectangle>[86,50,773,-1]</rectangle>
+						<order>0</order>
+					</text>
 				</bottom>
 			</card>  
 			<card name="Stained Glass B">
 				<top>
 				</top>
 				<bottom>
+					<text>
+						<text>{cs:}</text>
+						<style>small_white_box_red</style>
+						<rectangle>[86,50,773,-1]</rectangle>
+						<order>0</order>
+					</text>
 				</bottom>
 			</card>  
 			<card name="Stained Glass C">
 				<top>
 				</top>
 				<bottom>
+					<text>
+						<text>{cs:}</text>
+						<style>small_white_box_red</style>
+						<rectangle>[86,50,773,-1]</rectangle>
+						<order>0</order>
+					</text>
 				</bottom>
 			</card>  
 			<card name="Stained Glass D">
 				<top>
 				</top>
 				<bottom>
+					<text>
+						<text>{cs:}</text>
+						<style>small_white_box_red</style>
+						<rectangle>[86,50,773,-1]</rectangle>
+						<order>0</order>
+					</text>
 				</bottom>
 			</card>  
 			<card name="Glass Puzzle Solution">
 				<top>
 				</top>
 				<bottom>
+					<text>
+						<text>If you acquired this card as a result of solving the Stand Glass puzzle, continue on reading this card.  If not, please consider placing this card back into the deck for the full game experience.</text>
+						<style>small_white_box_red</style>
+						<rectangle>[86,50,773,-1]</rectangle>
+						<order>0</order>
+					</text>
 					<image>
-						<image>token_pink_1</image>
-						<rectangle>[100,100,-1,-1]</rectangle>
+						<image>combolock</image>
+						<rectangle>[200,330,545,-2]</rectangle>
 						<order>10</order>
 					</image>
+					<text>
+						<text>Carefully you tilt the combined glass panes into the light. Interesting, a series of numbers appear...  33-21-14-27  These look like the combination to a lock.  Not the type of lock that should be available in this century!  Perhaps this is the key to unraveling the mystery?</text>
+						<style>card_b_default</style>
+						<rectangle>[86,900,773,-1]</rectangle>
+						<order>0</order>
+					</text>
+					<text>
+						<text>&#x2022; Take token {I:token_pink_1:75:-2}.</text>
+						<style>card_b_action</style>
+						<rectangle>[86,1270,773,-1]</rectangle>
+						<order>0</order>
+					</text>
 				</bottom>
 			</card>  
 
