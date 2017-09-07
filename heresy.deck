@@ -1785,6 +1785,18 @@
 						<rotation>0</rotation>
 						<order>0</order>
 					</text>
+					<text>
+						<text>A lone guard bearing the inquisitor's mark sees you and begins to sound an alarm.  Before he can complete it, you surround him. With a shout of {s:card_b_default_italic}"For Keith!"{s:}, he makes it obvious that this is a fight to the death.</text>
+						<style>card_b_default</style>
+						<rectangle>[86,340,773,-1]</rectangle>
+						<order>0</order>
+					</text>
+					<text>
+						<text>&#x2022; {I:lock:75:-2} A fight ensues{n}&#xA0;&#xA0; {I:skill_combat:75:-2} 4x{I:shield:75:-2} 2x{I:shield_red_skull:75:-2}{n}&#xA0;&#xA0;On success you may leave this card.</text>
+						<style>card_b_action</style>
+						<rectangle>[86,680,773,-1]</rectangle>
+						<order>0</order>
+					</text>
 				</bottom>
 			</card>
 			<card name="Charlotte's Nightmare Web">
@@ -1809,6 +1821,18 @@
 						<style>large_black</style>
 						<rectangle>[100,100,745,-1]</rectangle>
 						<rotation>0</rotation>
+						<order>0</order>
+					</text>
+					<text>
+						<text>Your party runs into an enormous spider web.  Thank goodness its matron is nowhere to be seen, but your party must hack and slash its way out of the sticky mess... and quickly, lest she returns before you are free.</text>
+						<style>card_b_default</style>
+						<rectangle>[86,340,773,-1]</rectangle>
+						<order>0</order>
+					</text>
+					<text>
+						<text>&#x2022; {I:lock:75:-2} You hack your way out of the web{n}&#xA0;&#xA0; {I:skill_combat:75:-2} 5x{I:shield:75:-2} 2x{I:shield_time:75:-2}{n}&#xA0;&#xA0;On success you may leave this card.</text>
+						<style>card_b_action</style>
+						<rectangle>[86,680,773,-1]</rectangle>
 						<order>0</order>
 					</text>
 				</bottom>
@@ -1837,6 +1861,18 @@
 						<rotation>0</rotation>
 						<order>0</order>
 					</text>
+					<text>
+						<text>The spectral apparition of an old woman emerges from the mist at the floor. Cold vapor tendrils reach out to your party.  She is warning you not to proceed further. The tendrils send a literal chill up the spines of your party members. How can you combat an ethereal soul?  Perhaps she will listen to reason? </text>
+						<style>card_b_default</style>
+						<rectangle>[86,250,773,-1]</rectangle>
+						<order>0</order>
+					</text>
+					<text>
+						<text>&#x2022; {I:lock:75:-2} You talk your way out of this one.  The spirit is definitely female.{n}&#xA0;&#xA0; {I:skill_glib:75:-2} 4x{I:shield:75:-2} 2x{I:shield_heart:75:-2}{n}&#xA0;&#xA0;On success you may leave this card.</text>
+						<style>card_b_action</style>
+						<rectangle>[86,680,773,-1]</rectangle>
+						<order>0</order>
+					</text>
 				</bottom>
 			</card>
 			<card name="Company of Henchmen">
@@ -1861,6 +1897,18 @@
 						<style>large_black</style>
 						<rectangle>[100,100,745,-1]</rectangle>
 						<rotation>0</rotation>
+						<order>0</order>
+					</text>
+					<text>
+						<text>A dozen heavily armed men run up to you asking if you have see an escaped witch. You need to point them in another direction quickly before they have a chance to size up your party and start asking questions. Take advantage of their sense of urgency and send them off in another direction.</text>
+						<style>card_b_default</style>
+						<rectangle>[86,340,773,-1]</rectangle>
+						<order>0</order>
+					</text>
+					<text>
+						<text>&#x2022; {I:lock:75:-2} Talk them out of asking more questions.{n}&#xA0;&#xA0; {I:skill_glib:75:-2} 5x{I:shield:75:-2} 2x{I:shield_time:75:-2}{n}&#xA0;&#xA0;On success you may leave this card.</text>
+						<style>card_b_action</style>
+						<rectangle>[86,760,773,-1]</rectangle>
 						<order>0</order>
 					</text>
 				</bottom>
@@ -1889,6 +1937,18 @@
 						<rotation>0</rotation>
 						<order>0</order>
 					</text>
+					<text>
+						<text>Click... uh oh.  A split second later a dart shoot across the room, nearly missing your party.  You've stumbled into a blow dart trap. Who knows just what panel or floor tile will trigger the next dart!! Keep you wits about you, move with caution and celerity to make your way out of the room. </text>
+						<style>card_b_default</style>
+						<rectangle>[86,340,773,-1]</rectangle>
+						<order>0</order>
+					</text>
+					<text>
+						<text>&#x2022; {I:lock:75:-2} Step lively and make it quick.{n}&#xA0;&#xA0; {I:skill_agile:75:-2} 5x{I:shield:75:-2} 2x{I:shield_time:75:-2}{n}&#xA0;&#xA0;On success you may leave this card.</text>
+						<style>card_b_action</style>
+						<rectangle>[86,760,773,-1]</rectangle>
+						<order>0</order>
+					</text>
 				</bottom>
 			</card>
 			<card name="Rolling Thunder">
@@ -1915,6 +1975,18 @@
 						<rotation>0</rotation>
 						<order>0</order>
 					</text>
+					<text>
+						<text>What's that rumble?  Vibrations in the walls? Argh, we're about to be crushed by a giant rolling rock... And me without my whip! Move fast and get out of the way.</text>
+						<style>card_b_default</style>
+						<rectangle>[86,250,773,-1]</rectangle>
+						<order>0</order>
+					</text>
+					<text>
+						<text>&#x2022; {I:lock:75:-2} This one you have seen before.{n}&#xA0;&#xA0; {I:skill_agile:75:-2} 5x{I:shield:75:-2} 2x{I:shield_time:75:-2}{n}&#xA0;&#xA0;On success you may leave this card.</text>
+						<style>card_b_action</style>
+						<rectangle>[86,550,773,-1]</rectangle>
+						<order>0</order>
+					</text>
 				</bottom>
 			</card>
 			<card name="Weeping Mother">
@@ -1939,6 +2011,18 @@
 						<style>large_black</style>
 						<rectangle>[100,100,745,-1]</rectangle>
 						<rotation>0</rotation>
+						<order>0</order>
+					</text>
+					<text>
+						<text>A woman in weeping loudly and walking towards you. When you are closer, she asks you {s:card_b_default_italic}"My daughter, have you seen my daughter Maria? They took her! I followed them up to here, but then I lost them... Did you see my daughter?"{s:} She grabs your sleeves and does not let you go.</text>
+						<style>card_b_default</style>
+						<rectangle>[86,250,773,-1]</rectangle>
+						<order>0</order>
+					</text>
+					<text>
+						<text>&#x2022; {I:lock:75:-2} It takes time to soothe a grieving mother.{n}&#xA0;&#xA0; {I:skill_agile:75:-2} 5x{I:shield:75:-2} 2x{I:shield_time:75:-2}{n}&#xA0;&#xA0;On success you may leave this card.</text>
+						<style>card_b_action</style>
+						<rectangle>[86,680,773,-1]</rectangle>
 						<order>0</order>
 					</text>
 				</bottom>
@@ -5333,9 +5417,100 @@
 				<bottom>
 					<image>
 						<image>golem</image>
-						<rectangle>[100,100,-2,-1]</rectangle>
+						<rectangle>[30,50,300,-2]</rectangle>
 						<order>10</order>
 					</image>
+					<text>
+						<text>The Golem</text>
+						<style>large_black_left</style>
+						<rectangle>[350,50,575,-1]</rectangle>
+						<order>10</order>
+					</text>
+					<text>
+						<text>You have created...life?? You place all of the collected body parts together and breathed life into the beast.  It rises and speaks in deep, broken voice: {s:card_b_default_italic}"You gave me life, I give you my loyality. I am at your service my master."{s:} The golem always follows one character around and can participate in challenges. It cannot be healed and cannot use any items.</text>
+						<style>card_b_default</style>
+						<rectangle>[350,130,575,-1]</rectangle>
+						<order>10</order>
+					</text>
+					<text>
+						<text>The golem attributes are based on the number of body parts in the party's possession when it was built. Once created, additional body parts cannot be added to the golem, nor may a second golem be constructed in this run. Items {s:card_b_action_bold}{in:Right Arm}{s:}, {s:card_b_action_bold}{in:Left Arm}{s:}, {s:card_b_action_bold}{in:Right Leg}{s:} and {s:card_b_action_bold}{in:Left Leg}{s:} count as body parts. If less than 2 body parts were used, the golem cannot leave this card.</text>
+						<style>card_b_action</style>
+						<rectangle>[86,800,773,-1]</rectangle>
+						<order>0</order>
+					</text>
+					<image>
+						<image>skill_agile</image>
+						<rectangle>[50,1280,130,-2]</rectangle>
+						<order>10</order>
+					</image>
+					<text>
+						<text>1</text>
+						<style>small_white_box</style>
+						<rectangle>[50,1280,25,-1]</rectangle>
+						<order>11</order>
+					</text>
+					<image>
+						<image>skill_glib</image>
+						<rectangle>[200,1280,130,-2]</rectangle>
+						<order>10</order>
+					</image>
+					<text>
+						<text>0</text>
+						<style>small_white_box</style>
+						<rectangle>[200,1280,25,-1]</rectangle>
+						<order>11</order>
+					</text>
+					<image>
+						<image>skill_combat</image>
+						<rectangle>[350,1280,130,-2]</rectangle>
+						<order>10</order>
+					</image>
+					<text>
+						<text>*</text>
+						<style>small_white_box</style>
+						<rectangle>[350,1280,25,-1]</rectangle>
+						<order>11</order>
+					</text>
+					<text>
+						<text>2 parts:1{n}3 parts:2{n}4 parts:3</text>
+						<style>small_white_box</style>
+						<rectangle>[350,1400,130,-1]</rectangle>
+						<order>11</order>
+					</text>
+					<image>
+						<image>shield_blue_skull</image>
+						<rectangle>[615,1280,130,-2]</rectangle>
+						<order>10</order>
+					</image>
+					<text>
+						<text>*</text>
+						<style>small_white_box</style>
+						<rectangle>[615,1280,25,-1]</rectangle>
+						<order>11</order>
+					</text>
+					<text>
+						<text>2 parts:2{n}3 parts:2{n}4 parts:3</text>
+						<style>small_white_box</style>
+						<rectangle>[615,1400,130,-1]</rectangle>
+						<order>11</order>
+					</text>
+					<image>
+						<image>heart</image>
+						<rectangle>[765,1280,130,-2]</rectangle>
+						<order>10</order>
+					</image>
+					<text>
+						<text>*</text>
+						<style>small_white_box</style>
+						<rectangle>[765,1280,25,-1]</rectangle>
+						<order>11</order>
+					</text>
+					<text>
+						<text>2 parts:2{n}3 parts:3{n}4 parts:3</text>
+						<style>small_white_box</style>
+						<rectangle>[765,1400,130,-1]</rectangle>
+						<order>11</order>
+					</text>
 				</bottom>
 			</card>
 			
