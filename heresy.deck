@@ -158,6 +158,24 @@
 		<file filename="heresy_media/plan_base_none.png" name="plan_base_none"/>
 		<file filename="heresy_media/combo_lock.png" name="combolock"/>
 		
+		<file filename="heresy_media/glass_puzzle_A.png" name="glass_puzzle_A"/>
+		<file filename="heresy_media/glass_puzzle_B.png" name="glass_puzzle_B"/>
+		<file filename="heresy_media/glass_puzzle_C.png" name="glass_puzzle_C"/>
+		<file filename="heresy_media/glass_puzzle_D.png" name="glass_puzzle_D"/>	
+
+		<image name="glass_puzzle_A">
+			<file>glass_puzzle_A</file>
+		</image>
+		<image name="glass_puzzle_B">
+			<file>glass_puzzle_B</file>
+		</image>
+		<image name="glass_puzzle_C">
+			<file>glass_puzzle_C</file>
+		</image>
+		<image name="glass_puzzle_D">
+			<file>glass_puzzle_D</file>
+		</image>
+		
 		<image name="plan_a">
 			<file>plan_base_none</file>
 			<rectangle>[0,0,1535,945]</rectangle>
@@ -5518,10 +5536,22 @@
 				<top>
 				</top>
 				<bottom>
+					<image>
+						<image>glass_puzzle_A</image>
+						<rectangle>[50,1095,845,-2]</rectangle>
+						<rotation>-90</rotation>
+						<order>10</order>
+					</image>
 					<text>
-						<text>{cs:}</text>
-						<style>small_white_box_red</style>
+						<text>Stained Glass Rectangle</text>
+						<style>normal_black_center</style>
 						<rectangle>[86,50,773,-1]</rectangle>
+						<order>0</order>
+					</text>
+					<text>
+						<text>What is this?  It seems to have curious markings and little to do with filtering light?  The housemaid said it was important to the inquisitors...</text>
+						<style>card_b_default</style>
+						<rectangle>[86,1200,773,-1]</rectangle>
 						<order>0</order>
 					</text>
 				</bottom>
@@ -5530,10 +5560,21 @@
 				<top>
 				</top>
 				<bottom>
+					<image>
+						<image>glass_puzzle_B</image>
+						<rectangle>[50,250,845,-2]</rectangle>
+						<order>10</order>
+					</image>
 					<text>
-						<text>{cs:}</text>
-						<style>small_white_box_red</style>
+						<text>Stained Glass from a Tombstone</text>
+						<style>normal_black_center</style>
 						<rectangle>[86,50,773,-1]</rectangle>
+						<order>0</order>
+					</text>
+					<text>
+						<text>A very odd piece to leave on a tombstone.  One would think they could find a better use for such a decorative piece.</text>
+						<style>card_b_default</style>
+						<rectangle>[86,1200,773,-1]</rectangle>
 						<order>0</order>
 					</text>
 				</bottom>
@@ -5542,10 +5583,22 @@
 				<top>
 				</top>
 				<bottom>
+					<image>
+						<image>glass_puzzle_C</image>
+						<rectangle>[895,1095,845,-2]</rectangle>
+						<rotation>180</rotation>
+						<order>10</order>
+					</image>
 					<text>
-						<text>{cs:}</text>
-						<style>small_white_box_red</style>
+						<text>Stained Glass from the Woodpile</text>
+						<style>normal_black_center</style>
 						<rectangle>[86,50,773,-1]</rectangle>
+						<order>0</order>
+					</text>
+					<text>
+						<text>Another piece of curiously marked glass with no obvious picture...  One wonders what it is intended for.  What is it's purpose?</text>
+						<style>card_b_default</style>
+						<rectangle>[86,1200,773,-1]</rectangle>
 						<order>0</order>
 					</text>
 				</bottom>
@@ -5554,10 +5607,22 @@
 				<top>
 				</top>
 				<bottom>
+					<image>
+						<image>glass_puzzle_D</image>
+						<rectangle>[895,250,845,-2]</rectangle>
+						<rotation>90</rotation>
+						<order>10</order>
+					</image>
 					<text>
-						<text>{cs:}</text>
-						<style>small_white_box_red</style>
+						<text>Bench Decorative Stained Glass</text>
+						<style>normal_black_center</style>
 						<rectangle>[86,50,773,-1]</rectangle>
+						<order>0</order>
+					</text>
+					<text>
+						<text>It took some skill to obtain this from its protector.  Will it turn out to be valuable or a dead end.</text>
+						<style>card_b_default</style>
+						<rectangle>[86,1200,773,-1]</rectangle>
 						<order>0</order>
 					</text>
 				</bottom>
