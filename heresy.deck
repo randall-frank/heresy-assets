@@ -350,6 +350,9 @@
 		<image name="red_skull">
 			<file>TS_CreaPack_Icon_-CR-</file>
 		</image>
+		<image name="hit">
+			<file>TS_CreaPack_Icon_-R-</file>
+		</image>
 		
 		<image name="skill_combat">
 			<file>TS_CreaPack_Icon_-CC-</file>
@@ -5105,6 +5108,12 @@
 						<rectangle>[100,100,745,-2]</rectangle>
 						<order>10</order>
 					</image>
+					<text>
+						<text>The shovel.  A simple tool for a simple purpose, digging graves for the recently deceased.</text>
+						<style>card_b_default</style>
+						<rectangle>[86,670,773,-1]</rectangle>
+						<order>0</order>
+					</text>
 				</bottom>
 			</card>
 			<card name="Catalina Picture">
@@ -5125,9 +5134,16 @@
 				<bottom>
 					<image>
 						<image>stick</image>
-						<rectangle>[100,100,745,-2]</rectangle>
+						<rectangle>[270,100,845,-2]</rectangle>
+						<rotation>45</rotation>
 						<order>10</order>
 					</image>
+					<text>
+						<text>A substantial length of wood broken off from a light sapling.</text>
+						<style>card_b_default</style>
+						<rectangle>[86,870,773,-1]</rectangle>
+						<order>0</order>
+					</text>
 				</bottom>
 			</card>
 			<card name="Sword">
@@ -5136,10 +5152,22 @@
 				<bottom>
 					<image>
 						<image>sword</image>
-						<rectangle>[100,100,745,-2]</rectangle>
+						<rectangle>[270,100,845,-2]</rectangle>
+						<rotation>45</rotation>
 						<order>10</order>
 					</image>
-				</bottom>
+					<text>
+						<text>An older rapier that has many stories to tell judging by the wear an overall condition.</text>
+						<style>card_b_default</style>
+						<rectangle>[86,870,773,-1]</rectangle>
+						<order>0</order>
+					</text>
+					<text>
+						<text>This weapon can be wielded by characters with more than two {I:skill_combat:75:-2} and adds one {I:hit:75:-2} to combat challenges when at least one other {I:hit:75:-2} is rolled.</text>
+						<style>card_b_action</style>
+						<rectangle>[86,1070,773,-1]</rectangle>
+						<order>0</order>
+					</text>				</bottom>
 			</card>
 			<card name="Soul Medallion">
 				<top>
