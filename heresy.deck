@@ -5312,6 +5312,37 @@
 					</image>
 				</bottom>
 			</card>
+			
+			<card name="Glass Puzzle Solution">
+				<top name="This card MUST be item #15 for the solution to work!!">
+				</top>
+				<bottom>
+					<text>
+						<text>If you acquired this card as a result of solving the Stand Glass puzzle, continue on reading this card.  If not, please consider placing this card back into the deck for the full game experience.</text>
+						<style>small_white_box_red</style>
+						<rectangle>[86,50,773,-1]</rectangle>
+						<order>0</order>
+					</text>
+					<image>
+						<image>combolock</image>
+						<rectangle>[200,330,545,-2]</rectangle>
+						<order>10</order>
+					</image>
+					<text>
+						<text>Carefully you tilt the combined glass panes into the light. Interesting, a series of numbers appear...  33-21-14-27  These look like the combination to a lock.  Not the type of lock that should be available in this century!  Perhaps this is the key to unraveling the mystery?</text>
+						<style>card_b_default</style>
+						<rectangle>[86,900,773,-1]</rectangle>
+						<order>0</order>
+					</text>
+					<text>
+						<text>&#x2022; Take token {I:token_pink_1:75:-2}.</text>
+						<style>card_b_action</style>
+						<rectangle>[86,1270,773,-1]</rectangle>
+						<order>0</order>
+					</text>
+				</bottom>
+			</card>  
+			
 			<card name="Pistol">
 				<top>
 				</top>
@@ -5684,35 +5715,6 @@
 						<text>It took some skill to obtain this from its protector.  Will it turn out to be valuable or a dead end.</text>
 						<style>card_b_default</style>
 						<rectangle>[86,1200,773,-1]</rectangle>
-						<order>0</order>
-					</text>
-				</bottom>
-			</card>  
-			<card name="Glass Puzzle Solution">
-				<top>
-				</top>
-				<bottom>
-					<text>
-						<text>If you acquired this card as a result of solving the Stand Glass puzzle, continue on reading this card.  If not, please consider placing this card back into the deck for the full game experience.</text>
-						<style>small_white_box_red</style>
-						<rectangle>[86,50,773,-1]</rectangle>
-						<order>0</order>
-					</text>
-					<image>
-						<image>combolock</image>
-						<rectangle>[200,330,545,-2]</rectangle>
-						<order>10</order>
-					</image>
-					<text>
-						<text>Carefully you tilt the combined glass panes into the light. Interesting, a series of numbers appear...  33-21-14-27  These look like the combination to a lock.  Not the type of lock that should be available in this century!  Perhaps this is the key to unraveling the mystery?</text>
-						<style>card_b_default</style>
-						<rectangle>[86,900,773,-1]</rectangle>
-						<order>0</order>
-					</text>
-					<text>
-						<text>&#x2022; Take token {I:token_pink_1:75:-2}.</text>
-						<style>card_b_action</style>
-						<rectangle>[86,1270,773,-1]</rectangle>
 						<order>0</order>
 					</text>
 				</bottom>
