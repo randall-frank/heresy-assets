@@ -153,6 +153,8 @@
 		<file filename="heresy_media/iron_door.jpg" name="iron_door"/>		
 		<file filename="heresy_media/paper1.jpg" name="paper1"/>
 		<file filename="heresy_media/paper2.png" name="paper2"/>
+		<file filename="heresy_media/paper3.jpg" name="paper3"/>
+		<file filename="heresy_media/paper4.jpg" name="paper4"/>
 		<file filename="heresy_media/plan_base.png" name="plan_base"/>
 		<file filename="heresy_media/plan_base_cat_only.png" name="plan_base_cat_only"/>
 		<file filename="heresy_media/plan_base_none.png" name="plan_base_none"/>
@@ -225,6 +227,13 @@
 			<rectangle>[2125,1750,2125,1750]</rectangle>
 		</image>
 
+		<image name="star_c_paper">
+			<file>paper3</file>
+		</image>
+		<image name="star_d_paper">
+			<file>paper4</file>
+		</image>
+		
 		<image name="combolock">
 			<file>combolock</file>
 		</image>		
@@ -5216,33 +5225,32 @@
 				<top name="Star Chart B">
 				</top>
 				<bottom>
-					<text>
-						<text>{cs:}</text>
-						<style>normal_black_center</style>
-						<rectangle>[100,50,745,-1]</rectangle>
-						<order>0</order>
-					</text>
 					<image>
 						<image>astro_book</image>
-						<rectangle>[100,100,745,-2]</rectangle>
+						<rectangle>[100,50,745,-2]</rectangle>
 						<order>10</order>
 					</image>
+					<text>
+						<text>A rather exaggerated interest in astronomy by these folks. Why deface such a text with these crude drawings?</text>
+						<style>card_b_default</style>
+						<rectangle>[86,1310,773,-1]</rectangle>
+						<order>0</order>
+					</text>
 				</bottom>
 			</card>
 			<card name="Star Chart C">
 				<top name="from inn combat">
 				</top>
 				<bottom>
-					<text>
-						<text>Star Chart</text>
-						<style>normal_black_center</style>
-						<rectangle>[100,50,745,-1]</rectangle>
-						<order>0</order>
-					</text>
+					<image>
+						<image>star_c_paper</image>
+						<rectangle>[100,100,745,-2]</rectangle>
+						<order>10</order>
+					</image>
 					<text>
 						<text>As the defeated acolytes run away, a scrap of paper falls from their belongings.</text>
 						<style>card_b_default</style>
-						<rectangle>[86,1280,773,-1]</rectangle>
+						<rectangle>[86,780,773,-1]</rectangle>
 						<order>0</order>
 					</text>
 				</bottom>
@@ -5251,6 +5259,17 @@
 				<top name="from bailiff">
 				</top>
 				<bottom>
+					<image>
+						<image>star_d_paper</image>
+						<rectangle>[100,100,745,-2]</rectangle>
+						<order>10</order>
+					</image>
+					<text>
+						<text>The bailiff will never miss this... or will he?</text>
+						<style>card_b_default</style>
+						<rectangle>[86,1180,773,-1]</rectangle>
+						<order>0</order>
+					</text>
 				</bottom>
 			</card>
 			
@@ -5391,9 +5410,16 @@
 				<bottom>
 					<image name="Star Chart A">
 						<image>arm1</image>
-						<rectangle>[100,100,745,-2]</rectangle>
+						<rectangle>[300,1050,945,-2]</rectangle>
+						<rotation>-90</rotation>
 						<order>10</order>
 					</image>
+					<text>
+						<text>A human arm, cleft at the shoulder.  The tattoo looks to be made with modern ink and technique.  Martin may not have been local.</text>
+						<style>card_b_default</style>
+						<rectangle>[86,1100,773,-1]</rectangle>
+						<order>0</order>
+					</text>
 				</bottom>
 			</card>  
 			<card name="Left Arm">
@@ -5402,9 +5428,16 @@
 				<bottom>
 					<image>
 						<image>arm2</image>
-						<rectangle>[100,100,745,-2]</rectangle>
+						<rectangle>[680,100,945,-2]</rectangle>
+						<rotation>90</rotation>
 						<order>10</order>
 					</image>
+					<text>
+						<text>A human arm, ripped from a body still warm.  A sorrowful reminder of a soul recently rendered free of this existance.</text>
+						<style>card_b_default</style>
+						<rectangle>[86,1100,773,-1]</rectangle>
+						<order>0</order>
+					</text>
 				</bottom>
 			</card>  
 			<card name="Right Leg">
