@@ -5167,7 +5167,8 @@
 						<style>card_b_action</style>
 						<rectangle>[86,1070,773,-1]</rectangle>
 						<order>0</order>
-					</text>				</bottom>
+					</text>				
+				</bottom>
 			</card>
 			<card name="Soul Medallion">
 				<top>
@@ -5175,9 +5176,21 @@
 				<bottom>
 					<image>
 						<image>soul_medallion</image>
-						<rectangle>[100,100,745,-2]</rectangle>
+						<rectangle>[350,100,245,-2]</rectangle>
 						<order>10</order>
 					</image>
+					<text>
+						<text>A Soul Medallion - A pendant medallion with an orb in its center on a light chain.  You do not recognize the metal, but the ord emits a warm glow.</text>
+						<style>card_b_default</style>
+						<rectangle>[86,650,773,-1]</rectangle>
+						<order>0</order>
+					</text>
+					<text>
+						<text>The orb is powered by sacrificed souls {I:soul:75:-2}. The medallion allows the holder to spend one soul token to re-roll one die. Soul tokens are discarded when used. The medallion may be recharged through a "sacrifice" by the party. If all party members are on the same card and not engaged in a challenge the group may discard one {I:heart:75:-2} token per party member (4 total) to add a soul token  to the medallion.</text>
+						<style>card_b_action</style>
+						<rectangle>[86,880,773,-1]</rectangle>
+						<order>0</order>
+					</text>				
 				</bottom>
 			</card>
 			<card name="Bottle of Alcohol">
@@ -5235,6 +5248,12 @@
 						<rectangle>[100,100,745,-2]</rectangle>
 						<order>10</order>
 					</image>
+					<text>
+						<text>Magic voice box, an odd, unfamiliar object.  When placed close to your ear, sometimes you can hear the cries of the damned souls {s:card_b_default_italic}"...please allow me to introduce myself, I'm a man of wealth and taste... ...pleased to meet you, hope you guess my name..."{s:}  What else but the desperate cries of tortured souls?</text>
+						<style>card_b_default</style>
+						<rectangle>[86,800,773,-1]</rectangle>
+						<order>0</order>
+					</text>
 				</bottom>
 			</card>
 			<card name="Battery">
@@ -5246,6 +5265,12 @@
 						<rectangle>[100,100,745,-2]</rectangle>
 						<order>10</order>
 					</image>
+					<text>
+						<text>A box of lightning. A heavy black box with two metal "strings" coming from it. If the ends of the two strings touch, the fire tongue of the devil is clearly visible.</text>
+						<style>card_b_default</style>
+						<rectangle>[86,650,773,-1]</rectangle>
+						<order>0</order>
+					</text>
 				</bottom>
 			</card>
 			
@@ -5310,6 +5335,18 @@
 						<rectangle>[100,100,745,-2]</rectangle>
 						<order>10</order>
 					</image>
+					<text>
+						<text>Plunger Tube - A dull, translucent tube that appears to have a liquid in it.  There is a plunger at one end and an extremely sharp, thin metal tip at the other end.  Perhaps a means to deliver the liquid?</text>
+						<style>card_b_default</style>
+						<rectangle>[86,620,773,-1]</rectangle>
+						<order>0</order>
+					</text>
+					<text>
+						<text>This single use item can be stabbed into an opponent during a {I:skill_glib:75:-2} challenge die roll to change any one die to any value you wish.</text>
+						<style>card_b_action</style>
+						<rectangle>[86,920,773,-1]</rectangle>
+						<order>0</order>
+					</text>
 				</bottom>
 			</card>
 			
@@ -5352,6 +5389,18 @@
 						<rectangle>[100,100,745,-2]</rectangle>
 						<order>10</order>
 					</image>
+					<text>
+						<text>Tube with Handle - An empty metal tube with a wooden grip attached to one end of the tube. The metal has an unnatural bluish finish that does seem to be the product of witchcraft.</text>
+						<style>card_b_default</style>
+						<rectangle>[86,800,773,-1]</rectangle>
+						<order>0</order>
+					</text>
+					<text>
+						<text>If you have {I:bullet:75:-2} tokens, they can be placed in the slots of this device. During a {I:skill_combat:75:-2} challenge, the device can be "triggered", consuming one of the tokens and allowing the user to roll an additional die in the challenge roll. It cannot be used by familiars.</text>
+						<style>card_b_action</style>
+						<rectangle>[86,1070,773,-1]</rectangle>
+						<order>0</order>
+					</text>
 				</bottom>
 			</card>
 			<card name="Nail Gun">
@@ -5363,6 +5412,18 @@
 						<rectangle>[100,100,745,-2]</rectangle>
 						<order>10</order>
 					</image>
+					<text>
+						<text>"Nail gun" states the text on the item: "Nothing better than a good old carpenter tool..."</text>
+						<style>card_b_default</style>
+						<rectangle>[86,700,773,-1]</rectangle>
+						<order>0</order>
+					</text>
+					<text>
+						<text>The nail gun gives you one extra die to roll during a {I:skill_combat:75:-2} challenge. It cannot be used by familiars.</text>
+						<style>card_b_action</style>
+						<rectangle>[86,900,773,-1]</rectangle>
+						<order>0</order>
+					</text>
 				</bottom>
 			</card>
 			<card name="Phil Note 1">
