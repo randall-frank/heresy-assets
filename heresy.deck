@@ -165,6 +165,16 @@
 		<file filename="heresy_media/glass_puzzle_C.png" name="glass_puzzle_C"/>
 		<file filename="heresy_media/glass_puzzle_D.png" name="glass_puzzle_D"/>	
 
+		<file filename="heresy_media/catalina_Vanderpoel.jpg" name="catalina_picture"/>
+		<file filename="heresy_media/catalina_locket.jpg" name="catalina_locket"/>
+
+		<image name="catalina_picture">
+			<file>catalina_picture</file>
+		</image>
+		<image name="catalina_locket">
+			<file>catalina_locket</file>
+		</image>
+		
 		<image name="glass_puzzle_A">
 			<file>glass_puzzle_A</file>
 		</image>
@@ -1762,7 +1772,7 @@
 						<order>10</order>
 					</image>
 					<text name="copyright">
-						<text>&#x00A9; 2017 Marina Galvagni and Randy Frank{n}Artwork by Rizky Nugraha and Philippe Semeria{n}Some textures from www.myfreetextures.com</text>
+						<text>&#x00A9; 2017 Marina Galvagni and Randy Frank{n}Artwork by Rizky Nugraha, Philippe Semeria{n}David Ring and J. H. Vanderpoel{n}Some textures from www.myfreetextures.com</text>
 						<style>copyright</style>
 						<rectangle>[50,1300,845,-1]</rectangle>
 						<rotation>0</rotation>
@@ -2238,7 +2248,7 @@
 							<order>0</order>
 						</text>
 						<text>
-							<text>&#x2022; Take {s:card_b_action_bold}Item {in:Catalina Locket}{s:}</text>
+							<text>&#x2022; Take {s:card_b_action_bold}Item {in:Catalina Picture}{s:}</text>
 							<style>card_b_action</style>
 							<rectangle>[86,894,773,-1]</rectangle>
 							<order>0</order>
@@ -5120,12 +5130,34 @@
 				<top>
 				</top>
 				<bottom>
+					<image>
+						<image>catalina_picture</image>
+						<rectangle>[100,50,745,-2]</rectangle>
+						<order>10</order>
+					</image>
+					<text>
+						<text>A charcoal drawing of a young woman, Catalina.  Diego would very much appreciate knowing just what happened to her.  You take notice of the simple locket she is wearing in the picture.  Perhaps you should ask the townsfolk to see if they have any additional information.</text>
+						<style>card_b_default</style>
+						<rectangle>[86,1100,773,-1]</rectangle>
+						<order>0</order>
+					</text>
 				</bottom>
 			</card>
 			<card name="Catalina Locket">
 				<top>
 				</top>
 				<bottom>
+					<image>
+						<image>catalina_locket</image>
+						<rectangle>[200,50,545,-2]</rectangle>
+						<order>10</order>
+					</image>
+					<text>
+						<text>A chain is visible in the ashes.  You fish it out of the pile and your heart sinks.  This locket looks familiar...  An inscription on the back names its prior owner: Catalina.</text>
+						<style>card_b_default</style>
+						<rectangle>[86,950,773,-1]</rectangle>
+						<order>0</order>
+					</text>
 				</bottom>
 			</card>
 			<card name="Stick">
@@ -5566,9 +5598,15 @@
 				<bottom>
 					<image>
 						<image>leg1</image>
-						<rectangle>[100,100,745,-2]</rectangle>
+						<rectangle>[200,100,545,-2]</rectangle>
 						<order>10</order>
 					</image>
+					<text>
+						<text>The flames were not as thorough as they should have been in this case. The bulk of a human leg is still intact.  A rather gruesome reminder of men's inhumanity to other men or in this case women.  Perhaps you should help find a final resting place for this one...</text>
+						<style>card_b_default</style>
+						<rectangle>[86,1100,773,-1]</rectangle>
+						<order>0</order>
+					</text>
 				</bottom>
 			</card>  
 			<card name="Left Leg">
@@ -5577,9 +5615,15 @@
 				<bottom>
 					<image>
 						<image>leg2</image>
-						<rectangle>[100,100,745,-2]</rectangle>
+						<rectangle>[200,100,545,-2]</rectangle>
 						<order>10</order>
 					</image>
+					<text>
+						<text>You find a portion of a human leg inside the armor!  Just what kind of macabre experiments are in progress down here?</text>
+						<style>card_b_default</style>
+						<rectangle>[86,1050,773,-1]</rectangle>
+						<order>0</order>
+					</text>
 				</bottom>
 			</card>
 			<card name="The Golem">
