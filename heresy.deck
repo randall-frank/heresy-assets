@@ -166,7 +166,7 @@
 		<file filename="heresy_media/glass_puzzle_D.png" name="glass_puzzle_D"/>	
 
 		<file filename="heresy_media/catalina_Vanderpoel.jpg" name="catalina_picture"/>
-		<file filename="heresy_media/catalina_locket.jpg" name="catalina_locket"/>
+		<file filename="heresy_media/catalina_locket.png" name="catalina_locket"/>
 
 		<image name="catalina_picture">
 			<file>catalina_picture</file>
