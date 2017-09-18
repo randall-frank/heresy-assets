@@ -119,7 +119,7 @@
 		<file filename="heresy_media/pods.png" name="pods"/>
 		<file filename="heresy_media/base_bottom_back.png" name="base_background"/>
 		<file filename="heresy_media/reference_background.png" name="reference_background"/>
-		
+
 		<file filename="heresy_media/357.png" name="pistol"/>
 		<file filename="heresy_media/arm_colored_rjf.png" name="arm1"/>
 		<file filename="heresy_media/carbattery.png" name="battery"/>
@@ -144,13 +144,13 @@
 		<file filename="heresy_media/snake.png" name="snake"/>
 		<file filename="heresy_media/cat.png" name="cat"/>
 		<file filename="heresy_media/stairs_down.png" name="stairs_down"/>
-		
+
 		<file filename="heresy_media/cat_I.png" name="cat1"/>
 		<file filename="heresy_media/cat_II.png" name="cat2"/>
 		<file filename="heresy_media/cat_III.png" name="cat3"/>
 		<file filename="heresy_media/cat_IV.png" name="cat4"/>
 
-		<file filename="heresy_media/iron_door.jpg" name="iron_door"/>		
+		<file filename="heresy_media/iron_door.jpg" name="iron_door"/>
 		<file filename="heresy_media/paper1.jpg" name="paper1"/>
 		<file filename="heresy_media/paper2.png" name="paper2"/>
 		<file filename="heresy_media/paper3.jpg" name="paper3"/>
@@ -159,11 +159,11 @@
 		<file filename="heresy_media/plan_base_cat_only.png" name="plan_base_cat_only"/>
 		<file filename="heresy_media/plan_base_none.png" name="plan_base_none"/>
 		<file filename="heresy_media/combo_lock.png" name="combolock"/>
-		
+
 		<file filename="heresy_media/glass_puzzle_A.png" name="glass_puzzle_A"/>
 		<file filename="heresy_media/glass_puzzle_B.png" name="glass_puzzle_B"/>
 		<file filename="heresy_media/glass_puzzle_C.png" name="glass_puzzle_C"/>
-		<file filename="heresy_media/glass_puzzle_D.png" name="glass_puzzle_D"/>	
+		<file filename="heresy_media/glass_puzzle_D.png" name="glass_puzzle_D"/>
 
 		<file filename="heresy_media/catalina_Vanderpoel.jpg" name="catalina_picture"/>
 		<file filename="heresy_media/catalina_locket.png" name="catalina_locket"/>
@@ -174,7 +174,7 @@
 		<image name="catalina_locket">
 			<file>catalina_locket</file>
 		</image>
-		
+
 		<image name="glass_puzzle_A">
 			<file>glass_puzzle_A</file>
 		</image>
@@ -187,7 +187,7 @@
 		<image name="glass_puzzle_D">
 			<file>glass_puzzle_D</file>
 		</image>
-		
+
 		<image name="plan_a">
 			<file>plan_base_none</file>
 			<rectangle>[0,0,1535,945]</rectangle>
@@ -243,10 +243,10 @@
 		<image name="star_d_paper">
 			<file>paper4</file>
 		</image>
-		
+
 		<image name="combolock">
 			<file>combolock</file>
-		</image>		
+		</image>
 		<image name="win_green">
 			<file>TS_ Missions_V_EN</file>
 		</image>
@@ -256,7 +256,7 @@
 		<image name="lose_time_orange">
 			<file>TS_ Missions_V_EN3</file>
 		</image>
-		
+
 		<image name="token_blue_1">
 			<file>TS_CreaPack_Icon_-1BL--30</file>
 		</image>
@@ -335,137 +335,137 @@
 
 		<image name="shield_shield">
 			<file>TS_CreaPack_Icon_-B-</file>
-		</image>  
+		</image>
 		<image name="shield">
 			<file>TS_CreaPack_Icon_-BB-</file>
-		</image>  
+		</image>
 		<image name="shield_time">
 			<file>TS_CreaPack_Icon_-BCB- copie 2</file>
-		</image>  
+		</image>
 		<image name="shield_blue_skull">
 			<file>TS_CreaPack_Icon_-BCB-</file>
-		</image>  
+		</image>
 		<image name="shield_red_skull">
 			<file>TS_CreaPack_Icon_-BCR-</file>
-		</image>  
+		</image>
 		<image name="shield_heart">
 			<file>TS_CreaPack_Icon_-BN-</file>
-		</image>  
+		</image>
 		<image name="lock">
 			<file>TS_CreaPack_Icon_-CAD-</file>
-		</image>  
+		</image>
 		<image name="!">
 			<file>TS_CreaPack_Icon_-PE-</file>
-		</image> 
+		</image>
 		<image name="red_skull">
 			<file>TS_CreaPack_Icon_-CR-</file>
 		</image>
 		<image name="hit">
 			<file>TS_CreaPack_Icon_-R-</file>
 		</image>
-		
+
 		<image name="skill_combat">
 			<file>TS_CreaPack_Icon_-CC-</file>
-		</image> 
+		</image>
 		<image name="skill_glib">
 			<file>TS_CreaPack_Icon_-M-</file>
-		</image> 
+		</image>
 		<image name="skill_agile">
 			<file>TS_CreaPack_Icon_-M- copie</file>
-		</image> 
+		</image>
 
 		<image name="blessing">
 			<file>TS_CreaPack_Icon_-JB-</file>
-		</image>  
+		</image>
 		<image name="healing">
 			<file>TS_CreaPack_Icon_-JV-</file>
-		</image>  
+		</image>
 		<image name="soul">
 			<file>TS_CreaPack_Icon_-JN-</file>
-		</image>  
+		</image>
 		<image name="poison">
 			<file>TS_CreaPack_Icon_-JM-</file>
-		</image>  
+		</image>
 		<image name="bullet">
 			<file>TS_CreaPack_Icon_-JJ-</file>
-		</image>  
+		</image>
 
 		<image name="heart">
 			<file>TS_CreaPack_Icon_-PV-</file>
-		</image> 
+		</image>
 
 		<image name="time">
 			<file>TS_CreaPack_Icon_-UTN-</file>
-		</image> 
+		</image>
 
 		<image name="hit_die">
 			<file>TS_CreaPack_Icon_-FD1R-</file>
-		</image> 
+		</image>
 
 		<image name="blue_logo">
 			<file>TS_CreaPack_Icon_-LOGO-</file>
-		</image> 
+		</image>
 
 		<image name="pistol">
 			<file>pistol</file>
-		</image> 
+		</image>
 		<image name="arm1">
 			<file>arm1</file>
-		</image> 
+		</image>
 		<image name="arm2">
 			<file>arm2</file>
-		</image> 
+		</image>
 		<image name="leg1">
 			<file>leg1</file>
-		</image> 
+		</image>
 		<image name="leg2">
 			<file>leg2</file>
-		</image> 
+		</image>
 		<image name="battery">
 			<file>battery</file>
-		</image> 
+		</image>
 		<image name="inq_logo">
 			<file>inq_logo</file>
-		</image> 
+		</image>
 		<image name="ing_logo_alpha">
 			<file>ing_logo_alpha</file>
-		</image> 
+		</image>
 		<image name="shovel">
 			<file>shovel</file>
-		</image> 
+		</image>
 		<image name="soul_medallion">
 			<file>soul</file>
-		</image> 
+		</image>
 		<image name="dummies">
 			<file>dummies</file>
-		</image> 
+		</image>
 		<image name="stick">
 			<file>stick</file>
-		</image> 
+		</image>
 		<image name="sword">
 			<file>sword</file>
-		</image> 
+		</image>
 		<image name="syringe">
 			<file>syringe</file>
-		</image> 
+		</image>
 		<image name="zune">
 			<file>zune</file>
-		</image> 
+		</image>
 		<image name="shorts">
 			<file>shorts</file>
 		</image>
 		<image name="nailgun">
 			<file>nailgun</file>
-		</image> 
+		</image>
 		<image name="bottle">
 			<file>bottle</file>
-		</image> 
+		</image>
 		<image name="golem">
 			<file>golem</file>
 		</image>
 		<image name="astro_book">
 			<file>astro_book</file>
-		</image> 
+		</image>
 
 		<image name="top_card">
 			<file>top_card</file>
@@ -530,7 +530,7 @@
 		<image name="pods">
 			<file>pods</file>
 		</image>
-		
+
 		<image name="char_stone_mason">
 			<file>stone_mason</file>
 		</image>
@@ -585,7 +585,7 @@
 		<image name="stairs_down">
 			<file>stairs_down</file>
 		</image>
-		
+
 		<image name="loc_chapel_b">
 			<file>chapel</file>
 			<rectangle>[0,0,945,-1]</rectangle>
@@ -614,7 +614,7 @@
 			<file>chapel</file>
 			<rectangle>[2284,270,972,490]</rectangle>
 		</image>
-		
+
 		<image name="loc_cat1_b">
 			<file>cat1</file>
 			<rectangle>[0,0,945,-1]</rectangle>
@@ -647,7 +647,7 @@
 			<file>cat1</file>
 			<rectangle>[2852,308,758,890]</rectangle>
 		</image>
-		
+
 		<image name="loc_cat2_b">
 			<file>cat2</file>
 			<rectangle>[0,0,945,-1]</rectangle>
@@ -680,7 +680,7 @@
 			<file>cat2</file>
 			<rectangle>[2896,296,758,890]</rectangle>
 		</image>
-		
+
 		<image name="loc_cat3_b">
 			<file>cat3</file>
 			<rectangle>[0,0,945,-1]</rectangle>
@@ -713,7 +713,7 @@
 			<file>cat3</file>
 			<rectangle>[3022,292,758,890]</rectangle>
 		</image>
-		
+
 		<image name="loc_cat4_b">
 			<file>cat4</file>
 			<rectangle>[0,0,945,-1]</rectangle>
@@ -746,7 +746,7 @@
 			<file>cat4</file>
 			<rectangle>[3016,400,758,890]</rectangle>
 		</image>
-		
+
 		<image name="loc_court_b">
 			<file>coourtroom_revised_A</file>
 			<rectangle>[0,0,945,-1]</rectangle>
@@ -779,7 +779,7 @@
 			<file>coourtroom_revised_A</file>
 			<rectangle>[3148,146,582,575]</rectangle>
 		</image>
-		
+
 		<image name="loc_hypermart_b">
 			<file>hypermart</file>
 			<rectangle>[0,0,945,-1]</rectangle>
@@ -836,7 +836,7 @@
 			<file>hypermart</file>
 			<rectangle>[5985,303,630,765]</rectangle>
 		</image>
-		
+
 		<image name="loc_path_b">
 			<file>path_to_town</file>
 			<rectangle>[0,0,945,-1]</rectangle>
@@ -910,7 +910,7 @@
 			<file>scene_3_graveyard</file>
 			<rectangle>[3982,78,560,518]</rectangle>
 		</image>
-		
+
 		<image name="loc_inn_b">
 			<file>scene_4_inn_bar</file>
 			<rectangle>[0,0,945,-1]</rectangle>
@@ -951,7 +951,7 @@
 			<file>scene_4_inn_bar</file>
 			<rectangle>[4173,368,536,517]</rectangle>
 		</image>
-		
+
 		<image name="loc_dungeon_b">
 			<file>torture_room</file>
 			<rectangle>[0,0,945,-1]</rectangle>
@@ -1008,7 +1008,7 @@
 			<file>torture_room</file>
 			<rectangle>[5697,167,819,516]</rectangle>
 		</image>
-		
+
 		<image name="loc_field_b">
 			<file>witch_burning</file>
 			<rectangle>[0,0,945,-1]</rectangle>
@@ -1049,7 +1049,7 @@
 			<file>witch_burning</file>
 			<rectangle>[2936,494,706,756]</rectangle>
 		</image>
-		
+
 		<image name="loc_lab_b">
 			<file>underground_b</file>
 			<rectangle>[0,0,945,-1]</rectangle>
@@ -1073,7 +1073,7 @@
 		<image name="armour">
 			<file>underground_b</file>
 			<rectangle>[48,124,416,708]</rectangle>
-		</image>		
+		</image>
 		<image name="wires">
 			<file>underground_b</file>
 			<rectangle>[996,352,992,504]</rectangle>
@@ -1090,7 +1090,7 @@
 			<file>underground_b</file>
 			<rectangle>[3816,20,880,884]</rectangle>
 		</image>
-		
+
 		<image name="iron_door">
 			<file>iron_door</file>
 			<rectangle>[57,18,957,1500]</rectangle>
@@ -1101,7 +1101,7 @@
 		<image name="paper2">
 			<file>paper2</file>
 		</image>
-		
+
 		<style name="default">
 			<typeface>Arial</typeface>
 			<linestyle>solid</linestyle>
@@ -2067,7 +2067,7 @@
 					</text>
 				</bottom>
 			</card>
-			
+
 			<card name="Win: Keith dead, Machine ok">
 				<top>
 					<image name="background">
@@ -2090,7 +2090,7 @@
 						<order>0</order>
 					</text>
 				</bottom>
-			</card>			
+			</card>
 			<card name="Win: Keith dead, Machine destroyed">
 				<top>
 					<image name="background">
@@ -2118,7 +2118,7 @@
 						<order>0</order>
 					</text>
 				</bottom>
-			</card>	
+			</card>
 			<card name="Out of Time 1">
 				<top>
 					<image name="background">
@@ -2181,8 +2181,8 @@
 						<order>0</order>
 					</text>
 				</bottom>
-			</card>	
-			
+			</card>
+
 		</misc>
 
 		<locations>
@@ -2957,7 +2957,7 @@
 							<order>0</order>
 						</text>
 						<text>
-							<text>&#x2022; The defendant turns to you and hands you a little package, {s:card_b_default_italic}"They dropped this piece of witchcraft when they took her.  Please, find my sister!"{s:} Take {s:card_b_action_bold}Item {in:Syringe}{s:}.</text>
+							<text>&#x2022; The defendant turns to you and hands you a little package, {s:card_b_default_italic}"They dropped this piece of witchcraft when they took her.  Please, find my sister!"{s:} Take {s:card_b_action_bold}Item {in:Plunger}{s:}.</text>
 							<style>card_b_action</style>
 							<rectangle>[86,1200,773,-1]</rectangle>
 							<order>0</order>
@@ -2984,7 +2984,7 @@
 							<order>0</order>
 						</text>
 						<text>
-							<text>&#x2022; If you try to take the scroll the bailiff will confront you: {s:card_b_default_italic}"Miscreant!"{s:}{n}&#x00a0;&#x00a0;&#x2022;{I:skill_combat:75:-2} {I:shield_red_skull:75:-2} 2x{I:shield_heart:75:-2}{n}&#x00a0;&#x2022; If successful, take the scroll {s:card_b_action_bold}Item {in:Star Chart D}{s:} and something the bailiff was reaching for {s:card_b_action_bold}Item {in:Pistol}{s:}.</text>
+							<text>&#x2022; If you try to take the scroll the bailiff will confront you: {s:card_b_default_italic}"Miscreant!"{s:}{n}&#x00a0;&#x00a0;&#x2022;{I:skill_combat:75:-2} {I:shield_red_skull:75:-2} 2x{I:shield_heart:75:-2}{n}&#x00a0;&#x2022; If successful, take the scroll {s:card_b_action_bold}Item {in:Star Chart D}{s:} and something the bailiff was reaching for {s:card_b_action_bold}Item {in:Tube with handle}{s:}.</text>
 							<style>card_b_action</style>
 							<rectangle>[86,1170,773,-1]</rectangle>
 							<order>0</order>
@@ -4883,7 +4883,7 @@
 						<order>10</order>
 					</image>
 					<text>
-						<text>Laura chimes in:{s:normal_blue_full_italic}"you will be visiting Spain 1499 NT. I have the specifics on your equipment for this case."{n}{n}{s:}Equipment:</text>
+						<text>Laura chimes in: {s:normal_blue_full_italic}"you will be visiting Spain 1499 NT. I have the specifics on your equipment for this case."{n}{n}{s:}Equipment:</text>
 						<style>normal_black_full</style>
 						<rectangle>[75,75,795,-1]</rectangle>
 						<order>11</order>
@@ -4899,7 +4899,7 @@
 						<order>11</order>
 					</image>
 					<text>
-						<text>These tokens represent a blessing. These can be used during any challenge to aid in your quest. Spending a blessing allows one to re-roll a challenge die.</text>
+						<text>These tokens represent a blessing. These can be used during any challenge to aid in your quest. Spending a blessing allows one to re-roll one challenge die.</text>
 						<style>small_white_box_full</style>
 						<rectangle>[275,400,595,200]</rectangle>
 						<order>11</order>
@@ -5069,13 +5069,13 @@
 					<text>
 						<text>&#x2022; Place the Item cards on their space.{n}&#x2022; Place the four Plan cards on their dedicated space.{n}&#x2022; Shuffle the seven Random Encounter cards and place them on the board.{n}&#x2022; The four mission successful/failed cards go face down on their dedicated space.{n}&#x2022; Set the time token to 30 TU {I:time:40:-2}.{n}&#x2022; The group token is placed on the "Path to town" location, your starting point.</text>
 						<style>smaller_black_left</style>
-						<rectangle>[100,675,745,-1]</rectangle>
+						<rectangle>[100,755,745,-1]</rectangle>
 						<order>11</order>
 					</text>
 					<text>
 						<text>If you have fewer than 4 players, it is suggested that you still use 4 receptacles and control over the extra receptacles be shared by the players.</text>
 						<style>normal_black_full</style>
-						<rectangle>[75,1150,795,-1]</rectangle>
+						<rectangle>[75,1225,795,-1]</rectangle>
 						<order>11</order>
 					</text>
 				</bottom>
@@ -5099,7 +5099,7 @@
 						<order>11</order>
 					</text>
 					<text>
-						<text>&#x2022; Each player selects a receptacle and places the life points, shields and equipment listed on the player card as per instructions on the individual cards.{n}&#x2022; Take the Icon Reference card and keep it close at hand.{n}&#x2022; Select one play to be the initial Time Captain. That player closes the base and places it next to the board. They proceed to open the "Path to town" location. The Time Captain reads card A out loud and the adventure begins..</text>
+						<text>&#x2022; Each player selects a receptacle and places the life points, shields and equipment listed on the player card as per instructions on the individual cards.{n}&#x2022; Take the Icon Reference card and keep it close at hand.{n}&#x2022; Select one player to be the initial Time Captain. That player closes the base and places it next to the board. They proceed to open the "Path to town" location. The Time Captain reads card A out loud and the adventure begins..</text>
 						<style>smaller_black_left</style>
 						<rectangle>[100,775,745,-1]</rectangle>
 						<order>11</order>
@@ -5113,15 +5113,21 @@
 				<top>
 				</top>
 				<bottom>
+				<text>
+					<text>{cs:}</text>
+					<style>normal_black_center</style>
+					<rectangle>[100,50,745,-1]</rectangle>
+					<order>0</order>
+				</text>
 					<image>
 						<image>shovel</image>
-						<rectangle>[100,100,745,-2]</rectangle>
+						<rectangle>[100,150,745,-2]</rectangle>
 						<order>10</order>
 					</image>
 					<text>
-						<text>The shovel.  A simple tool for a simple purpose, digging graves for the recently deceased.</text>
+						<text>The shovel.  A simple tool for a simple purpose: digging graves for the recently deceased.</text>
 						<style>card_b_default</style>
-						<rectangle>[86,670,773,-1]</rectangle>
+						<rectangle>[86,720,773,-1]</rectangle>
 						<order>0</order>
 					</text>
 				</bottom>
@@ -5130,15 +5136,21 @@
 				<top>
 				</top>
 				<bottom>
+				<text>
+					<text>{cs:}</text>
+					<style>normal_black_center</style>
+					<rectangle>[100,50,745,-1]</rectangle>
+					<order>0</order>
+				</text>
 					<image>
 						<image>catalina_picture</image>
-						<rectangle>[100,50,745,-2]</rectangle>
+						<rectangle>[100,150,745,-2]</rectangle>
 						<order>10</order>
 					</image>
 					<text>
-						<text>A charcoal drawing of a young woman, Catalina.  Diego would very much appreciate knowing just what happened to her.  You take notice of the simple locket she is wearing in the picture.  Perhaps you should ask the townsfolk to see if they have any additional information.</text>
+						<text>A charcoal drawing of a young woman, Catalina.  Diego would very much appreciate knowing what happened to her.  You take notice of the simple locket she is wearing in the picture.  Perhaps you should ask the townsfolk if they have any additional information.</text>
 						<style>card_b_default</style>
-						<rectangle>[86,1100,773,-1]</rectangle>
+						<rectangle>[86,1160,773,-1]</rectangle>
 						<order>0</order>
 					</text>
 				</bottom>
@@ -5147,15 +5159,21 @@
 				<top>
 				</top>
 				<bottom>
+				<text>
+					<text>{cs:}</text>
+					<style>normal_black_center</style>
+					<rectangle>[100,50,745,-1]</rectangle>
+					<order>0</order>
+				</text>
 					<image>
 						<image>catalina_locket</image>
-						<rectangle>[200,50,545,-2]</rectangle>
+						<rectangle>[200,80,545,-2]</rectangle>
 						<order>10</order>
 					</image>
 					<text>
 						<text>A chain is visible in the ashes.  You fish it out of the pile and your heart sinks.  This locket looks familiar...  An inscription on the back names its prior owner: Catalina.</text>
 						<style>card_b_default</style>
-						<rectangle>[86,950,773,-1]</rectangle>
+						<rectangle>[86,980,773,-1]</rectangle>
 						<order>0</order>
 					</text>
 				</bottom>
@@ -5164,6 +5182,12 @@
 				<top>
 				</top>
 				<bottom>
+				<text>
+					<text>{cs:}</text>
+					<style>normal_black_center</style>
+					<rectangle>[100,50,745,-1]</rectangle>
+					<order>0</order>
+				</text>
 					<image>
 						<image>stick</image>
 						<rectangle>[270,100,845,-2]</rectangle>
@@ -5182,6 +5206,12 @@
 				<top>
 				</top>
 				<bottom>
+				<text>
+					<text>{cs:}</text>
+					<style>normal_black_center</style>
+					<rectangle>[100,50,745,-1]</rectangle>
+					<order>0</order>
+				</text>
 					<image>
 						<image>sword</image>
 						<rectangle>[270,100,845,-2]</rectangle>
@@ -5189,7 +5219,7 @@
 						<order>10</order>
 					</image>
 					<text>
-						<text>An older rapier that has many stories to tell judging by the wear an overall condition.</text>
+						<text>An older rapier that has many stories to tell judging by the wear and overall condition.</text>
 						<style>card_b_default</style>
 						<rectangle>[86,870,773,-1]</rectangle>
 						<order>0</order>
@@ -5199,30 +5229,36 @@
 						<style>card_b_action</style>
 						<rectangle>[86,1070,773,-1]</rectangle>
 						<order>0</order>
-					</text>				
+					</text>
 				</bottom>
 			</card>
 			<card name="Soul Medallion">
 				<top>
 				</top>
 				<bottom>
+				<text>
+					<text>{cs:}</text>
+					<style>normal_black_center</style>
+					<rectangle>[100,50,745,-1]</rectangle>
+					<order>0</order>
+				</text>
 					<image>
 						<image>soul_medallion</image>
 						<rectangle>[350,100,245,-2]</rectangle>
 						<order>10</order>
 					</image>
 					<text>
-						<text>A Soul Medallion - A pendant medallion with an orb in its center on a light chain.  You do not recognize the metal, but the ord emits a warm glow.</text>
+  					<text>A Soul Medallion - A pendant medallion with an orb in its center on a light chain.  You do not recognize the metal, but the ord emits a warm glow.</text>
 						<style>card_b_default</style>
 						<rectangle>[86,650,773,-1]</rectangle>
 						<order>0</order>
 					</text>
 					<text>
-						<text>The orb is powered by sacrificed souls {I:soul:75:-2}. The medallion allows the holder to spend one soul token to re-roll one die. Soul tokens are discarded when used. The medallion may be recharged through a "sacrifice" by the party. If all party members are on the same card and not engaged in a challenge the group may discard one {I:heart:75:-2} token per party member (4 total) to add a soul token  to the medallion.</text>
+						<text>The orb is powered by sacrificed souls {I:soul:75:-2}. The medallion allows the holder to spend one soul token to re-roll one die. Soul tokens are discarded when used. The medallion may be recharged through a "sacrifice" by the party. If all party members are on the same card and not engaged in a challenge, the group may discard one {I:heart:75:-2} token per party member (4 total) to add a soul token  to the medallion.</text>
 						<style>card_b_action</style>
 						<rectangle>[86,880,773,-1]</rectangle>
 						<order>0</order>
-					</text>				
+					</text>
 				</bottom>
 			</card>
 			<card name="Bottle of Alcohol">
@@ -5275,15 +5311,21 @@
 				<top>
 				</top>
 				<bottom>
+				<text>
+					<text>{cs:}</text>
+					<style>normal_black_center</style>
+					<rectangle>[100,50,745,-1]</rectangle>
+					<order>0</order>
+				</text>
 					<image>
 						<image>zune</image>
-						<rectangle>[100,100,745,-2]</rectangle>
+						<rectangle>[100,150,745,-2]</rectangle>
 						<order>10</order>
 					</image>
 					<text>
 						<text>Magic voice box, an odd, unfamiliar object.  When placed close to your ear, sometimes you can hear the cries of the damned souls {s:card_b_default_italic}"...please allow me to introduce myself, I'm a man of wealth and taste... ...pleased to meet you, hope you guess my name..."{s:}  What else but the desperate cries of tortured souls?</text>
 						<style>card_b_default</style>
-						<rectangle>[86,800,773,-1]</rectangle>
+						<rectangle>[86,850,773,-1]</rectangle>
 						<order>0</order>
 					</text>
 				</bottom>
@@ -5292,33 +5334,45 @@
 				<top>
 				</top>
 				<bottom>
+				<text>
+					<text>{cs:}</text>
+					<style>normal_black_center</style>
+					<rectangle>[100,50,745,-1]</rectangle>
+					<order>0</order>
+				</text>
 					<image>
 						<image>battery</image>
-						<rectangle>[100,100,745,-2]</rectangle>
+						<rectangle>[100,150,745,-2]</rectangle>
 						<order>10</order>
 					</image>
 					<text>
 						<text>A box of lightning. A heavy black box with two metal "strings" coming from it. If the ends of the two strings touch, the fire tongue of the devil is clearly visible.</text>
 						<style>card_b_default</style>
-						<rectangle>[86,650,773,-1]</rectangle>
+						<rectangle>[86,700,773,-1]</rectangle>
 						<order>0</order>
 					</text>
 				</bottom>
 			</card>
-			
+
 			<card name="Astronomy Book">
 				<top name="Star Chart B">
 				</top>
 				<bottom>
+				<text>
+					<text>{cs:}</text>
+					<style>normal_black_center</style>
+					<rectangle>[100,50,745,-1]</rectangle>
+					<order>0</order>
+				</text>
 					<image>
 						<image>astro_book</image>
-						<rectangle>[100,50,745,-2]</rectangle>
+						<rectangle>[100,120,745,-2]</rectangle>
 						<order>10</order>
 					</image>
 					<text>
 						<text>A rather exaggerated interest in astronomy by these folks. Why deface such a text with these crude drawings?</text>
 						<style>card_b_default</style>
-						<rectangle>[86,1310,773,-1]</rectangle>
+						<rectangle>[86,1350,773,-1]</rectangle>
 						<order>0</order>
 					</text>
 				</bottom>
@@ -5357,31 +5411,37 @@
 					</text>
 				</bottom>
 			</card>
-			
-			<card name="Syringe">
+
+			<card name="Plunger">
 				<top>
 				</top>
 				<bottom>
+				<text>
+					<text>{cs:}</text>
+					<style>normal_black_center</style>
+					<rectangle>[100,50,745,-1]</rectangle>
+					<order>0</order>
+				</text>
 					<image>
 						<image>syringe</image>
-						<rectangle>[100,100,745,-2]</rectangle>
+						<rectangle>[100,200,745,-2]</rectangle>
 						<order>10</order>
 					</image>
 					<text>
 						<text>Plunger Tube - A dull, translucent tube that appears to have a liquid in it.  There is a plunger at one end and an extremely sharp, thin metal tip at the other end.  Perhaps a means to deliver the liquid?</text>
 						<style>card_b_default</style>
-						<rectangle>[86,620,773,-1]</rectangle>
+						<rectangle>[86,800,773,-1]</rectangle>
 						<order>0</order>
 					</text>
 					<text>
-						<text>This single use item can be stabbed into an opponent during a {I:skill_glib:75:-2} challenge die roll to change any one die to any value you wish.</text>
+						<text>This single use item can be stabbed into an opponent during a {I:skill_glib:75:-2} challenge. Change any one die to any value you wish.</text>
 						<style>card_b_action</style>
-						<rectangle>[86,920,773,-1]</rectangle>
+						<rectangle>[86,1100,773,-1]</rectangle>
 						<order>0</order>
 					</text>
 				</bottom>
 			</card>
-			
+
 			<card name="Glass Puzzle Solution">
 				<top name="This card MUST be item #15 for the solution to work!!">
 				</top>
@@ -5410,27 +5470,33 @@
 						<order>0</order>
 					</text>
 				</bottom>
-			</card>  
-			
-			<card name="Pistol">
+			</card>
+
+			<card name="Tube with handle">
 				<top>
 				</top>
 				<bottom>
+				<text>
+					<text>{cs:}</text>
+					<style>normal_black_center</style>
+					<rectangle>[100,50,745,-1]</rectangle>
+					<order>0</order>
+				</text>
 					<image>
 						<image>pistol</image>
-						<rectangle>[100,100,745,-2]</rectangle>
+						<rectangle>[100,110,745,-2]</rectangle>
 						<order>10</order>
 					</image>
 					<text>
 						<text>Tube with Handle - An empty metal tube with a wooden grip attached to one end of the tube. The metal has an unnatural bluish finish that does seem to be the product of witchcraft.</text>
 						<style>card_b_default</style>
-						<rectangle>[86,800,773,-1]</rectangle>
+						<rectangle>[86,810,773,-1]</rectangle>
 						<order>0</order>
 					</text>
 					<text>
 						<text>If you have {I:bullet:75:-2} tokens, they can be placed in the slots of this device. During a {I:skill_combat:75:-2} challenge, the device can be "triggered", consuming one of the tokens and allowing the user to roll an additional die in the challenge roll. It cannot be used by familiars.</text>
 						<style>card_b_action</style>
-						<rectangle>[86,1070,773,-1]</rectangle>
+						<rectangle>[86,1080,773,-1]</rectangle>
 						<order>0</order>
 					</text>
 				</bottom>
@@ -5439,21 +5505,27 @@
 				<top>
 				</top>
 				<bottom>
+				<text>
+					<text>{cs:}</text>
+					<style>normal_black_center</style>
+					<rectangle>[100,50,745,-1]</rectangle>
+					<order>0</order>
+				</text>
 					<image>
 						<image>nailgun</image>
-						<rectangle>[100,100,745,-2]</rectangle>
+						<rectangle>[100,130,745,-2]</rectangle>
 						<order>10</order>
 					</image>
 					<text>
 						<text>"Nail gun" states the text on the item: "Nothing better than a good old carpenter tool..."</text>
 						<style>card_b_default</style>
-						<rectangle>[86,700,773,-1]</rectangle>
+						<rectangle>[86,730,773,-1]</rectangle>
 						<order>0</order>
 					</text>
 					<text>
 						<text>The nail gun gives you one extra die to roll during a {I:skill_combat:75:-2} challenge. It cannot be used by familiars.</text>
 						<style>card_b_action</style>
-						<rectangle>[86,900,773,-1]</rectangle>
+						<rectangle>[86,930,773,-1]</rectangle>
 						<order>0</order>
 					</text>
 				</bottom>
@@ -5469,30 +5541,30 @@
 						<order>0</order>
 					</text>
 				</bottom>
-			</card> 
+			</card>
 			<card name="Phil Note 2">
 				<top>
 				</top>
 				<bottom>
 					<image>
 						<image>paper2</image>
-						<rectangle>[20,20,905,-2]</rectangle>
+						<rectangle>[20,280,905,-2]</rectangle>
 						<order>10</order>
 					</image>
 					<text>
 						<text>Phil,{n}{n}We are making a lot of progress now, but all this jumping back and forth in time is wearing on me a bit. I need you to be able to run some of the time errands for me while I deal with collecting more souls.  Here are the basic instructions on how to use the portal.  Familiarize yourself with the controls and let me know when you are ready to use the device solo. Just a few more trips and I think we might even be able to get Bob off our backs.{n}{n}Keith.</text>
 						<style>normal_black_full_smaller</style>
-						<rectangle>[150,150,645,-1]</rectangle>
+						<rectangle>[150,400,645,-1]</rectangle>
 						<order>11</order>
 					</text>
 				</bottom>
-			</card>    
+			</card>
 			<card name="Keith Dead">
 				<top>
 				</top>
 				<bottom>
 					<text>
-						<text>{s:card_b_default_italic}"You only see what you want to believe, when you creep from the back I got tricks up my sleeve..."{s:}, you overhear the last whispers of a dying man before he expires. Rifling through the dead man's pockets you find a T.I.M.E Agents ID. Opening it slowly reveals the photo of the dead man and the name 'Keith Fitzgerald, T.I.M.E Agent Second Class'. So this is the elusive, rogue agent you have been struggling so fervently to apprehend.  It appears this mission has reached its conclusion. If you have the token {I:token_blue_3:100:-2}, take the card</text>
+						<text>{s:card_b_default_italic}"You only see what you want to believe, when you creep from the back I got tricks up my sleeve..."{s:}, you overhear the last whispers of a dying man before he expires. Rifling through the dead man's pockets you find a T.I.M.E. Agents ID. Opening it slowly reveals the photo of the dead man and the name 'Keith Fitzgerald, T.I.M.E Agent Second Class'. So this is the elusive, rogue agent you have been struggling so fervently to apprehend.  It appears this mission has reached its conclusion. If you have the token {I:token_blue_3:100:-2}, take the card</text>
 						<style>card_b_default</style>
 						<rectangle>[86,50,773,-1]</rectangle>
 						<order>0</order>
@@ -5517,21 +5589,21 @@
 						<image>win_green</image>
 						<rectangle>[650,850,200,-2]</rectangle>
 						<order>10</order>
-					</image>					
+					</image>
 				</bottom>
-			</card>    
+			</card>
 			<card name="Keith Lies">
 				<top>
 				</top>
 				<bottom>
 					<text>
-						<text>A nuanced verbal exchange ensues.  It quickly becomes obvious that he is a T.I.M.E Agent as well. "Agent Smith", he relates.  Shaking your hands,  {s:card_b_default_italic}"I have been tracking Keith as well. It looks like you came just in time to help me put a stop to his plans. He has been wreaking havoc with the lines of time. It is only a matter of time before he irreparably alters our timeline. I believe the man in the Electronics section is Keith himself. Why don't you head over there and confront him?  I will join you shortly."{s:} </text>
+						<text>A nuanced verbal exchange ensues.  It quickly becomes obvious that he is a T.I.M.E. Agent as well. "Agent Smith", he relates.  Shaking your hands,  {s:card_b_default_italic}"I have been tracking Keith as well. It looks like you came just in time to help me put a stop to his plans. He has been wreaking havoc with the lines of time. It is only a matter of time before he irreparably alters our timeline. I believe the man in the Electronics section is Keith himself. Why don't you head over there and confront him?  I will join you shortly."{s:} </text>
 						<style>card_b_default</style>
 						<rectangle>[86,50,773,-1]</rectangle>
 						<order>0</order>
 					</text>
 				</bottom>
-			</card>    
+			</card>
 			<card name="Shorts">
 				<top>
 				</top>
@@ -5548,80 +5620,104 @@
 						<order>0</order>
 					</text>
 					<text>
-						<text>If you wear them in combat, they distracts the adversary.  Take one less {I:red_skull:75:-2} from any combat rolls where one appears.</text>
+						<text>If you wear them in combat, they distract the adversary.  Take one less {I:red_skull:75:-2} from any combat rolls where one appears.</text>
 						<style>card_b_default</style>
 						<rectangle>[86,900,773,-1]</rectangle>
 						<order>0</order>
 					</text>
 				</bottom>
 			</card>
-			
+
 			<card name="Right Arm">
 				<top>
 				</top>
 				<bottom>
+				<text>
+					<text>{cs:}</text>
+					<style>normal_black_center</style>
+					<rectangle>[100,50,745,-1]</rectangle>
+					<order>0</order>
+				</text>
 					<image name="Star Chart A">
 						<image>arm1</image>
-						<rectangle>[300,1050,945,-2]</rectangle>
+						<rectangle>[300,1150,945,-2]</rectangle>
 						<rotation>-90</rotation>
 						<order>10</order>
 					</image>
 					<text>
 						<text>A human arm, cleft at the shoulder.  The tattoo looks to be made with modern ink and technique.  Martin may not have been local.</text>
 						<style>card_b_default</style>
-						<rectangle>[86,1100,773,-1]</rectangle>
+						<rectangle>[86,1200,773,-1]</rectangle>
 						<order>0</order>
 					</text>
 				</bottom>
-			</card>  
+			</card>
 			<card name="Left Arm">
 				<top>
 				</top>
 				<bottom>
+				<text>
+					<text>{cs:}</text>
+					<style>normal_black_center</style>
+					<rectangle>[100,50,745,-1]</rectangle>
+					<order>0</order>
+				</text>
 					<image>
 						<image>arm2</image>
-						<rectangle>[680,100,945,-2]</rectangle>
+						<rectangle>[680,200,945,-2]</rectangle>
 						<rotation>90</rotation>
 						<order>10</order>
 					</image>
 					<text>
 						<text>A human arm, ripped from a body still warm.  A sorrowful reminder of a soul recently rendered free of this existance.</text>
 						<style>card_b_default</style>
-						<rectangle>[86,1100,773,-1]</rectangle>
+						<rectangle>[86,1200,773,-1]</rectangle>
 						<order>0</order>
 					</text>
 				</bottom>
-			</card>  
+			</card>
 			<card name="Right Leg">
 				<top>
 				</top>
 				<bottom>
+				<text>
+					<text>{cs:}</text>
+					<style>normal_black_center</style>
+					<rectangle>[100,50,745,-1]</rectangle>
+					<order>0</order>
+				</text>
 					<image>
 						<image>leg1</image>
-						<rectangle>[200,100,545,-2]</rectangle>
+						<rectangle>[200,130,545,-2]</rectangle>
 						<order>10</order>
 					</image>
 					<text>
-						<text>The flames were not as thorough as they should have been in this case. The bulk of a human leg is still intact.  A rather gruesome reminder of men's inhumanity to other men or in this case women.  Perhaps you should help find a final resting place for this one...</text>
+						<text>The flames were not as thorough as they should have been in this case. The bulk of a human leg is still intact.  A rather gruesome reminder of men's inhumanity to other men - or in this case, women.  Perhaps you should help find a final resting place for this one...</text>
 						<style>card_b_default</style>
 						<rectangle>[86,1100,773,-1]</rectangle>
 						<order>0</order>
 					</text>
 				</bottom>
-			</card>  
+			</card>
 			<card name="Left Leg">
 				<top>
 				</top>
 				<bottom>
+				<text>
+					<text>{cs:}</text>
+					<style>normal_black_center</style>
+					<rectangle>[100,50,745,-1]</rectangle>
+					<order>0</order>
+				</text>
 					<image>
 						<image>leg2</image>
-						<rectangle>[200,100,545,-2]</rectangle>
+						<rectangle>[200,200,545,-2]</rectangle>
 						<order>10</order>
 					</image>
 					<text>
 						<text>You find a portion of a human leg inside the armor!  Just what kind of macabre experiments are in progress down here?</text>
 						<style>card_b_default</style>
-						<rectangle>[86,1050,773,-1]</rectangle>
+						<rectangle>[86,1150,773,-1]</rectangle>
 						<order>0</order>
 					</text>
 				</bottom>
@@ -5728,7 +5824,7 @@
 					</text>
 				</bottom>
 			</card>
-			
+
 			<card name="Stained Glass A">
 				<top>
 				</top>
@@ -5752,7 +5848,7 @@
 						<order>0</order>
 					</text>
 				</bottom>
-			</card>  
+			</card>
 			<card name="Stained Glass B">
 				<top>
 				</top>
@@ -5775,7 +5871,7 @@
 						<order>0</order>
 					</text>
 				</bottom>
-			</card>  
+			</card>
 			<card name="Stained Glass C">
 				<top>
 				</top>
@@ -5793,13 +5889,13 @@
 						<order>0</order>
 					</text>
 					<text>
-						<text>Another piece of curiously marked glass with no obvious picture...  One wonders what it is intended for.  What is it's purpose?</text>
+						<text>Another piece of curiously marked glass with no obvious picture...  One wonders what it is intended for.  What is its purpose?</text>
 						<style>card_b_default</style>
 						<rectangle>[86,1200,773,-1]</rectangle>
 						<order>0</order>
 					</text>
 				</bottom>
-			</card>  
+			</card>
 			<card name="Stained Glass D">
 				<top>
 				</top>
@@ -5817,13 +5913,13 @@
 						<order>0</order>
 					</text>
 					<text>
-						<text>It took some skill to obtain this from its protector.  Will it turn out to be valuable or a dead end.</text>
+						<text>A very peculiar piece of art in this bench. It took some skill to obtain this from its protector. Why would there be a single, fully colored glass panel in this dark place of desparation?</text>
 						<style>card_b_default</style>
 						<rectangle>[86,1200,773,-1]</rectangle>
 						<order>0</order>
 					</text>
 				</bottom>
-			</card>  
+			</card>
 
 			<card name="the_cat">
 				<top>
@@ -5896,7 +5992,7 @@
 						<order>11</order>
 					</text>
 					<text>
-						<text>  As smoke rises from the ashes of the Do&#x00f1;a, her spirit is... moved. Her essence is transferred to her guardian familiar.  From there she can continue the quest.{n}{n}The black cat has multiple lives and can communicate with other humans (in familiar form, she does not lose glibness). The cat retains any health packs the Lady had before conversion and can still use them.  The cat is also able to leave combat at any time. This card may only be held by the player who selected the Do&#x00f1;a character for this run.</text>
+						<text>  As smoke rises from the ashes of the Do&#x00f1;a, her spirit is... moved. Her essence is transferred to her guardian familiar.  Disregard Do&#x00f1;a's card and from here on use the familiar card.{n}{n}The black cat has multiple lives and can communicate with other humans (in familiar form, she does not lose glibness). The cat retains any health packs the Lady had before conversion and can still use them.  The cat is also able to leave combat at any time. This card may only be held by the player who selected the Do&#x00f1;a character for this run.</text>
 						<style>normal_black_full</style>
 						<rectangle>[50,600,845,-1]</rectangle>
 						<order>11</order>
@@ -5929,7 +6025,7 @@
 						<rectangle>[600,200,130,-2]</rectangle>
 						<order>10</order>
 					</image>
-					
+
 					<image>
 						<image>skill_agile</image>
 						<rectangle>[50,430,130,-2]</rectangle>
@@ -5986,7 +6082,7 @@
 						<order>11</order>
 					</text>
 					<text>
-						<text>  As smoke rises from Isabel's ashes, her spirit is... moved. Her essence is transferred to her guardian familiar.  From there she can continue the quest.{n}{n}The snake can make a poison attack every 5 {I:time:40:-2}.  Place a poison attack token {I:poison:40:-2} every 5 {I:time:40:-2} on the timeline. If the time counter arrives at a poison token, remove it from the timeline and place it on this card, attacks can be accumulated. A poison attack adds two die to a combat attack. This card may only be held by the player who selected the Isabel character for this run.</text>
+						<text>  As smoke rises from Isabel's ashes, her spirit is... moved. Her essence is transferred to her guardian familiar.  Disregard Isabel's card and from here on use the familiar card.{n}{n}The snake can make a poison attack every 5 {I:time:40:-2}.  Place a poison attack token {I:poison:40:-2} every 5 {I:time:40:-2} on the timeline. If the time counter arrives at a poison token, remove it from the timeline and place it on this card, attacks can be accumulated. A poison attack adds two die to a combat attack. This card may only be held by the player who selected the Isabel character for this run.</text>
 						<style>normal_black_full</style>
 						<rectangle>[50,600,845,-1]</rectangle>
 						<order>11</order>
@@ -6064,14 +6160,14 @@
 						<order>11</order>
 					</text>
 					<text>
-						<text>  As smoke rises from the Sister's ashes, her spirit is... moved. Her essence is transferred to her guardian familiar.  From there she can continue the quest.{n}{n}The crow is not locked into combat and can leave at any time. The crow may also fly between any two cards in the current location in the same turn. It may only participate in a single challenge roll per time-unit, but can move between and read two location cards in the same {I:time:40:-2}. This card may only be held by the player who selected the Sister character for this run.</text>
+						<text>  As smoke rises from the Sister's ashes, her spirit is... moved. Her essence is transferred to her guardian familiar.  Disregard the Sister's card and from here on use the familiar card.{n}{n}The crow is not locked into combat and can leave at any time. The crow may also fly between any two cards in the current location in the same turn. It may only participate in a single challenge roll per time-unit, but can move between and read two location cards in the same {I:time:40:-2}. This card may only be held by the player who selected the Sister character for this run.</text>
 						<style>normal_black_full</style>
 						<rectangle>[50,600,845,-1]</rectangle>
 						<order>11</order>
 					</text>
 				</bottom>
 			</card>
-			
+
 			<card name="Plan Add Field">
 				<top>
 				</top>
@@ -6103,7 +6199,7 @@
 						<order>11</order>
 					</text>
 				</bottom>
-			</card>  
+			</card>
 			<card name="Plan Add Dungeon">
 				<top>
 				</top>
@@ -6167,7 +6263,7 @@
 						<order>11</order>
 					</text>
 				</bottom>
-			</card> 
+			</card>
 			<card name="Plan Add Laboratory">
 				<top>
 				</top>
@@ -6206,8 +6302,8 @@
 						<order>11</order>
 					</text>
 				</bottom>
-			</card>  
-			
+			</card>
+
 			<card name="trigger_nun">
 				<top>
 				</top>
@@ -6225,7 +6321,7 @@
 						<order>0</order>
 					</text>
 				</bottom>
-			</card> 
+			</card>
 			<card name="trigger_streets">
 				<top>
 				</top>
@@ -6261,7 +6357,7 @@
 						<order>0</order>
 					</text>
 				</bottom>
-			</card> 			
+			</card>
 		</items>
 
 		<characters>
@@ -6559,7 +6655,7 @@
 						<rectangle>[600,200,130,-2]</rectangle>
 						<order>10</order>
 					</image>
-					
+
 					<image>
 						<image>skill_agile</image>
 						<rectangle>[50,430,130,-2]</rectangle>
@@ -6659,7 +6755,7 @@
 						<rectangle>[600,200,130,-2]</rectangle>
 						<order>10</order>
 					</image>
-					
+
 					<image>
 						<image>skill_agile</image>
 						<rectangle>[50,430,130,-2]</rectangle>
