@@ -2054,7 +2054,7 @@
 						<order>0</order>
 					</text>
 					<text>
-						<text>A woman in weeping loudly and walking towards you. When you are closer, she asks you {s:card_b_default_italic}"My daughter, have you seen my daughter Maria? They took her! I followed them up to here, but then I lost them... Did you see my daughter?"{s:} She grabs your sleeves and does not let you go.</text>
+						<text>A woman is weeping loudly and walking towards you. When you are closer, she asks you {s:card_b_default_italic}"My daughter, have you seen my daughter Maria? They took her! I followed them up to here, but then I lost them... Did you see my daughter?"{s:} She grabs your sleeves and does not let you go.</text>
 						<style>card_b_default</style>
 						<rectangle>[86,250,773,-1]</rectangle>
 						<order>0</order>
@@ -2084,7 +2084,7 @@
 						<order>10</order>
 					</image>
 					<text>
-						<text>A happy but reserved Bob is waiting for you as you exit the caissons. Things seem fine, but was Bob wearing that "bishop" garb when we left?  And what where did that inquisition logo come from? {s:card_b_default_italic}"Welcome back, the rift has been successfully closed, Keith has been stopped and time once again flows undisturbed. To tell the truth, I struggled with sending you.  I mean to have to deal with a man as influential as Keith, I sort of felt like Pilate. But I knew I could count on you to put things right! I'm sure we will have more tasks for you, but first let's get you out of those old outfits and into something a bit more appropriate. "{s:} He gestures to fresh uniforms in the corner, topped with glowing soul medallions...{n}{n}Congratulations for a job well done! ... ?</text>
+						<text>A happy but reserved Bob is waiting for you as you exit the caissons. Things seem fine, but was Bob wearing that "bishop" garb when we left?  And  where did that inquisition logo come from? {s:card_b_default_italic}"Welcome back, the rift has been successfully closed, Keith has been stopped and time once again flows undisturbed. To tell the truth, I struggled with sending you.  I mean to have to deal with a man as influential as Keith, I sort of felt like Pilate. But I knew I could count on you to put things right! I'm sure we will have more tasks for you, but first let's get you out of those old outfits and into something a bit more appropriate. "{s:} He gestures to fresh uniforms in the corner, topped with glowing soul medallions...{n}{n}Congratulations for a job well done! ... ?</text>
 						<style>card_b_default</style>
 						<rectangle>[86,520,773,-1]</rectangle>
 						<order>0</order>
@@ -2112,7 +2112,7 @@
 						<order>10</order>
 					</image>
 					<text>
-						<text>You are greeted by Bob's smiling face as you exit the caissons. News of your skillful handling of a tricky situation must have proceeded you. {s:card_b_default_italic}"Congratulations, the rift is closed and Keith’s plans have been thwarted. I do hope his impact on the timelines has been minimized.  Please continue into the next room and Laura will debrief you. I know you were hoping for some time off, but I have another issue that needs your attention.  Laura is waiting in the next room..."{s:} Ain't no rest for the weary, not in this time anyway.{n}{n}Congratulations for a job well done!</text>
+						<text>You are greeted by Bob's smiling face as you exit the caissons. News of your skillful handling of a tricky situation must have proceeded you. {s:card_b_default_italic}"Congratulations, the rift is closed and Keith’s plans have been thwarted. I do hope his impact on the timelines has been minimized.  Please continue into the next room and Laura will debrief you. I am so pleased with your performance this time around, that I might have a special treat for you in mind... What do you think of a company-paid vacation trip in an exotic time-space location? Oh well, I will have to bring this up with management. In the meantime, Laura is waiting in the next room..."{s:}{n}{n}Congratulations for a job well done!</text>
 						<style>card_b_default</style>
 						<rectangle>[86,520,773,-1]</rectangle>
 						<order>0</order>
@@ -6309,7 +6309,7 @@
 				</top>
 				<bottom>
 					<text>
-						<text>A Child's Saint Foillan medal.{n}From the child she previously had in her care. Sister Maria gasps and falls to her knees as she reads the name on the cross. {s:card_b_default_italic}"Sorry...  so sorry...  I tried to save, tried to save ...I am... ...I am... nothing."{s:} She reaches out and picks up the medal, tucking it beneath her robes, a reminder of a time she has tried desperately to forget. Head bowed, she sobs quietly to herself.</text>
+						<text>A Child's Saint Foillan medal.{n}{n}{n}A little object is adjusted on top of the grave. It's a little, shiny medal. Sister Maria approaches, but she gasps and falls to her knees as soon as she reads the name on the cross. That grave... that's the grave of the little child who died under her care so long ago. {s:card_b_default_italic}"Sorry...  so sorry...  I tried to save, tried to save ...I am... ...I am... nothing."{s:} She reaches out and picks up the medal, tucking it beneath her robes, a reminder of a time she has tried desperately to forget. Head bowed, she sobs quietly to herself.</text>
 						<style>card_b_default</style>
 						<rectangle>[86,94,773,-1]</rectangle>
 						<order>0</order>
@@ -6317,7 +6317,7 @@
 					<text>
 						<text>&#x2022; The Sister Mar&#x00ed;a character takes the token {I:token_blue_1:100:-2}.</text>
 						<style>card_b_action</style>
-						<rectangle>[86,670,773,-1]</rectangle>
+						<rectangle>[86,1100,773,-1]</rectangle>
 						<order>0</order>
 					</text>
 				</bottom>
@@ -6327,7 +6327,7 @@
 				</top>
 				<bottom>
 					<text>
-						<text>A strange drink.{n}A mug with a liquid of curious perfume. When Isabel takes a sip she immediately sits up straight and shakes her head, fighting the demons that the drink stirred up in her. After a few seconds she regains her composure, but there is an odd glint in her eye.</text>
+						<text>A strange drink.{n}{n}{n}A mug with a liquid of curious perfume. When Isabel takes a sip she immediately sits up straight and shakes her head, fighting the demons that the drink stirred up in her. After a few seconds she regains her composure, but there is an odd glint in her eye.</text>
 						<style>card_b_default</style>
 						<rectangle>[86,94,773,-1]</rectangle>
 						<order>0</order>
@@ -6335,7 +6335,7 @@
 					<text>
 						<text>&#x2022; The Isabel character takes the token {I:token_green_2:100:-2}.</text>
 						<style>card_b_action</style>
-						<rectangle>[86,540,773,-1]</rectangle>
+						<rectangle>[86,1100,773,-1]</rectangle>
 						<order>0</order>
 					</text>
 				</bottom>
@@ -6345,7 +6345,7 @@
 				</top>
 				<bottom>
 					<text>
-						<text>Pouch of drugged dust.{n}A small bellows and a pouch containing a light power. Leaning close to the mesh, to hear the priest's response to her request for absolution, Do&#x00f1;a Ortiz is startled by a puff of powder coming through the mesh. She pulls back to avoid the stinging particles, but it is too late, she has most definitely inhaled the plume. She pauses for a moment, listening to sounds unheard by anyone but her before returning to the present.</text>
+						<text>Pouch of drugged dust.{n}{n}{n}A small bellows and a pouch containing a light power. Leaning close to the mesh, to hear the priest's response to her request for absolution, Do&#x00f1;a Ortiz is startled by a puff of powder coming through the mesh. She pulls back to avoid the stinging particles, but it is too late, she has most definitely inhaled the plume. She pauses for a moment, listening to sounds unheard by anyone but her before returning to the present.</text>
 						<style>card_b_default</style>
 						<rectangle>[86,94,773,-1]</rectangle>
 						<order>0</order>
@@ -6353,7 +6353,7 @@
 					<text>
 						<text>&#x2022; The Do&#x00f1;a Ortiz character takes the token {I:token_black_3:100:-2}.</text>
 						<style>card_b_action</style>
-						<rectangle>[86,700,773,-1]</rectangle>
+						<rectangle>[86,1100,773,-1]</rectangle>
 						<order>0</order>
 					</text>
 				</bottom>
@@ -6386,7 +6386,7 @@
 						<order>10</order>
 					</image>
 					<text>
-						<text>0</text>
+						<text>3</text>
 						<style>small_white_box</style>
 						<rectangle>[50,430,25,-1]</rectangle>
 						<order>11</order>
@@ -6397,7 +6397,7 @@
 						<order>10</order>
 					</image>
 					<text>
-						<text>0</text>
+						<text>3</text>
 						<style>small_white_box</style>
 						<rectangle>[200,430,25,-1]</rectangle>
 						<order>11</order>
@@ -6408,7 +6408,7 @@
 						<order>10</order>
 					</image>
 					<text>
-						<text>0</text>
+						<text>1</text>
 						<style>small_white_box</style>
 						<rectangle>[350,430,25,-1]</rectangle>
 						<order>11</order>
@@ -6419,7 +6419,7 @@
 						<order>10</order>
 					</image>
 					<text>
-						<text>0</text>
+						<text>5</text>
 						<style>small_white_box</style>
 						<rectangle>[615,430,25,-1]</rectangle>
 						<order>11</order>
@@ -6430,7 +6430,7 @@
 						<order>10</order>
 					</image>
 					<text>
-						<text>0</text>
+						<text>2</text>
 						<style>small_white_box</style>
 						<rectangle>[765,430,25,-1]</rectangle>
 						<order>11</order>
@@ -6474,7 +6474,7 @@
 						<order>10</order>
 					</image>
 					<text>
-						<text>0</text>
+						<text>1</text>
 						<style>small_white_box</style>
 						<rectangle>[50,430,25,-1]</rectangle>
 						<order>11</order>
@@ -6485,7 +6485,7 @@
 						<order>10</order>
 					</image>
 					<text>
-						<text>0</text>
+						<text>1</text>
 						<style>small_white_box</style>
 						<rectangle>[200,430,25,-1]</rectangle>
 						<order>11</order>
@@ -6496,7 +6496,7 @@
 						<order>10</order>
 					</image>
 					<text>
-						<text>0</text>
+						<text>3</text>
 						<style>small_white_box</style>
 						<rectangle>[350,430,25,-1]</rectangle>
 						<order>11</order>
@@ -6507,7 +6507,7 @@
 						<order>10</order>
 					</image>
 					<text>
-						<text>0</text>
+						<text>3</text>
 						<style>small_white_box</style>
 						<rectangle>[615,430,25,-1]</rectangle>
 						<order>11</order>
@@ -6518,7 +6518,7 @@
 						<order>10</order>
 					</image>
 					<text>
-						<text>0</text>
+						<text>4</text>
 						<style>small_white_box</style>
 						<rectangle>[765,430,25,-1]</rectangle>
 						<order>11</order>
@@ -6562,7 +6562,7 @@
 						<order>10</order>
 					</image>
 					<text>
-						<text>0</text>
+						<text>2</text>
 						<style>small_white_box</style>
 						<rectangle>[50,430,25,-1]</rectangle>
 						<order>11</order>
@@ -6573,7 +6573,7 @@
 						<order>10</order>
 					</image>
 					<text>
-						<text>0</text>
+						<text>3</text>
 						<style>small_white_box</style>
 						<rectangle>[200,430,25,-1]</rectangle>
 						<order>11</order>
@@ -6584,7 +6584,7 @@
 						<order>10</order>
 					</image>
 					<text>
-						<text>0</text>
+						<text>2</text>
 						<style>small_white_box</style>
 						<rectangle>[350,430,25,-1]</rectangle>
 						<order>11</order>
@@ -6595,7 +6595,7 @@
 						<order>10</order>
 					</image>
 					<text>
-						<text>0</text>
+						<text>1</text>
 						<style>small_white_box</style>
 						<rectangle>[615,430,25,-1]</rectangle>
 						<order>11</order>
@@ -6606,7 +6606,7 @@
 						<order>10</order>
 					</image>
 					<text>
-						<text>0</text>
+						<text>2</text>
 						<style>small_white_box</style>
 						<rectangle>[765,430,25,-1]</rectangle>
 						<order>11</order>
@@ -6662,7 +6662,7 @@
 						<order>10</order>
 					</image>
 					<text>
-						<text>0</text>
+						<text>2</text>
 						<style>small_white_box</style>
 						<rectangle>[50,430,25,-1]</rectangle>
 						<order>11</order>
@@ -6673,7 +6673,7 @@
 						<order>10</order>
 					</image>
 					<text>
-						<text>0</text>
+						<text>3</text>
 						<style>small_white_box</style>
 						<rectangle>[200,430,25,-1]</rectangle>
 						<order>11</order>
@@ -6684,7 +6684,7 @@
 						<order>10</order>
 					</image>
 					<text>
-						<text>0</text>
+						<text>1</text>
 						<style>small_white_box</style>
 						<rectangle>[350,430,25,-1]</rectangle>
 						<order>11</order>
@@ -6695,7 +6695,7 @@
 						<order>10</order>
 					</image>
 					<text>
-						<text>0</text>
+						<text>2</text>
 						<style>small_white_box</style>
 						<rectangle>[615,430,25,-1]</rectangle>
 						<order>11</order>
@@ -6706,13 +6706,13 @@
 						<order>10</order>
 					</image>
 					<text>
-						<text>0</text>
+						<text>4</text>
 						<style>small_white_box</style>
 						<rectangle>[765,430,25,-1]</rectangle>
 						<order>11</order>
 					</text>
 					<text>
-						<text>  A longstanding nun of questionable reputation. She has been re-assigned to the local parish after an infant in her care came down with a mysterious affliction and the parishioners petitioned to have her moved. She has been given a second chance and is looking to re-establish herself as a solid woman of faith and dedication to the church.</text>
+						<text>  A longstanding nun of questionable reputation. She has been re-assigned to the local parish after an infant in her care came down with a mysterious affliction and the parishioners petitioned to have her moved. She has been given a second chance and is looking to re-establish herself as a solid woman of faith and dedication to the Church.</text>
 						<style>normal_black_full</style>
 						<rectangle>[50,600,845,-1]</rectangle>
 						<order>11</order>
@@ -6762,7 +6762,7 @@
 						<order>10</order>
 					</image>
 					<text>
-						<text>0</text>
+						<text>2</text>
 						<style>small_white_box</style>
 						<rectangle>[50,430,25,-1]</rectangle>
 						<order>11</order>
@@ -6773,7 +6773,7 @@
 						<order>10</order>
 					</image>
 					<text>
-						<text>0</text>
+						<text>3</text>
 						<style>small_white_box</style>
 						<rectangle>[200,430,25,-1]</rectangle>
 						<order>11</order>
@@ -6784,7 +6784,7 @@
 						<order>10</order>
 					</image>
 					<text>
-						<text>0</text>
+						<text>1</text>
 						<style>small_white_box</style>
 						<rectangle>[350,430,25,-1]</rectangle>
 						<order>11</order>
@@ -6795,7 +6795,7 @@
 						<order>10</order>
 					</image>
 					<text>
-						<text>0</text>
+						<text>4</text>
 						<style>small_white_box</style>
 						<rectangle>[615,430,25,-1]</rectangle>
 						<order>11</order>
@@ -6806,7 +6806,7 @@
 						<order>10</order>
 					</image>
 					<text>
-						<text>0</text>
+						<text>2</text>
 						<style>small_white_box</style>
 						<rectangle>[765,430,25,-1]</rectangle>
 						<order>11</order>
@@ -6818,7 +6818,7 @@
 						<order>11</order>
 					</text>
 					<text>
-						<text>  Unique abilities: The lady starts with 2 healing poultices {I:healing:50:-2} that can be applied to any companions that are in the same location card as she is.</text>
+						<text>  Unique abilities: The lady starts with 2 healing poultices {I:healing:50:-2} that can be applied to any companions that are in the same location card as she is. Each potion restores one health token.</text>
 						<style>normal_black_full</style>
 						<rectangle>[50,1130,845,-1]</rectangle>
 						<order>11</order>
@@ -6850,7 +6850,7 @@
 						<order>10</order>
 					</image>
 					<text>
-						<text>0</text>
+						<text>4</text>
 						<style>small_white_box</style>
 						<rectangle>[50,430,25,-1]</rectangle>
 						<order>11</order>
@@ -6861,7 +6861,7 @@
 						<order>10</order>
 					</image>
 					<text>
-						<text>0</text>
+						<text>2</text>
 						<style>small_white_box</style>
 						<rectangle>[200,430,25,-1]</rectangle>
 						<order>11</order>
@@ -6872,7 +6872,7 @@
 						<order>10</order>
 					</image>
 					<text>
-						<text>0</text>
+						<text>2</text>
 						<style>small_white_box</style>
 						<rectangle>[350,430,25,-1]</rectangle>
 						<order>11</order>
@@ -6883,7 +6883,7 @@
 						<order>10</order>
 					</image>
 					<text>
-						<text>0</text>
+						<text>3</text>
 						<style>small_white_box</style>
 						<rectangle>[615,430,25,-1]</rectangle>
 						<order>11</order>
@@ -6894,13 +6894,13 @@
 						<order>10</order>
 					</image>
 					<text>
-						<text>0</text>
+						<text>3</text>
 						<style>small_white_box</style>
 						<rectangle>[765,430,25,-1]</rectangle>
 						<order>11</order>
 					</text>
 					<text>
-						<text>  Young, full of life but of lower upbringing she weaves a web of intrigue wherever she goes.  Leveraging her quick wit, exceptional gifts of perception and beauty, she has made her way by cunningly crafting somewhat astucious plans.  Always one step ahead of the authorities, she is presently on the run from one such plan that has gone astray.</text>
+						<text>  Young, full of life but of lower upbringing, she weaves a web of intrigue wherever she goes.  Leveraging her quick wit, exceptional gifts of perception and beauty, she has made her way by cunningly crafting somewhat astucious plans.  Always one step ahead of the authorities, she is presently on the run from one such plan that has gone astray.</text>
 						<style>normal_black_full</style>
 						<rectangle>[50,600,845,-1]</rectangle>
 						<order>11</order>
