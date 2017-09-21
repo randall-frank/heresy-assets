@@ -1230,6 +1230,16 @@
 			<borderthickness>1</borderthickness>
 			<justification>left</justification>
 		</style>
+		<style name="smaller_black_left_bold">
+			<typeface>Arial:bold</typeface>
+			<linestyle>solid</linestyle>
+			<fillcolor>[255, 255, 255, 0]</fillcolor>
+			<bordercolor>[0, 0, 0, 0]</bordercolor>
+			<textcolor>[0, 0, 0, 255]</textcolor>
+			<typesize>8</typesize>
+			<borderthickness>1</borderthickness>
+			<justification>left</justification>
+		</style>
 		<style name="normal_black_full">
 			<typeface>Arial</typeface>
 			<linestyle>solid</linestyle>
@@ -5069,13 +5079,13 @@
 					<text>
 						<text>&#x2022; Place the Item cards on their space.{n}&#x2022; Place the four Plan cards on their dedicated space.{n}&#x2022; Shuffle the seven Random Encounter cards and place them on the board.{n}&#x2022; The four mission successful/failed cards go face down on their dedicated space.{n}&#x2022; Set the time token to 30 TU {I:time:40:-2}.{n}&#x2022; The group token is placed on the "Path to town" location, your starting point.</text>
 						<style>smaller_black_left</style>
-						<rectangle>[100,755,745,-1]</rectangle>
+						<rectangle>[100,680,745,-1]</rectangle>
 						<order>11</order>
 					</text>
 					<text>
-						<text>If you have fewer than 4 players, it is suggested that you still use 4 receptacles and control over the extra receptacles be shared by the players.</text>
+						<text>If you have fewer than four players, it is suggested that you still use four receptacles and control over the extra receptacles be shared by the players.</text>
 						<style>normal_black_full</style>
-						<rectangle>[75,1225,795,-1]</rectangle>
+						<rectangle>[75,1160,795,-1]</rectangle>
 						<order>11</order>
 					</text>
 				</bottom>
@@ -5093,15 +5103,15 @@
 						<order>10</order>
 					</image>
 					<text>
-						<text>You gather your team and resources and head to the transfer caissons. As you strap into the beds, your com crackles. Laura: {s:normal_blue_full_italic} "Good luck team, I have complete confidence that you will be able to resolve this issue quickly and completely."{s:} Overhead speaker "3.. 2.. 1..".  Bob: {s:normal_blue_full_italic}"One thing... bxhzas ...forgot to tell yoszyxs... time jumps zzxhgb... witchcraft..."{s:} and you are off.{n}Final Preparations:</text>
+						<text>You gather your team and resources and head to the transfer caissons. As you strap into the beds, your com crackles. Laura: {s:normal_blue_full_italic} "Good luck team, I have complete confidence that you will be able to resolve this issue quickly and completely."{s:} Overhead speaker "3.. 2.. 1..".  Bob: {s:normal_blue_full_italic}"One thing... bxhzas ...forgot to tell yoszyxs... time jumps zzxhgb... witchcraft..."{s:} and you are off.{n}{n}Final Preparations:</text>
 						<style>normal_black_full</style>
 						<rectangle>[75,75,795,-1]</rectangle>
 						<order>11</order>
 					</text>
 					<text>
-						<text>&#x2022; Each player selects a receptacle and places the life points, shields and equipment listed on the player card as per instructions on the individual cards.{n}&#x2022; Take the Icon Reference card and keep it close at hand.{n}&#x2022; Select one player to be the initial Time Captain. That player closes the base and places it next to the board. They proceed to open the "Path to town" location. The Time Captain reads card A out loud and the adventure begins..</text>
+						<text>&#x2022; Each player selects a receptacle and places the life points, shields and equipment listed on the player card as per instructions on the individual cards.{n}&#x2022; Take the Icon Reference card and keep it close at hand.{n}&#x2022; Select one player to be the initial Time Captain. That player closes the base and places it next to the board.{n}&#x2022; The Time Captain proceeds by opening the {s:smaller_black_left_bold}{ls:Path to Town}{s:} location, reads card A out loud and the adventure begins...</text>
 						<style>smaller_black_left</style>
-						<rectangle>[100,775,745,-1]</rectangle>
+						<rectangle>[100,800,745,-1]</rectangle>
 						<order>11</order>
 					</text>
 				</bottom>
