@@ -2931,7 +2931,7 @@
 							<order>-99</order>
 						</image>
 						<text>
-							<text>  The courtroom is spread out in front of your party.  On the left is the gallery where a small collection of townsfolk are observing the proceedings. A decorative piece of glass graces the end of a occupied bench catches the eye. In the center the counsel and the bailiff stand at a table before the judge with a despondent, haggered-looking defendant. The judge has just rendered a verdict and is recording his decision on your right.</text>
+							<text>  The courtroom is spread out in front of your party.  On the left is the gallery where a small collection of townsfolk are observing the proceedings. A decorative piece of glass gracing the end of an occupied bench catches the eye. In the center, the counsel and the bailiff stand at a table before the judge with a despondent, haggered-looking defendant. The judge has just rendered a verdict and is recording his decision on your right.</text>
 							<style>card_a_default</style>
 							<rectangle>[86,94,773,1350]</rectangle>
 							<order>0</order>
@@ -2948,19 +2948,19 @@
 					<bottom>
 						<image>
 							<image>court_bench</image>
-							<rectangle>[250,94,445,-2]</rectangle>
+							<rectangle>[250,94,435,-2]</rectangle>
 							<order>10</order>
 						</image>
 						<text>
 							<text>The gallery consists of occupied, decorative wooden benches. There is an odd-looking piece of stained glass attached to the end of a bench, "guarded" by a stern looking woman. If you want the glass...</text>
 							<style>card_b_default</style>
-							<rectangle>[86,780,773,-1]</rectangle>
+							<rectangle>[86,760,773,-1]</rectangle>
 							<order>0</order>
 						</text>
 						<text>
-							<text>&#x2022; There are two ways to obtain the stained glass:{n}&#x00a0;&#x00a0;&#x2022; Pilfer it {I:skill_agile:75:-2} 4x{I:shield:75:-2}, or convince the woman you need to remove it for "cleaning" {I:skill_glib:75:-2} 4x{I:shield:75:-2}{n}&#x00a0;&#x00a0;&#x2022; If successful, take {s:card_b_action_bold}Item {in:Stained Glass D}{s:}.</text>
+							<text>There are two ways to obtain the stained glass:{n}&#x00a0;&#x00a0;&#x2022; Pilfer it {I:skill_agile:75:-2} 4x{I:shield:75:-2}, {n}&#x00a0;&#x2022; Convince the woman you need to remove it for "cleaning" {I:skill_glib:75:-2} 4x{I:shield:75:-2}{n}{n} If successful, take {s:card_b_action_bold}Item {in:Stained Glass D}{s:}.</text>
 							<style>card_b_action</style>
-							<rectangle>[86,1100,773,-1]</rectangle>
+							<rectangle>[86,1080,773,-1]</rectangle>
 							<order>0</order>
 						</text>
 					</bottom>
@@ -3012,7 +3012,7 @@
 							<order>0</order>
 						</text>
 						<text>
-							<text>&#x2022; If you try to take the scroll the bailiff will confront you: {s:card_b_default_italic}"Miscreant!"{s:}{n}&#x00a0;&#x00a0;&#x2022;{I:skill_combat:75:-2} {I:shield_red_skull:75:-2} 2x{I:shield_heart:75:-2}{n}&#x00a0;&#x2022; If successful, take the scroll {s:card_b_action_bold}Item {in:Star Chart D}{s:} and something the bailiff was reaching for {s:card_b_action_bold}Item {in:Tube with handle}{s:}.</text>
+							<text>&#x2022; If you try to take the scroll the bailiff will confront you: {s:card_b_default_italic}"Miscreant!"{s:}{n}&#x00a0;&#x00a0;{I:skill_combat:75:-2} {I:shield_red_skull:75:-2} 2x{I:shield_heart:75:-2}{n}&#x00a0; If successful, take the scroll {s:card_b_action_bold}Item {in:Star Chart D}{s:} and something the bailiff was reaching for: {s:card_b_action_bold}Item {in:Tube with handle}{s:}.</text>
 							<style>card_b_action</style>
 							<rectangle>[86,1170,773,-1]</rectangle>
 							<order>0</order>
@@ -3033,13 +3033,13 @@
 							<order>10</order>
 						</image>
 						<text>
-							<text>A Saint Inquisitor, is sitting on a high chair behind a desk full of books, sheets of papers, etc. As you approach the judge's bench: {s:card_b_default_italic}"I find the defendant guilty. We will not tolerate the spread of seditious lies about the inquisition."{s:} growls the magistrate.  {s:card_b_default_italic}"Perhaps a session with the interrogators with help you see the error of your ways. Yes, that should prove very effective. Veritas fidelis defendit!"{s:} The defendant covers her face in horror. The judge is busy writing on a piece of paper and pays little attention to you as your approach.</text>
+							<text>A Saint Inquisitor is sitting on a high chair behind a desk full of books and sheets of papers. As you approach the judge's bench: {s:card_b_default_italic}"I find the defendant guilty. We will not tolerate the spread of seditious lies about the Inquisition."{s:} growls the magistrate.  {s:card_b_default_italic}"Perhaps a session with the interrogators with help you see the error of your ways. Yes, that should prove very effective. Veritas fidelis defendit!"{s:} The defendant covers her face in horror. The judge is busy writing on a piece of paper and pays little attention to you as your approach.</text>
 							<style>card_b_default</style>
 							<rectangle>[86,570,773,-1]</rectangle>
 							<order>0</order>
 						</text>
 						<text>
-							<text>&#x2022; You may try to steal his notes{n}&#x00a0;&#x00a0;&#x2022;{I:skill_agile:75:-2} 4x{I:shield:75:-2}{n}&#x00a0;&#x2022; If successful, take {s:card_b_action_bold}Item {in:Plan Add Field}{s:}.</text>
+							<text>&#x2022; You may try to steal his notes{n}&#x00a0;&#x00a0;{I:skill_agile:75:-2} 4x{I:shield:75:-2}{n}&#x00a0; If successful, take {s:card_b_action_bold}Item {in:Plan Add Field}{s:}.</text>
 							<style>card_b_action</style>
 							<rectangle>[86,1280,773,-1]</rectangle>
 							<order>0</order>
@@ -3071,7 +3071,7 @@
 							<order>10</order>
 						</image>
 						<text>
-							<text>The judge turns slowly to the Sister and utters the bone chilling words: {s:card_b_default_italic}"Witch, how dare you defile my courtroom with your presence! We all know of your guilt, so I will spare these god-fearing folks from your temptations. I find you guilty and sentance you to a session with the interrogators. May god have mercy."{s:}</text>
+							<text>The judge turns slowly to the Sister and utters the bone chilling words: {s:card_b_default_italic}"Witch, how dare you defile my courtroom with your presence! We all know of your guilt, so I will spare these God-fearing folks from your temptations. I find you guilty and sentence you to a session with the interrogators. May God have mercy."{s:}</text>
 							<style>card_b_default</style>
 							<rectangle>[86,570,773,-1]</rectangle>
 							<order>0</order>
@@ -3109,7 +3109,7 @@
 							<order>10</order>
 						</image>
 						<text>
-							<text>The judge turns slowly to the Do&#x00f1;a Ortiz and utters the bone chilling words: {s:card_b_default_italic}"Witch, how dare you defile my courtroom with your presence! We all know of your guilt, so I will spare these god-fearing folks from your temptations. I find you guilty and sentance you to a session with the interrogators. May god have mercy."{s:}</text>
+							<text>The judge turns slowly to the Do&#x00f1;a Ortiz and utters the bone chilling words: {s:card_b_default_italic}"Witch, how dare you defile my courtroom with your presence! We all know of your guilt, so I will spare these God-fearing folks from your temptations. I find you guilty and sentence you to a session with the interrogators. May God have mercy."{s:}</text>
 							<style>card_b_default</style>
 							<rectangle>[86,570,773,-1]</rectangle>
 							<order>0</order>
@@ -3147,7 +3147,7 @@
 							<order>10</order>
 						</image>
 						<text>
-							<text>The judge turns slowly to Isabel and utters the bone chilling words: {s:card_b_default_italic}"Witch, how dare you defile my courtroom with your presence! We all know of your guilt, so I will spare these god-fearing folks from your temptations. I find you guilty and sentance you to a session with the interrogators. May god have mercy."{s:}</text>
+							<text>The judge turns slowly to Isabel and utters the bone chilling words: {s:card_b_default_italic}"Witch, how dare you defile my courtroom with your presence! We all know of your guilt, so I will spare these God-fearing folks from your temptations. I find you guilty and sentance you to a session with the interrogators. May God have mercy."{s:}</text>
 							<style>card_b_default</style>
 							<rectangle>[86,570,773,-1]</rectangle>
 							<order>0</order>
