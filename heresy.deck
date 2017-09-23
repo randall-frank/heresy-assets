@@ -841,6 +841,10 @@
 			<file>path_to_town</file>
 			<rectangle>[0,0,945,-1]</rectangle>
 		</image>
+		<image name="rodriguez">
+			<file>path_to_town</file>
+			<rectangle>[360,278,472,526]</rectangle>
+		</image>
 		<image name="woman_in_cart">
 			<file>path_to_town</file>
 			<rectangle>[1042,278,472,526]</rectangle>
@@ -848,6 +852,10 @@
 		<image name="acolyte">
 			<file>path_to_town</file>
 			<rectangle>[2312,254,556,625]</rectangle>
+		</image>
+		<image name="tallman">
+			<file>path_to_town</file>
+			<rectangle>[2912,114,556,625]</rectangle>
 		</image>
 		<image name="thicket">
 			<file>path_to_town</file>
@@ -2251,16 +2259,21 @@
 						</image>
 					</top>
 					<bottom>
+					 <image>
+						<image>rodriguez</image>
+						<rectangle>[240,80,505,-2]</rectangle>
+						<order>10</order>
+					 </image>
 						<text>
-							<text>The peasant pulls you out of earshot of the cart party.  {s:card_b_default_italic}"My name is Diego Rodr&#x00ed;guez and I need your help. My sister Catalina was working in the local inn when the inquisition came into town. After a few minutes of questioning they took her in a cart like this one to the town up ahead and we have not heard from her in a week. In fact I think she wanted to go with them! I have heard stories about what they do with these girls and I fear for her life. Here is a picture of Catalina.  If you find any information about her, please let me know. I plan to stay in the Inn in town. I've heard it can be a good source of information."{s:}</text>
+							<text>The peasant pulls you out of earshot of the cart party.  {s:card_b_default_italic}"My name is Diego Rodr&#x00ed;guez and I need your help. My sister Catalina was working in the local inn when the Inquisition came into town. After a few minutes of questioning they took her in a cart like this one to the town up ahead and we have not heard from her in a week. In fact I think she wanted to go with them! I have heard stories about what they do with these girls and I fear for her life. Here is a picture of Catalina.  If you find any information about her, please let me know. I plan to stay in the Inn in town. I've heard it can be a good source of information."{s:}</text>
 							<style>card_b_default</style>
-							<rectangle>[86,94,773,-1]</rectangle>
+							<rectangle>[86,650,773,-1]</rectangle>
 							<order>0</order>
 						</text>
 						<text>
 							<text>&#x2022; Take {s:card_b_action_bold}Item {in:Catalina Picture}{s:}</text>
 							<style>card_b_action</style>
-							<rectangle>[86,894,773,-1]</rectangle>
+							<rectangle>[86,1450,800,-1]</rectangle>
 							<order>0</order>
 						</text>
 					</bottom>
@@ -2321,10 +2334,15 @@
 						</image>
 					</top>
 					<bottom>
+					<image>
+					 <image>tallman</image>
+					 <rectangle>[240,70,505,-2]</rectangle>
+					 <order>10</order>
+					</image>
 						<text>
 							<text>The tall man hears you approach and addresses you without turning around. {s:card_b_default_italic}"You are coming to this village in dark times, my friend. The forces of evil seem to be particularly strong in this area. But do not worry: His Holiness the Pope prays for us every day, and is sending here his most trusted men to bring these poor lost souls back onto the right path of light, saving them from eternal damnation. Women are particularly weak and attracted by the forces of evil, so we must help them the most. We have to stay strong and have faith: the fight will be long and fierce, but the forces of Heaven will prevail. Mala tempora currunt, sed peiora parantur."</text>
 							<style>card_b_default</style>
-							<rectangle>[86,94,773,-1]</rectangle>
+							<rectangle>[86,650,773,-1]</rectangle>
 							<order>0</order>
 						</text>
 					</bottom>
@@ -2390,7 +2408,7 @@
 							<order>-99</order>
 						</image>
 						<text>
-							<text>  A dim ray of light from the clouds illuminates the town cemetery. New graves are being dug right now, and the earth is freshly turned in multiple locations.{n}  A cluster of people sobbing disturbs the quiet. So many stories mark their closing chapters here. This does not feel a place of peace...</text>
+							<text>  A dim ray of light from the clouds illuminates the town cemetery. New graves are being dug right now, and the earth is freshly turned in multiple locations.{n}  A cluster of people sobbing disturbs the quiet. So many stories mark their closing chapters here. This does not feel like a place of peace...</text>
 							<style>card_a_default</style>
 							<rectangle>[86,94,773,1350]</rectangle>
 							<order>0</order>
@@ -2668,7 +2686,7 @@
 							<order>0</order>
 						</text>
 						<text>
-							<text>&#x2022; If Bishop Aguilar, is on this card he takes {s:card_b_action_bold}Item {in:Space-Time Book}{s:}.</text>
+							<text>&#x2022; If Bishop Aguilar is on this card he takes {s:card_b_action_bold}Item {in:Space-Time Book}{s:}.</text>
 							<style>card_b_action</style>
 							<rectangle>[86,850,773,-1]</rectangle>
 							<order>0</order>
@@ -2695,7 +2713,7 @@
 							<order>0</order>
 						</text>
 						<text>
-							<text>&#x2022; If Isabel, is on this card the man might be convinced to speak: {I:skill_glib:75:-2} 4x{I:shield:75:-2}{n}On success, Isabel takes {s:card_b_action_bold}Item {in:trigger_streets}{s:}.</text>
+							<text>&#x2022; If Isabel is on this card, the man might be convinced to speak: {I:skill_glib:75:-2} 4x{I:shield:75:-2}{n}On success, Isabel takes {s:card_b_action_bold}Item {in:trigger_streets}{s:}.</text>
 							<style>card_b_action</style>
 							<rectangle>[86,1000,773,-1]</rectangle>
 							<order>0</order>
@@ -2712,7 +2730,7 @@
 					</top>
 					<bottom>
 						<text>
-							<text>The chapel housemaid makes eye contact and discretely gestures for you to join her. {s:card_b_default_italic}"I must warn you: be aware of the clergy in this town. Oh, they say beautiful things about helping women getting rid of their dark side, but they are way too fast in their judgments. And I would not be so sure about their intentions eeither. They have weird objects that they hide from everyone else's sight. God forgive me, I suspect they use black magic themselves. I stole this from their study. It seemed very important, perhaps you can investigate this matted further?"{s:}</text>
+							<text>The chapel housemaid makes eye contact and discretely gestures for you to join her. {s:card_b_default_italic}"I must warn you: be aware of the clergy in this town. Oh, they say beautiful things about helping women getting rid of their dark side, but they are way too fast in their judgments. And I would not be so sure about their intentions either. They have weird objects that they hide from everyone else's sight. God forgive me, I suspect they use black magic themselves. I stole this from their study. It seemed very important, perhaps you can investigate this matted further?"{s:}</text>
 							<style>card_b_default</style>
 							<rectangle>[86,94,773,-1]</rectangle>
 							<order>0</order>
@@ -2807,13 +2825,13 @@
 							<order>10</order>
 						</image>
 						<text>
-							<text>The chapel housemaid is cleaning the altar fixtures and looks nervously toward your group {s:card_b_default_italic}"You are not from here are you?"{s:} she asks in a hushed voice. You mention that you have followed the cart into town ask if that is commonplace here. {s:card_b_default_italic}"You must be very careful around the clergy here..."{s:}, the maid responds.</text>
+							<text>The chapel housemaid is cleaning the altar fixtures and looks nervously toward your group {s:card_b_default_italic}"You are not from here are you?"{s:} she asks in a hushed voice. You mention that you have followed the cart into town and ask if that is common sight here. {s:card_b_default_italic}"You must be very careful around the clergy here..."{s:}, the maid responds.</text>
 							<style>card_b_default</style>
 							<rectangle>[86,720,773,-1]</rectangle>
 							<order>0</order>
 						</text>
 						<text>
-							<text>&#x2022; You may engage the young woman in conversation: {I:skill_glib:75:-2} 4x{I:shield:75:-2}{n}&#x2022; On success she says, {s:card_b_default_italic}"I believe you can help, but we can't talk here.  Meet me at the Inn"{s:} Take token {I:token_yellow_1:75:-2}.</text>
+							<text>&#x2022; You may engage the young woman in conversation: {I:skill_glib:75:-2} 4x{I:shield:75:-2}{n}&#x2022; On success she says, {s:card_b_default_italic}"I believe you can help, but we can't talk here.  Meet me at the Inn."{s:}  Take token {I:token_yellow_1:75:-2}</text>
 							<style>card_b_action</style>
 							<rectangle>[86,1150,773,-1]</rectangle>
 							<order>0</order>
