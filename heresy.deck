@@ -842,9 +842,9 @@
 			<rectangle>[0,0,945,-1]</rectangle>
 		</image>
 		<image name="rodriguez">
-			<file>path_to_town</file>
-			<rectangle>[360,278,472,526]</rectangle>
-		</image>
+            <file>path_to_town</file>
+            <rectangle>[360,278,472,526]</rectangle>
+        </image>
 		<image name="woman_in_cart">
 			<file>path_to_town</file>
 			<rectangle>[1042,278,472,526]</rectangle>
@@ -853,10 +853,10 @@
 			<file>path_to_town</file>
 			<rectangle>[2312,254,556,625]</rectangle>
 		</image>
-		<image name="tallman">
-			<file>path_to_town</file>
-			<rectangle>[2912,114,556,625]</rectangle>
-		</image>
+        <image name="tallman">
+            <file>path_to_town</file>
+            <rectangle>[2912,114,556,625]</rectangle>
+        </image>
 		<image name="thicket">
 			<file>path_to_town</file>
 			<rectangle>[4122,409,603,716]</rectangle>
@@ -2259,21 +2259,21 @@
 						</image>
 					</top>
 					<bottom>
-					 <image>
-						<image>rodriguez</image>
-						<rectangle>[240,80,505,-2]</rectangle>
-						<order>10</order>
-					 </image>
+						<image>
+							<image>rodriguez</image>
+							<rectangle>[290,80,405,-2]</rectangle>
+							<order>10</order>
+						</image>
 						<text>
-							<text>The peasant pulls you out of earshot of the cart party.  {s:card_b_default_italic}"My name is Diego Rodr&#x00ed;guez and I need your help. My sister Catalina was working in the local inn when the Inquisition came into town. After a few minutes of questioning they took her in a cart like this one to the town up ahead and we have not heard from her in a week. In fact I think she wanted to go with them! I have heard stories about what they do with these girls and I fear for her life. Here is a picture of Catalina.  If you find any information about her, please let me know. I plan to stay in the Inn in town. I've heard it can be a good source of information."{s:}</text>
+                            <text>The peasant pulls you out of earshot of the cart party.  {s:card_b_default_italic}"My name is Diego Rodr&#x00ed;guez and I need your help. My sister Catalina was working in the local inn when the Inquisition came into town. After a few minutes of questioning they took her in a cart like this one to the town up ahead and we have not heard from her in a week. In fact I think she wanted to go with them! I have heard stories about what they do with these girls and I fear for her life. Here is a picture of Catalina.  If you find any information about her, please let me know. I plan to stay in the Inn in town. I've heard it can be a good source of information."{s:}</text>
 							<style>card_b_default</style>
-							<rectangle>[86,650,773,-1]</rectangle>
+                            <rectangle>[86,580,773,-1]</rectangle>
 							<order>0</order>
 						</text>
 						<text>
 							<text>&#x2022; Take {s:card_b_action_bold}Item {in:Catalina Picture}{s:}</text>
 							<style>card_b_action</style>
-							<rectangle>[86,1450,800,-1]</rectangle>
+							<rectangle>[86,1400,773,-1]</rectangle>
 							<order>0</order>
 						</text>
 					</bottom>
@@ -2334,15 +2334,15 @@
 						</image>
 					</top>
 					<bottom>
-					<image>
-					 <image>tallman</image>
-					 <rectangle>[240,70,505,-2]</rectangle>
-					 <order>10</order>
-					</image>
+						<image>
+							 <image>tallman</image>
+							 <rectangle>[240,70,505,-2]</rectangle>
+							 <order>10</order>
+						</image>
 						<text>
 							<text>The tall man hears you approach and addresses you without turning around. {s:card_b_default_italic}"You are coming to this village in dark times, my friend. The forces of evil seem to be particularly strong in this area. But do not worry: His Holiness the Pope prays for us every day, and is sending here his most trusted men to bring these poor lost souls back onto the right path of light, saving them from eternal damnation. Women are particularly weak and attracted by the forces of evil, so we must help them the most. We have to stay strong and have faith: the fight will be long and fierce, but the forces of Heaven will prevail. Mala tempora currunt, sed peiora parantur."</text>
 							<style>card_b_default</style>
-							<rectangle>[86,650,773,-1]</rectangle>
+                            <rectangle>[86,650,773,-1]</rectangle>
 							<order>0</order>
 						</text>
 					</bottom>
@@ -2408,7 +2408,7 @@
 							<order>-99</order>
 						</image>
 						<text>
-							<text>  A dim ray of light from the clouds illuminates the town cemetery. New graves are being dug right now, and the earth is freshly turned in multiple locations.{n}  A cluster of people sobbing disturbs the quiet. So many stories mark their closing chapters here. This does not feel like a place of peace...</text>
+                            <text>  A dim ray of light from the clouds illuminates the town cemetery. New graves are being dug right now, and the earth is freshly turned in multiple locations.{n}  A cluster of people sobbing disturbs the quiet. So many stories mark their closing chapters here. This does not feel like a place of peace...</text>
 							<style>card_a_default</style>
 							<rectangle>[86,94,773,1350]</rectangle>
 							<order>0</order>
@@ -2713,7 +2713,7 @@
 							<order>0</order>
 						</text>
 						<text>
-							<text>&#x2022; If Isabel is on this card, the man might be convinced to speak: {I:skill_glib:75:-2} 4x{I:shield:75:-2}{n}On success, Isabel takes {s:card_b_action_bold}Item {in:trigger_streets}{s:}.</text>
+							<text>&#x2022; If Isabel is on this card the man might be convinced to speak: {I:skill_glib:75:-2} 4x{I:shield:75:-2}{n}On success, Isabel takes {s:card_b_action_bold}Item {in:trigger_streets}{s:}.</text>
 							<style>card_b_action</style>
 							<rectangle>[86,1000,773,-1]</rectangle>
 							<order>0</order>
@@ -2730,7 +2730,7 @@
 					</top>
 					<bottom>
 						<text>
-							<text>The chapel housemaid makes eye contact and discretely gestures for you to join her. {s:card_b_default_italic}"I must warn you: be aware of the clergy in this town. Oh, they say beautiful things about helping women getting rid of their dark side, but they are way too fast in their judgments. And I would not be so sure about their intentions either. They have weird objects that they hide from everyone else's sight. God forgive me, I suspect they use black magic themselves. I stole this from their study. It seemed very important, perhaps you can investigate this matted further?"{s:}</text>
+                            <text>The chapel housemaid makes eye contact and discretely gestures for you to join her. {s:card_b_default_italic}"I must warn you: be wary of the clergy in this town. They say beautiful things about freeing women from the their dark sides, but are quick to judge and deliver summary punishment. I would not be so sure about their intentions either. They have exotic objects that they hide from everyone's sight. God forgive me, I suspect they use black magic themselves. I stole this from their study. It seemed very important, perhaps you can investigate this matted further?"{s:}</text>
 							<style>card_b_default</style>
 							<rectangle>[86,94,773,-1]</rectangle>
 							<order>0</order>
@@ -2738,7 +2738,7 @@
 						<text>
 							<text>&#x2022; She hands you {s:card_b_action_bold}Item {in:Stained Glass A}{s:}.</text>
 							<style>card_b_action</style>
-							<rectangle>[86,850,773,-1]</rectangle>
+							<rectangle>[86,870,773,-1]</rectangle>
 							<order>0</order>
 						</text>
 					</bottom>
@@ -2825,7 +2825,7 @@
 							<order>10</order>
 						</image>
 						<text>
-							<text>The chapel housemaid is cleaning the altar fixtures and looks nervously toward your group {s:card_b_default_italic}"You are not from here are you?"{s:} she asks in a hushed voice. You mention that you have followed the cart into town and ask if that is common sight here. {s:card_b_default_italic}"You must be very careful around the clergy here..."{s:}, the maid responds.</text>
+                            <text>The chapel housemaid is cleaning the altar fixtures and looks nervously toward your group {s:card_b_default_italic}"You are not from here are you?"{s:} she asks in a hushed voice. You mention that you have followed the cart into town and ask if that is a common sight here. {s:card_b_default_italic}"You must be very careful around the clergy here..."{s:}, the maid responds.</text>
 							<style>card_b_default</style>
 							<rectangle>[86,720,773,-1]</rectangle>
 							<order>0</order>
@@ -2931,7 +2931,7 @@
 							<order>-99</order>
 						</image>
 						<text>
-							<text>  The courtroom is spread out in front of your party.  On the left is the gallery where a small collection of townsfolk are observing the proceedings. A decorative piece of glass gracing the end of an occupied bench catches the eye. In the center, the counsel and the bailiff stand at a table before the judge with a despondent, haggered-looking defendant. The judge has just rendered a verdict and is recording his decision on your right.</text>
+                            <text>  The courtroom is spread out in front of your party.  On the left is the gallery where a small collection of townsfolk are observing the proceedings. A decorative piece of glass gracing the end of an occupied bench catches your eye. In the center, the counsel and the bailiff stand at a table before the judge with a despondent, haggered-looking defendant. The judge has just rendered a verdict and is recording his decision on the right.</text>
 							<style>card_a_default</style>
 							<rectangle>[86,94,773,1350]</rectangle>
 							<order>0</order>
@@ -2958,7 +2958,7 @@
 							<order>0</order>
 						</text>
 						<text>
-							<text>There are two ways to obtain the stained glass:{n}&#x00a0;&#x00a0;&#x2022; Pilfer it {I:skill_agile:75:-2} 4x{I:shield:75:-2}, {n}&#x00a0;&#x2022; Convince the woman you need to remove it for "cleaning" {I:skill_glib:75:-2} 4x{I:shield:75:-2}{n}{n} If successful, take {s:card_b_action_bold}Item {in:Stained Glass D}{s:}.</text>
+                            <text>There are two ways to obtain the stained glass:{n}&#x00a0;&#x00a0;&#x2022; Pilfer it {I:skill_agile:75:-2} 4x{I:shield:75:-2}, {n}&#x00a0;&#x2022; Convince the woman you need to remove it for "cleaning" {I:skill_glib:75:-2} 4x{I:shield:75:-2}{n}{n} If successful, take {s:card_b_action_bold}Item {in:Stained Glass D}{s:}.</text>
 							<style>card_b_action</style>
 							<rectangle>[86,1080,773,-1]</rectangle>
 							<order>0</order>
@@ -2985,7 +2985,7 @@
 							<order>0</order>
 						</text>
 						<text>
-							<text>&#x2022; The defendant turns to you and hands you a little package, {s:card_b_default_italic}"They dropped this piece of witchcraft when they took her.  Please, find my sister!"{s:} Take {s:card_b_action_bold}Item {in:Plunger}{s:}.</text>
+							<text>&#x2022; The defendant turns to you and hands you a little package, {s:card_b_default_italic}"They dropped this piece of witchcraft when they took her.  Please, find my sister!"{s:} Take {s:card_b_action_bold}Item {in:Plunger Tube}{s:}.</text>
 							<style>card_b_action</style>
 							<rectangle>[86,1200,773,-1]</rectangle>
 							<order>0</order>
@@ -3012,7 +3012,7 @@
 							<order>0</order>
 						</text>
 						<text>
-							<text>&#x2022; If you try to take the scroll the bailiff will confront you: {s:card_b_default_italic}"Miscreant!"{s:}{n}&#x00a0;&#x00a0;{I:skill_combat:75:-2} {I:shield_red_skull:75:-2} 2x{I:shield_heart:75:-2}{n}&#x00a0; If successful, take the scroll {s:card_b_action_bold}Item {in:Star Chart D}{s:} and something the bailiff was reaching for: {s:card_b_action_bold}Item {in:Tube with handle}{s:}.</text>
+                            <text>&#x2022; If you try to take the scroll the bailiff will confront you: {s:card_b_default_italic}"Miscreant!"{s:}{n}&#x00a0;&#x00a0;{I:skill_combat:75:-2} {I:shield_red_skull:75:-2} 2x{I:shield_heart:75:-2}{n}&#x00a0; If successful, take the scroll {s:card_b_action_bold}Item {in:Star Chart D}{s:} and something the bailiff was reaching for: {s:card_b_action_bold}Item {in:Tube with Handle}{s:}.</text>
 							<style>card_b_action</style>
 							<rectangle>[86,1170,773,-1]</rectangle>
 							<order>0</order>
@@ -3033,13 +3033,13 @@
 							<order>10</order>
 						</image>
 						<text>
-							<text>A Saint Inquisitor is sitting on a high chair behind a desk full of books and sheets of papers. As you approach the judge's bench: {s:card_b_default_italic}"I find the defendant guilty. We will not tolerate the spread of seditious lies about the Inquisition."{s:} growls the magistrate.  {s:card_b_default_italic}"Perhaps a session with the interrogators with help you see the error of your ways. Yes, that should prove very effective. Veritas fidelis defendit!"{s:} The defendant covers her face in horror. The judge is busy writing on a piece of paper and pays little attention to you as your approach.</text>
+                            <text>A Saint Inquisitor is sitting on a high chair behind a desk full of books and sheets of papers. As you approach the judge's bench: {s:card_b_default_italic}"I find the defendant guilty. We will not tolerate the spread of seditious lies about the Inquisition."{s:} growls the magistrate.  {s:card_b_default_italic}"Perhaps a session with the interrogators with help you see the error of your ways. Yes, that should prove very effective. Veritas fidelis defendit!"{s:} The defendant covers her face in horror. The judge is busy writing on a piece of paper and pays little attention to you as your approach.</text>
 							<style>card_b_default</style>
 							<rectangle>[86,570,773,-1]</rectangle>
 							<order>0</order>
 						</text>
 						<text>
-							<text>&#x2022; You may try to steal his notes{n}&#x00a0;&#x00a0;{I:skill_agile:75:-2} 4x{I:shield:75:-2}{n}&#x00a0; If successful, take {s:card_b_action_bold}Item {in:Plan Add Field}{s:}.</text>
+                            <text>&#x2022; You may try to steal his notes{n}&#x00a0;&#x00a0;{I:skill_agile:75:-2} 4x{I:shield:75:-2}{n}&#x00a0; If successful, take {s:card_b_action_bold}Item {in:Plan Add Field}{s:}.</text>
 							<style>card_b_action</style>
 							<rectangle>[86,1280,773,-1]</rectangle>
 							<order>0</order>
@@ -3071,7 +3071,7 @@
 							<order>10</order>
 						</image>
 						<text>
-							<text>The judge turns slowly to the Sister and utters the bone chilling words: {s:card_b_default_italic}"Witch, how dare you defile my courtroom with your presence! We all know of your guilt, so I will spare these God-fearing folks from your temptations. I find you guilty and sentence you to a session with the interrogators. May God have mercy."{s:}</text>
+                            <text>The judge turns slowly to the Sister and utters the bone chilling words: {s:card_b_default_italic}"Witch, how dare you defile my courtroom with your presence! We all know of your guilt, so I will spare these God-fearing folks from your temptations. I find you guilty and sentence you to a session with the interrogators. May God have mercy."{s:}</text>
 							<style>card_b_default</style>
 							<rectangle>[86,570,773,-1]</rectangle>
 							<order>0</order>
@@ -3109,7 +3109,7 @@
 							<order>10</order>
 						</image>
 						<text>
-							<text>The judge turns slowly to the Do&#x00f1;a Ortiz and utters the bone chilling words: {s:card_b_default_italic}"Witch, how dare you defile my courtroom with your presence! We all know of your guilt, so I will spare these God-fearing folks from your temptations. I find you guilty and sentence you to a session with the interrogators. May God have mercy."{s:}</text>
+                            <text>The judge turns slowly to the Do&#x00f1;a Ortiz and utters the bone chilling words: {s:card_b_default_italic}"Witch, how dare you defile my courtroom with your presence! We all know of your guilt, so I will spare these God-fearing folks from your temptations. I find you guilty and sentence you to a session with the interrogators. May God have mercy."{s:}</text>
 							<style>card_b_default</style>
 							<rectangle>[86,570,773,-1]</rectangle>
 							<order>0</order>
@@ -3147,7 +3147,7 @@
 							<order>10</order>
 						</image>
 						<text>
-							<text>The judge turns slowly to Isabel and utters the bone chilling words: {s:card_b_default_italic}"Witch, how dare you defile my courtroom with your presence! We all know of your guilt, so I will spare these God-fearing folks from your temptations. I find you guilty and sentance you to a session with the interrogators. May God have mercy."{s:}</text>
+                            <text>The judge turns slowly to Isabel and utters the bone chilling words: {s:card_b_default_italic}"Witch, how dare you defile my courtroom with your presence! We all know of your guilt, so I will spare these God-fearing folks from your temptations. I find you guilty and sentance you to a session with the interrogators. May God have mercy."{s:}</text>
 							<style>card_b_default</style>
 							<rectangle>[86,570,773,-1]</rectangle>
 							<order>0</order>
@@ -3242,7 +3242,11 @@
 							<order>0</order>
 						</text>
 						<text>
+<<<<<<< HEAD
 							<text>&#x2022; To open the cupboard, you must pass the challenge:{n}&#x00a0;&#x00a0;{I:skill_agile:75:-2} 2x{I:shield:75:-2} 2x{I:shield_shield:75:-2}{n}&#x00a0; If successful, take {s:card_b_action_bold}Item {in:Battery}{s:}.</text>
+=======
+							<text>&#x2022; To open the cupboard, you must pass the challenge:{n}&#x00a0;&#x00a0;&#x2022;{I:skill_agile:75:-2} 2x{I:shield:75:-2} 2x{I:shield_shield:75:-2}{n}&#x00a0;&#x2022; If successful, take {s:card_b_action_bold}Item {in:Box of Lightning}{s:}.</text>
+>>>>>>> 7c06da121389f2657aa22fa8cc6cb9aaf6480ed3
 							<style>card_b_action</style>
 							<rectangle>[86,1230,773,-1]</rectangle>
 							<order>0</order>
@@ -4338,7 +4342,7 @@
 							<order>0</order>
 						</text>
 						<text>
-							<text>&#x2022; If you have {s:card_b_action_bold}Item {in:Battery}{s:}, you may connect it to the head and any other body parts you are carrying.{n}&#x2022; {I:skill_agile:75:-2} 2x{I:shield:75:-2} 2x:{I:shield_time:75:-2}{n}&#x2022; On success take {s:card_b_action_bold}Item {in:The Golem}{s:}.</text>
+							<text>&#x2022; If you have {s:card_b_action_bold}Item {in:Box of Lightning}{s:}, you may connect it to the head and any other body parts you are carrying.{n}&#x2022; {I:skill_agile:75:-2} 2x{I:shield:75:-2} 2x:{I:shield_time:75:-2}{n}&#x2022; On success take {s:card_b_action_bold}Item {in:The Golem}{s:}.</text>
 							<style>card_b_action</style>
 							<rectangle>[86,780,773,-1]</rectangle>
 							<order>0</order>
@@ -5195,13 +5199,13 @@
 				</text>
 					<image>
 						<image>catalina_locket</image>
-						<rectangle>[200,80,545,-2]</rectangle>
+						<rectangle>[200,120,545,-2]</rectangle>
 						<order>10</order>
 					</image>
 					<text>
-						<text>A chain is visible in the ashes.  You fish it out of the pile and your heart sinks.  This locket looks familiar...  An inscription on the back names its prior owner: Catalina.</text>
+						<text>A thin chain is visible in the ashes.  You collect the object from the pile and your heart sinks.  This locket looks familiar...  An inscription on the back names its prior owner: Catalina.</text>
 						<style>card_b_default</style>
-						<rectangle>[86,980,773,-1]</rectangle>
+						<rectangle>[86,1000,773,-1]</rectangle>
 						<order>0</order>
 					</text>
 				</bottom>
@@ -5223,7 +5227,7 @@
 						<order>10</order>
 					</image>
 					<text>
-						<text>A substantial length of wood broken off from a light sapling.</text>
+						<text>A substantial length of wood taken from a light sapling.</text>
 						<style>card_b_default</style>
 						<rectangle>[86,870,773,-1]</rectangle>
 						<order>0</order>
@@ -5301,13 +5305,13 @@
 					</text>
 					<image>
 						<image>bottle</image>
-						<rectangle>[220,150,505,-2]</rectangle>
+						<rectangle>[220,120,505,-2]</rectangle>
 						<order>10</order>
 					</image>
 					<text>
 						<text>The barkeep motions toward the stonemason: {s:card_b_default_italic}"say 'red' aren't you familiar to me?  You repaired our well! Have this bottle on the house!"{s:}</text>
 						<style>card_b_default</style>
-						<rectangle>[86,1280,773,-1]</rectangle>
+						<rectangle>[86,1240,773,-1]</rectangle>
 						<order>0</order>
 					</text>
 				</bottom>
@@ -5328,14 +5332,14 @@
 						<order>10</order>
 					</image>
 					<text>
-						<text>The appears to have confused the bishop for someone else. You do not correct him: {s:card_b_default_italic}"Reverend, what are you doing here? We were supposed to meet at the chapel. I just got back from the laboratory, here is the book you were looking for".{s:}</text>
+						<text>The drunk appears to have confused the bishop for someone else? You do not correct him. {s:card_b_default_italic}"Reverend, what are you doing here? We were supposed to meet at the chapel. I just got back from the laboratory, here is the book you were looking for".{s:}</text>
 						<style>card_b_default</style>
 						<rectangle>[86,1020,773,-1]</rectangle>
 						<order>0</order>
 					</text>
 				</bottom>
 			</card>
-			<card name="Zune">
+			<card name="Magic Voice Box">
 				<top>
 				</top>
 				<bottom>
@@ -5351,14 +5355,14 @@
 						<order>10</order>
 					</image>
 					<text>
-						<text>Magic voice box, an odd, unfamiliar object.  When placed close to your ear, sometimes you can hear the cries of the damned souls {s:card_b_default_italic}"...please allow me to introduce myself, I'm a man of wealth and taste... ...pleased to meet you, hope you guess my name..."{s:}  What else but the desperate cries of tortured souls?</text>
+						<text>An odd, unfamiliar object that suddenly comes to live when you touch its face.  When placed close to your ear, sometimes you can hear the cries of the damned souls trapped within. {s:card_b_default_italic}"...please allow me to introduce myself, I'm a man of wealth and taste... ...pleased to meet you, hope you guess my name..."{s:}  What else but the desperate cries of tortured souls?</text>
 						<style>card_b_default</style>
 						<rectangle>[86,850,773,-1]</rectangle>
 						<order>0</order>
 					</text>
 				</bottom>
 			</card>
-			<card name="Battery">
+			<card name="Box of Lightning">
 				<top>
 				</top>
 				<bottom>
@@ -5440,7 +5444,7 @@
 				</bottom>
 			</card>
 
-			<card name="Plunger">
+			<card name="Plunger Tube">
 				<top>
 				</top>
 				<bottom>
@@ -5456,7 +5460,7 @@
 						<order>10</order>
 					</image>
 					<text>
-						<text>Plunger Tube - A dull, translucent tube that appears to have a liquid in it.  There is a plunger at one end and an extremely sharp, thin metal tip at the other end.  Perhaps a means to deliver the liquid?</text>
+						<text>A dull, translucent tube appears to have a liquid within it.  There is a plunger at one end and an extremely sharp, thin metal tip at the other end.  Perhaps a means to deliver the liquid?</text>
 						<style>card_b_default</style>
 						<rectangle>[86,800,773,-1]</rectangle>
 						<order>0</order>
@@ -5500,7 +5504,7 @@
 				</bottom>
 			</card>
 
-			<card name="Tube with handle">
+			<card name="Tube with Handle">
 				<top>
 				</top>
 				<bottom>
@@ -5516,7 +5520,7 @@
 						<order>10</order>
 					</image>
 					<text>
-						<text>Tube with Handle - An empty metal tube with a wooden grip attached to one end of the tube. The metal has an unnatural bluish finish that does seem to be the product of witchcraft.</text>
+						<text>A complex mechanism in the form of a metal tube with a wooden grip attached to one end of the tube. The metal has an unnatural bluish finish that does seem to be the product of witchcraft.</text>
 						<style>card_b_default</style>
 						<rectangle>[86,810,773,-1]</rectangle>
 						<order>0</order>
@@ -5533,19 +5537,19 @@
 				<top>
 				</top>
 				<bottom>
-				<text>
-					<text>{cs:}</text>
-					<style>normal_black_center</style>
-					<rectangle>[100,50,745,-1]</rectangle>
-					<order>0</order>
-				</text>
+					<text>
+						<text>{cs:}</text>
+						<style>normal_black_center</style>
+						<rectangle>[100,50,745,-1]</rectangle>
+						<order>0</order>
+					</text>
 					<image>
 						<image>nailgun</image>
 						<rectangle>[100,130,745,-2]</rectangle>
 						<order>10</order>
 					</image>
 					<text>
-						<text>"Nail gun" states the text on the item: "Nothing better than a good old carpenter tool..."</text>
+						<text>"Nail gun" states the text on the item: "Nothing better than a good old carpenter tool..."  You pull the trigger on the device and jump aside as a nail is shot out of the device, embedding itself deeply into the nearby wall.  A good old carpenter tool indeed.</text>
 						<style>card_b_default</style>
 						<rectangle>[86,730,773,-1]</rectangle>
 						<order>0</order>
@@ -5553,7 +5557,7 @@
 					<text>
 						<text>The nail gun gives you one extra die to roll during a {I:skill_combat:75:-2} challenge. It cannot be used by familiars.</text>
 						<style>card_b_action</style>
-						<rectangle>[86,930,773,-1]</rectangle>
+						<rectangle>[86,1120,773,-1]</rectangle>
 						<order>0</order>
 					</text>
 				</bottom>
@@ -5563,9 +5567,15 @@
 				</top>
 				<bottom>
 					<text>
-						<text>Phil's body lies in a heap on the ground. Blood begats blood begats blood begats blood... the cycle continues. If you do not already have them, take {s:card_b_action_bold}Item {in:Phil Note 2}{s:} and token {I:token_blue_3:100:-2}.</text>
-						<style>card_b_action</style>
+						<text>Phil's body lies in a heap on the ground. Blood begats blood, begats blood, begats blood... One can only hope that as his death ripples through time that the impact is reasonably contained.</text>
+						<style>card_b_default</style>
 						<rectangle>[86,50,773,-1]</rectangle>
+						<order>0</order>
+					</text>
+					<text>
+						<text>If you do not already have them, take {s:card_b_action_bold}Item {in:Phil Note 2}{s:} and token {I:token_blue_3:100:-2}.</text>
+						<style>card_b_action</style>
+						<rectangle>[86,350,773,-1]</rectangle>
 						<order>0</order>
 					</text>
 				</bottom>
@@ -5576,13 +5586,13 @@
 				<bottom>
 					<image>
 						<image>paper2</image>
-						<rectangle>[20,280,905,-2]</rectangle>
+						<rectangle>[20,180,905,-2]</rectangle>
 						<order>10</order>
 					</image>
 					<text>
-						<text>Phil,{n}{n}We are making a lot of progress now, but all this jumping back and forth in time is wearing on me a bit. I need you to be able to run some of the time errands for me while I deal with collecting more souls.  Here are the basic instructions on how to use the portal.  Familiarize yourself with the controls and let me know when you are ready to use the device solo. Just a few more trips and I think we might even be able to get Bob off our backs.{n}{n}Keith.</text>
+						<text>Phil,{n}{n}We are making a lot of progress, but all this jumping back and forth in time is wearing me a bit thin. I need you to be able to run some temporal errands for me while I deal with the collection of more souls.  Here are the basic instructions on how to use the portal.  Familiarize yourself with the controls and let me know when you are ready to use the device solo. Just a few more trips and I think we might even be able to get Bob off our backs.{n}{n}Keith.</text>
 						<style>normal_black_full_smaller</style>
-						<rectangle>[150,400,645,-1]</rectangle>
+						<rectangle>[150,300,645,-1]</rectangle>
 						<order>11</order>
 					</text>
 				</bottom>
@@ -5592,7 +5602,7 @@
 				</top>
 				<bottom>
 					<text>
-						<text>{s:card_b_default_italic}"You only see what you want to believe, when you creep from the back I got tricks up my sleeve..."{s:}, you overhear the last whispers of a dying man before he expires. Rifling through the dead man's pockets you find a T.I.M.E. Agents ID. Opening it slowly reveals the photo of the dead man and the name 'Keith Fitzgerald, T.I.M.E Agent Second Class'. So this is the elusive, rogue agent you have been struggling so fervently to apprehend.  It appears this mission has reached its conclusion. If you have the token {I:token_blue_3:100:-2}, take the card</text>
+						<text>{s:card_b_default_italic}"You only see what you want to believe, when you creep from the back I got tricks up my sleeve..."{s:}, you overhear the last whispers of a dying man before he expires. Rifling through the dead man's pockets you find a T.I.M.E Agents ID. Opening it slowly reveals the photo of the dead man and the name 'Keith Fitzgerald, T.I.M.E Agent Second Class'. So this is the elusive, rogue agent you have been struggling so fervently to apprehend.  It appears this mission has reached its conclusion. If you have the token {I:token_blue_3:100:-2}, take the card</text>
 						<style>card_b_default</style>
 						<rectangle>[86,50,773,-1]</rectangle>
 						<order>0</order>
@@ -5625,7 +5635,7 @@
 				</top>
 				<bottom>
 					<text>
-						<text>A nuanced verbal exchange ensues.  It quickly becomes obvious that he is a T.I.M.E. Agent as well. "Agent Smith", he relates.  Shaking your hands,  {s:card_b_default_italic}"I have been tracking Keith as well. It looks like you came just in time to help me put a stop to his plans. He has been wreaking havoc with the lines of time. It is only a matter of time before he irreparably alters our timeline. I believe the man in the Electronics section is Keith himself. Why don't you head over there and confront him?  I will join you shortly."{s:} </text>
+						<text>A nuanced verbal exchange ensues.  It quickly becomes obvious that he is a T.I.M.E Agent as well. "Agent Smith", he relates.  Shaking your hands,  {s:card_b_default_italic}"I have been tracking Keith as well. It looks like you came just in time to help me put a stop to his plans. He has been wreaking havoc with these lines of time and the local gentry. It is only a matter of time before he irreparably alters our timeline. I believe the man in the Electronics section is Keith himself. Why don't you head over there and confront him?  I will join you shortly."{s:} </text>
 						<style>card_b_default</style>
 						<rectangle>[86,50,773,-1]</rectangle>
 						<order>0</order>
@@ -5642,15 +5652,21 @@
 						<order>10</order>
 					</image>
 					<text>
-						<text>The infamous "Daisy" shorts</text>
+						<text>"Daisy" Shorts</text>
 						<style>large_black</style>
 						<rectangle>[86,50,773,-1]</rectangle>
 						<order>0</order>
 					</text>
 					<text>
-						<text>If you wear them in combat, they distract the adversary.  Take one less {I:red_skull:75:-2} from any combat rolls where one appears.</text>
+						<text>A questionable fashion statement in any timeline. However, if you wear them in combat, they will distract your adversary. </text>
 						<style>card_b_default</style>
 						<rectangle>[86,900,773,-1]</rectangle>
+						<order>0</order>
+					</text>
+					<text>
+						<text>Take one less {I:red_skull:75:-2} from any combat rolls where one appears.</text>
+						<style>card_b_action</style>
+						<rectangle>[86,1100,773,-1]</rectangle>
 						<order>0</order>
 					</text>
 				</bottom>
@@ -5660,12 +5676,12 @@
 				<top>
 				</top>
 				<bottom>
-				<text>
-					<text>{cs:}</text>
-					<style>normal_black_center</style>
-					<rectangle>[100,50,745,-1]</rectangle>
-					<order>0</order>
-				</text>
+					<text>
+						<text>{cs:}</text>
+						<style>normal_black_center</style>
+						<rectangle>[100,50,745,-1]</rectangle>
+						<order>0</order>
+					</text>
 					<image name="Star Chart A">
 						<image>arm1</image>
 						<rectangle>[300,1150,945,-2]</rectangle>
@@ -5673,7 +5689,7 @@
 						<order>10</order>
 					</image>
 					<text>
-						<text>A human arm, cleft at the shoulder.  The tattoo looks to be made with modern ink and technique.  Martin may not have been local.</text>
+						<text>A human arm, cleft at the shoulder.  The tattoo looks to be made with modern ink and technique.  It is unlikely that Martin was native to this timeline.</text>
 						<style>card_b_default</style>
 						<rectangle>[86,1200,773,-1]</rectangle>
 						<order>0</order>
@@ -5684,12 +5700,12 @@
 				<top>
 				</top>
 				<bottom>
-				<text>
-					<text>{cs:}</text>
-					<style>normal_black_center</style>
-					<rectangle>[100,50,745,-1]</rectangle>
-					<order>0</order>
-				</text>
+					<text>
+						<text>{cs:}</text>
+						<style>normal_black_center</style>
+						<rectangle>[100,50,745,-1]</rectangle>
+						<order>0</order>
+					</text>
 					<image>
 						<image>arm2</image>
 						<rectangle>[680,200,945,-2]</rectangle>
@@ -5708,12 +5724,12 @@
 				<top>
 				</top>
 				<bottom>
-				<text>
-					<text>{cs:}</text>
-					<style>normal_black_center</style>
-					<rectangle>[100,50,745,-1]</rectangle>
-					<order>0</order>
-				</text>
+					<text>
+						<text>{cs:}</text>
+						<style>normal_black_center</style>
+						<rectangle>[100,50,745,-1]</rectangle>
+						<order>0</order>
+					</text>
 					<image>
 						<image>leg1</image>
 						<rectangle>[200,130,545,-2]</rectangle>
@@ -5731,12 +5747,12 @@
 				<top>
 				</top>
 				<bottom>
-				<text>
-					<text>{cs:}</text>
-					<style>normal_black_center</style>
-					<rectangle>[100,50,745,-1]</rectangle>
-					<order>0</order>
-				</text>
+					<text>
+						<text>{cs:}</text>
+						<style>normal_black_center</style>
+						<rectangle>[100,50,745,-1]</rectangle>
+						<order>0</order>
+					</text>
 					<image>
 						<image>leg2</image>
 						<rectangle>[200,200,545,-2]</rectangle>
@@ -6337,15 +6353,21 @@
 				</top>
 				<bottom>
 					<text>
-						<text>A Child's Saint Foillan medal.{n}{n}{n}A little object is adjusted on top of the grave. It's a little, shiny medal. Sister Maria approaches, but she gasps and falls to her knees as soon as she reads the name on the cross. That grave... that's the grave of the little child who died under her care so long ago. {s:card_b_default_italic}"Sorry...  so sorry...  I tried to save, tried to save ...I am... ...I am... nothing."{s:} She reaches out and picks up the medal, tucking it beneath her robes, a reminder of a time she has tried desperately to forget. Head bowed, she sobs quietly to herself.</text>
+						<text>A Child's Saint Foillan Medal</text>
+						<style>normal_black_center</style>
+						<rectangle>[100,50,745,-1]</rectangle>
+						<order>0</order>
+					</text>
+					<text>
+						<text>A little object is adjusted on top of the grave. It's a little, shiny medal. Sister Maria approaches, but she gasps and falls to her knees as soon as she reads the name on the cross. That grave... that's the grave of the little child who died under her care so long ago. {s:card_b_default_italic}"Sorry...  so sorry...  I tried to save, tried to save ...I am... ...I am... nothing."{s:} She reaches out and picks up the medal, tucking it beneath her robes, a reminder of a time she has tried so desperately to forget. Head bowed, she sobs quietly to herself.</text>
 						<style>card_b_default</style>
-						<rectangle>[86,94,773,-1]</rectangle>
+						<rectangle>[86,180,773,-1]</rectangle>
 						<order>0</order>
 					</text>
 					<text>
 						<text>&#x2022; The Sister Mar&#x00ed;a character takes the token {I:token_blue_1:100:-2}.</text>
 						<style>card_b_action</style>
-						<rectangle>[86,1100,773,-1]</rectangle>
+						<rectangle>[86,900,773,-1]</rectangle>
 						<order>0</order>
 					</text>
 				</bottom>
@@ -6355,15 +6377,21 @@
 				</top>
 				<bottom>
 					<text>
-						<text>A strange drink.{n}{n}{n}A mug with a liquid of curious perfume. When Isabel takes a sip she immediately sits up straight and shakes her head, fighting the demons that the drink stirred up in her. After a few seconds she regains her composure, but there is an odd glint in her eye.</text>
+						<text>An Unfamiliar Drink</text>
+						<style>normal_black_center</style>
+						<rectangle>[100,50,745,-1]</rectangle>
+						<order>0</order>
+					</text>
+					<text>
+						<text>A mug with a liquid of curious perfume. When Isabel takes a sip she immediately sits up straight and shakes her head, fighting the demons that the drink stirred up in her. After a few seconds she regains her composure, but an odd glint remains in her eye.</text>
 						<style>card_b_default</style>
-						<rectangle>[86,94,773,-1]</rectangle>
+						<rectangle>[86,180,773,-1]</rectangle>
 						<order>0</order>
 					</text>
 					<text>
 						<text>&#x2022; The Isabel character takes the token {I:token_green_2:100:-2}.</text>
 						<style>card_b_action</style>
-						<rectangle>[86,1100,773,-1]</rectangle>
+						<rectangle>[86,570,773,-1]</rectangle>
 						<order>0</order>
 					</text>
 				</bottom>
@@ -6373,15 +6401,21 @@
 				</top>
 				<bottom>
 					<text>
-						<text>Pouch of drugged dust.{n}{n}{n}A small bellows and a pouch containing a light power. Leaning close to the mesh, to hear the priest's response to her request for absolution, Do&#x00f1;a Ortiz is startled by a puff of powder coming through the mesh. She pulls back to avoid the stinging particles, but it is too late, she has most definitely inhaled the plume. She pauses for a moment, listening to sounds unheard by anyone but her before returning to the present.</text>
+						<text>Pouch of Drugged Dust</text>
+						<style>normal_black_center</style>
+						<rectangle>[100,50,745,-1]</rectangle>
+						<order>0</order>
+					</text>
+					<text>
+						<text>A small bellows and a pouch containing a light power. Leaning close to the mesh, to hear the priest's response to her request for absolution, Do&#x00f1;a Ortiz is startled by a puff of powder coming through the mesh. She pulls back to avoid the stinging particles, but it is too late, she has most definitely inhaled the plume. She pauses for a moment, listening to sounds unheard by anyone but her before returning to the present.</text>
 						<style>card_b_default</style>
-						<rectangle>[86,94,773,-1]</rectangle>
+						<rectangle>[86,180,773,-1]</rectangle>
 						<order>0</order>
 					</text>
 					<text>
 						<text>&#x2022; The Do&#x00f1;a Ortiz character takes the token {I:token_black_3:100:-2}.</text>
 						<style>card_b_action</style>
-						<rectangle>[86,1100,773,-1]</rectangle>
+						<rectangle>[86,780,773,-1]</rectangle>
 						<order>0</order>
 					</text>
 				</bottom>
