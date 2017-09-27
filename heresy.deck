@@ -1338,6 +1338,16 @@
 			<borderthickness>2</borderthickness>
 			<justification>full</justification>
 		</style>
+	    <style name="card_a_default_clear">
+			<typeface>Arial</typeface>
+			<linestyle>solid</linestyle>
+			<fillcolor>[159, 119, 88, 0]</fillcolor>
+			<bordercolor>[255, 255, 255, 0]</bordercolor>
+			<textcolor>[255, 255, 255, 255]</textcolor>
+			<typesize>9</typesize>
+			<borderthickness>2</borderthickness>
+			<justification>full</justification>
+		</style>
 	    <style name="card_b_default">
 			<typeface>Arial</typeface>
 			<linestyle>solid</linestyle>
@@ -2243,11 +2253,16 @@
 							<rotation>0</rotation>
 							<order>-99</order>
 						</image>
-						<text>
-							<text>  A well-traveled road winds between a low hill on the right and an open field on the left. As your party rounds the bend, the small town becomes visible in the distance, punctuated by the gilded cross capping the chapel in the center of town.{n}  Your group catches up with some other travelers headed into town. A captive woman in a horse drawn cage makes forlorn eye contact...</text>
+						<rect>
 							<style>card_a_default</style>
 							<rectangle>[86,94,773,1350]</rectangle>
 							<order>0</order>
+						</rect>
+						<text>
+							<text>A well-traveled road winds between a low hill on the right and an open field on the left. As your party rounds the bend, the small town becomes visible in the distance, punctuated by the gilded cross capping the chapel in the center of town.{n}Your group catches up with some other travelers headed into town. The captive woman in a horse drawn cage catches your attention.</text>
+							<style>card_a_default_clear</style>
+							<rectangle>[106,114,733,1310]</rectangle>
+							<order>1</order>
 						</text>
 					</bottom>
 				</card>
@@ -2407,11 +2422,16 @@
 							<rotation>0</rotation>
 							<order>-99</order>
 						</image>
-						<text>
-                            <text>  A dim ray of light from the clouds illuminates the town cemetery. New graves are being dug right now, and the earth is freshly turned in multiple locations.{n}  A cluster of people sobbing disturbs the quiet. So many stories mark their closing chapters here. This does not feel like a place of peace...</text>
+						<rect>
 							<style>card_a_default</style>
 							<rectangle>[86,94,773,1350]</rectangle>
 							<order>0</order>
+						</rect>
+						<text>
+                            <text>A dim ray of light from the clouds illuminates the town cemetery. New graves are being dug right now, and the earth is freshly turned in multiple locations.{n}  A cluster of people sobbing disturbs the quiet. So many stories mark their closing chapters here. This does not feel like a place of peace...</text>
+							<style>card_a_default_clear</style>
+							<rectangle>[106,114,733,1310]</rectangle>
+							<order>1</order>
 						</text>
 					</bottom>
 				</card>
@@ -2577,11 +2597,16 @@
 							<rotation>0</rotation>
 							<order>-99</order>
 						</image>
-						<text>
-							<text>  You enter a smoke-filled room with tables of partons scattered about. On your left is the barkeep, looking to serve you. To the right are a series of semi-occupied tables. On the far right, a man completely dressed in black sitting alone making eye contact with you...</text>
+						<rect>
 							<style>card_a_default</style>
 							<rectangle>[86,94,773,1350]</rectangle>
 							<order>0</order>
+						</rect>
+						<text>
+							<text>You enter a smoke-filled room with tables of partons scattered about. On your left is the barkeep, looking to serve you. To the right are a series of semi-occupied tables. On the far right, a man completely dressed in black sitting alone making eye contact with you...</text>
+							<style>card_a_default_clear</style>
+							<rectangle>[106,114,733,1310]</rectangle>
+							<order>1</order>
 						</text>
 					</bottom>
 				</card>
@@ -2776,11 +2801,16 @@
 							<rotation>0</rotation>
 							<order>-99</order>
 						</image>
-						<text>
-							<text>  You enter the austere stone building. The interior shares the same aged look as the exterior.  Scarred stone walls enclose the space. At the entrance is a confessional booth, door open and inviting confessors.  In the center is a small altar with unfinished wooden benches in front. Behind a half partition, some book stacks are visible and a most curious door.</text>
+						<rect>
 							<style>card_a_default</style>
 							<rectangle>[86,94,773,1350]</rectangle>
 							<order>0</order>
+						</rect>
+						<text>
+							<text>You enter the austere stone building. The interior shares the same aged look as the exterior.  Scarred stone walls enclose the space. At the entrance is a confessional booth, door open and inviting confessors.  In the center is a small altar with unfinished wooden benches in front. Behind a half partition, some book stacks are visible and a most curious door.</text>
+							<style>card_a_default_clear</style>
+							<rectangle>[106,114,733,1310]</rectangle>
+							<order>1</order>
 						</text>
 					</bottom>
 				</card>
@@ -2930,11 +2960,16 @@
 							<rotation>0</rotation>
 							<order>-99</order>
 						</image>
-						<text>
-                            <text>  The courtroom is spread out in front of your party.  On the left is the gallery where a small collection of townsfolk are observing the proceedings. A decorative piece of glass gracing the end of an occupied bench catches your eye. In the center, the counsel and the bailiff stand at a table before the judge with a despondent, haggered-looking defendant. The judge has just rendered a verdict and is recording his decision on the right.</text>
+						<rect>
 							<style>card_a_default</style>
 							<rectangle>[86,94,773,1350]</rectangle>
 							<order>0</order>
+						</rect>
+						<text>
+                            <text>The courtroom is spread out in front of your party.  On the left is the gallery where a small collection of townsfolk are observing the proceedings. A decorative piece of glass gracing the end of an occupied bench catches your eye. In the center, the counsel and the bailiff stand at a table before the judge with a despondent, haggered-looking defendant. The judge has just rendered a verdict and is recording his decision on the right.</text>
+							<style>card_a_default_clear</style>
+							<rectangle>[106,114,733,1310]</rectangle>
+							<order>1</order>
 						</text>
 					</bottom>
 				</card>
@@ -3193,11 +3228,16 @@
 							<rotation>0</rotation>
 							<order>-99</order>
 						</image>
-						<text>
-							<text>  A large stone dark room opens before your eyes. Its smell makes you think of death and feel of despair. Shouts of pain are mixed with prayers and the sound of bones stretched to their limits. On your left, a man completely dressed in black is blocking your way. Next to him, a storage cabinet is half open. In the middle of the room, a torture wheel is spinning. At the far right, a group of women is smiling and waving at you.</text>
+						<rect>
 							<style>card_a_default</style>
 							<rectangle>[86,94,773,1350]</rectangle>
 							<order>0</order>
+						</rect>
+						<text>
+							<text>A large stone dark room opens before your eyes. Its smell makes you think of death and feel of despair. Shouts of pain are mixed with prayers and the sound of bones stretched to their limits. On your left, a man completely dressed in black is blocking your way. Next to him, a storage cabinet is half open. In the middle of the room, a torture wheel is spinning. At the far right, a group of women is smiling and waving at you.</text>
+							<style>card_a_default_clear</style>
+							<rectangle>[106,114,733,1310]</rectangle>
+							<order>1</order>
 						</text>
 					</bottom>
 				</card>
@@ -3242,11 +3282,7 @@
 							<order>0</order>
 						</text>
 						<text>
-<<<<<<< HEAD
-							<text>&#x2022; To open the cupboard, you must pass the challenge:{n}&#x00a0;&#x00a0;{I:skill_agile:75:-2} 2x{I:shield:75:-2} 2x{I:shield_shield:75:-2}{n}&#x00a0; If successful, take {s:card_b_action_bold}Item {in:Battery}{s:}.</text>
-=======
-							<text>&#x2022; To open the cupboard, you must pass the challenge:{n}&#x00a0;&#x00a0;&#x2022;{I:skill_agile:75:-2} 2x{I:shield:75:-2} 2x{I:shield_shield:75:-2}{n}&#x00a0;&#x2022; If successful, take {s:card_b_action_bold}Item {in:Box of Lightning}{s:}.</text>
->>>>>>> 7c06da121389f2657aa22fa8cc6cb9aaf6480ed3
+							<text>&#x2022; To open the cupboard, you must pass the challenge:{n}&#x00a0;&#x00a0;{I:skill_agile:75:-2} 2x{I:shield:75:-2} 2x{I:shield_shield:75:-2}{n}&#x00a0; If successful, take {s:card_b_action_bold}Item {in:Box of Lightning}{s:}.</text>
 							<style>card_b_action</style>
 							<rectangle>[86,1230,773,-1]</rectangle>
 							<order>0</order>
@@ -3466,11 +3502,16 @@
 							<rotation>0</rotation>
 							<order>-99</order>
 						</image>
-						<text>
-							<text>  A grassy hill on the outskirts of town provides a scenic location for an otherwise gristly ritual. A foul smell permeates the air. Ashes still swirl in the mid-afternoon breeze.</text>
+						<rect>
 							<style>card_a_default</style>
 							<rectangle>[86,94,773,1350]</rectangle>
 							<order>0</order>
+						</rect>
+						<text>
+							<text>A grassy hill on the outskirts of town provides a scenic location for an otherwise gristly ritual. A foul smell permeates the air. Ashes still swirl in the mid-afternoon breeze.</text>
+							<style>card_a_default_clear</style>
+							<rectangle>[106,114,733,1310]</rectangle>
+							<order>1</order>
 						</text>
 					</bottom>
 				</card>
@@ -3699,11 +3740,16 @@
 							<rotation>0</rotation>
 							<order>-99</order>
 						</image>
-						<text>
-							<text> Many paths lay before you. Your entire party must visit a specific card. If you have Item {in:the_crow}, you may use the ability listed on the item to look at one other card before ending up on the same card as the rest of the party. Note: the rest of the party must select the destination card before the ability can be used.</text>
+						<rect>
 							<style>card_a_default</style>
 							<rectangle>[86,94,773,1350]</rectangle>
 							<order>0</order>
+						</rect>
+						<text>
+							<text>Many paths lay before you. Your entire party must visit a specific card. If you have Item {in:the_crow}, you may use the ability listed on the item to look at one other card before ending up on the same card as the rest of the party. Note: the rest of the party must select the destination card before the ability can be used.</text>
+							<style>card_a_default_clear</style>
+							<rectangle>[106,114,733,1310]</rectangle>
+							<order>1</order>
 						</text>
 					</bottom>
 				</card>
@@ -3830,11 +3876,16 @@
 							<rotation>0</rotation>
 							<order>-99</order>
 						</image>
-						<text>
-							<text>Even more paths lay before you. As before, your entire party must visit a specific card. If you have Item {in:the_crow}, you may use the ability listed on the item to look at one other card before ending up on the same card as the rest of the party. Note: the rest of the party must select the destination card before the ability can be used.</text>
+						<rect>
 							<style>card_a_default</style>
 							<rectangle>[86,94,773,1350]</rectangle>
 							<order>0</order>
+						</rect>
+						<text>
+							<text>Even more paths lay before you. As before, your entire party must visit a specific card. If you have Item {in:the_crow}, you may use the ability listed on the item to look at one other card before ending up on the same card as the rest of the party. Note: the rest of the party must select the destination card before the ability can be used.</text>
+							<style>card_a_default_clear</style>
+							<rectangle>[106,114,733,1310]</rectangle>
+							<order>1</order>
 						</text>
 					</bottom>
 				</card>
@@ -3973,11 +4024,16 @@
 							<rotation>0</rotation>
 							<order>-99</order>
 						</image>
-						<text>
-							<text>This is getting crazy, a spate of additional paths lay before you. Oh and did I mention, your entire party must visit a specific card? If you have Item {in:the_crow}, you may use the ability listed on the item to look at one other card before ending up on the same card as the rest of the party. Note: the rest of the party must select the destination card before the ability can be used.</text>
+						<rect>
 							<style>card_a_default</style>
 							<rectangle>[86,94,773,1350]</rectangle>
 							<order>0</order>
+						</rect>
+						<text>
+							<text>This is getting crazy, a spate of additional paths lay before you. Oh and did I mention, your entire party must visit a specific card? If you have Item {in:the_crow}, you may use the ability listed on the item to look at one other card before ending up on the same card as the rest of the party. Note: the rest of the party must select the destination card before the ability can be used.</text>
+							<style>card_a_default_clear</style>
+							<rectangle>[106,114,733,1310]</rectangle>
+							<order>1</order>
 						</text>
 					</bottom>
 				</card>
@@ -4116,11 +4172,16 @@
 							<rotation>0</rotation>
 							<order>-99</order>
 						</image>
-						<text>
-							<text>Will this nonsense ever end!  Additional paths lay before you.  Yawn, this is getting a little tiring... Your entire party must visit a specific card. If you have Item {in:the_crow}, you may use the ability listed on the item to look at one other card before ending up on the same card as the rest of the party. Note: the rest of the party must select the destination card before the ability can be used.</text>
+						<rect>
 							<style>card_a_default</style>
 							<rectangle>[86,94,773,1350]</rectangle>
 							<order>0</order>
+						</rect>
+						<text>
+							<text>Will this nonsense ever end!  Additional paths lay before you.  Yawn, this is getting a little tiring... Your entire party must visit a specific card. If you have Item {in:the_crow}, you may use the ability listed on the item to look at one other card before ending up on the same card as the rest of the party. Note: the rest of the party must select the destination card before the ability can be used.</text>
+							<style>card_a_default_clear</style>
+							<rectangle>[106,114,733,1310]</rectangle>
+							<order>1</order>
 						</text>
 					</bottom>
 				</card>
@@ -4287,11 +4348,16 @@
 							<rotation>0</rotation>
 							<order>-99</order>
 						</image>
-						<text>
-							<text>A strange room appears before you. Golden crosses at the walls and rosaries are mixed with aseptic tables, storage cupboards made of glass and metal and medieval weapons. On your left, a suit of armor is leaning against the wall. Beside it, a large table partially covered in wires. On the extreme of the table, a handwritten notebook is open. At the far right an elaborate archway beckons.</text>
+						<rect>
 							<style>card_a_default</style>
 							<rectangle>[86,94,773,1350]</rectangle>
 							<order>0</order>
+						</rect>
+						<text>
+							<text>A strange room appears before you. Golden crosses at the walls and rosaries are mixed with aseptic tables, storage cupboards made of glass and metal and medieval weapons. On your left, a suit of armor is leaning against the wall. Beside it, a large table partially covered in wires. On the extreme of the table, a handwritten notebook is open. At the far right an elaborate archway beckons.</text>
+							<style>card_a_default_clear</style>
+							<rectangle>[106,114,733,1310]</rectangle>
+							<order>1</order>
 						</text>
 					</bottom>
 				</card>
@@ -4457,11 +4523,16 @@
 							<rotation>0</rotation>
 							<order>-99</order>
 						</image>
-						<text>
-							<text>You enter a large, 2010 N.T. era building. Advertisements with pricing abound.  It appears to be some kind of shopping facility, likely the source of the 'future' artifacts you have encountered earlier. It seems strangely deserted except for robed acolytes. Note: if your party has the {I:token_blue_4:40:-2} token, the portal was destroyed when you used it. You cannot leave this location and the remainder of your time units will be spent here.</text>
+						<rect>
 							<style>card_a_default</style>
 							<rectangle>[86,94,773,1350]</rectangle>
 							<order>0</order>
+						</rect>
+						<text>
+							<text>You enter a large, 2010 N.T. era building. Advertisements with pricing abound.  It appears to be some kind of shopping facility, likely the source of the 'future' artifacts you have encountered earlier. It seems strangely deserted except for robed acolytes. Note: if your party has the {I:token_blue_4:40:-2} token, the portal was destroyed when you used it. You cannot leave this location and the remainder of your time units will be spent here.</text>
+							<style>card_a_default_clear</style>
+							<rectangle>[106,114,733,1310]</rectangle>
+							<order>1</order>
 						</text>
 					</bottom>
 				</card>
