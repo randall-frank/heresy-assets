@@ -5807,7 +5807,7 @@
 						<order>10</order>
 					</image>
 					<text>
-						<text>The flames were not as thorough as they should have been in this case. The bulk of a human leg is still intact.  A rather gruesome reminder of men's inhumanity to other men - or in this case, women.  Perhaps you should help find a final resting place for this one...</text>
+						<text>The flames were not as thorough as they should have been in this case. The bulk of a human leg is still intact.  A rather gruesome reminder of man's inhumanity to other men or in this case, women.  Perhaps you should help find a final resting place for this one...</text>
 						<style>card_b_default</style>
 						<rectangle>[86,1100,773,-1]</rectangle>
 						<order>0</order>
@@ -5853,7 +5853,7 @@
 						<order>10</order>
 					</text>
 					<text>
-						<text>You have created...life?? You place all of the collected body parts together and breathed life into the beast.  It rises and speaks in deep, broken voice: {s:card_b_default_italic}"You gave me life, I give you my loyality. I am at your service my master."{s:} The golem always follows one character around and can participate in challenges. It cannot be healed and cannot use any items.</text>
+						<text>You have created...life?? You place all of the collected body parts together and breathed life into the beast.  It rises and speaks in deep, broken voice: {s:card_b_default_italic}"You gave me life, I give you my loyality. I am at your service master."{s:} The golem always follows one character around and can participate in challenges. It cannot be healed and cannot use any items.</text>
 						<style>card_b_default</style>
 						<rectangle>[350,130,575,-1]</rectangle>
 						<order>10</order>
@@ -6197,7 +6197,7 @@
 						<order>11</order>
 					</text>
 					<text>
-						<text>  As smoke rises from Isabel's ashes, her spirit is... moved. Her essence is transferred to her guardian familiar.  Disregard Isabel's card and from here on use the familiar card.{n}{n}The snake can make a poison attack every 5 {I:time:40:-2}.  Place a poison attack token {I:poison:40:-2} every 5 {I:time:40:-2} on the timeline. If the time counter arrives at a poison token, remove it from the timeline and place it on this card, attacks can be accumulated. A poison attack adds two die to a combat attack. This card may only be held by the player who selected the Isabel character for this run.</text>
+						<text>  As smoke rises from Isabel's ashes, her spirit is... moved. Her essence is transferred to her guardian familiar.  Disregard Isabel's card and from here on use the familiar card.{n}The snake can make a poison attack that recharges in 5 {I:time:40:-2}.  When the poison attack token {I:poison:40:-2} is used, it is placed on the timeline, 5 {I:time:40:-2} in the future.  When the time counter arrives at the poison token, remove it from the timeline and place it on this card. It can be used immediately. A poison attack adds two die to a combat attack. This card may only be held by the player who selected the Isabel character for this run.</text>
 						<style>normal_black_full</style>
 						<rectangle>[50,600,845,-1]</rectangle>
 						<order>11</order>
