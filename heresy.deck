@@ -3106,7 +3106,7 @@
 							<order>10</order>
 						</image>
 						<text>
-                            <text>The judge turns slowly to the Sister and utters the bone chilling words: {s:card_b_default_italic}"Witch, how dare you defile my courtroom with your presence! We all know of your guilt, so I will spare these God-fearing folks from your temptations. I find you guilty and sentence you to a session with the interrogators. May God have mercy."{s:}</text>
+                            <text>The judge turns slowly to the Sister and utters the bone chilling words: {s:card_b_default_italic}"Witch, how dare you defile my courtroom with your presence! Your actions were of the highest intended good, but the dark ways are never the solution. I find you guilty and sentence you to a session with the interrogators. May God have mercy."{s:}</text>
 							<style>card_b_default</style>
 							<rectangle>[86,570,773,-1]</rectangle>
 							<order>0</order>
@@ -3114,7 +3114,7 @@
 						<text>
 							<text>&#x2022; The Sister cannot leave this card and when the group chooses to leave the {s:card_b_action_bold}{ls:Courthouse}{s:} location, they must next go to the {s:card_b_action_bold}{ls:Dungeon}{s:} location. Take {s:card_b_action_bold}Item {in:Plan Add Dungeon}{s:} and the Sister takes the token {I:token_yellow_3:100:-2}.</text>
 							<style>card_b_action</style>
-							<rectangle>[86,1010,773,-1]</rectangle>
+							<rectangle>[86,1000,773,-1]</rectangle>
 							<order>0</order>
 						</text>
 					</bottom>
@@ -3144,7 +3144,7 @@
 							<order>10</order>
 						</image>
 						<text>
-                            <text>The judge turns slowly to the Do&#x00f1;a Ortiz and utters the bone chilling words: {s:card_b_default_italic}"Witch, how dare you defile my courtroom with your presence! We all know of your guilt, so I will spare these God-fearing folks from your temptations. I find you guilty and sentence you to a session with the interrogators. May God have mercy."{s:}</text>
+                            <text>The judge turns slowly to the Do&#x00f1;a Ortiz and utters the bone chilling words: {s:card_b_default_italic}"Witch, how dare you defile my courtroom with your presence! Your ill-begotten status will not save you this time. Look around you, there are no nobles here to help you today! I find you guilty and sentence you to a session with the interrogators."{s:}</text>
 							<style>card_b_default</style>
 							<rectangle>[86,570,773,-1]</rectangle>
 							<order>0</order>
@@ -3182,7 +3182,7 @@
 							<order>10</order>
 						</image>
 						<text>
-                            <text>The judge turns slowly to Isabel and utters the bone chilling words: {s:card_b_default_italic}"Witch, how dare you defile my courtroom with your presence! We all know of your guilt, so I will spare these God-fearing folks from your temptations. I find you guilty and sentance you to a session with the interrogators. May God have mercy."{s:}</text>
+                            <text>The judge turns slowly to Isabel and utters the bone chilling words: {s:card_b_default_italic}"Witch, how dare you defile my courtroom with your presence! You've tricked and beguiled your way out of many such situations in the past, but not this one. I will spare these God-fearing folks from your temptations. I find you guilty and sentance you to a session with the interrogators."{s:}</text>
 							<style>card_b_default</style>
 							<rectangle>[86,570,773,-1]</rectangle>
 							<order>0</order>
@@ -3190,7 +3190,7 @@
 						<text>
 							<text>&#x2022; Isabel cannot leave this card and when the group chooses to leave the {s:card_b_action_bold}{ls:Courthouse}{s:} location, they must next go to the {s:card_b_action_bold}{ls:Dungeon}{s:} location. Take {s:card_b_action_bold}Item {in:Plan Add Dungeon}{s:} and Isabel takes the token {I:token_black_2:100:-2}.</text>
 							<style>card_b_action</style>
-							<rectangle>[86,1010,773,-1]</rectangle>
+							<rectangle>[86,1090,773,-1]</rectangle>
 							<order>0</order>
 						</text>
 					</bottom>
@@ -4966,9 +4966,9 @@
 						<order>10</order>
 					</image>
 					<text>
-						<text>Bob seems nervously distracted as you enter the room. He quickly turns and returns back to character as becomes aware of your presence. {n}{s:normal_black_full_italic}"Ah, you've arrived and none too soon.  We have a rift to close and this time it is a bit more personal than I would like. We have a rogue agent. Agent Keith has decided to make history his home and recreational plaything. You obviously understand the implications for all of us.  If he makes one mistake? one bad decision?  Well, you get it and I need you to stop him. {s:normal_black_full_bold}Find Keith, his henchmen and time portal... put an end to their plans."</text>
+						<text>Bob seems nervously distracted as you enter the room. He quickly turns and returns back to character as becomes aware of your presence. {n}{s:normal_black_full_italic}"Ah, you've arrived and none too soon.  We have a rift to close and this time it is a bit more personal than I would like. We have a rogue agent. Agent Keith has decided to make history his home and recreational playground. You obviously understand the implications for all of us.  If he makes one mistake, one bad decision?  Well, you understand and I need you to stop him. {s:normal_black_full_bold}Find Keith, his henchmen and time portal... put an end to their plans."</text>
 						<style>normal_black_full</style>
-						<rectangle>[75,500,795,-1]</rectangle>
+						<rectangle>[75,470,795,-1]</rectangle>
 						<order>11</order>
 					</text>
 				</bottom>
@@ -4986,9 +4986,15 @@
 						<order>10</order>
 					</image>
 					<text>
-						<text>Laura chimes in: {s:normal_blue_full_italic}"you will be visiting Spain 1499 NT. I have the specifics on your equipment for this case."{n}{n}{s:}Equipment:</text>
+						<text>Laura chimes in: {s:normal_blue_full_italic}"You will be arriving in Spain 1499 NT. I have the specifics on your equipment for this case."{s:}</text>
 						<style>normal_black_full</style>
-						<rectangle>[75,75,795,-1]</rectangle>
+						<rectangle>[75,105,795,-1]</rectangle>
+						<order>11</order>
+					</text>
+					<text>
+						<text>Equipment:</text>
+						<style>normal_black_full</style>
+						<rectangle>[75,305,795,-1]</rectangle>
 						<order>11</order>
 					</text>
 					<rect>
@@ -5091,9 +5097,15 @@
 						<order>10</order>
 					</image>
 					<text>
-						<text>Laura continues... {s:normal_blue_full_italic}"You will have to use all of your skills to deal with this case. My advice is to exercise caution, the population in this timeline are a superstitious lot.  Perhaps that is why Keith chose this timeline?"{s:}{n}Skills:</text>
+						<text>Laura continues... {s:normal_blue_full_italic}"You will have to use all of your skills to deal with this case. My advice is to exercise caution, the population in this timeline are a superstitious lot.  Perhaps that is why Keith chose this timeline?"{s:}</text>
 						<style>normal_black_full</style>
 						<rectangle>[75,375,795,-1]</rectangle>
+						<order>11</order>
+					</text>
+					<text>
+						<text>Skills:</text>
+						<style>normal_black_full</style>
+						<rectangle>[75,735,795,-1]</rectangle>
 						<order>11</order>
 					</text>
 					<rect>
@@ -5198,13 +5210,13 @@
 					<text>
 						<text>You gather your team and resources and head to the transfer caissons. As you strap into the beds, your com crackles. Laura: {s:normal_blue_full_italic} "Good luck team, I have complete confidence that you will be able to resolve this issue quickly and completely."{s:} Overhead speaker "3.. 2.. 1..".  Bob: {s:normal_blue_full_italic}"One thing... bxhzas ...forgot to tell yoszyxs... time jumps zzxhgb... witchcraft..."{s:} and you are off.{n}{n}Final Preparations:</text>
 						<style>normal_black_full</style>
-						<rectangle>[75,75,795,-1]</rectangle>
+						<rectangle>[75,105,795,-1]</rectangle>
 						<order>11</order>
 					</text>
 					<text>
 						<text>&#x2022; Each player selects a receptacle and places the life points, shields and equipment listed on the player card as per instructions on the individual cards.{n}&#x2022; Take the Icon Reference card and keep it close at hand.{n}&#x2022; Select one player to be the initial Time Captain. That player closes the base and places it next to the board.{n}&#x2022; The Time Captain proceeds by opening the {s:smaller_black_left_bold}{ls:Path to Town}{s:} location, reads card A out loud and the adventure begins...</text>
 						<style>smaller_black_left</style>
-						<rectangle>[100,800,745,-1]</rectangle>
+						<rectangle>[100,845,745,-1]</rectangle>
 						<order>11</order>
 					</text>
 				</bottom>
@@ -5533,13 +5545,13 @@
 					<text>
 						<text>A dull, translucent tube appears to have a liquid within it.  There is a plunger at one end and an extremely sharp, thin metal tip at the other end.  Perhaps a means to deliver the liquid?</text>
 						<style>card_b_default</style>
-						<rectangle>[86,800,773,-1]</rectangle>
+						<rectangle>[86,700,773,-1]</rectangle>
 						<order>0</order>
 					</text>
 					<text>
 						<text>This single use item can be stabbed into an opponent during a {I:skill_glib:75:-2} challenge. Change any one die to any value you wish.</text>
 						<style>card_b_action</style>
-						<rectangle>[86,1100,773,-1]</rectangle>
+						<rectangle>[86,1000,773,-1]</rectangle>
 						<order>0</order>
 					</text>
 				</bottom>
@@ -5561,7 +5573,7 @@
 						<order>10</order>
 					</image>
 					<text>
-						<text>Carefully you tilt the combined glass panes into the light. Interesting, a series of numbers appear...  33-21-14-27  These look like the combination to a lock.  Not the type of lock that should be available in this century!  Perhaps this is the key to unraveling the mystery?</text>
+						<text>Carefully you tilt the combined glass panes into the light. Interesting, a series of numbers appear... 33-21-14-27  These look like the combination to a lock.  Not the type of lock that should be available in this century!  Perhaps this is the key to unraveling the mystery?</text>
 						<style>card_b_default</style>
 						<rectangle>[86,900,773,-1]</rectangle>
 						<order>0</order>
@@ -6313,6 +6325,12 @@
 						<style>location</style>
 						<order>11</order>
 					</text>
+					<image>
+						<image>blue_logo</image>
+						<rectangle>[200,100,180,-2]</rectangle>
+						<rotation>90</rotation>
+						<order>11</order>
+					</image>
 				</bottom>
 			</card>
 			<card name="Plan Add Dungeon">
@@ -6345,6 +6363,12 @@
 						<style>location</style>
 						<order>11</order>
 					</text>
+					<image>
+						<image>blue_logo</image>
+						<rectangle>[200,1260,180,-2]</rectangle>
+						<rotation>90</rotation>
+						<order>11</order>
+					</image>
 				</bottom>
 			</card>
 			<card name="Plan Add Catacombs">
@@ -6377,6 +6401,12 @@
 						<style>location</style>
 						<order>11</order>
 					</text>
+					<image>
+						<image>blue_logo</image>
+						<rectangle>[900,1260,180,-2]</rectangle>
+						<rotation>90</rotation>
+						<order>11</order>
+					</image>
 				</bottom>
 			</card>
 			<card name="Plan Add Laboratory">
