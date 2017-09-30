@@ -3657,7 +3657,7 @@
 					</top>
 					<bottom>
 						<text>
-							<text>An intensely macabre sight, but surprisingly serene. Do&#x00f1;a Ortiz is tied to a stake  as a cat looks onward from a safe distance. A pair of acolytes stand, burning torches in hand. Around their necks are odd, glowing orbs. The pair lash the sister to the stake. One of the acolytes tosses a small metallic sphere into the base of the kindling as the other dispassionately lights the fire...  You avert your eyes from the horrific scene, awaiting screams that... never come? She behaves very oddly, no struggling, no screaming and seems to pass quickly, in peace. Interestingly, you notice a flash of blue light coming from within the fire just before she passes into inactivity. Your party quietly mourns the  loss of an honored comrade. There can be no solace...</text>
+							<text>A shocking scene unfolds before you. The Do&#x00f1;a Ortiz is tied to a stake as a black cat appears from behind a rock. A pair of acolytes stand, burning torches in hand. Around their necks are odd, glowing orbs. The pair lash her to the stake. One of the acolytes tosses a small metallic sphere into the base of the kindling as the other dispassionately lights the fire.  Your eyes lock with hers, but she seems to lack concern?  As the sphere drops into the flames, her body goes limp as the cat lies down in the grass. You notice a flash of blue light coming from within the fire just before she passes into inactivity. You can stand the sight no longer and turn away as a tear dampens your cheek.</text>
 							<style>card_b_default</style>
 							<rectangle>[86,60,773,-1]</rectangle>
 							<order>0</order>
@@ -3665,7 +3665,7 @@
 						<text>
 							<text>&#x2022; The Do&#x00f1;a Ortiz character card is removed along with all items she is holding. Her essence transfers to her familiar, take {s:card_b_action_bold}Item {in:the_cat}{s:} and contine the mission using the new character. Take one soul token {I:soul:75:-2}.</text>
 							<style>card_b_action</style>
-							<rectangle>[86,1070,773,-1]</rectangle>
+							<rectangle>[86,970,773,-1]</rectangle>
 							<order>0</order>
 						</text>
 					</bottom>
@@ -3694,7 +3694,7 @@
 					</top>
 					<bottom>
 						<text>
-							<text>An intensely macabre sight, but surprisingly serene. Isabel is tied to a stake  as a snake looks onward from a safe distance. A pair of acolytes stand, burning torches in hand. Around their necks are odd, glowing orbs. The pair lash the sister to the stake. One of the acolytes tosses a small metallic sphere into the base of the kindling as the other dispassionately lights the fire...  You avert your eyes from the horrific scene, awaiting screams that... never come? She behaves very oddly, no struggling, no screaming and seems to pass quickly, in peace. Interestingly, you notice a flash of blue light coming from within the fire just before she passes into inactivity. Your party quietly mourns the  loss of an honored comrade. There can be no solace...</text>
+							<text>An intensely macabre sight, but surprisingly serene. Isabel is tied to a stake  as a snake looks onward from a safe distance. A pair of acolytes stand, burning torches in hand. Around their necks are odd, glowing orbs. The pair lash Isabel to the stake. One of the acolytes tosses a small metallic sphere into the base of the kindling as the other dispassionately lights the fire.  You avert your eyes from the horrific scene, awaiting screams that never come?  Isabel's eyes roll back into her head and the snake passes into the deeper grass. You notice a flash of blue light coming from within the fire just before she passes into inactivity. Your gaze passes to your feet as you try to make sense of the scene.</text>
 							<style>card_b_default</style>
 							<rectangle>[86,60,773,-1]</rectangle>
 							<order>0</order>
@@ -3702,7 +3702,7 @@
 						<text>
 							<text>&#x2022; The Isabel character card is removed along with all items she is holding. Her essence transfers to her familiar, take {s:card_b_action_bold}Item {in:the_snake}{s:} and contine the mission using the new character. What is this? Take one soul token {I:soul:75:-2}.</text>
 							<style>card_b_action</style>
-							<rectangle>[86,1070,773,-1]</rectangle>
+							<rectangle>[86,1020,773,-1]</rectangle>
 							<order>0</order>
 						</text>
 					</bottom>
