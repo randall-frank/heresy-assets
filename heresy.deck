@@ -2197,13 +2197,13 @@
 						<order>10</order>
 					</image>
 					<text>
-						<text>Laura greets you in a sullen voice, {s:card_b_default_italic}"Bob has been acting strangely in your absence. I think he is considering a new team, but I fear you may be our last hope."{s:} Bob stamps into the room, anger obvious in his face, but what was that, a sneer and is that a soul medallion tucked under his shirt? {s:card_b_default_italic}"There is no time to talk, you have to get back to it and now! Let's get it done this time and close that rift."{s:} You avoid his gaze and climb back into the caissons as Laura counts down...</text>
+						<text>Laura greets you in a sullen voice, {s:card_b_default_italic}"Bob has been acting strangely in your absence. I think he is considering sending a new team. I fear you may be our last hope."{s:} Bob stamps into the room, anger obvious in his face, but was that a soul medallion tucked under his shirt? {s:card_b_default_italic}"There is no time to talk, you have to get back to it and immediately! Let's get it done this time and close that rift."{s:} You avoid his gaze and climb back into the caissons as Laura counts down...</text>
 						<style>card_b_default</style>
 						<rectangle>[86,310,773,-1]</rectangle>
 						<order>0</order>
 					</text>
 					<text>
-						<text>Leave in place all items marked {I:blue_logo:75:-2} but reset the rest of the game, returning other items to the desk along with all random encounter cards. Reread cards E and F of the {s:card_b_action_bold}Base{s:} location and follow the instructions. Three more things:{n}&#x2022; Take token {I:token_black_1:75:-2}.{n}&#x2022; You may start from any location listed on the visible plan cards.{n}&#x2022; Increase the starting TU to 35.</text>
+						<text>Leave in place all items marked {I:blue_logo:75:-2} but reset the rest of the game. Return other items to the deck along with all random encounter cards. Reread cards E and F of the {s:card_b_action_bold}Base{s:} location and follow the instructions. Three more things:{n}&#x2022; Take token {I:token_black_1:75:-2}.{n}&#x2022; You may start from any location listed on the visible plan cards.{n}&#x2022; Increase the starting TU to 35.</text>
 						<style>card_b_action</style>
 						<rectangle>[86,920,773,-1]</rectangle>
 						<order>0</order>
@@ -2259,7 +2259,7 @@
 							<order>0</order>
 						</rect>
 						<text>
-							<text>A well-traveled road winds between a low hill on the right and an open field on the left. As your party rounds the bend, the small town becomes visible in the distance, punctuated by the gilded cross capping the chapel in the center of town.{n}Your group catches up with some other travelers headed into town. The captive woman in a horse drawn cage catches your attention.</text>
+							<text>A well-traveled road winds between a low hill on the right and an open field on the left. As your party rounds the bend, a small town becomes visible in the distance, punctuated by the gilded cross capping the chapel in the center of town.{n}Your group catches up with some other travelers headed into town. The captive woman in a horse drawn cage catches your attention.</text>
 							<style>card_a_default_clear</style>
 							<rectangle>[106,114,733,1310]</rectangle>
 							<order>1</order>
@@ -2280,7 +2280,7 @@
 							<order>10</order>
 						</image>
 						<text>
-                            <text>The peasant pulls you out of earshot of the cart party.  {s:card_b_default_italic}"My name is Diego Rodr&#x00ed;guez and I need your help. My sister Catalina was working in the local inn when the Inquisition came into town. After a few minutes of questioning they took her in a cart like this one to the town up ahead and we have not heard from her in a week. In fact I think she wanted to go with them! I have heard stories about what they do with these girls and I fear for her life. Here is a picture of Catalina.  If you find any information about her, please let me know. I plan to stay in the Inn in town. I've heard it can be a good source of information."{s:}</text>
+                            <text>The peasant pulls you out of earshot of the cart party.  {s:card_b_default_italic}"My name is Diego Rodr&#x00ed;guez and I need your help. My sister Catalina was working in the local inn when the Inquisition came into town. After a few minutes of questioning they took her in a cart like this one to the town up ahead and we have not heard from her in a week. In fact I think she wanted to go with them! I have heard stories about what they do with these girls and I fear for her life. Here is a picture of Catalina. If you find any information about her, please let me know. I plan to stay in the Inn in town. I've heard it can be a good source of information."{s:}</text>
 							<style>card_b_default</style>
                             <rectangle>[86,580,773,-1]</rectangle>
 							<order>0</order>
@@ -2355,7 +2355,7 @@
 							 <order>10</order>
 						</image>
 						<text>
-							<text>The tall man hears you approach and addresses you without turning around. {s:card_b_default_italic}"You are coming to this village in dark times, my friend. The forces of evil seem to be particularly strong in this area. But do not worry: His Holiness the Pope prays for us every day, and is sending here his most trusted men to bring these poor lost souls back onto the right path of light, saving them from eternal damnation. Women are particularly weak and attracted by the forces of evil, so we must help them the most. We have to stay strong and have faith: the fight will be long and fierce, but the forces of Heaven will prevail. Mala tempora currunt, sed peiora parantur."</text>
+							<text>The tall man hears you approach and addresses you without turning around. {s:card_b_default_italic}"You are coming to this village in dark times, my friend. The forces of evil seem to be particularly strong in this area. But do not worry: His Holiness the Pope prays for us every day, and is sending here his most trusted men to bring these poor lost souls back onto the path of light. Saving them from eternal damnation. Women are particularly weak and attract the forces of evil, so we must help them the most. We have to stay strong and have faith: the fight will be long and fierce, but the forces of Heaven will prevail. Mala tempora currunt, sed peiora parantur."</text>
 							<style>card_b_default</style>
                             <rectangle>[86,650,773,-1]</rectangle>
 							<order>0</order>
@@ -2376,7 +2376,7 @@
 							<order>10</order>
 						</image>
 						<text>
-							<text> You step into the stand of small saplings and break off a short wooden stick.</text>
+							<text> You step into a stand of small saplings and break off a short wooden stick.</text>
 							<style>card_b_default</style>
 							<rectangle>[86,800,773,-1]</rectangle>
 							<order>0</order>
@@ -2503,7 +2503,7 @@
 							<order>10</order>
 						</image>
 						<text>
-							<text>A group of women has their backs turned to you. They are looking at a fresh grave. You get close to the group just to hear their cries between sobs {s:card_b_default_italic}"... why ... how!  she never did ... witch ... impossible! ... and the fire... her poor soul ... into ...sphere. ...pray for her..."{s:}. You leave without interrupting their mourning.</text>
+							<text>A group of women has their backs turned to you. They are looking at a fresh grave. You get close enough to the group to hear their cries between sobs {s:card_b_default_italic}"... why ... how!  she never did ... witch ... impossible! ... and the fire... her poor soul ... into ...sphere. ...pray for her..."{s:}. You leave without interrupting their mourning.</text>
 							<style>card_b_default</style>
 							<rectangle>[86,554,773,-1]</rectangle>
 							<order>0</order>
@@ -2551,7 +2551,7 @@
 							<order>10</order>
 						</image>
 						<text>
-							<text>A man sits on a stone, resting from the digging, with a shovel at his feet. {s:card_b_default_italic}"Hello visitors, I am Gonzalo the groundkeeper. Looking for a grave in particular? Please excuse the current conditions of the cemetery, we have been busier than usual lately. Indeed my siesta is over, I need to continue digging new graves... please let me know if you need anything."{s:}</text>
+							<text>A man sits on a stone, resting from digging, a shovel at his feet. {s:card_b_default_italic}"Hello visitors, I am Gonzalo the groundkeeper. Looking for a grave in particular? Please excuse the current conditions of the cemetery, we have been busier than usual lately. Indeed my siesta is over, I need to continue digging new graves. Please let me know if you need anything."{s:}</text>
 							<style>card_b_default</style>
 							<rectangle>[86,600,773,-1]</rectangle>
 							<order>0</order>
@@ -2603,7 +2603,7 @@
 							<order>0</order>
 						</rect>
 						<text>
-							<text>You enter a smoke-filled room with tables of partons scattered about. On your left is the barkeep, looking to serve you. To the right are a series of semi-occupied tables. On the far right, a man completely dressed in black sitting alone making eye contact with you...</text>
+							<text>You enter a smoke-filled room with patron occupied tables scattered about. On your left is the barkeep, looking to serve you. To the right are a series of semi-occupied tables. On the far right, a man completely dressed in black sits alone, making eye contact with you...</text>
 							<style>card_a_default_clear</style>
 							<rectangle>[106,114,733,1310]</rectangle>
 							<order>1</order>
@@ -2651,7 +2651,7 @@
 							<order>10</order>
 						</image>
 						<text>
-							<text>Three drunks around a table make eye contact and shake their heads. The visibly drunk men appear to be in a fighting mood. The nearest one sneers and spits out an angry {s:card_b_default_italic}"What did you say about my mother?"{s:}</text>
+							<text>Three men seated around a table make eye contact and shake their heads. The visibly drunk men appear to be in a fighting mood. The nearest one sneers and spits out an angry {s:card_b_default_italic}"What did you say about my mother?"{s:}</text>
 							<style>card_b_default</style>
 							<rectangle>[86,600,773,-1]</rectangle>
 							<order>0</order>
@@ -2678,7 +2678,7 @@
 							<order>10</order>
 						</image>
 						<text>
-							<text>You take a seat at an empty table in the back of the inn and begin to shrug off the day's struggles. Two acolytes trundle into the inn, going from table to table, interrupting conversation with pointed questions.  They approach your table. {s:card_b_default_italic}"Strangers, this is a holy town, take care to mind your vices here.  You look like trouble to us and we have ways of dealing with trouble!"{s:}</text>
+							<text>You take a seat at an empty table in the back of the inn and begin to drink off the day's struggles. Two acolytes trundle into the inn, going from table to table, interrupting conversations with troubling, pointed questions.  They approach your table. {s:card_b_default_italic}"Strangers, this is a holy town, take care to mind your vices here.  You look like trouble to us and we have ways of dealing with trouble!"{s:}</text>
 							<style>card_b_default</style>
 							<rectangle>[86,600,773,-1]</rectangle>
 							<order>0</order>
@@ -2705,7 +2705,7 @@
 							<order>10</order>
 						</image>
 						<text>
-							<text>A slightly intoxicated man sits at a table alone with a rather large purse. When you come close he looks at you with a puzzled look on his face while grasping on his bottle.</text>
+							<text>A slightly intoxicated man sits at a table alone with a large pouch. When you come close, he looks at you with a puzzled look on his face while grasping on his bottle.</text>
 							<style>card_b_default</style>
 							<rectangle>[86,570,773,-1]</rectangle>
 							<order>0</order>
@@ -2755,7 +2755,7 @@
 					</top>
 					<bottom>
 						<text>
-                            <text>The chapel housemaid makes eye contact and discretely gestures for you to join her. {s:card_b_default_italic}"I must warn you: be wary of the clergy in this town. They say beautiful things about freeing women from the their dark sides, but are quick to judge and deliver summary punishment. I would not be so sure about their intentions either. They have exotic objects that they hide from everyone's sight. God forgive me, I suspect they use black magic themselves. I stole this from their study. It seemed very important, perhaps you can investigate this matted further?"{s:}</text>
+                            <text>The chapel housemaid makes eye contact and discretely gestures for you to join her. {s:card_b_default_italic}"I must warn you: be wary of the clergy in this town. They say beautiful things about freeing women from the their dark sides, but are quick to summary judgment and punishment. I would not be so sure about their intentions either. They have exotic objects that they hide from everyone's sight. God forgive me, I suspect they use black magic themselves. I stole this from their study. It seemed very important, perhaps you can investigate this matter further?"{s:}</text>
 							<style>card_b_default</style>
 							<rectangle>[86,94,773,-1]</rectangle>
 							<order>0</order>
@@ -6599,13 +6599,13 @@
 						<order>11</order>
 					</text>
 					<text>
-						<text>  Catholic bishop on his annual visits to parishes in his diocese. Looking to spread the word of God (and secure funding for a new cathedral).</text>
+						<text>A Catholic bishop on his annual visits to the parishes in his diocese. He is looking to spread the word of God and secure funding for a new cathedral.</text>
 						<style>normal_black_full</style>
 						<rectangle>[50,600,845,-1]</rectangle>
 						<order>11</order>
 					</text>
 					<text>
-						<text>  Unique abilities: The bishop has the option to bless one companion when both the bishop and the companion are in the same combat challenge. The blessing increases the resistance of the companion by 2{I:shield_blue_skull:60:-2} for one time unit, but the bishop does not participate in the challenge for that round (he rolls no dice). If the blessed companion takes damage, both the companion and the bishop take the same damage.</text>
+						<text>Unique abilities: The bishop has the option to bless one companion when both the bishop and the companion are in the same combat challenge. The blessing increases the resistance of the companion by 2{I:shield_blue_skull:60:-2} for one time unit, but the bishop does not participate in the challenge for that round (he rolls no dice). If the blessed companion takes damage, both the companion and the bishop take the same damage.</text>
 						<style>normal_black_full</style>
 						<rectangle>[50,830,845,-1]</rectangle>
 						<order>11</order>
@@ -6687,13 +6687,13 @@
 						<order>11</order>
 					</text>
 					<text>
-						<text>  Recently returned from serving the "League of Venice" in the First Italian War, driving the French from Italy. War weary, but still a knight in his prime, Alonso comes home to his native Spain only to encounter a country-side besieged by the Inquisition.</text>
+						<text>Recently returned from serving the "League of Venice" in the First Italian War, Alonso helped drive the French from Italy. War weary, but still a knight in his prime, Alonso comes home to his native Spain only to encounter a countryside besieged by the Inquisition.</text>
 						<style>normal_black_full</style>
 						<rectangle>[50,600,845,-1]</rectangle>
 						<order>11</order>
 					</text>
 					<text>
-						<text>  Unique abilities: An experienced warrior, Alonso is a master of survival. When he has less than 3 health {I:heart:50:-2} tokens left, he rolls an extra die when in combat challenges.</text>
+						<text>Unique abilities: An experienced warrior, Alonso is a master of survival. When he has less than 3 health {I:heart:50:-2} tokens left, he rolls an extra die when in combat challenges.</text>
 						<style>normal_black_full</style>
 						<rectangle>[50,1130,845,-1]</rectangle>
 						<order>11</order>
@@ -6775,13 +6775,13 @@
 						<order>11</order>
 					</text>
 					<text>
-						<text>   Gaspar's skin is heavily tanned, like leather, from working in the sun while hands, callused from years of hard work, remain nimble and strong. Something about him makes you feel he has a secret....  A skilled tradesman and "road scholar", Gaspar is on his way to start work on a new home for a local businessman.</text>
+						<text>Gaspar's skin is heavily tanned, like leather, from working in the sun. His hands, callused from years of hard work, remain nimble and strong. Something about him makes you feel he has a secret....  A skilled tradesman and "road scholar", Gaspar is on his way to start work on a new home for a local businessman.</text>
 						<style>normal_black_full</style>
 						<rectangle>[50,600,845,-1]</rectangle>
 						<order>11</order>
 					</text>
 					<text>
-						<text>  Unique abilities: Gaspar gains 1 extra glibness {I:skill_glib:50:-2} in challenges involving females.</text>
+						<text>Unique abilities: Gaspar gains 1 extra glibness {I:skill_glib:50:-2} in challenges involving females.</text>
 						<style>normal_black_full</style>
 						<rectangle>[50,1130,845,-1]</rectangle>
 						<order>11</order>
@@ -6875,13 +6875,13 @@
 						<order>11</order>
 					</text>
 					<text>
-						<text>  A longstanding nun of questionable reputation. She has been re-assigned to the local parish after an infant in her care came down with a mysterious affliction and the parishioners petitioned to have her moved. She has been given a second chance and is looking to re-establish herself as a solid woman of faith and dedication to the Church.</text>
+						<text>A longstanding nun with a questionable reputation. She has been reassigned to the local parish after an infant in her care came down with a mysterious affliction and  parishioners petitioned to have her moved. She has been given a second chance and is looking to re-establish herself as a solid woman of faith and dedication to the Church.</text>
 						<style>normal_black_full</style>
 						<rectangle>[50,600,845,-1]</rectangle>
 						<order>11</order>
 					</text>
 					<text>
-						<text>  Unique abilities: The sister can call on her faith to re-roll a die during a challenge. Re-rolling a die consumes 1 blessing {I:blessing:50:-2} token. Only 1 blessing can be used per TU. If she goes to confession, her blessing count will be reset to 2.</text>
+						<text>Unique abilities: The sister can call on her faith to re-roll a die during a challenge. Re-rolling a die consumes 1 blessing {I:blessing:50:-2} token. Only 1 blessing can be used per TU. If she goes to confession, her blessing count will be reset to 2.</text>
 						<style>normal_black_full</style>
 						<rectangle>[50,1130,845,-1]</rectangle>
 						<order>11</order>
@@ -6975,13 +6975,13 @@
 						<order>11</order>
 					</text>
 					<text>
-						<text>  Noble-woman of a neighboring state. She is traveling to visit her sister Juana at her villa just outside of town. Middle-age, savvy and witness to many a political power play she draws strength from her cunning and resolve.</text>
+						<text>The Do&#x00f1;a is a Noble woman of a neighboring state. She is traveling to visit her sister Juana at her villa just outside of town. Middle-aged, savvy and witness to many a political power play she draws her strength from cunning and inner resolve.</text>
 						<style>normal_black_full</style>
 						<rectangle>[50,600,845,-1]</rectangle>
 						<order>11</order>
 					</text>
 					<text>
-						<text>  Unique abilities: The lady starts with 2 healing poultices {I:healing:50:-2} that can be applied to any companions that are in the same location card as she is. Each potion restores one health token.</text>
+						<text>Unique abilities: The lady starts with 2 healing poultices {I:healing:50:-2} that can be applied to any companions that are in the same location card as she is. Each potion restores one health token.</text>
 						<style>normal_black_full</style>
 						<rectangle>[50,1130,845,-1]</rectangle>
 						<order>11</order>
@@ -7063,13 +7063,13 @@
 						<order>11</order>
 					</text>
 					<text>
-						<text>  Young, full of life but of lower upbringing, she weaves a web of intrigue wherever she goes.  Leveraging her quick wit, exceptional gifts of perception and beauty, she has made her way by cunningly crafting somewhat astucious plans.  Always one step ahead of the authorities, she is presently on the run from one such plan that has gone astray.</text>
+						<text>Young, full of life but of lower upbringing, Isabel weaves a web of intrigue wherever she goes. Leveraging her quick wit, exceptional gifts of perception and beauty, she has made her way by crafting barely legal, astucious plans.  Always one step ahead of the authorities, she is presently on the run from one such plan that has gone astray.</text>
 						<style>normal_black_full</style>
 						<rectangle>[50,600,845,-1]</rectangle>
 						<order>11</order>
 					</text>
 					<text>
-						<text>  Unique abilities: Isabel gains an extra glibness {I:skill_glib:50:-2} in challenges involving males.</text>
+						<text>Unique abilities: Isabel gains an extra glibness {I:skill_glib:50:-2} in challenges involving males.</text>
 						<style>normal_black_full</style>
 						<rectangle>[50,1150,845,-1]</rectangle>
 						<order>11</order>
