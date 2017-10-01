@@ -2006,7 +2006,7 @@
 						<order>0</order>
 					</text>
 					<text>
-						<text>Click... uh oh.  A split second later a dart shoot across the room, nearly missing your party.  You've stumbled into a blow dart trap. Who knows just what panel or floor tile will trigger the next dart!! Keep you wits about you, move with caution and celerity to make your way out of the room. </text>
+						<text>Click... uh oh.  A split second later a dart shoots across the room, narrowly missing your party.  You've stumbled into a blow dart trap!  Who knows what panel or floor tile will trigger the next dart?  Keep your wits about you.  Moving with caution and celerity you make your way out of the room. </text>
 						<style>card_b_default</style>
 						<rectangle>[86,340,773,-1]</rectangle>
 						<order>0</order>
@@ -2044,7 +2044,7 @@
 						<order>0</order>
 					</text>
 					<text>
-						<text>What's that rumble?  Vibrations in the walls? Argh, we're about to be crushed by a giant rolling rock... And me without my whip! Move fast and get out of the way.</text>
+						<text>What's that rumble? Vibrations in the walls? Argh, we're about to be crushed by a giant rolling rock... And me without my whip! Move fast and get out of the way.</text>
 						<style>card_b_default</style>
 						<rectangle>[86,250,773,-1]</rectangle>
 						<order>0</order>
@@ -2082,7 +2082,7 @@
 						<order>0</order>
 					</text>
 					<text>
-						<text>A woman is weeping loudly and walking towards you. When you are closer, she asks you {s:card_b_default_italic}"My daughter, have you seen my daughter Maria? They took her! I followed them up to here, but then I lost them... Did you see my daughter?"{s:} She grabs your sleeves and does not let you go.</text>
+						<text>A woman is weeping loudly and walking towards you. She closes with your party and makes a plea {s:card_b_default_italic}"My daughter, have you seen my daughter Maria? They took her! I followed them here, but lost sight of them... Can you help me find my daughter?"{s:} She grabs your sleeves and does not let you go.</text>
 						<style>card_b_default</style>
 						<rectangle>[86,250,773,-1]</rectangle>
 						<order>0</order>
@@ -2112,7 +2112,7 @@
 						<order>10</order>
 					</image>
 					<text>
-						<text>A happy but reserved Bob is waiting for you as you exit the caissons. Things seem fine, but was Bob wearing that "bishop" garb when we left?  And  where did that inquisition logo come from? {s:card_b_default_italic}"Welcome back, the rift has been successfully closed, Keith has been stopped and time once again flows undisturbed. To tell the truth, I struggled with sending you.  I mean to have to deal with a man as influential as Keith, I sort of felt like Pilate. But I knew I could count on you to put things right! I'm sure we will have more tasks for you, but first let's get you out of those old outfits and into something a bit more appropriate. "{s:} He gestures to fresh uniforms in the corner, topped with glowing soul medallions...{n}{n}Congratulations for a job well done! ... ?</text>
+						<text>A happy but reserved Bob is waiting for you as you exit the caissons. Things seem fine, but was Bob wearing that "bishop" garb when we left?  And  where did that inquisition logo come from? {s:card_b_default_italic}"Welcome back, the rift has been successfully closed, Keith has been stopped and time once again flows undisturbed. To tell the truth, I struggled with the decision to send you.  To have to deal with a great man like Keith, I sort of felt like Pilate. But I knew I could count on you to put things right! I'm sure we will have more tasks for you, but first let's get you out of those old outfits and into something more appropriate. "{s:} He gestures to fresh uniforms in the corner, topped with glowing soul medallions...{n}{n}Congratulations for a job well done! ... ?</text>
 						<style>card_b_default</style>
 						<rectangle>[86,520,773,-1]</rectangle>
 						<order>0</order>
@@ -2140,7 +2140,7 @@
 						<order>10</order>
 					</image>
 					<text>
-						<text>You are greeted by Bob's smiling face as you exit the caissons. News of your skillful handling of a tricky situation must have preceded you. {s:card_b_default_italic}"Congratulations, the rift is closed and Keith’s plans have been thwarted. I do hope his impact on the timelines has been minimized.  Please continue into the next room and Laura will debrief you. I am so pleased with your performance this time around, that I might have a special treat for you in mind... What do you think of a company-paid vacation trip in an exotic time-space location? Oh well, I will have to bring this up with management. In the meantime, Laura is waiting in the next room..."{s:}{n}{n}Congratulations for a job well done!</text>
+						<text>You are greeted by Bob's smiling face as you exit the caissons. News of your skillful handling of a tricky situation must have preceded you. {s:card_b_default_italic}"Congratulations, the rift is closed and Keith’s plans have been thwarted. I do hope his impact on the timelines has been minimized.  Please continue into the next room and Laura will debrief you. I am so pleased with your performance this time around, that I have a special treat for you in mind... What do you think of a paid vacation in some exotic place in time? I will bring it up with management! In the meantime, Laura is waiting in the next room..."{s:}{n}{n}Congratulations for a job well done!</text>
 						<style>card_b_default</style>
 						<rectangle>[86,520,773,-1]</rectangle>
 						<order>0</order>
@@ -2163,15 +2163,15 @@
 						<order>10</order>
 					</image>
 					<text>
-						<text>Bob is there as as you climb out of the caissons. He is not smiling.  {s:card_b_default_italic}"I expect the best from my agents and you are making me reconsider my recommendations"{s:}, he laments.  {s:card_b_default_italic}"We still have a chance to stop Keith, but our window is narrowing, so get back in there and track him down, quickly."{s:} You respond quickly and get back into the caissons and the all too familiar countdown begins...</text>
+						<text>Bob is there as as you climb out of the caissons. He is not smiling.  {s:card_b_default_italic}"I expect the best from my agents and you are making me reconsider my recommendations"{s:}, he laments.  {s:card_b_default_italic}"We still have a chance to stop Keith, but the window is narrowing. Get back in there and track him down, quickly!"{s:} You respond by turning around and getttomg back into the caissons. The all too familiar countdown begins...</text>
 						<style>card_b_default</style>
 						<rectangle>[86,430,773,-1]</rectangle>
 						<order>0</order>
 					</text>
 					<text>
-						<text>Leave in place all items marked {I:blue_logo:75:-2} but reset the rest of the game, returning other items to the desk along with all random encounter cards. Reread cards E and F of the {s:card_b_action_bold}Base{s:} location and follow the instructions. Two more things:{n}&#x2022; Take token {I:token_black_1:75:-2}.{n}&#x2022; You may start from any location listed on the visible plan cards.</text>
+						<text>Leave in place all items marked {I:blue_logo:75:-2} but reset the rest of the game. Return other items to the deck along with all random encounter cards. Reread cards E and F of the {s:card_b_action_bold}Base{s:} location and follow the instructions. Two more things:{n}&#x2022; Take token {I:token_black_1:75:-2}.{n}&#x2022; You may start from any location listed on the visible plan cards.</text>
 						<style>card_b_action</style>
-						<rectangle>[86,970,773,-1]</rectangle>
+						<rectangle>[86,960,773,-1]</rectangle>
 						<order>0</order>
 					</text>
 				</bottom>
