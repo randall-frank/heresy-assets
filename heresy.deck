@@ -2140,7 +2140,7 @@
 						<order>10</order>
 					</image>
 					<text>
-						<text>You are greeted by Bob's smiling face as you exit the caissons. News of your skillful handling of a tricky situation must have proceeded you. {s:card_b_default_italic}"Congratulations, the rift is closed and Keith’s plans have been thwarted. I do hope his impact on the timelines has been minimized.  Please continue into the next room and Laura will debrief you. I am so pleased with your performance this time around, that I might have a special treat for you in mind... What do you think of a company-paid vacation trip in an exotic time-space location? Oh well, I will have to bring this up with management. In the meantime, Laura is waiting in the next room..."{s:}{n}{n}Congratulations for a job well done!</text>
+						<text>You are greeted by Bob's smiling face as you exit the caissons. News of your skillful handling of a tricky situation must have preceded you. {s:card_b_default_italic}"Congratulations, the rift is closed and Keith’s plans have been thwarted. I do hope his impact on the timelines has been minimized.  Please continue into the next room and Laura will debrief you. I am so pleased with your performance this time around, that I might have a special treat for you in mind... What do you think of a company-paid vacation trip in an exotic time-space location? Oh well, I will have to bring this up with management. In the meantime, Laura is waiting in the next room..."{s:}{n}{n}Congratulations for a job well done!</text>
 						<style>card_b_default</style>
 						<rectangle>[86,520,773,-1]</rectangle>
 						<order>0</order>
@@ -4966,7 +4966,7 @@
 						<order>10</order>
 					</image>
 					<text>
-						<text>Bob seems nervously distracted as you enter the room. He quickly turns and returns back to character as becomes aware of your presence. {n}{s:normal_black_full_italic}"Ah, you've arrived and none too soon.  We have a rift to close and this time it is a bit more personal than I would like. We have a rogue agent. Agent Keith has decided to make history his home and recreational playground. You obviously understand the implications for all of us.  If he makes one mistake, one bad decision?  Well, you understand and I need you to stop him. {s:normal_black_full_bold}Find Keith, his henchmen and time portal... put an end to their plans."</text>
+						<text>Bob seems nervously distracted as you enter the room. He quickly turns and returns back to character as he becomes aware of your presence. {n}{s:normal_black_full_italic}"Ah, you've arrived and none too soon.  We have a rift to close and this time it is a bit more personal than I would like. We have a rogue agent. Agent Keith has decided to make history his home and recreational playground. You obviously understand the implications for all of us.  If he makes one mistake, One bad decision?  Well, you understand and I need you to stop him. {s:normal_black_full_bold}Find Keith, his henchmen and time portal... put an end to their plans."</text>
 						<style>normal_black_full</style>
 						<rectangle>[75,470,795,-1]</rectangle>
 						<order>11</order>
@@ -5135,7 +5135,7 @@
 						<order>11</order>
 					</image>
 					<text>
-						<text>Glibness: this is a measure of one's ability to convince people to see things your way or convince that your ideas are better than theirs. </text>
+						<text>Glibness: this is a measure of one's ability to convince people to see things your way or that your ideas are better than theirs. </text>
 						<style>small_white_box_full</style>
 						<rectangle>[275,1000,595,200]</rectangle>
 						<order>11</order>
@@ -5363,7 +5363,7 @@
 						<order>10</order>
 					</image>
 					<text>
-  					<text>A Soul Medallion - A pendant medallion with an orb in its center on a light chain.  You do not recognize the metal, but the ord emits a warm glow.</text>
+  					<text>A Soul Medallion - A pendant medallion with an orb in its center on a light chain.  You do not recognize the metal, but the orb emits a warm glow.</text>
 						<style>card_b_default</style>
 						<rectangle>[86,650,773,-1]</rectangle>
 						<order>0</order>
@@ -5461,7 +5461,7 @@
 						<order>10</order>
 					</image>
 					<text>
-						<text>A box of lightning. A heavy black box with two metal "strings" coming from it. If the ends of the two strings touch, the fire tongue of the devil is clearly visible.</text>
+						<text>A box of lightning. A heavy box with two metal "strings" coming from it. If the ends of the two strings touch, the fire tongue of the devil is clearly visible.</text>
 						<style>card_b_default</style>
 						<rectangle>[86,700,773,-1]</rectangle>
 						<order>0</order>
@@ -5562,7 +5562,7 @@
 				</top>
 				<bottom>
 					<text>
-						<text>If you acquired this card as a result of solving the Stand Glass puzzle, continue on reading this card.  If not, please consider placing this card back into the deck for the full game experience.</text>
+						<text>If you acquired this card as a result of solving the Stained Glass puzzle, continue reading this card.  If not, please consider placing this card back into the deck for the full game experience.</text>
 						<style>small_white_box_red</style>
 						<rectangle>[86,50,773,-1]</rectangle>
 						<order>0</order>
@@ -5718,7 +5718,7 @@
 				</top>
 				<bottom>
 					<text>
-						<text>A nuanced verbal exchange ensues.  It quickly becomes obvious that he is a T.I.M.E Agent as well. "Agent Smith", he relates.  Shaking your hands,  {s:card_b_default_italic}"I have been tracking Keith as well. It looks like you came just in time to help me put a stop to his plans. He has been wreaking havoc with these lines of time and the local gentry. It is only a matter of time before he irreparably alters our timeline. I believe the man in the Electronics section is Keith himself. Why don't you head over there and confront him?  I will join you shortly."{s:} </text>
+						<text>A nuanced verbal exchange ensues.  It quickly becomes obvious that he is a T.I.M.E Agent as well. "Agent Smith", he relates.  Shaking your hands,  {s:card_b_default_italic}"I have been tracking Keith as well. It looks like you came just in time to help me put a stop to his plans. He has been wreaking havoc with these strands of time and the local gentry. It is only a matter of time before he irreparably alters our timeline. I believe the man in the Electronics section is Keith himself. Why don't you head over there and confront him?  I will join you shortly."{s:} </text>
 						<style>card_b_default</style>
 						<rectangle>[86,50,773,-1]</rectangle>
 						<order>0</order>
@@ -5731,7 +5731,7 @@
 				<bottom>
 					<image>
 						<image>shorts</image>
-						<rectangle>[100,280,745,-2]</rectangle>
+						<rectangle>[100,250,745,-2]</rectangle>
 						<order>10</order>
 					</image>
 					<text>
@@ -5741,15 +5741,15 @@
 						<order>0</order>
 					</text>
 					<text>
-						<text>A questionable fashion statement in any timeline. However, if you wear them in combat, they will distract your adversary. </text>
+						<text>As you put on these shorts you have the sudden urge to ask where Boss Hogg is holding Uncle Jesse...  A questionable fashion statement in any timeline. However, if you wear them in combat, they will distract your adversary. </text>
 						<style>card_b_default</style>
-						<rectangle>[86,900,773,-1]</rectangle>
+						<rectangle>[86,850,773,-1]</rectangle>
 						<order>0</order>
 					</text>
 					<text>
 						<text>Take one less {I:red_skull:75:-2} from any combat rolls where one appears.</text>
 						<style>card_b_action</style>
-						<rectangle>[86,1100,773,-1]</rectangle>
+						<rectangle>[86,1200,773,-1]</rectangle>
 						<order>0</order>
 					</text>
 				</bottom>
@@ -5865,7 +5865,7 @@
 						<order>10</order>
 					</text>
 					<text>
-						<text>You have created...life?? You place all of the collected body parts together and breathed life into the beast.  It rises and speaks in deep, broken voice: {s:card_b_default_italic}"You gave me life, I give you my loyality. I am at your service master."{s:} The golem always follows one character around and can participate in challenges. It cannot be healed and cannot use any items.</text>
+						<text>You have created...life?? You place all of the collected body parts together and breathe life into the beast.  It rises and speaks in a deep, broken voice: {s:card_b_default_italic}"You give life, I give loyality. I am yours, master."{s:} The golem always follows one character around and can participate in challenges. It cannot be healed and cannot use any items.</text>
 						<style>card_b_default</style>
 						<rectangle>[350,130,575,-1]</rectangle>
 						<order>10</order>
@@ -6040,7 +6040,7 @@
 						<order>0</order>
 					</text>
 					<text>
-						<text>A very peculiar piece of art in this bench. It took some skill to obtain this from its protector. Why would there be a single, fully colored glass panel in this dark place of desparation?</text>
+						<text>A very peculiar piece of art in this bench. It took some skill to obtain this from its protector. Why would there be a single, fully colored glass panel in this dark place of desperation?</text>
 						<style>card_b_default</style>
 						<rectangle>[86,1200,773,-1]</rectangle>
 						<order>0</order>
@@ -6119,7 +6119,7 @@
 						<order>11</order>
 					</text>
 					<text>
-						<text>  As smoke rises from the ashes of the Do&#x00f1;a, her spirit is... moved. Her essence is transferred to her guardian familiar.  Disregard Do&#x00f1;a's card and from here on use the familiar card.{n}{n}The black cat has multiple lives and can communicate with other humans (in familiar form, she does not lose glibness). The cat retains any health packs the Lady had before conversion and can still use them.  The cat is also able to leave combat at any time. This card may only be held by the player who selected the Do&#x00f1;a character for this run.</text>
+						<text>As smoke rises from the ashes, her spirit is... moved. Her essence is transferred to her guardian familiar.  Discard the Do&#x00f1;a's character card and use this familiar card instead.{n}{n}The black cat has multiple lives and can communicate with other humans (in familiar form, she does not lose glibness). The cat retains any health packs the Lady had before conversion and can still use them.  The cat is also able to leave combat at any time. This card may only be held by the player who selected the Do&#x00f1;a character for this run.</text>
 						<style>normal_black_full</style>
 						<rectangle>[50,600,845,-1]</rectangle>
 						<order>11</order>
@@ -6209,7 +6209,7 @@
 						<order>11</order>
 					</text>
 					<text>
-						<text>  As smoke rises from Isabel's ashes, her spirit is... moved. Her essence is transferred to her guardian familiar.  Disregard Isabel's card and from here on use the familiar card.{n}The snake can make a poison attack that recharges in 5 {I:time:40:-2}.  When the poison attack token {I:poison:40:-2} is used, it is placed on the timeline, 5 {I:time:40:-2} in the future.  When the time counter arrives at the poison token, remove it from the timeline and place it on this card. It can be used immediately. A poison attack adds two die to a combat attack. This card may only be held by the player who selected the Isabel character for this run.</text>
+						<text>As smoke rises from the ashes, her spirit is... moved. Her essence is transferred to her guardian familiar.  Discard Isabel's character card and use this familiar card instead.{n}The snake can make a poison attack that recharges in 5 {I:time:40:-2}.  When the poison attack token {I:poison:40:-2} is used, it is placed on the timeline, 5 {I:time:40:-2} in the future.  When the time counter arrives at the poison token, remove it from the timeline and place it on this card. It can be used immediately. A poison attack adds two die to a combat attack. This card may only be held by the player who selected the Isabel character for this run.</text>
 						<style>normal_black_full</style>
 						<rectangle>[50,600,845,-1]</rectangle>
 						<order>11</order>
@@ -6287,7 +6287,7 @@
 						<order>11</order>
 					</text>
 					<text>
-						<text>  As smoke rises from the Sister's ashes, her spirit is... moved. Her essence is transferred to her guardian familiar.  Disregard the Sister's card and from here on use the familiar card.{n}{n}The crow is not locked into combat and can leave at any time. The crow may also fly between any two cards in the current location in the same turn. It may only participate in a single challenge roll per time-unit, but can move between and read two location cards in the same {I:time:40:-2}. This card may only be held by the player who selected the Sister character for this run.</text>
+						<text>As smoke rises from the ashes, her spirit is... moved. Her essence is transferred to her guardian familiar.  Discard the Sister's character card and use this familiar card instead.{n}{n}The crow is not locked into combat and can leave at any time. The crow may also fly between any two cards in the current location in the same turn. It may only participate in a single challenge roll per time-unit, but can move between and read two location cards in the same {I:time:40:-2}. This card may only be held by the player who selected the Sister character for this run.</text>
 						<style>normal_black_full</style>
 						<rectangle>[50,600,845,-1]</rectangle>
 						<order>11</order>
@@ -6758,7 +6758,7 @@
 						<order>10</order>
 					</image>
 					<text>
-						<text>1</text>
+						<text>3</text>
 						<style>small_white_box</style>
 						<rectangle>[615,430,25,-1]</rectangle>
 						<order>11</order>
@@ -6769,13 +6769,13 @@
 						<order>10</order>
 					</image>
 					<text>
-						<text>2</text>
+						<text>3</text>
 						<style>small_white_box</style>
 						<rectangle>[765,430,25,-1]</rectangle>
 						<order>11</order>
 					</text>
 					<text>
-						<text>  A skilled tradesman and "road scholar", Gaspar is on his way to start work on a new home for a local businessman, but running low on funds, is looking for odd jobs in the local town.</text>
+						<text>   Gaspar's skin is heavily tanned, like leather, from working in the sun while hands, callused from years of hard work, remain nimble and strong. Something about him makes you feel he has a secret....  A skilled tradesman and "road scholar", Gaspar is on his way to start work on a new home for a local businessman.</text>
 						<style>normal_black_full</style>
 						<rectangle>[50,600,845,-1]</rectangle>
 						<order>11</order>
@@ -6869,7 +6869,7 @@
 						<order>10</order>
 					</image>
 					<text>
-						<text>4</text>
+						<text>3</text>
 						<style>small_white_box</style>
 						<rectangle>[765,430,25,-1]</rectangle>
 						<order>11</order>
@@ -7057,7 +7057,7 @@
 						<order>10</order>
 					</image>
 					<text>
-						<text>3</text>
+						<text>2</text>
 						<style>small_white_box</style>
 						<rectangle>[765,430,25,-1]</rectangle>
 						<order>11</order>
