@@ -2807,7 +2807,7 @@
 							<order>0</order>
 						</rect>
 						<text>
-							<text>You enter the austere stone building. The interior shares the same aged look as the exterior.  Scarred stone walls enclose the space. At the entrance is a confessional booth, door open and inviting confessors.  In the center is a small altar with unfinished wooden benches in front. Behind a half partition, some book stacks are visible and a most curious door.</text>
+							<text>You enter an austere stone building. The interior shares the same aged look as the exterior. Scarred stone walls enclose the space. At the entrance is a confessional booth, door open, inviting confessors.  In the center is a small altar with unfinished wooden benches in front. Behind a partition, book stacks are visible and a most curious door.</text>
 							<style>card_a_default_clear</style>
 							<rectangle>[106,114,733,1310]</rectangle>
 							<order>1</order>
@@ -2824,19 +2824,19 @@
 					<bottom>
 						<image>
 							<image>confessional</image>
-							<rectangle>[200,94,545,-2]</rectangle>
+							<rectangle>[250,94,445,-2]</rectangle>
 							<order>10</order>
 						</image>
 						<text>
 							<text>You enter the confessional, a claustrophobic box with a small grille on one of the walls.  You close the door behind you and face the grille.</text>
 							<style>card_b_default</style>
-							<rectangle>[86,850,773,-1]</rectangle>
+							<rectangle>[86,730,773,-1]</rectangle>
 							<order>0</order>
 						</text>
 						<text>
-							<text>&#x2022; You may confess: {s:card_b_default_italic} "Bless me, Father, for I have sinned..."{s:} or leave the confessional.{n}&#x2022; If Do&#x00f1;a Ortiz confesses, she takes item {s:card_b_action_bold}Item {in:trigger_lady}{s:}{n}&#x2022; If Sister Mar&#x00ed;a confesses, she may refill her blessings tokens {I:blessing:75:-2} to 2.</text>
+							<text>&#x2022; You may confess: {s:card_b_default_italic} "Bless me, Father, for I have sinned..."{s:} or leave the confessional.{n}&#x2022; If Do&#x00f1;a Ortiz confesses, she takes item {s:card_b_action_bold}Item {in:trigger_lady}{s:}{n}&#x2022; If Sister Mar&#x00ed;a confesses, she may refill her blessings tokens {I:blessing:75:-2} to 2.{n}&#x2022; If other characters confess, their sins are forgiven.</text>
 							<style>card_b_action</style>
-							<rectangle>[86,1100,773,-1]</rectangle>
+							<rectangle>[86,980,773,-1]</rectangle>
 							<order>0</order>
 						</text>
 					</bottom>
@@ -2851,11 +2851,11 @@
 					<bottom>
 						<image>
 							<image>housemaid</image>
-							<rectangle>[250,94,445,-2]</rectangle>
+							<rectangle>[250,85,445,-2]</rectangle>
 							<order>10</order>
 						</image>
 						<text>
-                            <text>The chapel housemaid is cleaning the altar fixtures and looks nervously toward your group {s:card_b_default_italic}"You are not from here are you?"{s:} she asks in a hushed voice. You mention that you have followed the cart into town and ask if that is a common sight here. {s:card_b_default_italic}"You must be very careful around the clergy here..."{s:}, the maid responds.</text>
+                            <text>A housemaid is cleaning altar fixtures and looks nervously toward your group {s:card_b_default_italic}"You are not from here are you?"{s:} she asks in a hushed voice. You mention that you have followed the cart into town and ask if that is a common sight here. {s:card_b_default_italic}"You must be very careful around the clergy here..."{s:}, the maid remarks.</text>
 							<style>card_b_default</style>
 							<rectangle>[86,720,773,-1]</rectangle>
 							<order>0</order>
@@ -2882,7 +2882,7 @@
 							<order>10</order>
 						</image>
 						<text>
-							<text>A few stacks of books sit on a table with a sparsely populated bookcase in the background. This "library" has most obviously been heavily used and very rare for a small village chapel. Some of the books are in English and do not appear to be hand-written. Many of the books are of non-ecclesiastical content, including works on astronomy by Ibn Zarqala and surgery by Albucasis, mixed in with works on alchemy and celestial formations.</text>
+							<text>A few stacks of books sit on a table with a sparsely populated bookcase in the background. This "library" has most obviously been heavily used and is very rare for a small village chapel. Some of the books are in English and do not appear to be hand-written. Many of the books are of non-ecclesiastical content.  They include works on astronomy by Ibn Zarqala and surgery by Albucasis mixed with works on alchemy and celestial formations.</text>
 							<style>card_b_default</style>
 							<rectangle>[86,500,773,-1]</rectangle>
 							<order>0</order>
@@ -2966,7 +2966,7 @@
 							<order>0</order>
 						</rect>
 						<text>
-                            <text>The courtroom is spread out in front of your party.  On the left is the gallery where a small collection of townsfolk are observing the proceedings. A decorative piece of glass gracing the end of an occupied bench catches your eye. In the center, the counsel and the bailiff stand at a table before the judge with a despondent, haggered-looking defendant. The judge has just rendered a verdict and is recording his decision on the right.</text>
+                            <text>The courtroom is spread out in front of your party.  On the left is the gallery from which a collection of townsfolk observe the proceedings. A decorative piece of glass gracing the end of an occupied bench catches your eye. In the center, the counsel and the bailiff stand at a table before the judge with a despondent, haggered looking defendant. The judge has just rendered a verdict and is recording his decision...</text>
 							<style>card_a_default_clear</style>
 							<rectangle>[106,114,733,1310]</rectangle>
 							<order>1</order>
@@ -3068,7 +3068,7 @@
 							<order>10</order>
 						</image>
 						<text>
-                            <text>A Saint Inquisitor is sitting on a high chair behind a desk full of books and sheets of papers. As you approach the judge's bench: {s:card_b_default_italic}"I find the defendant guilty. We will not tolerate the spread of seditious lies about the Inquisition."{s:} growls the magistrate.  {s:card_b_default_italic}"Perhaps a session with the interrogators with help you see the error of your ways. Yes, that should prove very effective. Veritas fidelis defendit!"{s:} The defendant covers her face in horror. The judge is busy writing on a piece of paper and pays little attention to you as your approach.</text>
+                            <text>A Saint Inquisitor is sitting on a high chair behind a desk full of books and sheets of papers. As you approach the judge's bench: {s:card_b_default_italic}"I find the defendant guilty. We will not tolerate the spread of seditious lies about the Inquisition."{s:} growls the magistrate.  {s:card_b_default_italic}"Perhaps a session with the interrogators will help you see the error of your ways. Yes, that should prove very effective. Veritas fidelis defendit!"{s:} The defendant covers her face in horror. The judge is busy writing on a piece of paper and pays little attention to you as you approach.</text>
 							<style>card_b_default</style>
 							<rectangle>[86,570,773,-1]</rectangle>
 							<order>0</order>
@@ -3234,7 +3234,7 @@
 							<order>0</order>
 						</rect>
 						<text>
-							<text>A large stone dark room opens before your eyes. Its smell makes you think of death and feel of despair. Shouts of pain are mixed with prayers and the sound of bones stretched to their limits. On your left, a man completely dressed in black is blocking your way. Next to him, a storage cabinet is half open. In the middle of the room, a torture wheel is spinning. At the far right, a group of women is smiling and waving at you.</text>
+							<text>A large stone dark room opens before your eyes. Its smell makes you think of death and feel of despair. Shouts of pain are mixed with prayers and the sound of tendons stretched to their limits. On your left, a man completely dressed in black is blocking your way. Next to him, a storage cabinet stands, half open. In the middle of the room, a number of people are about to 'confess'. At the far right, a group of women is smiling and waving at you.</text>
 							<style>card_a_default_clear</style>
 							<rectangle>[106,114,733,1310]</rectangle>
 							<order>1</order>
@@ -3255,7 +3255,7 @@
 							<order>10</order>
 						</image>
 						<text>
-							<text>{s:card_b_default_italic}"We usually do not allow visitors in the inquisitor chambers, but you seem a tight group, and maybe your presence can help your women confess faster. Do not touch anything: there are plenty of objects filled with dark magic in this room. With the help of God, this will all be over soon."{s:}</text>
+							<text>{s:card_b_default_italic}"We do not usually allow visitors in the inquisitor chambers, but you seem a tight group. Maybe your presence can help these women confess faster. Do not touch anything! There are plenty of objects filled with dark magic in this room. With the help of God, this will all be over soon."{s:}</text>
 							<style>card_b_default</style>
 							<rectangle>[86,800,773,-1]</rectangle>
 							<order>0</order>
@@ -3318,7 +3318,7 @@
 							<order>10</order>
 						</image>
 						<text>
-							<text>Sister Mar&#x00ed;a is bound to the chair in front of a table of questionable instruments. She breaks down completely, unable to hide her secret any longer. {s:card_b_default_italic}"I had no choice don't you see?  God did not answer my prayers and I could not let the child die. What else could I have done? I have committed grave sins for which there can be no atonement. Do with me what you will, my soul is in your hands."{s:} A lone crow lands on an overhead beam as she admits to having embraced the dark arts. A tear rolls down the face of the man in front of her as he slowly makes the sign of the cross.</text>
+							<text>Sister Mar&#x00ed;a is bound to a chair in front of a table of questionable instruments. She breaks down completely, unable to hide her secret any longer. {s:card_b_default_italic}"I had no choice don't you see?  God did not answer my prayers and I could not let the child die. What else could I have done? I have committed grave sins for which there can be no atonement. Do with me what you will, my soul is in your hands."{s:} A lone crow lands on an overhead beam as she admits to having embraced the dark arts. A tear rolls down the face of the man in front of her as he slowly makes the sign of the cross.</text>
 							<style>card_b_default</style>
 							<rectangle>[86,410,773,-1]</rectangle>
 							<order>0</order>
@@ -3402,7 +3402,7 @@
 							<order>10</order>
 						</image>
 						<text>
-							<text>Isabel has been lashed to the wheel. A man covered by a black mask asks her one question after the other without waiting for your reply. That voice, the cadence, the drink... Madness! Isabel shrieks with laughter, unable to fight the influences of the evil brew any longer {s:card_b_default_italic}"Yes, yes I am the witch that you seek!"{s:} Silently, a snake coils in the corner. The man laughs out loud, {s:card_b_default_italic}"I was expecting more fight from one like you. No matter, you shall reap now what you have sown."{s:} Guards release her  and escort her roughly out of the room.</text>
+							<text>Isabel has been lashed to the wheel. A man covered by a black mask asks her one question after the other without waiting for your reply. That voice, the cadence, the drink... Madness! Isabel shrieks with laughter, unable to fight the influences of the evil brew any longer {s:card_b_default_italic}"Yes, yes I am the witch that you seek!"{s:} Silently, a snake coils in the corner. The man laughs out loud, {s:card_b_default_italic}"I was expecting more fight from one like you. No matter, you shall reap now what you have sown."{s:} Guards release her and escort her roughly out of the room.</text>
 							<style>card_b_default</style>
 							<rectangle>[86,420,773,-1]</rectangle>
 							<order>0</order>
@@ -3429,7 +3429,7 @@
 							<order>10</order>
 						</image>
 						<text>
-							<text>The smell becomes really strong. You suddenly realize you have stepped on something. You reach down to pick it up, careful not to be seen by the guards.</text>
+							<text>The smell becomes particularly strong. You suddenly realize you have stepped on something. You reach down to pick it up, careful not to be seen by the guards.</text>
 							<style>card_b_default</style>
 							<rectangle>[86,870,773,-1]</rectangle>
 							<order>0</order>
@@ -3456,7 +3456,7 @@
 							<order>10</order>
 						</image>
 						<text>
-							<text>A group of women are looking towards you with creepy smiles on their faces. {s:card_b_default_italic}"What is a beautiful thing like you doing in such a sinful place like this one? Do you not know we are all sinners and slaves of the evil? Fortunately God will soon purify our souls with fire and grant us a new beginning. Help us enjoy the pleasures of the flesh one last time before we are made pure again?"{s:}</text>
+							<text>A group of women are looking towards you with creepy smiles on their faces. {s:card_b_default_italic}"What is a beautiful thing like you doing in such a sinful place like this one? Do you not know we are all sinners and slaves of evil one? Fortunately God will soon purify our souls with fire and grant us a new beginning. Help us enjoy the pleasures of the flesh one last time before we are made pure again?"{s:}</text>
 							<style>card_b_default</style>
 							<rectangle>[86,600,773,-1]</rectangle>
 							<order>0</order>
@@ -3535,7 +3535,7 @@
 							<order>0</order>
 						</text>
 						<text>
-							<text>&#x2022; An odd bulb hangs at his waist. You may try to take is while he blusters on.{n}&#x00a0;&#x2022; {I:skill_agile:75:-2} 2x{I:shield:75:-2} 3x{I:shield_time:75:-2}{n}&#x00a0;&#x2022; On success take {s:card_b_action_bold}Item {in:Soul Medallion}{s:} and one soul token {I:soul:75:-2}.</text>
+							<text>&#x2022; An odd bulb hangs at his waist. You may try to take it while he blusters on.{n}&#x00a0;&#x2022; {I:skill_agile:75:-2} 2x{I:shield:75:-2} 3x{I:shield_time:75:-2}{n}&#x00a0;&#x2022; On success take {s:card_b_action_bold}Item {in:Soul Medallion}{s:} and one soul token {I:soul:75:-2}.</text>
 							<style>card_b_action</style>
 							<rectangle>[86,1140,773,-1]</rectangle>
 							<order>0</order>
@@ -3794,7 +3794,7 @@
 							<order>10</order>
 						</image>
 						<text>
-							<text>&#x2022; {I:lock:75:-2} If random encounter cards are still available, you must deal with a random encounter. Select a card at random from the remaining random encounter cards and resolve it before moving on, spending the normal one TU {I:time:75:-2} movement cost. Remove any resolved encounder card from the deck.</text>
+							<text>&#x2022; {I:lock:75:-2} If random encounter cards are still available, you must deal with a random encounter. Select a card at random from the remaining random encounter cards and resolve it before moving on, spending the normal one TU {I:time:75:-2} movement cost. Remove any resolved encounter card from the deck.</text>
 							<style>card_b_action</style>
 							<rectangle>[86,1000,773,-1]</rectangle>
 							<order>0</order>
@@ -3815,7 +3815,7 @@
 							<order>10</order>
 						</image>
 						<text>
-							<text>You turn the corner to reveal the end of a short rocky passage. Some rubble and a broken pickaxe lie on the floor. Even the builders of this passage decided it was not worth proceeding with.</text>
+							<text>You turn the corner to reveal the end of a short rocky passage. Some rubble and a broken pickaxe lie on the floor. Even the builders of this passage decided it was not worth finishing.</text>
 							<style>card_b_default</style>
 							<rectangle>[86,1000,773,-1]</rectangle>
 							<order>0</order>
@@ -3836,7 +3836,7 @@
 							<order>10</order>
 						</image>
 						<text>
-							<text>&#x2022; {I:lock:75:-2} If random encounter cards are still available, you must deal with a random encounter. Select a card at random from the remaining random encounter cards and resolve it before moving on, spending the normal one TU {I:time:75:-2} movement cost. Remove any resolved encounder card from the deck.</text>
+							<text>&#x2022; {I:lock:75:-2} If random encounter cards are still available, you must deal with a random encounter. Select a card at random from the remaining random encounter cards and resolve it before moving on, spending the normal one TU {I:time:75:-2} movement cost. Remove any resolved encounter card from the deck.</text>
 							<style>card_b_action</style>
 							<rectangle>[86,1000,773,-1]</rectangle>
 							<order>0</order>
@@ -3903,7 +3903,7 @@
 							<order>10</order>
 						</image>
 						<text>
-							<text>The path slopes up and away from you steeply. The floor has been made slick a by reddened water leaching iron from the formations above your head dripping on the path at your feet. A treacherous path that must be taken slowly.</text>
+							<text>The path slopes up and away from you steeply. The floor has been made slick by reddened water leaching iron from the formations above your head dripping on the path at your feet. A treacherous path that must be taken slowly.</text>
 							<style>card_b_default</style>
 							<rectangle>[86,1000,773,-1]</rectangle>
 							<order>0</order>
@@ -3957,7 +3957,7 @@
 							<order>10</order>
 						</image>
 						<text>
-							<text>&#x2022; {I:lock:75:-2} If random encounter cards are still available, you must deal with a random encounter. Select a card at random from the remaining random encounter cards and resolve it before moving on, spending the normal one TU {I:time:75:-2} movement cost. Remove any resolved encounder card from the deck.</text>
+							<text>&#x2022; {I:lock:75:-2} If random encounter cards are still available, you must deal with a random encounter. Select a card at random from the remaining random encounter cards and resolve it before moving on, spending the normal one TU {I:time:75:-2} movement cost. Remove any resolved encounter card from the deck.</text>
 							<style>card_b_action</style>
 							<rectangle>[86,1000,773,-1]</rectangle>
 							<order>0</order>
@@ -4051,7 +4051,7 @@
 							<order>10</order>
 						</image>
 						<text>
-							<text>&#x2022; {I:lock:75:-2} If random encounter cards are still available, you must deal with a random encounter. Select a card at random from the remaining random encounter cards and resolve it before moving on, spending the normal one TU {I:time:75:-2} movement cost. Remove any resolved encounder card from the deck.</text>
+							<text>&#x2022; {I:lock:75:-2} If random encounter cards are still available, you must deal with a random encounter. Select a card at random from the remaining random encounter cards and resolve it before moving on, spending the normal one TU {I:time:75:-2} movement cost. Remove any resolved encounter card from the deck.</text>
 							<style>card_b_action</style>
 							<rectangle>[86,1000,773,-1]</rectangle>
 							<order>0</order>
@@ -4126,7 +4126,7 @@
 							<order>10</order>
 						</image>
 						<text>
-							<text>The path narrows to a single-fine rut between two rough-hewn walls. Tight quarters, but passible.</text>
+							<text>The path narrows to a single-file rut between two rough-hewn walls. Tight quarters, but passible.</text>
 							<style>card_b_default</style>
 							<rectangle>[86,1000,773,-1]</rectangle>
 							<order>0</order>
@@ -4253,7 +4253,7 @@
 							<order>10</order>
 						</image>
 						<text>
-							<text>&#x2022; {I:lock:75:-2} If random encounter cards are still available, you must deal with a random encounter. Select a card at random from the remaining random encounter cards and resolve it before moving on, spending the normal one TU {I:time:75:-2} movement cost. Remove any resolved encounder card from the deck.</text>
+							<text>&#x2022; {I:lock:75:-2} If random encounter cards are still available, you must deal with a random encounter. Select a card at random from the remaining random encounter cards and resolve it before moving on, spending the normal one TU {I:time:75:-2} movement cost. Remove any resolved encounter card from the deck.</text>
 							<style>card_b_action</style>
 							<rectangle>[86,1000,773,-1]</rectangle>
 							<order>0</order>
@@ -4614,7 +4614,7 @@
 							<order>10</order>
 						</image>
 						<text>
-							<text>The Electronics Center. A hooded, robed figure is looking at the cellular telephones. Arch-henchman 'Phil', according to the name on his badge, panics when he sees you coming.  He drops the phone and prepaid cards he was looking at and starts to run away.</text>
+							<text>The Electronics Center. A hooded, robed figure is looking at the cellular telephones. Arch-henchman 'Phil', according to the name on his badge, panics when he sees you coming.  He drops a phone and prepaid cards he was looking at and starts to run away.</text>
 							<style>card_b_default</style>
 							<rectangle>[86,670,773,-1]</rectangle>
 							<order>0</order>
