@@ -3535,7 +3535,7 @@
 							<order>0</order>
 						</text>
 						<text>
-							<text>&#x2022; An odd bulb hangs at his waist. You may try to take it while he blusters on.{n}&#x00a0;&#x2022; {I:skill_agile:75:-2} 2x{I:shield:75:-2} 3x{I:shield_time:75:-2}{n}&#x00a0;&#x2022; On success take {s:card_b_action_bold}Item {in:Soul Medallion}{s:} and one soul token {I:soul:75:-2}.</text>
+							<text>&#x2022; An odd bulb hangs at his waist. You may try to take it while he blusters on.{n}&#x00a0; {I:skill_agile:75:-2} 2x{I:shield:75:-2} 3x{I:shield_time:75:-2}{n}&#x00a0; On success take {s:card_b_action_bold}Item {in:Soul Medallion}{s:} and one soul token {I:soul:75:-2}.</text>
 							<style>card_b_action</style>
 							<rectangle>[86,1140,773,-1]</rectangle>
 							<order>0</order>
@@ -3589,7 +3589,7 @@
 							<order>0</order>
 						</text>
 						<text>
-							<text>&#x2022; A flash of light catches your eye in the pile of sticks and grasses. If you choose to investigate you must pass the challenge{n}&#x00a0;&#x2022; {I:skill_glib:75:-2} 4x{I:shield:75:-2} 2x{I:shield_time:75:-2}{n}&#x00a0;&#x2022; On success take {s:card_b_action_bold}Item {in:Stained Glass C}{s:}.</text>
+							<text>&#x2022; A flash of light catches your eye in the pile of sticks and grasses. If you choose to investigate you must pass the challenge{n}&#x00a0; {I:skill_glib:75:-2} 4x{I:shield:75:-2} 2x{I:shield_time:75:-2}{n}&#x00a0; On success take {s:card_b_action_bold}Item {in:Stained Glass C}{s:}.</text>
 							<style>card_b_action</style>
 							<rectangle>[86,1110,773,-1]</rectangle>
 							<order>0</order>
