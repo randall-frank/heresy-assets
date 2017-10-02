@@ -2088,7 +2088,7 @@
 						<order>0</order>
 					</text>
 					<text>
-						<text>&#x2022; {I:lock:75:-2} It takes time to soothe a grieving mother.{n}&#xA0;&#xA0; {I:skill_agile:75:-2} 5x{I:shield:75:-2} 2x{I:shield_time:75:-2}{n}&#xA0;&#xA0;On success you may leave this card.</text>
+						<text>&#x2022; {I:lock:75:-2} It takes time to soothe a grieving mother.{n}&#xA0;&#xA0; {I:skill_glib:75:-2} 5x{I:shield:75:-2} 2x{I:shield_time:75:-2}{n}&#xA0;&#xA0;On success you may leave this card.</text>
 						<style>card_b_action</style>
 						<rectangle>[86,680,773,-1]</rectangle>
 						<order>0</order>
@@ -2280,7 +2280,7 @@
 							<order>10</order>
 						</image>
 						<text>
-                            <text>The peasant pulls you out of earshot of the cart party.  {s:card_b_default_italic}"My name is Diego Rodr&#x00ed;guez and I need your help. My sister Catalina was working in the local inn when the Inquisition came into town. After a few minutes of questioning they took her in a cart like this one to the town up ahead and we have not heard from her in a week. In fact I think she wanted to go with them! I have heard stories about what they do with these girls and I fear for her life. Here is a picture of Catalina. If you find any information about her, please let me know. I plan to stay in the Inn in town. I've heard it can be a good source of information."{s:}</text>
+                            <text>The peasant pulls you out of earshot of the cart party.  {s:card_b_default_italic}"My name is Diego Rodr&#x00ed;guez and I need your help. My sister Catalina was working in the local inn when the Inquisition came into town. After a few minutes of questioning they took her in a cart like this one to the town up ahead and we have not heard from her in a week. In fact I think she wanted to go with them! I have heard stories about what they do with these girls and I fear for her life. Here is a picture of Catalina. If you find any information about her, please let me know. I plan to stay in the Inn in town. Drink makes for loose lips they say."{s:}</text>
 							<style>card_b_default</style>
                             <rectangle>[86,580,773,-1]</rectangle>
 							<order>0</order>
@@ -2307,7 +2307,7 @@
 							<order>10</order>
 						</image>
 						<text>
-							<text>A young woman wearing a silver cross necklace is locked in the cage. She looks oddly distant.  You ask her name and she responds in slow, slurred speech, {s:card_b_default_italic}"I seem to be called ... 'Juana'"{s:}.  When quizzed about her predicament, she only gestures to the tall man and smiles.</text>
+							<text>A young woman wearing a silver cross necklace is locked in the cage. When you look into her eyes she seems... distant... not fully aware of your presence. You ask her name and she responds in slow, slurred speech, {s:card_b_default_italic}"I seem to be called ... 'Juana'"{s:}.  When quizzed about her predicament, she only gestures to the tall man and smiles.</text>
 							<style>card_b_default</style>
 							<rectangle>[86,794,773,-1]</rectangle>
 							<order>0</order>
@@ -2355,7 +2355,7 @@
 							 <order>10</order>
 						</image>
 						<text>
-							<text>The tall man hears you approach and addresses you without turning around. {s:card_b_default_italic}"You are coming to this village in dark times, my friend. The forces of evil seem to be particularly strong in this area. But do not worry: His Holiness the Pope prays for us every day, and is sending here his most trusted men to bring these poor lost souls back onto the path of light. Saving them from eternal damnation. Women are particularly weak and attract the forces of evil, so we must help them the most. We have to stay strong and have faith: the fight will be long and fierce, but the forces of Heaven will prevail. Mala tempora currunt, sed peiora parantur."</text>
+							<text>The tall man hears you approach and addresses you without turning around. {s:card_b_default_italic}"You are coming to this village in dark times, my friend. The forces of evil seem to be particularly strong in this area. But do not worry: His Holiness the Pope prays for us every day, and is sending here his most trusted men to bring these poor lost souls back onto the path of righteousness, saving them from eternal damnation. Women are particularly weak and attract the forces of evil, so we must help them the most. We have to stay strong and have faith: the fight will be long and fierce, but the forces of Heaven will prevail. Mala tempora currunt, sed peiora parantur."</text>
 							<style>card_b_default</style>
                             <rectangle>[86,650,773,-1]</rectangle>
 							<order>0</order>
@@ -2755,7 +2755,7 @@
 					</top>
 					<bottom>
 						<text>
-                            <text>The chapel housemaid makes eye contact and discretely gestures for you to join her. {s:card_b_default_italic}"I must warn you: be wary of the clergy in this town. They say beautiful things about freeing women from the their dark sides, but are quick to summary judgment and punishment. I would not be so sure about their intentions either. They have exotic objects that they hide from everyone's sight. God forgive me, I suspect they use black magic themselves. I stole this from their study. It seemed very important, perhaps you can investigate this matter further?"{s:}</text>
+                            <text>The chapel housemaid makes eye contact and discretely gestures for you to join her. {s:card_b_default_italic}"I must warn you: be wary of the clergy in this town. They say beautiful things about freeing women from their dark sides, but are quick to summary judgment and punishment. I would not be so sure about their intentions either. They have exotic objects that they hide from everyone's sight. God forgive me, I suspect they use black magic themselves. I stole this from their study. It seemed very important, perhaps you can investigate this matter further?"{s:}</text>
 							<style>card_b_default</style>
 							<rectangle>[86,94,773,-1]</rectangle>
 							<order>0</order>
@@ -3930,7 +3930,7 @@
 							<order>10</order>
 						</image>
 						<text>
-							<text>A worn, wooden door opens, revealing a tunnel that curves ahead to the right.  You follow the path to a locations that looks... familiar.</text>
+							<text>A worn, wooden door opens, revealing a tunnel that curves ahead to the right.  You follow the path to a location that looks... familiar.</text>
 							<style>card_b_default</style>
 							<rectangle>[86,1000,773,-1]</rectangle>
 							<order>0</order>
@@ -4308,7 +4308,7 @@
 							<order>0</order>
 						</text>
 						<text>
-							<text>&#x2022; There door can be opened in one of two ways:{n}&#x00a0;&#x00a0;&#x2022; If you have items {s:card_b_action_bold}{in:the_cat}{s:}, {s:card_b_action_bold}{in:the_snake}{s:} or {s:card_b_action_bold}{in:the_crow}{s:}, they may exploit the transom to bypass the door and open it from the other side safely and at no cost, or you can destroy the door using brute force {I:skill_combat:75:-2} 5x{I:shield_red_skull:75:-2} 5x{I:shield_heart:75:-2}{n}&#x00a0;&#x00a0;&#x2022; If successful, take {s:card_b_action_bold}Item {in:Plan Add Laboratory}{s:}.</text>
+							<text>&#x2022; The door can be opened in one of two ways:{n}&#x00a0;&#x00a0;&#x2022; If you have items {s:card_b_action_bold}{in:the_cat}{s:}, {s:card_b_action_bold}{in:the_snake}{s:} or {s:card_b_action_bold}{in:the_crow}{s:}, they may exploit the transom to bypass the door and open it from the other side safely and at no cost, or you can destroy the door using brute force {I:skill_combat:75:-2} 5x{I:shield_red_skull:75:-2} 5x{I:shield_heart:75:-2}{n}&#x00a0;&#x00a0;&#x2022; If successful, take {s:card_b_action_bold}Item {in:Plan Add Laboratory}{s:}.</text>
 							<style>card_b_action</style>
 							<rectangle>[86,990,773,-1]</rectangle>
 							<order>0</order>
@@ -4354,7 +4354,7 @@
 							<order>0</order>
 						</rect>
 						<text>
-							<text>A strange room appears before you. Golden crosses at the walls and rosaries are mixed with aseptic tables, storage cupboards made of glass and metal and medieval weapons. On your left, a suit of armor is leaning against the wall. Beside it, a large table partially covered in wires. On the extreme of the table, a handwritten notebook is open. At the far right an elaborate archway beckons.</text>
+							<text>A strange room appears before you. Golden crosses on the walls and rosaries are mixed with aseptic tables, storage cupboards made of glass and metal and medieval weapons. On your left, a suit of armor is leaning against the wall. Beside it, a large table partially covered in wires. On the extreme of the table, a handwritten notebook is open. At the far right an elaborate archway beckons.</text>
 							<style>card_a_default_clear</style>
 							<rectangle>[106,114,733,1310]</rectangle>
 							<order>1</order>
@@ -4710,7 +4710,7 @@
 							<order>10</order>
 						</image>
 						<text>
-							<text>The Food Center. Crates of fruits and vegetables. An altar boy is packing Avocados into a big bag. {s:card_b_default_italic}"Whatever these is, they must be the food of heavens!"{s:}, he comments to himself.</text>
+							<text>The Food Center. Crates of fruits and vegetables. An altar boy is packing Avocados into a big bag. {s:card_b_default_italic}"Whatever these are, they must be the food of heavens!"{s:}, he comments to himself.</text>
 							<style>card_b_default</style>
 							<rectangle>[86,760,773,-1]</rectangle>
 							<order>0</order>
