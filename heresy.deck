@@ -4588,7 +4588,7 @@
 							<order>0</order>
 						</text>
 						<text>
-							<text>&#x2022; {I:lock:75:-2} He comes at you, brandishing a scythe:{n}&#x00a0;&#x00a0;&#x2022; {I:skill_combat:75:-2} 4x{I:shield:75:-2} 4x{I:shield_red_skull:75:-2}.</text>
+							<text>&#x2022; {I:lock:75:-2} He comes at you, brandishing a scythe:{n}&#x00a0;&#x00a0; {I:skill_combat:75:-2} 4x{I:shield:75:-2} 4x{I:shield_red_skull:75:-2}.</text>
 							<style>card_b_action</style>
 							<rectangle>[86,1140,773,-1]</rectangle>
 							<order>0</order>
@@ -4652,7 +4652,7 @@
 							<order>0</order>
 						</text>
 						<text>
-							<text>&#x2022; You may choose to fight them:{n}&#x00a0;&#x00a0;&#x2022; {I:skill_combat:75:-2} 4x{I:shield:75:-2} 2x{I:shield_red_skull:75:-2}{n}&#x00a0;&#x00a0;&#x2022; On success take {s:card_b_action_bold}Item {in:Nail Gun}{s:}.</text>
+							<text>&#x2022; You may choose to fight them:{n}&#x00a0;&#x00a0; {I:skill_combat:75:-2} 4x{I:shield:75:-2} 2x{I:shield_red_skull:75:-2}{n}&#x00a0;&#x00a0; On success take {s:card_b_action_bold}Item {in:Nail Gun}{s:}.</text>
 							<style>card_b_action</style>
 							<rectangle>[86,1280,773,-1]</rectangle>
 							<order>0</order>
@@ -4678,15 +4678,15 @@
 							<order>10</order>
 						</image>
 						<text>
-							<text> A slight man in inquisitor garb peruses the 1000 count bed linens. {s:card_b_default_italic}"The simple things can be so difficult to do without." he mutters. He stiffens, detecting your presence in the aisle, slowly turning to face you. There is a noted lack of fear in his demeanor. {s:card_b_default_italic}"I assume Bob has sent you?  Did he give you any messages for me?"{s:}  Recognizing your confusion, his disposition changes abruptly. {s:card_b_default_italic}"Ah, there is a different purpose to your visit then.  Well?"{s:}</text>
+							<text> A slight man in inquisitor garb peruses the 1000 count bed linens. {s:card_b_default_italic}"The simple things can be so difficult to do without."{s:} he mutters. He stiffens, detecting your presence in the aisle, slowly turning to face you. There is a noted lack of fear in his demeanor. {s:card_b_default_italic}"I assume Bob has sent you?  Did he give you any messages for me?"{s:}  Recognizing your confusion, his disposition changes abruptly. {s:card_b_default_italic}"Ah, there is a different purpose to your visit then.  Well?"{s:}</text>
 							<style>card_b_default</style>
-							<rectangle>[86,480,773,-1]</rectangle>
+							<rectangle>[86,460,773,-1]</rectangle>
 							<order>0</order>
 						</text>
 						<text>
-							<text>&#x2022; You have two choices:{n}&#x00a0;&#x00a0;&#x2022; Combat, the only way to be sure: {I:skill_combat:75:-2} 6x{I:shield_heart:75:-2} 4x{I:shield_red_skull:75:-2}, on success take {s:card_b_action_bold}Item {in:Keith Dead}{s:}.{n}&#x00a0;&#x00a0;&#x2022; Or get him to reveal his secrets {I:skill_glib:75:-2} 4x{I:shield:75:-2}, on success take {s:card_b_action_bold}Item {in:Keith Lies}{s:}.</text>
+							<text>&#x2022; You have two choices:{n}&#x00a0;&#x00a0;&#x2022; Combat, the only way to be sure:{n} {I:skill_combat:75:-2} 6x{I:shield_heart:75:-2} 4x{I:shield_red_skull:75:-2}{n} On success take {s:card_b_action_bold}Item {in:Keith Dead}{s:}.{n}&#x00a0;&#x00a0;&#x2022; Or get him to reveal his secrets{n} {I:skill_glib:75:-2} 4x{I:shield:75:-2}{n} On success take {s:card_b_action_bold}Item {in:Keith Lies}{s:}.</text>
 							<style>card_b_action</style>
-							<rectangle>[86,1100,773,-1]</rectangle>
+							<rectangle>[86,1070,773,-1]</rectangle>
 							<order>0</order>
 						</text>
 					</bottom>
@@ -4716,7 +4716,7 @@
 							<order>0</order>
 						</text>
 						<text>
-							<text>&#x2022; You may try to steal one for yourself:{n}&#x00a0;&#x00a0;&#x2022; {I:skill_agile:75:-2} 3x{I:shield:75:-2}{n}&#x00a0;&#x00a0;&#x2022; On success increase all participants health by one {I:heart:75:-2} (it is ok to exceed the maximum health on the character card).  Note this challenge can be performed only once per run.</text>
+							<text>&#x2022; You may try to steal one for yourself:{n}&#x00a0;&#x00a0;  {I:skill_agile:75:-2} 3x{I:shield:75:-2}{n}&#x00a0;&#x00a0; On success increase all participants health by one {I:heart:75:-2} (it is ok to exceed the maximum health on the character card).  Note this challenge can be performed only once per run.</text>
 							<style>card_b_action</style>
 							<rectangle>[86,1050,773,-1]</rectangle>
 							<order>0</order>
