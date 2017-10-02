@@ -4072,7 +4072,7 @@
 							<order>10</order>
 						</image>
 						<text>
-							<text>Ahead of you is a chasm of unknown depth on your right. The path continues, but has been reduced to a narrow ledge. Your part must exercise extreme caution while traversing this portion of the path. You make it to the next room, but have we gone in a circle?</text>
+							<text>Ahead of you is a chasm of unknown depth on your right. The path continues, but has been reduced to a narrow ledge. Your party must exercise extreme caution while traversing this portion of the path. You make it to the next room, but have we gone in a circle?</text>
 							<style>card_b_default</style>
 							<rectangle>[86,1000,773,-1]</rectangle>
 							<order>0</order>
@@ -4302,7 +4302,7 @@
 							<order>10</order>
 						</image>
 						<text>
-							<text>In front of you is a heavy door adornded with iron fixtures. The fixtures hum oddly and crackle with live energy. The door appears to be protected by the devil's fire (electrified). Something important must be behind it</text>
+							<text>In front of you is a heavy door adorned with iron fixtures. The fixtures hum oddly and crackle with live energy. The door appears to be protected by some sort of invisible fire. Something important must be behind it...</text>
 							<style>card_b_default</style>
 							<rectangle>[86,670,773,-1]</rectangle>
 							<order>0</order>
@@ -4375,13 +4375,13 @@
 							<order>10</order>
 						</image>
 						<text>
-							<text>A suit of medieval armor leans against the wall. This armor is the ultimate model available for crusade: light and powerful. What is it doing in a priest's office? ... wait, what is this thing stuck inside it?</text>
+							<text>A suit of medieval armor leans against the wall. This armor is the ultimate model available for crusade: light and powerful. What is it doing in a priest's office? ... wait, what is that thing stuck inside it?</text>
 							<style>card_b_default</style>
 							<rectangle>[86,730,773,-1]</rectangle>
 							<order>0</order>
 						</text>
 						<text>
-							<text>&#x2022; If you choose to search the armor:{n}&#x2022; {I:skill_agile:75:-2} 2x{I:shield:75:-2} 2x:{I:shield_time:75:-2}{n}&#x2022; On success take {s:card_b_action_bold}Item {in:Left Leg}{s:}.</text>
+							<text>&#x2022; If you choose to search the armor:{n} {I:skill_agile:75:-2} 2x{I:shield:75:-2} 2x:{I:shield_time:75:-2}{n} On success take {s:card_b_action_bold}Item {in:Left Leg}{s:}.</text>
 							<style>card_b_action</style>
 							<rectangle>[86,1060,773,-1]</rectangle>
 							<order>0</order>
@@ -4408,7 +4408,7 @@
 							<order>0</order>
 						</text>
 						<text>
-							<text>&#x2022; If you have {s:card_b_action_bold}Item {in:Box of Lightning}{s:}, you may connect it to the head and any other body parts you are carrying.{n}&#x2022; {I:skill_agile:75:-2} 2x{I:shield:75:-2} 2x:{I:shield_time:75:-2}{n}&#x2022; On success take {s:card_b_action_bold}Item {in:The Golem}{s:}.</text>
+							<text>&#x2022; If you have {s:card_b_action_bold}Item {in:Box of Lightning}{s:}, you may connect it to the head and any other body parts you are carrying.{n} {I:skill_agile:75:-2} 2x{I:shield:75:-2} 2x:{I:shield_time:75:-2}{n} On success take {s:card_b_action_bold}Item {in:The Golem}{s:}.</text>
 							<style>card_b_action</style>
 							<rectangle>[86,780,773,-1]</rectangle>
 							<order>0</order>
