@@ -98,7 +98,7 @@
 		<file filename="heresy_media/nun.jpg" name="nun"/>
 		<file filename="heresy_media/path_to_town.jpg" name="path_to_town"/>
 		<file filename="heresy_media/scene_3_graveyard.jpg" name="scene_3_graveyard"/>
-		<file filename="heresy_media/scene_4_inn_bar.jpg" name="scene_4_inn_bar"/>
+		<file filename="heresy_media/scene_4_inn_bar.jpg" name="scene_4_tavern_bar"/>
 		<file filename="heresy_media/stone_mason.jpg" name="stone_mason"/>
 		<file filename="heresy_media/streetsmart.jpg" name="streetsmart"/>
 		<file filename="heresy_media/torture_room.jpg" name="torture_room"/>
@@ -919,44 +919,44 @@
 			<rectangle>[3982,78,560,518]</rectangle>
 		</image>
 
-		<image name="loc_inn_b">
-			<file>scene_4_inn_bar</file>
+		<image name="loc_tavern_b">
+			<file>scene_4_tavern_bar</file>
 			<rectangle>[0,0,945,-1]</rectangle>
 		</image>
-		<image name="loc_inn_c">
-			<file>scene_4_inn_bar</file>
+		<image name="loc_tavern_c">
+			<file>scene_4_tavern_bar</file>
 			<rectangle>[946,0,945,-1]</rectangle>
 		</image>
-		<image name="loc_inn_d">
-			<file>scene_4_inn_bar</file>
+		<image name="loc_tavern_d">
+			<file>scene_4_tavern_bar</file>
 			<rectangle>[1891,0,945,-1]</rectangle>
 		</image>
-		<image name="loc_inn_e">
-			<file>scene_4_inn_bar</file>
+		<image name="loc_tavern_e">
+			<file>scene_4_tavern_bar</file>
 			<rectangle>[2836,0,945,-1]</rectangle>
 		</image>
-		<image name="loc_inn_f">
-			<file>scene_4_inn_bar</file>
+		<image name="loc_tavern_f">
+			<file>scene_4_tavern_bar</file>
 			<rectangle>[3781,0,945,-1]</rectangle>
 		</image>
 		<image name="bartender">
-			<file>scene_4_inn_bar</file>
+			<file>scene_4_tavern_bar</file>
 			<rectangle>[160,166,626,556]</rectangle>
 		</image>
 		<image name="drunks">
-			<file>scene_4_inn_bar</file>
+			<file>scene_4_tavern_bar</file>
 			<rectangle>[974,404,924,858]</rectangle>
 		</image>
 		<image name="emptytable">
-			<file>scene_4_inn_bar</file>
+			<file>scene_4_tavern_bar</file>
 			<rectangle>[1992,430,982,916]</rectangle>
 		</image>
 		<image name="drunkman">
-			<file>scene_4_inn_bar</file>
+			<file>scene_4_tavern_bar</file>
 			<rectangle>[2748,516,1308,1019]</rectangle>
 		</image>
 		<image name="oddman">
-			<file>scene_4_inn_bar</file>
+			<file>scene_4_tavern_bar</file>
 			<rectangle>[4173,368,536,517]</rectangle>
 		</image>
 
@@ -2280,7 +2280,7 @@
 							<order>10</order>
 						</image>
 						<text>
-                            <text>The peasant pulls you out of earshot of the cart party.  {s:card_b_default_italic}"My name is Diego Rodr&#x00ed;guez and I need your help. My sister Catalina was working in the local inn when the Inquisition came into town. After a few minutes of questioning they took her in a cart like this one to the town up ahead and we have not heard from her in a week. In fact I think she wanted to go with them! I have heard stories about what they do with these girls and I fear for her life. Here is a picture of Catalina. If you find any information about her, please let me know. I plan to stay in the Inn in town. Drink makes for loose lips they say."{s:}</text>
+                            <text>The peasant pulls you out of earshot of the cart party.  {s:card_b_default_italic}"My name is Diego Rodr&#x00ed;guez and I need your help. My sister Catalina was working in the local taver when the Inquisition came into town. After a few minutes of questioning they took her in a cart like this one to the town up ahead and we have not heard from her in a week. In fact I think she wanted to go with them! I have heard stories about what they do with these girls and I fear for her life. Here is a picture of Catalina. If you find any information about her, please let me know. I plan to stop by the tavern in town. Drink makes for loose lips they say."{s:}</text>
 							<style>card_b_default</style>
                             <rectangle>[86,580,773,-1]</rectangle>
 							<order>0</order>
@@ -2566,8 +2566,8 @@
 				</card>
 			</location>
 
-			<location name="Inn">
-				<card name="loc_inn_a">
+			<location name="Tavern">
+				<card name="loc_tavern_a">
 					<top>
 						<text name="location name">
 							<text>Location: {ls}</text>
@@ -2610,10 +2610,10 @@
 						</text>
 					</bottom>
 				</card>
-				<card name="loc_inn_b">
+				<card name="loc_tavern_b">
 					<top>
 						<image>
-							<image>loc_inn_b</image>
+							<image>loc_tavern_b</image>
 							<order>10</order>
 						</image>
 					</top>
@@ -2637,10 +2637,10 @@
 						</text>
 					</bottom>
 				</card>
-				<card name="loc_inn_c">
+				<card name="loc_tavern_c">
 					<top>
 						<image>
-							<image>loc_inn_c</image>
+							<image>loc_tavern_c</image>
 							<order>10</order>
 						</image>
 					</top>
@@ -2664,10 +2664,10 @@
 						</text>
 					</bottom>
 				</card>
-				<card name="loc_inn_d">
+				<card name="loc_tavern_d">
 					<top>
 						<image>
-							<image>loc_inn_d</image>
+							<image>loc_tavern_d</image>
 							<order>10</order>
 						</image>
 					</top>
@@ -2678,7 +2678,7 @@
 							<order>10</order>
 						</image>
 						<text>
-							<text>You take a seat at an empty table in the back of the inn and begin to drink off the day's struggles. Two acolytes trundle into the inn, going from table to table, interrupting conversations with troubling, pointed questions.  They approach your table. {s:card_b_default_italic}"Strangers, this is a holy town, take care to mind your vices here.  You look like trouble to us and we have ways of dealing with trouble!"{s:}</text>
+							<text>You take a seat at an empty table in the back of the tavern and begin to drink off the day's struggles. Two acolytes trundle into the tavern, going from table to table, interrupting conversations with troubling, pointed questions.  They approach your table. {s:card_b_default_italic}"Strangers, this is a holy town, take care to mind your vices here.  You look like trouble to us and we have ways of dealing with trouble!"{s:}</text>
 							<style>card_b_default</style>
 							<rectangle>[86,600,773,-1]</rectangle>
 							<order>0</order>
@@ -2691,10 +2691,10 @@
 						</text>
 					</bottom>
 				</card>
-				<card name="loc_inn_e">
+				<card name="loc_tavern_e">
 					<top>
 						<image>
-							<image>loc_inn_e</image>
+							<image>loc_tavern_e</image>
 							<order>10</order>
 						</image>
 					</top>
@@ -2718,10 +2718,10 @@
 						</text>
 					</bottom>
 				</card>
-				<card name="loc_inn_f">
+				<card name="loc_tavern_f">
 					<top>
 						<image>
-							<image>loc_inn_f</image>
+							<image>loc_tavern_f</image>
 							<order>10</order>
 						</image>
 					</top>
@@ -2745,7 +2745,7 @@
 						</text>
 					</bottom>
 				</card>
-				<card name="loc_inn_g">
+				<card name="loc_tavern_g">
 					<top>
 						<image>
 							<image>token_yellow_1</image>
@@ -2861,7 +2861,7 @@
 							<order>0</order>
 						</text>
 						<text>
-							<text>&#x2022; You may engage the young woman in conversation: {I:skill_glib:75:-2} 4x{I:shield:75:-2}{n}&#x2022; On success she says, {s:card_b_default_italic}"I believe you can help, but we can't talk here.  Meet me at the Inn."{s:}  Take token {I:token_yellow_1:75:-2}</text>
+							<text>&#x2022; You may engage the young woman in conversation: {I:skill_glib:75:-2} 4x{I:shield:75:-2}{n}&#x2022; On success she says, {s:card_b_default_italic}"I believe you can help, but we can't talk here.  Meet me at the tavern."{s:}  Take token {I:token_yellow_1:75:-2}</text>
 							<style>card_b_action</style>
 							<rectangle>[86,1150,773,-1]</rectangle>
 							<order>0</order>
@@ -4790,7 +4790,7 @@
 						<order>10</order>
 					</image>
 					<text>
-						<text>Inn</text>
+						<text>Tavern</text>
 						<rectangle>[300,300,-1,-1]</rectangle>
 						<rotation>90</rotation>
 						<style>location</style>
