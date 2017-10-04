@@ -5369,7 +5369,7 @@
 						<order>0</order>
 					</text>
 					<text>
-						<text>The orb is powered by sacrificed souls {I:soul:75:-2}. The medallion allows the holder to spend one soul token to re-roll one die. Soul tokens are discarded when used. The medallion may be recharged through a "sacrifice" by the party. If all party members are on the same card and not engaged in a challenge, the group may discard one {I:heart:75:-2} token per party member (4 total) to add a soul token  to the medallion.</text>
+						<text>The orb is powered by sacrificed souls {I:soul:75:-2}. The medallion allows the holder to spend one soul token to re-roll one die. Soul tokens are discarded when used. The medallion may be recharged through a "sacrifice" by the party. If all party members are on the same card and not engaged in a challenge, the group may discard one {I:heart:75:-2} token per party member (4 max) to add a soul token  to the medallion.</text>
 						<style>card_b_action</style>
 						<rectangle>[86,880,773,-1]</rectangle>
 						<order>0</order>
@@ -5579,7 +5579,7 @@
 						<order>0</order>
 					</text>
 					<text>
-						<text>&#x2022; Take token {I:token_pink_1:75:-2}.</text>
+						<text>&#x2022; Take token {I:token_pink_1:75:-2}</text>
 						<style>card_b_action</style>
 						<rectangle>[86,1270,773,-1]</rectangle>
 						<order>0</order>
@@ -5656,7 +5656,7 @@
 						<order>0</order>
 					</text>
 					<text>
-						<text>If you do not already have them, take {s:card_b_action_bold}Item {in:Phil Note 2}{s:} and token {I:token_blue_3:100:-2}.</text>
+						<text>If you do not already have them, take {s:card_b_action_bold}Item {in:Phil Note 2}{s:} and token {I:token_blue_3:100:-2}</text>
 						<style>card_b_action</style>
 						<rectangle>[86,350,773,-1]</rectangle>
 						<order>0</order>
@@ -5673,7 +5673,7 @@
 						<order>10</order>
 					</image>
 					<text>
-						<text>Phil,{n}{n}We are making a lot of progress, but all this jumping back and forth in time is wearing me a bit thin. I need you to be able to run some temporal errands for me while I deal with the collection of more souls.  Here are the basic instructions on how to use the portal.  Familiarize yourself with the controls and let me know when you are ready to use the device solo. Just a few more trips and I think we might even be able to get Bob off our backs.{n}{n}Keith.</text>
+						<text>{s:card_b_default_italic}Phil,{n}{n}We are making a lot of progress, but all this jumping back and forth in time is wearing me a bit thin. I need you to run some temporal errands for me while I deal with the collection of more souls.  Here are the basic instructions on how to use the portal.  Familiarize yourself with the controls and let me know when you are ready to use the device solo. Just a few more trips and I think we might even be able to get Bob off our backs.{n}{n}Keith.{s:}</text>
 						<style>normal_black_full_smaller</style>
 						<rectangle>[150,300,645,-1]</rectangle>
 						<order>11</order>
