@@ -2280,7 +2280,7 @@
 							<order>10</order>
 						</image>
 						<text>
-                            <text>The peasant pulls you out of earshot of the cart party.  {s:card_b_default_italic}"My name is Diego Rodr&#x00ed;guez and I need your help. My sister Catalina was working in the local inn when the Inquisition came into town. After a few minutes of questioning they took her in a cart like this one to the town up ahead and we have not heard from her in a week. In fact I think she wanted to go with them! I have heard stories about what they do with these girls and I fear for her life. Here is a picture of Catalina. If you find any information about her, please let me know. I plan to stay in the Inn in town. Drink makes for loose lips they say."{s:}</text>
+                            <text>The peasant pulls you out of earshot of the cart party.  {s:card_b_default_italic}"My name is Diego Rodr&#x00ed;guez and I need your help. My sister Catalina was working in the local tavern when the Inquisition came into town. After a few minutes of questioning they took her in a cart like this one to the town up ahead and we have not heard from her in a week. In fact I think she wanted to go with them! I have heard stories about what they do with these girls and I fear for her life. Here is a picture of Catalina. If you find any information about her, please let me know. I plan to visit the tavern in town. Drink makes for loose lips they say."{s:}</text>
 							<style>card_b_default</style>
                             <rectangle>[86,580,773,-1]</rectangle>
 							<order>0</order>
@@ -2566,7 +2566,7 @@
 				</card>
 			</location>
 
-			<location name="Inn">
+			<location name="Tavern">
 				<card name="loc_inn_a">
 					<top>
 						<text name="location name">
@@ -2678,7 +2678,7 @@
 							<order>10</order>
 						</image>
 						<text>
-							<text>You take a seat at an empty table in the back of the inn and begin to drink off the day's struggles. Two acolytes trundle into the inn, going from table to table, interrupting conversations with troubling, pointed questions.  They approach your table. {s:card_b_default_italic}"Strangers, this is a holy town, take care to mind your vices here.  You look like trouble to us and we have ways of dealing with trouble!"{s:}</text>
+							<text>You take a seat at an empty table in the back of the tavern and begin to drink off the day's struggles. Two acolytes trundle into the tavern, going from table to table, interrupting conversations with troubling, pointed questions.  They approach your table. {s:card_b_default_italic}"Strangers, this is a holy town, take care to mind your vices here.  You look like trouble to us and we have ways of dealing with trouble!"{s:}</text>
 							<style>card_b_default</style>
 							<rectangle>[86,600,773,-1]</rectangle>
 							<order>0</order>
@@ -2861,7 +2861,7 @@
 							<order>0</order>
 						</text>
 						<text>
-							<text>&#x2022; You may engage the young woman in conversation: {I:skill_glib:75:-2} 4x{I:shield:75:-2}{n}&#x2022; On success she says, {s:card_b_default_italic}"I believe you can help, but we can't talk here.  Meet me at the Inn."{s:}  Take token {I:token_yellow_1:75:-2}</text>
+							<text>&#x2022; You may engage the young woman in conversation: {I:skill_glib:75:-2} 4x{I:shield:75:-2}{n}&#x2022; On success she says, {s:card_b_default_italic}"I believe you can help, but we can't talk here.  Meet me at the Tavern."{s:}  Take token {I:token_yellow_1:75:-2}</text>
 							<style>card_b_action</style>
 							<rectangle>[86,1150,773,-1]</rectangle>
 							<order>0</order>
@@ -4790,8 +4790,8 @@
 						<order>10</order>
 					</image>
 					<text>
-						<text>Inn</text>
-						<rectangle>[300,300,-1,-1]</rectangle>
+						<text>Tavern</text>
+						<rectangle>[300,260,-1,-1]</rectangle>
 						<rotation>90</rotation>
 						<style>location</style>
 						<order>11</order>
