@@ -1327,6 +1327,7 @@
 			<typesize>9</typesize>
 			<borderthickness>1</borderthickness>
 			<justification>full</justification>
+			<boundary_offset>4</boundary_offset>
 		</style>
 	    <style name="card_a_default">
 			<typeface>Arial</typeface>
@@ -1357,6 +1358,7 @@
 			<typesize>9</typesize>
 			<borderthickness>2</borderthickness>
 			<justification>full</justification>
+			<boundary_offset>4</boundary_offset>
 		</style>
 	    <style name="card_b_default_italic">
 			<typeface>Arial:italic</typeface>
@@ -1377,6 +1379,7 @@
 			<typesize>9</typesize>
 			<borderthickness>2</borderthickness>
 			<justification>full</justification>
+			<boundary_offset>4</boundary_offset>
 		</style>
 	    <style name="card_b_action_bold">
 			<typeface>Arial:bold</typeface>
@@ -5259,7 +5262,7 @@
 				</text>
 					<image>
 						<image>catalina_picture</image>
-						<rectangle>[100,150,745,-2]</rectangle>
+						<rectangle>[110,140,725,-2]</rectangle>
 						<order>10</order>
 					</image>
 					<text>
