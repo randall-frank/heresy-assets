@@ -381,10 +381,10 @@
 			<file>TS_CreaPack_Icon_-JV-</file>
 		</image>
 		<image name="soul">
-			<file>TS_CreaPack_Icon_-JN-</file>
+			<file>TS_CreaPack_Icon_-JM-</file>
 		</image>
 		<image name="poison">
-			<file>TS_CreaPack_Icon_-JM-</file>
+			<file>TS_CreaPack_Icon_-JN-</file>
 		</image>
 		<image name="bullet">
 			<file>TS_CreaPack_Icon_-JJ-</file>
@@ -1554,90 +1554,79 @@
 				<text>
 					<text>Tokens</text>
 					<style>normal_blue_full_italic</style>
-					<rectangle>[100,420,745,-1]</rectangle>
+					<rectangle>[100,470,745,-1]</rectangle>
 					<order>11</order>
 				</text>
 				<image>
 					<image>blessing</image>
-					<rectangle>[100,500,100,-2]</rectangle>
+					<rectangle>[100,550,100,-2]</rectangle>
 					<order>11</order>
 				</image>
 				<text>
 					<text>Blessing</text>
 					<style>normal_black_center</style>
-					<rectangle>[50,620,200,-1]</rectangle>
+					<rectangle>[50,670,200,-1]</rectangle>
 					<order>11</order>
 				</text>
 				<image>
 					<image>healing</image>
-					<rectangle>[422,500,100,-2]</rectangle>
+					<rectangle>[322,550,100,-2]</rectangle>
 					<order>11</order>
 				</image>
 				<text>
 					<text>Healing Poultice</text>
 					<style>normal_black_center</style>
-					<rectangle>[372,620,200,-1]</rectangle>
-					<order>11</order>
-				</text>
-				<image>
-					<image>soul</image>
-					<rectangle>[745,500,100,-2]</rectangle>
-					<order>11</order>
-				</image>
-				<text>
-					<text>Soul</text>
-					<style>normal_black_center</style>
-					<rectangle>[695,620,200,-1]</rectangle>
-					<order>11</order>
-				</text>
-				<image>
-					<image>poison</image>
-					<rectangle>[100,750,100,-2]</rectangle>
-					<order>11</order>
-				</image>
-				<text>
-					<text>Poison</text>
-					<style>normal_black_center</style>
-					<rectangle>[50,870,200,-1]</rectangle>
+					<rectangle>[272,670,200,-1]</rectangle>
 					<order>11</order>
 				</text>
 				<image>
 					<image>bullet</image>
-					<rectangle>[745,750,100,-2]</rectangle>
+					<rectangle>[545,550,100,-2]</rectangle>
 					<order>11</order>
 				</image>
 				<text>
 					<text>Bullet</text>
 					<style>normal_black_center</style>
-					<rectangle>[695,870,200,-1]</rectangle>
+					<rectangle>[495,670,200,-1]</rectangle>
+					<order>11</order>
+				</text>
+				<image>
+					<image>soul</image>
+					<rectangle>[745,550,100,-2]</rectangle>
+					<order>11</order>
+				</image>
+				<text>
+					<text>Soul</text>
+					<style>normal_black_center</style>
+					<rectangle>[695,670,200,-1]</rectangle>
 					<order>11</order>
 				</text>
 				<text>
 					<text>Miscellaneous</text>
 					<style>normal_blue_full_italic</style>
-					<rectangle>[100,950,745,-1]</rectangle>
+					<rectangle>[100,850,745,-1]</rectangle>
 					<order>11</order>
 				</text>
 				<image>
 					<image>lock</image>
-					<rectangle>[75,1050,100,-2]</rectangle>
+					<rectangle>[75,950,100,-2]</rectangle>
 					<order>11</order>
 				</image>
 				<text>
 					<text>It is impossible to leave this card until the test has been completed. Character special abilities may allow them to escape locked tests.</text>
 					<style>smaller_black_left</style>
-					<rectangle>[200,1025,670,150]</rectangle>
+					<rectangle>[200,925,670,150]</rectangle>
 					<order>11</order>
 				</text>
 				<image>
 					<image>!</image>
-					<rectangle>[75,1250,100,-2]</rectangle>
+					<rectangle>[75,1150,100,-2]</rectangle>
 					<order>11</order>
 				</image>
 				<text>
 					<text>If this symbol is present and the party has the required colored unlock token. The pictured party member must go to this card when entering this location. The card should be revealed to all party members.</text>
 					<style>smaller_black_left</style>
-					<rectangle>[200,1225,670,150]</rectangle>
+					<rectangle>[200,1125,670,150]</rectangle>
 					<order>11</order>
 				</text>
 			</top>
@@ -1648,131 +1637,73 @@
 					<order>10</order>
 				</image>
 				<text>
-					<text>Skills</text>
-					<style>normal_blue_full_italic</style>
-					<rectangle>[100,150,745,-1]</rectangle>
+					<text>Equipment:</text>
+					<style>normal_black_full</style>
+					<rectangle>[75,405,795,-1]</rectangle>
 					<order>11</order>
 				</text>
-				<image>
-					<image>skill_agile</image>
-					<rectangle>[100,220,100,-2]</rectangle>
+				<rect>
+					<style>small_white_box_full</style>
+					<rectangle>[75,500,200,200]</rectangle>
 					<order>11</order>
-				</image>
-				<text>
-					<text>Agility</text>
-					<style>normal_black_center</style>
-					<rectangle>[50,340,200,-1]</rectangle>
-					<order>11</order>
-				</text>
-				<image>
-					<image>skill_glib</image>
-					<rectangle>[422,220,100,-2]</rectangle>
-					<order>11</order>
-				</image>
-				<text>
-					<text>Glibness</text>
-					<style>normal_black_center</style>
-					<rectangle>[372,340,200,-1]</rectangle>
-					<order>11</order>
-				</text>
-				<image>
-					<image>skill_combat</image>
-					<rectangle>[745,220,100,-2]</rectangle>
-					<order>11</order>
-				</image>
-				<text>
-					<text>Combat</text>
-					<style>normal_black_center</style>
-					<rectangle>[695,340,200,-1]</rectangle>
-					<order>11</order>
-				</text>
-				<text>
-					<text>Tokens</text>
-					<style>normal_blue_full_italic</style>
-					<rectangle>[100,420,745,-1]</rectangle>
-					<order>11</order>
-				</text>
+				</rect>
 				<image>
 					<image>blessing</image>
-					<rectangle>[100,500,100,-2]</rectangle>
+					<rectangle>[100,525,150,150]</rectangle>
 					<order>11</order>
 				</image>
 				<text>
-					<text>Blessing</text>
-					<style>normal_black_center</style>
-					<rectangle>[50,620,200,-1]</rectangle>
+					<text>These tokens represent a blessing. These can be used during any challenge to aid in your quest. Spending a blessing allows one to re-roll one challenge die.</text>
+					<style>small_white_box_full</style>
+					<rectangle>[275,500,595,200]</rectangle>
 					<order>11</order>
 				</text>
+				<rect>
+					<style>small_white_box_full</style>
+					<rectangle>[75,700,795,200]</rectangle>
+					<order>11</order>
+				</rect>
 				<image>
 					<image>healing</image>
-					<rectangle>[422,500,100,-2]</rectangle>
+					<rectangle>[100,725,150,150]</rectangle>
 					<order>11</order>
 				</image>
 				<text>
-					<text>Healing Poultice</text>
-					<style>normal_black_center</style>
-					<rectangle>[372,620,200,-1]</rectangle>
+					<text>These tokens represent a healing poultice. These can be used at any time by the agent holding it. Each token recovers one lost health {I:heart:40:-2}.</text>
+					<style>small_white_box_full</style>
+					<rectangle>[275,700,595,200]</rectangle>
 					<order>11</order>
 				</text>
+				<rect>
+					<style>small_white_box_full</style>
+					<rectangle>[75,900,795,200]</rectangle>
+					<order>11</order>
+				</rect>
 				<image>
 					<image>soul</image>
-					<rectangle>[745,500,100,-2]</rectangle>
+					<rectangle>[100,925,150,150]</rectangle>
 					<order>11</order>
 				</image>
 				<text>
-					<text>Soul</text>
-					<style>normal_black_center</style>
-					<rectangle>[695,620,200,-1]</rectangle>
+					<text>These tokens represent a soul, the incorporeal essence of a living being. These are very powerful and very scarce resources. How they might be used...</text>
+					<style>small_white_box_full</style>
+					<rectangle>[275,900,595,200]</rectangle>
 					<order>11</order>
 				</text>
-				<image>
-					<image>poison</image>
-					<rectangle>[100,750,100,-2]</rectangle>
+				<rect>
+					<style>small_white_box_full</style>
+					<rectangle>[75,1100,795,200]</rectangle>
 					<order>11</order>
-				</image>
-				<text>
-					<text>Poison</text>
-					<style>normal_black_center</style>
-					<rectangle>[50,870,200,-1]</rectangle>
-					<order>11</order>
-				</text>
+				</rect>
 				<image>
 					<image>bullet</image>
-					<rectangle>[745,750,100,-2]</rectangle>
+					<rectangle>[100,1125,150,150]</rectangle>
 					<order>11</order>
 				</image>
 				<text>
-					<text>Bullet</text>
-					<style>normal_black_center</style>
-					<rectangle>[695,870,200,-1]</rectangle>
-					<order>11</order>
-				</text>
-				<text>
-					<text>Miscellaneous</text>
-					<style>normal_blue_full_italic</style>
-					<rectangle>[100,950,745,-1]</rectangle>
-					<order>11</order>
-				</text>
-				<image>
-					<image>lock</image>
-					<rectangle>[75,1050,100,-2]</rectangle>
-					<order>11</order>
-				</image>
-				<text>
-					<text>It is impossible to leave this card until the test has been completed. Character special abilities may allow them to escape locked tests.</text>
-					<style>smaller_black_left</style>
-					<rectangle>[200,1025,670,150]</rectangle>
-					<order>11</order>
-				</text>
-				<image>
-					<image>!</image>
-					<rectangle>[75,1250,100,-2]</rectangle>
-					<order>11</order>
-				</image>
-				<text>
-					<text>If this symbol is present and the party has the required colored unlock token. The pictured party member must go to this card when the party enters this location. The card should be revealed to all party members.</text>
-					<style>smaller_black_left</style>
-					<rectangle>[200,1225,670,150]</rectangle>
+					<text>These tokens represent ammunition for a weapon of some sort. Every time the weapon is used, one of these tokens must be spent.</text>
+					<style>small_white_box_full</style>
+					<rectangle>[275,1100,595,200]</rectangle>
 					<order>11</order>
 				</text>
 			</bottom>
@@ -4991,93 +4922,77 @@
 					<text>
 						<text>Laura chimes in: {s:normal_blue_full_italic}"You will be arriving in Spain 1499 NT. I have the specifics on your equipment for this case."{s:}</text>
 						<style>normal_black_full</style>
-						<rectangle>[75,105,795,-1]</rectangle>
+						<rectangle>[75,155,795,-1]</rectangle>
 						<order>11</order>
 					</text>
 					<text>
 						<text>Equipment:</text>
 						<style>normal_black_full</style>
-						<rectangle>[75,305,795,-1]</rectangle>
+						<rectangle>[75,405,795,-1]</rectangle>
 						<order>11</order>
 					</text>
 					<rect>
 						<style>small_white_box_full</style>
-						<rectangle>[75,400,200,200]</rectangle>
+						<rectangle>[75,500,200,200]</rectangle>
 						<order>11</order>
 					</rect>
 					<image>
 						<image>blessing</image>
-						<rectangle>[100,425,150,150]</rectangle>
+						<rectangle>[100,525,150,150]</rectangle>
 						<order>11</order>
 					</image>
 					<text>
 						<text>These tokens represent a blessing. These can be used during any challenge to aid in your quest. Spending a blessing allows one to re-roll one challenge die.</text>
 						<style>small_white_box_full</style>
-						<rectangle>[275,400,595,200]</rectangle>
+						<rectangle>[275,500,595,200]</rectangle>
 						<order>11</order>
 					</text>
 					<rect>
 						<style>small_white_box_full</style>
-						<rectangle>[75,600,795,200]</rectangle>
+						<rectangle>[75,700,795,200]</rectangle>
 						<order>11</order>
 					</rect>
 					<image>
 						<image>healing</image>
-						<rectangle>[100,625,150,150]</rectangle>
+						<rectangle>[100,725,150,150]</rectangle>
 						<order>11</order>
 					</image>
 					<text>
 						<text>These tokens represent a healing poultice. These can be used at any time by the agent holding it. Each token recovers one lost health {I:heart:40:-2}.</text>
 						<style>small_white_box_full</style>
-						<rectangle>[275,600,595,200]</rectangle>
+						<rectangle>[275,700,595,200]</rectangle>
 						<order>11</order>
 					</text>
 					<rect>
 						<style>small_white_box_full</style>
-						<rectangle>[75,800,795,200]</rectangle>
+						<rectangle>[75,900,795,200]</rectangle>
 						<order>11</order>
 					</rect>
 					<image>
 						<image>soul</image>
-						<rectangle>[100,825,150,150]</rectangle>
+						<rectangle>[100,925,150,150]</rectangle>
 						<order>11</order>
 					</image>
 					<text>
 						<text>These tokens represent a soul, the incorporeal essence of a living being. These are very powerful and very scarce resources. How they might be used...</text>
 						<style>small_white_box_full</style>
-						<rectangle>[275,800,595,200]</rectangle>
+						<rectangle>[275,900,595,200]</rectangle>
 						<order>11</order>
 					</text>
 					<rect>
 						<style>small_white_box_full</style>
-						<rectangle>[75,1000,795,200]</rectangle>
-						<order>11</order>
-					</rect>
-					<image>
-						<image>poison</image>
-						<rectangle>[100,1025,150,150]</rectangle>
-						<order>11</order>
-					</image>
-					<text>
-						<text>These tokens represent a dose of poison. Their use is situation specific, use them with care.</text>
-						<style>small_white_box_full</style>
-						<rectangle>[275,1000,595,200]</rectangle>
-						<order>11</order>
-					</text>
-					<rect>
-						<style>small_white_box_full</style>
-						<rectangle>[75,1200,795,200]</rectangle>
+						<rectangle>[75,1100,795,200]</rectangle>
 						<order>11</order>
 					</rect>
 					<image>
 						<image>bullet</image>
-						<rectangle>[100,1225,150,150]</rectangle>
+						<rectangle>[100,1125,150,150]</rectangle>
 						<order>11</order>
 					</image>
 					<text>
 						<text>These tokens represent ammunition for a weapon of some sort. Every time the weapon is used, one of these tokens must be spent.</text>
 						<style>small_white_box_full</style>
-						<rectangle>[275,1200,595,200]</rectangle>
+						<rectangle>[275,1100,595,200]</rectangle>
 						<order>11</order>
 					</text>
 				</bottom>
@@ -5659,7 +5574,7 @@
 						<order>0</order>
 					</text>
 					<text>
-						<text>If you do not already have them, take {s:card_b_action_bold}Item {in:Phil Note 2}{s:} and token {I:token_blue_3:100:-2}</text>
+						<text>If you do not already have them, take {s:card_b_action_bold}Item {in:Phil Note 2}{s:} and token {I:token_blue_4:100:-2}</text>
 						<style>card_b_action</style>
 						<rectangle>[86,350,773,-1]</rectangle>
 						<order>0</order>
@@ -5688,7 +5603,7 @@
 				</top>
 				<bottom>
 					<text>
-						<text>{s:card_b_default_italic}"You only see what you want to believe, when you creep from the back I got tricks up my sleeve..."{s:}, you overhear the last whispers of a dying man before he expires. Rifling through the dead man's pockets you find a T.I.M.E Agents ID. Opening it slowly reveals the photo of the dead man and the name 'Keith Fitzgerald, T.I.M.E Agent Second Class'. So this is the elusive, rogue agent you have been struggling so fervently to apprehend.  It appears this mission has reached its conclusion. If you have the token {I:token_blue_3:100:-2}, take the card</text>
+						<text>{s:card_b_default_italic}"You only see what you want to believe, when you creep from the back I got tricks up my sleeve..."{s:}, you overhear the last whispers of a dying man before he expires. Rifling through the dead man's pockets you find a T.I.M.E Agents ID. Opening it slowly reveals the photo of the dead man and the name 'Keith Fitzgerald, T.I.M.E Agent Second Class'. So this is the elusive, rogue agent you have been struggling so fervently to apprehend.  It appears this mission has reached its conclusion. If you have the token {I:token_blue_4:100:-2}, take the card</text>
 						<style>card_b_default</style>
 						<rectangle>[86,50,773,-1]</rectangle>
 						<order>0</order>
@@ -6151,7 +6066,7 @@
 						<order>11</order>
 					</text>
 					<image>
-						<image>poison</image>
+						<image>bullet</image>
 						<rectangle>[600,200,130,-2]</rectangle>
 						<order>10</order>
 					</image>
@@ -6212,7 +6127,7 @@
 						<order>11</order>
 					</text>
 					<text>
-						<text>As smoke rises from the ashes, her spirit is... moved. Her essence is transferred to her guardian familiar.  Discard Isabel's character card and use this familiar card instead.{n}The snake can make a poison attack that recharges in 5 {I:time:40:-2}.  When the poison attack token {I:poison:40:-2} is used, it is placed on the timeline, 5 {I:time:40:-2} in the future.  When the time counter arrives at the poison token, remove it from the timeline and place it on this card. It can be used immediately. A poison attack adds two die to a combat attack. This card may only be held by the player who selected the Isabel character for this run.</text>
+						<text>As smoke rises from the ashes, her spirit is... moved. Her essence is transferred to her guardian familiar.  Discard Isabel's character card and use this familiar card instead.{n}The snake can make a poison attack that recharges in 5 {I:time:40:-2}.  When the snake's poison attack token {I:bullet:40:-2} is used, it is placed on the timeline, 5 {I:time:40:-2} in the future.  When the time counter arrives at the token, remove it from the timeline and place it on this card. It can be used immediately. A poison attack adds two die to a combat attack. This card may only be held by the player who selected the Isabel character for this run.</text>
 						<style>normal_black_full</style>
 						<rectangle>[50,600,845,-1]</rectangle>
 						<order>11</order>
@@ -6552,7 +6467,7 @@
 						<order>10</order>
 					</image>
 					<text>
-						<text>3</text>
+						<text>2</text>
 						<style>small_white_box</style>
 						<rectangle>[50,430,25,-1]</rectangle>
 						<order>11</order>
@@ -6585,7 +6500,7 @@
 						<order>10</order>
 					</image>
 					<text>
-						<text>5</text>
+						<text>4</text>
 						<style>small_white_box</style>
 						<rectangle>[615,430,25,-1]</rectangle>
 						<order>11</order>
@@ -6739,7 +6654,7 @@
 						<order>10</order>
 					</image>
 					<text>
-						<text>3</text>
+						<text>2</text>
 						<style>small_white_box</style>
 						<rectangle>[200,430,25,-1]</rectangle>
 						<order>11</order>
@@ -6961,7 +6876,7 @@
 						<order>10</order>
 					</image>
 					<text>
-						<text>4</text>
+						<text>3</text>
 						<style>small_white_box</style>
 						<rectangle>[615,430,25,-1]</rectangle>
 						<order>11</order>
@@ -6978,7 +6893,7 @@
 						<order>11</order>
 					</text>
 					<text>
-						<text>The Do&#x00f1;a is a Noble woman of a neighboring state. She is traveling to visit her sister Juana at her villa just outside of town. Middle-aged, savvy and witness to many a political power play she draws her strength from cunning and inner resolve.</text>
+						<text>The Do&#x00f1;a is a Noble woman of a neighboring state. She is traveling to visit her sister Beatriz at her villa just outside of town. Middle-aged, savvy and witness to many a political power play she draws her strength from cunning and inner resolve.</text>
 						<style>normal_black_full</style>
 						<rectangle>[50,600,845,-1]</rectangle>
 						<order>11</order>
