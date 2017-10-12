@@ -2138,9 +2138,9 @@
 						<order>0</order>
 					</text>
 					<text>
-						<text>Leave in place all items marked {I:blue_logo:75:-2} but reset the rest of the game. Return other items to the deck along with all random encounter cards. Reread cards E and F of the {s:card_b_action_bold}Base{s:} location and follow the instructions. Three more things:{n}&#x2022; Take token {I:token_black_1:75:-2}.{n}&#x2022; You may start from any location listed on the visible plan cards.{n}&#x2022; Increase the starting TU to 35.</text>
+						<text>Leave in place all items marked {I:blue_logo:75:-2} but reset the rest of the game. Return other items to the deck along with all random encounter cards. Reread cards E and F of the {s:card_b_action_bold}Base{s:} location and follow the instructions. Three more things:{n}&#x2022; Take token {I:token_black_1:75:-2}.{n}&#x2022; You may start from any location listed on the visible plan cards.{n}&#x2022; Increase the starting {I:time:40:-2} to 50.</text>
 						<style>card_b_action</style>
-						<rectangle>[86,920,773,-1]</rectangle>
+						<rectangle>[86,930,773,-1]</rectangle>
 						<order>0</order>
 					</text>
 				</bottom>
@@ -2221,7 +2221,7 @@
 							<order>0</order>
 						</text>
 						<text>
-							<text>&#x2022; Take {s:card_b_action_bold}Item {in:Catalina Picture}{s:}</text>
+							<text>&#x2022; Take {s:card_b_action_bold}Item {in:Catalina's Picture}{s:}</text>
 							<style>card_b_action</style>
 							<rectangle>[86,1400,773,-1]</rectangle>
 							<order>0</order>
@@ -2492,7 +2492,7 @@
 							<order>0</order>
 						</text>
 						<text>
-							<text>&#x2022; You may try to obtain his shovel. This can be done by either:{n}&#xA0;&#xA0;Talking him out of it:{I:skill_glib:75:-2} 4x{I:shield:75:-2} 2x{I:shield_time:75:-2}{n}&#xA0;&#xA0;Stealing it from him:{I:skill_agile:75:-2} 4x{I:shield:75:-2} 2x{I:shield_shield:75:-2}{n}&#xA0;&#xA0;On success take {s:card_b_action_bold}Item {in:Shovel}{s:}.</text>
+							<text>&#x2022; You may try to obtain his shovel. This can be done by either:{n}&#xA0;&#xA0;Talking him out of it:{I:skill_glib:75:-2} 2x{I:shield_time:75:-2} 2x{I:shield:75:-2}{n}&#xA0;&#xA0;Stealing it from him:{I:skill_agile:75:-2} 2x{I:shield_time:75:-2} 2x{I:shield:75:-2}{n}&#xA0;&#xA0;On success take {s:card_b_action_bold}Item {in:Shovel}{s:}.</text>
 							<style>card_b_action</style>
 							<rectangle>[86,1150,773,-1]</rectangle>
 							<order>0</order>
@@ -2592,7 +2592,7 @@
 							<order>0</order>
 						</text>
 						<text>
-							<text>&#x2022; A fight ensues:{n}&#xA0;&#xA0;{I:lock:75:-2} {I:skill_combat:75:-2} 4x{I:shield_red_skull:75:-2} 2x{I:shield_heart:75:-2}{n}&#xA0;&#xA0;On success ... you walk away from three downed fools.</text>
+							<text>&#x2022; A fight ensues:{n}&#xA0;&#xA0;{I:lock:75:-2} {I:skill_combat:75:-2} 2x{I:shield_heart:75:-2} 3x{I:shield_red_skull:75:-2} {n}&#xA0;&#xA0;On success ... you walk away from three downed fools.</text>
 							<style>card_b_action</style>
 							<rectangle>[86,950,773,-1]</rectangle>
 							<order>0</order>
@@ -2619,7 +2619,7 @@
 							<order>0</order>
 						</text>
 						<text>
-							<text>&#x2022; {I:lock:75:-2} There are 2 ways to resolve the situation:{n}Placate them and leave in peace: 2x{I:time:75:-2}{n}or confront them: {I:skill_combat:75:-2} 2x{I:shield_red_skull:75:-2} 2x{I:shield_heart:75:-2}{n}If you win the confrontation take {s:card_b_action_bold}Item {in:Star Chart C}{s:}.</text>
+							<text>&#x2022; {I:lock:75:-2} Two ways to resolve the situation:{n}Placate them and leave in peace: 2x{I:time:75:-2}{n}or confront them: {I:skill_combat:75:-2} 2x{I:shield_heart:75:-2} 2x{I:shield_red_skull:75:-2}{n}If you win the confrontation take {s:card_b_action_bold}Item {in:Star Chart C}{s:}.</text>
 							<style>card_b_action</style>
 							<rectangle>[86,1130,773,-1]</rectangle>
 							<order>0</order>
@@ -2982,7 +2982,7 @@
 							<order>0</order>
 						</text>
 						<text>
-                            <text>&#x2022; If you try to take the scroll the bailiff will confront you: {s:card_b_default_italic}"Miscreant!"{s:}{n}&#x00a0;&#x00a0;{I:skill_combat:75:-2} {I:shield_red_skull:75:-2} 2x{I:shield_heart:75:-2}{n}&#x00a0; If successful, take the scroll {s:card_b_action_bold}Item {in:Star Chart D}{s:} and something the bailiff was reaching for: {s:card_b_action_bold}Item {in:Tube with Handle}{s:}.</text>
+                            <text>&#x2022; If you try to take the scroll the bailiff will confront you: {s:card_b_default_italic}"Miscreant!"{s:}{n}&#x00a0;&#x00a0; {I:skill_combat:75:-2} 2x{I:shield_heart:75:-2} 1x{I:shield_red_skull:75:-2} {n}&#x00a0; If successful, take the scroll {s:card_b_action_bold}Item {in:Star Chart D}{s:} and something the bailiff was reaching for: {s:card_b_action_bold}Item {in:Tube with Handle}{s:}.</text>
 							<style>card_b_action</style>
 							<rectangle>[86,1170,773,-1]</rectangle>
 							<order>0</order>
@@ -3217,7 +3217,7 @@
 							<order>0</order>
 						</text>
 						<text>
-							<text>&#x2022; To open the cupboard, you must pass the challenge:{n}&#x00a0;&#x00a0;{I:skill_agile:75:-2} 2x{I:shield:75:-2} 2x{I:shield_shield:75:-2}{n}&#x00a0; If successful, take {s:card_b_action_bold}Item {in:Box of Lightning}{s:}.</text>
+							<text>&#x2022; To open the cupboard, you must pass the challenge:{n}&#x00a0;&#x00a0;{I:skill_agile:75:-2} 3x{I:shield:75:-2}{n}&#x00a0; If successful, take {s:card_b_action_bold}Item {in:Box of Lightning}{s:}.</text>
 							<style>card_b_action</style>
 							<rectangle>[86,1230,773,-1]</rectangle>
 							<order>0</order>
@@ -3397,7 +3397,7 @@
 							<order>0</order>
 						</text>
 						<text>
-							<text>&#x2022; {I:lock:75:-2}Only a guilded tongue can extricate you from this mess{n}&#x00a0; {I:skill_glib:75:-2} 4x{I:shield:75:-2} 2x{I:shield_time:75:-2}{n}&#x00a0; On success take {s:card_b_action_bold}Item {in:Zune}{s:}.</text>
+							<text>&#x2022; {I:lock:75:-2}Only a guilded tongue can extricate you from this mess!{n}&#x00a0; {I:skill_glib:75:-2} 2x{I:shield_time:75:-2} 2x{I:shield:75:-2} {n}&#x00a0; On success take {s:card_b_action_bold}Item {in:Magic Voice Box}{s:}.</text>
 							<style>card_b_action</style>
 							<rectangle>[86,1130,773,-1]</rectangle>
 							<order>0</order>
@@ -3470,7 +3470,7 @@
 							<order>0</order>
 						</text>
 						<text>
-							<text>&#x2022; An odd bulb hangs at his waist. You may try to take it while he blusters on.{n}&#x00a0; {I:skill_agile:75:-2} 2x{I:shield:75:-2} 3x{I:shield_time:75:-2}{n}&#x00a0; On success take {s:card_b_action_bold}Item {in:Soul Medallion}{s:} and one soul token {I:soul:75:-2}.</text>
+							<text>&#x2022; An odd bulb hangs at his waist. You may try to take it while he blusters on.{n}&#x00a0; {I:skill_agile:75:-2} 3x{I:shield:75:-2}{n}&#x00a0; On success take {s:card_b_action_bold}Item {in:Soul Medallion}{s:} and one soul token {I:soul:75:-2}.</text>
 							<style>card_b_action</style>
 							<rectangle>[86,1140,773,-1]</rectangle>
 							<order>0</order>
@@ -3524,7 +3524,7 @@
 							<order>0</order>
 						</text>
 						<text>
-							<text>&#x2022; A flash of light catches your eye in the pile of sticks and grasses. If you choose to investigate you must pass the challenge{n}&#x00a0; {I:skill_glib:75:-2} 4x{I:shield:75:-2} 2x{I:shield_time:75:-2}{n}&#x00a0; On success take {s:card_b_action_bold}Item {in:Stained Glass C}{s:}.</text>
+							<text>&#x2022; A flash of light catches your eye in the pile of sticks and grasses. If you choose to investigate you must pass the challenge{n}&#x00a0; {I:skill_glib:75:-2} 3x{I:shield:75:-2}{n}&#x00a0; On success take {s:card_b_action_bold}Item {in:Stained Glass C}{s:}.</text>
 							<style>card_b_action</style>
 							<rectangle>[86,1110,773,-1]</rectangle>
 							<order>0</order>
@@ -4067,7 +4067,7 @@
 							<order>0</order>
 						</text>
 						<text>
-							<text>&#x2022; Travel to location {s:card_b_action_bold}{ls:Catacombs IV}{s:}.</text>
+							<text>&#x2022; Travel to location {s:card_b_action_bold}{ls:Catacombs IV}{s:}, do not increment the TU counter {I:time:75:-2} for this location change.{s:}.</text>
 							<style>card_b_action</style>
 							<rectangle>[86,1190,773,-1]</rectangle>
 							<order>0</order>
@@ -4243,7 +4243,7 @@
 							<order>0</order>
 						</text>
 						<text>
-							<text>&#x2022; The door can be opened in one of two ways:{n}&#x00a0;&#x00a0;&#x2022; If you have items {s:card_b_action_bold}{in:the_cat}{s:}, {s:card_b_action_bold}{in:the_snake}{s:} or {s:card_b_action_bold}{in:the_crow}{s:}, they may exploit the transom to bypass the door and open it from the other side safely and at no cost, or you can destroy the door using brute force {I:skill_combat:75:-2} 5x{I:shield_red_skull:75:-2} 5x{I:shield_heart:75:-2}{n}&#x00a0;&#x00a0;&#x2022; If successful, take {s:card_b_action_bold}Item {in:Plan Add Laboratory}{s:}.</text>
+							<text>&#x2022; The door can be opened in one of two ways:{n}&#x00a0;&#x00a0;If you have items {s:card_b_action_bold}{in:the_cat}{s:}, {s:card_b_action_bold}{in:the_snake}{s:} or {s:card_b_action_bold}{in:the_crow}{s:}, they may exploit the transom to bypass the door and open it from the other side safely and at no cost, or you can destroy the door using brute force:{n}&#x00a0;&#x00a0;{I:skill_combat:75:-2} 2x{I:shield_heart:75:-2} 5x{I:shield_red_skull:75:-2} 2x{I:shield_time:75:-2}{n}&#x00a0;&#x00a0;&#x2022; If successful, take {s:card_b_action_bold}Item {in:Plan Add Laboratory}{s:}.</text>
 							<style>card_b_action</style>
 							<rectangle>[86,990,773,-1]</rectangle>
 							<order>0</order>
@@ -4310,13 +4310,13 @@
 							<order>10</order>
 						</image>
 						<text>
-							<text>A suit of medieval armor leans against the wall. This armor is the ultimate model available for crusade: light and powerful. What is it doing in a priest's office? ... wait, what is that thing stuck inside it?</text>
+							<text>A suit of medieval armor leans against the wall. This armor is the ultimate model available for crusade: light and powerful. What is it doing in a priest's office? ... wait, what is that stuck inside it?</text>
 							<style>card_b_default</style>
 							<rectangle>[86,730,773,-1]</rectangle>
 							<order>0</order>
 						</text>
 						<text>
-							<text>&#x2022; If you choose to search the armor:{n} {I:skill_agile:75:-2} 2x{I:shield:75:-2} 2x:{I:shield_time:75:-2}{n} On success take {s:card_b_action_bold}Item {in:Left Leg}{s:}.</text>
+							<text>&#x2022; If you choose to search the armor:{n} {I:skill_agile:75:-2} 1x{I:shield_time:75:-2} 3x{I:shield:75:-2}{n} On success take {s:card_b_action_bold}Item {in:Left Leg}{s:}.</text>
 							<style>card_b_action</style>
 							<rectangle>[86,1060,773,-1]</rectangle>
 							<order>0</order>
@@ -4343,7 +4343,7 @@
 							<order>0</order>
 						</text>
 						<text>
-							<text>&#x2022; If you have {s:card_b_action_bold}Item {in:Box of Lightning}{s:}, you may connect it to the head and any other body parts you are carrying.{n} {I:skill_agile:75:-2} 2x{I:shield:75:-2} 2x:{I:shield_time:75:-2}{n} On success take {s:card_b_action_bold}Item {in:The Golem}{s:}.</text>
+							<text>&#x2022; If you have {s:card_b_action_bold}Item {in:Box of Lightning}{s:}, you may connect it to the head and any other body parts you are carrying.{n} {I:skill_agile:75:-2} 1x{I:shield_time:75:-2} 3x{I:shield:75:-2}{n} On success take {s:card_b_action_bold}Item {in:The Golem}{s:}.</text>
 							<style>card_b_action</style>
 							<rectangle>[86,780,773,-1]</rectangle>
 							<order>0</order>
@@ -4418,7 +4418,7 @@
 							<order>0</order>
 						</text>
 						<text>
-							<text>&#x2022; If you have {s:card_b_action_bold}Item {in:Soul Medallion}{s:} you can choose to activate the machine by spending one {I:soul:75:-2} token. If you activate the device the party is transported to location {s:card_b_action_bold}{ls:Market}{s:}.{n}&#x2022; You may jury-rig the device to self destruct when activated. To do so, you may spend {s:card_b_action_bold}Item {in:Bottle of Alcohol}{s:} or empty the powder from three bullets (consumes 3 {I:bullet:75:-2} tokens). If you set the device to self-destruct and activate it, take token {I:token_blue_4:75:-2}.</text>
+							<text>&#x2022; If you have {s:card_b_action_bold}Item {in:Soul Medallion}{s:} you may activate the device by spending one {I:soul:75:-2} token. If you activate the device the party is immediately transported to location {s:card_b_action_bold}{ls:Market}{s:}. You may also jury-rig the device to self destruct when activated. To do so, spend {s:card_b_action_bold}Item {in:Bottle of Alcohol}{s:} or empty the powder from three bullets (consumes 3 {I:bullet:75:-2} tokens). If you set the device to self-destruct and activate it, take token {I:token_blue_4:75:-2}.</text>
 							<style>card_b_action</style>
 							<rectangle>[86,900,773,-1]</rectangle>
 							<order>0</order>
@@ -4613,13 +4613,13 @@
 							<order>10</order>
 						</image>
 						<text>
-							<text> A slight man in inquisitor garb peruses the 1000 count bed linens. {s:card_b_default_italic}"The simple things can be so difficult to do without."{s:} he mutters. He stiffens, detecting your presence in the aisle, slowly turning to face you. There is a noted lack of fear in his demeanor. {s:card_b_default_italic}"I assume Bob has sent you?  Did he give you any messages for me?"{s:}  Recognizing your confusion, his disposition changes abruptly. {s:card_b_default_italic}"Ah, there is a different purpose to your visit then.  Well?"{s:}</text>
+							<text> A slight man in inquisitor garb peruses the 1000 count bed linens. {s:card_b_default_italic}"The simple things can be so difficult to do without."{s:} he mutters. He stiffens, detecting your presence in the aisle, slowly turning to face you. There is a noted lack of fear in his demeanor. {s:card_b_default_italic}"I assume Bob has sent you?  Did he give you any messages for me?"{s:}  Recognizing your confusion, his disposition changes abruptly. {s:card_b_default_italic}"Ah, your appearance serves a different purpose?"{s:}</text>
 							<style>card_b_default</style>
-							<rectangle>[86,460,773,-1]</rectangle>
+							<rectangle>[86,480,773,-1]</rectangle>
 							<order>0</order>
 						</text>
 						<text>
-							<text>&#x2022; You have two choices:{n}&#x00a0;&#x00a0;&#x2022; Combat, the only way to be sure:{n} {I:skill_combat:75:-2} 6x{I:shield_heart:75:-2} 4x{I:shield_red_skull:75:-2}{n} On success take {s:card_b_action_bold}Item {in:Keith Dead}{s:}.{n}&#x00a0;&#x00a0;&#x2022; Or get him to reveal his secrets{n} {I:skill_glib:75:-2} 4x{I:shield:75:-2}{n} On success take {s:card_b_action_bold}Item {in:Keith Lies}{s:}.</text>
+							<text>&#x2022; You have two choices:{n}&#x00a0;&#x00a0;&#x2022; Combat, the only way to be sure:{n} {I:skill_combat:75:-2} 4x{I:shield:75:-2} 4x{I:shield_red_skull:75:-2} 1x{I:shield_heart:75:-2}{n} On success take {s:card_b_action_bold}Item {in:Keith Dead}{s:}.{n}&#x00a0;&#x00a0;&#x2022; Or get him to reveal his secrets{n} {I:skill_glib:75:-2} 4x{I:shield:75:-2}{n} On success take {s:card_b_action_bold}Item {in:Keith Lies}{s:}.</text>
 							<style>card_b_action</style>
 							<rectangle>[86,1070,773,-1]</rectangle>
 							<order>0</order>
@@ -4901,7 +4901,7 @@
 						<order>10</order>
 					</image>
 					<text>
-						<text>Bob seems nervously distracted as you enter the room. He quickly turns and returns back to character as he becomes aware of your presence. {n}{s:normal_black_full_italic}"Ah, you've arrived and none too soon.  We have a rift to close and this time it is a bit more personal than I would like. We have a rogue agent. Agent Keith has decided to make history his home and recreational playground. You obviously understand the implications for all of us.  If he makes one mistake, One bad decision?  Well, you understand and I need you to stop him. {s:normal_black_full_bold}Find Keith, his henchmen and time portal... put an end to their plans."</text>
+						<text>Bob seems nervously distracted as you enter the room. He quickly turns and returns back to character as he becomes aware of your presence. {n}{s:normal_black_full_italic}"Ah, you've arrived and none too soon.  We have a rift to close and this time it is a bit more personal than I would like. We have a rogue agent. Agent Keith has decided to make history his home and recreational playground. You obviously understand the implications for all of us.  If he makes one mistake, one bad decision...  well, you understand. I need you to stop him. {s:normal_black_full_bold}Find Keith, his henchmen and time portal, and put an end to their plans.{s:normal_black_full_italic}"</text>
 						<style>normal_black_full</style>
 						<rectangle>[75,470,795,-1]</rectangle>
 						<order>11</order>
@@ -5101,7 +5101,7 @@
 						<order>11</order>
 					</text>
 					<text>
-						<text>&#x2022; Place the Item cards on their space.{n}&#x2022; Place the four Plan cards on their dedicated space.{n}&#x2022; Shuffle the seven Random Encounter cards and place them on the board.{n}&#x2022; The four mission successful/failed cards go face down on their dedicated space.{n}&#x2022; Set the time token to 30 TU {I:time:40:-2}.{n}&#x2022; The group token is placed on the "Path to town" location, your starting point.</text>
+						<text>&#x2022; Place the Item cards on their space.{n}&#x2022; Place the four Plan cards on their dedicated space.{n}&#x2022; Shuffle the seven Random Encounter cards and place them on codex 1.{n}&#x2022; The four mission successful/failed cards go face down on their dedicated space.{n}&#x2022; Set the time token to 35 {I:time:40:-2}.{n}&#x2022; The group token is placed on the "Path to town" location, your starting point.</text>
 						<style>smaller_black_left</style>
 						<rectangle>[100,680,745,-1]</rectangle>
 						<order>11</order>
@@ -5166,7 +5166,7 @@
 					</text>
 				</bottom>
 			</card>
-			<card name="Catalina Picture">
+			<card name="Catalina's Picture">
 				<top>
 				</top>
 				<bottom>
@@ -5189,7 +5189,7 @@
 					</text>
 				</bottom>
 			</card>
-			<card name="Catalina Locket">
+			<card name="Catalina's Locket">
 				<top>
 				</top>
 				<bottom>
@@ -5334,9 +5334,9 @@
 						<order>10</order>
 					</image>
 					<text>
-						<text>The drunk appears to have confused the bishop for someone else? You do not correct him. {s:card_b_default_italic}"Reverend, what are you doing here? We were supposed to meet at the chapel. I just got back from the laboratory, here is the book you were looking for".{s:}</text>
+						<text>He appears to have confused the bishop for someone else. You do not correct him. {s:card_b_default_italic}"Reverend, what are you doing here? We were supposed to meet at the chapel. I just got back from the laboratory with your book."{s:} ISBN number 978-0199535644. Stark white pages with odd yellow "highlights" over paragraphs and sticky yellow "markers" protruding from the edges of the book.</text>
 						<style>card_b_default</style>
-						<rectangle>[86,1020,773,-1]</rectangle>
+						<rectangle>[86,1000,773,-1]</rectangle>
 						<order>0</order>
 					</text>
 				</bottom>
