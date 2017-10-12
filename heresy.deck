@@ -1314,9 +1314,10 @@
 			<fillcolor>[255, 255, 255, 100]</fillcolor>
 			<bordercolor>[0, 0, 0, 255]</bordercolor>
 			<textcolor>[0, 0, 0, 255]</textcolor>
-			<typesize>7</typesize>
+			<typesize>8</typesize>
 			<borderthickness>1</borderthickness>
 			<justification>full</justification>
+			<boundary_offset>5</boundary_offset>
 		</style>
 		<style name="small_white_box_red">
 			<typeface>Arial</typeface>
@@ -1639,71 +1640,71 @@
 				<text>
 					<text>Equipment:</text>
 					<style>normal_black_full</style>
-					<rectangle>[75,405,795,-1]</rectangle>
+					<rectangle>[75,275,795,-1]</rectangle>
 					<order>11</order>
 				</text>
 				<rect>
 					<style>small_white_box_full</style>
-					<rectangle>[75,500,200,200]</rectangle>
+					<rectangle>[75,370,795,230]</rectangle>
 					<order>11</order>
 				</rect>
 				<image>
 					<image>blessing</image>
-					<rectangle>[100,525,150,150]</rectangle>
+					<rectangle>[100,410,150,150]</rectangle>
 					<order>11</order>
 				</image>
 				<text>
-					<text>These tokens represent a blessing. These can be used during any challenge to aid in your quest. Spending a blessing allows one to re-roll one challenge die.</text>
+					<text>Blessings can be used by the holding agent on any agent on the same card during any challenge. Spending a blessing allows one to re-roll one challenge die.</text>
 					<style>small_white_box_full</style>
-					<rectangle>[275,500,595,200]</rectangle>
+					<rectangle>[275,370,595,230]</rectangle>
 					<order>11</order>
 				</text>
 				<rect>
 					<style>small_white_box_full</style>
-					<rectangle>[75,700,795,200]</rectangle>
+					<rectangle>[75,610,795,230]</rectangle>
 					<order>11</order>
 				</rect>
 				<image>
 					<image>healing</image>
-					<rectangle>[100,725,150,150]</rectangle>
+					<rectangle>[100,650,150,150]</rectangle>
 					<order>11</order>
 				</image>
 				<text>
-					<text>These tokens represent a healing poultice. These can be used at any time by the agent holding it. Each token recovers one lost health {I:heart:40:-2}.</text>
+					<text>Healing poultices can be used at any time by the holding agent on any agent on the same card. Each token recovers one lost health {I:heart:40:-2}.</text>
 					<style>small_white_box_full</style>
-					<rectangle>[275,700,595,200]</rectangle>
+					<rectangle>[275,610,595,230]</rectangle>
 					<order>11</order>
 				</text>
 				<rect>
 					<style>small_white_box_full</style>
-					<rectangle>[75,900,795,200]</rectangle>
+					<rectangle>[75,850,795,230]</rectangle>
 					<order>11</order>
 				</rect>
 				<image>
 					<image>soul</image>
-					<rectangle>[100,925,150,150]</rectangle>
+					<rectangle>[100,890,150,150]</rectangle>
 					<order>11</order>
 				</image>
 				<text>
-					<text>These tokens represent a soul, the incorporeal essence of a living being. These are very powerful and very scarce resources. How they might be used...</text>
+					<text>A soul, the incorporeal essence of a living being. These are very powerful and very scarce resources. How they might be used...</text>
 					<style>small_white_box_full</style>
-					<rectangle>[275,900,595,200]</rectangle>
+					<rectangle>[275,850,595,230]</rectangle>
 					<order>11</order>
 				</text>
 				<rect>
 					<style>small_white_box_full</style>
-					<rectangle>[75,1100,795,200]</rectangle>
+					<rectangle>[75,1090,795,230]</rectangle>
 					<order>11</order>
 				</rect>
 				<image>
 					<image>bullet</image>
-					<rectangle>[100,1125,150,150]</rectangle>
+					<rectangle>[100,1130,150,150]</rectangle>
 					<order>11</order>
 				</image>
 				<text>
-					<text>These tokens represent ammunition for a weapon of some sort. Every time the weapon is used, one of these tokens must be spent.</text>
+					<text>Ammunition for a weapon of some sort. Every time the weapon is used, one of these tokens must be spent.</text>
 					<style>small_white_box_full</style>
-					<rectangle>[275,1100,595,200]</rectangle>
+					<rectangle>[275,1090,595,230]</rectangle>
 					<order>11</order>
 				</text>
 			</bottom>
@@ -4928,71 +4929,71 @@
 					<text>
 						<text>Equipment:</text>
 						<style>normal_black_full</style>
-						<rectangle>[75,405,795,-1]</rectangle>
+						<rectangle>[75,375,795,-1]</rectangle>
 						<order>11</order>
 					</text>
 					<rect>
 						<style>small_white_box_full</style>
-						<rectangle>[75,500,200,200]</rectangle>
+						<rectangle>[75,470,795,230]</rectangle>
 						<order>11</order>
 					</rect>
 					<image>
 						<image>blessing</image>
-						<rectangle>[100,525,150,150]</rectangle>
+						<rectangle>[100,510,150,150]</rectangle>
 						<order>11</order>
 					</image>
 					<text>
-						<text>These tokens represent a blessing. These can be used during any challenge to aid in your quest. Spending a blessing allows one to re-roll one challenge die.</text>
+						<text>Blessings can be used by the holding agent on any agent on the same card during any challenge. Spending a blessing allows one to re-roll one challenge die.</text>
 						<style>small_white_box_full</style>
-						<rectangle>[275,500,595,200]</rectangle>
+						<rectangle>[275,470,595,230]</rectangle>
 						<order>11</order>
 					</text>
 					<rect>
 						<style>small_white_box_full</style>
-						<rectangle>[75,700,795,200]</rectangle>
+						<rectangle>[75,710,795,230]</rectangle>
 						<order>11</order>
 					</rect>
 					<image>
 						<image>healing</image>
-						<rectangle>[100,725,150,150]</rectangle>
+						<rectangle>[100,750,150,150]</rectangle>
 						<order>11</order>
 					</image>
 					<text>
-						<text>These tokens represent a healing poultice. These can be used at any time by the agent holding it. Each token recovers one lost health {I:heart:40:-2}.</text>
+						<text>Healing poultices can be used at any time by the holding agent on any agent on the same card. Each token recovers one lost health {I:heart:40:-2}.</text>
 						<style>small_white_box_full</style>
-						<rectangle>[275,700,595,200]</rectangle>
+						<rectangle>[275,710,595,230]</rectangle>
 						<order>11</order>
 					</text>
 					<rect>
 						<style>small_white_box_full</style>
-						<rectangle>[75,900,795,200]</rectangle>
+						<rectangle>[75,950,795,230]</rectangle>
 						<order>11</order>
 					</rect>
 					<image>
 						<image>soul</image>
-						<rectangle>[100,925,150,150]</rectangle>
+						<rectangle>[100,990,150,150]</rectangle>
 						<order>11</order>
 					</image>
 					<text>
-						<text>These tokens represent a soul, the incorporeal essence of a living being. These are very powerful and very scarce resources. How they might be used...</text>
+						<text>A soul, the incorporeal essence of a living being. These are very powerful and very scarce resources. How they might be used...</text>
 						<style>small_white_box_full</style>
-						<rectangle>[275,900,595,200]</rectangle>
+						<rectangle>[275,950,595,230]</rectangle>
 						<order>11</order>
 					</text>
 					<rect>
 						<style>small_white_box_full</style>
-						<rectangle>[75,1100,795,200]</rectangle>
+						<rectangle>[75,1190,795,230]</rectangle>
 						<order>11</order>
 					</rect>
 					<image>
 						<image>bullet</image>
-						<rectangle>[100,1125,150,150]</rectangle>
+						<rectangle>[100,1230,150,150]</rectangle>
 						<order>11</order>
 					</image>
 					<text>
-						<text>These tokens represent ammunition for a weapon of some sort. Every time the weapon is used, one of these tokens must be spent.</text>
+						<text>Ammunition for a weapon of some sort. Every time the weapon is used, one of these tokens must be spent.</text>
 						<style>small_white_box_full</style>
-						<rectangle>[275,1100,595,200]</rectangle>
+						<rectangle>[275,1190,595,230]</rectangle>
 						<order>11</order>
 					</text>
 				</bottom>
@@ -5028,50 +5029,50 @@
 					</text>
 					<rect>
 						<style>small_white_box_full</style>
-						<rectangle>[75,800,795,200]</rectangle>
+						<rectangle>[75,810,800,200]</rectangle>
 						<order>11</order>
 					</rect>
 					<image>
 						<image>skill_agile</image>
-						<rectangle>[100,825,150,150]</rectangle>
+						<rectangle>[100,835,150,150]</rectangle>
 						<order>11</order>
 					</image>
 					<text>
 						<text>Agility: the ability to hide, dodge or otherwise avoid danger, detection, etc. A handy ability for stealthy tasks.</text>
 						<style>small_white_box_full</style>
-						<rectangle>[275,800,595,200]</rectangle>
+						<rectangle>[280,810,595,200]</rectangle>
 						<order>11</order>
 					</text>
 					<rect>
 						<style>small_white_box_full</style>
-						<rectangle>[75,1000,795,200]</rectangle>
+						<rectangle>[75,1020,800,200]</rectangle>
 						<order>11</order>
 					</rect>
 					<image>
 						<image>skill_glib</image>
-						<rectangle>[100,1025,150,150]</rectangle>
+						<rectangle>[100,1045,150,150]</rectangle>
 						<order>11</order>
 					</image>
 					<text>
 						<text>Glibness: this is a measure of one's ability to convince people to see things your way or that your ideas are better than theirs. </text>
 						<style>small_white_box_full</style>
-						<rectangle>[275,1000,595,200]</rectangle>
+						<rectangle>[280,1020,595,200]</rectangle>
 						<order>11</order>
 					</text>
 					<rect>
 						<style>small_white_box_full</style>
-						<rectangle>[75,1200,795,200]</rectangle>
+						<rectangle>[75,1230,800,200]</rectangle>
 						<order>11</order>
 					</rect>
 					<image>
 						<image>skill_combat</image>
-						<rectangle>[100,1225,150,150]</rectangle>
+						<rectangle>[100,1235,150,150]</rectangle>
 						<order>11</order>
 					</image>
 					<text>
 						<text>Combat: a general placeholder for a fight, with fists, weapons, etc. There will always be a loser for this approach to an encounter.</text>
 						<style>small_white_box_full</style>
-						<rectangle>[275,1200,595,200]</rectangle>
+						<rectangle>[280,1230,595,200]</rectangle>
 						<order>11</order>
 					</text>
 				</bottom>
