@@ -2269,7 +2269,7 @@
 							<order>0</order>
 						</text>
 						<text>
-							<text>&#x2022; If you have {s:card_b_action_bold}Item {in:Stick}{s:} you may try to steal his sword, replacing it with the item.{n}&#xA0;&#xA0;&#xA0;&#xA0;{I:skill_agile:75:-2} 4x{I:shield:75:-2} 2x{I:shield_shield:75:-2}{n}&#xA0;&#xA0;&#xA0;&#xA0;On success take {s:card_b_action_bold}Item {in:Sword}{s:}, lose {s:card_b_action_bold}Item {in:Stick}{s:}.</text>
+							<text>&#x2022; If you have {s:card_b_action_bold}Item {in:Stick}{s:} you may try to steal his sword, replacing it with the item.{n}&#xA0;&#xA0;&#xA0;&#xA0;{I:skill_agile:75:-2} 4x{I:shield:75:-2}{n}&#xA0;&#xA0;&#xA0;&#xA0;On success take {s:card_b_action_bold}Item {in:Sword}{s:}, lose {s:card_b_action_bold}Item {in:Stick}{s:}.</text>
 							<style>card_b_action</style>
 							<rectangle>[86,1194,773,-1]</rectangle>
 							<order>0</order>
@@ -4485,7 +4485,7 @@
 							<order>10</order>
 						</image>
 						<text>
-							<text>You step into the entry-way of the building. In front of a row of shopping carts stands a young, nervous greeter. Impressed by the fact that you have followed the trail this far he warns you to leave or suffer the consequences. {s:card_b_default_italic}"Who are you, and what are you doing here? We all live in fear since our new master, Keith, chose this location for his shopping. He dresses and talks strangely, but pays with gold coins. Come back another day, for your own sake. Everyone here is armed and will defend themselves!"{s:}</text>
+							<text>You step into the entryway of the building. In front of a row of shopping carts stands a young, nervous greeter. Impressed by the fact that you have followed the trail this far he warns you to leave or suffer the consequences. {s:card_b_default_italic}"Who are you, and what are you doing here? We all live in fear since our new master, Keith, chose this location for his shopping. He dresses and talks strangely, but pays with gold coins. Come back another day, for your own sake. Everyone here is armed and will defend themselves!"{s:}</text>
 							<style>card_b_default</style>
 							<rectangle>[86,480,773,-1]</rectangle>
 							<order>0</order>
@@ -4523,7 +4523,7 @@
 							<order>0</order>
 						</text>
 						<text>
-							<text>&#x2022; {I:lock:75:-2} He comes at you, brandishing a scythe:{n}&#x00a0;&#x00a0; {I:skill_combat:75:-2} 4x{I:shield:75:-2} 4x{I:shield_red_skull:75:-2}.</text>
+							<text>&#x2022; {I:lock:75:-2} He comes at you, brandishing a scythe:{n}&#x00a0;&#x00a0; {I:skill_combat:75:-2} 4x{I:shield_red_skull:75:-2} 4x{I:shield:75:-2}{n}On success, you may leave this card.</text>
 							<style>card_b_action</style>
 							<rectangle>[86,1140,773,-1]</rectangle>
 							<order>0</order>
@@ -4555,7 +4555,7 @@
 							<order>0</order>
 						</text>
 						<text>
-							<text>&#x2022; You have three choices:{n}&#x00a0;&#x00a0;&#x2022; Chase him away: {I:skill_agile:75:-2} 4x{I:shield:75:-2}, on success take {s:card_b_action_bold}Item {in:Phil Note 2}{s:}.{n}&#x00a0;&#x00a0;&#x2022; Attack him {I:skill_combat:75:-2} 4x{I:shield:75:-2} 4x{I:shield_red_skull:75:-2}, on success take {s:card_b_action_bold}Item {in:Phil Note 1}{s:}{n}&#x00a0;&#x00a0;&#x2022; Let him run away.  No matter what you choose, Phil will not be here if you come back to this card in this run.</text>
+							<text>&#x2022; You have three choices:{n}&#x00a0;&#x00a0;&#x2022; Chase him away: {I:skill_agile:75:-2} 4x{I:shield:75:-2}, on success take {s:card_b_action_bold}Item {in:Phil Note 2}{s:}.{n}&#x00a0;&#x00a0;&#x2022; Attack him {I:skill_combat:75:-2} 4x{I:shield_red_skull:75:-2} 4x{I:shield:75:-2}, on success take {s:card_b_action_bold}Item {in:Phil Note 1}{s:}{n}&#x00a0;&#x00a0;&#x2022; Let him run away.  No matter what you choose, Phil will not be here if you come back to this card in this run.</text>
 							<style>card_b_action</style>
 							<rectangle>[86,1030,773,-1]</rectangle>
 							<order>0</order>
