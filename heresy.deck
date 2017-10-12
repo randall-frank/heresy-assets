@@ -6855,7 +6855,7 @@
 						<order>10</order>
 					</image>
 					<text>
-						<text>3</text>
+						<text>2</text>
 						<style>small_white_box</style>
 						<rectangle>[200,430,25,-1]</rectangle>
 						<order>11</order>
@@ -6866,7 +6866,7 @@
 						<order>10</order>
 					</image>
 					<text>
-						<text>1</text>
+						<text>2</text>
 						<style>small_white_box</style>
 						<rectangle>[350,430,25,-1]</rectangle>
 						<order>11</order>
