@@ -1795,7 +1795,7 @@
 						<order>0</order>
 					</text>
 					<text>
-						<text>&#x2022; {I:lock:75:-2} A fight ensues{n}&#xA0;&#xA0; {I:skill_combat:75:-2} 4x{I:shield:75:-2} 2x{I:shield_red_skull:75:-2}{n}&#xA0;&#xA0;On success you may leave this card.</text>
+						<text>&#x2022; {I:lock:75:-2} A fight ensues{n}&#xA0;&#xA0; {I:skill_combat:75:-2} 4x{I:shield:75:-2} 1x{I:shield_red_skull:75:-2}{n}&#xA0;&#xA0;On success you may leave this card.</text>
 						<style>card_b_action</style>
 						<rectangle>[86,680,773,-1]</rectangle>
 						<order>0</order>
@@ -1833,7 +1833,7 @@
 						<order>0</order>
 					</text>
 					<text>
-						<text>&#x2022; {I:lock:75:-2} You hack your way out of the web{n}&#xA0;&#xA0; {I:skill_combat:75:-2} 5x{I:shield:75:-2} 2x{I:shield_time:75:-2}{n}&#xA0;&#xA0;On success you may leave this card.</text>
+						<text>&#x2022; {I:lock:75:-2} You hack your way out of the web{n}&#xA0;&#xA0; {I:skill_combat:75:-2} 2x{I:shield_time:75:-2} 5x{I:shield:75:-2}{n}&#xA0;&#xA0;On success you may leave this card.</text>
 						<style>card_b_action</style>
 						<rectangle>[86,680,773,-1]</rectangle>
 						<order>0</order>
@@ -1871,7 +1871,7 @@
 						<order>0</order>
 					</text>
 					<text>
-						<text>&#x2022; {I:lock:75:-2} You talk your way out of this one.  The spirit is definitely female.{n}&#xA0;&#xA0; {I:skill_glib:75:-2} 4x{I:shield:75:-2} 2x{I:shield_heart:75:-2}{n}&#xA0;&#xA0;On success you may leave this card.</text>
+						<text>&#x2022; {I:lock:75:-2} You talk your way out of this one.  The spirit is definitely female.{n}&#xA0;&#xA0; {I:skill_glib:75:-2} 2x{I:shield_heart:75:-2} 4x{I:shield:75:-2}{n}&#xA0;&#xA0;On success you may leave this card.</text>
 						<style>card_b_action</style>
 						<rectangle>[86,680,773,-1]</rectangle>
 						<order>0</order>
@@ -1909,7 +1909,7 @@
 						<order>0</order>
 					</text>
 					<text>
-						<text>&#x2022; {I:lock:75:-2} Talk them out of asking more questions.{n}&#xA0;&#xA0; {I:skill_glib:75:-2} 5x{I:shield:75:-2} 2x{I:shield_time:75:-2}{n}&#xA0;&#xA0;On success you may leave this card.</text>
+						<text>&#x2022; {I:lock:75:-2} Talk them out of asking more questions.{n}&#xA0;&#xA0; {I:skill_glib:75:-2} 2x{I:shield_time:75:-2} 5x{I:shield:75:-2}{n}&#xA0;&#xA0;On success you may leave this card.</text>
 						<style>card_b_action</style>
 						<rectangle>[86,760,773,-1]</rectangle>
 						<order>0</order>
@@ -1947,7 +1947,7 @@
 						<order>0</order>
 					</text>
 					<text>
-						<text>&#x2022; {I:lock:75:-2} Step lively and make it quick.{n}&#xA0;&#xA0; {I:skill_agile:75:-2} 5x{I:shield:75:-2} 2x{I:shield_time:75:-2}{n}&#xA0;&#xA0;On success you may leave this card.</text>
+						<text>&#x2022; {I:lock:75:-2} Step lively and make it quick.{n}&#xA0;&#xA0; {I:skill_agile:75:-2} 2x{I:shield_time:75:-2} 5x{I:shield:75:-2}{n}&#xA0;&#xA0;On success you may leave this card.</text>
 						<style>card_b_action</style>
 						<rectangle>[86,760,773,-1]</rectangle>
 						<order>0</order>
@@ -1985,7 +1985,7 @@
 						<order>0</order>
 					</text>
 					<text>
-						<text>&#x2022; {I:lock:75:-2} This one you have seen before.{n}&#xA0;&#xA0; {I:skill_agile:75:-2} 5x{I:shield:75:-2} 2x{I:shield_time:75:-2}{n}&#xA0;&#xA0;On success you may leave this card.</text>
+						<text>&#x2022; {I:lock:75:-2} This one you have seen before.{n}&#xA0;&#xA0; {I:skill_agile:75:-2} 5x{I:shield:75:-2} 1x{I:shield_red_skull:75:-2}{n}&#xA0;&#xA0;On success you may leave this card.</text>
 						<style>card_b_action</style>
 						<rectangle>[86,550,773,-1]</rectangle>
 						<order>0</order>
@@ -2023,7 +2023,7 @@
 						<order>0</order>
 					</text>
 					<text>
-						<text>&#x2022; {I:lock:75:-2} It takes time to soothe a grieving mother.{n}&#xA0;&#xA0; {I:skill_glib:75:-2} 5x{I:shield:75:-2} 2x{I:shield_time:75:-2}{n}&#xA0;&#xA0;On success you may leave this card.</text>
+						<text>&#x2022; {I:lock:75:-2} It takes time to soothe a grieving mother.{n}&#xA0;&#xA0; {I:skill_glib:75:-2} 2x{I:shield_time:75:-2} 5x{I:shield:75:-2}{n}&#xA0;&#xA0;On success you may leave this card.</text>
 						<style>card_b_action</style>
 						<rectangle>[86,680,773,-1]</rectangle>
 						<order>0</order>
