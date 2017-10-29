@@ -2363,7 +2363,7 @@
 							<order>0</order>
 						</rect>
 						<text>
-                            <text>A dim ray of light from the clouds illuminates the town cemetery. New graves are being dug right now, and the earth is freshly turned in multiple locations.{n}  A cluster of people sobbing disturbs the quiet. So many stories mark their closing chapters here. This does not feel like a place of peace...</text>
+                            <text>Dim shafts of light flicker though the clouds, illuminating the town cemetery and producing eerie shadows. New graves are being dug and the earth is freshly mounded in multiple locations. A cluster of people sobbing disturbs the quiet. So many stories mark their closing chapters here. This does not feel like a place of peace...</text>
 							<style>card_a_default_clear</style>
 							<rectangle>[106,114,733,1310]</rectangle>
 							<order>1</order>
@@ -2538,7 +2538,7 @@
 							<order>0</order>
 						</rect>
 						<text>
-							<text>You enter a smoke-filled room with patron occupied tables scattered about. On your left is the barkeep, looking to serve you. To the right are a series of semi-occupied tables. On the far right, a man completely dressed in black sits alone, making eye contact with you...</text>
+							<text>You enter the smoke-filled room. On your left is the barkeep, looking to serve you. To the right are a scattered collection of semi-occupied tables. On your far right a mysterious man, dressed completely in black sits alone.  He makes eye contact with you...</text>
 							<style>card_a_default_clear</style>
 							<rectangle>[106,114,733,1310]</rectangle>
 							<order>1</order>
@@ -2592,7 +2592,7 @@
 							<order>0</order>
 						</text>
 						<text>
-							<text>&#x2022; A fight ensues:{n}&#xA0;&#xA0;{I:lock:75:-2} {I:skill_combat:75:-2} 2x{I:shield_heart:75:-2} 3x{I:shield_red_skull:75:-2} {n}&#xA0;&#xA0;On success ... you walk away from three downed fools.</text>
+							<text>&#x2022; A fight ensues:{n}&#xA0;&#xA0;{I:lock:75:-2} {I:skill_combat:75:-2} 1x{I:shield_heart:75:-2} 3x{I:shield_red_skull:75:-2}{n}&#xA0;&#xA0;On success ... you walk away from three downed fools.</text>
 							<style>card_b_action</style>
 							<rectangle>[86,950,773,-1]</rectangle>
 							<order>0</order>
@@ -2619,7 +2619,7 @@
 							<order>0</order>
 						</text>
 						<text>
-							<text>&#x2022; {I:lock:75:-2} Two ways to resolve the situation:{n}Placate them and leave in peace: 2x{I:time:75:-2}{n}or confront them: {I:skill_combat:75:-2} 2x{I:shield_heart:75:-2} 2x{I:shield_red_skull:75:-2}{n}If you win the confrontation take {s:card_b_action_bold}Item {in:Star Chart C}{s:}.</text>
+							<text>&#x2022; {I:lock:75:-2} Two ways to resolve the situation:{n}Placate them and leave in peace: 2x{I:time:75:-2}{n}or confront them: {I:skill_combat:75:-2} 1x{I:shield_heart:75:-2} 2x{I:shield_red_skull:75:-2} 1x{I:shield:75:-2}{n}If you win the confrontation take {s:card_b_action_bold}Item {in:Star Chart C}{s:}.</text>
 							<style>card_b_action</style>
 							<rectangle>[86,1130,773,-1]</rectangle>
 							<order>0</order>
@@ -3555,7 +3555,7 @@
 					</top>
 					<bottom>
 						<text>
-							<text>An intensely macabre sight, but surprisingly serene. Sister Mar&#x00ed;a is tied to a stake as a crow looks onward from a safe distance. A pair of acolytes stand, burning torches in hand. Around their necks are odd, glowing orbs. The pair lash the sister to the stake. One of the acolytes tosses a small metallic sphere into the base of the kindling as the other dispassionately lights the fire...  You avert your eyes from the horrific scene, awaiting screams that... never come? She behaves very oddly, no struggling, no screaming and seems to pass quickly, in peace. Interestingly, you notice a flash of blue light coming from within the fire just before she passes into inactivity. Your party quietly mourns the  loss of an honored comrade. There can be no solace...</text>
+							<text>An intensely macabre sight, but surprisingly serene. Sister Mar&#x00ed;a is tied to a stake as a crow looks onward from a safe distance. A pair of acolytes stand, burning torches in hand. Around their necks are odd, glowing orbs. The pair lash the sister to the stake. One of the acolytes tosses a small metallic sphere into the base of the kindling as the other dispassionately lights the fire...  You avert your eyes from the horrific scene, awaiting screams that... never come? She behaves very oddly, no struggling, no screaming and seems to pass quickly, in peace. Interestingly, you notice a flash of blue light coming from within the fire just before she passes into inactivity and the crow makes a familiar call. Your party quietly mourns the  loss of an honored comrade. There can be no solace...</text>
 							<style>card_b_default</style>
 							<rectangle>[86,60,773,-1]</rectangle>
 							<order>0</order>
@@ -3563,7 +3563,7 @@
 						<text>
 							<text>&#x2022; The Sister Mar&#x00ed;a character card is removed along with all items she is holding. Her essence transfers to her familiar, take {s:card_b_action_bold}Item {in:the_crow}{s:} and contine the mission using the new character. Take one soul token {I:soul:75:-2}.</text>
 							<style>card_b_action</style>
-							<rectangle>[86,1070,773,-1]</rectangle>
+							<rectangle>[86,1120,773,-1]</rectangle>
 							<order>0</order>
 						</text>
 					</bottom>
@@ -3592,7 +3592,7 @@
 					</top>
 					<bottom>
 						<text>
-							<text>A shocking scene unfolds before you. The Do&#x00f1;a Ortiz is tied to a stake as a black cat appears from behind a rock. A pair of acolytes stand, burning torches in hand. Around their necks are odd, glowing orbs. The pair lash her to the stake. One of the acolytes tosses a small metallic sphere into the base of the kindling as the other dispassionately lights the fire.  Your eyes lock with hers, but she seems to lack concern?  As the sphere drops into the flames, her body goes limp as the cat lies down in the grass. You notice a flash of blue light coming from within the fire just before she passes into inactivity. You can stand the sight no longer and turn away as a tear dampens your cheek.</text>
+							<text>A shocking scene unfolds before you. The Do&#x00f1;a Ortiz stands in regal defiance in front of a stake as a black cat appears from behind a rock. A pair of acolytes stand, burning torches in hand. Around their necks are odd, glowing orbs. The pair lash her to the stake. One of the acolytes tosses a small metallic sphere into the base of the kindling as the other dispassionately lights the fire.  Your eyes lock with hers, but she seems to lack concern?  As the sphere drops into the flames, her body goes limp as the cat lies down in the grass. You notice a flash of blue light coming from within the fire just before she passes into inactivity. You can stand the sight no longer and turn away as a tear dampens your cheek.</text>
 							<style>card_b_default</style>
 							<rectangle>[86,60,773,-1]</rectangle>
 							<order>0</order>
@@ -3629,7 +3629,7 @@
 					</top>
 					<bottom>
 						<text>
-							<text>An intensely macabre sight, but surprisingly serene. Isabel is tied to a stake  as a snake looks onward from a safe distance. A pair of acolytes stand, burning torches in hand. Around their necks are odd, glowing orbs. The pair lash Isabel to the stake. One of the acolytes tosses a small metallic sphere into the base of the kindling as the other dispassionately lights the fire.  You avert your eyes from the horrific scene, awaiting screams that never come?  Isabel's eyes roll back into her head and the snake passes into the deeper grass. You notice a flash of blue light coming from within the fire just before she passes into inactivity. Your gaze passes to your feet as you try to make sense of the scene.</text>
+							<text>You stare at the scene in disblief. Isabel is tied to a stake as a snake looks onward from a safe distance. A pair of acolytes stand, burning torches in hand. Around their necks are odd, glowing orbs. One of the acolytes tosses a small metallic sphere into the base of the kindling as the other dispassionately lights the fire. You find it impossible to look away as the flames climb higher and Isabel... remains still? Her eyes roll back into her head and the snake passes into the deeper grass. You notice a flash of blue light coming from within the fire just before she passes into inactivity. Your gaze passes to your feet as you try to make sense of the scene.</text>
 							<style>card_b_default</style>
 							<rectangle>[86,60,773,-1]</rectangle>
 							<order>0</order>
@@ -3637,7 +3637,7 @@
 						<text>
 							<text>&#x2022; The Isabel character card is removed along with all items she is holding. Her essence transfers to her familiar, take {s:card_b_action_bold}Item {in:the_snake}{s:} and contine the mission using the new character. What is this? Take one soul token {I:soul:75:-2}.</text>
 							<style>card_b_action</style>
-							<rectangle>[86,1020,773,-1]</rectangle>
+							<rectangle>[86,930,773,-1]</rectangle>
 							<order>0</order>
 						</text>
 					</bottom>
@@ -4412,15 +4412,15 @@
 							<order>10</order>
 						</image>
 						<text>
-							<text>This is a strange door. What is this compartment for? It hums with unnatural energy. A "window" on the device notes something called a "Hypermarket" with a date in the future listed.</text>
+							<text>A strange door. It hums with unnatural energy. A "window" on the device reads: "Hypermarket", 17 Jun 2015.</text>
 							<style>card_b_default</style>
-							<rectangle>[86,620,773,-1]</rectangle>
+							<rectangle>[86,630,773,-1]</rectangle>
 							<order>0</order>
 						</text>
 						<text>
-							<text>&#x2022; If you have {s:card_b_action_bold}Item {in:Soul Medallion}{s:} you may activate the device by spending one {I:soul:75:-2} token. If you activate the device the party is immediately transported to location {s:card_b_action_bold}{ls:Market}{s:}. You may also jury-rig the device to self destruct when activated. To do so, spend {s:card_b_action_bold}Item {in:Bottle of Alcohol}{s:} or empty the powder from three bullets (consumes 3 {I:bullet:75:-2} tokens). If you set the device to self-destruct and activate it, take token {I:token_blue_4:75:-2}.</text>
+							<text>&#x2022; If you have {s:card_b_action_bold}Item {in:Soul Medallion}{s:} you may activate the device by spending one {I:soul:75:-2} token. If activated the party is immediately transported to location {s:card_b_action_bold}{ls:Market}{s:}. A time captain roll is still required.{n}&#x2022; You may also jury-rig the device to self destruct when activated. To do so, spend {s:card_b_action_bold}Item {in:Bottle of Alcohol}{s:} or empty the powder from three bullets (consumes 3 {I:bullet:75:-2} tokens). If you set the device to self-destruct and activate it, take token {I:token_blue_4:75:-2}.</text>
 							<style>card_b_action</style>
-							<rectangle>[86,900,773,-1]</rectangle>
+							<rectangle>[86,835,773,-1]</rectangle>
 							<order>0</order>
 						</text>
 					</bottom>
@@ -4651,7 +4651,7 @@
 							<order>0</order>
 						</text>
 						<text>
-							<text>&#x2022; You may try to steal one for yourself:{n}&#x00a0;&#x00a0;  {I:skill_agile:75:-2} 3x{I:shield:75:-2}{n}&#x00a0;&#x00a0; On success increase all participants health by one {I:heart:75:-2} (it is ok to exceed the maximum health on the character card).  Note this challenge can be performed only once per run.</text>
+							<text>&#x2022; You may try to steal one for yourself:{n}&#x00a0;&#x00a0;  {I:skill_agile:75:-2} 3x{I:shield:75:-2}{n}&#x00a0;&#x00a0; On success, increase the health of all characters participating in the challenge by one {I:heart:75:-2} (it is ok to exceed the maximum health on the character card).  Note this challenge can be performed only once per run.</text>
 							<style>card_b_action</style>
 							<rectangle>[86,1050,773,-1]</rectangle>
 							<order>0</order>
@@ -5259,7 +5259,7 @@
 						<order>0</order>
 					</text>
 					<text>
-						<text>This weapon can be wielded by characters with more than two {I:skill_combat:75:-2} and adds one {I:hit:75:-2} to combat challenges when at least one other {I:hit:75:-2} is rolled.</text>
+						<text>This weapon can be wielded by characters with at least two {I:skill_combat:75:-2} and adds one {I:hit:75:-2} to combat challenges when at least one other {I:hit:75:-2} is rolled.</text>
 						<style>card_b_action</style>
 						<rectangle>[86,1070,773,-1]</rectangle>
 						<order>0</order>
@@ -5288,7 +5288,7 @@
 						<order>0</order>
 					</text>
 					<text>
-						<text>The orb is powered by sacrificed souls {I:soul:75:-2}. The medallion allows the holder to spend one soul token to re-roll one die. Soul tokens are discarded when used. The medallion may be recharged through a "sacrifice" by the party. If all party members are on the same card and not engaged in a challenge, the group may discard one {I:heart:75:-2} token per party member (4 max) to add a soul token  to the medallion.</text>
+						<text>The orb is powered by sacrificed souls {I:soul:75:-2}. The medallion allows the holder to spend one soul token to re-roll one die. Soul tokens are discarded when used. The medallion may be recharged through a "sacrifice" by the party. If all party members are on the same card and not engaged in a challenge, the group may discard one {I:heart:75:-2} token per party member to add a one soul token to the medallion.</text>
 						<style>card_b_action</style>
 						<rectangle>[86,880,773,-1]</rectangle>
 						<order>0</order>
@@ -5528,7 +5528,7 @@
 						<order>0</order>
 					</text>
 					<text>
-						<text>If you have {I:bullet:75:-2} tokens, they can be placed in the slots of this device. During a {I:skill_combat:75:-2} challenge, the device can be "triggered", consuming one of the tokens and allowing the user to roll an additional die in the challenge roll. It cannot be used by familiars.</text>
+						<text>If you have {I:bullet:75:-2} tokens, they can be placed in the slots of this device. During a {I:skill_combat:75:-2} challenge, the device can be "triggered", consuming one of the tokens and allowing the user to roll an additional die in the challenge roll.{n}&#x2022; This item cannot be used by familiars.</text>
 						<style>card_b_action</style>
 						<rectangle>[86,1080,773,-1]</rectangle>
 						<order>0</order>
@@ -5557,7 +5557,7 @@
 						<order>0</order>
 					</text>
 					<text>
-						<text>The nail gun gives you one extra die to roll during a {I:skill_combat:75:-2} challenge. It cannot be used by familiars.</text>
+						<text>The nail gun gives you one extra die to roll during a {I:skill_combat:75:-2} challenge.{n}&#x2022; This item cannot be used by familiars.</text>
 						<style>card_b_action</style>
 						<rectangle>[86,1120,773,-1]</rectangle>
 						<order>0</order>
@@ -5637,9 +5637,15 @@
 				</top>
 				<bottom>
 					<text>
-						<text>A nuanced verbal exchange ensues.  It quickly becomes obvious that he is a T.I.M.E Agent as well. "Agent Smith", he relates.  Shaking your hands,  {s:card_b_default_italic}"I have been tracking Keith as well. It looks like you came just in time to help me put a stop to his plans. He has been wreaking havoc with these strands of time and the local gentry. It is only a matter of time before he irreparably alters our timeline. I believe the man in the Electronics section is Keith himself. Why don't you head over there and confront him?  I will join you shortly."{s:} </text>
+						<text>A nuanced verbal exchange ensues.  It quickly becomes obvious that he is a T.I.M.E Agent as well. "Agent Smith", he relates.  Shaking your hands, {s:card_b_default_italic}"I have been tracking Keith as well. It looks like you came just in time to help me put a stop to his plans. He has been wreaking havoc with these strands of time and the local gentry. It is only a matter of time before he irreparably alters our timeline. I believe the man in the Electronics section is Keith himself. Why don't you head over there and confront him?  I will join you shortly."{s:} </text>
 						<style>card_b_default</style>
 						<rectangle>[86,50,773,-1]</rectangle>
+						<order>0</order>
+					</text>
+					<text>
+						<text>He makes it all sound so simple. Logical perhaps, but a bit too convenient. Can you trust this man, "Smith" was it? You can't seem to recall an agent Smith. What if he is lying to you? You can always choose to fight this man if need be, right now or by coming back to visit him again.  He is not leaving this location.</text>
+						<style>card_b_action</style>
+						<rectangle>[86,800,773,-1]</rectangle>
 						<order>0</order>
 					</text>
 				</bottom>
