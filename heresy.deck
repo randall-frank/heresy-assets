@@ -2198,7 +2198,7 @@
 							<order>0</order>
 						</rect>
 						<text>
-							<text>A well-traveled road winds between a low hill on the right and an open field on the left. As your party rounds the bend, a small town becomes visible in the distance, punctuated by the gilded cross capping the chapel in the center of town.{n}Your group catches up with some other travelers headed into town. The captive woman in a horse drawn cage catches your attention.</text>
+							<text>A well-traveled road winds between a low hill on the right and an open field on the left. As your party rounds the bend, a small town becomes visible in the distance, punctuated by the gilded cross capping the chapel in the center of town.{n}Your group catches up with some other travelers headed into town. The captive woman in a donkey drawn cage catches your attention.</text>
 							<style>card_a_default_clear</style>
 							<rectangle>[106,114,733,1310]</rectangle>
 							<order>1</order>
@@ -2677,7 +2677,7 @@
 							<order>0</order>
 						</text>
 						<text>
-							<text>&#x2022; If Isabel is on this card the man might be convinced to speak: {I:skill_glib:75:-2} 4x{I:shield:75:-2}{n}On success, Isabel takes {s:card_b_action_bold}Item {in:trigger_streets}{s:}.</text>
+							<text>&#x2022; If Isabel is on this card the man might be convinced to speak. Only Isabel can do the challenge, alone:{n}{I:skill_glib:75:-2} 4x{I:shield:75:-2}{n}On success, Isabel takes {s:card_b_action_bold}Item {in:trigger_streets}{s:}.</text>
 							<style>card_b_action</style>
 							<rectangle>[86,1000,773,-1]</rectangle>
 							<order>0</order>
@@ -2720,7 +2720,7 @@
 							<order>-8</order>
 						</text>
 						<text>
-							<text>A-B-C-D-E</text>
+							<text>A-B-C-D-E-F</text>
 							<style>corner_number</style>
 							<rectangle>[250,1300,445,-1]</rectangle>
 							<rotation>0</rotation>
@@ -2800,7 +2800,7 @@
 							<order>0</order>
 						</text>
 						<text>
-							<text>&#x2022; You may engage the young woman in conversation: {I:skill_glib:75:-2} 4x{I:shield:75:-2}{n}&#x2022; On success she says, {s:card_b_default_italic}"I believe you can help, but we can't talk here.  Meet me at the Tavern."{s:}  Take token {I:token_yellow_1:75:-2}</text>
+							<text>&#x2022; You may engage the young woman in conversation: {I:skill_glib:75:-2} 4x{I:shield:75:-2}{n} On success, take token {I:token_yellow_1:75:-2}</text>
 							<style>card_b_action</style>
 							<rectangle>[86,1150,773,-1]</rectangle>
 							<order>0</order>
@@ -2866,6 +2866,29 @@
 						</text>
 					</bottom>
 				</card>
+				<card name="loc_chapel_f">
+					<top>
+						<image>
+							<image>token_yellow_1</image>
+							<rectangle>[354,1100,-1,-1]</rectangle>
+							<order>10</order>
+						</image>
+					</top>
+					<bottom>
+					<image>
+						<image>housemaid</image>
+						<rectangle>[250,85,445,-2]</rectangle>
+						<order>10</order>
+					</image>
+						<text>
+							<text>The housemaid says, {s:card_b_default_italic}"I believe you can help, but we can't talk here.  Meet me at the Tavern."{s:}  Take token {I:token_yellow_1:75:-2} </text>
+							<style>card_b_default</style>
+							<rectangle>[86,730,773,-1]</rectangle>
+							<order>0</order>
+						</text>
+					</bottom>
+				</card>
+
 			</location>
 
 			<location name="Courthouse">
@@ -3221,7 +3244,7 @@
 							<order>0</order>
 						</text>
 						<text>
-							<text>&#x2022; To open the cupboard, you must pass the challenge:{n}&#x00a0;&#x00a0;{I:skill_agile:75:-2} 3x{I:shield:75:-2}{n}&#x00a0; If successful, take {s:card_b_action_bold}Item {in:Box of Lightning}{s:}.</text>
+							<text>&#x2022; To open the cupboard, you must win the challenge:{n}&#x00a0;&#x00a0;{I:skill_agile:75:-2} 3x{I:shield:75:-2}{n}&#x00a0; If successful, take {s:card_b_action_bold}Item {in:Box of Lightning}{s:}.</text>
 							<style>card_b_action</style>
 							<rectangle>[86,1230,773,-1]</rectangle>
 							<order>0</order>
@@ -3528,7 +3551,7 @@
 							<order>0</order>
 						</text>
 						<text>
-							<text>&#x2022; A flash of light catches your eye in the pile of sticks and grasses. If you choose to investigate you must pass the challenge{n}&#x00a0; {I:skill_glib:75:-2} 3x{I:shield:75:-2}{n}&#x00a0; On success take {s:card_b_action_bold}Item {in:Stained Glass C}{s:}.</text>
+							<text>&#x2022; A flash of light catches your eye in the pile of sticks and grasses. If you choose to investigate you must win the challenge{n}&#x00a0; {I:skill_glib:75:-2} 3x{I:shield:75:-2}{n}&#x00a0; On success take {s:card_b_action_bold}Item {in:Stained Glass C}{s:}.</text>
 							<style>card_b_action</style>
 							<rectangle>[86,1110,773,-1]</rectangle>
 							<order>0</order>
@@ -3565,7 +3588,7 @@
 							<order>0</order>
 						</text>
 						<text>
-							<text>&#x2022; The Sister Mar&#x00ed;a character card is removed along with all items she is holding. Her essence transfers to her familiar, take {s:card_b_action_bold}Item {in:the_crow}{s:} and contine the mission using the new character. Take one soul token {I:soul:75:-2}.</text>
+							<text>&#x2022; The Sister Mar&#x00ed;a character card is removed. Her essence transfers to her familiar, take {s:card_b_action_bold}Item {in:the_crow}{s:} and contine the mission using the new character. Take one soul token {I:soul:75:-2}.</text>
 							<style>card_b_action</style>
 							<rectangle>[86,1120,773,-1]</rectangle>
 							<order>0</order>
@@ -3602,7 +3625,7 @@
 							<order>0</order>
 						</text>
 						<text>
-							<text>&#x2022; The Do&#x00f1;a Ortiz character card is removed along with all items she is holding. Her essence transfers to her familiar, take {s:card_b_action_bold}Item {in:the_cat}{s:} and contine the mission using the new character. Take one soul token {I:soul:75:-2}.</text>
+							<text>&#x2022; The Do&#x00f1;a Ortiz character card is removed. Her essence transfers to her familiar, take {s:card_b_action_bold}Item {in:the_cat}{s:} and contine the mission using the new character. Take one soul token {I:soul:75:-2}.</text>
 							<style>card_b_action</style>
 							<rectangle>[86,970,773,-1]</rectangle>
 							<order>0</order>
@@ -3639,7 +3662,7 @@
 							<order>0</order>
 						</text>
 						<text>
-							<text>&#x2022; The Isabel character card is removed along with all items she is holding. Her essence transfers to her familiar, take {s:card_b_action_bold}Item {in:the_snake}{s:} and contine the mission using the new character. What is this? Take one soul token {I:soul:75:-2}.</text>
+							<text>&#x2022; The Isabel character card is removed. Her essence transfers to her familiar, take {s:card_b_action_bold}Item {in:the_snake}{s:} and contine the mission using the new character. What is this? Take one soul token {I:soul:75:-2}.</text>
 							<style>card_b_action</style>
 							<rectangle>[86,930,773,-1]</rectangle>
 							<order>0</order>
@@ -5794,7 +5817,7 @@
 						<order>10</order>
 					</text>
 					<text>
-						<text>You have created...life?? You place all of the collected body parts together and breathe life into the beast.  It rises and speaks in a deep, broken voice: {s:card_b_default_italic}"You give life, I give loyality. I am yours, master."{s:} The golem always follows one character around and can participate in challenges. It cannot be healed and cannot use any items.</text>
+						<text>You have created...life?? You place all of the collected body parts together and breathe life into the beast.  It rises and speaks in a deep, broken voice: {s:card_b_default_italic}"You give life, I give loyalty. I am yours, master."{s:} The golem always follows one character around and can participate in challenges. It cannot be healed and cannot use any items.</text>
 						<style>card_b_default</style>
 						<rectangle>[350,130,575,-1]</rectangle>
 						<order>10</order>
@@ -6048,7 +6071,7 @@
 						<order>11</order>
 					</text>
 					<text>
-						<text>As smoke rises from the ashes, her spirit is... moved. Her essence is transferred to her guardian familiar.  Discard the Do&#x00f1;a's character card and use this familiar card instead.{n}{n}The black cat has multiple lives and can communicate with other humans (in familiar form, she does not lose glibness). The cat retains any health packs the Lady had before conversion and can still use them.  The cat is also able to leave combat at any time. This card may only be held by the player who selected the Do&#x00f1;a character for this run.</text>
+						<text>As smoke rises from the ashes, her spirit is... moved. Her essence is transferred to her guardian familiar.  Discard the Do&#x00f1;a's character card and use this familiar card instead.{n}{n}The black cat has multiple lives and can communicate with other humans (in familiar form, she does not lose glibness). The cat retains any health packs the Lady had before conversion and can still use them.  The cat is also able to leave combat at any time. This card may only be held by the player who selected the Do&#x00f1;a character for this run.{n}The cat can not use Items. All Items held by the Do&#x00f1;a are passed to the player on your left.</text>
 						<style>normal_black_full</style>
 						<rectangle>[50,600,845,-1]</rectangle>
 						<order>11</order>
@@ -6138,7 +6161,7 @@
 						<order>11</order>
 					</text>
 					<text>
-						<text>As smoke rises from the ashes, her spirit is... moved. Her essence is transferred to her guardian familiar.  Discard Isabel's character card and use this familiar card instead.{n}The snake can make a poison attack that recharges in 5 {I:time:40:-2}.  When the snake's poison attack token {I:bullet:40:-2} is used, it is placed on the timeline, 5 {I:time:40:-2} in the future.  When the time counter arrives at the token, remove it from the timeline and place it on this card. It can be used immediately. A poison attack adds two die to a combat attack. This card may only be held by the player who selected the Isabel character for this run.</text>
+						<text>As smoke rises from the ashes, her spirit is... moved. Her essence is transferred to her guardian familiar.  Discard Isabel's character card and use this familiar card instead.{n}The snake can make a poison attack that recharges in 5 {I:time:40:-2}.  When the snake's poison attack token {I:bullet:40:-2} is used, it is placed on the timeline, 5 {I:time:40:-2} in the future.  When the time counter arrives at the token, remove it from the timeline and place it on this card. It can be used immediately. A poison attack adds two die to a combat attack. This card may only be held by the player who selected the Isabel character for this run.{n}The snake can not use Items. All Items held by Isabel are passed to the player on your left.</text>
 						<style>normal_black_full</style>
 						<rectangle>[50,600,845,-1]</rectangle>
 						<order>11</order>
@@ -6216,7 +6239,7 @@
 						<order>11</order>
 					</text>
 					<text>
-						<text>As smoke rises from the ashes, her spirit is... moved. Her essence is transferred to her guardian familiar.  Discard the Sister's character card and use this familiar card instead.{n}{n}The crow is not locked into combat and can leave at any time. The crow may also fly between any two cards in the current location in the same turn. It may only participate in a single challenge roll per time-unit, but can move between and read two location cards in the same {I:time:40:-2}. This card may only be held by the player who selected the Sister character for this run.</text>
+						<text>As smoke rises from the ashes, her spirit is... moved. Her essence is transferred to her guardian familiar.  Discard the Sister's character card and use this familiar card instead.{n}{n}The crow is not locked into combat and can leave at any time. The crow may also fly between any two cards in the current location in the same turn. It may only participate in a single challenge roll per time-unit, but can move between and read two location cards in the same {I:time:40:-2}. This card may only be held by the player who selected the Sister character for this run.{n}The crow can not use Items. All Items held by Mar&#x00ed;a are passed to the player on your left.</text>
 						<style>normal_black_full</style>
 						<rectangle>[50,600,845,-1]</rectangle>
 						<order>11</order>
@@ -6534,7 +6557,7 @@
 						<order>11</order>
 					</text>
 					<text>
-						<text>Unique abilities: The bishop has the option to bless one companion when both the bishop and the companion are in the same combat challenge. The blessing increases the resistance of the companion by 2{I:shield_blue_skull:60:-2} for one time unit, but the bishop does not participate in the challenge for that round (he rolls no dice). If the blessed companion takes damage, both the companion and the bishop take the same damage.</text>
+						<text>Unique abilities: The bishop has the option to pray for one companion when both the bishop and the companion are in the same combat challenge. When he chooses to pray for protection, he increases the resistance of the companion by 2{I:shield_blue_skull:60:-2} for one time unit, but the bishop does not participate in the challenge for that round (he rolls no dice). If the protected companion takes damage, both the companion and the bishop take the same damage.</text>
 						<style>normal_black_full</style>
 						<rectangle>[50,830,845,-1]</rectangle>
 						<order>11</order>
