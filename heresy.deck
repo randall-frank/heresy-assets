@@ -115,6 +115,7 @@
 		<file filename="heresy_media/base_f.png" name="base_f"/>
 		<file filename="heresy_media/base_g.png" name="base_g"/>
 		<file filename="heresy_media/bob.png" name="bob"/>
+		<file filename="heresy_media/bob_ending.png" name="bob_ending"/>
 		<file filename="heresy_media/laura.png" name="laura"/>
 		<file filename="heresy_media/pods.png" name="pods"/>
 		<file filename="heresy_media/base_bottom_back.png" name="base_background"/>
@@ -523,6 +524,9 @@
 		</image>
 		<image name="bob">
 			<file>bob</file>
+		</image>
+		<image name="bob_ending">
+			<file>bob_ending</file>
 		</image>
 		<image name="laura">
 			<file>laura</file>
@@ -2042,7 +2046,7 @@
 				</top>
 				<bottom>
 					<image>
-						<image>bob</image>
+						<image>bob_ending</image>
 						<rectangle>[200,50,545,-2]</rectangle>
 						<order>10</order>
 					</image>
@@ -2070,7 +2074,7 @@
 				</top>
 				<bottom>
 					<image>
-						<image>bob</image>
+						<image>bob_ending</image>
 						<rectangle>[200,50,545,-2]</rectangle>
 						<order>10</order>
 					</image>
