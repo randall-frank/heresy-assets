@@ -1115,7 +1115,7 @@
 		</image>
 
 		<style name="default">
-			<typeface>Arial</typeface>
+			<typeface>Carlito</typeface>
 			<linestyle>solid</linestyle>
 			<fillcolor>[255, 255, 255, 255]</fillcolor>
 			<bordercolor>[0, 0, 0, 255]</bordercolor>
@@ -1124,7 +1124,7 @@
 			<borderthickness>1</borderthickness>
 		</style>
 		<style name="location">
-			<typeface>Arial:bold</typeface>
+			<typeface>Carlito:bold</typeface>
 			<linestyle>halo</linestyle>
 			<fillcolor>[255, 255, 255, 0]</fillcolor>
 			<bordercolor>[255, 255, 255, 200]</bordercolor>
@@ -1134,7 +1134,7 @@
 			<justification>center</justification>
 		</style>
 		<style name="deckcardtext">
-			<typeface>Arial</typeface>
+			<typeface>Carlito</typeface>
 			<linestyle>solid</linestyle>
 			<fillcolor>[255, 255, 255, 0]</fillcolor>
 			<bordercolor>[0, 0, 0, 0]</bordercolor>
@@ -1144,7 +1144,7 @@
 			<justification>center</justification>
 		</style>
 		<style name="copyright">
-			<typeface>Arial</typeface>
+			<typeface>Carlito</typeface>
 			<linestyle>solid</linestyle>
 			<fillcolor>[255, 255, 255, 0]</fillcolor>
 			<bordercolor>[0, 0, 0, 0]</bordercolor>
@@ -1154,7 +1154,7 @@
 			<justification>center</justification>
 		</style>
 		<style name="corner_number">
-			<typeface>Arial</typeface>
+			<typeface>Carlito</typeface>
 			<linestyle>halo</linestyle>
 			<fillcolor>[255, 255, 255, 0]</fillcolor>
 			<textcolor>[255, 255, 255, 255]</textcolor>
@@ -1164,7 +1164,7 @@
 			<justification>center</justification>
 		</style>
 		<style name="big_white_clear">
-			<typeface>Arial</typeface>
+			<typeface>Carlito</typeface>
 			<linestyle>solid</linestyle>
 			<fillcolor>[255, 255, 255, 0]</fillcolor>
 			<bordercolor>[0, 0, 0, 0]</bordercolor>
@@ -1173,7 +1173,7 @@
 			<borderthickness>1</borderthickness>
 		</style>
 		<style name="large_black">
-			<typeface>Arial</typeface>
+			<typeface>Carlito</typeface>
 			<linestyle>solid</linestyle>
 			<fillcolor>[255, 255, 255, 0]</fillcolor>
 			<bordercolor>[0, 0, 0, 0]</bordercolor>
@@ -1183,7 +1183,7 @@
 			<justification>center</justification>
 		</style>
 		<style name="item_number">
-			<typeface>Arial</typeface>
+			<typeface>Carlito</typeface>
 			<linestyle>solid</linestyle>
 			<fillcolor>[255, 255, 255, 0]</fillcolor>
 			<bordercolor>[0, 0, 0, 0]</bordercolor>
@@ -1193,7 +1193,7 @@
 			<justification>center</justification>
 		</style>
 		<style name="large_white">
-			<typeface>Arial</typeface>
+			<typeface>Carlito</typeface>
 			<linestyle>solid</linestyle>
 			<fillcolor>[255, 255, 255, 0]</fillcolor>
 			<bordercolor>[0, 0, 0, 0]</bordercolor>
@@ -1203,7 +1203,7 @@
 			<justification>center</justification>
 		</style>
 		<style name="large_black_left">
-			<typeface>Arial</typeface>
+			<typeface>Carlito</typeface>
 			<linestyle>solid</linestyle>
 			<fillcolor>[255, 255, 255, 0]</fillcolor>
 			<bordercolor>[0, 0, 0, 0]</bordercolor>
@@ -1213,7 +1213,7 @@
 			<justification>left</justification>
 		</style>
 		<style name="normal_black_left">
-			<typeface>Arial</typeface>
+			<typeface>Carlito</typeface>
 			<linestyle>solid</linestyle>
 			<fillcolor>[255, 255, 255, 0]</fillcolor>
 			<bordercolor>[0, 0, 0, 0]</bordercolor>
@@ -1223,7 +1223,7 @@
 			<justification>left</justification>
 		</style>
 		<style name="normal_black_center">
-			<typeface>Arial</typeface>
+			<typeface>Carlito</typeface>
 			<linestyle>solid</linestyle>
 			<fillcolor>[255, 255, 255, 0]</fillcolor>
 			<bordercolor>[0, 0, 0, 0]</bordercolor>
@@ -1233,7 +1233,7 @@
 			<justification>center</justification>
 		</style>
 		<style name="smaller_black_left">
-			<typeface>Arial</typeface>
+			<typeface>Carlito</typeface>
 			<linestyle>solid</linestyle>
 			<fillcolor>[255, 255, 255, 0]</fillcolor>
 			<bordercolor>[0, 0, 0, 0]</bordercolor>
@@ -1243,7 +1243,7 @@
 			<justification>left</justification>
 		</style>
 		<style name="smaller_black_left_bold">
-			<typeface>Arial:bold</typeface>
+			<typeface>Carlito:bold</typeface>
 			<linestyle>solid</linestyle>
 			<fillcolor>[255, 255, 255, 0]</fillcolor>
 			<bordercolor>[0, 0, 0, 0]</bordercolor>
@@ -1253,7 +1253,7 @@
 			<justification>left</justification>
 		</style>
 		<style name="normal_black_full">
-			<typeface>Arial</typeface>
+			<typeface>Carlito</typeface>
 			<linestyle>solid</linestyle>
 			<fillcolor>[255, 255, 255, 0]</fillcolor>
 			<bordercolor>[0, 0, 0, 0]</bordercolor>
@@ -1263,7 +1263,7 @@
 			<justification>full</justification>
 		</style>
 		<style name="normal_black_full_smaller">
-			<typeface>Arial</typeface>
+			<typeface>Carlito</typeface>
 			<linestyle>solid</linestyle>
 			<fillcolor>[255, 255, 255, 0]</fillcolor>
 			<bordercolor>[0, 0, 0, 0]</bordercolor>
@@ -1273,7 +1273,7 @@
 			<justification>full</justification>
 		</style>
 		<style name="normal_black_full_italic">
-			<typeface>Arial:italic</typeface>
+			<typeface>Carlito:italic</typeface>
 			<linestyle>solid</linestyle>
 			<fillcolor>[255, 255, 255, 0]</fillcolor>
 			<bordercolor>[0, 0, 0, 0]</bordercolor>
@@ -1283,7 +1283,7 @@
 			<justification>full</justification>
 		</style>
 		<style name="normal_blue_full_italic">
-			<typeface>Arial:italic</typeface>
+			<typeface>Carlito:italic</typeface>
 			<linestyle>solid</linestyle>
 			<fillcolor>[255, 255, 255, 0]</fillcolor>
 			<bordercolor>[0, 0, 0, 0]</bordercolor>
@@ -1293,7 +1293,7 @@
 			<justification>full</justification>
 		</style>
 		<style name="normal_black_full_bold">
-			<typeface>Arial:bold</typeface>
+			<typeface>Carlito:bold</typeface>
 			<linestyle>solid</linestyle>
 			<fillcolor>[255, 255, 255, 0]</fillcolor>
 			<bordercolor>[0, 0, 0, 0]</bordercolor>
@@ -1303,7 +1303,7 @@
 			<justification>full</justification>
 		</style>
 		<style name="small_white_box">
-			<typeface>Arial</typeface>
+			<typeface>Carlito</typeface>
 			<linestyle>solid</linestyle>
 			<fillcolor>[255, 255, 255, 255]</fillcolor>
 			<bordercolor>[0, 0, 0, 255]</bordercolor>
@@ -1313,7 +1313,7 @@
 			<justification>center</justification>
 		</style>
 		<style name="small_white_box_full">
-			<typeface>Arial</typeface>
+			<typeface>Carlito</typeface>
 			<linestyle>solid</linestyle>
 			<fillcolor>[255, 255, 255, 100]</fillcolor>
 			<bordercolor>[0, 0, 0, 255]</bordercolor>
@@ -1324,7 +1324,7 @@
 			<boundary_offset>5</boundary_offset>
 		</style>
 		<style name="small_white_box_red">
-			<typeface>Arial</typeface>
+			<typeface>Carlito</typeface>
 			<linestyle>solid</linestyle>
 			<fillcolor>[255, 255, 255, 255]</fillcolor>
 			<bordercolor>[0, 0, 0, 255]</bordercolor>
@@ -1332,10 +1332,10 @@
 			<typesize>9</typesize>
 			<borderthickness>1</borderthickness>
 			<justification>full</justification>
-			<boundary_offset>4</boundary_offset>
+			<boundary_offset>8</boundary_offset>
 		</style>
 	    <style name="card_a_default">
-			<typeface>Arial</typeface>
+			<typeface>Carlito</typeface>
 			<linestyle>solid</linestyle>
 			<fillcolor>[159, 119, 88, 255]</fillcolor>
 			<bordercolor>[255, 255, 255, 255]</bordercolor>
@@ -1345,7 +1345,7 @@
 			<justification>full</justification>
 		</style>
 	    <style name="card_a_default_clear">
-			<typeface>Arial</typeface>
+			<typeface>Carlito</typeface>
 			<linestyle>solid</linestyle>
 			<fillcolor>[159, 119, 88, 0]</fillcolor>
 			<bordercolor>[255, 255, 255, 0]</bordercolor>
@@ -1355,7 +1355,7 @@
 			<justification>full</justification>
 		</style>
 	    <style name="card_b_default">
-			<typeface>Arial</typeface>
+			<typeface>Carlito</typeface>
 			<linestyle>solid</linestyle>
 			<fillcolor>[181, 194, 200, 60]</fillcolor>
 			<bordercolor>[128, 128, 128, 30]</bordercolor>
@@ -1366,7 +1366,7 @@
 			<boundary_offset>4</boundary_offset>
 		</style>
 	    <style name="card_b_default_italic">
-			<typeface>Arial:italic</typeface>
+			<typeface>Carlito:italic</typeface>
 			<linestyle>solid</linestyle>
 			<fillcolor>[181, 194, 200, 60]</fillcolor>
 			<bordercolor>[128, 128, 128, 30]</bordercolor>
@@ -1376,7 +1376,7 @@
 			<justification>full</justification>
 		</style>
 	    <style name="card_b_action">
-			<typeface>Arial</typeface>
+			<typeface>Carlito</typeface>
 			<linestyle>solid</linestyle>
 			<fillcolor>[169, 167, 161, 40]</fillcolor>
 			<bordercolor>[128, 128, 128, 30]</bordercolor>
@@ -1387,7 +1387,7 @@
 			<boundary_offset>4</boundary_offset>
 		</style>
 	    <style name="card_b_action_bold">
-			<typeface>Arial:bold</typeface>
+			<typeface>Carlito:bold</typeface>
 			<linestyle>solid</linestyle>
 			<fillcolor>[169, 167, 161, 40]</fillcolor>
 			<bordercolor>[128, 128, 128, 30]</bordercolor>
@@ -1739,9 +1739,9 @@
 						<order>10</order>
 					</image>
 					<text name="copyright">
-						<text>&#x00A9; 2017 Marina Galvagni and Randy Frank{n}Artwork by Rizky Nugraha, Philippe Semeria{n}David Ring and J. H. Vanderpoel{n}Some textures from www.myfreetextures.com</text>
+						<text>Hersey &#x00A9; 2017 Marina Galvagni and Randy Frank{n}{n}Artwork: Rizky Nugraha, Philippe Semeria{n}David Ring and J. H. Vanderpoel{n}Carlito typeface: tyPoland, &#x0141;ukasz Dziedzic{n}Textures: www.myfreetextures.com</text>
 						<style>copyright</style>
-						<rectangle>[50,1300,845,-1]</rectangle>
+						<rectangle>[50,1200,845,-1]</rectangle>
 						<rotation>0</rotation>
 						<order>11</order>
 					</text>
@@ -2104,7 +2104,7 @@
 					<text>
 						<text>Bob is there as as you climb out of the caissons. He is not smiling.  {s:card_b_default_italic}"I expect the best from my agents and you are making me reconsider my recommendations"{s:}, he laments.  {s:card_b_default_italic}"We still have a chance to stop Keith, but the window is narrowing. Get back in there and track him down, quickly!"{s:} You respond by turning around and getttomg back into the caissons. The all too familiar countdown begins...</text>
 						<style>card_b_default</style>
-						<rectangle>[86,430,773,-1]</rectangle>
+						<rectangle>[86,410,773,-1]</rectangle>
 						<order>0</order>
 					</text>
 					<text>
@@ -2138,13 +2138,13 @@
 					<text>
 						<text>Laura greets you in a sullen voice, {s:card_b_default_italic}"Bob has been acting strangely in your absence. I think he is considering sending a new team. I fear you may be our last hope."{s:} Bob stamps into the room, anger obvious in his face, but was that a soul medallion tucked under his shirt? {s:card_b_default_italic}"There is no time to talk, you have to get back to it and immediately! Let's get it done this time and close that rift."{s:} You avoid his gaze and climb back into the caissons as Laura counts down...</text>
 						<style>card_b_default</style>
-						<rectangle>[86,310,773,-1]</rectangle>
+						<rectangle>[86,300,773,-1]</rectangle>
 						<order>0</order>
 					</text>
 					<text>
 						<text>Leave in place all items marked {I:blue_logo:75:-2} but reset the rest of the game. Return other items to the deck along with all random encounter cards. Reread cards E and F of the {s:card_b_action_bold}Base{s:} location and follow the instructions. Three more things:{n}&#x2022; Take token {I:token_black_1:75:-2}.{n}&#x2022; You may start from any location listed on the visible plan cards.{n}&#x2022; Increase the starting {I:time:40:-2} to 50.</text>
 						<style>card_b_action</style>
-						<rectangle>[86,930,773,-1]</rectangle>
+						<rectangle>[86,910,773,-1]</rectangle>
 						<order>0</order>
 					</text>
 				</bottom>
@@ -2423,7 +2423,7 @@
 						<text>
 							<text>&#x2022; If Sister Mar&#x00ed;a visits the grave, she takes {s:card_b_action_bold}Item {in:trigger_nun}{s:}.</text>
 							<style>card_b_action</style>
-							<rectangle>[86,1050,773,-1]</rectangle>
+							<rectangle>[86,1070,773,-1]</rectangle>
 							<order>0</order>
 						</text>
 					</bottom>
@@ -2471,7 +2471,7 @@
 						<text>
 							<text>&#x2022; If you choose to examine the decoration further, take {s:card_b_action_bold}Item {in:Stained Glass B}{s:}.</text>
 							<style>card_b_action</style>
-							<rectangle>[86,960,773,-1]</rectangle>
+							<rectangle>[86,970,773,-1]</rectangle>
 							<order>0</order>
 						</text>
 					</bottom>
@@ -2496,9 +2496,9 @@
 							<order>0</order>
 						</text>
 						<text>
-							<text>&#x2022; You may try to obtain his shovel. This can be done by either:{n}&#xA0;&#xA0;Talking him out of it:{I:skill_glib:75:-2} 2x{I:shield_time:75:-2} 2x{I:shield:75:-2}{n}&#xA0;&#xA0;Stealing it from him:{I:skill_agile:75:-2} 2x{I:shield_time:75:-2} 2x{I:shield:75:-2}{n}&#xA0;&#xA0;On success take {s:card_b_action_bold}Item {in:Shovel}{s:}.</text>
+							<text>&#x2022; You may try to obtain his shovel. This can be done by either:{n}&#x2022;&#xA0;&#xA0;Talking him out of it:{I:skill_glib:75:-2} 2x{I:shield_time:75:-2} 2x{I:shield:75:-2}{n}&#x2022;&#xA0;&#xA0;Stealing it from him:{I:skill_agile:75:-2} 2x{I:shield_time:75:-2} 2x{I:shield:75:-2}{n}&#xA0;&#xA0;On success take {s:card_b_action_bold}Item {in:Shovel}{s:}.</text>
 							<style>card_b_action</style>
-							<rectangle>[86,1150,773,-1]</rectangle>
+							<rectangle>[86,1120,773,-1]</rectangle>
 							<order>0</order>
 						</text>
 					</bottom>
@@ -2563,7 +2563,7 @@
 							<order>10</order>
 						</image>
 						<text>
-							<text>The main bar is here with a barkeep keeping watch over those entering his establishment. {s:card_b_default_italic}"Welcome weary travelers! What brings you into our arms today?"{s:}</text>
+							<text>The common bar is here with a barkeep keeping watch over those entering his establishment. {s:card_b_default_italic}"Welcome weary travelers! What brings you into our arms today?"{s:}</text>
 							<style>card_b_default</style>
 							<rectangle>[86,600,773,-1]</rectangle>
 							<order>0</order>
@@ -2571,7 +2571,7 @@
 						<text>
 							<text>&#x2022; If Gaspar visits the bar, he takes {s:card_b_action_bold}Item {in:Bottle of Alcohol}{s:}.</text>
 							<style>card_b_action</style>
-							<rectangle>[86,900,773,-1]</rectangle>
+							<rectangle>[86,860,773,-1]</rectangle>
 							<order>0</order>
 						</text>
 					</bottom>
@@ -2596,7 +2596,7 @@
 							<order>0</order>
 						</text>
 						<text>
-							<text>&#x2022; A fight ensues:{n}&#xA0;&#xA0;{I:lock:75:-2} {I:skill_combat:75:-2} 1x{I:shield_heart:75:-2} 3x{I:shield_red_skull:75:-2}{n}&#xA0;&#xA0;On success ... you walk away from three downed fools.</text>
+							<text>&#x2022; {I:lock:75:-2} A fight ensues:{n}&#xA0;&#xA0;&#x2022; They attack: {I:skill_combat:75:-2} 1x{I:shield_heart:75:-2} 3x{I:shield_red_skull:75:-2}{n}&#xA0;&#xA0;On success ... you walk away from three downed fools.</text>
 							<style>card_b_action</style>
 							<rectangle>[86,950,773,-1]</rectangle>
 							<order>0</order>
@@ -2623,7 +2623,7 @@
 							<order>0</order>
 						</text>
 						<text>
-							<text>&#x2022; {I:lock:75:-2} Two ways to resolve the situation:{n}Placate them and leave in peace: 2x{I:time:75:-2}{n}or confront them: {I:skill_combat:75:-2} 1x{I:shield_heart:75:-2} 2x{I:shield_red_skull:75:-2} 1x{I:shield:75:-2}{n}If you win the confrontation take {s:card_b_action_bold}Item {in:Star Chart C}{s:}.</text>
+							<text>&#x2022; {I:lock:75:-2} Two ways to resolve this situation:{n}&#xA0;&#x2022; Placate them: 2x{I:time:75:-2}{n}And leave in peace, or{n}&#xA0;&#x2022; Confront them: {I:skill_combat:75:-2} 1x{I:shield_heart:75:-2} 2x{I:shield_red_skull:75:-2} 1x{I:shield:75:-2}{n}On success take {s:card_b_action_bold}Item {in:Star Chart C}{s:}.</text>
 							<style>card_b_action</style>
 							<rectangle>[86,1130,773,-1]</rectangle>
 							<order>0</order>
@@ -2652,7 +2652,7 @@
 						<text>
 							<text>&#x2022; If Bishop Aguilar is on this card he takes {s:card_b_action_bold}Item {in:Space-Time Book}{s:}.</text>
 							<style>card_b_action</style>
-							<rectangle>[86,850,773,-1]</rectangle>
+							<rectangle>[86,830,773,-1]</rectangle>
 							<order>0</order>
 						</text>
 					</bottom>
@@ -2677,9 +2677,9 @@
 							<order>0</order>
 						</text>
 						<text>
-							<text>&#x2022; If Isabel is on this card the man might be convinced to speak. Only Isabel can do the challenge, alone:{n}{I:skill_glib:75:-2} 4x{I:shield:75:-2}{n}On success, Isabel takes {s:card_b_action_bold}Item {in:trigger_streets}{s:}.</text>
+							<text>&#x2022; If Isabel is on this card the man might be convinced to speak. Only Isabel can do the challenge, alone:{n}&#xA0;&#x2022; {I:skill_glib:75:-2} 4x{I:shield:75:-2}{n}On success, Isabel takes {s:card_b_action_bold}Item {in:trigger_streets}{s:}.</text>
 							<style>card_b_action</style>
-							<rectangle>[86,1000,773,-1]</rectangle>
+							<rectangle>[86,1010,773,-1]</rectangle>
 							<order>0</order>
 						</text>
 					</bottom>
@@ -2702,7 +2702,7 @@
 						<text>
 							<text>&#x2022; She hands you {s:card_b_action_bold}Item {in:Stained Glass A}{s:}.</text>
 							<style>card_b_action</style>
-							<rectangle>[86,870,773,-1]</rectangle>
+							<rectangle>[86,810,773,-1]</rectangle>
 							<order>0</order>
 						</text>
 					</bottom>
@@ -2800,9 +2800,9 @@
 							<order>0</order>
 						</text>
 						<text>
-							<text>&#x2022; You may engage the young woman in conversation: {I:skill_glib:75:-2} 4x{I:shield:75:-2}{n} On success, take token {I:token_yellow_1:75:-2}</text>
+							<text>&#x2022; You may engage the young woman in conversation:{n}&#xA0;&#x2022; {I:skill_glib:75:-2} 4x{I:shield:75:-2}{n}On success, take token {I:token_yellow_1:75:-2}.</text>
 							<style>card_b_action</style>
-							<rectangle>[86,1150,773,-1]</rectangle>
+							<rectangle>[86,1180,773,-1]</rectangle>
 							<order>0</order>
 						</text>
 					</bottom>
@@ -2827,9 +2827,9 @@
 							<order>0</order>
 						</text>
 						<text>
-							<text>&#x2022; You leaf through the book open on the desk. Take  {s:card_b_action_bold}Item {in:Astronomy Book}{s:}.</text>
+							<text>&#x2022; You leaf through the book open on the desk. Take {s:card_b_action_bold}Item {in:Astronomy Book}{s:}.</text>
 							<style>card_b_action</style>
-							<rectangle>[86,1140,773,-1]</rectangle>
+							<rectangle>[86,1100,773,-1]</rectangle>
 							<order>0</order>
 						</text>
 					</bottom>
@@ -2861,7 +2861,7 @@
 						<text>
 							<text>&#x2022; Take  {s:card_b_action_bold}Item {in:Plan Add Catacombs}{s:}.</text>
 							<style>card_b_action</style>
-							<rectangle>[86,970,773,-1]</rectangle>
+							<rectangle>[86,940,773,-1]</rectangle>
 							<order>0</order>
 						</text>
 					</bottom>
@@ -4264,13 +4264,13 @@
 							<order>10</order>
 						</image>
 						<text>
-							<text>In front of you is a heavy door adorned with iron fixtures. The fixtures hum oddly and crackle with live energy. The door appears to be protected by some sort of invisible fire. Something important must be behind it...</text>
+							<text>A heavy door adorned with iron fixtures. The fixtures hum oddly and crackle with live energy. The door appears to be protected by some sort of invisible fire. Something important may be behind it...</text>
 							<style>card_b_default</style>
-							<rectangle>[86,670,773,-1]</rectangle>
+							<rectangle>[86,680,773,-1]</rectangle>
 							<order>0</order>
 						</text>
 						<text>
-							<text>&#x2022; The door can be opened in one of two ways:{n}&#x00a0;&#x00a0;If you have items {s:card_b_action_bold}{in:the_cat}{s:}, {s:card_b_action_bold}{in:the_snake}{s:} or {s:card_b_action_bold}{in:the_crow}{s:}, they may exploit the transom to bypass the door and open it from the other side safely and at no cost, or you can destroy the door using brute force:{n}&#x00a0;&#x00a0;{I:skill_combat:75:-2} 2x{I:shield_heart:75:-2} 5x{I:shield_red_skull:75:-2} 2x{I:shield_time:75:-2}{n}&#x00a0;&#x00a0;&#x2022; If successful, take {s:card_b_action_bold}Item {in:Plan Add Laboratory}{s:}.</text>
+							<text>&#x2022; It can be opened in one of two ways:{n}&#x00a0;&#x00a0;&#x2022; If you have items {s:card_b_action_bold}{in:the_cat}{s:}, {s:card_b_action_bold}{in:the_snake}{s:} or {s:card_b_action_bold}{in:the_crow}{s:}, they may exploit the transom to bypass the door and open it from the other side safely and at no cost, or{n}&#x00a0;&#x00a0;&#x2022; You can destroy the door using brute force:{n}&#x00a0;&#x00a0;{I:skill_combat:75:-2} 2x{I:shield_heart:75:-2} 5x{I:shield_red_skull:75:-2} 2x{I:shield_time:75:-2}{n}On success, take {s:card_b_action_bold}Item {in:Plan Add Laboratory}{s:}.</text>
 							<style>card_b_action</style>
 							<rectangle>[86,990,773,-1]</rectangle>
 							<order>0</order>
@@ -4520,7 +4520,7 @@
 						<text>
 							<text>&#x2022; {I:lock:50:-2} Two ways to handle this challenge:{n}&#x00a0;&#x00a0;&#x2022; {I:skill_agile:75:-2} 2x{I:shield:75:-2} 2x{I:shield_time:75:-2} or {n}&#x00a0;&#x00a0;&#x2022; {I:skill_combat:75:-2} 2x{I:shield:75:-2} 2x{I:shield_red_skull:75:-2}{n}&#x2022; On success take token {I:token_green_4:75:-2}.</text>
 							<style>card_b_action</style>
-							<rectangle>[86,1200,773,-1]</rectangle>
+							<rectangle>[86,1150,773,-1]</rectangle>
 							<order>0</order>
 						</text>
 					</bottom>
@@ -4576,15 +4576,15 @@
 							<order>10</order>
 						</image>
 						<text>
-							<text>The Electronics Center. A hooded, robed figure is looking at the cellular telephones. Arch-henchman 'Phil', according to the name on his badge, panics when he sees you coming.  He drops a phone and prepaid cards he was looking at and starts to run away.</text>
+							<text>The Electronics Center. A hooded figure is looking at the cellular telephones. Arch-henchman 'Phil', according to the name on his badge, panics when he sees you coming.  He drops a phone and prepaid cards he was looking at and starts to run away.</text>
 							<style>card_b_default</style>
 							<rectangle>[86,670,773,-1]</rectangle>
 							<order>0</order>
 						</text>
 						<text>
-							<text>&#x2022; You have three choices:{n}&#x00a0;&#x00a0;&#x2022; Chase him away: {I:skill_agile:75:-2} 4x{I:shield:75:-2}, on success take {s:card_b_action_bold}Item {in:Phil Note 2}{s:}.{n}&#x00a0;&#x00a0;&#x2022; Attack him {I:skill_combat:75:-2} 4x{I:shield_red_skull:75:-2} 4x{I:shield:75:-2}, on success take {s:card_b_action_bold}Item {in:Phil Note 1}{s:}{n}&#x00a0;&#x00a0;&#x2022; Let him run away.  No matter what you choose, Phil will not be here if you come back to this card in this run.</text>
+							<text>&#x2022; You have three choices:{n}&#x00a0;&#x00a0;&#x2022; Chase him away: {I:skill_agile:75:-2} 4x{I:shield:75:-2}{n}On success take {s:card_b_action_bold}Item {in:Phil Note 2}{s:}.{n}&#x00a0;&#x00a0;&#x2022; Attack him: {I:skill_combat:75:-2} 4x{I:shield_red_skull:75:-2} 4x{I:shield:75:-2}{n}On success take {s:card_b_action_bold}Item {in:Phil Note 1}{s:}{n}&#x00a0;&#x00a0;&#x2022; Let him run away.{n}No matter what you choose, Phil will not be here if you return to this card in this run.</text>
 							<style>card_b_action</style>
-							<rectangle>[86,1030,773,-1]</rectangle>
+							<rectangle>[86,1020,773,-1]</rectangle>
 							<order>0</order>
 						</text>
 					</bottom>
@@ -4646,7 +4646,7 @@
 							<order>0</order>
 						</text>
 						<text>
-							<text>&#x2022; You have two choices:{n}&#x00a0;&#x00a0;&#x2022; Combat, the only way to be sure:{n} {I:skill_combat:75:-2} 4x{I:shield:75:-2} 4x{I:shield_red_skull:75:-2} 1x{I:shield_heart:75:-2}{n} On success take {s:card_b_action_bold}Item {in:Keith Dead}{s:}.{n}&#x00a0;&#x00a0;&#x2022; Or get him to reveal his secrets{n} {I:skill_glib:75:-2} 4x{I:shield:75:-2}{n} On success take {s:card_b_action_bold}Item {in:Keith Lies}{s:}.</text>
+							<text>&#x2022; You have two choices:{n}&#x00a0;&#x00a0;&#x2022; Combat, the only way to be sure:{n}&#x00a0;&#x00a0; {I:skill_combat:75:-2} 4x{I:shield:75:-2} 4x{I:shield_red_skull:75:-2} 1x{I:shield_heart:75:-2}{n} On success take {s:card_b_action_bold}Item {in:Keith Dead}{s:}.{n}&#x00a0;&#x00a0;&#x2022; Or get him to reveal his secrets:{n}&#x00a0;&#x00a0; {I:skill_glib:75:-2} 4x{I:shield:75:-2}{n} On success take {s:card_b_action_bold}Item {in:Keith Lies}{s:}.</text>
 							<style>card_b_action</style>
 							<rectangle>[86,1070,773,-1]</rectangle>
 							<order>0</order>
@@ -4678,7 +4678,7 @@
 							<order>0</order>
 						</text>
 						<text>
-							<text>&#x2022; You may try to steal one for yourself:{n}&#x00a0;&#x00a0;  {I:skill_agile:75:-2} 3x{I:shield:75:-2}{n}&#x00a0;&#x00a0; On success, increase the health of all characters participating in the challenge by one {I:heart:75:-2} (it is ok to exceed the maximum health on the character card).  Note this challenge can be performed only once per run.</text>
+							<text>&#x2022; You may try to steal one for yourself:{n}&#x00a0;&#x00a0;  {I:skill_agile:75:-2} 3x{I:shield:75:-2}{n}On success, increase the health of all characters participating in the challenge by one {I:heart:75:-2} (it is ok to exceed the maximum health on the character card).  This action may be performed only once per run.</text>
 							<style>card_b_action</style>
 							<rectangle>[86,1050,773,-1]</rectangle>
 							<order>0</order>
@@ -5122,15 +5122,15 @@
 						<order>10</order>
 					</image>
 					<text>
-						<text>Bob interrupts: {s:normal_black_full_italic}"Thanks for the information Laura, but it is time we get our team prepared for the transfer."{s:}{n}Final Preparations:</text>
+						<text>Bob interrupts: {s:normal_black_full_italic}"Thanks for the information Laura, but it is time we get our team prepared for the transfer."{s:smaller_black_left}{n}{n}{s:}Preparations:</text>
 						<style>normal_black_full</style>
 						<rectangle>[75,435,795,-1]</rectangle>
 						<order>11</order>
 					</text>
 					<text>
-						<text>&#x2022; Place the Item cards on their space.{n}&#x2022; Place the four Plan cards on their dedicated space.{n}&#x2022; Shuffle the seven Random Encounter cards and place them on codex 1.{n}&#x2022; The four mission successful/failed cards go face down on their dedicated space.{n}&#x2022; Set the time token to 35 {I:time:40:-2}.{n}&#x2022; The group token is placed on the "Path to town" location, your starting point.</text>
+						<text>&#x2022; Place the Item cards on their space.{n}&#x2022; Place the four Plan cards on their dedicated space.{n}&#x2022; The four mission successful/failed cards go face down on their dedicated space.{n}&#x2022; Set the time token to 35 {I:time:40:-2}.{n}&#x2022; The group token is placed on the "Path to town" location, your starting point.</text>
 						<style>smaller_black_left</style>
-						<rectangle>[100,680,745,-1]</rectangle>
+						<rectangle>[100,730,745,-1]</rectangle>
 						<order>11</order>
 					</text>
 					<text>
@@ -5154,15 +5154,15 @@
 						<order>10</order>
 					</image>
 					<text>
-						<text>You gather your team and resources and head to the transfer caissons. As you strap into the beds, your com crackles. Laura: {s:normal_blue_full_italic} "Good luck team, I have complete confidence that you will be able to resolve this issue quickly and completely."{s:} Overhead speaker "3.. 2.. 1..".  Bob: {s:normal_blue_full_italic}"One thing... bxhzas ...forgot to tell yoszyxs... time jumps zzxhgb... witchcraft..."{s:} and you are off.{n}{n}Final Preparations:</text>
+						<text>You gather your team and resources and head to the transfer caissons. As you strap into the beds, your com crackles. Laura: {s:normal_blue_full_italic} "Good luck team, I have complete confidence that you will be able to resolve this issue quickly and completely."{s:} Overhead speaker "3.. 2.. 1..".  Bob: {s:normal_blue_full_italic}"One thing... bxhzas ...forgot to tell yoszyxs... time jumps zzxhgb... witchcraft..."{s:} and you are off.{s:smaller_black_left}{n}{n}{s:}Final Preparations:</text>
 						<style>normal_black_full</style>
-						<rectangle>[75,105,795,-1]</rectangle>
+						<rectangle>[75,125,795,-1]</rectangle>
 						<order>11</order>
 					</text>
 					<text>
 						<text>&#x2022; Each player selects a receptacle and places the life points, shields and equipment listed on the player card as per instructions on the individual cards.{n}&#x2022; Take the Icon Reference card and keep it close at hand.{n}&#x2022; Select one player to be the initial Time Captain. That player closes the base and places it next to the board.{n}&#x2022; The Time Captain proceeds by opening the {s:smaller_black_left_bold}{ls:Path to Town}{s:} location, reads card A out loud and the adventure begins...</text>
 						<style>smaller_black_left</style>
-						<rectangle>[100,845,745,-1]</rectangle>
+						<rectangle>[100,825,745,-1]</rectangle>
 						<order>11</order>
 					</text>
 				</bottom>
@@ -5209,7 +5209,7 @@
 						<order>10</order>
 					</image>
 					<text>
-						<text>A charcoal drawing of a young woman, Catalina.  Diego would very much appreciate knowing what happened to her.  You take notice of the simple locket she is wearing in the picture.  Perhaps you should ask the townsfolk if they have any additional information.</text>
+						<text>A charcoal drawing of a young woman, Catalina.  Diego would appreciate knowing what happened to her.  You take notice of the simple locket she is wearing in the picture.  Perhaps you should ask townsfolk if they have any additional information.</text>
 						<style>card_b_default</style>
 						<rectangle>[86,1160,773,-1]</rectangle>
 						<order>0</order>
@@ -5309,15 +5309,15 @@
 						<order>10</order>
 					</image>
 					<text>
-  					<text>A Soul Medallion - A pendant medallion with an orb in its center on a light chain.  You do not recognize the metal, but the orb emits a warm glow.</text>
+  					<text>A Soul Medallion - A pendant with an orb in its center on a light chain.  You do not recognize the metal, but the orb emits a warm glow.</text>
 						<style>card_b_default</style>
 						<rectangle>[86,650,773,-1]</rectangle>
 						<order>0</order>
 					</text>
 					<text>
-						<text>The orb is powered by sacrificed souls {I:soul:75:-2}. The medallion allows the holder to spend one soul token to re-roll one die. Soul tokens are discarded when used. The medallion may be recharged through a "sacrifice" by the party. If all party members are on the same card and not engaged in a challenge, the group may discard one {I:heart:75:-2} token per party member to add a one soul token to the medallion.</text>
+						<text>The medallion is powered by sacrificed souls {I:soul:75:-2}. It allows the holder to spend one soul token to re-roll one die. Soul tokens are discarded when used. The medallion may be recharged through a "sacrifice" by the party. If all party members are on the same card and not engaged in a challenge, the group may discard one {I:heart:75:-2} token per party member to add a one soul token to the medallion.</text>
 						<style>card_b_action</style>
-						<rectangle>[86,880,773,-1]</rectangle>
+						<rectangle>[86,890,773,-1]</rectangle>
 						<order>0</order>
 					</text>
 				</bottom>
@@ -5338,7 +5338,7 @@
 						<order>10</order>
 					</image>
 					<text>
-						<text>The barkeep motions toward the stonemason: {s:card_b_default_italic}"say 'red' aren't you familiar to me?  You repaired our well! Have this bottle on the house!"{s:}</text>
+						<text>The barkeep motions toward the stonemason: {s:card_b_default_italic}"Hello 'red', are you not familiar to me?  Did you not repair our well last year? Have this bottle on the house!"{s:}</text>
 						<style>card_b_default</style>
 						<rectangle>[86,1240,773,-1]</rectangle>
 						<order>0</order>
@@ -5384,7 +5384,7 @@
 						<order>10</order>
 					</image>
 					<text>
-						<text>An odd, unfamiliar object that suddenly comes to live when you touch its face.  When placed close to your ear, sometimes you can hear the cries of the damned souls trapped within. {s:card_b_default_italic}"...please allow me to introduce myself, I'm a man of wealth and taste... ...pleased to meet you, hope you guess my name..."{s:}  What else but the desperate cries of tortured souls?</text>
+						<text>An odd, unfamiliar object that suddenly comes to life when you touch its face.  When placed close to your ear, sometimes you can hear the cries of the damned souls trapped within. {s:card_b_default_italic}"...please allow me to introduce myself, I'm a man of wealth and taste... ...pleased to meet you, hope you guess my name..."{s:}  What else but the desperate cries of tortured souls?</text>
 						<style>card_b_default</style>
 						<rectangle>[86,850,773,-1]</rectangle>
 						<order>0</order>
@@ -5407,7 +5407,7 @@
 						<order>10</order>
 					</image>
 					<text>
-						<text>A box of lightning. A heavy box with two metal "strings" coming from it. If the ends of the two strings touch, the fire tongue of the devil is clearly visible.</text>
+						<text>A box of lightning. A heavy box with two metal "strings" coming from it. If the ends of the two strings touch, the fiery tongue of the devil is clearly visible.</text>
 						<style>card_b_default</style>
 						<rectangle>[86,700,773,-1]</rectangle>
 						<order>0</order>
@@ -5519,7 +5519,7 @@
 						<order>10</order>
 					</image>
 					<text>
-						<text>Carefully you tilt the combined glass panes into the light. Interesting, a series of numbers appear... 33-21-14-27  These look like the combination to a lock.  Not the type of lock that should be available in this century!  Perhaps this is the key to unraveling the mystery?</text>
+						<text>Carefully you tilt the combined glass panes into the light. Interesting, a series of numbers appear... 33-21-14-27.  These look like the combination to a lock.  Not the type of lock that should be available in this century however.  Perhaps this is the key to unraveling the mystery?</text>
 						<style>card_b_default</style>
 						<rectangle>[86,900,773,-1]</rectangle>
 						<order>0</order>
@@ -5527,7 +5527,7 @@
 					<text>
 						<text>&#x2022; Take token {I:token_pink_1:75:-2}</text>
 						<style>card_b_action</style>
-						<rectangle>[86,1270,773,-1]</rectangle>
+						<rectangle>[86,1295,773,-1]</rectangle>
 						<order>0</order>
 					</text>
 				</bottom>
@@ -5545,19 +5545,19 @@
 				</text>
 					<image>
 						<image>pistol</image>
-						<rectangle>[100,110,745,-2]</rectangle>
+						<rectangle>[100,60,745,-2]</rectangle>
 						<order>10</order>
 					</image>
 					<text>
 						<text>A complex mechanism in the form of a metal tube with a wooden grip attached to one end of the tube. The metal has an unnatural bluish finish that does seem to be the product of witchcraft.</text>
 						<style>card_b_default</style>
-						<rectangle>[86,810,773,-1]</rectangle>
+						<rectangle>[86,760,773,-1]</rectangle>
 						<order>0</order>
 					</text>
 					<text>
 						<text>If you have {I:bullet:75:-2} tokens, they can be placed in the slots of this device. During a {I:skill_combat:75:-2} challenge, the device can be "triggered", consuming one of the tokens and allowing the user to roll an additional die in the challenge roll.{n}&#x2022; This item cannot be used by familiars.</text>
 						<style>card_b_action</style>
-						<rectangle>[86,1080,773,-1]</rectangle>
+						<rectangle>[86,1060,773,-1]</rectangle>
 						<order>0</order>
 					</text>
 				</bottom>
@@ -5602,7 +5602,7 @@
 						<order>0</order>
 					</text>
 					<text>
-						<text>If you do not already have them, take {s:card_b_action_bold}Item {in:Phil Note 2}{s:} and token {I:token_blue_4:100:-2}</text>
+						<text>If you do not already have them, take {s:card_b_action_bold}Item {in:Phil Note 2}{s:} and token {I:token_blue_4:100:-2}.</text>
 						<style>card_b_action</style>
 						<rectangle>[86,350,773,-1]</rectangle>
 						<order>0</order>
@@ -5631,30 +5631,30 @@
 				</top>
 				<bottom>
 					<text>
-						<text>{s:card_b_default_italic}"You only see what you want to believe, when you creep from the back I got tricks up my sleeve..."{s:}, you overhear the last whispers of a dying man before he expires. Rifling through the dead man's pockets you find a T.I.M.E Agents ID. Opening it slowly reveals the photo of the dead man and the name 'Keith Fitzgerald, T.I.M.E Agent Second Class'. So this is the elusive, rogue agent you have been struggling so fervently to apprehend.  It appears this mission has reached its conclusion. If you have the token {I:token_blue_4:100:-2}, take the card</text>
+						<text>{s:card_b_default_italic}"You only see what you want to believe, when you light up in the back with those tricks up your sleeve..."{s:}, you overhear the last whispers of a dying man before he expires. Rifling through the dead man's pockets you find a T.I.M.E Agents ID. Opening it slowly reveals the photo of the dead man and the name 'Keith Fitzgerald, T.I.M.E Agent Second Class'. So this is the elusive, rogue agent you have been struggling so fervently to apprehend.  It appears this mission has reached its conclusion. If you have the token {I:token_blue_4:75:-2}, take the card</text>
 						<style>card_b_default</style>
 						<rectangle>[86,50,773,-1]</rectangle>
 						<order>0</order>
 					</text>
 					<image>
 						<image>win_green</image>
-						<rectangle>[100,850,200,-2]</rectangle>
+						<rectangle>[100,880,200,-2]</rectangle>
 						<order>10</order>
 					</image>
 					<image>
 						<image>token_blue_4</image>
-						<rectangle>[180,1100,40,-2]</rectangle>
+						<rectangle>[180,1130,40,-2]</rectangle>
 						<order>11</order>
 					</image>
 					<text>
 						<text>otherwise take</text>
 						<style>card_b_default</style>
-						<rectangle>[330,900,290,-1]</rectangle>
+						<rectangle>[340,960,270,-1]</rectangle>
 						<order>0</order>
 					</text>
 					<image>
 						<image>win_green</image>
-						<rectangle>[650,850,200,-2]</rectangle>
+						<rectangle>[650,880,200,-2]</rectangle>
 						<order>10</order>
 					</image>
 				</bottom>
@@ -5819,13 +5819,13 @@
 					<text>
 						<text>You have created...life?? You place all of the collected body parts together and breathe life into the beast.  It rises and speaks in a deep, broken voice: {s:card_b_default_italic}"You give life, I give loyalty. I am yours, master."{s:} The golem always follows one character around and can participate in challenges. It cannot be healed and cannot use any items.</text>
 						<style>card_b_default</style>
-						<rectangle>[350,130,575,-1]</rectangle>
+						<rectangle>[350,150,575,-1]</rectangle>
 						<order>10</order>
 					</text>
 					<text>
-						<text>The golem attributes are based on the number of body parts in the party's possession when it was built. Once created, additional body parts cannot be added to the golem, nor may a second golem be constructed in this run. Items {s:card_b_action_bold}{in:Right Arm}{s:}, {s:card_b_action_bold}{in:Left Arm}{s:}, {s:card_b_action_bold}{in:Right Leg}{s:} and {s:card_b_action_bold}{in:Left Leg}{s:} count as body parts. If less than 2 body parts were used, the golem cannot leave this card.</text>
+						<text>Golem attributes are based on the number of body parts in the party's possession when it was built. Once created, additional body parts may be added to the golem, nor may a second golem be constructed in this run. Items {s:card_b_action_bold}{in:Right Arm}{s:}, {s:card_b_action_bold}{in:Left Arm}{s:}, {s:card_b_action_bold}{in:Right Leg}{s:} and {s:card_b_action_bold}{in:Left Leg}{s:} count as body parts. If less than two body parts were used, the golem cannot leave this card.</text>
 						<style>card_b_action</style>
-						<rectangle>[86,800,773,-1]</rectangle>
+						<rectangle>[86,810,773,-1]</rectangle>
 						<order>0</order>
 					</text>
 					<image>
@@ -6071,7 +6071,7 @@
 						<order>11</order>
 					</text>
 					<text>
-						<text>As smoke rises from the ashes, her spirit is... moved. Her essence is transferred to her guardian familiar.  Discard the Do&#x00f1;a's character card and use this familiar card instead.{n}{n}The black cat has multiple lives and can communicate with other humans (in familiar form, she does not lose glibness). The cat retains any health packs the Lady had before conversion and can still use them.  The cat is also able to leave combat at any time. This card may only be held by the player who selected the Do&#x00f1;a character for this run.{n}The cat can not use Items. All Items held by the Do&#x00f1;a are passed to the player on your left.</text>
+						<text>As smoke rises from the ashes, her spirit is... moved. Her essence is transferred to her guardian familiar.  Discard the Do&#x00f1;a's character card and use this familiar card instead.{n}The black cat can communicate with other humans (in familiar form, she does not lose glibness). The cat retains any health packs the Lady had before conversion and can still use them.  The cat is also able to leave combat at any time. This card may only be held by the player who selected the Do&#x00f1;a character for this run.{n}The cat can not use Items. Items held by the Do&#x00f1;a pass to the player on your left.</text>
 						<style>normal_black_full</style>
 						<rectangle>[50,600,845,-1]</rectangle>
 						<order>11</order>
@@ -6161,7 +6161,7 @@
 						<order>11</order>
 					</text>
 					<text>
-						<text>As smoke rises from the ashes, her spirit is... moved. Her essence is transferred to her guardian familiar.  Discard Isabel's character card and use this familiar card instead.{n}The snake can make a poison attack that recharges in 5 {I:time:40:-2}.  When the snake's poison attack token {I:bullet:40:-2} is used, it is placed on the timeline, 5 {I:time:40:-2} in the future.  When the time counter arrives at the token, remove it from the timeline and place it on this card. It can be used immediately. A poison attack adds two die to a combat attack. This card may only be held by the player who selected the Isabel character for this run.{n}The snake can not use Items. All Items held by Isabel are passed to the player on your left.</text>
+						<text>As smoke rises from the ashes, her spirit is... moved. Her essence is transferred to her guardian familiar.  Discard Isabel's character card and use this card instead.{n}The snake can make a poison attack that recharges in 5 {I:time:40:-2}.  When the poison attack token {I:bullet:40:-2} is used, it is placed on the timeline, 5 {I:time:40:-2} in the future.  When the time counter arrives at the token, remove it from the timeline and place it on this card. A poison attack adds two die to a combat attack. This card may only be held by the player who selected Isabel for this run.{n}The snake can not use Items. Items held by Isabel pass to the player on your left.</text>
 						<style>normal_black_full</style>
 						<rectangle>[50,600,845,-1]</rectangle>
 						<order>11</order>
@@ -6239,7 +6239,7 @@
 						<order>11</order>
 					</text>
 					<text>
-						<text>As smoke rises from the ashes, her spirit is... moved. Her essence is transferred to her guardian familiar.  Discard the Sister's character card and use this familiar card instead.{n}{n}The crow is not locked into combat and can leave at any time. The crow may also fly between any two cards in the current location in the same turn. It may only participate in a single challenge roll per time-unit, but can move between and read two location cards in the same {I:time:40:-2}. This card may only be held by the player who selected the Sister character for this run.{n}The crow can not use Items. All Items held by Mar&#x00ed;a are passed to the player on your left.</text>
+						<text>As smoke rises from the ashes, her spirit is... moved. Her essence is transferred to her guardian familiar.  Discard the Sister's character card and use this card instead.{n}The crow is not locked into combat and may leave at any time. The crow may also fly between any two cards in the current location in the same turn. It may only participate in a single challenge roll per time-unit, but can move between and read two location cards in the same {I:time:40:-2}. This card may only be held by the player who selected the Sister for this run.{n}The crow can not use Items. Items held by the sister pass to the player on your left.</text>
 						<style>normal_black_full</style>
 						<rectangle>[50,600,845,-1]</rectangle>
 						<order>11</order>
@@ -6444,7 +6444,7 @@
 					<text>
 						<text>&#x2022; The Isabel character takes the token {I:token_green_2:100:-2}.</text>
 						<style>card_b_action</style>
-						<rectangle>[86,610,773,-1]</rectangle>
+						<rectangle>[86,635,773,-1]</rectangle>
 						<order>0</order>
 					</text>
 				</bottom>
@@ -6557,7 +6557,7 @@
 						<order>11</order>
 					</text>
 					<text>
-						<text>Unique abilities: The bishop has the option to pray for one companion when both the bishop and the companion are in the same combat challenge. When he chooses to pray for protection, he increases the resistance of the companion by 2{I:shield_blue_skull:60:-2} for one time unit, but the bishop does not participate in the challenge for that round (he rolls no dice). If the protected companion takes damage, both the companion and the bishop take the same damage.</text>
+						<text>The bishop has the option to pray for one companion when both the bishop and the companion are in the same combat challenge. When he chooses to pray for protection, he increases the resistance of the companion by two {I:shield_blue_skull:60:-2} for one time unit, but the bishop does not participate in the challenge for that round (he rolls no dice). If the protected companion takes damage, both the companion and the bishop take the same damage.</text>
 						<style>normal_black_full</style>
 						<rectangle>[50,830,845,-1]</rectangle>
 						<order>11</order>
@@ -6645,9 +6645,9 @@
 						<order>11</order>
 					</text>
 					<text>
-						<text>Unique abilities: An experienced warrior, Alonso is a master of survival. When he has less than 3 health {I:heart:50:-2} tokens left, he rolls an extra die when in combat challenges.</text>
+						<text>An experienced warrior, Alonso is a master of survival. When he has less than three health {I:heart:50:-2} tokens left, he rolls an extra die when in combat challenges.</text>
 						<style>normal_black_full</style>
-						<rectangle>[50,1130,845,-1]</rectangle>
+						<rectangle>[50,1020,845,-1]</rectangle>
 						<order>11</order>
 					</text>
 				</bottom>
@@ -6733,9 +6733,9 @@
 						<order>11</order>
 					</text>
 					<text>
-						<text>Unique abilities: Gaspar gains 1 extra glibness {I:skill_glib:50:-2} in challenges involving females.</text>
+						<text>Gaspar gains one extra glibness {I:skill_glib:50:-2} in challenges involving females.</text>
 						<style>normal_black_full</style>
-						<rectangle>[50,1130,845,-1]</rectangle>
+						<rectangle>[50,1060,845,-1]</rectangle>
 						<order>11</order>
 					</text>
 				</bottom>
@@ -6833,7 +6833,7 @@
 						<order>11</order>
 					</text>
 					<text>
-						<text>Unique abilities: The sister can call on her faith to re-roll a die during a challenge. Re-rolling a die consumes 1 blessing {I:blessing:50:-2} token. Only 1 blessing can be used per TU. If she goes to confession, her blessing count will be reset to 2.</text>
+						<text>The sister can call on her faith to re-roll a die during a challenge. Re-rolling a die consumes one blessing {I:blessing:50:-2} token. Only one blessing can be used per TU. If she goes to confession, her blessing count will be reset to two.</text>
 						<style>normal_black_full</style>
 						<rectangle>[50,1130,845,-1]</rectangle>
 						<order>11</order>
@@ -6933,9 +6933,9 @@
 						<order>11</order>
 					</text>
 					<text>
-						<text>Unique abilities: The lady starts with 2 healing poultices {I:healing:50:-2} that can be applied to any companions that are in the same location card as she is. Each potion restores one health token.</text>
+						<text>The lady starts with two healing poultices {I:healing:50:-2} that can be applied to any companions that are in the same location card as she is. Each potion restores one health token.</text>
 						<style>normal_black_full</style>
-						<rectangle>[50,1130,845,-1]</rectangle>
+						<rectangle>[50,960,845,-1]</rectangle>
 						<order>11</order>
 					</text>
 				</bottom>
@@ -7021,9 +7021,9 @@
 						<order>11</order>
 					</text>
 					<text>
-						<text>Unique abilities: Isabel gains an extra glibness {I:skill_glib:50:-2} in challenges involving males.</text>
+						<text>Isabel gains one extra glibness {I:skill_glib:50:-2} in challenges involving males.</text>
 						<style>normal_black_full</style>
-						<rectangle>[50,1150,845,-1]</rectangle>
+						<rectangle>[50,1120,845,-1]</rectangle>
 						<order>11</order>
 					</text>
 				</bottom>
