@@ -1739,7 +1739,7 @@
 						<order>10</order>
 					</image>
 					<text name="copyright">
-						<text>Hersey &#x00A9; 2017 Marina Galvagni and Randy Frank{n}{n}Artwork: Rizky Nugraha, Philippe Semeria{n}David Ring and J. H. Vanderpoel{n}Carlito typeface: tyPoland, &#x0141;ukasz Dziedzic{n}Textures: www.myfreetextures.com</text>
+						<text>Heresy &#x00A9; 2017 Marina Galvagni and Randy Frank{n}{n}Artwork: Rizky Nugraha, Philippe Semeria{n}David Ring and J. H. Vanderpoel{n}Carlito typeface: tyPoland, &#x0141;ukasz Dziedzic{n}Textures: www.myfreetextures.com</text>
 						<style>copyright</style>
 						<rectangle>[50,1200,845,-1]</rectangle>
 						<rotation>0</rotation>
@@ -1768,273 +1768,6 @@
 		</deckcards>
 
 		<misc>
-			<card name="The Lone Henchman">
-				<top>
-					<image>
-						<image>background_purple</image>
-						<rectangle>[0,0,-1,-1]</rectangle>
-						<rotation>0</rotation>
-						<order>-10</order>
-					</image>
-					<text>
-						<text>Random Encounter</text>
-						<style>large_white</style>
-						<rectangle>[50,600,845,-1]</rectangle>
-						<rotation>0</rotation>
-						<order>0</order>
-					</text>
-				</top>
-				<bottom>
-					<text>
-						<text>{cs}</text>
-						<style>large_black</style>
-						<rectangle>[100,100,745,-1]</rectangle>
-						<rotation>0</rotation>
-						<order>0</order>
-					</text>
-					<text>
-						<text>A lone guard bearing the inquisitor's mark sees you and begins to sound an alarm.  Before he can complete it, you surround him. With a shout of {s:card_b_default_italic}"For Keith!"{s:}, he makes it obvious that this is a fight to the death.</text>
-						<style>card_b_default</style>
-						<rectangle>[86,340,773,-1]</rectangle>
-						<order>0</order>
-					</text>
-					<text>
-						<text>&#x2022; {I:lock:75:-2} A fight ensues{n}&#xA0;&#xA0; {I:skill_combat:75:-2} 4x{I:shield:75:-2} 1x{I:shield_red_skull:75:-2}{n}&#xA0;&#xA0;On success you may leave this card.</text>
-						<style>card_b_action</style>
-						<rectangle>[86,680,773,-1]</rectangle>
-						<order>0</order>
-					</text>
-				</bottom>
-			</card>
-			<card name="Charlotte's Nightmare Web">
-				<top>
-					<image name="background">
-						<image>background_purple</image>
-						<rectangle>[0,0,-1,-1]</rectangle>
-						<rotation>0</rotation>
-						<order>-10</order>
-					</image>
-					<text name="item number">
-						<text>Random Encounter</text>
-						<style>large_white</style>
-						<rectangle>[50,600,845,-1]</rectangle>
-						<rotation>0</rotation>
-						<order>0</order>
-					</text>
-				</top>
-				<bottom>
-					<text>
-						<text>{cs}</text>
-						<style>large_black</style>
-						<rectangle>[100,100,745,-1]</rectangle>
-						<rotation>0</rotation>
-						<order>0</order>
-					</text>
-					<text>
-						<text>Your party runs into an enormous spider web.  Thank goodness its matron is nowhere to be seen, but your party must hack and slash its way out of the sticky mess... and quickly, lest she returns before you are free.</text>
-						<style>card_b_default</style>
-						<rectangle>[86,340,773,-1]</rectangle>
-						<order>0</order>
-					</text>
-					<text>
-						<text>&#x2022; {I:lock:75:-2} You hack your way out of the web{n}&#xA0;&#xA0; {I:skill_combat:75:-2} 2x{I:shield_time:75:-2} 5x{I:shield:75:-2}{n}&#xA0;&#xA0;On success you may leave this card.</text>
-						<style>card_b_action</style>
-						<rectangle>[86,680,773,-1]</rectangle>
-						<order>0</order>
-					</text>
-				</bottom>
-			</card>
-			<card name="The Lost Soul">
-				<top>
-					<image name="background">
-						<image>background_purple</image>
-						<rectangle>[0,0,-1,-1]</rectangle>
-						<rotation>0</rotation>
-						<order>-10</order>
-					</image>
-					<text name="item number">
-						<text>Random Encounter</text>
-						<style>large_white</style>
-						<rectangle>[50,600,845,-1]</rectangle>
-						<rotation>0</rotation>
-						<order>0</order>
-					</text>
-				</top>
-				<bottom>
-					<text>
-						<text>{cs}</text>
-						<style>large_black</style>
-						<rectangle>[100,100,745,-1]</rectangle>
-						<rotation>0</rotation>
-						<order>0</order>
-					</text>
-					<text>
-						<text>The spectral apparition of an old woman emerges from the mist at the floor. Cold vapor tendrils reach out to your party.  She is warning you not to proceed further. The tendrils send a literal chill up the spines of your party members. How can you combat an ethereal soul?  Perhaps she will listen to reason? </text>
-						<style>card_b_default</style>
-						<rectangle>[86,250,773,-1]</rectangle>
-						<order>0</order>
-					</text>
-					<text>
-						<text>&#x2022; {I:lock:75:-2} You talk your way out of this one.  The spirit is definitely female.{n}&#xA0;&#xA0; {I:skill_glib:75:-2} 2x{I:shield_heart:75:-2} 4x{I:shield:75:-2}{n}&#xA0;&#xA0;On success you may leave this card.</text>
-						<style>card_b_action</style>
-						<rectangle>[86,680,773,-1]</rectangle>
-						<order>0</order>
-					</text>
-				</bottom>
-			</card>
-			<card name="Company of Henchmen">
-				<top>
-					<image name="background">
-						<image>background_purple</image>
-						<rectangle>[0,0,-1,-1]</rectangle>
-						<rotation>0</rotation>
-						<order>-10</order>
-					</image>
-					<text name="item number">
-						<text>Random Encounter</text>
-						<style>large_white</style>
-						<rectangle>[50,600,845,-1]</rectangle>
-						<rotation>0</rotation>
-						<order>0</order>
-					</text>
-				</top>
-				<bottom>
-					<text>
-						<text>{cs}</text>
-						<style>large_black</style>
-						<rectangle>[100,100,745,-1]</rectangle>
-						<rotation>0</rotation>
-						<order>0</order>
-					</text>
-					<text>
-						<text>A dozen heavily armed men run up to you asking if you have see an escaped witch. You need to point them in another direction quickly before they have a chance to size up your party and start asking questions. Take advantage of their sense of urgency and send them off in another direction.</text>
-						<style>card_b_default</style>
-						<rectangle>[86,340,773,-1]</rectangle>
-						<order>0</order>
-					</text>
-					<text>
-						<text>&#x2022; {I:lock:75:-2} Talk them out of asking more questions.{n}&#xA0;&#xA0; {I:skill_glib:75:-2} 2x{I:shield_time:75:-2} 5x{I:shield:75:-2}{n}&#xA0;&#xA0;On success you may leave this card.</text>
-						<style>card_b_action</style>
-						<rectangle>[86,760,773,-1]</rectangle>
-						<order>0</order>
-					</text>
-				</bottom>
-			</card>
-			<card name="The Dance of Death">
-				<top>
-					<image name="background">
-						<image>background_purple</image>
-						<rectangle>[0,0,-1,-1]</rectangle>
-						<rotation>0</rotation>
-						<order>-10</order>
-					</image>
-					<text name="item number">
-						<text>Random Encounter</text>
-						<style>large_white</style>
-						<rectangle>[50,600,845,-1]</rectangle>
-						<rotation>0</rotation>
-						<order>0</order>
-					</text>
-				</top>
-				<bottom>
-					<text>
-						<text>{cs}</text>
-						<style>large_black</style>
-						<rectangle>[100,100,745,-1]</rectangle>
-						<rotation>0</rotation>
-						<order>0</order>
-					</text>
-					<text>
-						<text>Click... uh oh.  A split second later a dart shoots across the room, narrowly missing your party.  You've stumbled into a blow dart trap!  Who knows what panel or floor tile will trigger the next dart?  Keep your wits about you.  Moving with caution and celerity you make your way out of the room. </text>
-						<style>card_b_default</style>
-						<rectangle>[86,340,773,-1]</rectangle>
-						<order>0</order>
-					</text>
-					<text>
-						<text>&#x2022; {I:lock:75:-2} Step lively and make it quick.{n}&#xA0;&#xA0; {I:skill_agile:75:-2} 2x{I:shield_time:75:-2} 5x{I:shield:75:-2}{n}&#xA0;&#xA0;On success you may leave this card.</text>
-						<style>card_b_action</style>
-						<rectangle>[86,760,773,-1]</rectangle>
-						<order>0</order>
-					</text>
-				</bottom>
-			</card>
-			<card name="Rolling Thunder">
-				<top>
-					<image name="background">
-						<image>background_purple</image>
-						<rectangle>[0,0,-1,-1]</rectangle>
-						<rotation>0</rotation>
-						<order>-10</order>
-					</image>
-					<text name="item number">
-						<text>Random Encounter</text>
-						<style>large_white</style>
-						<rectangle>[50,600,845,-1]</rectangle>
-						<rotation>0</rotation>
-						<order>0</order>
-					</text>
-				</top>
-				<bottom>
-					<text>
-						<text>{cs}</text>
-						<style>large_black</style>
-						<rectangle>[100,100,745,-1]</rectangle>
-						<rotation>0</rotation>
-						<order>0</order>
-					</text>
-					<text>
-						<text>What's that rumble? Vibrations in the walls? Argh, we're about to be crushed by a giant rolling rock... And me without my whip! Move fast and get out of the way.</text>
-						<style>card_b_default</style>
-						<rectangle>[86,250,773,-1]</rectangle>
-						<order>0</order>
-					</text>
-					<text>
-						<text>&#x2022; {I:lock:75:-2} This one you have seen before.{n}&#xA0;&#xA0; {I:skill_agile:75:-2} 5x{I:shield:75:-2} 1x{I:shield_red_skull:75:-2}{n}&#xA0;&#xA0;On success you may leave this card.</text>
-						<style>card_b_action</style>
-						<rectangle>[86,550,773,-1]</rectangle>
-						<order>0</order>
-					</text>
-				</bottom>
-			</card>
-			<card name="Weeping Mother">
-				<top>
-					<image name="background">
-						<image>background_purple</image>
-						<rectangle>[0,0,-1,-1]</rectangle>
-						<rotation>0</rotation>
-						<order>-10</order>
-					</image>
-					<text name="item number">
-						<text>Random Encounter</text>
-						<style>large_white</style>
-						<rectangle>[50,600,845,-1]</rectangle>
-						<rotation>0</rotation>
-						<order>0</order>
-					</text>
-				</top>
-				<bottom>
-					<text>
-						<text>{cs}</text>
-						<style>large_black</style>
-						<rectangle>[100,100,745,-1]</rectangle>
-						<rotation>0</rotation>
-						<order>0</order>
-					</text>
-					<text>
-						<text>A woman is weeping loudly and walking towards you. She closes with your party and makes a plea {s:card_b_default_italic}"My daughter, have you seen my daughter Maria? They took her! I followed them here, but lost sight of them... Can you help me find my daughter?"{s:} She grabs your sleeves and does not let you go.</text>
-						<style>card_b_default</style>
-						<rectangle>[86,250,773,-1]</rectangle>
-						<order>0</order>
-					</text>
-					<text>
-						<text>&#x2022; {I:lock:75:-2} It takes time to soothe a grieving mother.{n}&#xA0;&#xA0; {I:skill_glib:75:-2} 2x{I:shield_time:75:-2} 5x{I:shield:75:-2}{n}&#xA0;&#xA0;On success you may leave this card.</text>
-						<style>card_b_action</style>
-						<rectangle>[86,680,773,-1]</rectangle>
-						<order>0</order>
-					</text>
-				</bottom>
-			</card>
-
 			<card name="Win: Keith dead, Machine ok">
 				<top>
 					<image name="background">
@@ -2108,7 +1841,7 @@
 						<order>0</order>
 					</text>
 					<text>
-						<text>Leave in place all items marked {I:blue_logo:75:-2} but reset the rest of the game. Return other items to the deck along with all random encounter cards. Reread cards E and F of the {s:card_b_action_bold}Base{s:} location and follow the instructions. Two more things:{n}&#x2022; Take token {I:token_black_1:75:-2}.{n}&#x2022; You may start from any location listed on the visible plan cards.</text>
+						<text>Leave in place all items marked {I:blue_logo:75:-2} but reset the rest of the game. Return the other item cards to the deck. Reread cards E and F of the {s:card_b_action_bold}Base{s:} location and follow the instructions. Two more things:{n}&#x2022; Take token {I:token_black_1:75:-2}.{n}&#x2022; You may start from any location listed on the visible plan cards.</text>
 						<style>card_b_action</style>
 						<rectangle>[86,960,773,-1]</rectangle>
 						<order>0</order>
@@ -2142,7 +1875,7 @@
 						<order>0</order>
 					</text>
 					<text>
-						<text>Leave in place all items marked {I:blue_logo:75:-2} but reset the rest of the game. Return other items to the deck along with all random encounter cards. Reread cards E and F of the {s:card_b_action_bold}Base{s:} location and follow the instructions. Three more things:{n}&#x2022; Take token {I:token_black_1:75:-2}.{n}&#x2022; You may start from any location listed on the visible plan cards.{n}&#x2022; Increase the starting {I:time:40:-2} to 50.</text>
+						<text>Leave in place all items marked {I:blue_logo:75:-2} but reset the rest of the game. Return the other item cards to the deck. Reread cards E and F of the {s:card_b_action_bold}Base{s:} location and follow the instructions. Three more things:{n}&#x2022; Take token {I:token_black_1:75:-2}.{n}&#x2022; You may start from any location listed on the visible plan cards.{n}&#x2022; Increase the starting {I:time:40:-2} to 50.</text>
 						<style>card_b_action</style>
 						<rectangle>[86,910,773,-1]</rectangle>
 						<order>0</order>
@@ -2227,7 +1960,7 @@
 						<text>
 							<text>&#x2022; Take {s:card_b_action_bold}Item {in:Catalina's Picture}{s:}</text>
 							<style>card_b_action</style>
-							<rectangle>[86,1400,773,-1]</rectangle>
+							<rectangle>[86,1390,773,-1]</rectangle>
 							<order>0</order>
 						</text>
 					</bottom>
@@ -2273,9 +2006,9 @@
 							<order>0</order>
 						</text>
 						<text>
-							<text>&#x2022; If you have {s:card_b_action_bold}Item {in:Stick}{s:} you may try to steal his sword, replacing it with the item.{n}&#xA0;&#xA0;&#xA0;&#xA0;{I:skill_agile:75:-2} 4x{I:shield:75:-2}{n}&#xA0;&#xA0;&#xA0;&#xA0;On success take {s:card_b_action_bold}Item {in:Sword}{s:}, lose {s:card_b_action_bold}Item {in:Stick}{s:}.</text>
+							<text>&#x2022; If you have {s:card_b_action_bold}Item {in:Stick}{s:} you may try to steal his sword, replacing it with the item.{n}&#xA0;&#xA0;&#x2022; Steal the sword: {I:skill_agile:75:-2} 4x{I:shield:75:-2}{n}&#xA0;&#xA0;On success take {s:card_b_action_bold}Item {in:Sword}{s:}, lose {s:card_b_action_bold}Item {in:Stick}{s:}.</text>
 							<style>card_b_action</style>
-							<rectangle>[86,1194,773,-1]</rectangle>
+							<rectangle>[86,1164,773,-1]</rectangle>
 							<order>0</order>
 						</text>
 					</bottom>
@@ -2800,7 +2533,7 @@
 							<order>0</order>
 						</text>
 						<text>
-							<text>&#x2022; You may engage the young woman in conversation:{n}&#xA0;&#x2022; {I:skill_glib:75:-2} 4x{I:shield:75:-2}{n}On success, take token {I:token_yellow_1:75:-2}.</text>
+							<text>&#x2022; You may engage the young woman in conversation:{n}&#xA0;&#x2022; {I:skill_glib:75:-2} 4x{I:shield:75:-2}{n}On success, take {s:card_b_action_bold}Item {in:housemaid_talk}{s:}.</text>
 							<style>card_b_action</style>
 							<rectangle>[86,1180,773,-1]</rectangle>
 							<order>0</order>
@@ -2866,29 +2599,6 @@
 						</text>
 					</bottom>
 				</card>
-				<card name="loc_chapel_f">
-					<top>
-						<image>
-							<image>token_yellow_1</image>
-							<rectangle>[354,1100,-1,-1]</rectangle>
-							<order>10</order>
-						</image>
-					</top>
-					<bottom>
-					<image>
-						<image>housemaid</image>
-						<rectangle>[250,85,445,-2]</rectangle>
-						<order>10</order>
-					</image>
-						<text>
-							<text>The housemaid says, {s:card_b_default_italic}"I believe you can help, but we can't talk here.  Meet me at the Tavern."{s:}  Take token {I:token_yellow_1:75:-2} </text>
-							<style>card_b_default</style>
-							<rectangle>[86,730,773,-1]</rectangle>
-							<order>0</order>
-						</text>
-					</bottom>
-				</card>
-
 			</location>
 
 			<location name="Courthouse">
@@ -2951,13 +2661,13 @@
 						<text>
 							<text>The gallery consists of occupied, decorative wooden benches. There is an odd-looking piece of stained glass attached to the end of a bench, "guarded" by a stern looking woman. If you want the glass...</text>
 							<style>card_b_default</style>
-							<rectangle>[86,760,773,-1]</rectangle>
+							<rectangle>[86,750,773,-1]</rectangle>
 							<order>0</order>
 						</text>
 						<text>
-                            <text>There are two ways to obtain the stained glass:{n}&#x00a0;&#x00a0;&#x2022; Pilfer it {I:skill_agile:75:-2} 4x{I:shield:75:-2}, {n}&#x00a0;&#x2022; Convince the woman you need to remove it for "cleaning" {I:skill_glib:75:-2} 4x{I:shield:75:-2}{n}{n} If successful, take {s:card_b_action_bold}Item {in:Stained Glass D}{s:}.</text>
+                            <text>&#x2022; There are two ways to obtain the stained glass.{n}&#x00a0;&#x00a0;&#x2022; Pilfer it: {I:skill_agile:75:-2} 4x{I:shield:75:-2}, or{n}&#x00a0;&#x2022; Convince the woman you need to remove it for "cleaning": {I:skill_glib:75:-2} 4x{I:shield:75:-2}.{n}On success, take {s:card_b_action_bold}Item {in:Stained Glass D}{s:}.</text>
 							<style>card_b_action</style>
-							<rectangle>[86,1080,773,-1]</rectangle>
+							<rectangle>[86,1050,773,-1]</rectangle>
 							<order>0</order>
 						</text>
 					</bottom>
@@ -2984,7 +2694,7 @@
 						<text>
 							<text>&#x2022; The defendant turns to you and hands you a little package, {s:card_b_default_italic}"They dropped this piece of witchcraft when they took her.  Please, find my sister!"{s:} Take {s:card_b_action_bold}Item {in:Plunger Tube}{s:}.</text>
 							<style>card_b_action</style>
-							<rectangle>[86,1200,773,-1]</rectangle>
+							<rectangle>[86,1230,773,-1]</rectangle>
 							<order>0</order>
 						</text>
 					</bottom>
@@ -3009,9 +2719,9 @@
 							<order>0</order>
 						</text>
 						<text>
-                            <text>&#x2022; If you try to take the scroll the bailiff will confront you: {s:card_b_default_italic}"Miscreant!"{s:}{n}&#x00a0;&#x00a0; {I:skill_combat:75:-2} 2x{I:shield_heart:75:-2} 1x{I:shield_red_skull:75:-2} {n}&#x00a0; If successful, take the scroll {s:card_b_action_bold}Item {in:Star Chart D}{s:} and something the bailiff was reaching for: {s:card_b_action_bold}Item {in:Tube with Handle}{s:}.</text>
+                            <text>&#x2022; If you try to take the scroll the bailiff will confront you: {s:card_b_default_italic}"Miscreant!"{s:}{n}&#x00a0;&#x00a0;&#x2022; {I:skill_combat:75:-2} 2x{I:shield_heart:75:-2} 1x{I:shield_red_skull:75:-2} {n}&#x00a0;&#x00a0; On success, take the scroll, {s:card_b_action_bold}Item {in:Star Chart D}{s:}, and what the bailiff was reaching for, {s:card_b_action_bold}Item {in:Tube with Handle}{s:}.</text>
 							<style>card_b_action</style>
-							<rectangle>[86,1170,773,-1]</rectangle>
+							<rectangle>[86,1200,773,-1]</rectangle>
 							<order>0</order>
 						</text>
 					</bottom>
@@ -3036,7 +2746,7 @@
 							<order>0</order>
 						</text>
 						<text>
-                            <text>&#x2022; You may try to steal his notes{n}&#x00a0;&#x00a0;{I:skill_agile:75:-2} 4x{I:shield:75:-2}{n}&#x00a0; If successful, take {s:card_b_action_bold}Item {in:Plan Add Field}{s:}.</text>
+                            <text>&#x2022; You may try to steal his notes{n}&#x00a0;&#x00a0;&#x2022; {I:skill_agile:75:-2} 4x{I:shield:75:-2}{n}&#x00a0; On success, take {s:card_b_action_bold}Item {in:Plan Add Field}{s:}.</text>
 							<style>card_b_action</style>
 							<rectangle>[86,1280,773,-1]</rectangle>
 							<order>0</order>
@@ -3076,7 +2786,7 @@
 						<text>
 							<text>&#x2022; The Sister cannot leave this card and when the group chooses to leave the {s:card_b_action_bold}{ls:Courthouse}{s:} location, they must next go to the {s:card_b_action_bold}{ls:Dungeon}{s:} location. Take {s:card_b_action_bold}Item {in:Plan Add Dungeon}{s:} and the Sister takes the token {I:token_yellow_3:100:-2}.</text>
 							<style>card_b_action</style>
-							<rectangle>[86,1000,773,-1]</rectangle>
+							<rectangle>[86,1030,773,-1]</rectangle>
 							<order>0</order>
 						</text>
 					</bottom>
@@ -3114,7 +2824,7 @@
 						<text>
 							<text>&#x2022; The Do&#x00f1;a cannot leave this card and when the group chooses to leave the {s:card_b_action_bold}{ls:Courthouse}{s:} location, they must next go to the {s:card_b_action_bold}{ls:Dungeon}{s:} location. Take {s:card_b_action_bold}Item {in:Plan Add Dungeon}{s:} and the Do&#x00f1;a takes the token {I:token_pink_4:100:-2}.</text>
 							<style>card_b_action</style>
-							<rectangle>[86,1050,773,-1]</rectangle>
+							<rectangle>[86,1030,773,-1]</rectangle>
 							<order>0</order>
 						</text>
 					</bottom>
@@ -3152,7 +2862,7 @@
 						<text>
 							<text>&#x2022; Isabel cannot leave this card and when the group chooses to leave the {s:card_b_action_bold}{ls:Courthouse}{s:} location, they must next go to the {s:card_b_action_bold}{ls:Dungeon}{s:} location. Take {s:card_b_action_bold}Item {in:Plan Add Dungeon}{s:} and Isabel takes the token {I:token_black_2:100:-2}.</text>
 							<style>card_b_action</style>
-							<rectangle>[86,1090,773,-1]</rectangle>
+							<rectangle>[86,1080,773,-1]</rectangle>
 							<order>0</order>
 						</text>
 					</bottom>
@@ -3219,7 +2929,7 @@
 						<text>
 							<text>{s:card_b_default_italic}"We do not usually allow visitors in the inquisitor chambers, but you seem a tight group. Maybe your presence can help these women confess faster. Do not touch anything! There are plenty of objects filled with dark magic in this room. With the help of God, this will all be over soon."{s:}</text>
 							<style>card_b_default</style>
-							<rectangle>[86,800,773,-1]</rectangle>
+							<rectangle>[86,840,773,-1]</rectangle>
 							<order>0</order>
 						</text>
 					</bottom>
@@ -3244,7 +2954,7 @@
 							<order>0</order>
 						</text>
 						<text>
-							<text>&#x2022; To open the cupboard, you must win the challenge:{n}&#x00a0;&#x00a0;{I:skill_agile:75:-2} 3x{I:shield:75:-2}{n}&#x00a0; If successful, take {s:card_b_action_bold}Item {in:Box of Lightning}{s:}.</text>
+							<text>&#x2022; To open the cupboard, you must complete the challenge:{n}&#x00a0;&#x00a0;&#x2022; {I:skill_agile:75:-2} 3x{I:shield:75:-2}{n}&#x00a0; On success, take {s:card_b_action_bold}Item {in:Box of Lightning}{s:}.</text>
 							<style>card_b_action</style>
 							<rectangle>[86,1230,773,-1]</rectangle>
 							<order>0</order>
@@ -3399,7 +3109,7 @@
 						<text>
 							<text>&#x2022; Take {s:card_b_action_bold}Item {in:Left Arm}{s:}.</text>
 							<style>card_b_action</style>
-							<rectangle>[86,1100,773,-1]</rectangle>
+							<rectangle>[86,1120,773,-1]</rectangle>
 							<order>0</order>
 						</text>
 					</bottom>
@@ -3424,9 +3134,9 @@
 							<order>0</order>
 						</text>
 						<text>
-							<text>&#x2022; {I:lock:75:-2}Only a guilded tongue can extricate you from this mess!{n}&#x00a0; {I:skill_glib:75:-2} 2x{I:shield_time:75:-2} 2x{I:shield:75:-2} {n}&#x00a0; On success take {s:card_b_action_bold}Item {in:Magic Voice Box}{s:}.</text>
+							<text>&#x2022; {I:lock:75:-2}Only a guilded tongue can extricate you from this situation!{n}&#x00a0;&#x2022; {I:skill_glib:75:-2} 2x{I:shield_time:75:-2} 2x{I:shield:75:-2} {n}&#x00a0; On success take {s:card_b_action_bold}Item {in:Magic Voice Box}{s:}.</text>
 							<style>card_b_action</style>
-							<rectangle>[86,1130,773,-1]</rectangle>
+							<rectangle>[86,1120,773,-1]</rectangle>
 							<order>0</order>
 						</text>
 					</bottom>
@@ -3497,9 +3207,9 @@
 							<order>0</order>
 						</text>
 						<text>
-							<text>&#x2022; An odd bulb hangs at his waist. You may try to take it while he blusters on.{n}&#x00a0; {I:skill_agile:75:-2} 3x{I:shield:75:-2}{n}&#x00a0; On success take {s:card_b_action_bold}Item {in:Soul Medallion}{s:} and one soul token {I:soul:75:-2}.</text>
+							<text>&#x2022; An odd bulb hangs at his waist. You may try to take it while he blusters on.{n}&#x00a0;&#x2022; Steal the bulb: {I:skill_agile:75:-2} 3x{I:shield:75:-2}{n}&#x00a0; On success take {s:card_b_action_bold}Item {in:Soul Medallion}{s:} and one soul token {I:soul:75:-2}.</text>
 							<style>card_b_action</style>
-							<rectangle>[86,1140,773,-1]</rectangle>
+							<rectangle>[86,1120,773,-1]</rectangle>
 							<order>0</order>
 						</text>
 					</bottom>
@@ -3526,7 +3236,7 @@
 						<text>
 							<text>&#x2022; Take {s:card_b_action_bold}Item {in:Catalina Locket}{s:} and {s:card_b_action_bold}Item {in:Right Leg}{s:}.</text>
 							<style>card_b_action</style>
-							<rectangle>[86,1340,773,-1]</rectangle>
+							<rectangle>[86,1310,773,-1]</rectangle>
 							<order>0</order>
 						</text>
 					</bottom>
@@ -3551,9 +3261,9 @@
 							<order>0</order>
 						</text>
 						<text>
-							<text>&#x2022; A flash of light catches your eye in the pile of sticks and grasses. If you choose to investigate you must win the challenge{n}&#x00a0; {I:skill_glib:75:-2} 3x{I:shield:75:-2}{n}&#x00a0; On success take {s:card_b_action_bold}Item {in:Stained Glass C}{s:}.</text>
+							<text>&#x2022; A flash of light catches your eye in the pile of sticks and grasses. If you choose to investigate you must accept the challenge.{n}&#x00a0;&#x2022; {I:skill_glib:75:-2} 3x{I:shield:75:-2}{n}&#x00a0; On success take {s:card_b_action_bold}Item {in:Stained Glass C}{s:}.</text>
 							<style>card_b_action</style>
-							<rectangle>[86,1110,773,-1]</rectangle>
+							<rectangle>[86,1080,773,-1]</rectangle>
 							<order>0</order>
 						</text>
 					</bottom>
@@ -3590,7 +3300,7 @@
 						<text>
 							<text>&#x2022; The Sister Mar&#x00ed;a character card is removed. Her essence transfers to her familiar, take {s:card_b_action_bold}Item {in:the_crow}{s:} and contine the mission using the new character. Take one soul token {I:soul:75:-2}.</text>
 							<style>card_b_action</style>
-							<rectangle>[86,1120,773,-1]</rectangle>
+							<rectangle>[86,1080,773,-1]</rectangle>
 							<order>0</order>
 						</text>
 					</bottom>
@@ -3664,7 +3374,7 @@
 						<text>
 							<text>&#x2022; The Isabel character card is removed. Her essence transfers to her familiar, take {s:card_b_action_bold}Item {in:the_snake}{s:} and contine the mission using the new character. What is this? Take one soul token {I:soul:75:-2}.</text>
 							<style>card_b_action</style>
-							<rectangle>[86,930,773,-1]</rectangle>
+							<rectangle>[86,900,773,-1]</rectangle>
 							<order>0</order>
 						</text>
 					</bottom>
@@ -3737,7 +3447,7 @@
 						<text>
 							<text>&#x2022; Travel to location {s:card_b_action_bold}{ls:Catacombs II}{s:}, do not increment the TU counter {I:time:75:-2} for this location change.</text>
 							<style>card_b_action</style>
-							<rectangle>[86,1250,773,-1]</rectangle>
+							<rectangle>[86,1210,773,-1]</rectangle>
 							<order>0</order>
 						</text>
 					</bottom>
@@ -3750,17 +3460,30 @@
 						</image>
 					</top>
 					<bottom>
-						<image>
+                        <text>
+                            <text>Charlotte's Nightmare Web</text>
+                            <style>large_black</style>
+                            <rectangle>[100,30,745,-1]</rectangle>
+                            <rotation>0</rotation>
+                            <order>0</order>
+                        </text>
+                        <image>
 							<image>loc_cat1_c_sub</image>
-							<rectangle>[100,94,745,-2]</rectangle>
+							<rectangle>[200,260,545,-2]</rectangle>
 							<order>10</order>
 						</image>
-						<text>
-							<text>&#x2022; {I:lock:75:-2} If random encounter cards are still available, you must deal with a random encounter. Select a card at random from the remaining random encounter cards and resolve it before moving on, spending the normal one TU {I:time:75:-2} movement cost. Remove any resolved encounter card from the deck.</text>
-							<style>card_b_action</style>
-							<rectangle>[86,1000,773,-1]</rectangle>
-							<order>0</order>
-						</text>
+                        <text>
+                            <text>Your party runs into an enormous spider web.  Thank goodness its matron is nowhere to be seen, but your party must hack and slash its way out of the sticky mess... and quickly, lest she returns before you are free.</text>
+                            <style>card_b_default</style>
+                            <rectangle>[86,950,773,-1]</rectangle>
+                            <order>0</order>
+                        </text>
+                        <text>
+                            <text>&#x2022; {I:lock:75:-2} You hack your way out of the web{n}&#xA0;&#xA0; {I:skill_combat:75:-2} 2x{I:shield_time:75:-2} 5x{I:shield:75:-2}{n}&#xA0;&#xA0;On success you may leave this card.</text>
+                            <style>card_b_action</style>
+                            <rectangle>[86,1250,773,-1]</rectangle>
+                            <order>0</order>
+                        </text>
 					</bottom>
 				</card>
 				<card name="cat_1_d">
@@ -3792,17 +3515,30 @@
 						</image>
 					</top>
 					<bottom>
+                        <text>
+                            <text>The Lost Soul</text>
+                            <style>large_black</style>
+                            <rectangle>[100,30,745,-1]</rectangle>
+                            <rotation>0</rotation>
+                            <order>0</order>
+                        </text>
 						<image>
 							<image>loc_cat1_e_sub</image>
-							<rectangle>[100,94,745,-2]</rectangle>
+							<rectangle>[245,160,455,-2]</rectangle>
 							<order>10</order>
 						</image>
-						<text>
-							<text>&#x2022; {I:lock:75:-2} If random encounter cards are still available, you must deal with a random encounter. Select a card at random from the remaining random encounter cards and resolve it before moving on, spending the normal one TU {I:time:75:-2} movement cost. Remove any resolved encounter card from the deck.</text>
-							<style>card_b_action</style>
-							<rectangle>[86,1000,773,-1]</rectangle>
-							<order>0</order>
-						</text>
+                        <text>
+                            <text>The spectral apparition of an old woman emerges from the mist at the floor. Cold vapor tendrils reach out to your party.  She is warning you not to proceed further. The tendrils send a literal chill up the spines of your party members. How can you combat an ethereal soul?  Perhaps she will listen to reason? </text>
+                            <style>card_b_default</style>
+                            <rectangle>[86,740,773,-1]</rectangle>
+                            <order>0</order>
+                        </text>
+                        <text>
+                            <text>&#x2022; {I:lock:75:-2} You talk your way out of this one.  The spirit is definitely female.{n}&#xA0;&#xA0; {I:skill_glib:75:-2} 2x{I:shield_heart:75:-2} 4x{I:shield:75:-2}{n}&#xA0;&#xA0;On success you may leave this card.</text>
+                            <style>card_b_action</style>
+                            <rectangle>[86,1200,773,-1]</rectangle>
+                            <order>0</order>
+                        </text>
 					</bottom>
 				</card>
 			</location>
@@ -3873,7 +3609,7 @@
 						<text>
 							<text>&#x2022; Travel to location {s:card_b_action_bold}{ls:Catacombs III}{s:}. Lose two TU {I:time:75:-2} in the process.</text>
 							<style>card_b_action</style>
-							<rectangle>[86,1320,773,-1]</rectangle>
+							<rectangle>[86,1350,773,-1]</rectangle>
 							<order>0</order>
 						</text>
 					</bottom>
@@ -3913,17 +3649,30 @@
 						</image>
 					</top>
 					<bottom>
+                        <text>
+                            <text>A Company of Henchmen</text>
+                            <style>large_black</style>
+                            <rectangle>[100,30,745,-1]</rectangle>
+                            <rotation>0</rotation>
+                            <order>0</order>
+                        </text>
 						<image>
 							<image>loc_cat2_d_sub</image>
-							<rectangle>[100,94,745,-2]</rectangle>
+							<rectangle>[250,250,445,-2]</rectangle>
 							<order>10</order>
 						</image>
-						<text>
-							<text>&#x2022; {I:lock:75:-2} If random encounter cards are still available, you must deal with a random encounter. Select a card at random from the remaining random encounter cards and resolve it before moving on, spending the normal one TU {I:time:75:-2} movement cost. Remove any resolved encounter card from the deck.</text>
-							<style>card_b_action</style>
-							<rectangle>[86,1000,773,-1]</rectangle>
-							<order>0</order>
-						</text>
+                        <text>
+                            <text>A dozen heavily armed men run up to you asking if you have see an escaped witch. You need to point them in another direction quickly before they have a chance to size up your party and start asking questions. Take advantage of their sense of urgency and send them off in another direction.</text>
+                            <style>card_b_default</style>
+                            <rectangle>[86,810,773,-1]</rectangle>
+                            <order>0</order>
+                        </text>
+                        <text>
+                            <text>&#x2022; {I:lock:75:-2} Talk them out of asking more questions.{n}&#xA0;&#xA0; {I:skill_glib:75:-2} 2x{I:shield_time:75:-2} 5x{I:shield:75:-2}{n}&#xA0;&#xA0;On success you may leave this card.</text>
+                            <style>card_b_action</style>
+                            <rectangle>[86,1210,773,-1]</rectangle>
+                            <order>0</order>
+                        </text>
 					</bottom>
 				</card>
 				<card name="cat_2_e">
@@ -4007,17 +3756,30 @@
 						</image>
 					</top>
 					<bottom>
+                        <text>
+                            <text>A Dance of Death</text>
+                            <style>large_black</style>
+                            <rectangle>[100,30,745,-1]</rectangle>
+                            <rotation>0</rotation>
+                            <order>0</order>
+                        </text>
 						<image>
 							<image>loc_cat3_b_sub</image>
-							<rectangle>[250,94,445,-2]</rectangle>
+							<rectangle>[300,150,345,-2]</rectangle>
 							<order>10</order>
 						</image>
-						<text>
-							<text>&#x2022; {I:lock:75:-2} If random encounter cards are still available, you must deal with a random encounter. Select a card at random from the remaining random encounter cards and resolve it before moving on, spending the normal one TU {I:time:75:-2} movement cost. Remove any resolved encounter card from the deck.</text>
-							<style>card_b_action</style>
-							<rectangle>[86,1000,773,-1]</rectangle>
-							<order>0</order>
-						</text>
+                        <text>
+                            <text>Click... uh oh.  A split second later a dart shoots across the room, narrowly missing your party.  You've stumbled into a blow dart trap!  Who knows what panel or floor tile will trigger the next dart?  Keep your wits about you.  Moving with caution and celerity you make your way out of the room. </text>
+                            <style>card_b_default</style>
+                            <rectangle>[86,830,773,-1]</rectangle>
+                            <order>0</order>
+                        </text>
+                        <text>
+                            <text>&#x2022; {I:lock:75:-2} Step lively and make it quick.{n}&#xA0;&#xA0; {I:skill_agile:75:-2} 2x{I:shield_time:75:-2} 5x{I:shield:75:-2}{n}&#xA0;&#xA0;On success you may leave this card.</text>
+                            <style>card_b_action</style>
+                            <rectangle>[86,1230,773,-1]</rectangle>
+                            <order>0</order>
+                        </text>
 					</bottom>
 				</card>
 				<card name="cat_3_c">
@@ -4030,19 +3792,19 @@
 					<bottom>
 						<image>
 							<image>loc_cat3_c_sub</image>
-							<rectangle>[100,94,745,-2]</rectangle>
+							<rectangle>[100,94,725,-2]</rectangle>
 							<order>10</order>
 						</image>
 						<text>
-							<text>Ahead of you is a chasm of unknown depth on your right. The path continues, but has been reduced to a narrow ledge. Your party must exercise extreme caution while traversing this portion of the path. You make it to the next room, but have we gone in a circle?</text>
+							<text>Ahead of you is a chasm of unknown depth on your right. The path continues, but has been reduced to a narrow ledge. Your party must exercise caution while traversing this portion of the path. You make it to the next room, but have we gone in a circle?</text>
 							<style>card_b_default</style>
-							<rectangle>[86,1000,773,-1]</rectangle>
+							<rectangle>[86,980,773,-1]</rectangle>
 							<order>0</order>
 						</text>
 						<text>
 							<text>&#x2022; Travel to location {s:card_b_action_bold}{ls:Catacombs I}{s:}. Lose two TU {I:time:75:-2} in the process.</text>
 							<style>card_b_action</style>
-							<rectangle>[86,1365,773,-1]</rectangle>
+							<rectangle>[86,1340,773,-1]</rectangle>
 							<order>0</order>
 						</text>
 					</bottom>
@@ -4069,7 +3831,7 @@
 						<text>
 							<text>&#x2022; Travel to location {s:card_b_action_bold}{ls:Catacombs II}{s:}.</text>
 							<style>card_b_action</style>
-							<rectangle>[86,1190,773,-1]</rectangle>
+							<rectangle>[86,1200,773,-1]</rectangle>
 							<order>0</order>
 						</text>
 					</bottom>
@@ -4096,7 +3858,7 @@
 						<text>
 							<text>&#x2022; Travel to location {s:card_b_action_bold}{ls:Catacombs IV}{s:}, do not increment the TU counter {I:time:75:-2} for this location change.{s:}.</text>
 							<style>card_b_action</style>
-							<rectangle>[86,1190,773,-1]</rectangle>
+							<rectangle>[86,1210,773,-1]</rectangle>
 							<order>0</order>
 						</text>
 					</bottom>
@@ -4169,7 +3931,7 @@
 						<text>
 							<text>&#x2022; Take token {I:token_yellow_4:75:-2} and immediately reveal card {s:card_b_action_bold}F{s:}.</text>
 							<style>card_b_action</style>
-							<rectangle>[86,1190,773,-1]</rectangle>
+							<rectangle>[86,1210,773,-1]</rectangle>
 							<order>0</order>
 						</text>
 					</bottom>
@@ -4196,7 +3958,7 @@
 						<text>
 							<text>&#x2022; Travel to location {s:card_b_action_bold}{ls:Catacombs I}{s:}.</text>
 							<style>card_b_action</style>
-							<rectangle>[86,1190,773,-1]</rectangle>
+							<rectangle>[86,1210,773,-1]</rectangle>
 							<order>0</order>
 						</text>
 					</bottom>
@@ -4209,17 +3971,30 @@
 						</image>
 					</top>
 					<bottom>
+                        <text>
+                            <text>The Weeping Mother</text>
+                            <style>large_black</style>
+                            <rectangle>[100,30,745,-1]</rectangle>
+                            <rotation>0</rotation>
+                            <order>0</order>
+                        </text>
 						<image>
 							<image>loc_cat4_d_sub</image>
-							<rectangle>[100,94,745,-2]</rectangle>
+							<rectangle>[250,160,445,-2]</rectangle>
 							<order>10</order>
 						</image>
-						<text>
-							<text>&#x2022; {I:lock:75:-2} If random encounter cards are still available, you must deal with a random encounter. Select a card at random from the remaining random encounter cards and resolve it before moving on, spending the normal one TU {I:time:75:-2} movement cost. Remove any resolved encounter card from the deck.</text>
-							<style>card_b_action</style>
-							<rectangle>[86,1000,773,-1]</rectangle>
-							<order>0</order>
-						</text>
+                        <text>
+                            <text>A woman is weeping loudly and walking towards you. She closes with your party and makes a plea {s:card_b_default_italic}"My daughter, have you seen my daughter Maria? They took her! I followed them here, but lost sight of them... Can you help me find my daughter?"{s:} She grabs your sleeves and does not let you go.</text>
+                            <style>card_b_default</style>
+                            <rectangle>[86,740,773,-1]</rectangle>
+                            <order>0</order>
+                        </text>
+                        <text>
+                            <text>&#x2022; {I:lock:75:-2} It takes time to soothe a grieving mother.{n}&#xA0;&#xA0; {I:skill_glib:75:-2} 2x{I:shield_time:75:-2} 5x{I:shield:75:-2}{n}&#xA0;&#xA0;On success you may leave this card.</text>
+                            <style>card_b_action</style>
+                            <rectangle>[86,1140,773,-1]</rectangle>
+                            <order>0</order>
+                        </text>
 					</bottom>
 				</card>
 				<card name="cat_4_e">
@@ -4244,7 +4019,7 @@
 						<text>
 							<text>&#x2022; Travel to location {s:card_b_action_bold}{ls:Catacombs III}{s:}.</text>
 							<style>card_b_action</style>
-							<rectangle>[86,1190,773,-1]</rectangle>
+							<rectangle>[86,1210,773,-1]</rectangle>
 							<order>0</order>
 						</text>
 					</bottom>
@@ -4343,9 +4118,9 @@
 							<order>0</order>
 						</text>
 						<text>
-							<text>&#x2022; If you choose to search the armor:{n} {I:skill_agile:75:-2} 1x{I:shield_time:75:-2} 3x{I:shield:75:-2}{n} On success take {s:card_b_action_bold}Item {in:Left Leg}{s:}.</text>
+							<text>&#x2022; If you choose to search the armor:{n}&#x2022; {I:skill_agile:75:-2} 1x{I:shield_time:75:-2} 3x{I:shield:75:-2}{n} On success take {s:card_b_action_bold}Item {in:Left Leg}{s:}.</text>
 							<style>card_b_action</style>
-							<rectangle>[86,1060,773,-1]</rectangle>
+							<rectangle>[86,1050,773,-1]</rectangle>
 							<order>0</order>
 						</text>
 					</bottom>
@@ -4370,9 +4145,9 @@
 							<order>0</order>
 						</text>
 						<text>
-							<text>&#x2022; If you have {s:card_b_action_bold}Item {in:Box of Lightning}{s:}, you may connect it to the head and any other body parts you are carrying.{n} {I:skill_agile:75:-2} 1x{I:shield_time:75:-2} 3x{I:shield:75:-2}{n} On success take {s:card_b_action_bold}Item {in:The Golem}{s:}.</text>
+							<text>&#x2022; If you have {s:card_b_action_bold}Item {in:Box of Lightning}{s:}, you may connect it to the head and any other body parts you are carrying.{n}&#x2022; {I:skill_agile:75:-2} 1x{I:shield_time:75:-2} 3x{I:shield:75:-2}{n}On success take {s:card_b_action_bold}Item {in:The Golem}{s:}.</text>
 							<style>card_b_action</style>
-							<rectangle>[86,780,773,-1]</rectangle>
+							<rectangle>[86,750,773,-1]</rectangle>
 							<order>0</order>
 						</text>
 					</bottom>
@@ -4435,19 +4210,19 @@
 					<bottom>
 						<image>
 							<image>device</image>
-							<rectangle>[200,50,545,-2]</rectangle>
+							<rectangle>[250,30,445,-2]</rectangle>
 							<order>10</order>
 						</image>
 						<text>
 							<text>A strange door. It hums with unnatural energy. A "window" on the device reads: "Hypermarket", 17 Jun 2015.</text>
 							<style>card_b_default</style>
-							<rectangle>[86,630,773,-1]</rectangle>
+							<rectangle>[86,510,773,-1]</rectangle>
 							<order>0</order>
 						</text>
 						<text>
-							<text>&#x2022; If you have {s:card_b_action_bold}Item {in:Soul Medallion}{s:} you may activate the device by spending one {I:soul:75:-2} token. If activated the party is immediately transported to location {s:card_b_action_bold}{ls:Market}{s:}. A time captain roll is still required.{n}&#x2022; You may also jury-rig the device to self destruct when activated. To do so, spend {s:card_b_action_bold}Item {in:Bottle of Alcohol}{s:} or empty the powder from three bullets (consumes 3 {I:bullet:75:-2} tokens). If you set the device to self-destruct and activate it, take token {I:token_blue_4:75:-2}.</text>
+							<text>&#x2022; If you have {s:card_b_action_bold}Item {in:Soul Medallion}{s:} you may choose to activate the device by spending one {I:soul:75:-2} token. When activated, the party is immediately transported to location {s:card_b_action_bold}{ls:Market}{s:}. A time captain roll is still required.{n}{n}&#x2022; Additionally, you may also jury-rig the device to self destruct when activated. To do so either:{n}&#x00A0;&#x2022; Spend {s:card_b_action_bold}Item {in:Bottle of Alcohol}{s:} or{n}&#x00A0;&#x2022; Empty the powder from 3 bullets (3 {I:bullet:75:-2}).{n}If you jury-rig the device to self-destruct, take token {I:token_blue_4:75:-2} when you activate it.</text>
 							<style>card_b_action</style>
-							<rectangle>[86,835,773,-1]</rectangle>
+							<rectangle>[86,710,773,-1]</rectangle>
 							<order>0</order>
 						</text>
 					</bottom>
@@ -4552,7 +4327,7 @@
 						<text>
 							<text>&#x2022; {I:lock:75:-2} He comes at you, brandishing a scythe:{n}&#x00a0;&#x00a0; {I:skill_combat:75:-2} 4x{I:shield_red_skull:75:-2} 4x{I:shield:75:-2}{n}On success, you may leave this card.</text>
 							<style>card_b_action</style>
-							<rectangle>[86,1140,773,-1]</rectangle>
+							<rectangle>[86,1160,773,-1]</rectangle>
 							<order>0</order>
 						</text>
 					</bottom>
@@ -5288,7 +5063,7 @@
 					<text>
 						<text>This weapon can be wielded by characters with at least two {I:skill_combat:75:-2} and adds one {I:hit:75:-2} to combat challenges when at least one other {I:hit:75:-2} is rolled.</text>
 						<style>card_b_action</style>
-						<rectangle>[86,1070,773,-1]</rectangle>
+						<rectangle>[86,1040,773,-1]</rectangle>
 						<order>0</order>
 					</text>
 				</bottom>
@@ -6473,6 +6248,24 @@
 					</text>
 				</bottom>
 			</card>
+			<card name="housemaid_talk">
+				<top>
+				</top>
+				<bottom>
+				<image>
+					<image>housemaid</image>
+					<rectangle>[250,85,445,-2]</rectangle>
+					<order>10</order>
+				</image>
+					<text>
+						<text>The housemaid says, {s:card_b_default_italic}"I believe you can help, but we can't talk here.  Meet me at the Tavern."{s:}  Take token {I:token_yellow_1:75:-2} </text>
+						<style>card_b_default</style>
+						<rectangle>[86,730,773,-1]</rectangle>
+						<order>0</order>
+					</text>
+				</bottom>
+			</card>
+
 		</items>
 
 		<characters>
