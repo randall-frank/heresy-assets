@@ -1396,6 +1396,16 @@
 			<borderthickness>2</borderthickness>
 			<justification>full</justification>
 		</style>
+		<style name="border_item_number">
+			<typeface>Carlito:bold</typeface>
+			<linestyle>solid</linestyle>
+			<fillcolor>[169, 167, 161, 0]</fillcolor>
+			<bordercolor>[128, 128, 128, 0]</bordercolor>
+			<textcolor>[0, 0, 0, 255]</textcolor>
+			<typesize>6</typesize>
+			<borderthickness>2</borderthickness>
+			<justification>full</justification>
+		</style>
 	</assets>
 
 	<cards>
@@ -1468,6 +1478,13 @@
 					<rotation>0</rotation>
 					<order>-100</order>
 				</image>
+				<text name="item number">
+					<text>Item {cn}</text>
+					<style>border_item_number</style>
+					<rectangle>[86,1470,-1,-1]</rectangle>
+					<rotation>0</rotation>
+					<order>-90</order>
+				</text>
 			</bottom>
 		</defaultitemcard>
 
@@ -4980,13 +4997,13 @@
 				</text>
 					<image>
 						<image>catalina_picture</image>
-						<rectangle>[110,140,725,-2]</rectangle>
+						<rectangle>[110,120,725,-2]</rectangle>
 						<order>10</order>
 					</image>
 					<text>
 						<text>A charcoal drawing of a young woman, Catalina.  Diego would appreciate knowing what happened to her.  You take notice of the simple locket she is wearing in the picture.  Perhaps you should ask townsfolk if they have any additional information.</text>
 						<style>card_b_default</style>
-						<rectangle>[86,1160,773,-1]</rectangle>
+						<rectangle>[86,1140,773,-1]</rectangle>
 						<order>0</order>
 					</text>
 				</bottom>
@@ -5072,27 +5089,27 @@
 				<top>
 				</top>
 				<bottom>
-				<text>
-					<text>{cs:}</text>
-					<style>normal_black_center</style>
-					<rectangle>[100,50,745,-1]</rectangle>
-					<order>0</order>
-				</text>
+					<text>
+						<text>{cs:}</text>
+						<style>normal_black_center</style>
+						<rectangle>[100,50,745,-1]</rectangle>
+						<order>0</order>
+					</text>
 					<image>
 						<image>soul_medallion</image>
-						<rectangle>[350,100,245,-2]</rectangle>
+						<rectangle>[350,110,245,-2]</rectangle>
 						<order>10</order>
 					</image>
 					<text>
-  					<text>A Soul Medallion - A pendant with an orb in its center on a light chain.  You do not recognize the metal, but the orb emits a warm glow.</text>
+  					<text>A pendant with an orb in its center on a light chain.  You do not recognize the metal, but the orb emits a warm glow.</text>
 						<style>card_b_default</style>
-						<rectangle>[86,650,773,-1]</rectangle>
+						<rectangle>[86,660,773,-1]</rectangle>
 						<order>0</order>
 					</text>
 					<text>
-						<text>The medallion is powered by sacrificed souls {I:soul:75:-2}. It allows the holder to spend one soul token to re-roll one die. Soul tokens are discarded when used. The medallion may be recharged through a "sacrifice" by the party. If all party members are on the same card and not engaged in a challenge, the group may discard one {I:heart:75:-2} token per party member to add a one soul token to the medallion.</text>
+						<text>The soul medallion is powered by sacrificed souls {I:soul:75:-2}. It allows the holder to spend one soul token to re-roll one die. Soul tokens are discarded when used. The medallion may be recharged through a "sacrifice" by the party. If all party members are on the same card and not engaged in a challenge, the group may discard one {I:heart:75:-2} token per party member to add a one soul token to the medallion.</text>
 						<style>card_b_action</style>
-						<rectangle>[86,890,773,-1]</rectangle>
+						<rectangle>[86,860,773,-1]</rectangle>
 						<order>0</order>
 					</text>
 				</bottom>
@@ -5132,13 +5149,13 @@
 					</text>
 					<image>
 						<image>dummies</image>
-						<rectangle>[150,150,645,-2]</rectangle>
+						<rectangle>[150,140,645,-2]</rectangle>
 						<order>10</order>
 					</image>
 					<text>
 						<text>He appears to have confused the bishop for someone else. You do not correct him. {s:card_b_default_italic}"Reverend, what are you doing here? We were supposed to meet at the chapel. I just got back from the laboratory with your book."{s:} ISBN number 978-0199535644. Stark white pages with odd yellow "highlights" over paragraphs and sticky yellow "markers" protruding from the edges of the book.</text>
 						<style>card_b_default</style>
-						<rectangle>[86,1000,773,-1]</rectangle>
+						<rectangle>[86,980,773,-1]</rectangle>
 						<order>0</order>
 					</text>
 				</bottom>
@@ -5202,13 +5219,13 @@
 				</text>
 					<image>
 						<image>astro_book</image>
-						<rectangle>[100,120,745,-2]</rectangle>
+						<rectangle>[125,120,695,-2]</rectangle>
 						<order>10</order>
 					</image>
 					<text>
-						<text>A rather exaggerated interest in astronomy by these folks. Why deface such a text with these crude drawings?</text>
+						<text>A rather exaggerated interest in astronomy by these folks. But why deface such a text with crude drawings?</text>
 						<style>card_b_default</style>
-						<rectangle>[86,1350,773,-1]</rectangle>
+						<rectangle>[86,1285,773,-1]</rectangle>
 						<order>0</order>
 					</text>
 				</bottom>
@@ -5320,19 +5337,19 @@
 				</text>
 					<image>
 						<image>pistol</image>
-						<rectangle>[100,60,745,-2]</rectangle>
+						<rectangle>[125,60,695,-2]</rectangle>
 						<order>10</order>
 					</image>
 					<text>
 						<text>A complex mechanism in the form of a metal tube with a wooden grip attached to one end of the tube. The metal has an unnatural bluish finish that does seem to be the product of witchcraft.</text>
 						<style>card_b_default</style>
-						<rectangle>[86,760,773,-1]</rectangle>
+						<rectangle>[86,715,773,-1]</rectangle>
 						<order>0</order>
 					</text>
 					<text>
 						<text>If you have {I:bullet:75:-2} tokens, they can be placed in the slots of this device. During a {I:skill_combat:75:-2} challenge, the device can be "triggered", consuming one of the tokens and allowing the user to roll an additional die in the challenge roll.{n}&#x2022; This item cannot be used by familiars.</text>
 						<style>card_b_action</style>
-						<rectangle>[86,1060,773,-1]</rectangle>
+						<rectangle>[86,1010,773,-1]</rectangle>
 						<order>0</order>
 					</text>
 				</bottom>
@@ -5361,7 +5378,7 @@
 					<text>
 						<text>The nail gun gives you one extra die to roll during a {I:skill_combat:75:-2} challenge.{n}&#x2022; This item cannot be used by familiars.</text>
 						<style>card_b_action</style>
-						<rectangle>[86,1120,773,-1]</rectangle>
+						<rectangle>[86,1130,773,-1]</rectangle>
 						<order>0</order>
 					</text>
 				</bottom>
@@ -5447,7 +5464,7 @@
 					<text>
 						<text>He makes it all sound so simple. Logical perhaps, but a bit too convenient. Can you trust this man, "Smith" was it? You can't seem to recall an agent Smith. What if he is lying to you? You can always choose to fight this man if need be, right now or by coming back to visit him again.  He is not leaving this location.</text>
 						<style>card_b_action</style>
-						<rectangle>[86,800,773,-1]</rectangle>
+						<rectangle>[86,770,773,-1]</rectangle>
 						<order>0</order>
 					</text>
 				</bottom>
@@ -5698,7 +5715,7 @@
 					<text>
 						<text>What is this?  It seems to have curious markings and little to do with filtering light?  The housemaid said it was important to the inquisitors...</text>
 						<style>card_b_default</style>
-						<rectangle>[86,1200,773,-1]</rectangle>
+						<rectangle>[86,1160,773,-1]</rectangle>
 						<order>0</order>
 					</text>
 				</bottom>
@@ -5721,7 +5738,7 @@
 					<text>
 						<text>A very odd piece to leave on a tombstone.  One would think they could find a better use for such a decorative piece.</text>
 						<style>card_b_default</style>
-						<rectangle>[86,1200,773,-1]</rectangle>
+						<rectangle>[86,1160,773,-1]</rectangle>
 						<order>0</order>
 					</text>
 				</bottom>
@@ -5745,7 +5762,7 @@
 					<text>
 						<text>Another piece of curiously marked glass with no obvious picture...  One wonders what it is intended for.  What is its purpose?</text>
 						<style>card_b_default</style>
-						<rectangle>[86,1200,773,-1]</rectangle>
+						<rectangle>[86,1160,773,-1]</rectangle>
 						<order>0</order>
 					</text>
 				</bottom>
@@ -5769,7 +5786,7 @@
 					<text>
 						<text>A very peculiar piece of art in this bench. It took some skill to obtain this from its protector. Why would there be a single, fully colored glass panel in this dark place of desperation?</text>
 						<style>card_b_default</style>
-						<rectangle>[86,1200,773,-1]</rectangle>
+						<rectangle>[86,1160,773,-1]</rectangle>
 						<order>0</order>
 					</text>
 				</bottom>
@@ -5792,63 +5809,63 @@
 					</text>
 					<image>
 						<image>skill_agile</image>
-						<rectangle>[50,430,130,-2]</rectangle>
+						<rectangle>[50,400,130,-2]</rectangle>
 						<order>10</order>
 					</image>
 					<text>
 						<text>2</text>
 						<style>small_white_box</style>
-						<rectangle>[50,430,25,-1]</rectangle>
+						<rectangle>[50,400,25,-1]</rectangle>
 						<order>11</order>
 					</text>
 					<image>
 						<image>skill_glib</image>
-						<rectangle>[200,430,130,-2]</rectangle>
+						<rectangle>[200,400,130,-2]</rectangle>
 						<order>10</order>
 					</image>
 					<text>
-						<text>3</text>
+						<text>4</text>
 						<style>small_white_box</style>
-						<rectangle>[200,430,25,-1]</rectangle>
+						<rectangle>[200,400,25,-1]</rectangle>
 						<order>11</order>
 					</text>
 					<image>
 						<image>skill_combat</image>
-						<rectangle>[350,430,130,-2]</rectangle>
+						<rectangle>[350,400,130,-2]</rectangle>
 						<order>10</order>
 					</image>
 					<text>
 						<text>1</text>
 						<style>small_white_box</style>
-						<rectangle>[350,430,25,-1]</rectangle>
+						<rectangle>[350,400,25,-1]</rectangle>
 						<order>11</order>
 					</text>
 					<image>
 						<image>shield_blue_skull</image>
-						<rectangle>[615,430,130,-2]</rectangle>
+						<rectangle>[615,400,130,-2]</rectangle>
 						<order>10</order>
 					</image>
 					<text>
 						<text>4</text>
 						<style>small_white_box</style>
-						<rectangle>[615,430,25,-1]</rectangle>
+						<rectangle>[615,400,25,-1]</rectangle>
 						<order>11</order>
 					</text>
 					<image>
 						<image>heart</image>
-						<rectangle>[765,430,130,-2]</rectangle>
+						<rectangle>[765,400,130,-2]</rectangle>
 						<order>10</order>
 					</image>
 					<text>
 						<text>4</text>
 						<style>small_white_box</style>
-						<rectangle>[765,430,25,-1]</rectangle>
+						<rectangle>[765,400,25,-1]</rectangle>
 						<order>11</order>
 					</text>
 					<text>
-						<text>As smoke rises from the ashes, her spirit is... moved. Her essence is transferred to her guardian familiar.  Discard the Do&#x00f1;a's character card and use this familiar card instead.{n}The black cat can communicate with other humans (in familiar form, she does not lose glibness). The cat retains any health packs the Lady had before conversion and can still use them.  The cat is also able to leave combat at any time. This card may only be held by the player who selected the Do&#x00f1;a character for this run.{n}The cat can not use Items. Items held by the Do&#x00f1;a pass to the player on your left.</text>
+						<text>As smoke rises from the ashes, her spirit is... moved. Her essence is transferred to her guardian familiar.  Discard the Do&#x00f1;a's character card and use this familiar card instead.{n}The cat can communicate with and influence humans. It retains any health packs the Lady had before conversion and can still use them.  The cat may leave combat (even locked) at any time. This card may only be held by the player who selected the Do&#x00f1;a character for this run.{n}The cat can not use Items. Items held by the Do&#x00f1;a pass to the player on your left.</text>
 						<style>normal_black_full</style>
-						<rectangle>[50,600,845,-1]</rectangle>
+						<rectangle>[50,570,845,-1]</rectangle>
 						<order>11</order>
 					</text>
 				</bottom>
@@ -5882,63 +5899,63 @@
 
 					<image>
 						<image>skill_agile</image>
-						<rectangle>[50,430,130,-2]</rectangle>
+						<rectangle>[50,400,130,-2]</rectangle>
 						<order>10</order>
 					</image>
 					<text>
 						<text>2</text>
 						<style>small_white_box</style>
-						<rectangle>[50,430,25,-1]</rectangle>
+						<rectangle>[50,400,25,-1]</rectangle>
 						<order>11</order>
 					</text>
 					<image>
 						<image>skill_glib</image>
-						<rectangle>[200,430,130,-2]</rectangle>
+						<rectangle>[200,400,130,-2]</rectangle>
 						<order>10</order>
 					</image>
 					<text>
 						<text>0</text>
 						<style>small_white_box</style>
-						<rectangle>[200,430,25,-1]</rectangle>
+						<rectangle>[200,400,25,-1]</rectangle>
 						<order>11</order>
 					</text>
 					<image>
 						<image>skill_combat</image>
-						<rectangle>[350,430,130,-2]</rectangle>
+						<rectangle>[350,400,130,-2]</rectangle>
 						<order>10</order>
 					</image>
 					<text>
 						<text>2(+2)</text>
 						<style>small_white_box</style>
-						<rectangle>[350,430,75,-1]</rectangle>
+						<rectangle>[350,400,75,-1]</rectangle>
 						<order>11</order>
 					</text>
 					<image>
 						<image>shield_blue_skull</image>
-						<rectangle>[615,430,130,-2]</rectangle>
+						<rectangle>[615,400,130,-2]</rectangle>
 						<order>10</order>
 					</image>
 					<text>
 						<text>4</text>
 						<style>small_white_box</style>
-						<rectangle>[615,430,25,-1]</rectangle>
+						<rectangle>[615,400,25,-1]</rectangle>
 						<order>11</order>
 					</text>
 					<image>
 						<image>heart</image>
-						<rectangle>[765,430,130,-2]</rectangle>
+						<rectangle>[765,400,130,-2]</rectangle>
 						<order>10</order>
 					</image>
 					<text>
 						<text>2</text>
 						<style>small_white_box</style>
-						<rectangle>[765,430,25,-1]</rectangle>
+						<rectangle>[765,400,25,-1]</rectangle>
 						<order>11</order>
 					</text>
 					<text>
 						<text>As smoke rises from the ashes, her spirit is... moved. Her essence is transferred to her guardian familiar.  Discard Isabel's character card and use this card instead.{n}The snake can make a poison attack that recharges in 5 {I:time:40:-2}.  When the poison attack token {I:bullet:40:-2} is used, it is placed on the timeline, 5 {I:time:40:-2} in the future.  When the time counter arrives at the token, remove it from the timeline and place it on this card. A poison attack adds two die to a combat attack. This card may only be held by the player who selected Isabel for this run.{n}The snake can not use Items. Items held by Isabel pass to the player on your left.</text>
 						<style>normal_black_full</style>
-						<rectangle>[50,600,845,-1]</rectangle>
+						<rectangle>[50,570,845,-1]</rectangle>
 						<order>11</order>
 					</text>
 				</bottom>
@@ -5960,63 +5977,63 @@
 					</text>
 					<image>
 						<image>skill_agile</image>
-						<rectangle>[50,430,130,-2]</rectangle>
+						<rectangle>[50,400,130,-2]</rectangle>
 						<order>10</order>
 					</image>
 					<text>
 						<text>3</text>
 						<style>small_white_box</style>
-						<rectangle>[50,430,25,-1]</rectangle>
+						<rectangle>[50,400,25,-1]</rectangle>
 						<order>11</order>
 					</text>
 					<image>
 						<image>skill_glib</image>
-						<rectangle>[200,430,130,-2]</rectangle>
+						<rectangle>[200,400,130,-2]</rectangle>
 						<order>10</order>
 					</image>
 					<text>
 						<text>0</text>
 						<style>small_white_box</style>
-						<rectangle>[200,430,25,-1]</rectangle>
+						<rectangle>[200,400,25,-1]</rectangle>
 						<order>11</order>
 					</text>
 					<image>
 						<image>skill_combat</image>
-						<rectangle>[350,430,130,-2]</rectangle>
+						<rectangle>[350,400,130,-2]</rectangle>
 						<order>10</order>
 					</image>
 					<text>
 						<text>1</text>
 						<style>small_white_box</style>
-						<rectangle>[350,430,25,-1]</rectangle>
+						<rectangle>[350,400,25,-1]</rectangle>
 						<order>11</order>
 					</text>
 					<image>
 						<image>shield_blue_skull</image>
-						<rectangle>[615,430,130,-2]</rectangle>
+						<rectangle>[615,400,130,-2]</rectangle>
 						<order>10</order>
 					</image>
 					<text>
 						<text>4</text>
 						<style>small_white_box</style>
-						<rectangle>[615,430,25,-1]</rectangle>
+						<rectangle>[615,400,25,-1]</rectangle>
 						<order>11</order>
 					</text>
 					<image>
 						<image>heart</image>
-						<rectangle>[765,430,130,-2]</rectangle>
+						<rectangle>[765,400,130,-2]</rectangle>
 						<order>10</order>
 					</image>
 					<text>
 						<text>2</text>
 						<style>small_white_box</style>
-						<rectangle>[765,430,25,-1]</rectangle>
+						<rectangle>[765,400,25,-1]</rectangle>
 						<order>11</order>
 					</text>
 					<text>
 						<text>As smoke rises from the ashes, her spirit is... moved. Her essence is transferred to her guardian familiar.  Discard the Sister's character card and use this card instead.{n}The crow is not locked into combat and may leave at any time. The crow may also fly between any two cards in the current location in the same turn. It may only participate in a single challenge roll per time-unit, but can move between and read two location cards in the same {I:time:40:-2}. This card may only be held by the player who selected the Sister for this run.{n}The crow can not use Items. Items held by the sister pass to the player on your left.</text>
 						<style>normal_black_full</style>
-						<rectangle>[50,600,845,-1]</rectangle>
+						<rectangle>[50,570,845,-1]</rectangle>
 						<order>11</order>
 					</text>
 				</bottom>
@@ -6193,7 +6210,7 @@
 						<order>0</order>
 					</text>
 					<text>
-						<text>&#x2022; The Sister Mar&#x00ed;a character takes the token {I:token_blue_1:100:-2}.</text>
+						<text>&#x2022; The Sister Mar&#x00ed;a takes the token {I:token_blue_1:100:-2}.</text>
 						<style>card_b_action</style>
 						<rectangle>[86,900,773,-1]</rectangle>
 						<order>0</order>
@@ -6217,7 +6234,7 @@
 						<order>0</order>
 					</text>
 					<text>
-						<text>&#x2022; The Isabel character takes the token {I:token_green_2:100:-2}.</text>
+						<text>&#x2022; Isabel takes the token {I:token_green_2:100:-2}.</text>
 						<style>card_b_action</style>
 						<rectangle>[86,635,773,-1]</rectangle>
 						<order>0</order>
@@ -6241,7 +6258,7 @@
 						<order>0</order>
 					</text>
 					<text>
-						<text>&#x2022; The Do&#x00f1;a Ortiz character takes the token {I:token_black_3:100:-2}.</text>
+						<text>&#x2022; The Do&#x00f1;a Ortiz takes the token {I:token_black_3:100:-2}.</text>
 						<style>card_b_action</style>
 						<rectangle>[86,800,773,-1]</rectangle>
 						<order>0</order>
@@ -6258,7 +6275,7 @@
 					<order>10</order>
 				</image>
 					<text>
-						<text>The housemaid says, {s:card_b_default_italic}"I believe you can help, but we can't talk here.  Meet me at the Tavern."{s:}  Take token {I:token_yellow_1:75:-2} </text>
+						<text>The housemaid says, {s:card_b_default_italic}"I believe you can help, but we can't talk here.  Meet me at the Tavern."{s:}  Take token {I:token_yellow_1:75:-2}.</text>
 						<style>card_b_default</style>
 						<rectangle>[86,730,773,-1]</rectangle>
 						<order>0</order>
