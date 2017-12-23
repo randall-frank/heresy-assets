@@ -2736,7 +2736,7 @@
 							<order>0</order>
 						</text>
 						<text>
-                            <text>&#x2022; If you try to take the scroll the bailiff will confront you: {s:card_b_default_italic}"Miscreant!"{s:}{n}&#x00a0;&#x00a0;&#x2022; {I:skill_combat:75:-2} 2x{I:shield_heart:75:-2} 1x{I:shield_red_skull:75:-2} {n}&#x00a0;&#x00a0; On success, take the scroll, {s:card_b_action_bold}Item {in:Star Chart D}{s:}, and what the bailiff was reaching for, {s:card_b_action_bold}Item {in:Tube with Handle}{s:}.</text>
+                            <text>&#x2022; If you try to take the scroll the bailiff will confront you: {s:card_b_default_italic}"Miscreant!"{s:}{n}&#x00a0;&#x00a0;&#x2022; {I:skill_combat:75:-2} 2x{I:shield_heart:75:-2} 2x{I:shield_red_skull:75:-2} 2x{I:shield:75:-2} {n}&#x00a0;&#x00a0; On success, take the scroll, {s:card_b_action_bold}Item {in:Star Chart D}{s:}, and what the bailiff was reaching for, {s:card_b_action_bold}Item {in:Tube with Handle}{s:}.</text>
 							<style>card_b_action</style>
 							<rectangle>[86,1200,773,-1]</rectangle>
 							<order>0</order>
