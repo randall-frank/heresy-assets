@@ -1,4 +1,5 @@
 <deck name="">
+	<decksize>[945, 1535]</decksize>
 	<assets>
 		<file filename="media/TS_ Missions_V_EN.jpg" name="TS_ Missions_V_EN"/>
 		<file filename="media/TS_ Missions_V_EN2.jpg" name="TS_ Missions_V_EN2"/>
