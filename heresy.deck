@@ -1413,17 +1413,17 @@
 
 		<defaultcard name="Card Base">
 			<top>
-				<image name="border">
-					<image>border_overlay</image>
-					<rectangle>[0,0,-1,-1]</rectangle>
-					<rotation>0</rotation>
-					<order>-9</order>
-				</image>
 				<image name="background">
 					<image>background_brown</image>
 					<rectangle>[0,0,-1,-1]</rectangle>
 					<rotation>0</rotation>
 					<order>-100</order>
+				</image>
+				<image name="border">
+					<image>border_overlay</image>
+					<rectangle>[0,0,-1,-1]</rectangle>
+					<rotation>0</rotation>
+					<order>-99</order>
 				</image>
 				<text name="card number">
 					<text>{cN}</text>
@@ -1445,24 +1445,24 @@
 
 		<defaultitemcard name="Item Card Base">
 			<top>
-				<image name="border">
-					<image>border_overlay</image>
-					<rectangle>[0,0,-1,-1]</rectangle>
-					<rotation>0</rotation>
-					<order>-9</order>
-				</image>
 				<image name="background">
 					<image>background_green</image>
 					<rectangle>[0,0,-1,-1]</rectangle>
 					<rotation>0</rotation>
 					<order>-100</order>
 				</image>
+				<image name="border">
+					<image>border_overlay</image>
+					<rectangle>[0,0,-1,-1]</rectangle>
+					<rotation>0</rotation>
+					<order>-9</order>
+				</image>
 				<text name="item number">
 					<text>Item{n}{cn}</text>
 					<style>item_number</style>
 					<rectangle>[50,600,845,-1]</rectangle>
 					<rotation>0</rotation>
-					<order>0</order>
+					<order>1</order>
 				</text>
 				<text name="card number">
 					<text>{cN}</text>
@@ -1484,24 +1484,24 @@
 					<style>border_item_number</style>
 					<rectangle>[86,1470,-1,-1]</rectangle>
 					<rotation>0</rotation>
-					<order>-90</order>
+					<order>100</order>
 				</text>
 			</bottom>
 		</defaultitemcard>
 
 		<defaultlocationcard name="Location Card Base">
 			<top>
-				<image name="border">
-					<image>border_overlay</image>
-					<rectangle>[0,0,-1,-1]</rectangle>
-					<rotation>0</rotation>
-					<order>-9</order>
-				</image>
 				<image name="background">
 					<image>background_brown</image>
 					<rectangle>[0,0,-1,-1]</rectangle>
 					<rotation>0</rotation>
 					<order>-100</order>
+				</image>
+				<image name="border">
+					<image>border_overlay</image>
+					<rectangle>[0,0,-1,-1]</rectangle>
+					<rotation>0</rotation>
+					<order>-9</order>
 				</image>
 				<text name="card number">
 					<text>{cN}</text>
@@ -4523,6 +4523,12 @@
 						<rotation>0</rotation>
 						<order>-10</order>
 					</image>
+					<image name="border">
+						<image>border_overlay</image>
+						<rectangle>[0,0,-1,-1]</rectangle>
+						<rotation>0</rotation>
+						<order>-9</order>
+					</image>
 					<text name="item number">
 						<text>Plan{n}{ca}</text>
 						<style>item_number</style>
@@ -4568,6 +4574,12 @@
 						<rotation>0</rotation>
 						<order>-10</order>
 					</image>
+					<image name="border">
+						<image>border_overlay</image>
+						<rectangle>[0,0,-1,-1]</rectangle>
+						<rotation>0</rotation>
+						<order>-9</order>
+					</image>
 					<text name="item number">
 						<text>Plan{n}{ca}</text>
 						<style>item_number</style>
@@ -4606,6 +4618,12 @@
 						<rotation>0</rotation>
 						<order>-10</order>
 					</image>
+					<image name="border">
+						<image>border_overlay</image>
+						<rectangle>[0,0,-1,-1]</rectangle>
+						<rotation>0</rotation>
+						<order>-9</order>
+					</image>
 					<text name="item number">
 						<text>Plan{n}{ca}</text>
 						<style>item_number</style>
@@ -4643,6 +4661,12 @@
 						<rectangle>[0,0,-1,-1]</rectangle>
 						<rotation>0</rotation>
 						<order>-10</order>
+					</image>
+					<image name="border">
+						<image>border_overlay</image>
+						<rectangle>[0,0,-1,-1]</rectangle>
+						<rotation>0</rotation>
+						<order>-9</order>
 					</image>
 					<text name="item number">
 						<text>Plan{n}{ca}</text>
@@ -4967,12 +4991,12 @@
 				<top>
 				</top>
 				<bottom>
-				<text>
-					<text>{cs:}</text>
-					<style>normal_black_center</style>
-					<rectangle>[100,50,745,-1]</rectangle>
-					<order>0</order>
-				</text>
+					<text>
+						<text>{cs:}</text>
+						<style>normal_black_center</style>
+						<rectangle>[100,50,745,-1]</rectangle>
+						<order>0</order>
+					</text>
 					<image>
 						<image>shovel</image>
 						<rectangle>[100,150,745,-2]</rectangle>
