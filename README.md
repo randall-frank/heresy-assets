@@ -1,9 +1,12 @@
 [![CC-0 license](https://img.shields.io/badge/License-CC--0-blue.svg)](https://creativecommons.org/licenses/by-nd/4.0)
 
 [Heresy]: http://heresy.mrtrashcan.com
+[Workshop]: https://steamcommunity.com/sharedfiles/filedetails/?id=1240227894&searchtext=heresy
 
 # Heresy: 1499 NT Card Deck
 Copyright (C) 2017-2022 Marina Galvagni and Randy Frank
+
+![image](heresy_box.png)
 
 Heresy is a fan expansion of the T.I.M.E Stories board game. In T.I.M.E 
 Stories, you and your friends work together to solve mysteries, 
@@ -15,6 +18,10 @@ sent to 1499 Spain. Bob needs you to track down and neutralize
 a rogue T.I.M.E agent, who is using the Inquisition as to cover 
 up his plans. Will you and your friend be able to find the traitor 
 and stop him before it is too late?
+
+If you just want the generated cards, please see [Heresy].  You can
+also play the scenario in Tabletop Simulator as the expansion is
+available in the Tabletop Simulator Steam [Workshop].
 
 ## What is in this repository?
 The primary file is heresy.deck.  It contains the layout and
@@ -34,8 +41,12 @@ They are capable of producing PDF, Tabletop Simulator and various forms
 of PNG files from the heresy.deck XML definition file.  The format of
 the file is described in the tools repository.
 
+Note: building the cards rely on the Carlito font being installed on the 
+system where build_deck is run.  Please install the typeface before trying
+to build the cards.
+
 ## License
-The story itself and much of the artwork was produced my Marina Galvagni or Randy Frank.
+The story itself and much of the artwork was produced by Marina Galvagni and Randy Frank.
 Some game element artwork (the media directory) comes from the T.I.M.E Stories SDK produced
 by Space Cowboys.  Other artwork comes from free sources including (but not limited to):
 
@@ -43,7 +54,7 @@ by Space Cowboys.  Other artwork comes from free sources including (but not limi
 - Carlito typeface: tyPoland, tukasz Dziedzic
 - Textures: www.myfreetextures.com
 
-We are releasing this content under a CC license.  You may use the content in your
+We are releasing this content under a Creative Commons license.  You may use the content in your
 own not for profit work, provided you acknowledge where the content came from
 and release your work under similar license.
 
