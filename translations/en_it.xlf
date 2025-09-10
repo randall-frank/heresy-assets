@@ -243,7 +243,7 @@
    </trans-unit>
    <trans-unit id="61">
     <source>• {I:lock:75:-2} Two ways to resolve this situation:{n} • Placate them: 2x{I:time:75:-2}{n}And leave in peace, or{n} • Confront them: {I:skill_combat:75:-2} 1x{I:shield_heart:75:-2} 2x{I:shield_red_skull:75:-2} 1x{I:shield:75:-2}{n}On success take {s:card_b_action_bold}Item {in:Star Chart C}{s:}.</source>
-    <target>• {I:lock:75:-2} Due modi per risolvere questa situazione:{n} • Placcarli: 2x{I:time:75:-2}{n}E vattene in pace, o{n} • Affrontarli: {I:skill_combat:75:-2} 1x{I:shield_heart:75:-2} 2x{I:shield_red_skull:75:-2} 1x{I:shield:75:-2}{n}In caso di successo {s:card_b_action_bold}Voce {in:Star Chart C}{s:}.</target>
+    <target>• {I:lock:75:-2} Due modi per risolvere questa situazione:{n} • Placarli: 2x{I:time:75:-2}{n}E vattene in pace, o{n} • Affrontarli: {I:skill_combat:75:-2} 1x{I:shield_heart:75:-2} 2x{I:shield_red_skull:75:-2} 1x{I:shield:75:-2}{n}In caso di successo {s:card_b_action_bold}Voce {in:Star Chart C}{s:}.</target>
    </trans-unit>
    <trans-unit id="62">
     <source>A slightly intoxicated man sits at a table alone with a large pouch. When you come close, he looks at you with a puzzled look on his face while grasping on his bottle.</source>
