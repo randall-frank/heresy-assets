@@ -1853,7 +1853,7 @@
 						<order>10</order>
 					</image>
 					<text>
-						<text>Bob is there as as you climb out of the caissons. He is not smiling.  {s:card_b_default_italic}"I expect the best from my agents and you are making me reconsider my recommendations"{s:}, he laments.  {s:card_b_default_italic}"We still have a chance to stop Keith, but the window is narrowing. Get back in there and track him down, quickly!"{s:} You respond by turning around and getttomg back into the caissons. The all too familiar countdown begins...</text>
+						<text>Bob is there as you climb out of the caissons. He is not smiling.  {s:card_b_default_italic}"I expect the best from my agents and you are making me reconsider my recommendations"{s:}, he laments.  {s:card_b_default_italic}"We still have a chance to stop Keith, but the window is narrowing. Get back in there and track him down, quickly!"{s:} You respond by turning around and getttomg back into the caissons. The all too familiar countdown begins...</text>
 						<style>card_b_default</style>
 						<rectangle>[86,410,773,-1]</rectangle>
 						<order>0</order>
@@ -2872,7 +2872,7 @@
 							<order>10</order>
 						</image>
 						<text>
-                            <text>The judge turns slowly to Isabel and utters the bone chilling words: {s:card_b_default_italic}"Witch, how dare you defile my courtroom with your presence! You've tricked and beguiled your way out of many such situations in the past, but not this one. I will spare these God-fearing folks from your temptations. I find you guilty and sentance you to a session with the interrogators."{s:}</text>
+                            <text>The judge turns slowly to Isabel and utters the bone chilling words: {s:card_b_default_italic}"Witch, how dare you defile my courtroom with your presence! You've tricked and beguiled your way out of many such situations in the past, but not this one. I will spare these God-fearing folks from your temptations. I find you guilty and sentence you to a session with the interrogators."{s:}</text>
 							<style>card_b_default</style>
 							<rectangle>[86,570,773,-1]</rectangle>
 							<order>0</order>
@@ -3316,7 +3316,7 @@
 							<order>0</order>
 						</text>
 						<text>
-							<text>&#x2022; The Sister Mar&#x00ed;a character card is removed. Her essence transfers to her familiar, take {s:card_b_action_bold}Item {in:the_crow}{s:} and contine the mission using the new character. Take one soul token {I:soul:75:-2}.</text>
+							<text>&#x2022; The Sister Mar&#x00ed;a character card is removed. Her essence transfers to her familiar, take {s:card_b_action_bold}Item {in:the_crow}{s:} and continue the mission using the new character. Take one soul token {I:soul:75:-2}.</text>
 							<style>card_b_action</style>
 							<rectangle>[86,1080,773,-1]</rectangle>
 							<order>0</order>
@@ -3353,7 +3353,7 @@
 							<order>0</order>
 						</text>
 						<text>
-							<text>&#x2022; The Do&#x00f1;a Ortiz character card is removed. Her essence transfers to her familiar, take {s:card_b_action_bold}Item {in:the_cat}{s:} and contine the mission using the new character. Take one soul token {I:soul:75:-2}.</text>
+							<text>&#x2022; The Do&#x00f1;a Ortiz character card is removed. Her essence transfers to her familiar, take {s:card_b_action_bold}Item {in:the_cat}{s:} and continue the mission using the new character. Take one soul token {I:soul:75:-2}.</text>
 							<style>card_b_action</style>
 							<rectangle>[86,970,773,-1]</rectangle>
 							<order>0</order>
@@ -3384,13 +3384,13 @@
 					</top>
 					<bottom>
 						<text>
-							<text>You stare at the scene in disblief. Isabel is tied to a stake as a snake looks onward from a safe distance. A pair of acolytes stand, burning torches in hand. Around their necks are odd, glowing orbs. One of the acolytes tosses a small metallic sphere into the base of the kindling as the other dispassionately lights the fire. You find it impossible to look away as the flames climb higher and Isabel... remains still? Her eyes roll back into her head and the snake passes into the deeper grass. You notice a flash of blue light coming from within the fire just before she passes into inactivity. Your gaze passes to your feet as you try to make sense of the scene.</text>
+							<text>You stare at the scene in disbelief. Isabel is tied to a stake as a snake looks onward from a safe distance. A pair of acolytes stand, burning torches in hand. Around their necks are odd, glowing orbs. One of the acolytes tosses a small metallic sphere into the base of the kindling as the other dispassionately lights the fire. You find it impossible to look away as the flames climb higher and Isabel... remains still? Her eyes roll back into her head and the snake passes into the deeper grass. You notice a flash of blue light coming from within the fire just before she passes into inactivity. Your gaze passes to your feet as you try to make sense of the scene.</text>
 							<style>card_b_default</style>
 							<rectangle>[86,60,773,-1]</rectangle>
 							<order>0</order>
 						</text>
 						<text>
-							<text>&#x2022; The Isabel character card is removed. Her essence transfers to her familiar, take {s:card_b_action_bold}Item {in:the_snake}{s:} and contine the mission using the new character. What is this? Take one soul token {I:soul:75:-2}.</text>
+							<text>&#x2022; The Isabel character card is removed. Her essence transfers to her familiar, take {s:card_b_action_bold}Item {in:the_snake}{s:} and continue the mission using the new character. What is this? Take one soul token {I:soul:75:-2}.</text>
 							<style>card_b_action</style>
 							<rectangle>[86,900,773,-1]</rectangle>
 							<order>0</order>
@@ -3868,7 +3868,7 @@
 							<order>10</order>
 						</image>
 						<text>
-							<text>The path narrows to a single-file rut between two rough-hewn walls. Tight quarters, but passible.</text>
+							<text>The path narrows to a single-file rut between two rough-hewn walls. Tight quarters, but passable.</text>
 							<style>card_b_default</style>
 							<rectangle>[86,1000,773,-1]</rectangle>
 							<order>0</order>
@@ -5565,7 +5565,7 @@
 						<order>10</order>
 					</image>
 					<text>
-						<text>A human arm, ripped from a body still warm.  A sorrowful reminder of a soul recently rendered free of this existance.</text>
+						<text>A human arm, ripped from a body still warm.  A sorrowful reminder of a soul recently rendered free of this existence.</text>
 						<style>card_b_default</style>
 						<rectangle>[86,1200,773,-1]</rectangle>
 						<order>0</order>
